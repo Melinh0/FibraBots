@@ -1,0 +1,112 @@
+{
+    "qid": null,
+    "iid": 64539019,
+    "indicator": "188.81.219.105",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-27 08:23:03",
+    "stamp_updated": "2024-12-14 11:28:18",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64539429,
+                "indicator": "http:\/\/188.81.219.105\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-27 08:23:03"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-01 20:27:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "OpenResty"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Portugal",
+            "countrycode": "PT",
+            "asn": "AS3243",
+            "org": "Servicos De Comunicacoes E Multimedia S.A.",
+            "region": "Viana do Castelo",
+            "lat": "41.6929",
+            "city": "Viana do Castelo",
+            "long": "-8.8391"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "server": "openresty",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "W\/\"65c28b3d-409\"",
+            "last-modified": "Tue, 06 Feb 2024 19:40:45 GMT",
+            "++target": "http:\/\/188.81.219.105\/",
+            "date": "Sun, 27 Oct 2024 08:25:19 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "++title": "Default Site",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u1\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e296db53c6e0e465d83e88d406865960.jpeg"
+        }
+    }
+}

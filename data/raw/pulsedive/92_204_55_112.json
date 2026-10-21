@@ -1,0 +1,104 @@
+{
+    "qid": null,
+    "iid": 26064633,
+    "indicator": "92.204.55.112",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-06-23 11:57:18",
+    "stamp_updated": "2024-12-04 10:20:29",
+    "stamp_seen": "2024-08-18 22:00:47",
+    "stamp_probed": "2024-08-18 22:00:47",
+    "stamp_retired": "2024-11-21 01:58:16",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-09 20:37:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "isp": "Host Europe GmbH",
+            "org": "Host Europe GmbH",
+            "asn": "AS8972",
+            "city": "Strasbourg",
+            "region": "Bas-Rhin",
+            "lat": "48.5855",
+            "long": "7.7418"
+        },
+        "http": {
+            "server": "nginx",
+            "content-type": "text\/html; charset=iso-8859-1",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked",
+            "++code": "404",
+            "++status": "Not Found",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Sun, 18 Aug 2024 21:59:22 GMT"
+        },
+        "banners": {
+            "21": "220 FTP Server ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/907768c48ff04786838071d3536e3b49.jpeg"
+        },
+        "dns": {
+            "ptr": "sh10386.ispgateway.de"
+        }
+    }
+}

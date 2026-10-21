@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 58153310,
+    "indicator": "191.241.33.18",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-10 04:10:12",
+    "stamp_updated": "2024-12-10 10:37:57",
+    "stamp_seen": "2024-11-20 03:58:24",
+    "stamp_probed": "2024-09-30 07:29:13",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 58154211,
+                "indicator": "http:\/\/191.241.33.18\/"
+            },
+            {
+                "iid": 64122268,
+                "indicator": "https:\/\/191.241.33.18\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-30 06:00:08"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-10 04:10:12"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-30 06:00:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-15 00:25:35"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "city": "Fortaleza",
+            "asn": "AS263665",
+            "org": "TECNET PROVEDOR DE ACESSO AS REDES DE COM. LTDA",
+            "lat": "-3.7138",
+            "long": "-38.5285",
+            "region": "Cear\ufffd"
+        },
+        "whois": {
+            "++registered": "2013-11-18 00:00:00",
+            "abuse-c": "TICTE2",
+            "created": [
+                "20131105",
+                "20131118",
+                "19990119",
+                "20080927"
+            ],
+            "nic-hdl-br": [
+                "TICTE2",
+                "DFF8",
+                "ARCTE"
+            ],
+            "nserver": [
+                "ns2.cabotelecom.com.br",
+                "ns1.cabotelecom.com.br"
+            ],
+            "owner-c": "DFF8",
+            "person": [
+                "Tratamento de Incidentes - Cabo Telecom",
+                "Adm. de Redes - Cabo Telecom",
+                "D\ufffdcio Frederico B. Feij\ufffd"
+            ],
+            "tech-c": "ARCTE",
+            "aut-num": "AS263665",
+            "ownerid": "07.054.341\/0001-99",
+            "owner": "TECNET PROVEDOR DE ACESSO AS REDES DE COM. LTDA",
+            "inetnum": "191.241.32.0\/21",
+            "inetrev": "191.241.32.0\/22",
+            "++abuse": "TICTE2",
+            "++registrant": [
+                "Adm. de Redes - Cabo Telecom",
+                "Tratamento de Incidentes - Cabo Telecom",
+                "D\ufffdcio Frederico B. Feij\ufffd"
+            ],
+            "changed": [
+                "20211022",
+                "20220419",
+                "20230726",
+                "20230808"
+            ],
+            "responsible": "Decio Frederico Bueno Feijo",
+            "nslastaa": "20240823",
+            "nsstat": "20240823 AA"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "cache-control": "private",
+            "keep-alive": "timeout=60",
+            "content-length": "102",
+            "server": "OtherWebServer",
+            "++code": "200",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 09 May 2024 14:33:28 GMT",
+            "etag": "W\/\"102-1715265208765\"",
+            "++target": "http:\/\/191.241.33.18\/",
+            "++redirect": "https:\/\/191.241.33.18\/",
+            "date": "Sat, 12 Oct 2024 14:39:51 GMT"
+        },
+        "ssl": {
+            "domain": [
+                "localhost",
+                "SRVAD01.idial.intranet"
+            ],
+            "version": "v3",
+            "org": "ESET PROTECT Webconsole Certificate",
+            "subject": "\/CN=ESET PROTECT Webconsole Certificate",
+            "issuer": "\/CN=ESET PROTECT Webconsole Certificate",
+            "expires": "2034-05-07 14:33:07",
+            "ip": [
+                "fe80::51b2:f80:f461:f074",
+                "192.168.0.7"
+            ],
+            "fingerprint": "491051f72210cce1f4226febbc06e721ac93d7e1cb90b2efc696f599a9302531",
+            "valid": "2024-05-09 14:33:07"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220 FTP Server ready.\n"
+        },
+        "dns": {
+            "ptr": "191-241-33-18.as28220.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "meta": {
+            "refresh": "0;URL=\/era\/webconsole"
+        }
+    }
+}

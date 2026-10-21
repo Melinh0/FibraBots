@@ -1,0 +1,208 @@
+{
+    "qid": null,
+    "iid": 56784552,
+    "indicator": "162.0.213.193",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-03 18:25:01",
+    "stamp_updated": "2024-12-09 10:32:32",
+    "stamp_seen": "2024-10-07 18:22:35",
+    "stamp_probed": "2024-08-21 21:40:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 56785103,
+                "indicator": "http:\/\/162.0.213.193\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-03 18:25:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "updated": [
+                "2017-01-28",
+                "2024-08-14"
+            ],
+            "nettype": "Direct Allocation",
+            "++registered": [
+                "2011-01-28 00:00:00",
+                "2020-09-03 00:00:00"
+            ],
+            "stateprov": "CA",
+            "city": "Los Angeles",
+            "parent": "NET162 (NET-162-0-0-0-0)",
+            "++updated": [
+                "2017-01-28 00:00:00",
+                "2024-08-14 00:00:00"
+            ],
+            "regdate": [
+                "2011-01-28",
+                "2020-09-03"
+            ],
+            "address": "11400 W. Olympic Blvd. Suite 200",
+            "netname": "NAMEC-4",
+            "orgabuseemail": "abuse@namecheaphosting.com",
+            "orgabusehandle": "ABUSE2885-ARIN",
+            "orgabusephone": "+1-323-375-2822",
+            "organization": "Namecheap, Inc. (NAMEC-4)",
+            "orgid": "NAMEC-4",
+            "orgname": "Namecheap, Inc.",
+            "orgtechemail": [
+                "tech@namecheaphosting.com",
+                "igor.e@namecheap.com"
+            ],
+            "orgtechhandle": [
+                "TECHT4-ARIN",
+                "EFIME-ARIN"
+            ],
+            "orgtechphone": [
+                "+1-661-310-2107",
+                "+1-323-375-2822"
+            ],
+            "postalcode": "90064",
+            "referralserver": "rwhois:\/\/whois.namecheaphosting.com:4321",
+            "++registrant": "Namecheap, Inc.",
+            "++abuse": "abuse@namecheaphosting.com",
+            "++phone": [
+                "+1-323-375-2822",
+                "+1-661-310-2107"
+            ],
+            "++email": [
+                "igor.e@namecheap.com",
+                "tech@namecheaphosting.com"
+            ],
+            "orgtechname": [
+                "Efimenko, Igor",
+                "Tech team"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/TECHT4-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/EFIME-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/NAMEC-4",
+                "https:\/\/rdap.arin.net\/registry\/ip\/162.0.208.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE2885-ARIN",
+            "orgabusename": "Abuse team",
+            "nethandle": "NET-162-0-208-0-1",
+            "cidr": "162.0.208.0\/20",
+            "netrange": "162.0.208.0 - 162.0.223.255"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "CA",
+            "city": "Los Angeles",
+            "asn": "AS22612",
+            "zip": "90064",
+            "lat": "37.751",
+            "long": "-97.822",
+            "address": "11400 W. Olympic Blvd. Suite 200",
+            "org": [
+                "Namecheap, Inc. (NAMEC-4)",
+                "NAMECHEAP-NET"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "accept-ranges": "bytes",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "163",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 16 Jul 2024 20:48:50 GMT",
+            "date": "Tue, 01 Oct 2024 19:57:13 GMT",
+            "expires": "0",
+            "++target": "http:\/\/162.0.213.193\/"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "refresh": "0;URL=\/cgi-sys\/defaultwebpage.cgi"
+        },
+        "dns": {
+            "ptr": "austin-mary.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "143": "\u0005\u0004\u0000\u0000",
+            "21": "\u0005\u0004\u0000\u0000",
+            "22": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

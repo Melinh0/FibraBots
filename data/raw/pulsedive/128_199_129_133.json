@@ -1,0 +1,209 @@
+{
+    "qid": null,
+    "iid": 65446892,
+    "indicator": "128.199.129.133",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 09:57:20",
+    "stamp_updated": "2024-12-10 10:34:59",
+    "stamp_seen": "2024-11-29 09:57:41",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65446929,
+                "indicator": "https:\/\/128.199.129.133\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 09:57:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CentOS",
+            "OpenSSL"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "LEGACY",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "digitalocean"
+            ],
+            "country": "US",
+            "abuse-c": "AD10778-RIPE",
+            "inetnum": "128.199.0.0 - 128.199.255.255",
+            "mnt-by": [
+                "digitalocean",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "mnt-domains": "digitalocean",
+            "mnt-routes": "digitalocean",
+            "org": "ORG-DOI2-RIPE",
+            "organisation": "ORG-DOI2-RIPE",
+            "descr": "DigitalOcean, LLC",
+            "++phone": "+13478756044",
+            "admin-c": "PT7353-RIPE",
+            "created": [
+                "2015-03-11T16:37:07Z",
+                "2004-07-20T10:29:14Z",
+                "2012-11-29T14:59:01Z"
+            ],
+            "nic-hdl": "PT7353-RIPE",
+            "phone": [
+                "+13478756044",
+                "+1 888 890 6714"
+            ],
+            "tech-c": "PT7353-RIPE",
+            "language": "EN",
+            "address": [
+                "United States of America",
+                "New York",
+                "10013",
+                "New York, NY, 10013",
+                "101 Avenue of the Americas, 10th Floor",
+                "UNITED STATES",
+                "101 Ave of the Americas, FL2"
+            ],
+            "org-name": "DigitalOcean, LLC",
+            "++registrant": [
+                "PT7353-RIPE",
+                "DigitalOcean Network Operations"
+            ],
+            "netname": "DigitalOcean",
+            "last-modified": [
+                "2020-03-31T14:17:22Z",
+                "2020-12-16T13:24:44Z",
+                "2022-08-23T13:31:16Z"
+            ],
+            "person": "DigitalOcean Network Operations",
+            "++registered": [
+                "2015-03-11 16:37:07",
+                "2012-11-29 14:59:01"
+            ],
+            "++updated": [
+                "2022-08-23 13:31:16",
+                "2020-12-16 13:24:44"
+            ]
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore"
+            ],
+            "countrycode": [
+                "US",
+                "SG"
+            ],
+            "asn": "AS14061",
+            "city": "Singapore",
+            "address": [
+                "New York",
+                "101 Avenue of the Americas, 10th Floor",
+                "10013",
+                "UNITED STATES",
+                "New York, NY, 10013",
+                "United States of America",
+                "101 Ave of the Americas, FL2"
+            ],
+            "org": [
+                "ORG-DOI2-RIPE",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "content-length": "199691",
+            "server": "Apache\/2.4.37 (centos) OpenSSL\/1.1.1k",
+            "etag": "\"30c0b-5c5c7fdeec240\"",
+            "last-modified": "Sun, 27 Jun 2021 23:47:13 GMT",
+            "date": "Fri, 29 Nov 2024 09:57:27 GMT",
+            "++target": "http:\/\/128.199.129.133\/",
+            "++redirect": "https:\/\/128.199.129.133\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "charset": "utf-8",
+            "generator": "HTML Tidy for HTML5 for Linux version 5.7.28",
+            "++title": "HTTP Server Test Page powered by CentOS"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "Unspecified",
+            "domain": "balimed-develop",
+            "org": "balimed-develop",
+            "subject": "\/C=US\/O=Unspecified\/CN=balimed-develop\/E=root@balimed-develop",
+            "expires": "2023-09-26 18:24:37",
+            "issuer": "\/C=US\/O=Unspecified\/OU=ca-4561745618553009801\/CN=balimed-develop\/E=root@balimed-develop",
+            "valid": "2022-09-21 16:44:37",
+            "fingerprint": "227e134590c4d745d0de1a3ea62d9260a69d64f965be37e4bba01aaf80d31052"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/da4011e3d53642cc0d22c3347fec8f07.jpeg"
+        }
+    }
+}

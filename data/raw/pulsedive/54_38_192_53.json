@@ -1,0 +1,152 @@
+{
+    "qid": null,
+    "iid": 64664113,
+    "indicator": "54.38.192.53",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-02 08:44:54",
+    "stamp_updated": "2024-12-10 10:41:47",
+    "stamp_seen": "2024-11-02 08:45:35",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64664351,
+                "indicator": "https:\/\/54.38.192.53\/login_up.php"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-02 08:44:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "443",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Sign-in",
+            "Let's Encrypt",
+            "Nginx",
+            "PHP",
+            "Plesk",
+            "Prototype",
+            "PWA",
+            "RequireJS",
+            "Sentry"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "city": "Paris",
+            "region": [
+                "Paris",
+                "\ufffdle-de-France"
+            ],
+            "lat": "48.8323",
+            "long": "2.4075"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "p3p": "CP=\"NON COR CURa ADMa OUR NOR UNI COM NAV STA\"",
+            "expires": "Fri, 28 May 1999 00:00:00 GMT",
+            "++code": "200",
+            "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+            "content-encoding": "br",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "date": "Sat, 02 Nov 2024 08:45:14 GMT",
+            "last-modified": "Sat, 02 Nov 2024 08:45:13 GMT",
+            "++redirect": "https:\/\/54.38.192.53\/login_up.php",
+            "++target": "http:\/\/54.38.192.53\/",
+            "set-cookie": "plesk-ext-social-login-jwt-session=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwbGVzayIsImlhdCI6MTczMDUzNzExNCwiZGF0YSI6eyJzdGF0ZS1nb29nbGUiOiIwdG01TjEyVk5mWHlZS3hYYWQzWkwxaEZzdjZTbHBkYko2Z0dFK0xSfHJlZGlyZWN0LXBsZXNrPWh0dHBzJTNBJTJGJTJGNTQuMzguMTkyLjUzJTJGbW9kdWxlcyUyRnNvY2lhbC1sb2dpbiUyRnB1YmxpYyUyRmxvZ2luLnBocCUzRnByb3ZpZGVyJTNEZ29vZ2xlIiwic3RhdGUtZ2l0aHViIjoid1ZvRVJRVFgwakY2WlkyVHg3ZkxlbWVKMFBMbE10RGt6N0lDS29MV3xyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjU0LjM4LjE5Mi41MyUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGdpdGh1YiIsInN0YXRlLWZhY2Vib29rIjoiTW82VEVkbi9xbWFFWEJWNHZOcHdRRnFxUVVxSkdwTlFYUU1lY0lNUXxyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjU0LjM4LjE5Mi41MyUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGZhY2Vib29rIn19.Jg9Iu60oUVzazfSBttUs_PNpDIE3mE5YImTZd6yLQTs; path=\/; secure; HttpOnly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "format-detection": "telephone=no",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "skype_toolbar": "SKYPE_TOOLBAR_PARSER_COMPATIBLE",
+            "charset": "utf-8",
+            "++title": "Plesk Obsidian 18.0.64",
+            "plesk-revision": "cfc99411a2dc98c5f5ae86fd27a531adc72f6f77",
+            "plesk-build": "1800241008.13",
+            "forgery_protection_token": "3bce4f10365ded4d6e7eba9a6748815e"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "domain": "ns3020050.ip-54-38-192.eu",
+            "fingerprint": "9be76e044f6e3e2b8b3926c47951e5909bd7f690a31f68fef4222bf94036d35f",
+            "expires": "2025-01-07 13:26:53",
+            "subject": "\/CN=ns3020050.ip-54-38-192.eu",
+            "valid": "2024-10-09 13:26:54"
+        },
+        "banners": {
+            "993": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "143": "\u0005\u0004\u0000\u0000",
+            "21": "\u0005\u0004\u0000\u0000",
+            "22": "\u0005\u0004\u0000\u0000"
+        },
+        "cookies": {
+            "plesk-ext-social-login-jwt-session": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwbGVzayIsImlhdCI6MTczMDUzNzExNCwiZGF0YSI6eyJzdGF0ZS1nb29nbGUiOiIwdG01TjEyVk5mWHlZS3hYYWQzWkwxaEZzdjZTbHBkYko2Z0dFK0xSfHJlZGlyZWN0LXBsZXNrPWh0dHBzJTNBJTJGJTJGNTQuMzguMTkyLjUzJTJGbW9kdWxlcyUyRnNvY2lhbC1sb2dpbiUyRnB1YmxpYyUyRmxvZ2luLnBocCUzRnByb3ZpZGVyJTNEZ29vZ2xlIiwic3RhdGUtZ2l0aHViIjoid1ZvRVJRVFgwakY2WlkyVHg3ZkxlbWVKMFBMbE10RGt6N0lDS29MV3xyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjU0LjM4LjE5Mi41MyUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGdpdGh1YiIsInN0YXRlLWZhY2Vib29rIjoiTW82VEVkbi9xbWFFWEJWNHZOcHdRRnFxUVVxSkdwTlFYUU1lY0lNUXxyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjU0LjM4LjE5Mi41MyUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGZhY2Vib29rIn19.Jg9Iu60oUVzazfSBttUs_PNpDIE3mE5YImTZd6yLQTs"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/23d117ea6d26efad280b71b71c7e452b.jpeg"
+        }
+    }
+}

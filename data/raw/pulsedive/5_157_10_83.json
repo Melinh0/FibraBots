@@ -1,0 +1,143 @@
+{
+    "qid": null,
+    "iid": 54960969,
+    "indicator": "5.157.10.83",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-07 20:53:34",
+    "stamp_updated": "2024-12-11 10:45:04",
+    "stamp_seen": "2024-11-23 18:05:49",
+    "stamp_probed": "2024-09-30 16:50:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-04 07:20:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-07 20:53:34"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-04 07:20:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-24 20:38:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "SE",
+            "descr": "InterConnects",
+            "mnt-by": "MNT-INTERCONNECTS7",
+            "mnt-routes": "MNT-INTERCONNECTS7",
+            "origin": "AS57858",
+            "address": [
+                "US",
+                "3511 Silverside Road"
+            ],
+            "nic-hdl": "NW1707-RIPE",
+            "role": "Inter Connects",
+            "tech-c": "NW1707-RIPE",
+            "created": [
+                "2014-02-28T09:34:28Z",
+                "2013-05-17T19:00:40Z",
+                "2016-07-07T17:55:02Z"
+            ],
+            "admin-c": "NW1707-RIPE",
+            "++registrant": "NW1707-RIPE",
+            "last-modified": [
+                "2023-06-22T16:08:10Z",
+                "2021-12-06T07:11:50Z",
+                "2015-06-12T17:45:46Z"
+            ],
+            "++abuse": "netabuse@interconnects.net",
+            "++email": "netabuse@interconnects.net",
+            "abuse-mailbox": "netabuse@interconnects.net",
+            "++registered": [
+                "2013-05-17 19:00:40",
+                "2016-07-07 17:55:02",
+                "2014-02-28 09:34:28"
+            ],
+            "++updated": [
+                "2023-06-22 16:08:10",
+                "2015-06-12 17:45:46"
+            ],
+            "route": "5.157.10.0\/24",
+            "inetnum": "5.157.10.0 - 5.157.10.255",
+            "netname": "Stockholm"
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "city": "Stockholm",
+            "asn": "AS57858",
+            "region": "Stockholm County",
+            "lat": "59.3241",
+            "long": "18.0517",
+            "org": "Angelnet Limited"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.3\n"
+        },
+        "dns": {
+            "ptr": "ping01.gilsouros.ws"
+        }
+    }
+}

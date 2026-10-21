@@ -1,0 +1,128 @@
+{
+    "qid": null,
+    "iid": 62439228,
+    "indicator": "119.1.156.50",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-18 21:22:08",
+    "stamp_updated": "2024-12-10 10:33:59",
+    "stamp_seen": "2024-11-18 16:47:10",
+    "stamp_probed": "2024-08-18 21:22:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-11-06 14:42:46"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-18 21:22:08"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-11-06 14:42:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "22"
+        ],
+        "protocol": [
+            "OpenVPN",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "CN",
+            "address": [
+                "550001 china",
+                "3. east yanan road of guiyang"
+            ],
+            "fax-no": "+86-851-6857020",
+            "mnt-by": [
+                "MAINT-CHINANET-GUIZHOU",
+                "MAINT-CHINANET-GZ"
+            ],
+            "netname": "CHINANET-GZ",
+            "nic-hdl": "DL72-AP",
+            "person": "dan lu",
+            "phone": "+86-851-6861469",
+            "tech-c": "DL72-AP",
+            "++phone": "+86-851-6861469",
+            "admin-c": "DL72-AP",
+            "descr": [
+                "GuiZhou",
+                "ZuYi County"
+            ],
+            "inetnum": "119.1.144.0 - 119.1.159.255",
+            "last-modified": [
+                "2009-04-02T03:25:06Z",
+                "2021-03-10T06:36:56Z"
+            ],
+            "++registrant": [
+                "DL72-AP",
+                "dan lu"
+            ],
+            "++email": "xull10@chinatelecom.cn",
+            "e-mail": "xull10@chinatelecom.cn",
+            "++updated": "2021-03-10 06:36:56"
+        },
+        "geo": {
+            "country": "China",
+            "countrycode": "CN",
+            "asn": "AS4134",
+            "lat": "34.7732",
+            "address": [
+                "3. east yanan road of guiyang",
+                "550001 china"
+            ],
+            "org": "Chinanet",
+            "long": "113.722"
+        },
+        "banners": {
+            "22": "SSH-2.0-Go\n",
+            "1194": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

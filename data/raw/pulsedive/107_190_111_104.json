@@ -1,0 +1,141 @@
+{
+    "qid": null,
+    "iid": 47514858,
+    "indicator": "107.190.111.104",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-26 03:43:46",
+    "stamp_updated": "2024-12-16 17:04:31",
+    "stamp_seen": "2024-12-16 17:04:31",
+    "stamp_probed": "2024-07-01 22:54:58",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-26 03:43:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": [
+                "ON",
+                "Ontario"
+            ],
+            "city": [
+                "Burlington",
+                "Chatham"
+            ],
+            "asn": "AS5645",
+            "long": "-79.7626",
+            "address": "800 Richmond St.",
+            "org": [
+                "TekSavvy Solutions Inc. (TS-1)",
+                "TEKSAVVY"
+            ],
+            "zip": "N7M 5J5",
+            "lat": "43.3802"
+        },
+        "whois": {
+            "nettype": "Direct Allocation",
+            "++registered": [
+                "2010-10-15 00:00:00",
+                "2014-04-25 00:00:00"
+            ],
+            "country": "CA",
+            "orgabusename": "Abuse",
+            "orgtechname": "NOC",
+            "stateprov": "ON",
+            "parent": "NET107 (NET-107-0-0-0-0)",
+            "regdate": [
+                "2014-04-25",
+                "2010-10-15"
+            ],
+            "city": "Chatham",
+            "updated": [
+                "2014-04-25",
+                "2019-03-29"
+            ],
+            "referralserver": "rwhois:\/\/rwhois.teksavvy.com:4321",
+            "orgabusehandle": "ABUSE816-ARIN",
+            "orgtechhandle": "NOC1728-ARIN",
+            "orgabuseemail": "abuse@teksavvy.com",
+            "orgtechphone": "+1-519-360-1716",
+            "orgabusephone": "+1-519-360-1575",
+            "++abuse": "abuse@teksavvy.com",
+            "postalcode": "N7M 5J5",
+            "++phone": [
+                "+1-519-360-1716",
+                "+1-519-360-1575"
+            ],
+            "++email": "support@teksavvy.com",
+            "orgtechemail": "support@teksavvy.com",
+            "address": "800 Richmond St.",
+            "++registrant": "TekSavvy Solutions Inc.",
+            "originas": "AS5645, AS20375",
+            "organization": "TekSavvy Solutions Inc. (TS-1)",
+            "netname": "TS1-ROGERS",
+            "orgname": "TekSavvy Solutions Inc.",
+            "orgid": "TS-1",
+            "orgnocphone": "+1-519-360-1575",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC1728-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/TS-1",
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.190.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE816-ARIN",
+            "nethandle": "NET-107-190-0-0-1",
+            "cidr": "107.190.0.0\/17",
+            "netrange": "107.190.0.0 - 107.190.127.255",
+            "++updated": "2019-03-29 00:00:00",
+            "orgnochandle": "TEKSA-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/TEKSA-ARIN",
+            "orgnocname": "Teksavvy NOC",
+            "orgnocemail": "noc@teksavvy.com"
+        },
+        "dns": {
+            "ptr": "107-190-111-104.cpe.teksavvy.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0001l\u000b\u0014\u001f\ufffd\b\fI\ufffdo\ub78b\ufffd\ufffd\ufffd\ufffd3\u0015\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd]\u01a1L\ufffd{\u0011\ufffdq\b"
+        }
+    }
+}

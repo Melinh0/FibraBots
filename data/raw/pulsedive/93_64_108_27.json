@@ -1,0 +1,194 @@
+{
+    "qid": null,
+    "iid": 64820197,
+    "indicator": "93.64.108.27",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-09 09:06:01",
+    "stamp_updated": "2024-12-14 11:33:43",
+    "stamp_seen": "2024-11-09 09:11:38",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64821179,
+                "indicator": "https:\/\/93.64.108.27\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-09 09:06:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "PPTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "ITALY",
+                "Via Jervis, 13",
+                "Ivrea (TO)"
+            ],
+            "country": "IT",
+            "abuse-mailbox": "italy.abuse@mail.vodafone.it",
+            "admin-c": [
+                "VIIA1-RIPE",
+                "VI745-RIPE"
+            ],
+            "mnt-by": "VODAFONE-IT-MNT",
+            "netname": "VODAFONE-IT",
+            "nic-hdl": "VI745-RIPE",
+            "origin": "AS30722",
+            "role": "Vodafone Italy",
+            "tech-c": [
+                "VIIA1-RIPE",
+                "VI745-RIPE"
+            ],
+            "created": [
+                "2008-03-26T08:57:50Z",
+                "2011-10-27T12:50:34Z",
+                "2022-04-04T14:44:13Z"
+            ],
+            "descr": "IP addresses reserved to Vodafone VRU\/VRUC broadband subscribers",
+            "last-modified": [
+                "2009-06-17T13:18:41Z",
+                "2014-01-07T13:24:38Z",
+                "2022-04-04T14:44:13Z"
+            ],
+            "route": "93.64.0.0\/16",
+            "++abuse": "italy.abuse@mail.vodafone.it",
+            "++registrant": [
+                "VI745-RIPE",
+                "VIIA1-RIPE"
+            ],
+            "++email": "italy.abuse@mail.vodafone.it",
+            "inetnum": "93.64.78.48 - 93.64.127.255",
+            "++updated": [
+                "2014-01-07 13:24:38",
+                "2022-04-04 14:44:13",
+                "2009-06-17 13:18:41"
+            ],
+            "++registered": [
+                "2011-10-27 12:50:34",
+                "2022-04-04 14:44:13",
+                "2008-03-26 08:57:50"
+            ]
+        },
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "region": [
+                "Emilia-Romagna",
+                "Province of Modena"
+            ],
+            "asn": "AS30722",
+            "org": "Vodafone Italia S.p.A.",
+            "city": "Campogalliano",
+            "lat": "44.6857",
+            "address": [
+                "ITALY",
+                "Via Jervis, 13",
+                "Ivrea (TO)"
+            ],
+            "long": "10.8394"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Sat, 09 Nov 2024 09:10:28 GMT",
+            "++redirect": "https:\/\/93.64.108.27\/",
+            "++target": "http:\/\/93.64.108.27\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "email": "usg40_B8ECA3C0DC42",
+            "subject": "\/CN=usg40_B8ECA3C0DC42",
+            "issuer": "\/CN=usg40_B8ECA3C0DC42",
+            "fingerprint": "7ba2711b45f772118fe405d7137ecdadd9628c9a510c3399878ed92b7c68ca3a",
+            "org": "usg40_B8ECA3C0DC42",
+            "expires": "2027-09-02 13:21:25",
+            "valid": "2017-09-04 13:21:25"
+        },
+        "meta": {
+            "++title": "USG40",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG40) [::ffff:93.64.108.27]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/89d5556eb2157a8d05ae61229b0bb899.jpeg"
+        }
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "qid": null,
+    "iid": 62889915,
+    "indicator": "24.101.118.15",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-01 22:45:33",
+    "stamp_updated": "2024-12-14 11:30:30",
+    "stamp_seen": "2024-12-14 09:43:41",
+    "stamp_probed": "2024-09-04 11:16:27",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64216442,
+                "indicator": "https:\/\/24.101.118.15\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-01 22:45:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reallocated"
+            ],
+            "orgnocname": "Network Operations Center",
+            "orgtechname": "Network Operations Center",
+            "orgabusename": "Network Operations Center",
+            "stateprov": "PA",
+            "parent": [
+                "NET24 (NET-24-0-0-0-0)",
+                "AUI-INTERNET (NET-24-101-0-0-1)"
+            ],
+            "++email": "noc@zoominternet.net",
+            "++phone": "+1-724-282-5624",
+            "address": "ONE Armstrong Place",
+            "city": "Butler",
+            "orgabuseemail": "abuse@zoominternet.net",
+            "orgabusehandle": "NOC11974-ARIN",
+            "orgabusephone": "+1-724-282-5624",
+            "orgid": "ARMC",
+            "orgnocemail": "noc@zoominternet.net",
+            "orgnochandle": "NOC11973-ARIN",
+            "orgnocphone": "+1-724-282-5624",
+            "orgtechemail": "noc@zoominternet.net",
+            "orgtechhandle": "NOC11973-ARIN",
+            "orgtechphone": "+1-724-282-5624",
+            "postalcode": "16001",
+            "originas": "AS27364",
+            "cidr": [
+                "24.101.0.0\/16",
+                "24.101.118.0\/24"
+            ],
+            "nethandle": [
+                "NET-24-101-0-0-1",
+                "NET-24-101-118-0-1"
+            ],
+            "netrange": [
+                "24.101.0.0 - 24.101.255.255",
+                "24.101.118.0 - 24.101.118.255"
+            ],
+            "regdate": [
+                "2008-03-07",
+                "1997-08-28",
+                "2019-08-21"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC11973-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/ARMC",
+                "https:\/\/rdap.arin.net\/registry\/ip\/24.101.0.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/24.101.118.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC11974-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC11973-ARIN",
+            "++registrant": "Armstrong",
+            "organization": "Armstrong (ARMC)",
+            "orgname": "Armstrong",
+            "++registered": "2019-08-21 00:00:00",
+            "updated": [
+                "2019-08-21",
+                "2022-04-18",
+                "2022-12-07"
+            ],
+            "++abuse": "NOC11974-ARIN",
+            "++updated": "2022-12-07 00:00:00",
+            "netname": [
+                "AUI-INTERNET",
+                "ACS-MERIDIANPA"
+            ]
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Pennsylvania",
+            "asn": "AS27364",
+            "city": "Butler",
+            "lat": "40.8795",
+            "long": "-79.93",
+            "org": "ACS-INTERNET"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1",
+            "content-length": "365",
+            "++code": "503",
+            "++status": "Service Not Available",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/24.101.118.15\/",
+            "++target": "http:\/\/24.101.118.15\/",
+            "date": "Tue, 22 Oct 2024 18:08:05 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "RuckusPKI-DeviceSubCA-2",
+            "issuer": "\/CN=RuckusPKI-DeviceSubCA-2\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "++subject": "Ruckus Wireless Inc.",
+            "valid": "2024-01-20 09:11:20",
+            "subject": "\/CN=SN-962472002193\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "fingerprint": "e49c05f3dc1ed3e22cc83058b0edfba0b1325cf6d1fec5852502be02064f1414",
+            "expires": "2049-01-20 09:11:20"
+        },
+        "meta": {
+            "++title": "503 Service Not Available"
+        },
+        "dns": {
+            "ptr": "dynamic-acs-24-101-118-15.zoominternet.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/31e5c033318b3633bca997a7713e6aee.jpeg"
+        }
+    }
+}

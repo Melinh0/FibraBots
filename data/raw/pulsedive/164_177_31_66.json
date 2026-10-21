@@ -1,0 +1,245 @@
+{
+    "qid": null,
+    "iid": 33017629,
+    "indicator": "164.177.31.66",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-19 06:26:55",
+    "stamp_updated": "2024-12-12 03:40:11",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-09-30 05:01:56",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 33017654,
+                "indicator": "http:\/\/164.177.31.66\/"
+            },
+            {
+                "iid": 64120147,
+                "indicator": "https:\/\/164.177.31.66\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-05-13 09:17:20"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-19 06:26:55"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-09 08:50:17"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-08-01 12:35:35"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-05-13 09:17:20"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-05 03:48:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "France",
+                "Bouygues Telecom",
+                "13-15 avenue du Marechal Juin",
+                "92366 Meudon-la-Foret cedex"
+            ],
+            "country": "FR",
+            "admin-c": [
+                "BP5856-RIPE",
+                "FB15531-RIPE",
+                "NOCB1-RIPE"
+            ],
+            "mnt-by": "BYTEL-MNT",
+            "mnt-lower": "BYTEL-MNT",
+            "mnt-routes": "BYTEL-MNT",
+            "nic-hdl": "NOCB1-RIPE",
+            "origin": "AS5410",
+            "role": "Network Operation Centre Bouygues Telecom FAI",
+            "tech-c": [
+                "BP5856-RIPE",
+                "NOCB1-RIPE",
+                "FB15531-RIPE"
+            ],
+            "netname": "BOUYGTEL-ISP-WIRELINE",
+            "route": "164.177.0.0\/17",
+            "created": [
+                "2012-05-21T11:30:41Z",
+                "2008-07-10T13:46:14Z",
+                "2021-03-25T12:32:15Z"
+            ],
+            "descr": [
+                "Pool for Enterprise customers",
+                "BOUYGUES Telecom ISP"
+            ],
+            "++registrant": [
+                "NOCB1-RIPE",
+                "BP5856-RIPE",
+                "FB15531-RIPE"
+            ],
+            "last-modified": [
+                "2019-05-07T09:35:18Z",
+                "2020-01-20T10:43:29Z",
+                "2021-03-25T12:32:15Z"
+            ],
+            "abuse-mailbox": "MBX_ABUSE@bouyguestelecom.fr",
+            "inetnum": "164.177.31.0 - 164.177.31.255",
+            "++email": "mbx_abuse@bouyguestelecom.fr",
+            "++abuse": "mbx_abuse@bouyguestelecom.fr",
+            "++registered": [
+                "2008-07-10 13:46:14",
+                "2012-05-21 11:30:41",
+                "2021-03-25 12:32:15"
+            ],
+            "++updated": [
+                "2019-05-07 09:35:18",
+                "2020-01-20 10:43:29",
+                "2021-03-25 12:32:15"
+            ]
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "asn": "AS5410",
+            "org": "Bouygues Telecom SA",
+            "region": [
+                "Yvelines",
+                "\ufffdle-de-France"
+            ],
+            "lat": "48.93",
+            "city": "Poissy",
+            "long": "2.0605"
+        },
+        "http": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.29 (Ubuntu)",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "content-length": "279",
+            "++target": "http:\/\/164.177.31.66\/",
+            "++redirect": "https:\/\/164.177.31.66\/",
+            "date": "Sat, 19 Oct 2024 12:17:45 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=ftp2bis.imp-vincent.fr",
+            "org": "ftp2bis.imp-vincent.fr",
+            "issuer": "\/CN=ftp2bis.imp-vincent.fr",
+            "valid": "2017-04-12 15:39:34",
+            "fingerprint": "961e3d8676fb4c4869ff65aceefbdf3038bd86c62fb724b19d181047d3eb0c9d",
+            "expires": "2027-04-10 15:39:34"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5\n",
+            "21": "220 ProFTPD 1.3.5e Server (Debian) [::ffff:164.177.31.66]\n"
+        },
+        "dns": {
+            "ptr": "static-csq-cds-031066.business.bouyguestelecom.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/89c2f250cd9cb00f3c8a3b092204bd82.jpeg"
+        }
+    }
+}

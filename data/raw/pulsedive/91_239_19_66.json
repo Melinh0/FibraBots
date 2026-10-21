@@ -1,0 +1,228 @@
+{
+    "qid": null,
+    "iid": 57582445,
+    "indicator": "91.239.19.66",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-25 13:47:00",
+    "stamp_updated": "2024-12-14 09:56:37",
+    "stamp_seen": "2024-12-14 09:56:37",
+    "stamp_probed": "2024-09-30 20:44:50",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64132512,
+                "indicator": "https:\/\/91.239.19.66\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-03 07:34:13"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-25 13:47:00"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-03 07:34:13"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-01 10:04:13"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "HSTS",
+            "Let's Encrypt",
+            "Nextcloud",
+            "PWA"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "RU",
+            "org-type": "OTHER",
+            "status": "ASSIGNED PI",
+            "abuse-c": "TLN10-RIPE",
+            "created": [
+                "2010-01-26T14:18:51Z",
+                "2012-05-09T12:35:29Z",
+                "2009-11-12T07:01:59Z",
+                "2012-06-18T05:36:34Z"
+            ],
+            "mnt-by": [
+                "MNT-TELECOMRU",
+                "RIPE-DB-MNT",
+                "RIPE-NCC-END-MNT"
+            ],
+            "mnt-domains": "MNT-TELECOMRU",
+            "mnt-ref": [
+                "PROEKT-MNT",
+                "RIPE-DB-MNT",
+                "MNT-TELECOMRU"
+            ],
+            "mnt-routes": "MNT-TELECOMRU",
+            "org": "ORG-JT30-RIPE",
+            "org-name": "Telecom.ru Ltd",
+            "organisation": "ORG-JT30-RIPE",
+            "origin": "AS50716",
+            "phone": [
+                "+7 8422 270727",
+                "+7 8422 270303"
+            ],
+            "sponsoring-org": "ORG-ATS13-RIPE",
+            "route": "91.239.16.0\/22",
+            "inetnum": "91.239.16.0 - 91.239.19.255",
+            "netname": "TELECOMRU3-NET",
+            "descr": "Telecom.ru Ltd, Ulyanovsk",
+            "nic-hdl": "ES563-RIPE",
+            "address": [
+                "Ulyanovsk",
+                "21B Ryabikova st., Ulyanovsk, Russia",
+                "Ryabikova, 21b"
+            ],
+            "tech-c": [
+                "TLN10-RIPE",
+                "ES563-RIPE"
+            ],
+            "admin-c": [
+                "TLN10-RIPE",
+                "ES563-RIPE"
+            ],
+            "++registrant": [
+                "TLN10-RIPE",
+                "ES563-RIPE",
+                "Dmitriy Bajin"
+            ],
+            "last-modified": [
+                "2012-06-18T05:37:32Z",
+                "2019-06-18T13:10:29Z",
+                "2023-02-27T14:10:55Z",
+                "2023-02-07T07:24:57Z"
+            ],
+            "person": "Dmitriy Bajin",
+            "++updated": [
+                "2023-02-27 14:10:55",
+                "2023-02-07 07:24:57",
+                "2012-06-18 05:37:32"
+            ],
+            "++registered": [
+                "2012-05-09 12:35:29",
+                "2010-01-26 14:18:51",
+                "2009-11-12 07:01:59",
+                "2012-06-18 05:36:34"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS50716",
+            "org": "Telecom.ru Ltd",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "country": "Russia"
+        },
+        "http": {
+            "connection": "close",
+            "server": "Apache",
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "referrer-policy": "no-referrer",
+            "x-permitted-cross-domain-policies": "none",
+            "x-robots-tag": "noindex, nofollow",
+            "transfer-encoding": "chunked",
+            "++code": "400",
+            "++status": "Bad Request",
+            "strict-transport-security": "max-age=63072000; includeSubdomains",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/91.239.19.66\/",
+            "set-cookie": "oc_sessionPassphrase=GvKNXQVC%2FXGjIjd7v8QWv6wRdlcPRQ4EDvwFctgcRaSypdcvYO%2FEeSS7q1bDQAEW3lnG6jTP%2FIitQig4GAqpC4u785EFlDnYB%2FUbfNH5pTgjOgPnQXznY3pdPaVzz6SK; path=\/; secure; HttpOnly; SameSite=Lax\n__Host-nc_sameSiteCookielax=true; path=\/; httponly;secure; expires=Fri, 31-Dec-2100 23:59:59 GMT; SameSite=lax\n__Host-nc_sameSiteCookiestrict=true; path=\/; httponly;secure; expires=Fri, 31-Dec-2100 23:59:59 GMT; SameSite=strict\nocjk9k5zzowa=ol7ts4ir35dtirofbg66gl1406; path=\/; secure; HttpOnly; SameSite=Lax",
+            "content-security-policy": "default-src 'self'; script-src 'self' 'nonce-Nkxsb2tMNXRHNHMxV1ZLSTJrSGVsWnpqc3doTGZDaVNyRVZsWXBsdFYwWT06aW9FcSt1WUFJOXhuSURYZ2xuT0o0ZG1NeFVrbktGTDgvUzBWSk5RS2J5OD0='; style-src 'self' 'unsafe-inline'; frame-src *; img-src * data: blob:; font-src 'self' data:; media-src *; connect-src *; object-src 'none'; base-uri 'self';",
+            "date": "Tue, 22 Oct 2024 19:27:38 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+            "++title": "Nextcloud",
+            "apple-itunes-app": "app-id=1125420102",
+            "theme-color": "#0082c9",
+            "charset": "utf-8"
+        },
+        "cookies": {
+            "__host-nc_samesitecookielax": "true",
+            "__host-nc_samesitecookiestrict": "true",
+            "oc_sessionpassphrase": "GvKNXQVC%2FXGjIjd7v8QWv6wRdlcPRQ4EDvwFctgcRaSypdcvYO%2FEeSS7q1bDQAEW3lnG6jTP%2FIitQig4GAqpC4u785EFlDnYB%2FUbfNH5pTgjOgPnQXznY3pdPaVzz6SK",
+            "ocjk9k5zzowa": "ol7ts4ir35dtirofbg66gl1406"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "subject": "\/CN=wh.sarko.ru",
+            "expires": "2024-01-08 17:06:18",
+            "valid": "2023-10-10 17:06:19",
+            "domain": "wh.sarko.ru",
+            "fingerprint": "797f2e12898821af08f6a08378c4abbd69dd8474080789b1f9f0a44563f3b3c3"
+        },
+        "dns": {
+            "ptr": "pppoe-91-239-19.66.evolife.su"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/419c4ba8dfafeb92ac59b64e01bd4943.jpeg"
+        }
+    }
+}

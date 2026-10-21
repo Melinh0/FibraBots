@@ -1,0 +1,217 @@
+{
+    "qid": null,
+    "iid": 60955592,
+    "indicator": "175.125.95.234",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-06 17:11:03",
+    "stamp_updated": "2024-12-15 07:33:11",
+    "stamp_seen": "2024-12-15 07:33:11",
+    "stamp_probed": "2024-08-28 07:48:11",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63860484,
+                "indicator": "https:\/\/175.125.95.234\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-06 17:11:03"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-10 05:37:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "Google Analytics",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "SK Namsan Green Bldg.",
+                "Seoul Jung-gu Toegye-ro 24",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "descr": "SK Broadband Co Ltd",
+            "e-mail": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "broadNnet-KR",
+                "broadNnet"
+            ],
+            "nic-hdl": [
+                "IM12-KR",
+                "IM670-AP"
+            ],
+            "tech-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "inetnum": "175.112.0.0 - 175.127.255.255",
+            "last-modified": [
+                "2017-02-03T00:38:20Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM670-AP",
+                "IM12-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++phone": "+82-80-828-2106",
+            "phone": "+82-80-828-2106",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS9318",
+            "org": "SK Broadband Co Ltd",
+            "city": "Pohang",
+            "region": "Gyeongsangbuk-do",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Jung-gu Toegye-ro 24",
+                "SK Namsan Green Bldg."
+            ],
+            "long": "129.3503",
+            "lat": "36.0016",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "connection": "Keep-Alive",
+            "vary": "Accept-Encoding,User-Agent",
+            "content-encoding": "gzip",
+            "content-length": "2001",
+            "keep-alive": "timeout=5, max=100",
+            "x-powered-by": "PHP\/7.0.33",
+            "++code": "403",
+            "++status": "Forbidden",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips PHP\/7.0.33",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/175.125.95.234\/",
+            "++target": "http:\/\/175.125.95.234\/",
+            "date": "Tue, 22 Oct 2024 05:24:32 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "SomeOrganization",
+            "expires": "2023-12-15 21:43:13",
+            "fingerprint": "3e055665618093a59f1ca45495299bfe0bd225a1d4192e3dceb25456fe2eba1a",
+            "valid": "2022-12-15 21:43:13",
+            "subject": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=q381-2408.cafe24.com\/E=root@q381-2408.cafe24.com",
+            "issuer": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=q381-2408.cafe24.com\/E=root@q381-2408.cafe24.com",
+            "org": "q381-2408.cafe24.com"
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "J\u0000\u0000\u0000\n5.7.40\u0000\u0012PF\u0004>\u0006lWrn&\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\/d9\u000b|\u0005ewWV\fS\u0000mysql_native_password\u0000"
+        },
+        "cookies": {
+            "_gcl_au": "1.1.643885989.1720285940",
+            "gd5sessid": "lt9msmm24e9jlvlf41cj1195v8f24j3r52qsrimva00469l57ca409ajklvl92hh916lrbd9b17i88h12pq3cuhagv1n0gjic4rjdr0",
+            "_ga": "GA1.1.1861635638.1720285940",
+            "_ga_p50dmh3jys": "GS1.1.1720285940.1.0.1720285940.60.0.0",
+            "_ga_j22483tfgq": "GS1.1.1720285940.1.0.1720285940.60.0.0",
+            "_ga_78b45q2f7t": "GS1.1.1720285940.1.0.1720285940.60.0.0",
+            "_ga_mknbpkf9ky": "GS1.1.1720285940.1.0.1720285940.60.0.0",
+            "_fbp": "fb.3.1720285940606.725972965443959621"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a3f90b274ec2a99e34bd43a8705fcf1d.jpeg"
+        }
+    }
+}

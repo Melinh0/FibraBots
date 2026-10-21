@@ -1,0 +1,114 @@
+{
+    "qid": null,
+    "iid": 62778275,
+    "indicator": "168.232.200.220",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-27 22:01:34",
+    "stamp_updated": "2024-12-13 23:03:11",
+    "stamp_seen": "2024-12-13 23:03:11",
+    "stamp_probed": "2024-09-30 05:38:08",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-27 22:01:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-10-02 15:55:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Mato Grosso",
+            "lat": "-13.3433",
+            "long": "-54.0155",
+            "org": "Virtual Connect",
+            "asn": "AS264954",
+            "city": "Paranatinga Municipality"
+        },
+        "whois": {
+            "country": "BR",
+            "++registered": "2016-05-09 00:00:00",
+            "changed": [
+                "20170116",
+                "20240718"
+            ],
+            "created": [
+                "20160509",
+                "20140224"
+            ],
+            "owner-c": "VICON68",
+            "abuse-c": "VICON68",
+            "aut-num": "AS264954",
+            "tech-c": "VICON68",
+            "person": "VIRTUAL CONNECT",
+            "++abuse": "VICON68",
+            "++registrant": "VIRTUAL CONNECT",
+            "owner": "Virtual Connect",
+            "ownerid": "11.954.125\/0001-77",
+            "nic-hdl-br": "VICON68",
+            "responsible": "Deivid Parente",
+            "++email": "contato@virtualconnect.net.br",
+            "inetnum": "168.232.200.0\/22",
+            "e-mail": "contato@virtualconnect.net.br",
+            "inetrev": "168.232.200.0\/22",
+            "nsstat": "20240825 AA",
+            "nslastaa": "20240825",
+            "nserver": [
+                "ns1.virtualconnect.net.br",
+                "ns2.virtualconnect.net.br"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7\n"
+        },
+        "dns": {
+            "ptr": "168.232.200.220.virtualconnect.net.br"
+        }
+    }
+}

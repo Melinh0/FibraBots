@@ -1,0 +1,105 @@
+{
+    "qid": null,
+    "iid": 53581336,
+    "indicator": "178.33.248.195",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-11-29 03:44:08",
+    "stamp_updated": "2024-12-09 10:33:23",
+    "stamp_seen": "2024-08-17 01:25:18",
+    "stamp_probed": "2024-08-17 01:25:18",
+    "stamp_retired": "2024-11-21 01:59:42",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-29 03:44:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "isp": "OVH SAS",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "content-length": "19",
+            "++code": "404",
+            "++content-type": "text\/plain",
+            "date": "Sat, 17 Aug 2024 01:24:53 GMT"
+        },
+        "ssl": {
+            "issuer": "\/CN=TRAEFIK DEFAULT CERT",
+            "subject": "\/CN=TRAEFIK DEFAULT CERT",
+            "version": "v3",
+            "org": "TRAEFIK DEFAULT CERT",
+            "++self-signed": "1",
+            "domain": "c3e5623aa123b097a4f827f0e4b4aa2a.e2ec08640a7cee7f13a8c571de33719e.traefik.default",
+            "valid": "2024-08-16 10:14:19",
+            "expires": "2025-08-16 10:14:19"
+        },
+        "dns": {
+            "ptr": "ip195.ip-178-33-248.eu"
+        }
+    }
+}

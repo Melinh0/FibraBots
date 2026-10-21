@@ -1,0 +1,164 @@
+{
+    "qid": null,
+    "iid": 57969710,
+    "indicator": "195.190.104.66",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-04 03:35:27",
+    "stamp_updated": "2024-12-09 10:34:44",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": "2024-09-30 07:53:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-25 20:59:58"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-04 03:35:27"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-25 20:59:58"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-09 12:39:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723"
+        ],
+        "protocol": [
+            "PPTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2004-05-13T11:50:32Z",
+                "2004-08-18T06:50:38Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2004-05-13 11:50:32",
+                "2004-08-18 06:50:38"
+            ],
+            "abuse-mailbox": "abuse-b2b@beeline.ru",
+            "admin-c": [
+                "SVNT1-RIPE",
+                "DM3740-RIPE",
+                "IAI1-RIPE"
+            ],
+            "org": "ORG-ES15-RIPE",
+            "tech-c": [
+                "SVNT1-RIPE",
+                "DM3740-RIPE",
+                "SVNT2-RIPE"
+            ],
+            "descr": [
+                "EDN Sovintel",
+                "111250 Russia",
+                "Static ip pool"
+            ],
+            "mnt-by": [
+                "AS3216-MNT",
+                "SOVINTEL-MNT"
+            ],
+            "origin": "AS3216",
+            "fax-no": "+7 495 7871010",
+            "nic-hdl": "SVNT1-RIPE",
+            "role": "Sovintel NOC",
+            "last-modified": [
+                "2005-04-28T11:33:19Z",
+                "2022-04-20T08:31:22Z",
+                "2012-01-30T07:42:20Z"
+            ],
+            "route": "195.190.96.0\/19",
+            "++registrant": [
+                "DM3740-RIPE",
+                "SVNT1-RIPE",
+                "IAI1-RIPE"
+            ],
+            "++abuse": "abuse-b2b@beeline.ru",
+            "address": "111250 Russia Moscow Krasnokazarmennaya, 12",
+            "++email": "abuse-b2b@beeline.ru",
+            "phone": "+7 800 7008061",
+            "netname": "RU-SOVINTEL-Static-IP-pool-NET",
+            "++updated": [
+                "2022-04-20 08:31:22",
+                "2005-04-28 11:33:19"
+            ],
+            "inetnum": "195.190.104.0 - 195.190.104.255"
+        },
+        "geo": {
+            "countrycode": "RU",
+            "org": "PVimpelCom",
+            "asn": "AS3216",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "spb-195-190-104-66.sovintel.ru"
+        },
+        "banners": {
+            "1723": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 62061546,
+    "indicator": "85.192.56.68",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-06 06:45:35",
+    "stamp_updated": "2024-12-15 01:26:25",
+    "stamp_seen": "2024-12-13 00:00:00",
+    "stamp_probed": "2024-08-30 07:58:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-06 06:45:35"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "27017",
+            "3389"
+        ],
+        "protocol": [
+            "MongoDB",
+            "NETBIOS",
+            "RDP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "DN-MNT",
+                "aeza-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "mnt-ref": [
+                "DN-MNT",
+                "DATAMAX-M",
+                "aeza-mnt",
+                "VF1-MNT",
+                "IVC-MNT",
+                "WEBROCKET-MNT",
+                "lir-ru-sokolova2-1-MNT"
+            ],
+            "mnt-domains": "aeza-mnt",
+            "address": [
+                "350001, Krasnodar, st. im. Mayakovskogo, b. 160, office 2.4",
+                "350001, g Krasnodar, ul im. Mayakovskogo, d. 160, ofis 2.4"
+            ],
+            "mnt-routes": "aeza-mnt",
+            "netname": "Aeza-Network",
+            "org-name": "AEZA GROUP Ltd",
+            "created": [
+                "2023-10-31T07:36:12Z",
+                "2023-10-31T07:33:47Z",
+                "2022-08-18T07:43:40Z",
+                "2024-03-23T09:38:31Z"
+            ],
+            "org": "ORG-AGL42-RIPE",
+            "++email": "abuse@aeza.ru",
+            "abuse-c": "ACRO54477-RIPE",
+            "role": "aezagroup",
+            "nic-hdl": "ACRO54477-RIPE",
+            "admin-c": "ACRO54477-RIPE",
+            "tech-c": "ACRO54477-RIPE",
+            "++registrant": "ACRO54477-RIPE",
+            "++abuse": "abuse@aeza.ru",
+            "origin": "AS216246",
+            "abuse-mailbox": "abuse@aeza.ru",
+            "last-modified": [
+                "2024-02-14T15:03:20Z",
+                "2024-02-14T15:02:50Z",
+                "2024-03-23T10:41:47Z",
+                "2024-03-23T09:38:31Z"
+            ],
+            "organisation": "ORG-AGL42-RIPE",
+            "++registered": [
+                "2023-10-31 07:36:12",
+                "2023-10-31 07:33:47",
+                "2024-03-23 09:38:31"
+            ],
+            "route": "85.192.56.0\/24",
+            "inetnum": "85.192.56.0 - 85.192.56.255",
+            "++updated": [
+                "2024-03-23 10:41:47",
+                "2024-02-14 15:03:20",
+                "2024-02-14 15:02:50",
+                "2024-03-23 09:38:31"
+            ]
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "org": "Aeza Group Ltd.",
+            "asn": "AS216246",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "for-maid.aeza.network"
+        },
+        "banners": {
+            "27017": "\u0005\u0001\u0000\u0000",
+            "139": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

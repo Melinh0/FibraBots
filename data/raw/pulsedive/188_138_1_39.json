@@ -1,0 +1,142 @@
+{
+    "qid": null,
+    "iid": 22974030,
+    "indicator": "188.138.1.39",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-03-24 13:28:57",
+    "stamp_updated": "2024-12-11 10:41:59",
+    "stamp_seen": "2024-12-07 19:36:30",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65672514,
+                "indicator": "https:\/\/188.138.1.39\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:35:22"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-03-24 13:28:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "asn": "AS29066",
+            "org": "velia.net Internetdienste GmbH",
+            "city": "Strasbourg",
+            "region": [
+                "Bas-Rhin",
+                "Grand Est"
+            ],
+            "lat": "48.5855",
+            "long": "7.7418"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "++code": "403",
+            "content-encoding": "br",
+            "++content-type": "text\/html",
+            "date": "Sat, 07 Dec 2024 19:36:09 GMT",
+            "++redirect": "https:\/\/188.138.1.39\/",
+            "++target": "http:\/\/188.138.1.39\/",
+            "etag": "W\/\"40e-546b7b035611b\"",
+            "last-modified": "Mon, 23 Jan 2017 00:00:32 GMT",
+            "++base": "https:\/\/188.138.1.39\/error_docs\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": "atlantic175.startdedicated.de",
+            "valid": "2024-11-17 10:57:09",
+            "fingerprint": "34a02bd4fa36f26b9898865daa4911e337ca7c85c7d9069206ee1c5c16c29ee6",
+            "expires": "2025-02-15 10:57:08",
+            "subject": "\/CN=atlantic175.startdedicated.de"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 itdienstleister-softwareentwickler.de ESMTP Postfix\n",
+            "21": "220 ProFTPD Server (ProFTPD) [188.138.1.39]\n"
+        },
+        "dns": {
+            "ptr": "itdienstleister-softwareentwickler.de"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/bfe35cc28cf2825f0005dc8f6d219e06.jpeg"
+        }
+    }
+}

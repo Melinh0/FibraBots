@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 63600966,
+    "indicator": "103.87.129.84",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-26 04:59:59",
+    "stamp_updated": "2024-12-11 10:37:29",
+    "stamp_seen": "2024-09-26 05:21:46",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63602974,
+                "indicator": "https:\/\/103.87.129.84\/gui\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-26 04:59:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "53",
+            "8443"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTPS"
+        ],
+        "technology": [
+            "jQuery",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-AUGUR"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "origin": "AS55947",
+            "descr": [
+                "Bangalore Broadband Network Pvt Ltd",
+                "Augur Technologies"
+            ],
+            "mnt-routes": "MAINT-IN-AUGUR",
+            "last-modified": [
+                "2017-03-08T09:56:21Z",
+                "2017-03-08T09:48:35Z",
+                "2017-03-08T09:50:06Z",
+                "2017-03-08T09:51:08Z",
+                "2020-07-05T02:18:45Z"
+            ],
+            "mnt-irt": "IRT-AUGUR-IN",
+            "route": "103.87.129.0\/24",
+            "e-mail": "augurtech@bbnl.co.in",
+            "admin-c": [
+                "AR527-AP",
+                "MA1088-AP"
+            ],
+            "abuse-mailbox": "latha@bbnl.co.in",
+            "inetnum": "103.87.128.0 - 103.87.131.255",
+            "tech-c": [
+                "MA1088-AP",
+                "AR527-AP"
+            ],
+            "address": "100 4TH MAIN ROAD AGS COLONY ANAND NAGAR ,Bangalore,Karnataka-560032",
+            "netname": "AUGUR",
+            "nic-hdl": [
+                "MA1088-AP",
+                "AR527-AP"
+            ],
+            "person": "ARUN RAO",
+            "irt": "IRT-AUGUR-IN",
+            "phone": "+91 9535953663",
+            "++abuse": "latha@bbnl.co.in",
+            "++registrant": [
+                "AR527-AP",
+                "MA1088-AP",
+                "ARUN RAO"
+            ],
+            "++email": [
+                "augurtech@bbnl.co.in",
+                "latha@bbnl.co.in"
+            ],
+            "role": "manager admin",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-03-08 09:56:21",
+                "2017-03-08 09:48:35",
+                "2017-03-08 09:50:06",
+                "2017-03-08 09:51:08",
+                "2020-07-05 02:18:45"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Karnataka",
+            "asn": "AS55947",
+            "org": "Bangalore Broadband Network Pvt Ltd",
+            "city": "Bengaluru",
+            "address": "100 4TH MAIN ROAD AGS COLONY ANAND NAGAR ,Bangalore,Karnataka-560032",
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "pragma": "no-cache",
+            "server": "lighttpd\/1.4.35",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Fri, 17 Jun 2022 01:50:12 GMT",
+            "++target": "https:\/\/103.87.129.84\/",
+            "++redirect": "https:\/\/103.87.129.84\/gui\/login.cgi"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-03-18 11:21:32",
+            "org": "route",
+            "expires": "2039-03-13 11:21:32",
+            "issuer": "\/C=OS\/ST=route\/L=route\/O=route\/OU=route\/CN=route\/E=route",
+            "++subject": "route",
+            "subject": "\/C=OS\/ST=route\/L=route\/O=route\/OU=route\/CN=route\/E=route",
+            "fingerprint": "d07d1f33c23176c83b5979be10e4da05bfbab6dc320edc9b830731dda74230e2"
+        },
+        "meta": {
+            "++title": "Router",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5668d56305ea71e37a04eac727868c2e.jpeg"
+        }
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "qid": null,
+    "iid": 1544514,
+    "indicator": "218.149.228.147",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2018-06-20 10:01:41",
+    "stamp_updated": "2024-12-11 19:15:37",
+    "stamp_seen": "2024-12-11 19:15:37",
+    "stamp_probed": "2024-08-28 22:52:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39161889,
+                "indicator": "https:\/\/218.149.228.147\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2018-06-20 10:01:41"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-01 22:55:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "GoAhead"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "218.144.0.0 - 218.151.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-02-06T02:32:44Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Changwon",
+            "region": "Gyeongsangnam-do",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "long": "128.6712",
+            "lat": "35.2103",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "server": "GoAhead-Webs",
+            "set-cookie": "sid=0; path=\/;",
+            "++code": "302",
+            "++status": "Redirect",
+            "++content-type": "text\/html",
+            "location": "https:\/\/218.149.228.147\/",
+            "date": "Wed Aug 28 22:52:41 2024"
+        },
+        "ssl": {
+            "cipher": "RC4-SHA",
+            "issuer": "\/C=US\/ST=California\/L=Sunnyvale\/O=Ruckus Wireless, Inc.",
+            "subject": "\/C=US\/ST=California\/L=Sunnyvale\/O=Ruckus Wireless Inc\/CN=Ruckus Wireless Inc. SN-511004007937",
+            "domain": "Ruckus Wireless Inc. SN-511004007937"
+        }
+    }
+}

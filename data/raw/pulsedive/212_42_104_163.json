@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 55336920,
+    "indicator": "212.42.104.163",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-22 06:50:47",
+    "stamp_updated": "2024-12-14 11:29:39",
+    "stamp_seen": "2024-11-29 14:47:09",
+    "stamp_probed": "2024-09-30 09:48:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-22 06:50:47"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-10 12:44:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "KG",
+            "mnt-by": "ELCAT-RIPE-MNT",
+            "tech-c": [
+                "ZED-RIPE",
+                "IM420-RIPE",
+                "UZEL-RIPE",
+                "MP34619-RIPE",
+                "PSV",
+                "KIM30-RIPE"
+            ],
+            "origin": "AS8449",
+            "descr": "ISP \"ELCAT\" Local Registry",
+            "admin-c": [
+                "LKA1-RIPE",
+                "UZEL-RIPE"
+            ],
+            "role": "ELCAT NOC",
+            "abuse-mailbox": "netgroup@elcat.kg",
+            "address": "71 Kievskaya Str",
+            "nic-hdl": "UZEL-RIPE",
+            "created": [
+                "2013-04-04T06:48:36Z",
+                "2013-11-02T04:34:13Z",
+                "2022-05-19T06:14:46Z"
+            ],
+            "++registrant": [
+                "LKA1-RIPE",
+                "UZEL-RIPE"
+            ],
+            "++abuse": "netgroup@elcat.kg",
+            "++email": "netgroup@elcat.kg",
+            "last-modified": [
+                "2013-11-02T04:34:13Z",
+                "2023-04-20T07:44:49Z",
+                "2022-05-19T06:14:46Z"
+            ],
+            "route": "212.42.104.0\/24",
+            "inetnum": "212.42.104.160 - 212.42.104.191",
+            "++registered": [
+                "2022-05-19 06:14:46",
+                "2013-04-04 06:48:36",
+                "2013-11-02 04:34:13"
+            ],
+            "++updated": [
+                "2023-04-20 07:44:49",
+                "2013-11-02 04:34:13"
+            ],
+            "netname": "NAMBA-TAXI-KG-NET"
+        },
+        "geo": {
+            "country": "Kyrgyzstan",
+            "countrycode": "KG",
+            "city": "Bishkek",
+            "asn": "AS8449",
+            "org": "ElCat Ltd.",
+            "region": "Gorod Bishkek",
+            "lat": "42.8696",
+            "long": "74.5932"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "cache-control": "max-age=31536000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "etag": "W\/\"66741f94-1354\"",
+            "last-modified": "Thu, 20 Jun 2024 12:24:52 GMT",
+            "date": "Tue, 23 Jul 2024 22:48:17 GMT",
+            "expires": "Wed, 23 Jul 2025 22:48:19 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "testing.apex-consulting.io",
+            "subject": "\/CN=testing.apex-consulting.io",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "expires": "2024-10-13 20:29:22",
+            "valid": "2024-07-15 20:29:23"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.3)\n",
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u3\n"
+        },
+        "dns": {
+            "ptr": "212-42-104-163.static.elcat.kg"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6c976c1872b37293b0a70b6dca408c0e.jpeg"
+        }
+    }
+}

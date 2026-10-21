@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 60009234,
+    "indicator": "89.37.121.214",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-07 15:40:18",
+    "stamp_updated": "2024-12-11 10:46:33",
+    "stamp_seen": "2024-12-07 19:30:45",
+    "stamp_probed": "2024-07-07 04:26:59",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60009389,
+                "indicator": "http:\/\/89.37.121.214\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:28:52"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-07 15:40:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP"
+        ],
+        "technology": [
+            "Caddy",
+            "Go"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "VipNET-MNT"
+            ],
+            "country": "RO",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "NETVISION-MNT",
+                "VipNET-MNT"
+            ],
+            "++phone": [
+                "+40215390000",
+                "+40215390088"
+            ],
+            "abuse-c": "PTIN1-RIPE",
+            "fax-no": "+40215390016",
+            "mnt-domains": "VipNET-MNT",
+            "mnt-lower": "VipNET-MNT",
+            "mnt-routes": "VipNET-MNT",
+            "netname": "RO-VIPNET-20051129",
+            "org": "ORG-VNS2-RIPE",
+            "org-name": "Prime Telecom srl",
+            "organisation": "ORG-VNS2-RIPE",
+            "origin": "AS39737",
+            "descr": [
+                "Prime Telecom",
+                "Prime Telecom SRL"
+            ],
+            "admin-c": [
+                "COC2-RIPE",
+                "AS33998-RIPE",
+                "DM16346-RIPE"
+            ],
+            "route": "89.37.120.0\/21",
+            "inetnum": "89.37.120.0 - 89.37.127.255",
+            "created": [
+                "2006-07-08T15:22:59Z",
+                "2006-07-12T13:37:34Z",
+                "2015-02-03T11:57:37Z",
+                "2018-09-18T14:16:39Z"
+            ],
+            "phone": [
+                "+40215390000",
+                "+40215390088"
+            ],
+            "++registrant": [
+                "COC2-RIPE",
+                "AS33998-RIPE",
+                "DM16346-RIPE",
+                "Dan Mosneanu"
+            ],
+            "last-modified": [
+                "2018-12-04T11:23:41Z",
+                "2021-09-14T11:26:40Z",
+                "2021-02-22T12:20:38Z",
+                "2023-06-22T13:10:38Z"
+            ],
+            "tech-c": "DM16346-RIPE",
+            "nic-hdl": "DM16346-RIPE",
+            "person": "Dan Mosneanu",
+            "address": [
+                "ROMANIA",
+                "BUCHAREST",
+                "34 Lascar Catargiu, Bucharest",
+                "010673"
+            ],
+            "++registered": [
+                "2006-07-12 13:37:34",
+                "2018-09-18 14:16:39",
+                "2015-02-03 11:57:37",
+                "2006-07-08 15:22:59"
+            ],
+            "++updated": [
+                "2021-09-14 11:26:40",
+                "2021-02-22 12:20:38",
+                "2023-06-22 13:10:38",
+                "2018-12-04 11:23:41"
+            ]
+        },
+        "geo": {
+            "city": "Bucharest",
+            "country": "Romania",
+            "countrycode": "RO",
+            "asn": "AS39737",
+            "lat": "44.4946",
+            "address": [
+                "ROMANIA",
+                "BUCHAREST",
+                "34 Lascar Catargiu, Bucharest",
+                "010673"
+            ],
+            "org": [
+                "ORG-VNS2-RIPE",
+                "Prime Telecom srl"
+            ],
+            "long": "26.0578",
+            "region": "Bucure\u0219ti"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "content-length": "19",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/plain",
+            "++target": "http:\/\/89.37.121.214\/",
+            "date": "Sat, 07 Dec 2024 19:30:11 GMT"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/818ea6158b6f34af8e1da3cc0620c57c.jpeg"
+        },
+        "dns": {
+            "ptr": "89.37.121.214.primetelecom.ro"
+        }
+    }
+}

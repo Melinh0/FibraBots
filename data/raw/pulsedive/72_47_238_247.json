@@ -1,0 +1,225 @@
+{
+    "qid": null,
+    "iid": 65043142,
+    "indicator": "72.47.238.247",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-16 09:23:53",
+    "stamp_updated": "2024-12-09 10:38:53",
+    "stamp_seen": "2024-12-07 19:30:46",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65046539,
+                "indicator": "https:\/\/72.47.238.247\/"
+            },
+            {
+                "iid": 65046540,
+                "indicator": "http:\/\/72.47.238.247\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:28:53"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-16 09:23:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Plesk"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@godaddy.com",
+            "nettype": "Direct Allocation",
+            "orgnocname": "Network Operations Center",
+            "orgtechname": "Network Operations Center",
+            "orgabusename": "Abuse Department",
+            "parent": "NET72 (NET-72-0-0-0-0)",
+            "++email": "noc@godaddy.com",
+            "++phone": "+1-480-505-8809",
+            "++registrant": "GoDaddy.com, LLC",
+            "orgabuseemail": "abuse@godaddy.com",
+            "orgabusehandle": "ABUSE51-ARIN",
+            "orgabusephone": "+1-480-624-2505",
+            "organization": "GoDaddy.com, LLC (GODAD)",
+            "orgid": "GODAD",
+            "orgname": "GoDaddy.com, LLC",
+            "orgnocemail": "noc@godaddy.com",
+            "orgnochandle": "NOC124-ARIN",
+            "orgnocphone": "+1-480-505-8809",
+            "orgtechemail": "noc@godaddy.com",
+            "orgtechhandle": "NOC124-ARIN",
+            "orgtechphone": "+1-480-505-8809",
+            "regdate": [
+                "2007-06-01",
+                "2007-05-30"
+            ],
+            "stateprov": "AZ",
+            "++registered": "2007-06-01 00:00:00",
+            "city": "Tempe",
+            "postalcode": "85284",
+            "cidr": "72.47.192.0\/18",
+            "nethandle": "NET-72-47-192-0-1",
+            "netname": "MEDIATEMPLE-105",
+            "netrange": "72.47.192.0 - 72.47.255.255",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GODAD",
+                "https:\/\/rdap.arin.net\/registry\/ip\/72.47.192.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE51-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "address": "2155 E GoDaddy Way",
+            "originas": "AS31815",
+            "updated": [
+                "2023-06-20",
+                "2024-11-25"
+            ],
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "AZ",
+            "city": "Tempe",
+            "zip": "85284",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "GoDaddy.com, LLC (GODAD)",
+                "GO-DADDY-COM-LLC"
+            ],
+            "asn": "AS398101",
+            "address": "2155 E GoDaddy Way"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "Apache",
+            "accept-ranges": "bytes",
+            "x-powered-by": "PleskLin",
+            "content-length": "5937",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"24f23-1731-56551984bc6cf\"",
+            "last-modified": "Fri, 16 Feb 2018 10:13:25 GMT",
+            "++target": "http:\/\/72.47.238.247\/",
+            "date": "Sun, 08 Dec 2024 00:25:56 GMT",
+            "++redirect": "https:\/\/72.47.238.247\/"
+        },
+        "meta": {
+            "cache-control": [
+                "no-cache",
+                "max-age=0"
+            ],
+            "pragma": "no-cache",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+            "expires": [
+                "Tue, 01 Jan 1980 1:00:00 GMT",
+                "0"
+            ],
+            "robots": "NOINDEX, FOLLOW, NOODP",
+            "description": "Category: Internet, This is an automatically generated default server page successfully deployed by (mt) Media Temple web hosting.",
+            "++title": "Business-Class Web Hosting by (mt) Media Temple",
+            "charset": "utf-8"
+        },
+        "ssl": {
+            "org": "Parallels Panel",
+            "subject": "\/C=US\/ST=Virginia\/L=Herndon\/O=Parallels\/OU=Parallels Panel\/CN=Parallels Panel\/E=info@parallels.com",
+            "issuer": "\/C=US\/ST=Virginia\/L=Herndon\/O=Parallels\/OU=Parallels Panel\/CN=Parallels Panel\/E=info@parallels.com",
+            "version": "v0",
+            "++subject": "Parallels",
+            "valid": "2015-02-13 21:14:48",
+            "expires": "2016-02-13 21:14:48",
+            "fingerprint": "3826522bad5bbd80aff3f12efffdd6e9a7f48455dc101cd088c23658f4298991"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220 hosting.giantvoices.com ESMTP Postfix\n",
+            "21": "220 ProFTPD Server (ProFTPD) [72.47.238.247]\n",
+            "3306": "_\u0000\u0000\u0000\ufffdj\u0004Host '45-56-108-251.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/75e2b5187dc7c71b47b0cf2d1dd0f1a6.jpeg"
+        }
+    }
+}

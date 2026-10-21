@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 17751349,
+    "indicator": "23.227.38.74",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-11-11 19:40:52",
+    "stamp_updated": "2025-01-07 15:47:33",
+    "stamp_seen": "2025-01-07 15:47:33",
+    "stamp_probed": "2024-07-11 11:44:04",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 7,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-01-18 01:28:36"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2021-01-18 01:28:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "CloudFlare"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": [
+                "ON",
+                "Ontario"
+            ],
+            "asn": "AS13335",
+            "city": "Ottawa",
+            "org": [
+                "Shopify, Inc. (SHOPI-1)",
+                "CLOUDFLARENET"
+            ],
+            "lat": "45.4153",
+            "long": "-75.6894",
+            "zip": "K2P 2L8",
+            "address": "151 O'Connor Street, Ground floor"
+        },
+        "whois": {
+            "nettype": "Direct Allocation",
+            "country": "CA",
+            "++registered": [
+                "2013-09-19 00:00:00",
+                "2013-07-09 00:00:00"
+            ],
+            "stateprov": "ON",
+            "parent": "NET23 (NET-23-0-0-0-0)",
+            "city": "Ottawa",
+            "regdate": [
+                "2013-07-09",
+                "2013-09-19"
+            ],
+            "++abuse": "abuse@shopify.com",
+            "++email": "ops+arin@shopify.com",
+            "++phone": "+1-888-746-7439",
+            "++registrant": "Shopify, Inc.",
+            "cidr": "23.227.32.0\/19",
+            "nethandle": "NET-23-227-32-0-1",
+            "netname": "SHOPIFY-NET",
+            "netrange": "23.227.32.0 - 23.227.63.255",
+            "orgabuseemail": "abuse@shopify.com",
+            "orgabusephone": "+1-888-746-7439",
+            "organization": "Shopify, Inc. (SHOPI-1)",
+            "orgid": "SHOPI-1",
+            "orgname": "Shopify, Inc.",
+            "orgnocemail": "ops+arin@shopify.com",
+            "orgnochandle": "SHOPI-ARIN",
+            "orgnocname": "Shopify Operations",
+            "orgnocphone": "+1-888-746-7439",
+            "orgtechemail": "ops+arin@shopify.com",
+            "orgtechhandle": "SHOPI-ARIN",
+            "orgtechname": "Shopify Operations",
+            "orgtechphone": "+1-888-746-7439",
+            "originas": "AS62679",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/SHOPI-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/23.227.32.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SHOPI-1"
+            ],
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/SHOPI-ARIN",
+            "postalcode": "K2P 2L8",
+            "address": "151 O'Connor Street, Ground floor",
+            "updated": [
+                "2021-12-14",
+                "2022-10-03"
+            ],
+            "++updated": "2022-10-03 00:00:00",
+            "orgabusename": "Shopify Abuse",
+            "orgabusehandle": "SHOPI2-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/SHOPI2-ARIN"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "server": "cloudflare",
+            "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+            "referrer-policy": "same-origin",
+            "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "date": "Tue, 11 Jun 2024 14:36:12 GMT",
+            "cf-ray": "892255036b30cec9-SJC"
+        },
+        "ssl": {
+            "domain": [
+                "myshopify.com",
+                "*.myshopify.com"
+            ],
+            "version": "v3",
+            "org": "Cloudflare Inc ECC CA-3",
+            "issuer": "\/C=US\/O=Cloudflare, Inc.\/CN=Cloudflare Inc ECC CA-3",
+            "subject": "\/C=US\/ST=California\/L=San Francisco\/O=Cloudflare, Inc.\/CN=*.myshopify.com",
+            "expires": "2024-07-31 23:59:59",
+            "valid": "2023-08-02 00:00:00"
+        },
+        "meta": {
+            "robots": "noindex, nofollow",
+            "viewport": "width=device-width,initial-scale=1",
+            "charset": "UTF-8",
+            "content-type": "text\/html; charset=UTF-8",
+            "x-ua-compatible": "IE=Edge"
+        },
+        "dns": {
+            "ptr": "shops.myshopify.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3cfd8a8b225c7d9fe976367579113cd5.jpeg"
+        }
+    }
+}

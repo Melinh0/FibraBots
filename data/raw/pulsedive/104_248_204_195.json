@@ -1,0 +1,212 @@
+{
+    "qid": null,
+    "iid": 33069315,
+    "indicator": "104.248.204.195",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-20 07:12:30",
+    "stamp_updated": "2024-12-11 10:37:33",
+    "stamp_seen": "2024-11-29 20:26:37",
+    "stamp_probed": "2024-08-27 21:58:52",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 36216408,
+                "indicator": "http:\/\/104.248.204.195\/"
+            },
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-06-18 00:44:21"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-15 00:13:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "NL",
+                "US"
+            ],
+            "country": [
+                "United States",
+                "The Netherlands"
+            ],
+            "city": [
+                "New York",
+                "Amsterdam"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "North Holland",
+                "NY"
+            ],
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "52.352",
+            "long": "4.9392"
+        },
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "parent": "NET104 (NET-104-0-0-0-0)",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-08-06"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2018-08-06 00:00:00"
+            ],
+            "originas": "AS14061",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.248.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "nethandle": "NET-104-248-0-0-1",
+            "cidr": "104.248.0.0\/16",
+            "netrange": "104.248.0.0 - 104.248.255.255",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-104-248-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "date": "Wed, 02 Oct 2024 01:08:11 GMT",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=lUl4Npb9efR5L9BSErdJ%2Bj6Ch8LPh%2BMhlZrPbNHqKG4XRM78jVW%2FfxczrgOMilIyrqnFtZylrOm26y%2BQygKT6BiINJu4NtgZa5BskJVv3FWC1d6XyN6xyufKqvoWDbQZMFQK8VIFsxOUMq8%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "cf-ray": "8cc0ccc31ddb1c06-OSL",
+            "++target": "http:\/\/104.248.204.195\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "61fcef98.tidalcoinage.internet-measurement.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

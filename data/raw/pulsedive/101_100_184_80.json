@@ -1,0 +1,237 @@
+{
+    "qid": null,
+    "iid": 46836444,
+    "indicator": "101.100.184.80",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-04-29 02:26:12",
+    "stamp_updated": "2024-12-16 16:57:55",
+    "stamp_seen": "2024-12-16 16:57:55",
+    "stamp_probed": "2024-09-29 20:55:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 46836575,
+                "indicator": "https:\/\/101.100.184.80\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-29 02:26:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-20 10:30:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "D3",
+            "jQuery",
+            "jQuery UI",
+            "Modernizr",
+            "Moment.js"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "SG",
+                "ZZ"
+            ],
+            "role": [
+                "Network Admin",
+                "ABUSE REPUBLICTELECOMSG"
+            ],
+            "descr": [
+                "Kew Green",
+                "Republic Telecom",
+                "231 Kew Crescent"
+            ],
+            "e-mail": "admin@republictelecom.com.sg",
+            "inetnum": "101.100.160.0 - 101.100.191.255",
+            "irt": "IRT-REPUBLICTELECOM-SG",
+            "mnt-by": [
+                "MAINT-REPUBLICTELECOM-SG",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-REPUBLICTELECOM-SG",
+            "mnt-lower": "MAINT-REPUBLICTELECOM-SG",
+            "mnt-routes": "MAINT-REPUBLICTELECOM-SG",
+            "netname": "REPUBLICTELECOM",
+            "org-name": "Republic Telecom",
+            "organisation": "ORG-RT6-AP",
+            "org": "ORG-RT6-AP",
+            "address": [
+                "11 Lorong 3 Toa Payoh",
+                "11 Lorong 3 Toa Payoh, Jackson Square Block B, #04-11\/15, Singapore 319579",
+                "11 Lorong 3 Toa Payoh, Jackson Square Block B, # 04-11\/15, Singapore 319579",
+                "Jackson Square Block B, # 04-11\/15"
+            ],
+            "++phone": [
+                "+000000000",
+                "+65-68161010"
+            ],
+            "phone": [
+                "+000000000",
+                "+65 68161010",
+                "+65-68161010"
+            ],
+            "origin": "AS56300",
+            "last-modified": [
+                "2018-10-25T06:03:31Z",
+                "2021-12-22T03:57:49Z",
+                "2021-12-22T03:57:19Z",
+                "2024-07-10T13:00:14Z",
+                "2024-10-02T13:34:39Z",
+                "2024-10-02T13:35:24Z"
+            ],
+            "route": "101.100.184.0\/24",
+            "++email": "admin@republictelecom.com.sg",
+            "++abuse": "admin@republictelecom.com.sg",
+            "abuse-mailbox": "admin@republictelecom.com.sg",
+            "abuse-c": "AR934-AP",
+            "nic-hdl": [
+                "AR934-AP",
+                "NA950-AP"
+            ],
+            "admin-c": "NA950-AP",
+            "notify": "admin@republictelecom.com.sg",
+            "++registrant": "NA950-AP",
+            "tech-c": "NA950-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-12-22 03:57:19",
+                "2024-10-02 13:34:39",
+                "2024-07-10 13:00:14",
+                "2018-10-25 06:03:31",
+                "2024-10-02 13:35:24"
+            ]
+        },
+        "geo": {
+            "city": "Singapore",
+            "country": [
+                "Singapore",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "SG",
+                "ZZ"
+            ],
+            "asn": "AS56300",
+            "org": [
+                "MyRepublic Ltd.",
+                "ORG-RT6-AP"
+            ],
+            "address": [
+                "11 Lorong 3 Toa Payoh",
+                "11 Lorong 3 Toa Payoh, Jackson Square Block B, #04-11\/15, Singapore 319579",
+                "11 Lorong 3 Toa Payoh, Jackson Square Block B, # 04-11\/15, Singapore 319579",
+                "Jackson Square Block B, # 04-11\/15"
+            ],
+            "long": "103.8588",
+            "lat": "1.3057"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "server": "Server",
+            "content-length": "8481",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/101.100.184.80\/",
+            "++target": "http:\/\/101.100.184.80\/",
+            "date": "Mon, 18 Nov 2024 13:26:45 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "x-ua-compatible": "IE=Edge;chrome=1",
+            "copyright": "Copyright 2012 Ubiquiti Networks, Inc. All rights reserved.",
+            "++title": "EdgeOS",
+            "charset": "utf-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "UbiquitiRouterUI",
+            "org": "UbiquitiRouterUI",
+            "subject": "\/C=US\/CN=UbiquitiRouterUI\/O=Ubiquiti Inc.\/ST=New York\/L=New York",
+            "issuer": "\/C=US\/CN=UbiquitiRouterUI\/O=Ubiquiti Inc.\/ST=New York\/L=New York",
+            "valid": "2022-12-23 22:25:26",
+            "expires": "2025-03-26 22:25:26",
+            "++subject": "Ubiquiti Inc.",
+            "fingerprint": "217498d701b5c822de6f20981d882411c573e1e9688c0107390f808a1cf8ec64"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7\n"
+        },
+        "dns": {
+            "ptr": "80-184-100-101.myrepublic.com.sg"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ef33f58e8345626ab7ea8a9f24ed0a74.jpeg"
+        }
+    }
+}

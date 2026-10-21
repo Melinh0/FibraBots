@@ -1,0 +1,164 @@
+{
+    "qid": null,
+    "iid": 3098772,
+    "indicator": "61.75.30.52",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2018-10-12 23:30:34",
+    "stamp_updated": "2024-12-16 01:53:04",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2019-05-31 23:00:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 2,
+            "description": "found in third-party feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2018-10-12 23:30:34"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2018-10-30 14:11:49"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2018-10-12 23:30:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-09 22:49:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "61.72.0.0 - 61.77.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-02-03T02:21:55Z",
+                "2019-10-01T08:41:39Z"
+            ],
+            "auth": "mnt-by: MNT-KRNIC-AP",
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "++updated": "2019-10-01 00:00:00",
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr"
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "isp": "Korea Telecom",
+            "org": "Korea Telecom",
+            "region": "Seoul",
+            "city": "Dongjak-gu",
+            "lat": "37.5006",
+            "long": "126.9515",
+            "country": "Korea, The Republic of",
+            "zip": "06970"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4",
+            "21": "220 (vsFTPd 3.0.2)"
+        }
+    }
+}

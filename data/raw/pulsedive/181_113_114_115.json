@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 45753811,
+    "indicator": "181.113.114.115",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-03-16 00:12:40",
+    "stamp_updated": "2024-12-16 11:13:03",
+    "stamp_seen": "2024-12-16 11:13:03",
+    "stamp_probed": "2024-08-25 08:11:33",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 45753959,
+                "indicator": "http:\/\/181.113.114.115\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-04 08:31:09"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-16 00:12:40"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-04-04 08:31:09"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-03-21 08:49:29"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Zimbra"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "allocated",
+            "country": "EC",
+            "created": [
+                "20130227",
+                "20140506"
+            ],
+            "nserver": [
+                "TUNGURAHUA.ANDINANET.NET",
+                "PICHINCHA.ANDINANET.NET"
+            ],
+            "owner": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+            "owner-c": "EVG8",
+            "ownerid": "EC-ANSA-LACNIC",
+            "tech-c": "EVG8",
+            "abuse-c": "EVG8",
+            "address": [
+                "3110 - Quito - Pi",
+                "9 de Octubre N24-113, 113, Luis Cordero. Edif Droira. 7mo Piso",
+                "170524 - Quito - PICHINCHA",
+                "9 de Octubre y Luis Cordero, 24, 113"
+            ],
+            "nic-hdl": "EVG8",
+            "phone": [
+                "+593  023731700 [0000]",
+                "+593  23731700 [21009]"
+            ],
+            "person": "Sandra L\ufffdpez",
+            "++registrant": "Sandra L\ufffdpez",
+            "responsible": "Sandra L\ufffdpez - CNT EP",
+            "++email": "sandra.lopez@cnt.gob.ec",
+            "e-mail": "sandra.lopez@cnt.gob.ec",
+            "inetnum": "181.113.0.0\/16",
+            "inetrev": "181.113.0.0\/16",
+            "changed": [
+                "20211228",
+                "20230222"
+            ],
+            "aut-num": [
+                "AS28006",
+                "AS27757",
+                "AS14420"
+            ],
+            "nsstat": "20241024 AA",
+            "nslastaa": "20241024"
+        },
+        "geo": {
+            "asn": "AS28006",
+            "city": "Quito",
+            "region": "Pichincha",
+            "country": "Ecuador",
+            "countrycode": "EC",
+            "org": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+            "lat": "-0.2309",
+            "long": "-78.5211"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "vary": "User-Agent",
+            "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+            "content-language": "en-US",
+            "x-ua-compatible": "IE=edge",
+            "set-cookie": "ZM_TEST=true",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "-1",
+            "++target": "http:\/\/181.113.114.115\/",
+            "date": "Tue, 22 Oct 2024 04:47:33 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "description": "Zimbra provides open source server and client software for messaging and collaboration. To find out more visit http:\/\/www.zimbra.com.",
+            "++title": "Zimbra Web Client Sign In",
+            "apple-mobile-web-app-capable": "yes",
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "cookies": {
+            "zm_test": "true"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK mail.salud03d01.gob.ec Zimbra IMAP4rev1 server ready\n",
+            "25": "220 mail.salud03d01.gob.ec ESMTP Postfix\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "mail1.salud03d01.gob.ec"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/62e2604bbf6d52445bba5122cbda5c15.jpeg"
+        }
+    }
+}

@@ -1,0 +1,211 @@
+{
+    "qid": null,
+    "iid": 65638301,
+    "indicator": "1.32.216.148",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-06 10:16:32",
+    "stamp_updated": "2024-12-15 16:38:31",
+    "stamp_seen": "2024-12-06 10:16:51",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65638360,
+                "indicator": "https:\/\/1.32.216.148\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-08 16:15:47"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 10:16:32"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-08 16:15:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": [
+                "KR",
+                "HK",
+                "ZZ"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "++phone": [
+                "+603-7806-1316",
+                "+000000000"
+            ],
+            "address": [
+                "399 Chai Wan Road, Chai Wan, Hong Kong",
+                "202 ,2\/F Kam Sang BLDG 257,Des Voeux RD Central Hong Kong"
+            ],
+            "admin-c": [
+                "RCPL3-AP",
+                "BCPL4-AP"
+            ],
+            "e-mail": [
+                "abuse@rackip.com",
+                "cs.mail@ctgserver.com"
+            ],
+            "last-modified": [
+                "2017-03-14T09:18:17Z",
+                "2023-10-04T04:50:00Z",
+                "2024-07-12T03:27:30Z",
+                "2024-07-12T03:28:19Z",
+                "2024-08-22T02:28:57Z",
+                "2024-03-31T12:19:35Z"
+            ],
+            "mnt-by": [
+                "MAINT-RCPL-SG",
+                "APNIC-ABUSE"
+            ],
+            "nic-hdl": [
+                "BCPL4-AP",
+                "AC2487-AP"
+            ],
+            "phone": [
+                "+603-7806-1316",
+                "+000000000"
+            ],
+            "role": [
+                "BGP CONSULTANCY PTE LTD administrator",
+                "ABUSE CTGHK"
+            ],
+            "tech-c": [
+                "RCPL3-AP",
+                "BCPL4-AP"
+            ],
+            "descr": [
+                "RACKIP CONSULTANCY PTE. LTD.",
+                "CTG Server Ltd."
+            ],
+            "origin": [
+                "AS64050",
+                "AS152194"
+            ],
+            "++registrant": [
+                "BCPL4-AP",
+                "RCPL3-AP"
+            ],
+            "++email": [
+                "abuse@rackip.com",
+                "cs.mail@ctgserver.com"
+            ],
+            "irt": "IRT-CTG-HK",
+            "mnt-irt": "IRT-CTG-HK",
+            "abuse-c": "AC2487-AP",
+            "++abuse": "cs.mail@ctgserver.com",
+            "abuse-mailbox": "cs.mail@ctgserver.com",
+            "route": "1.32.216.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-03-14 09:18:17",
+                "2024-07-12 03:27:30",
+                "2024-07-12 03:28:19",
+                "2024-08-22 02:28:57",
+                "2024-03-31 12:19:35",
+                "2023-10-04 04:50:00"
+            ],
+            "inetnum": "1.32.216.0 - 1.32.216.255",
+            "netname": "CTG032-216-KR"
+        },
+        "geo": {
+            "countrycode": [
+                "KR",
+                "HK",
+                "SG",
+                "ZZ"
+            ],
+            "country": [
+                "Singapore",
+                "Hong Kong SAR China",
+                "South Korea",
+                "Unknown Region"
+            ],
+            "address": [
+                "399 Chai Wan Road, Chai Wan, Hong Kong",
+                "202 ,2\/F Kam Sang BLDG 257,Des Voeux RD Central Hong Kong"
+            ],
+            "lat": "1.3673",
+            "long": "103.8014",
+            "asn": "AS152194",
+            "org": "CTG Server Limited"
+        },
+        "http": {
+            "content-length": "306",
+            "content-type": "text\/xml",
+            "set-cookie": "webvpncontext=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=\/; Secure",
+            "x-transcend-version": "1",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/xml",
+            "++target": "https:\/\/1.32.216.148\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "fingerprint": "bff2ad384d23b95d3b45c01b94f6ae29e064d1dae2e718efe1532f1f61740c57",
+            "org": "scvm5580194935.local",
+            "subject": "\/CN=scvm5580194935.local",
+            "issuer": "\/CN=scvm5580194935.local",
+            "domain": "scvm5580194935.local",
+            "valid": "2024-12-06 06:48:53",
+            "expires": "2034-12-04 06:48:53"
+        }
+    }
+}

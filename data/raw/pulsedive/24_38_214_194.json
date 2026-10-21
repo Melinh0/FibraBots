@@ -1,0 +1,174 @@
+{
+    "qid": null,
+    "iid": 56986333,
+    "indicator": "24.38.214.194",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-07 15:56:22",
+    "stamp_updated": "2024-12-10 10:40:06",
+    "stamp_seen": "2024-11-18 21:35:26",
+    "stamp_probed": "2024-08-27 22:19:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-05-31 17:36:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-07 15:56:22"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-05-31 17:36:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-12 10:38:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": "NY",
+            "++registrant": "Optimum Online",
+            "address": [
+                "111 New South Road",
+                "111 new south RD"
+            ],
+            "city": "Hicksville",
+            "custname": "Optimum Online (Cablevision Systems)",
+            "orgabusename": "OOL Hostmaster",
+            "organization": "Optimum Online (OPTO)",
+            "orgid": "OPTO",
+            "orgname": "Optimum Online",
+            "orgtechhandle": "OH4-ORG-ARIN",
+            "orgtechname": "OOL Hostmaster",
+            "originas": "AS6128",
+            "postalcode": "11801",
+            "parent": [
+                "NET24 (NET-24-0-0-0-0)",
+                "NETBLK-OOL-10BLK (NET-24-38-192-0-1)"
+            ],
+            "regdate": [
+                "1999-07-29",
+                "2011-10-03",
+                "2022-10-27"
+            ],
+            "++phone": "+1-516-803-2300",
+            "orgtechphone": "+1-516-803-2300",
+            "orgabusephone": "+1-516-803-2300",
+            "netname": [
+                "NETBLK-OOL-10BLK",
+                "OOL-CPE-EQUGNY-24-38-212-0-22"
+            ],
+            "nethandle": [
+                "NET-24-38-192-0-1",
+                "NET-24-38-212-0-1"
+            ],
+            "cidr": [
+                "24.38.192.0\/18",
+                "24.38.212.0\/22"
+            ],
+            "netrange": [
+                "24.38.192.0 - 24.38.255.255",
+                "24.38.212.0 - 24.38.215.255"
+            ],
+            "updated": [
+                "2012-03-02",
+                "2022-10-27",
+                "2023-12-02"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/OH4-ORG-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/OPTO",
+                "https:\/\/rdap.arin.net\/registry\/ip\/24.38.192.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/24.38.212.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C08980583"
+            ],
+            "++registered": "2022-10-27 00:00:00",
+            "customer": "Optimum Online (Cablevision Systems) (C08980583)",
+            "orgabusehandle": "OH4-ORG-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/OH4-ORG-ARIN",
+            "++email": "hostmaster@alticeusa.com",
+            "orgtechemail": "hostmaster@alticeusa.com",
+            "++updated": "2023-12-02 00:00:00",
+            "++abuse": "hostmaster@alticeusa.com",
+            "orgabuseemail": "hostmaster@alticeusa.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "New York",
+            "asn": "AS6128",
+            "city": "Westhampton Beach",
+            "org": "CABLE-NET-1",
+            "lat": "40.8032",
+            "long": "-72.6145"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.1\n"
+        },
+        "dns": {
+            "ptr": "ool-1826d6c2.dyn.optonline.net"
+        }
+    }
+}

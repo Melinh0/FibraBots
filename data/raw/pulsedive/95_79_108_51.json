@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 48993101,
+    "indicator": "95.79.108.51",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-07-08 11:52:54",
+    "stamp_updated": "2024-12-16 18:07:49",
+    "stamp_seen": "2024-12-16 18:07:49",
+    "stamp_probed": "2024-08-29 01:03:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-08 11:52:54"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-11 10:27:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "org-type": "OTHER",
+            "address": [
+                "Russian Federation",
+                "Nizhny Novgorod, Russia, 603086",
+                "Manufakturnaya str., 14",
+                "603086 Nizhny Novgorod",
+                "AO \"Company \"ER-Telecom\" Nizhny Novgorod"
+            ],
+            "mnt-by": "RAID-MNT",
+            "mnt-ref": "RAID-MNT",
+            "descr": [
+                "Nizhny Novgorod, Russia",
+                "TM DOM.RU, Nizhny Novgorod ISP",
+                "Individual PPPoE customers",
+                "CJSC \"ER-Telecom Holding\" Nizhny Novgorod branch"
+            ],
+            "abuse-mailbox": "abuse@domru.ru",
+            "admin-c": [
+                "NOCC5-RIPE",
+                "ERTH3-RIPE"
+            ],
+            "created": [
+                "2007-12-19T08:19:13Z",
+                "2007-12-19T08:18:53Z",
+                "2009-09-28T11:32:00Z",
+                "2010-11-26T06:21:47Z"
+            ],
+            "fax-no": [
+                "+7 831 215 78 08",
+                "+7 (831) 259-78-01"
+            ],
+            "nic-hdl": "NOCC5-RIPE",
+            "org": "ORG-CNN1-RIPE",
+            "org-name": "JSC \"ER-Telecom Holding\" Nizhny Novgorod",
+            "organisation": "ORG-CNN1-RIPE",
+            "origin": "AS42682",
+            "phone": [
+                "+7 831 215 78 08",
+                "+7 (831) 259-78-01"
+            ],
+            "tech-c": [
+                "NOCC5-RIPE",
+                "RAID1-RIPE"
+            ],
+            "abuse-c": "RAID1-RIPE",
+            "netname": "ERTH-NNOV-PPPOE-24-NET",
+            "route": "95.79.108.0\/22",
+            "inetnum": "95.79.104.0 - 95.79.111.255",
+            "last-modified": [
+                "2011-01-19T06:12:18Z",
+                "2011-01-19T19:02:16Z",
+                "2019-10-16T12:10:39Z",
+                "2019-11-26T07:13:42Z"
+            ],
+            "++abuse": "abuse@domru.ru",
+            "++email": "abuse@domru.ru",
+            "++registrant": [
+                "NOCC5-RIPE",
+                "ERTH3-RIPE"
+            ],
+            "role": "Network Operation Center JSC ER-Telecom Company Nizhny Novgorod branch",
+            "source": "RIPE # Filtered",
+            "++updated": [
+                "2019-10-16 12:10:39",
+                "2019-11-26 07:13:42",
+                "2011-01-19 06:12:18"
+            ],
+            "++registered": [
+                "2009-09-28 11:32:00",
+                "2007-12-19 08:19:13",
+                "2007-12-19 08:18:53",
+                "2010-11-26 06:21:47"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "org": [
+                "JSC ER-Telecom Holding",
+                "ORG-CNN1-RIPE"
+            ],
+            "city": "Nizhniy Novgorod",
+            "asn": "AS42682",
+            "region": "Nizhny Novgorod Oblast",
+            "address": [
+                "Russian Federation",
+                "Manufakturnaya str., 14",
+                "Nizhny Novgorod, Russia, 603086",
+                "AO \"Company \"ER-Telecom\" Nizhny Novgorod",
+                "603086 Nizhny Novgorod"
+            ],
+            "long": "44.0012",
+            "lat": "56.3327",
+            "country": "Russia"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "dynamicip-95-79-108-51.pppoe.nn.ertelecom.ru"
+        }
+    }
+}

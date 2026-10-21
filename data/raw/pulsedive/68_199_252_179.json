@@ -1,0 +1,112 @@
+{
+    "qid": null,
+    "iid": 63633303,
+    "indicator": "68.199.252.179",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-27 05:20:41",
+    "stamp_updated": "2024-12-14 11:32:52",
+    "stamp_seen": "2024-09-27 05:48:25",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63634283,
+                "indicator": "https:\/\/68.199.252.179\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-27 05:20:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "New York",
+            "asn": "AS6128",
+            "city": "Southampton",
+            "lat": "40.904",
+            "long": "-72.4136",
+            "org": "CABLE-NET-1"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1",
+            "content-length": "365",
+            "++code": "503",
+            "++status": "Service Not Available",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/68.199.252.179\/",
+            "date": "Fri, 27 Sep 2024 05:48:16 GMT",
+            "++redirect": "https:\/\/68.199.252.179\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "RuckusPKI-DeviceSubCA-1",
+            "issuer": "\/CN=RuckusPKI-DeviceSubCA-1\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "++subject": "Ruckus Wireless Inc.",
+            "subject": "\/CN=SN-272072002437\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "expires": "2045-06-14 07:34:55",
+            "fingerprint": "4af1ec5ec712d73b68416ba24373db8d8622fbaa86a808dfb53d876c47b571c5",
+            "valid": "2020-06-13 07:34:55"
+        },
+        "meta": {
+            "++title": "503 Service Not Available"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/31e5c033318b3633bca997a7713e6aee.jpeg"
+        }
+    }
+}

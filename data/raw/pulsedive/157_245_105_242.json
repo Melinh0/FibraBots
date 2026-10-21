@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 62321825,
+    "indicator": "157.245.105.242",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-11 20:35:39",
+    "stamp_updated": "2024-10-07 18:34:55",
+    "stamp_seen": "2024-10-07 18:34:55",
+    "stamp_probed": "2024-09-30 04:32:40",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62321990,
+                "indicator": "https:\/\/www.aucjunction.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-11 20:35:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2019-05-09"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2019-05-09 00:00:00"
+            ],
+            "originas": "AS14061",
+            "parent": "NET157 (NET-157-0-0-0-0)",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/157.245.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "netrange": "157.245.0.0 - 157.245.255.255",
+            "nethandle": "NET-157-245-0-0-1",
+            "cidr": "157.245.0.0\/16",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-157-245-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "India"
+            ],
+            "countrycode": [
+                "US",
+                "IN"
+            ],
+            "city": [
+                "New York",
+                "Bengaluru"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "Karnataka",
+                "NY"
+            ],
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=UTF-8",
+            "content-length": "2015",
+            "++code": "500",
+            "++status": "Internal Server Error",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/www.aucjunction.com\/",
+            "++target": "http:\/\/157.245.105.242\/",
+            "date": "Tue, 01 Oct 2024 23:54:13 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/ST=Arizona\/L=Scottsdale\/O=GoDaddy.com, Inc.\/OU=http:\/\/certs.godaddy.com\/repository\/\/CN=Go Daddy Secure Certificate Authority - G2",
+            "version": "v3",
+            "org": "Go Daddy Secure Certificate Authority - G2",
+            "domain": [
+                "www.aucjunction.com",
+                "aucjunction.com"
+            ],
+            "expires": "2025-05-27 17:24:19",
+            "valid": "2024-05-27 17:24:19",
+            "subject": "\/CN=www.aucjunction.com",
+            "fingerprint": "02ea24b2badbb2f1a245dd20f095891040931472557ce8099f4af616421f8d9d"
+        },
+        "meta": {
+            "++title": "Database Error",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6ff6be22804556dd7f1a5a98c375a70.jpeg"
+        }
+    }
+}

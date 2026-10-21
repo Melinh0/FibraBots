@@ -1,0 +1,103 @@
+{
+    "qid": null,
+    "iid": 62394923,
+    "indicator": "176.96.243.175",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-15 21:15:51",
+    "stamp_updated": "2024-12-16 17:27:44",
+    "stamp_seen": "2024-12-16 17:27:44",
+    "stamp_probed": "2024-09-07 07:55:35",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62396816,
+                "indicator": "http:\/\/176.96.243.175\/"
+            },
+            {
+                "iid": 65114975,
+                "indicator": "https:\/\/176.96.243.175\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-15 21:15:51"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-08 12:23:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Uzbekistan",
+            "countrycode": "UZ",
+            "city": "Tashkent",
+            "lat": "41.2615",
+            "region": "Tashkent",
+            "org": "AIRNET llc",
+            "asn": "AS212860",
+            "long": "69.2177"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no",
+            "charset": "utf-8",
+            "++title": "Cabinet"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5406a148f2bb696b3b122f2f2d13cf3e.jpeg"
+        },
+        "http": {
+            "++target": "http:\/\/176.96.243.175\/",
+            "++redirect": "https:\/\/176.96.243.175\/login"
+        }
+    }
+}

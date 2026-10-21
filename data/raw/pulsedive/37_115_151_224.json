@@ -1,0 +1,80 @@
+{
+    "qid": null,
+    "iid": 61973171,
+    "indicator": "37.115.151.224",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-08-05 06:49:18",
+    "stamp_updated": "2024-11-11 18:32:23",
+    "stamp_seen": "2024-08-09 00:00:00",
+    "stamp_probed": "2024-08-05 06:49:25",
+    "stamp_retired": "2024-11-11 18:32:23",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-05 06:49:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23"
+        ],
+        "protocol": [
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Ukraine",
+            "countrycode": "UA",
+            "asn": "AS15895",
+            "isp": "Kyivstar PJSC",
+            "org": "Kyivstar PJSC",
+            "city": "Kyiv",
+            "zip": "01032",
+            "region": "Kyiv City",
+            "lat": "50.458",
+            "long": "30.5303"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd!\ufffd\ufffd\u0001\ufffd\ufffd\u0003"
+        },
+        "dns": {
+            "ptr": "37-115-151-224.broadband.kyivstar.net"
+        }
+    }
+}

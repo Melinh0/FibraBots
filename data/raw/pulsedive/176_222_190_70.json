@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 61076394,
+    "indicator": "176.222.190.70",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-11 17:19:27",
+    "stamp_updated": "2024-12-09 10:33:12",
+    "stamp_seen": "2024-11-18 13:42:13",
+    "stamp_probed": "2024-08-28 22:49:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-11 17:19:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "5432",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "KZ",
+            "origin": "AS21299",
+            "address": "38 Dostik str., Almaty, Kazakhstan",
+            "mnt-by": "TNSPLUS-MNT",
+            "tech-c": "DG5853-RIPE",
+            "person": "Dmitriy Gromov",
+            "phone": "+7 727 2599 000",
+            "mnt-routes": [
+                "ORBITA-PLUS-MNT",
+                "SATELCOM-MNT"
+            ],
+            "nic-hdl": "DG5853-RIPE",
+            "descr": [
+                "2DAY Telecom LLP",
+                "FTTB_Semey"
+            ],
+            "admin-c": "DG5853-RIPE",
+            "netname": "KZ-TNSPLUS-FTTB",
+            "last-modified": [
+                "2017-11-06T20:48:03Z",
+                "2012-07-13T11:20:27Z",
+                "2012-07-13T11:35:22Z"
+            ],
+            "created": [
+                "2011-10-28T04:40:19Z",
+                "2012-01-12T04:54:13Z",
+                "2012-07-13T11:35:22Z"
+            ],
+            "++registrant": [
+                "DG5853-RIPE",
+                "Dmitriy Gromov"
+            ],
+            "++updated": [
+                "2017-11-06 20:48:03",
+                "2012-07-13 11:35:22"
+            ],
+            "++registered": [
+                "2011-10-28 04:40:19",
+                "2012-01-12 04:54:13",
+                "2012-07-13 11:35:22"
+            ],
+            "route": "176.222.190.0\/24",
+            "inetnum": "176.222.190.0 - 176.222.190.255"
+        },
+        "geo": {
+            "country": "Kazakhstan",
+            "countrycode": "KZ",
+            "asn": "AS21299",
+            "city": "Kokshetau",
+            "org": "Kar-Tel LLC",
+            "region": "Aqmola Oblysy",
+            "address": "38 Dostik str., Almaty, Kazakhstan",
+            "lat": "53.2852",
+            "long": "69.3922"
+        },
+        "http": {
+            "cache-control": "no-cache",
+            "content-type": "text\/plain",
+            "++code": "404",
+            "++status": "Not Found",
+            "connection": "keep-alive",
+            "++content-type": "text\/plain",
+            "server": "bpkhttpserver",
+            "allow": "GET, DELETE",
+            "x-bpk-error": "1039 Invalid request",
+            "content-length": "0",
+            "date": "Wed, 28 Aug 2024 22:49:36 GMT"
+        },
+        "dns": {
+            "ptr": "client.fttb.2day.kz"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "21": "220 ProFTPD Server (ProFTPD server) [176.222.190.70]\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

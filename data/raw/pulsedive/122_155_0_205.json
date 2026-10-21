@@ -1,0 +1,261 @@
+{
+    "qid": null,
+    "iid": 20546611,
+    "indicator": "122.155.0.205",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-01-11 12:24:26",
+    "stamp_updated": "2024-12-10 10:34:25",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 00:44:52",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 20729739,
+                "indicator": "http:\/\/122.155.0.205\/"
+            },
+            {
+                "iid": 64115944,
+                "indicator": "https:\/\/122.155.0.205\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-03-23 12:36:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-01-11 12:24:26"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-16 06:43:10"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-01-16 11:09:04"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-03-23 12:36:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-04-21 02:18:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "mnt-by": [
+                "MAINT-NEW",
+                "MAINT-TH-THIX-CAT"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": "TH",
+            "++phone": [
+                "+66-210-41240",
+                "+66-2-6142374",
+                "+66-2-6141240-3"
+            ],
+            "address": [
+                "72 Charoenkrung Road Bangrak Bangkok THAILAND 10501",
+                "Internet data center department CAT Tower floor 13    72 charenkrung Rd. Bangrak  Bangkok",
+                "CAT-IDC Data Comm. Dept.(IDC)",
+                "CAT Telecom Public Company Ltd,",
+                "Data Comm. Dept. National Telecom Public Company Limited",
+                "NT Tower"
+            ],
+            "e-mail": [
+                "support@idc.cattelecom.com",
+                "admin-thix@cat.net.th",
+                "abuse@idc.cattelecom.com"
+            ],
+            "fax-no": [
+                "+66-2-6142270",
+                "+66-210-41244"
+            ],
+            "nic-hdl": [
+                "SC1450-AP",
+                "TC476-AP",
+                "CS416-AP"
+            ],
+            "person": [
+                "support CAT IDC",
+                "THIX network staff CAT Telecom",
+                "CAT-IDC Spamming tracking team"
+            ],
+            "phone": [
+                "+66-2-6141240-3",
+                "+66-2-6142374",
+                "+66-210-41240"
+            ],
+            "tech-c": [
+                "TC476-AP",
+                "CS416-AP"
+            ],
+            "last-modified": [
+                "2008-09-04T07:48:55Z",
+                "2009-12-11T10:30:13Z",
+                "2009-12-11T10:40:15Z",
+                "2022-09-05T09:49:38Z",
+                "2023-01-17T03:21:25Z"
+            ],
+            "admin-c": "SC1450-AP",
+            "descr": [
+                "***send spam abuse to support@idc.cattelecom.com***",
+                "CAT TELECOM Data Comm. Dept, IDC Office",
+                "CAT Telecom Public Company Limited"
+            ],
+            "inetnum": "122.155.0.0 - 122.155.15.255",
+            "netname": "CAT-IDC-Service",
+            "++email": [
+                "admin-thix@cat.net.th",
+                "abuse@idc.cattelecom.com",
+                "support@idc.cattelecom.com"
+            ],
+            "++registrant": [
+                "SC1450-AP",
+                "THIX network staff CAT Telecom",
+                "CAT-IDC Spamming tracking team",
+                "support CAT IDC"
+            ],
+            "origin": "AS9335",
+            "route": "122.155.0.0\/24",
+            "++updated": [
+                "2009-12-11 10:30:13",
+                "2008-09-04 07:48:55",
+                "2022-09-05 09:49:38",
+                "2009-12-11 10:40:15",
+                "2023-01-17 03:21:25"
+            ]
+        },
+        "geo": {
+            "country": "Thailand",
+            "countrycode": "TH",
+            "city": "Bangkok",
+            "region": "Bangkok",
+            "asn": "AS9335",
+            "org": "CAT Telecom Public Company Limited",
+            "address": [
+                "CAT-IDC Data Comm. Dept.(IDC)",
+                "CAT Telecom Public Company Ltd,",
+                "72 Charoenkrung Road Bangrak Bangkok THAILAND 10501",
+                "Data Comm. Dept. National Telecom Public Company Limited",
+                "NT Tower",
+                "Internet data center department CAT Tower floor 13    72 charenkrung Rd. Bangrak  Bangkok"
+            ],
+            "lat": "13.7063",
+            "long": "100.4597"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "content-length": "575",
+            "keep-alive": "timeout=60",
+            "server": "nginx\/1.14.2",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/122.155.0.205\/",
+            "date": "Sat, 12 Oct 2024 13:15:36 GMT",
+            "++redirect": "https:\/\/122.155.0.205\/"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "dns": {
+            "ptr": [
+                "www.thalaychupsorn.go.th",
+                "www.phatan.go.th"
+            ]
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "ssl": {
+            "version": "v0",
+            "++subject": "CentOS Web Panel",
+            "issuer": "\/C=HR\/ST=Zagreb\/O=CentOS Web Panel\/L=HR\/CN=host1.bgs.co.th\/OU=CentOS Web Panel\/E=info@studio4host.com",
+            "expires": "2027-11-14 07:04:40",
+            "subject": "\/C=HR\/ST=Zagreb\/O=CentOS Web Panel\/L=HR\/CN=host1.bgs.co.th\/OU=CentOS Web Panel\/E=info@studio4host.com",
+            "valid": "2017-11-16 07:04:40",
+            "fingerprint": "216b86216ca6cdcd0c1694d1c55ef880b38794286a65f57e295c8374516f62ae",
+            "org": "host1.bgs.co.th"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dd2fcc481ce67a1399d5e69743b8f36b.jpeg"
+        }
+    }
+}

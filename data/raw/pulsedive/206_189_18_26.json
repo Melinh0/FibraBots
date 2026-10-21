@@ -1,0 +1,216 @@
+{
+    "qid": null,
+    "iid": 6163326,
+    "indicator": "206.189.18.26",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2019-08-07 02:22:57",
+    "stamp_updated": "2024-12-10 10:38:49",
+    "stamp_seen": "2024-10-07 18:23:38",
+    "stamp_probed": "2024-08-11 20:44:04",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64189111,
+                "indicator": "https:\/\/206.189.18.26\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-21 06:49:11"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-21 07:34:30"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-21 06:49:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Font API",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "1995-11-15"
+            ],
+            "stateprov": "NY",
+            "parent": "NET206 (NET-206-0-0-0-0)",
+            "++registered": "2012-05-14 00:00:00",
+            "originas": "AS14061",
+            "nethandle": "NET-206-189-0-0-1",
+            "cidr": "206.189.0.0\/16",
+            "netrange": "206.189.0.0 - 206.189.255.255",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/206.189.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-206-189-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "United Kingdom"
+            ],
+            "countrycode": [
+                "US",
+                "GB"
+            ],
+            "city": [
+                "New York",
+                "Slough"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "Slough",
+                "NY",
+                "England"
+            ],
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "-0.6718",
+            "lat": "51.5368"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "etag": "W\/\"63a99a3e-2d18\"",
+            "last-modified": "Mon, 26 Dec 2022 12:57:34 GMT",
+            "++target": "http:\/\/206.189.18.26\/",
+            "date": "Tue, 01 Oct 2024 20:19:26 GMT",
+            "++redirect": "https:\/\/206.189.18.26\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "charset": "utf-8",
+            "++title": "Ploi - Starter template"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=public-websites",
+            "expires": "2034-09-27 12:29:13",
+            "fingerprint": "5366dd7938846dbe270e0953c8f654060b354edab37fa593ab0893af753c55e1",
+            "valid": "2024-09-29 12:29:13",
+            "domain": "public-websites",
+            "org": "public-websites",
+            "issuer": "\/CN=public-websites"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1e1fa4440e2d60588cbfae332e7d5109.jpeg"
+        }
+    }
+}

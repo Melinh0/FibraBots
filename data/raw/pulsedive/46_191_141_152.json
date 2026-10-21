@@ -1,0 +1,152 @@
+{
+    "qid": null,
+    "iid": 41489160,
+    "indicator": "46.191.141.152",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-21 22:54:27",
+    "stamp_updated": "2024-12-10 10:41:09",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": "2024-09-30 13:14:37",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-02-14 20:21:35"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-21 22:54:27"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-02-14 20:21:35"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-25 20:03:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "8080"
+        ],
+        "protocol": [
+            "HTTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "descr": [
+                "JSC \"Ufanet\", Ufa, Russia",
+                "Ufa, Russia",
+                "JSC \"Ufanet\""
+            ],
+            "mnt-by": "UBN-MNT",
+            "netname": "UBN",
+            "origin": "AS24955",
+            "inetnum": "46.191.136.0 - 46.191.159.255",
+            "created": [
+                "2011-11-18T12:27:17Z",
+                "2018-06-06T11:54:33Z",
+                "2018-08-15T03:36:27Z"
+            ],
+            "tech-c": [
+                "UN1646-RIPE",
+                "RK10446-RIPE"
+            ],
+            "address": [
+                "pr. Oktyabrya, 4\/3",
+                "Ufa, Russia"
+            ],
+            "org": "ORG-Zs2-RIPE",
+            "admin-c": [
+                "UN1646-RIPE",
+                "DK9362-RIPE"
+            ],
+            "role": "Ufanet NOC",
+            "nic-hdl": "UN1646-RIPE",
+            "last-modified": [
+                "2018-08-02T03:10:21Z",
+                "2018-08-15T03:36:27Z",
+                "2024-01-10T11:55:31Z"
+            ],
+            "abuse-mailbox": "abuse@ufanet.ru",
+            "++abuse": "abuse@ufanet.ru",
+            "++registrant": [
+                "UN1646-RIPE",
+                "DK9362-RIPE"
+            ],
+            "++email": "abuse@ufanet.ru",
+            "route": "46.191.141.0\/24",
+            "++updated": [
+                "2024-01-10 11:55:31",
+                "2018-08-15 03:36:27"
+            ],
+            "++registered": [
+                "2018-06-06 11:54:33",
+                "2018-08-15 03:36:27"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "city": "Ufa",
+            "asn": "AS24955",
+            "region": "Bashkortostan Republic",
+            "org": "JSC Ufanet",
+            "lat": "54.7505",
+            "long": "55.9457",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "46.191.141.152.dynamic.ufanet.ru"
+        }
+    }
+}

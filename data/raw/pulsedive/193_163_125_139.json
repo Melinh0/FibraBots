@@ -1,0 +1,120 @@
+{
+    "qid": null,
+    "iid": 29832814,
+    "indicator": "193.163.125.139",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-11-25 02:32:09",
+    "stamp_updated": "2024-12-15 07:38:02",
+    "stamp_seen": "2024-12-15 07:38:02",
+    "stamp_probed": "2024-08-08 00:45:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 29840111,
+                "indicator": "http:\/\/193.163.125.139\/"
+            },
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-25 02:32:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "++target": "http:\/\/193.163.125.139\/",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=iw3qopMtFcrsuAuxzYKmSh7ESnO8J90ceADPI%2BMCNazJFUFXZxBk5kZdpOmVUYcoeAn3Vq6yE5k4TCuqiEMJ44uNLrd%2Ft7hgy96nxLaIZSVvxnTCeLUY1nb2pYyXbeKkuHIys6SC%2Bkh%2Fw7o%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "cf-ray": "8d6b2f489a6b2c91-DFW",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=4283&sent=8&recv=9&lost=0&retrans=0&sent_bytes=4129&recv_bytes=2424&delivery_rate=1913656&cwnd=234&unsent_bytes=0&cid=bbb2dd82180827cc&ts=127&x=0\"",
+            "date": "Tue, 22 Oct 2024 17:25:06 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "fantastic.census.internet-measurement.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

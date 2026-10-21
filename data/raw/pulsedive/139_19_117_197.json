@@ -1,0 +1,229 @@
+{
+    "qid": null,
+    "iid": 53919987,
+    "indicator": "139.19.117.197",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-06 23:21:02",
+    "stamp_updated": "2024-12-13 22:55:31",
+    "stamp_seen": "2024-12-13 22:55:30",
+    "stamp_probed": "2024-08-29 22:37:45",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64118693,
+                "indicator": "https:\/\/139.19.117.197\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-12-08 22:00:57"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-06 23:21:02"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-01-10 10:34:50"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-12-08 22:00:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-07 05:29:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "Nginx",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "LEGACY",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2016-11-30T12:23:27Z",
+                "2017-04-10T13:47:53Z"
+            ],
+            "org-type": "OTHER",
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2017-04-10 13:47:53",
+                "2016-11-30 12:23:27"
+            ],
+            "mnt-by": [
+                "DFN-MNT",
+                "DFN-LIR-MNT",
+                "DFN-NTFY"
+            ],
+            "mnt-irt": "IRT-DFN-CERT",
+            "origin": "AS680",
+            "mnt-ref": "DFN-LIR-MNT",
+            "last-modified": [
+                "2016-11-30T12:23:27Z",
+                "2017-04-10T13:47:53Z",
+                "2019-12-04T13:05:44Z"
+            ],
+            "route": "139.19.0.0\/16",
+            "org-name": "Max-Planck-Institut fuer Informatik",
+            "admin-c": "JH383-RIPE",
+            "abuse-c": "MIA80-RIPE",
+            "inetnum": "139.19.0.0 - 139.19.255.255",
+            "tech-c": "JH383-RIPE",
+            "netname": "MPII-NET",
+            "organisation": "ORG-MFI3-RIPE",
+            "org": "ORG-MFI3-RIPE",
+            "descr": [
+                "MPII-139-19",
+                "Max-Planck-Institut fuer Informatik, Saarbruecken"
+            ],
+            "nic-hdl": "JH383-RIPE",
+            "person": "Joerg Herrmann",
+            "phone": "+49 681 9325 5801",
+            "fax-no": "+49 681 9325 5801",
+            "address": [
+                "Campus E1 4",
+                "66123 Saarbruecken",
+                "Max-Planck-Institut fuer Informatik",
+                "Germany"
+            ],
+            "++registrant": [
+                "Joerg Herrmann",
+                "JH383-RIPE"
+            ],
+            "++updated": [
+                "2019-12-04 13:05:44",
+                "2017-04-10 13:47:53",
+                "2016-11-30 12:23:27"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS680",
+            "org": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+            "lat": "51.2993",
+            "long": "9.491"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.22.1",
+            "etag": "W\/\"65fc3ce9-1a7a\"",
+            "last-modified": "Thu, 21 Mar 2024 13:58:01 GMT",
+            "++redirect": "https:\/\/139.19.117.197\/",
+            "++target": "http:\/\/139.19.117.197\/",
+            "date": "Tue, 22 Oct 2024 05:16:52 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes",
+            "charset": "utf-8",
+            "generator": "pandoc",
+            "++title": "Internet Measurements"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Organization Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Organization Validation Secure Server CA",
+            "expires": "2025-03-06 23:59:59",
+            "valid": "2024-03-06 00:00:00",
+            "fingerprint": "12ea65a49c37ad3016d4e99cfe1632064f6a7b7ef824892cb5d1826824e016b0",
+            "++subject": "Max-Planck-Gesellschaft zur F\ufffdrderung der Wissenschaften e.V.",
+            "domain": [
+                "inet-scan.mpi-inf.mpg.de",
+                "inet-research-scan-1.mpi-inf.mpg.de",
+                "inet-research-scan-2.mpi-inf.mpg.de",
+                "inet-research-scan-3.mpi-inf.mpg.de",
+                "inet-research-scan-4.mpi-inf.mpg.de",
+                "inet-research-scan-5.mpi-inf.mpg.de",
+                "inet-research-scan-6.mpi-inf.mpg.de",
+                "inet-research-scan-7.mpi-inf.mpg.de",
+                "inet-scan-1.mpi-inf.mpg.de",
+                "inet-scan-2.mpi-inf.mpg.de",
+                "inet-scan-3.mpi-inf.mpg.de",
+                "inet-scan-4.mpi-inf.mpg.de",
+                "inet-scan-5.mpi-inf.mpg.de",
+                "inet-scan-6.mpi-inf.mpg.de",
+                "inet-scan-7.mpi-inf.mpg.de"
+            ],
+            "subject": "\/C=DE\/ST=Bayern\/O=Max-Planck-Gesellschaft zur F\ufffdrderung der Wissenschaften e.V.\/CN=inet-scan.mpi-inf.mpg.de"
+        },
+        "dns": {
+            "ptr": "inet-research-scan-3.mpi-inf.mpg.de"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/87b6d7351d541b966c4cb5fa5a4dc731.jpeg"
+        }
+    }
+}

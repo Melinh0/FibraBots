@@ -1,0 +1,305 @@
+{
+    "qid": null,
+    "iid": 30130311,
+    "indicator": "107.174.138.172",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-12-06 21:58:32",
+    "stamp_updated": "2024-12-25 17:23:47",
+    "stamp_seen": "2024-12-25 17:23:46",
+    "stamp_probed": "2024-10-01 05:12:54",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 6,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 30130317,
+                "indicator": "http:\/\/107.174.138.172\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-01-16 17:33:50"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-01-13 23:50:05"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-12-06 21:58:32"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-12 22:07:27"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-01-13 23:50:05"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-01-11 22:56:20"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-12-06 21:58:32"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-13 21:53:13"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-01-16 17:33:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": "NY",
+            "parent": [
+                "NET107 (NET-107-0-0-0-0)",
+                "CC-17 (NET-107-172-0-0-1)"
+            ],
+            "address": [
+                "Suite 300",
+                "350 Main Street",
+                "325 Delaware Avenue"
+            ],
+            "city": "Buffalo",
+            "postalcode": "14202",
+            "originas": "AS36352",
+            "rabuseemail": "abuse@colocrossing.com",
+            "rabusephone": "+1-800-518-9716",
+            "rtechemail": "support@colocrossing.com",
+            "rtechphone": "+1-800-518-9716",
+            "cidr": [
+                "107.172.0.0\/14",
+                "107.174.138.128\/25"
+            ],
+            "nethandle": [
+                "NET-107-172-0-0-1",
+                "NET-107-174-138-128-1"
+            ],
+            "netname": [
+                "CC-17",
+                "CC-107-174-138-0-25"
+            ],
+            "netrange": [
+                "107.172.0.0 - 107.175.255.255",
+                "107.174.138.128 - 107.174.138.255"
+            ],
+            "regdate": [
+                "2016-06-06",
+                "2013-12-27",
+                "2013-07-24",
+                "2021-11-17"
+            ],
+            "++email": [
+                "support@vpsace.com",
+                "net-tech-global@hostpapa.com"
+            ],
+            "++phone": [
+                "+1-855-587-7223",
+                "+1-905-315-3455"
+            ],
+            "++registrant": [
+                "VPS ACE",
+                "HostPapa"
+            ],
+            "updated": [
+                "2013-07-24",
+                "2021-11-17",
+                "2024-02-02",
+                "2024-04-26"
+            ],
+            "orgabuseemail": [
+                "support@vpsace.com",
+                "net-abuse-global@hostpapa.com"
+            ],
+            "orgabusehandle": [
+                "BARAU15-ARIN",
+                "NETAB23-ARIN"
+            ],
+            "orgabusename": [
+                "Barauski, Matt",
+                "NETABUSE"
+            ],
+            "orgabusephone": [
+                "+1-855-587-7223",
+                "+1-905-315-3455"
+            ],
+            "organization": [
+                "VPS ACE (VA-188)",
+                "HostPapa (HOSTP-7)"
+            ],
+            "orgid": [
+                "VA-188",
+                "HOSTP-7"
+            ],
+            "orgname": [
+                "VPS ACE",
+                "HostPapa"
+            ],
+            "orgnocemail": "support@vpsace.com",
+            "orgnochandle": "BARAU15-ARIN",
+            "orgnocname": "Barauski, Matt",
+            "orgnocphone": "+1-855-587-7223",
+            "orgtechemail": [
+                "support@vpsace.com",
+                "net-tech-global@hostpapa.com"
+            ],
+            "orgtechhandle": [
+                "BARAU15-ARIN",
+                "NETTE9-ARIN"
+            ],
+            "orgtechname": [
+                "Barauski, Matt",
+                "NETTECH"
+            ],
+            "orgtechphone": [
+                "+1-855-587-7223",
+                "+1-905-315-3455"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.172.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/VA-188",
+                "https:\/\/rdap.arin.net\/registry\/entity\/HOSTP-7",
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.174.138.128"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BARAU15-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/NETTE9-ARIN"
+            ],
+            "orgabuseref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BARAU15-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/NETAB23-ARIN"
+            ],
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/BARAU15-ARIN",
+            "++abuse": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BARAU15-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/NETAB23-ARIN"
+            ],
+            "++registered": "2021-11-17 00:00:00",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETAB27-ARIN",
+            "rabusehandle": "NETAB27-ARIN",
+            "rabusename": "NETABUSE-COLOCROSSING",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETTE11-ARIN",
+            "rtechname": "NETTECH-COLOCROSSING",
+            "rtechhandle": "NETTE11-ARIN",
+            "++updated": "2024-04-26 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "New York",
+            "asn": "AS36352",
+            "city": "Buffalo",
+            "lat": "42.8856",
+            "org": "AS-COLOCROSSING",
+            "long": "-78.8736"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "6654",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/107.174.138.172\/",
+            "x-your-address-is": "45.79.217.129",
+            "expires": "Tue, 24 Dec 2024 17:49:45 GMT",
+            "date": "Tue, 24 Dec 2024 17:29:45 GMT"
+        },
+        "meta": {
+            "++title": "This is a Tor Exit Router",
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "dns": {
+            "ptr": "107-174-138-172-host.colocrossing.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1eaac841e49efc192407a5a5cdc0b1ee.jpeg"
+        }
+    }
+}

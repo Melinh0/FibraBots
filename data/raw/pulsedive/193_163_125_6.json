@@ -1,0 +1,159 @@
+{
+    "qid": null,
+    "iid": 61929146,
+    "indicator": "193.163.125.6",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-02 20:17:37",
+    "stamp_updated": "2024-12-11 14:58:25",
+    "stamp_seen": "2024-12-11 14:58:25",
+    "stamp_probed": "2024-08-14 21:20:17",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-02 20:17:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "whois": {
+            "country": "GB",
+            "address": [
+                "UNITED KINGDOM",
+                "London",
+                "Unit 72465, PO Box 6945",
+                "W1A 6US"
+            ],
+            "status": "LIR-PARTITIONED PA",
+            "inetnum": "193.163.125.0 - 193.163.125.127",
+            "origin": "AS211298",
+            "++phone": "+442037450350",
+            "created": [
+                "2021-05-28T13:43:42Z",
+                "2021-05-21T17:59:25Z",
+                "2024-10-30T18:00:18Z"
+            ],
+            "phone": "+442037450350",
+            "route": "193.163.125.0\/24",
+            "source": "RIPE # Filtered",
+            "++registered": [
+                "2021-05-21 17:59:25",
+                "2024-10-30 18:00:18"
+            ],
+            "++email": "network-abuse@driftnet.io",
+            "admin-c": "DH9005-RIPE",
+            "role": "Driftnet Hostmaster",
+            "nic-hdl": "DH9005-RIPE",
+            "netname": "DRIFTNET-V4-A",
+            "tech-c": "DH9005-RIPE",
+            "last-modified": [
+                "2024-10-31T14:10:23Z",
+                "2024-10-31T10:49:52Z",
+                "2024-10-31T10:43:37Z"
+            ],
+            "++updated": [
+                "2024-10-31 14:10:23",
+                "2024-10-31 10:49:52",
+                "2024-10-31 10:43:37"
+            ],
+            "abuse-mailbox": "network-abuse@driftnet.io",
+            "++abuse": "network-abuse@driftnet.io",
+            "abuse-c": "DH9005-RIPE",
+            "++registrant": "DH9005-RIPE",
+            "mnt-by": "lir-uk-driftnet-1-MNT"
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "date": "Fri, 18 Oct 2024 14:20:33 GMT",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=aoZTbf7CKyqx5uKj2UAMEPav9Ism0UGYuHPvn0tC8ZUFIAPkzjody4JprbdLwo2vx%2B4QjmW98ypXu86izPimRoMEhH%2FoqYH7ZCmEZRneO8T%2F4zOOLiL0BfsWHw0sfXPTA0Iddl1%2FMZL4Vik%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "cf-ray": "8d492b74eb1a436a-EWR",
+            "++target": "http:\/\/193.163.125.6\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "famous.census.internet-measurement.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

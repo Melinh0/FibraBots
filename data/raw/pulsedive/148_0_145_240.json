@@ -1,0 +1,209 @@
+{
+    "qid": null,
+    "iid": 65700971,
+    "indicator": "148.0.145.240",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-08 10:27:11",
+    "stamp_updated": "2024-12-09 10:31:54",
+    "stamp_seen": "2024-12-08 10:27:36",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65701137,
+                "indicator": "https:\/\/148.0.145.240\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-08 10:27:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Angular",
+            "Bootstrap",
+            "core-js",
+            "jQuery",
+            "Nginx",
+            "Popper",
+            "Prism",
+            "PWA",
+            "Zone.js"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "allocated",
+            "abuse-c": "ABT",
+            "country": "DO",
+            "created": [
+                "20021127",
+                "20140414",
+                "20190321"
+            ],
+            "nic-hdl": [
+                "ABT",
+                "TIP22"
+            ],
+            "tech-c": "ABT",
+            "ownerid": "DO-CODE-LACNIC",
+            "responsible": "Timoteo Perez",
+            "changed": [
+                "20140414",
+                "20220118",
+                "20240124"
+            ],
+            "nserver": [
+                "NS2.CLARO.NET.DO",
+                "NS1.CLARO.NET.DO"
+            ],
+            "address": [
+                "1377 - Santo Domingo - DN",
+                "Av. John F Kenedy, 54, -",
+                "Av. Jhon F Kenedy, 54, -",
+                "1377 - DN Santo Domingo - Santiago",
+                "Av. Jhon F Kennedy # 54, 1101, -"
+            ],
+            "owner-c": "TIP22",
+            "person": [
+                "Timoteo Perez",
+                "Erick OReilly"
+            ],
+            "++registrant": [
+                "Timoteo Perez",
+                "Erick OReilly"
+            ],
+            "owner": "Compa\ufffd\ufffda Dominicana de Tel\ufffdfonos S. A.",
+            "++email": [
+                "timoteo_perez@claro.com.do",
+                "abuse@codetel.net.do"
+            ],
+            "e-mail": [
+                "timoteo_perez@claro.com.do",
+                "abuse@codetel.net.do"
+            ],
+            "inetnum": "148.0.0.0\/16",
+            "inetrev": "148.0.0.0\/16",
+            "aut-num": "AS6400",
+            "phone": [
+                "+1  8092203331 [0000]",
+                "+1809  2202000 [3331]",
+                "+1809  8092202000 [2298]"
+            ],
+            "nsstat": "20241205 AA",
+            "nslastaa": "20241205"
+        },
+        "geo": {
+            "country": "Dominican Republic",
+            "countrycode": "DO",
+            "city": "Santo Domingo",
+            "asn": "AS6400",
+            "region": "Nacional",
+            "address": [
+                "Av. John F Kenedy, 54, -",
+                "1377 - Santo Domingo - DN",
+                "Av. Jhon F Kenedy, 54, -",
+                "1377 - DN Santo Domingo - Santiago",
+                "Av. Jhon F Kennedy # 54, 1101, -"
+            ],
+            "org": "Compania Dominicana de Telefonos S. A.",
+            "lat": "18.4872",
+            "long": "-69.8825"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "x-dns-prefetch-control": "off",
+            "content-encoding": "gzip",
+            "referrer-policy": "no-referrer",
+            "vary": "Origin",
+            "x-download-options": "noopen",
+            "x-permitted-cross-domain-policies": "none",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "origin-agent-cluster": "?1",
+            "server": "nginx\/1.22.1",
+            "date": "Sun, 08 Dec 2024 10:27:19 GMT",
+            "content-security-policy": "default-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self' data: https:\/\/raw.githubusercontent.com https:\/\/user-images.githubusercontent.com;connect-src 'self' https:\/\/openweathermap.org https:\/\/api.openweathermap.org wss:\/\/148.0.145.240 ws:\/\/148.0.145.240",
+            "++base": "https:\/\/148.0.145.240\/",
+            "++redirect": "https:\/\/148.0.145.240\/",
+            "expires": "0",
+            "x-xss-protection": "0",
+            "++target": "http:\/\/148.0.145.240\/"
+        },
+        "ssl": {
+            "domain": "localhost",
+            "issuer": "\/CN=localhost",
+            "subject": "\/CN=localhost",
+            "version": "v3",
+            "org": "localhost",
+            "valid": "2024-05-03 14:21:58",
+            "fingerprint": "3b99b774ec4344e939ff78c85bff570105cece9fab2fd3eb9330c10dd77c9da9",
+            "expires": "2027-01-28 14:21:58"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "mobile-web-app-capable": "yes",
+            "charset": "utf-8",
+            "theme-color": [
+                "#0f0f0f",
+                "#140a33"
+            ],
+            "++title": "Homebridge 4800"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u2\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0ec7f64d7654dc4472d68608dac6b2d1.jpeg"
+        }
+    }
+}

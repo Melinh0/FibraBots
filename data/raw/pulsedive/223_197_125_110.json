@@ -1,0 +1,274 @@
+{
+    "qid": null,
+    "iid": 33922810,
+    "indicator": "223.197.125.110",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-04-12 21:18:12",
+    "stamp_updated": "2024-12-10 10:39:57",
+    "stamp_seen": "2024-12-03 00:00:00",
+    "stamp_probed": "2024-08-28 22:56:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63862609,
+                "indicator": "https:\/\/223.197.125.110\/"
+            },
+            {
+                "iid": 33945477,
+                "indicator": "http:\/\/223.197.125.110\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-04-19 21:49:56"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-04-12 21:18:12"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-08-01 12:38:43"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-04-19 21:49:56"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-18 11:05:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5060",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SIP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Babel",
+            "Backbone.js",
+            "core-js",
+            "Debian",
+            "Handlebars",
+            "HSTS",
+            "jQuery",
+            "jQuery Migrate",
+            "jQuery UI",
+            "Let's Encrypt",
+            "Marked",
+            "Moment.js",
+            "Nextcloud",
+            "PWA",
+            "Select2"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "admin-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "netname": "NETVIGATOR",
+            "tech-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "e-mail": "noc@imsbiz.com",
+            "irt": "IRT-PCCW-BIA-HK",
+            "mnt-by": [
+                "MAINT-HK-PCCW-BIA",
+                "MAINT-HK-PCCW-BIA-CS",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-PCCW-BIA-HK",
+            "mnt-lower": "MAINT-HK-PCCW-BIA-CS",
+            "mnt-routes": "MAINT-HK-PCCW-BIA",
+            "nic-hdl": [
+                "TA66-AP",
+                "AP706-AP"
+            ],
+            "notify": "noc@imsbiz.com",
+            "origin": "AS4515",
+            "phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "role": [
+                "TECHNICAL ADMINISTRATORS",
+                "ABUSE PCCWBIAHK"
+            ],
+            "inetnum": "223.197.64.0 - 223.197.127.255",
+            "last-modified": [
+                "2016-07-15T04:03:30Z",
+                "2020-06-12T06:20:11Z",
+                "2021-01-27T13:22:42Z",
+                "2024-08-22T03:30:23Z",
+                "2024-08-22T03:30:27Z"
+            ],
+            "descr": [
+                "HKT Limited",
+                "PCCW IMS Ltd (PCCW Business Internet Access)"
+            ],
+            "++registrant": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++email": "noc@imsbiz.com",
+            "route": "223.197.125.0\/24",
+            "abuse-c": "AP706-AP",
+            "abuse-mailbox": "noc@imsbiz.com",
+            "++abuse": "noc@imsbiz.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-22 03:30:23",
+                "2024-08-22 03:30:27",
+                "2016-07-15 04:03:30",
+                "2020-06-12 06:20:11"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS4515",
+            "org": "HKT Limited",
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3065",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"2a13-5a1cedb694f00-gzip\"",
+            "last-modified": "Fri, 27 Mar 2020 04:51:40 GMT",
+            "server": "Apache\/2.4.59 (Debian)",
+            "++target": "http:\/\/223.197.125.110\/",
+            "date": "Mon, 07 Oct 2024 01:41:19 GMT"
+        },
+        "cookies": {
+            "__host-nc_samesitecookielax": "true",
+            "__host-nc_samesitecookiestrict": "true",
+            "oc_sessionpassphrase": "GeqmOOBzcGO7h6qRuq1sPwk4IDus1BjdQdMp7tVpEdzfb6ut8KTeMZAhnIzuJ3oIbJoEeS6lMo48mhCQbDmyf1nEFfZqBxxiNsI7Ud6VsRIOVWxGRkJa4dx2S9NorJM2",
+            "oc1a8ylu00dm": "lkvuestc078t188og7aobkpucf"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "fingerprint": "380ccb0141b5cf10c0e5b7c0d1cc85ddec78bf072d4712413bdda0b080c670c7",
+            "valid": "2024-09-11 03:26:03",
+            "subject": "\/CN=poster.ctshk.com",
+            "domain": "poster.ctshk.com",
+            "expires": "2024-12-10 03:26:02"
+        },
+        "meta": {
+            "++title": "Apache2 Debian Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8",
+            "refresh": "0; url=http:\/\/www.ctshk.com"
+        },
+        "dns": {
+            "ptr": "223-197-125-110.static.imsbiz.com"
+        },
+        "banners": {
+            "5060": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c61b1238ee253703dabec70795c30852.jpeg"
+        }
+    }
+}

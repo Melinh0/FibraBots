@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 55713043,
+    "indicator": "91.218.64.199",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-01 09:54:16",
+    "stamp_updated": "2024-12-11 13:24:02",
+    "stamp_seen": "2024-12-11 13:24:02",
+    "stamp_probed": "2024-08-26 22:27:02",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55713982,
+                "indicator": "https:\/\/91.218.64.199\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:39:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-01 09:54:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Plesk"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "lat": "51.2993",
+            "long": "9.491",
+            "org": "SYNLINQ",
+            "asn": "AS44486"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "++code": "404",
+            "content-encoding": "br",
+            "++content-type": "text\/html",
+            "last-modified": "Sat, 13 Aug 2022 22:51:23 GMT",
+            "++redirect": "https:\/\/91.218.64.199\/",
+            "etag": "W\/\"328-5e6273cec1601\"",
+            "++target": "http:\/\/91.218.64.199\/",
+            "date": "Fri, 18 Oct 2024 08:48:10 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "++title": "404 Not Found",
+            "charset": "utf-8",
+            "x-ua-compatible": "ie=edge"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=web01.cloudagunt.de",
+            "domain": "web01.cloudagunt.de",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "expires": "2024-12-25 00:41:55",
+            "valid": "2024-09-26 00:41:56",
+            "fingerprint": "465925bb72b305b904d9a8ff085d573965bba9e8b3880b6a5aa7ba4608aeb162"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "21": "220 ProFTPD Server (ProFTPD) [91.218.64.199]\n",
+            "25": "220 web01.cloudagunt.de ESMTP Postfix (Ubuntu)\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "3306": "j\u0000\u0000\u0000\n5.5.5-10.6.18-MariaDB-0ubuntu0.22.04.1\u0000\"{\ufffd\u0000@]5\/,0H]\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u001d\u0000\u0000\u0000yk-9xqMoe\/XN\u0000mysql_native_password\u0000"
+        },
+        "dns": {
+            "ptr": "web01.cloudagunt.de"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c201ea5d31cab1b3c13c7791dfd6f289.jpeg"
+        }
+    }
+}

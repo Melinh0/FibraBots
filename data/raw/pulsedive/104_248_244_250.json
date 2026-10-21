@@ -1,0 +1,211 @@
+{
+    "qid": null,
+    "iid": 65638473,
+    "indicator": "104.248.244.250",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-06 10:17:29",
+    "stamp_updated": "2024-12-11 10:37:33",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65638590,
+                "indicator": "https:\/\/104.248.244.250\/license"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 10:17:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-09 22:30:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "jsDelivr",
+            "Let's Encrypt",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Germany",
+                "United States"
+            ],
+            "countrycode": [
+                "DE",
+                "US"
+            ],
+            "city": [
+                "New York",
+                "Frankfurt am Main"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "NY",
+                "Hesse"
+            ],
+            "zip": "10013",
+            "long": "8.6842",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "50.1187"
+        },
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "parent": "NET104 (NET-104-0-0-0-0)",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-08-06"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2018-08-06 00:00:00"
+            ],
+            "originas": "AS14061",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.248.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "nethandle": "NET-104-248-0-0-1",
+            "cidr": "104.248.0.0\/16",
+            "netrange": "104.248.0.0 - 104.248.255.255",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-104-248-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=99",
+            "cache-control": "no-cache, private",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.58 (Ubuntu)",
+            "date": "Fri, 06 Dec 2024 10:17:36 GMT",
+            "++redirect": "https:\/\/104.248.244.250\/license",
+            "++target": "http:\/\/104.248.244.250\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "charset": "UTF-8",
+            "description": "Site Maintenance Page"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "subject": "\/CN=selfcare.enercopower.com",
+            "fingerprint": "f197f2de8e9f9e4218697e8635077affe30565e97bcec18779a50469a91cdee4",
+            "expires": "2025-02-04 20:12:51",
+            "valid": "2024-11-06 20:12:52",
+            "domain": [
+                "selfcare.enercopower.com",
+                "www.selfcare.enercopower.com"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e74c4014c6fb2ad4ef3820721ed7cf6e.jpeg"
+        },
+        "cookies": {
+            "xsrf-token": "eyJpdiI6ImdGVnZXekx0Uk0zV3kwN1JGSFRFU2c9PSIsInZhbHVlIjoiWEQ4eFJPelN0cUVOQ2dMOFRvblNyZHhYcmI4RnB6NmFSU3ZqL1hDZGlEdnpJNEU2Yy9NRUhLZWtoMTVWUm9YSDNZVEJlNHEvMnhJMmc0TXFUL0tMcFQwSmpybXJSb0pkOVNFUGxvUjFScmlOY2VMZHlzZGgyWGhiZmpHV2F3VzYiLCJtYWMiOiI4OTgyZTM1YWVjYjNkOWRjOWNkYTg2MTVlMzgxN2E0MDNjM2QzNjFhMWQ3M2EzYTIzMDZjM2VhYzUyZDZhOTQ0IiwidGFnIjoiIn0%3D",
+            "selfcare_session": "eyJpdiI6IkdPZFF6UzRpakVaaHpMVTlIaldmUWc9PSIsInZhbHVlIjoiR3dEZTR5c0NjOFBqWll4ck5mdDRiMkx1Wmd0b3JqKzl2cEZiaWtFakg3L211cVdnME9na1Jlc3g3M1dCdG05ODdRbGx6dDhxVDk3ODJiTHI2ZHVHR0tNd1FaOVhqVXcxeHAvY0kvTUNGeEw4MzBRc3JuaWViNkxYWG43SXdKZkEiLCJtYWMiOiI0YmU5YTNhOGY3ZjJlZTdjNmFjNDZjNDU0OTJkMzQ5NTEzM2M0NjQ2NTgxMmJmMjAzZWQ1YWJkODI1N2ZlMTZjIiwidGFnIjoiIn0%3D"
+        }
+    }
+}

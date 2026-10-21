@@ -1,0 +1,190 @@
+{
+    "qid": null,
+    "iid": 56181190,
+    "indicator": "168.167.228.74",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-15 14:01:26",
+    "stamp_updated": "2024-12-16 11:31:18",
+    "stamp_seen": "2024-12-15 07:32:16",
+    "stamp_probed": "2024-09-30 05:37:56",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 56182116,
+                "indicator": "http:\/\/168.167.228.74\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-20 18:35:34"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-15 14:01:26"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-20 18:35:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-11 08:59:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "address": [
+                "Botswana",
+                "Gaborone",
+                "P O Box 700",
+                "P O Box 700,",
+                "Government Enclave,",
+                "GABORONE 267"
+            ],
+            "country": "BW",
+            "mnt-by": [
+                "BTC-MNT",
+                "TF-196-1-130-0-196-1-133-255-MNT",
+                "GENERATED-SE0RFNLRMCROT7FGWMWI4EAPTWLGCYUF-MNT",
+                "GENERATED-QIRVHR1UX6SZRMZDYYAUOIJTHRPQWO6L-MNT",
+                "GENERATED-DKLCHFBV69RQU841TLILX0H4KYPPOMZD-MNT"
+            ],
+            "netname": "BTCL_AS14988",
+            "origin": "AS14988",
+            "inetnum": "168.167.128.0 - 168.167.255.255",
+            "fax-no": [
+                "tel:+267-390-2035",
+                "tel:+267-397-4036"
+            ],
+            "tech-c": [
+                "BM16-AFRINIC",
+                "IO10-AFRINIC",
+                "OSD1-AFRINIC"
+            ],
+            "admin-c": [
+                "BM16-AFRINIC",
+                "IO10-AFRINIC",
+                "OSD1-AFRINIC"
+            ],
+            "nic-hdl": [
+                "BM16-AFRINIC",
+                "IO10-AFRINIC",
+                "OSD1-AFRINIC"
+            ],
+            "person": [
+                "Bathusi Malale",
+                "Internet Operations",
+                "Oduetse Saviour Ditsie"
+            ],
+            "descr": [
+                "BTCL Assignment",
+                "BOTSWANA TELECOMMUNICATIONS CORPORATION"
+            ],
+            "++registrant": [
+                "BM16-AFRINIC",
+                "IO10-AFRINIC",
+                "OSD1-AFRINIC",
+                "Bathusi Malale",
+                "Internet Operations",
+                "Oduetse Saviour Ditsie"
+            ],
+            "phone": [
+                "tel:+267-73-000-806",
+                "tel:+267-395-8738"
+            ],
+            "route": "168.167.228.0\/24",
+            "source": "AFRINIC # Filtered",
+            "parent": "168.167.0.0 - 168.167.255.255"
+        },
+        "geo": {
+            "asn": "AS14988",
+            "country": "Botswana",
+            "countrycode": "BW",
+            "org": "BTC-GATE1",
+            "city": "Gaborone",
+            "region": "Gaborone",
+            "lat": "-24.6437",
+            "long": "25.9112",
+            "address": [
+                "Gaborone",
+                "Botswana",
+                "P O Box 700",
+                "GABORONE 267",
+                "P O Box 700,",
+                "Government Enclave,"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "568",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/168.167.228.74\/",
+            "date": "Tue, 22 Oct 2024 05:23:30 GMT"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c20fa09307c6b5455a362b440b51d3bb.jpeg"
+        }
+    }
+}

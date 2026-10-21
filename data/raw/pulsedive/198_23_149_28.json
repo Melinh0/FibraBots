@@ -1,0 +1,186 @@
+{
+    "qid": null,
+    "iid": 65702187,
+    "indicator": "198.23.149.28",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-08 10:30:14",
+    "stamp_updated": "2024-12-16 16:39:36",
+    "stamp_seen": "2024-12-08 10:30:34",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65702235,
+                "indicator": "https:\/\/198.23.149.28\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-14 16:37:44"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-08 10:30:14"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-14 16:37:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "address": [
+                "Suite 300",
+                "325 Delaware Avenue"
+            ],
+            "parent": "NET198 (NET-198-0-0-0-0)",
+            "city": "Buffalo",
+            "postalcode": "14202",
+            "++registered": "2016-06-06 00:00:00",
+            "++phone": [
+                "+1-800-518-9716",
+                "+1-905-315-3455"
+            ],
+            "originas": "AS36352",
+            "rabuseemail": "abuse@colocrossing.com",
+            "rabusephone": "+1-800-518-9716",
+            "rtechemail": "support@colocrossing.com",
+            "rtechphone": "+1-800-518-9716",
+            "++abuse": [
+                "abuse@colocrossing.com",
+                "net-abuse-global@hostpapa.com"
+            ],
+            "regdate": [
+                "2016-06-06",
+                "2012-10-05"
+            ],
+            "cidr": "198.23.128.0\/17",
+            "nethandle": "NET-198-23-128-0-1",
+            "netname": "CC-10",
+            "netrange": "198.23.128.0 - 198.23.255.255",
+            "orgtechphone": "+1-905-315-3455",
+            "++registrant": "HostPapa",
+            "organization": "HostPapa (HOSTP-7)",
+            "orgabusephone": "+1-905-315-3455",
+            "orgname": "HostPapa",
+            "orgid": "HOSTP-7",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/198.23.128.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/HOSTP-7"
+            ],
+            "orgtechname": "NETTECH",
+            "orgabusename": "NETABUSE",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETTE9-ARIN",
+            "orgabusehandle": "NETAB23-ARIN",
+            "orgtechhandle": "NETTE9-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETAB23-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETAB27-ARIN",
+            "orgabuseemail": "net-abuse-global@hostpapa.com",
+            "rabusehandle": "NETAB27-ARIN",
+            "rabusename": "NETABUSE-COLOCROSSING",
+            "updated": [
+                "2024-02-02",
+                "2024-04-26"
+            ],
+            "orgtechemail": "net-tech-global@hostpapa.com",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETTE11-ARIN",
+            "rtechname": "NETTECH-COLOCROSSING",
+            "rtechhandle": "NETTE11-ARIN",
+            "++email": "net-tech-global@hostpapa.com",
+            "++updated": "2024-04-26 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS36352",
+            "city": [
+                "Buffalo",
+                "Seattle"
+            ],
+            "zip": "14202",
+            "region": [
+                "Washington",
+                "NY"
+            ],
+            "address": [
+                "325 Delaware Avenue",
+                "Suite 300"
+            ],
+            "org": [
+                "HostPapa (HOSTP-7)",
+                "AS-COLOCROSSING"
+            ],
+            "lat": "47.6034",
+            "long": "-122.3414"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width,initial-scale=1",
+            "++title": "\u7528\u6237\u767b\u5f55",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3306": "N\u0000\u0000\u0000\n5.7.40-log\u0000_\u0000\u0000\u0000\"~\u000e3,:^\u0014\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000e%;ycw\\o8?\u001d\u001c\u0000mysql_native_password\u0000"
+        },
+        "http": {
+            "++target": "http:\/\/198.23.149.28\/",
+            "++redirect": "https:\/\/198.23.149.28\/#\/"
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "qid": null,
+    "iid": 14792161,
+    "indicator": "31.220.1.88",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-09-08 12:48:40",
+    "stamp_updated": "2024-12-02 10:14:09",
+    "stamp_seen": "2024-11-21 15:48:04",
+    "stamp_probed": "2020-09-08 12:48:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65195352,
+                "indicator": "http:\/\/31.220.1.88\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-08 12:48:40"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-01 10:08:47"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-08 12:48:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "TERRATRANSIT-MNT",
+                "sc-amarutu-1-mnt"
+            ],
+            "mnt-ref": "TERRATRANSIT-MNT",
+            "country": "BZ",
+            "mnt-routes": "sc-amarutu-1-mnt",
+            "last-modified": [
+                "2017-03-17T09:44:46Z",
+                "2017-03-17T11:45:04Z",
+                "2017-10-30T14:46:54Z",
+                "2013-06-11T13:12:39Z"
+            ],
+            "route": "31.220.0.0\/22",
+            "org-name": "Amarutu Technology Ltd.",
+            "admin-c": "RL8716-RIPE",
+            "abuse-c": "KDDS9813-RIPE",
+            "inetnum": "31.220.0.0 - 31.220.3.255",
+            "tech-c": "RL8716-RIPE",
+            "mnt-lower": "TERRATRANSIT-MNT",
+            "netname": "BZ-ESCUR1",
+            "organisation": "ORG-ES189-RIPE",
+            "org": "ORG-ES189-RIPE",
+            "origin": "AS206264",
+            "descr": [
+                "Amarutu Technology Ltd. Network",
+                "KODDOS"
+            ],
+            "nic-hdl": "RL8716-RIPE",
+            "person": "Ronald Linco",
+            "phone": "+852 3750 7973",
+            "created": [
+                "2017-03-17T09:44:16Z",
+                "2013-02-05T09:23:38Z",
+                "2013-02-06T13:09:33Z",
+                "2013-02-05T09:23:50Z"
+            ],
+            "address": [
+                "Level23, One Island East, Westlands Rd",
+                "Quarry Bay",
+                "Hong Kong"
+            ],
+            "++registrant": [
+                "RL8716-RIPE",
+                "Ronald Linco"
+            ],
+            "++updated": [
+                "2017-10-30 14:46:54",
+                "2013-06-11 13:12:39",
+                "2017-03-17 09:44:46"
+            ],
+            "++registered": [
+                "2013-02-05 09:23:50",
+                "2013-02-05 09:23:38",
+                "2013-02-06 13:09:33",
+                "2017-03-17 09:44:16"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Germany",
+                "Belize"
+            ],
+            "countrycode": [
+                "DE",
+                "BZ"
+            ],
+            "asn": "AS206264",
+            "org": [
+                "Amarutu Technology Ltd",
+                "ORG-ES189-RIPE"
+            ],
+            "lat": "51.2993",
+            "long": "9.491",
+            "address": [
+                "Hong Kong",
+                "Level23, One Island East, Westlands Rd",
+                "Quarry Bay"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "server": "nginx\/1.14.2",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 25 Sep 2023 11:38:12 GMT",
+            "etag": "W\/\"65117124-264\"",
+            "date": "Thu, 21 Nov 2024 15:47:38 GMT",
+            "++target": "http:\/\/31.220.1.88\/"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u3\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "qid": null,
+    "iid": 35142129,
+    "indicator": "103.130.212.57",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-17 13:49:21",
+    "stamp_updated": "2024-12-11 10:37:04",
+    "stamp_seen": "2024-12-03 04:57:11",
+    "stamp_probed": "2024-02-05 16:48:50",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-06-27 23:28:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Viet Nam",
+            "countrycode": "VN",
+            "lat": "16.1667",
+            "asn": "AS135953",
+            "org": "Vietnam Online Network Solution Joint Stock Compnay",
+            "isp": "Vietnam Online Network Solution Joint Stock Compnay",
+            "long": "107.8333"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "mnt-routes": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "QDH1-AP"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-394534868",
+                "+84-984131161"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "TDT8-AP"
+            ],
+            "++updated": "2018-11-02 00:00:00",
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "hopqd@bkhost.vn",
+                "thanhtd@bkhost.vn"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2018-10-11T07:14:58Z",
+                "2018-10-11T07:03:07Z",
+                "2018-10-11T07:01:21Z",
+                "2018-11-02T02:47:49Z"
+            ],
+            "address": [
+                "Ha Noi, VietNam",
+                "BKHOST-VN"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-394534868",
+                "+84-984131161"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "auth": "mnt-by: MAINT-VN-VNNIC",
+            "++registrant": [
+                "NTTT1-AP",
+                "TDT8-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "hopqd@bkhost.vn",
+                "thanhtd@bkhost.vn"
+            ],
+            "route": "103.130.212.0\/22",
+            "inetnum": "103.130.212.0 - 103.130.215.255",
+            "netname": "BKHOST-VN",
+            "origin": "AS135953",
+            "descr": [
+                "Vietnam Online Network Solution Joint Stock Compnay",
+                "P815, Tower B, Dai Kim Building, Tran Hoa, Hanoi"
+            ],
+            "nic-hdl": [
+                "QDH1-AP",
+                "TDT8-AP"
+            ],
+            "person": [
+                "Quach Dinh Hop",
+                "Trinh Duy Thanh"
+            ],
+            "notify": "hopqd@bkhost.vn"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "163",
+            "++code": "200",
+            "++status": "OK",
+            "last-modified": "Wed, 17 Jun 2020 20:01:33 GMT",
+            "++content-type": "text\/html",
+            "date": "Mon, 05 Feb 2024 14:25:47 GMT"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 21:25. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n"
+        },
+        "dns": {
+            "ptr": "ip.bkhost.vn"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ecc211221965d6d69be12299c2c33dc1.jpeg"
+        }
+    }
+}

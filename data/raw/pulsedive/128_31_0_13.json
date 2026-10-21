@@ -1,0 +1,269 @@
+{
+    "qid": null,
+    "iid": 82279,
+    "indicator": "128.31.0.13",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-10-13 04:24:24",
+    "stamp_updated": "2024-12-25 17:24:31",
+    "stamp_seen": "2024-12-25 17:24:31",
+    "stamp_probed": "2024-08-28 03:27:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 8,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [
+            {
+                "iid": 6956908,
+                "indicator": "https:\/\/2019.www.torproject.org\/images\/how_tor_works_thumb.png"
+            }
+        ],
+        "to": [
+            {
+                "iid": 7070885,
+                "indicator": "http:\/\/128.31.0.13\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-20 09:55:33"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2017-11-12 12:19:43"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-21 17:53:01"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-16 21:59:23"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2017-11-12 12:19:43"
+        },
+        {
+            "fid": 19,
+            "name": "IPSpamList",
+            "category": "attack",
+            "organization": "NoVirusThanks",
+            "pricing": "free",
+            "stamp_linked": "2017-10-13 11:43:03"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-21 17:53:01"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 01:11:37"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-20 09:55:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "city": "Cambridge",
+            "stateprov": "MA",
+            "parent": "NET128 (NET-128-0-0-0-0)",
+            "rabusename": "Network security",
+            "++abuse": [
+                "arin-mit-security@mit.edu",
+                "security@csail.mit.edu"
+            ],
+            "++registrant": "Massachusetts Institute of Technology",
+            "address": [
+                "77 Massachusetts Avenue",
+                "Room W92-167"
+            ],
+            "orgabuseemail": "arin-mit-security@mit.edu",
+            "orgabusehandle": "MNS18-ARIN",
+            "orgabusename": "MIT Network Security",
+            "orgabusephone": "+1-617-324-1782",
+            "organization": "Massachusetts Institute of Technology (MIT-2)",
+            "orgid": "MIT-2",
+            "orgname": "Massachusetts Institute of Technology",
+            "orgnocemail": "noc@mit.edu",
+            "orgnochandle": "MNO78-ARIN",
+            "orgnocname": "MIT Network Operations",
+            "orgnocphone": "+1-617-253-8400",
+            "postalcode": "02139-4307",
+            "rabuseemail": "security@csail.mit.edu",
+            "rabusehandle": "NETWO5753-ARIN",
+            "rabusephone": "+1-617-253-8304",
+            "rtechemail": "arin-contact@csail.mit.edu",
+            "rtechhandle": "CSAIL-ARIN",
+            "rtechname": "Computer Science and Artificial Intelligence Lab",
+            "rtechphone": "+1-617-253-8304",
+            "++registered": "1983-05-27 00:00:00",
+            "cidr": "128.31.0.0\/16",
+            "nethandle": "NET-128-31-0-0-1",
+            "netname": "MIT-RES",
+            "netrange": "128.31.0.0 - 128.31.255.255",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MIT-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/128.31.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MNS18-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/MNO78-ARIN",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CSAIL-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETWO5753-ARIN",
+            "++phone": [
+                "+1-617-253-8304",
+                "+1-617-253-8400",
+                "+1-617-258-7870",
+                "+1-617-253-0336"
+            ],
+            "regdate": "1983-05-27",
+            "updated": [
+                "2021-12-14",
+                "2024-11-25"
+            ],
+            "orgtechphone": [
+                "+1-617-258-7870",
+                "+1-617-253-0336"
+            ],
+            "orgdnshandle": "MNO78-ARIN",
+            "orgroutingemail": "noc@mit.edu",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/MNO78-ARIN",
+            "orgdnsphone": "+1-617-253-8400",
+            "orgdnsemail": "noc@mit.edu",
+            "orgroutinghandle": "MNO78-ARIN",
+            "++email": [
+                "obrown@mit.edu",
+                "mgomes@mit.edu"
+            ],
+            "orgtechemail": [
+                "obrown@mit.edu",
+                "mgomes@mit.edu"
+            ],
+            "orgtechhandle": [
+                "BROWN2958-ARIN",
+                "GOMES41-ARIN"
+            ],
+            "orgdnsref": "https:\/\/rdap.arin.net\/registry\/entity\/MNO78-ARIN",
+            "orgdnsname": "MIT Network Operations",
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BROWN2958-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOMES41-ARIN"
+            ],
+            "orgroutingphone": "+1-617-253-8400",
+            "orgtechname": [
+                "Brown, Olu",
+                "Gomes, Marco"
+            ],
+            "orgroutingname": "MIT Network Operations",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "MA",
+                "Massachusetts"
+            ],
+            "asn": "AS3",
+            "city": "Cambridge",
+            "lat": "42.3649",
+            "long": "-71.0987",
+            "org": [
+                "Massachusetts Institute of Technology (MIT-2)",
+                "MIT-GATEWAYS"
+            ],
+            "zip": "02139-4307",
+            "address": [
+                "Room W92-167",
+                "77 Massachusetts Avenue"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "6663",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/128.31.0.13\/",
+            "x-your-address-is": "172.232.207.118",
+            "expires": "Tue, 24 Dec 2024 17:50:46 GMT",
+            "date": "Tue, 24 Dec 2024 17:30:46 GMT"
+        },
+        "dns": {
+            "ptr": "tor-exit.csail.mit.edu"
+        },
+        "meta": {
+            "++title": "This is a Tor Exit Router",
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d6afb74409e4938ee6df0d0d552b3d62.jpeg"
+        }
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "qid": null,
+    "iid": 55587533,
+    "indicator": "68.183.225.172",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-01-29 19:52:40",
+    "stamp_updated": "2024-12-15 16:38:41",
+    "stamp_seen": "2024-09-06 15:14:49",
+    "stamp_probed": "2024-09-06 15:14:49",
+    "stamp_retired": "2024-12-09 19:11:57",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-15 16:38:41"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-29 19:52:40"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-15 16:38:41"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-23 06:01:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-09-18"
+            ],
+            "stateprov": "NY",
+            "parent": "NET68 (NET-68-0-0-0-0)",
+            "originas": "AS14061",
+            "netrange": "68.183.0.0 - 68.183.255.255",
+            "nethandle": "NET-68-183-0-0-1",
+            "cidr": "68.183.0.0\/16",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "++registered": "2018-09-18 00:00:00",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-68-183-0-0",
+            "++abuse": "ABUSE5232-ARIN",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "countrycode": [
+                "US",
+                "SG"
+            ],
+            "city": [
+                "New York",
+                "Singapore"
+            ],
+            "asn": "AS14061",
+            "country": [
+                "Singapore",
+                "United States of America"
+            ],
+            "region": "NY",
+            "zip": [
+                "10013",
+                "62"
+            ],
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "isp": "DIGITALOCEAN-ASN",
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5\n"
+        }
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "qid": null,
+    "iid": 65449489,
+    "indicator": "88.5.229.250",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 10:07:10",
+    "stamp_updated": "2024-12-16 11:37:47",
+    "stamp_seen": "2024-11-29 10:07:49",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65449827,
+                "indicator": "https:\/\/88.5.229.250\/cgi-bin\/mhs\/html\/logIn_mhs.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 10:07:10"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "SPAIN",
+                "Ronda de la Comunicacion s\/n",
+                "Edificio Norte 1, planta 6",
+                "28050 Madrid",
+                "28050-MADRID",
+                "Ronda de la Comunicacion S\/N"
+            ],
+            "country": "ES",
+            "abuse-mailbox": "nemesys@telefonica.es",
+            "admin-c": [
+                "TTE2-RIPE",
+                "ATdE1-RIPE",
+                "KIX1-RIPE"
+            ],
+            "descr": [
+                "RIMA (Red IP Multi Acceso)",
+                "Telefonica de Espana SAU",
+                "Red de servicios IP",
+                "Spain"
+            ],
+            "mnt-by": "MAINT-AS3352",
+            "netname": "RIMA",
+            "nic-hdl": [
+                "TTdE1-RIPE",
+                "ATDE1-RIPE"
+            ],
+            "org": "ORG-TDE1-RIPE",
+            "origin": "AS3352",
+            "role": [
+                "Tecnicos Telefonica de Espana",
+                "Administradores Telefonica de Espana"
+            ],
+            "tech-c": [
+                "TTE2-RIPE",
+                "TTdE1-RIPE",
+                "TTDE1-RIPE"
+            ],
+            "inetnum": "88.0.0.0 - 88.15.255.255",
+            "created": [
+                "2005-07-13T10:15:24Z",
+                "2006-01-18T12:24:41Z",
+                "2006-01-18T12:39:59Z",
+                "2015-11-23T12:08:46Z"
+            ],
+            "last-modified": [
+                "2005-07-13T10:15:24Z",
+                "2015-11-23T12:08:46Z",
+                "2018-09-18T10:36:42Z",
+                "2018-09-18T12:08:51Z"
+            ],
+            "route": "88.5.0.0\/16",
+            "++abuse": "nemesys@telefonica.es",
+            "++registrant": [
+                "ATdE1-RIPE",
+                "KIX1-RIPE",
+                "TTE2-RIPE"
+            ],
+            "++email": "nemesys@telefonica.es",
+            "++registered": [
+                "2006-01-18 12:24:41",
+                "2006-01-18 12:39:59",
+                "2015-11-23 12:08:46",
+                "2005-07-13 10:15:24"
+            ],
+            "++updated": [
+                "2018-09-18 10:36:42",
+                "2018-09-18 12:08:51",
+                "2005-07-13 10:15:24"
+            ]
+        },
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "asn": "AS3352",
+            "city": "Zaragoza",
+            "region": [
+                "Aragon",
+                "Saragossa"
+            ],
+            "address": [
+                "Ronda de la Comunicacion s\/n",
+                "Edificio Norte 1, planta 6",
+                "28050 Madrid",
+                "SPAIN",
+                "Ronda de la Comunicacion S\/N",
+                "28050-MADRID"
+            ],
+            "org": "Telefonica De Espana S.a.u.",
+            "lat": "41.6487",
+            "long": "-0.8795"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "content-type": "text\/html;charset=UTF-8",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "++code": "200",
+            "++status": "OK",
+            "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval';style-src 'self' 'unsafe-inline'",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/88.5.229.250\/cgi-bin\/mhs\/html\/logIn_mhs.html",
+            "++target": "http:\/\/88.5.229.250\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "Router Fibra \ufffdptica"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "192.168.1.1",
+            "++subject": "MitraStar",
+            "issuer": "\/C=TW\/ST=XZ\/L=XZ\/O=MitraStar\/OU=CPE\/CN=192.168.1.1",
+            "subject": "\/C=TW\/ST=XZ\/L=XZ\/O=MitraStar\/OU=CPE\/CN=192.168.1.1",
+            "expires": "2034-12-27 00:01:04",
+            "valid": "2015-01-01 00:01:04",
+            "fingerprint": "4733e23fae94140f825a9371b230bbf62dc708dd85512896c650e179a3417128"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4891028ad0ff7f3ef62eb79adaeaa0a2.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2017.75\n\u0000\u0000\u0002d\n\u0014m\ufffd\u001d\u001d\ufffd\/\ufffd\ufffd}c9Z\ufffd\ufffdc0\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000?\ufffds\ufffdX\ufffd=\ufffd"
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "qid": null,
+    "iid": 60184026,
+    "indicator": "51.178.9.114",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-06-13 15:54:18",
+    "stamp_updated": "2024-12-10 10:41:38",
+    "stamp_seen": "2024-08-25 08:13:28",
+    "stamp_probed": "2024-08-25 08:13:28",
+    "stamp_retired": "2024-11-27 08:38:00",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-13 15:54:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "isp": "OVH SAS",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "content-length": "19",
+            "++code": "404",
+            "++content-type": "text\/plain",
+            "date": "Sun, 25 Aug 2024 06:47:53 GMT"
+        },
+        "ssl": {
+            "issuer": "\/CN=TRAEFIK DEFAULT CERT",
+            "subject": "\/CN=TRAEFIK DEFAULT CERT",
+            "version": "v3",
+            "org": "TRAEFIK DEFAULT CERT",
+            "++self-signed": "1",
+            "valid": "2024-08-23 06:52:46",
+            "expires": "2025-08-23 06:52:46",
+            "domain": "823bd1a373dadff21b36d98d59f5882c.1c41bdd6863ab12d7e1848f95ad72689.traefik.default"
+        },
+        "dns": {
+            "ptr": "ip114.ip-51-178-9.eu"
+        }
+    }
+}

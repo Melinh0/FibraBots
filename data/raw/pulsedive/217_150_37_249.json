@@ -1,0 +1,94 @@
+{
+    "qid": null,
+    "iid": 48228757,
+    "indicator": "217.150.37.249",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-06-14 15:53:43",
+    "stamp_updated": "2024-12-16 11:33:52",
+    "stamp_seen": "2023-07-12 17:42:45",
+    "stamp_probed": "2023-07-12 17:42:45",
+    "stamp_retired": "2023-10-13 23:38:55",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-14 15:53:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Russian Federation",
+            "countrycode": "RU",
+            "asn": "AS20485",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "org": "Joint Stock Company TransTeleCom",
+            "isp": "Joint Stock Company TransTeleCom"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "server": "Web server",
+            "++content-type": "text\/html",
+            "content-length": "553",
+            "x-detail": "0x1210, insufficient security level",
+            "date": "Wed, 12 Jul 2023 17:28:14 GMT"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cc8e074a1e9e60e9c591e2fe15e6532b.jpeg"
+        },
+        "dns": {
+            "ptr": "ChernyshevskayaRB-gw.transtelecom.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-server\n\u0000\u0000\u0002\u001c\n\u0014Z\u001ff\ufffd:C\ufffd\\n\ufffd\ufffdq\ufffd\ufffd\ufffdA\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp521,rsa-sha2-256,ssh-rsa\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \ufffd9f{\ufffd\ufffd\u017c2"
+        }
+    }
+}

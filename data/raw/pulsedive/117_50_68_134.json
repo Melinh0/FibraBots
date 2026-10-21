@@ -1,0 +1,241 @@
+{
+    "qid": null,
+    "iid": 54387992,
+    "indicator": "117.50.68.134",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-17 19:45:22",
+    "stamp_updated": "2024-12-15 11:28:46",
+    "stamp_seen": "2024-12-15 06:57:58",
+    "stamp_probed": "2024-09-07 07:44:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55026570,
+                "indicator": "http:\/\/117.50.68.134\/"
+            },
+            {
+                "iid": 65860128,
+                "indicator": "https:\/\/117.50.68.134\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-01-18 00:27:07"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-17 19:45:22"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-01-18 00:27:07"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-11 08:55:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "address": [
+                "Beijing, China",
+                "510,SOHO B,Zhongguancun,Haidian, Beijing",
+                "2nd Floor 3rd Building No.200 EAST Guoding Road,Yangpu District,Shanghai"
+            ],
+            "abuse-mailbox": [
+                "ipas@cnnic.cn",
+                "jacky.jia@ucloud.cn"
+            ],
+            "admin-c": [
+                "IP50-AP",
+                "JJ2197-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CNNIC-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-routes": "MAINT-CNNIC-AP",
+            "tech-c": [
+                "IP50-AP",
+                "JJ2197-AP"
+            ],
+            "mnt-lower": "MAINT-CNNIC-AP",
+            "++phone": [
+                "+86-13811069300",
+                "+000000000"
+            ],
+            "descr": "Shanghai UCloud Information Technology Company Limited",
+            "netname": "UCLOUD-NET",
+            "nic-hdl": [
+                "JJ2197-AP",
+                "AC1601-AP"
+            ],
+            "person": "Jinhui Jia",
+            "phone": [
+                "+86-13811069300",
+                "+000000000"
+            ],
+            "inetnum": "117.50.0.0 - 117.50.255.255",
+            "e-mail": [
+                "ipas@cnnic.cn",
+                "jacky.jia@ucloud.cn",
+                "hegui@ucloud.cn"
+            ],
+            "++abuse": [
+                "ipas@cnnic.cn",
+                "jacky.jia@ucloud.cn"
+            ],
+            "++registrant": [
+                "IP50-AP",
+                "JJ2197-AP",
+                "Jinhui Jia"
+            ],
+            "++email": [
+                "ipas@cnnic.cn",
+                "hegui@ucloud.cn",
+                "jacky.jia@ucloud.cn"
+            ],
+            "abuse-c": "AC1601-AP",
+            "role": "ABUSE CNNICCN",
+            "last-modified": [
+                "2022-03-23T06:19:21Z",
+                "2021-09-01T00:41:22Z",
+                "2023-11-28T00:56:57Z",
+                "2024-07-30T11:55:46Z"
+            ],
+            "mnt-irt": "IRT-UCLOUD-NET-CN",
+            "irt": "IRT-UCLOUD-NET-CN",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-30 11:55:46",
+                "2023-11-28 00:56:57",
+                "2021-09-01 00:41:22",
+                "2022-03-23 06:19:21"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4808",
+            "org": "China Unicom Beijing Province Network",
+            "lat": "34.7732",
+            "address": [
+                "Beijing, China",
+                "510,SOHO B,Zhongguancun,Haidian, Beijing",
+                "2nd Floor 3rd Building No.200 EAST Guoding Road,Yangpu District,Shanghai"
+            ],
+            "long": "113.722"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "x-powered-by": "PHP\/5.4.16",
+            "content-encoding": "gzip",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips PHP\/5.4.16",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "137",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/117.50.68.134\/",
+            "++target": "http:\/\/117.50.68.134\/",
+            "date": "Sat, 19 Oct 2024 11:58:25 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Xinnet DV SSL",
+            "issuer": "\/C=CN\/O=\u5317\u4eac\u65b0\u7f51\u6570\u7801\u4fe1\u606f\u6280\u672f\u6709\u9650\u516c\u53f8\/CN=Xinnet DV SSL",
+            "valid": "2024-06-28 01:40:09",
+            "domain": [
+                "*.zyoffice.com",
+                "zyoffice.com"
+            ],
+            "fingerprint": "8f0ace608f8e8cdd073d34076a10733bc8deb906abf1fd6b987728044d7d0aa7",
+            "expires": "2025-06-28 15:59:59",
+            "subject": "\/CN=*.zyoffice.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "J\u0000\u0000\u0000\n5.7.32\u0000\ufffd\ufffd\u0000\u0000^Q\u0018|\\\u0002XW\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000_xR\u0016q.\ba+a-\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0d9e6d77a768d7faabbbbcbd2c1bdacd.jpeg"
+        }
+    }
+}

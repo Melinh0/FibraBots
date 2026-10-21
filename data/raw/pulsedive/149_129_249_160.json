@@ -1,0 +1,195 @@
+{
+    "qid": null,
+    "iid": 48645868,
+    "indicator": "149.129.249.160",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-28 19:34:59",
+    "stamp_updated": "2024-12-11 23:14:15",
+    "stamp_seen": "2024-12-11 23:14:15",
+    "stamp_probed": "2024-09-07 07:50:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-28 19:34:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5060",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SIP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "SG",
+                "ID",
+                "ZZ"
+            ],
+            "++abuse": "abuse@alibaba-inc.com",
+            "admin-c": "ASEP1-AP",
+            "descr": [
+                "Alibaba.com Singapore E-Commerce Private Limited",
+                "21\/F, Ciputra World 1 (DBS Tower), JalanProf. DR. Satrio Kav 3-5, Jakarta 12940, Indonesia"
+            ],
+            "e-mail": [
+                "anti-spam@list.alibaba-inc.com",
+                "abuse@alibaba-inc.com"
+            ],
+            "fax-no": "+86-571-85022088",
+            "irt": "IRT-ASEPL-SG",
+            "mnt-by": [
+                "MAINT-ASEPL-SG",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-ASEPL-SG",
+            "nic-hdl": [
+                "ASEP1-AP",
+                "AA1926-AP"
+            ],
+            "phone": [
+                "+86-571-85022088",
+                "+000000000"
+            ],
+            "role": [
+                "Alibabacom Singapore E-Commerce Private Limited a",
+                "ABUSE ASEPLSG"
+            ],
+            "tech-c": "ASEP1-AP",
+            "origin": "AS45102",
+            "netname": "ALICLOUD-ID",
+            "++phone": [
+                "+86-571-85022088",
+                "+000000000"
+            ],
+            "inetnum": "149.129.192.0 - 149.129.255.255",
+            "last-modified": [
+                "2015-12-10T01:04:19Z",
+                "2020-01-16T14:50:16Z",
+                "2021-04-14T01:11:45Z",
+                "2024-10-08T07:53:08Z",
+                "2024-10-08T08:00:34Z"
+            ],
+            "++email": [
+                "anti-spam@list.alibaba-inc.com",
+                "abuse@alibaba-inc.com"
+            ],
+            "++registrant": "ASEP1-AP",
+            "route": "149.129.249.0\/24",
+            "abuse-c": "AA1926-AP",
+            "abuse-mailbox": "abuse@alibaba-inc.com",
+            "auth": "# Filtered",
+            "address": [
+                "1 Raffles Place # 59-00 One Raffles Place, Tower One Singapore, Singapore",
+                "1 Raffles Place #59-00 One Raffles Place, Tower One Singapore, Singapore"
+            ],
+            "++updated": [
+                "2015-12-10 01:04:19",
+                "2020-01-16 14:50:16",
+                "2024-10-08 07:53:08",
+                "2024-10-08 08:00:34"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Singapore",
+                "Indonesia",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "SG",
+                "ID",
+                "ZZ"
+            ],
+            "asn": "AS45102",
+            "city": "Jakarta",
+            "region": "Jakarta",
+            "org": "Alibaba US Technology Co., Ltd.",
+            "long": "106.8446",
+            "lat": "-6.2114",
+            "address": [
+                "1 Raffles Place # 59-00 One Raffles Place, Tower One Singapore, Singapore",
+                "1 Raffles Place #59-00 One Raffles Place, Tower One Singapore, Singapore"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "556",
+            "++code": "404",
+            "++status": "Not Found",
+            "connection": "keep-alive",
+            "server": "nginx\/1.17.10",
+            "++content-type": "text\/html",
+            "date": "Fri, 14 Jun 2024 13:48:34 GMT"
+        },
+        "ssl": {
+            "domain": [
+                "localhost",
+                "*.elysian.com",
+                "*.default.svc.cluster.local"
+            ],
+            "version": "v3",
+            "++self-signed": "1",
+            "org": "ElysianNxt",
+            "subject": "\/C=TH\/ST=Bangkok\/L=Bangkok\/O=ElysianNxt\/CN=ElysianNxt",
+            "issuer": "\/C=TH\/ST=Bangkok\/L=Bangkok\/O=ElysianNxt\/CN=ElysianNxt",
+            "valid": "2023-09-17 11:42:26",
+            "expires": "2026-09-16 11:42:26"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/19124345097d35f7f0bda3a2c1b95830.jpeg"
+        }
+    }
+}

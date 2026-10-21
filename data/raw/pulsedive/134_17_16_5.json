@@ -1,0 +1,152 @@
+{
+    "qid": null,
+    "iid": 31136095,
+    "indicator": "134.17.16.5",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-01-16 03:41:32",
+    "stamp_updated": "2024-12-11 10:39:38",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-04-03 05:55:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-01-19 14:49:34"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-01-16 03:41:32"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-02-16 00:18:06"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-01-19 14:49:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-03-27 01:39:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "BY",
+            "descr": "Mobile TeleSystems JLLC",
+            "mnt-by": "MTSBY-MNT",
+            "mnt-lower": "MTSBY-MNT",
+            "mnt-routes": "MTSBY-MNT",
+            "netname": "MTSBY",
+            "origin": "AS25106",
+            "tech-c": [
+                "NP2078-RIPE",
+                "MTJA2-RIPE"
+            ],
+            "admin-c": [
+                "IS6999-RIPE",
+                "MTJA2-RIPE",
+                "AT14522-RIPE",
+                "VA34055-RIPE"
+            ],
+            "role": "Mobile TeleSystems JLLC admin",
+            "address": "Belarus, Minsk, Nezavisimosti ave, 95",
+            "nic-hdl": "MTJA2-RIPE",
+            "created": [
+                "2018-02-16T06:48:11Z",
+                "2012-02-07T20:41:50Z",
+                "2021-02-22T09:09:38Z"
+            ],
+            "last-modified": [
+                "2018-02-16T10:32:48Z",
+                "2021-07-01T07:02:29Z",
+                "2021-02-22T09:09:38Z"
+            ],
+            "inetnum": "134.17.16.0 - 134.17.31.255",
+            "++registrant": [
+                "MTJA2-RIPE",
+                "IS6999-RIPE",
+                "AT14522-RIPE",
+                "VA34055-RIPE"
+            ],
+            "++registered": "2021-02-22 00:00:00",
+            "++updated": "2021-07-01 00:00:00",
+            "route": "134.17.16.0\/21"
+        },
+        "geo": {
+            "country": "Belarus",
+            "countrycode": "BY",
+            "asn": "AS25106",
+            "isp": "Mobile TeleSystems JLLC",
+            "org": "Mobile TeleSystems JLLC",
+            "city": "Minsk",
+            "region": "Minsk City",
+            "zip": "220102",
+            "address": "Belarus, Minsk, Nezavisimosti ave, 95",
+            "long": "27.5709",
+            "lat": "53.9007"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "5-16-17-134-cloud.mts.by"
+        }
+    }
+}

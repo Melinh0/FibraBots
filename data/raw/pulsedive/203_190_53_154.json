@@ -1,0 +1,247 @@
+{
+    "qid": null,
+    "iid": 54810909,
+    "indicator": "203.190.53.154",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-02 07:40:23",
+    "stamp_updated": "2024-12-16 03:21:11",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": "2024-08-28 07:50:05",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 54810967,
+                "indicator": "http:\/\/203.190.53.154\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-02 07:57:45"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-02 07:40:23"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-02 07:57:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-02 15:45:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "1723",
+            "21",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "OpenVPN",
+            "PPTP"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "IDNIC"
+            ],
+            "status": [
+                "ASSIGNED NON-PORTABLE",
+                "ALLOCATED NON-PORTABLE"
+            ],
+            "descr": [
+                "ISP",
+                "Jakarta Barat",
+                "NAT",
+                "PT. PowerTel",
+                "ISP - JAKARTA, SOLO, BOYOLALI, SEMARANG, YOGYAKARTA",
+                "Route object of PT POWER TELECOM",
+                "PT. Power Telecom Indonesia",
+                "Jalan Tomang Raya No.43",
+                "Tomang, Kec. Grogol petamburan"
+            ],
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-POWER"
+            ],
+            "abuse-mailbox": [
+                "abuse@idnic.net",
+                "abuse@powertel.co.id"
+            ],
+            "irt": [
+                "IRT-IDNIC-ID",
+                "IRT-POWER-ID"
+            ],
+            "mnt-irt": [
+                "IRT-IDNIC-ID",
+                "IRT-POWER-ID"
+            ],
+            "address": [
+                "Jakarta Selatan 12710",
+                "Jakarta 11440, Indonesia",
+                "Jl. Kuningan Barat No.8",
+                "Jl. Tomang Raya no. 43",
+                "Cyber Building",
+                "PT. POWER TELECOM",
+                "GROGOL PETAMBURAN, JAKARTA BARAT 11440, INDONESIA",
+                "JL. TOMANG RAYA NO. 43",
+                "Kuningan Barat Gedung Cyber"
+            ],
+            "last-modified": [
+                "2013-06-10T04:06:51Z",
+                "2015-09-18T11:33:40Z",
+                "2015-11-25T07:46:51Z",
+                "2018-05-31T22:31:48Z",
+                "2021-03-08T08:36:21Z",
+                "2023-08-28T06:56:03Z"
+            ],
+            "route": "203.190.48.0\/21",
+            "e-mail": [
+                "noc@powertel.co.id",
+                "abuse@idnic.net"
+            ],
+            "inetnum": [
+                "203.190.48.0 - 203.190.55.255",
+                "203.190.53.0 - 203.190.53.255"
+            ],
+            "netname": "POWER-NET",
+            "++phone": "+62-21-5666261",
+            "origin": "AS24530",
+            "nic-hdl": "NP285-AP",
+            "person": "NOC POWERTEL",
+            "phone": "+62-21-5666261",
+            "admin-c": [
+                "AK305-AP",
+                "NP285-AP",
+                "GH4-AP"
+            ],
+            "tech-c": [
+                "AK305-AP",
+                "NP285-AP",
+                "GH4-AP"
+            ],
+            "++abuse": [
+                "abuse@idnic.net",
+                "abuse@powertel.co.id"
+            ],
+            "++email": [
+                "abuse@idnic.net",
+                "noc@powertel.co.id",
+                "abuse@powertel.co.id"
+            ],
+            "++registrant": [
+                "NP285-AP",
+                "AK305-AP",
+                "NOC POWERTEL",
+                "GH4-AP"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-08-28 06:56:03",
+                "2018-05-31 22:31:48",
+                "2021-03-08 08:36:21",
+                "2015-11-25 07:46:51",
+                "2013-06-10 04:06:51",
+                "2015-09-18 11:33:40"
+            ]
+        },
+        "geo": {
+            "city": "Jakarta",
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "region": "Jakarta",
+            "asn": "AS24530",
+            "org": "PT. Power Telecom Indonesia",
+            "address": [
+                "Jl. Kuningan Barat No.8",
+                "Jakarta Selatan 12710",
+                "PT. POWER TELECOM",
+                "JL. TOMANG RAYA NO. 43",
+                "GROGOL PETAMBURAN, JAKARTA BARAT 11440, INDONESIA",
+                "Cyber Building",
+                "Jl. Tomang Raya no. 43",
+                "Jakarta 11440, Indonesia",
+                "Kuningan Barat Gedung Cyber"
+            ],
+            "long": "106.8446",
+            "lat": "-6.2114"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "x-powered-by": "ASP.NET",
+            "content-length": "701",
+            "server": "Microsoft-IIS\/8.5",
+            "++code": "200",
+            "++status": "OK",
+            "last-modified": "Thu, 22 Aug 2013 16:07:53 GMT",
+            "etag": "\"651b2bc2519fce1:0\"",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/203.190.53.154\/",
+            "date": "Tue, 22 Oct 2024 17:41:55 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "IIS Windows Server"
+        },
+        "banners": {
+            "21": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000",
+            "1194": "\u0000\u000e@7P\u00144\ufffd<E\ufffd\u0000\u0000\u0000\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1a51749b9accee03df7bd95ef105bd70.jpeg"
+        }
+    }
+}

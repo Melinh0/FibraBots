@@ -1,0 +1,154 @@
+{
+    "qid": null,
+    "iid": 50657794,
+    "indicator": "189.20.6.2",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-08-29 09:47:07",
+    "stamp_updated": "2024-12-15 11:32:12",
+    "stamp_seen": "2024-07-02 02:28:45",
+    "stamp_probed": "2024-07-02 02:28:45",
+    "stamp_retired": "2024-10-05 10:33:10",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-09-24 12:13:15"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-08-29 09:47:07"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-09-24 12:13:15"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 549457,
+            "username": "damienrobbins",
+            "title": "",
+            "comment": "botnet",
+            "stamp_added": "2023-11-02 13:29:20",
+            "stamp_updated": "2023-11-02 13:29:20"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS10429",
+            "zip": "01000",
+            "long": "-46.6409",
+            "org": "TELEFONICA BRASIL S.A",
+            "isp": "TELEFONICA BRASIL S.A",
+            "lat": "-23.6283",
+            "city": "S\ufffdo Paulo",
+            "region": "S\ufffdo Paulo"
+        },
+        "whois": {
+            "owner-c": "ARITE",
+            "ownerid": "02.558.157\/0001-62",
+            "responsible": "Diretoria de Planejamento e Tecnologia",
+            "aut-num": "AS10429",
+            "tech-c": "GRP95",
+            "nserver": [
+                "te-br-spo-ib-dns2.tdatabrasil.net.br",
+                "te-br-spo-tic-dns1.tdatabrasil.net.br"
+            ],
+            "inetnum": "189.20.0.0\/16",
+            "created": [
+                "20080407",
+                "20031027",
+                "20070223",
+                "20180713"
+            ],
+            "nic-hdl-br": [
+                "GRP95",
+                "ARITE",
+                "CSTBR"
+            ],
+            "person": [
+                "Grupo Provisionamento",
+                "CSIRT TELEFONICA BR",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "++registered": "2018-07-13 00:00:00",
+            "changed": [
+                "20180713",
+                "20190410",
+                "20230629",
+                "20231107"
+            ],
+            "abuse-c": "CSTBR",
+            "++abuse": "CSTBR",
+            "++registrant": [
+                "CSIRT TELEFONICA BR",
+                "Grupo Provisionamento",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "inetrev": "189.20.0.0\/21",
+            "owner": "TELEF\ufffdNICA BRASIL S.A",
+            "nslastaa": "20240701",
+            "nsstat": "20240701 AA"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "22": "SSH-2.0-OpenSSH_6.7\n"
+        },
+        "dns": {
+            "ptr": "189-20-6-2.customer.tdatabrasil.net.br"
+        }
+    }
+}

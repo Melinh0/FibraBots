@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 65610207,
+    "indicator": "139.59.244.144",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-05 10:19:17",
+    "stamp_updated": "2024-12-14 11:25:58",
+    "stamp_seen": "2024-12-05 10:20:34",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65610358,
+                "indicator": "https:\/\/139.59.244.144\/auth\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-05 10:19:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "SG",
+                "ZZ"
+            ],
+            "source": "APNIC",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": [
+                "noc@digitalocean.com",
+                "abuse@digitalocean.com"
+            ],
+            "abuse-mailbox": "abuse@digitalocean.com",
+            "address": [
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013"
+            ],
+            "admin-c": "DOIA2-AP",
+            "descr": "DigitalOcean, LLC",
+            "e-mail": [
+                "abuse@digitalocean.com",
+                "noc@digitalocean.com"
+            ],
+            "fax-no": "+1 646 397 8051",
+            "inetnum": "139.59.0.0 - 139.59.255.254",
+            "irt": "IRT-DIGITALOCEAN-AP",
+            "mnt-by": [
+                "MAINT-DIGITALOCEAN-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-DIGITALOCEAN-AP",
+            "netname": "DIGITALOCEAN-AP",
+            "nic-hdl": [
+                "DOIA2-AP",
+                "AD699-AP"
+            ],
+            "phone": [
+                "+1 646 397 8051",
+                "+000000000"
+            ],
+            "role": [
+                "Digital Ocean Inc administrator",
+                "ABUSE DIGITALOCEANAP"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "tech-c": "DOIA2-AP",
+            "last-modified": [
+                "2015-04-02T20:27:52Z",
+                "2021-07-14T13:13:04Z",
+                "2024-11-20T03:43:57Z",
+                "2024-11-20T03:44:57Z"
+            ],
+            "++phone": "+000000000",
+            "++registrant": "DOIA2-AP",
+            "abuse-c": "AD699-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2015-04-02 20:27:52",
+                "2024-11-20 03:43:57",
+                "2024-11-20 03:44:57"
+            ]
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "US",
+                "SG",
+                "ZZ"
+            ],
+            "asn": "AS14061",
+            "city": "Singapore",
+            "address": [
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013"
+            ],
+            "org": "DIGITALOCEAN-ASN",
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "robots": "noindex",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+            "msapplication-config": "\/favicons\/browserconfig.xml",
+            "theme-color": "#0e4688",
+            "charset": "utf-8",
+            "origin-trial": "3NNj0GXVktLOmVKwWUDendk4Vq2qgMVDBDX+Sni48ATJl9JBj+zF+9W2HGB3pvt6qowOihTbQgTeBm9SKbdTwYAAABfeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+            "++title": "Andri Team\u26a1",
+            "csrf-token": "1EVxY5nKGjlT95L8ZihZgYjBmkkARXrRinaxYdqT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "3306": "c\u0000\u0000\u0000\ufffdj\u0004Host '172-236-220-194.ip.linodeusercontent.com' is not allowed to connect to this MariaDB server"
+        },
+        "http": {
+            "++target": "http:\/\/139.59.244.144\/",
+            "++redirect": "https:\/\/139.59.244.144\/auth\/login"
+        },
+        "cookies": {
+            "pterodactyl_session": "eyJpdiI6Ikw5WmRvZmNMMkVTY25LY3N1QVdBcVE9PSIsInZhbHVlIjoiRFFHa0pnOW5LRlhHYUVod1hIb0FRQzkrV3RjOHRZV01lbWZzZVd4SFFOSXNaLytiaHpUSzI3WGttSFlJb1Z0NVJkejNUNE1Xc0ZUdkRZYVAvUktjTDJVd2tWVnZMSjEyVXFLZC9jdFp2cktHNE82YTFMb3JoWWNaS2tWSkE1NGYiLCJtYWMiOiIzOTBmYWVkMGYyZjJjYTllMzYyMzE0ZGJlY2VhMTZkYWNiNGFiMzhhNTE4M2NhODJhMjY0ODQ1NzgxZmE1ZDhiIiwidGFnIjoiIn0%3D",
+            "xsrf-token": "eyJpdiI6Ii9BVWpRWUdGbVhJMXFQaXE0SjMzVFE9PSIsInZhbHVlIjoiK3lQMDk4WWFzdUlpQmNWNXR5WC8yeXRBQVpIT3E0Y1ZlSEpTb2tHN2dVTEwxNlpJR1NEeXdBSzROWlJsM0s3SzlneThjWG5pYUpqc1Q3QXIwU2Vad2tJTnVoeExtUktvMW42SFZRT3VNU1FaTkRhc0tBNFY0NjhNL1U1d2Qxa2YiLCJtYWMiOiI3YWYwMGZmNDFlZmM4N2YzYjdkMjJjYjllOWY0ODU5MTAwOWEyN2Y2ZjQwZmM5NjVmNjMyMjBkYzAxZGYwNDQ2IiwidGFnIjoiIn0%3D"
+        }
+    }
+}

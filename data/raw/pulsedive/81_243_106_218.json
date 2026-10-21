@@ -1,0 +1,155 @@
+{
+    "qid": null,
+    "iid": 58652331,
+    "indicator": "81.243.106.218",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-23 18:35:45",
+    "stamp_updated": "2024-12-16 17:56:22",
+    "stamp_seen": "2024-12-16 17:56:22",
+    "stamp_probed": "2024-08-29 22:53:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-23 18:35:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2005-03-18T17:22:14Z",
+                "2022-09-28T12:14:51Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2005-03-18 17:22:14",
+                "2022-09-28 12:14:51"
+            ],
+            "country": "BE",
+            "address": [
+                "Belgium",
+                "Boulevard du Roi Albert II, 27",
+                "B-1030 Bruxelles",
+                "Proximus SA de droit public",
+                "TEC\/NEO\/IPR\/TDN\/DTO\/DSL Internet Networks"
+            ],
+            "mnt-by": [
+                "SKYNETBE-MNT",
+                "SKYNETBE-ROBOT-MNT"
+            ],
+            "origin": "AS5432",
+            "admin-c": [
+                "BIEC1-RIPE",
+                "SN2068-RIPE"
+            ],
+            "fax-no": "+32 2 203-6593",
+            "netname": "BE-BELGACOM-ADSL1",
+            "nic-hdl": "SN2068-RIPE",
+            "phone": "+32 2 202-4111",
+            "tech-c": [
+                "BIEC1-RIPE",
+                "SN2068-RIPE"
+            ],
+            "inetnum": "81.243.96.0 - 81.243.111.255",
+            "descr": [
+                "ADSL-GO-PLUS",
+                "Belgacom ISP SA\/NV",
+                "FIA-023"
+            ],
+            "++registrant": [
+                "SN2068-RIPE",
+                "BIEC1-RIPE"
+            ],
+            "++abuse": "abuse@proximus.com",
+            "abuse-mailbox": "abuse@proximus.com",
+            "++email": "abuse@proximus.com",
+            "last-modified": [
+                "2020-03-04T06:19:15Z",
+                "2022-09-28T12:14:51Z",
+                "2023-07-27T09:44:31Z"
+            ],
+            "role": "Proximus NOC administrators",
+            "route": "81.243.0.0\/16",
+            "++updated": [
+                "2020-03-04 06:19:15",
+                "2023-07-27 09:44:31",
+                "2022-09-28 12:14:51"
+            ]
+        },
+        "geo": {
+            "country": "Belgium",
+            "countrycode": "BE",
+            "asn": "AS5432",
+            "org": "Proximus NV",
+            "city": "Antwerp",
+            "lat": "51.2192",
+            "region": [
+                "Antwerp Province",
+                "Flanders"
+            ],
+            "long": "4.3917",
+            "address": [
+                "Belgium",
+                "Boulevard du Roi Albert II, 27",
+                "B-1030 Bruxelles",
+                "Proximus SA de droit public",
+                "TEC\/NEO\/IPR\/TDN\/DTO\/DSL Internet Networks"
+            ]
+        },
+        "dns": {
+            "ptr": "218.106-243-81.adsl-dyn.isp.belgacom.be"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2018.76\n\u0000\u0000\u0002\u0014\u000b\u0014h\ufffd\ufffd\u0016O\\\u001b2\ufffdO\ufffd\u06f92\f\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\b\ufffd?L\u0010+q\ufffd"
+        }
+    }
+}

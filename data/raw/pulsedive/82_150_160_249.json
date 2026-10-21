@@ -1,0 +1,168 @@
+{
+    "qid": null,
+    "iid": 60033661,
+    "indicator": "82.150.160.249",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-08 01:04:49",
+    "stamp_updated": "2024-10-07 16:27:57",
+    "stamp_seen": "2024-10-07 16:27:57",
+    "stamp_probed": "2024-07-17 22:42:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64173851,
+                "indicator": "https:\/\/82.150.160.249\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-08 01:04:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Microsoft HTTPAPI"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "CZ",
+            "mnt-by": "MNT-RIOMEDIA",
+            "origin": "AS16246",
+            "admin-c": "RP12473-RIPE",
+            "tech-c": "RP12473-RIPE",
+            "descr": [
+                "CZ",
+                "RIOMEDIA",
+                "CustomersPeers"
+            ],
+            "nic-hdl": "RP12473-RIPE",
+            "person": "Radomir Plasovsky",
+            "phone": "+420 775 802 904",
+            "last-modified": [
+                "2010-04-26T12:39:15Z",
+                "2019-03-14T16:14:58Z",
+                "2016-10-01T21:30:16Z"
+            ],
+            "route": "82.150.160.0\/19",
+            "created": [
+                "2003-09-17T10:12:03Z",
+                "2014-07-23T13:44:18Z",
+                "2004-12-01T10:45:09Z"
+            ],
+            "address": [
+                "Nej.cz s.r.o.",
+                "Kaplanova 2252\/8",
+                "148 00 Praha 4 Chodov",
+                "Czech Republic"
+            ],
+            "netname": "RIONET",
+            "++registrant": [
+                "RP12473-RIPE",
+                "Radomir Plasovsky"
+            ],
+            "++registered": [
+                "2014-07-23 13:44:18",
+                "2003-09-17 10:12:03"
+            ],
+            "++updated": [
+                "2019-03-14 16:14:58",
+                "2010-04-26 12:39:15"
+            ],
+            "inetnum": "82.150.160.0 - 82.150.160.255"
+        },
+        "geo": {
+            "countrycode": "CZ",
+            "org": "O2 Czech Republic, a.s.",
+            "asn": "AS16246",
+            "country": "Czechia",
+            "region": [
+                "\u010cesk\u00e1 L\u00edpa District",
+                "Libereck\ufffd kraj"
+            ],
+            "address": [
+                "Czech Republic",
+                "Nej.cz s.r.o.",
+                "Kaplanova 2252\/8",
+                "148 00 Praha 4 Chodov"
+            ],
+            "city": "\u010cesk\u00e1 L\u00edpa",
+            "lat": "50.6873",
+            "long": "14.5429"
+        },
+        "http": {
+            "content-type": "text\/html; charset=us-ascii",
+            "server": "Microsoft-HTTPAPI\/2.0",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "content-length": "315",
+            "date": "Mon, 16 Sep 2024 06:18:24 GMT",
+            "++redirect": "https:\/\/82.150.160.249\/",
+            "++target": "http:\/\/82.150.160.249\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=us-ascii",
+            "++title": "Not Found"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/CN=c4server\/OU=WhiteShark",
+            "expires": "2036-02-09 11:25:07",
+            "subject": "\/CN=c4server\/OU=WhiteShark",
+            "valid": "2019-09-05 10:25:07",
+            "org": "c4server",
+            "fingerprint": "e6e67033544ae38678b03de2e359745dc89436b9a1e6ee3ffb0a9a2a305f487d"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8d7a49012208142773d632bdf25b6f79.jpeg"
+        }
+    }
+}

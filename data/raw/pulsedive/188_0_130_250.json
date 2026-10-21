@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 58592253,
+    "indicator": "188.0.130.250",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-21 16:33:50",
+    "stamp_updated": "2024-12-14 20:24:35",
+    "stamp_seen": "2024-12-14 20:24:35",
+    "stamp_probed": "2024-09-30 07:14:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64121833,
+                "indicator": "https:\/\/188.0.130.250\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-06 20:03:24"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-21 16:33:50"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-06 20:03:24"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-06 00:14:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "KZ",
+            "abuse-mailbox": "abuse@kaztranscom.kz",
+            "address": [
+                "050009, Almaty, Republic of Kazakhstan",
+                "69\/204A, Radostovtsa str.",
+                "JSC \"Jusan Mobile\""
+            ],
+            "admin-c": [
+                "YZ927-RIPE",
+                "KTC1-RIPE"
+            ],
+            "fax-no": "+7 727 2377318",
+            "mnt-by": "MNT-ALCO-2K",
+            "nic-hdl": "KTC1-RIPE",
+            "origin": "AS35104",
+            "phone": [
+                "+7 727 2377405",
+                "+7 727 2377394",
+                "+7 727 2377490"
+            ],
+            "tech-c": [
+                "DM332-RIPE",
+                "KTC1-RIPE"
+            ],
+            "created": [
+                "2015-03-31T09:38:09Z",
+                "2005-05-19T12:27:14Z",
+                "2017-07-26T05:36:49Z"
+            ],
+            "route": "188.0.130.0\/24",
+            "inetnum": "188.0.130.0 - 188.0.130.255",
+            "descr": [
+                "Uralsk, Kazakhstan",
+                "Ural branch block",
+                "\"Jusan Mobile\" JSC"
+            ],
+            "++abuse": "abuse@kaztranscom.kz",
+            "++email": "abuse@kaztranscom.kz",
+            "++registrant": [
+                "KTC1-RIPE",
+                "YZ927-RIPE"
+            ],
+            "role": "JSC Jusan Mobile",
+            "last-modified": [
+                "2021-09-30T08:13:12Z",
+                "2021-10-21T10:46:33Z",
+                "2021-10-19T10:19:50Z"
+            ],
+            "netname": "JUSAN-MOBILE",
+            "++registered": [
+                "2005-05-19 12:27:14",
+                "2017-07-26 05:36:49",
+                "2015-03-31 09:38:09"
+            ],
+            "++updated": [
+                "2021-09-30 08:13:12",
+                "2021-10-21 10:46:33",
+                "2021-10-19 10:19:50"
+            ]
+        },
+        "geo": {
+            "country": "Kazakhstan",
+            "countrycode": "KZ",
+            "asn": "AS35104",
+            "region": "West Kazakhstan",
+            "city": "Oral",
+            "lat": "51.229",
+            "long": "51.3577",
+            "org": "Jusan Mobile JSC"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-content-type-options": "nosniff",
+            "connection": "Keep-Alive",
+            "x-xss-protection": "1",
+            "strict-transport-security": "max-age=31536000",
+            "content-length": "258",
+            "content-security-policy": "block-all-mixed-content",
+            "++code": "200",
+            "++status": "OK",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/188.0.130.250\/",
+            "date": "Tue, 22 Oct 2024 11:27:37 GMT"
+        },
+        "ssl": {
+            "domain": "localhost.localdomain",
+            "issuer": "\/O=VMware Installer",
+            "version": "v3",
+            "++subject": "VMware, Inc",
+            "expires": "2035-08-17 18:11:26",
+            "fingerprint": "ff02b8ba32ad507046e7aa5658b7c9bc40f09417cb319382b249c0eac8b094ef",
+            "valid": "2024-02-16 18:11:26",
+            "subject": "\/C=US\/ST=California\/L=Palo Alto\/O=VMware, Inc\/OU=VMware ESX Server Default Certificate\/E=ssl-certificates@vmware.com\/CN=localhost.localdomain\/=1708107085,564d7761726520496e632e"
+        },
+        "meta": {
+            "refresh": "0;URL='\/ui'",
+            "content-type": "text\/html; charset=utf8"
+        },
+        "dns": {
+            "ptr": "250.130.0.188.static.ktc.kz"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

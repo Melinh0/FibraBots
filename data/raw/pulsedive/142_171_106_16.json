@@ -1,0 +1,94 @@
+{
+    "qid": null,
+    "iid": 65081696,
+    "indicator": "142.171.106.16",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-18 09:18:26",
+    "stamp_updated": "2024-12-14 16:37:19",
+    "stamp_seen": "2024-12-01 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-11-24 15:35:52"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-18 09:18:26"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-11-24 15:35:52"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-26 21:38:35"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "California",
+            "city": "Los Angeles",
+            "asn": "AS35916",
+            "lat": "34.0544",
+            "org": "MULTA-ASN1",
+            "long": "-118.2441"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        }
+    }
+}

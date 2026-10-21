@@ -1,0 +1,119 @@
+{
+    "qid": null,
+    "iid": 62503946,
+    "indicator": "31.214.175.213",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-22 21:39:09",
+    "stamp_updated": "2024-12-16 11:34:58",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": "2024-09-30 11:28:12",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62512451,
+                "indicator": "http:\/\/31.214.175.213\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-22 21:39:09"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-17 21:29:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "IR",
+            "city": "Tehran",
+            "region": "Tehran",
+            "asn": "AS60976",
+            "country": "Iran (Islamic Republic of)",
+            "long": "51.4158",
+            "lat": "35.6824",
+            "org": "Parsan Lin Co. PJS",
+            "isp": "Parsan Lin Co. PJS"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "Apache\/2",
+            "vary": "User-Agent",
+            "upgrade": "h2,h2c",
+            "content-length": "47",
+            "connection": "Upgrade, Keep-Alive",
+            "++code": "200",
+            "++status": "OK",
+            "keep-alive": "timeout=2, max=100",
+            "++content-type": "text\/html",
+            "last-modified": "Fri, 26 Jul 2024 06:28:44 GMT",
+            "etag": "\"2f-61e209f84455c\"",
+            "date": "Sat, 07 Sep 2024 04:51:19 GMT"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN] Dovecot DA ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 08:21. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c3564ac74d6801d79586ca45f0805f3f.jpeg"
+        }
+    }
+}

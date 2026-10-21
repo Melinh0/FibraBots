@@ -1,0 +1,171 @@
+{
+    "qid": null,
+    "iid": 36192902,
+    "indicator": "54.39.18.122",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-06-22 02:51:36",
+    "stamp_updated": "2024-12-15 11:36:16",
+    "stamp_seen": "2024-12-15 07:53:04",
+    "stamp_probed": "2024-09-30 17:39:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 36193645,
+                "indicator": "http:\/\/54.39.18.122\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-07-01 20:14:59"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-06-22 02:51:36"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-07-30 12:28:36"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-07-01 20:14:59"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-25 19:05:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": "Quebec",
+            "org": [
+                "OVH SAS",
+                "OVH Hosting, Inc. (HO-2)"
+            ],
+            "asn": "AS16276",
+            "city": "Beauharnois",
+            "long": "-73.8736",
+            "lat": "45.3161"
+        },
+        "whois": {
+            "nettype": "Direct Allocation",
+            "++abuse": "abuse@ovh.ca",
+            "++email": "noc@ovh.net",
+            "++phone": "+1-855-684-5463",
+            "orgabuseemail": "abuse@ovh.ca",
+            "orgabusehandle": "ABUSE3956-ARIN",
+            "orgabusename": "Abuse",
+            "orgabusephone": "+1-855-684-5463",
+            "organization": "OVH Hosting, Inc. (HO-2)",
+            "orgtechemail": "noc@ovh.net",
+            "orgtechhandle": "NOC11876-ARIN",
+            "orgtechname": "NOC",
+            "orgtechphone": "+1-855-684-5463",
+            "netname": "HO-2",
+            "parent": "NET54 (NET-54-0-0-0-0)",
+            "++registered": "2017-10-16 00:00:00",
+            "++updated": "2017-10-16 00:00:00",
+            "updated": "2017-10-16",
+            "regdate": "2017-10-16",
+            "netrange": "54.39.0.0 - 54.39.255.255",
+            "nethandle": "NET-54-39-0-0-1",
+            "cidr": "54.39.0.0\/16",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC11876-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE3956-ARIN",
+            "ref": "https:\/\/rdap.arin.net\/registry\/ip\/54.39.0.0"
+        },
+        "http": {
+            "accept-ranges": "bytes",
+            "content-length": "31",
+            "server": "nginx",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "\"5e1cc656-1f\"",
+            "last-modified": "Mon, 13 Jan 2020 19:34:46 GMT",
+            "++target": "http:\/\/54.39.18.122\/",
+            "date": "Tue, 22 Oct 2024 05:48:14 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220 (vsFTPd 3.0.2)\n"
+        },
+        "dns": {
+            "ptr": "correo.eluniversal.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b8feba98728a04d7b39b5fbcd466f8fd.jpeg"
+        }
+    }
+}

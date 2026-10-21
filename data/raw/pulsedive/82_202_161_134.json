@@ -1,0 +1,252 @@
+{
+    "qid": null,
+    "iid": 12468182,
+    "indicator": "82.202.161.134",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-05-26 08:49:24",
+    "stamp_updated": "2024-12-09 10:39:26",
+    "stamp_seen": "2024-12-07 19:40:08",
+    "stamp_probed": "2024-08-29 01:03:21",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 16084228,
+                "indicator": "https:\/\/82.202.161.134\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 546,
+            "name": "qsnatch",
+            "category": "general",
+            "risk": "unknown",
+            "stamp_linked": "2020-06-02 11:50:42"
+        },
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:39:04"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-18 22:14:36"
+        },
+        {
+            "fid": 4,
+            "name": "C&C IPs",
+            "category": "malware",
+            "organization": "Bambenek Consulting",
+            "pricing": null,
+            "stamp_linked": "2020-06-02 11:50:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "5432",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "PostgreSQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Font Awesome",
+            "HSTS",
+            "Nginx",
+            "PWA"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "country": "RU",
+            "origin": "AS29182",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "WEBDC-MNT"
+            ],
+            "inetnum": "82.202.160.0 - 82.202.175.255",
+            "route": "82.202.160.0\/23",
+            "created": [
+                "2017-05-29T12:17:52Z",
+                "2018-06-04T13:52:29Z",
+                "2018-06-04T13:52:28Z",
+                "2024-01-31T14:12:58Z"
+            ],
+            "address": [
+                "RUSSIAN FEDERATION",
+                "Nagornoye Shosse, 2",
+                "141400",
+                "141400, Russia, Khimki",
+                "Khimki,  MSK"
+            ],
+            "person": [
+                "Alex Markov",
+                "Vasiliev Alexey"
+            ],
+            "nic-hdl": [
+                "AA33569-RIPE",
+                "AM44131-RIPE"
+            ],
+            "org": "ORG-JD76-RIPE",
+            "tech-c": "AA33569-RIPE",
+            "abuse-c": "AR46749-RIPE",
+            "phone": "+7(495)663-71-36",
+            "mnt-ref": "WEBDC-MNT",
+            "++phone": "+7(495)663-71-36",
+            "admin-c": "AM44131-RIPE",
+            "organisation": "ORG-JD76-RIPE",
+            "org-name": "JSC Datacenter",
+            "++registrant": [
+                "AM44131-RIPE",
+                "Alex Markov",
+                "Vasiliev Alexey"
+            ],
+            "last-modified": [
+                "2024-02-04T12:25:33Z",
+                "2024-01-31T14:12:58Z",
+                "2022-03-31T09:46:22Z",
+                "2022-03-31T09:48:08Z",
+                "2024-02-07T03:38:06Z"
+            ],
+            "netname": "RU-WEBDC-20031006",
+            "++registered": [
+                "2024-01-31 14:12:58",
+                "2018-06-04 13:52:29",
+                "2018-06-04 13:52:28",
+                "2017-05-29 12:17:52"
+            ],
+            "++updated": [
+                "2024-02-04 12:25:33",
+                "2022-03-31 09:46:22",
+                "2022-03-31 09:48:08",
+                "2024-02-07 03:38:06"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS29182",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "address": [
+                "RUSSIAN FEDERATION",
+                "Nagornoye Shosse, 2",
+                "141400",
+                "141400, Russia, Khimki",
+                "Khimki,  MSK"
+            ],
+            "org": [
+                "JSC IOT",
+                "ORG-JD76-RIPE"
+            ],
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "strict-transport-security": "max-age=31536000;",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.20.2",
+            "++base": "https:\/\/82.202.161.134\/",
+            "++redirect": "https:\/\/82.202.161.134\/",
+            "++target": "http:\/\/82.202.161.134\/",
+            "date": "Sat, 07 Dec 2024 19:39:45 GMT"
+        },
+        "ssl": {
+            "issuer": "\/CN=localhost",
+            "subject": "\/CN=localhost",
+            "version": "v3",
+            "org": "localhost",
+            "expires": "2027-10-29 04:19:21",
+            "valid": "2017-10-31 04:19:21",
+            "fingerprint": "689711236236a962bf15130150d8ba5e2bfdbb79d51709d98873e7088495fc35"
+        },
+        "meta": {
+            "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+            "theme-color": "#000000",
+            "charset": "utf-8",
+            "++title": "ELEONORA AMOSOVA"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220 FTP Server ready.\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "5432": "\u0005\u0004\u0000\u0000",
+            "25": "220 isp46.eplanet.host ESMTP Exim 4.96.1 Sat, 07 Dec 2024 22:39:44 +0300\n",
+            "3306": "J\u0000\u0000\u0000\n5.7.43\u0000{\ufffd\ufffd\u0001~_?\u0004\u0007\t(6\u0000\ufffd\ufffd!\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\"ujo@J\u0003\u0017ksvf\u0000mysql_native_password\u0000"
+        },
+        "dns": {
+            "ptr": "isp46.eplanet.host"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e16556a4de3209fd3213cb139f3b46c8.jpeg"
+        }
+    }
+}

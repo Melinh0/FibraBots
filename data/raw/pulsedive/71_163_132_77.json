@@ -1,0 +1,183 @@
+{
+    "qid": null,
+    "iid": 65043140,
+    "indicator": "71.163.132.77",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-16 09:23:51",
+    "stamp_updated": "2024-12-05 10:26:42",
+    "stamp_seen": "2024-11-16 10:17:22",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65046474,
+                "indicator": "https:\/\/71.163.132.77\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-16 09:23:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": [
+                "Abuse",
+                "abuse"
+            ],
+            "stateprov": "VA",
+            "++email": "swipper@verizonbusiness.com",
+            "++phone": "+1-800-900-0241",
+            "address": "22001 Loudoun County Pkwy",
+            "city": "Ashburn",
+            "netname": "VIS-BLOCK",
+            "orgabusehandle": [
+                "ABUSE3-ARIN",
+                "ABUSE5603-ARIN"
+            ],
+            "orgabusephone": "+1-800-900-0241",
+            "orgid": "MCICS",
+            "orgtechhandle": "SWIPP9-ARIN",
+            "orgtechphone": "+1-800-900-0241",
+            "postalcode": "20147",
+            "rabuseemail": "abuse@verizon.net",
+            "rabusehandle": "ABUSE5603-ARIN",
+            "rabusename": "Abuse",
+            "rabusephone": "+1-800-900-0241",
+            "regdate": [
+                "2006-05-30",
+                "2005-06-01"
+            ],
+            "parent": "NET71 (NET-71-0-0-0-0)",
+            "orgtechemail": "swipper@verizonbusiness.com",
+            "++registered": "2006-05-30 00:00:00",
+            "nethandle": "NET-71-161-224-0-1",
+            "netrange": "71.161.224.0 - 71.168.63.255",
+            "cidr": "71.162.0.0\/15, 71.164.0.0\/14, 71.161.224.0\/19, 71.168.0.0\/18",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/SWIPP9-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MCICS",
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.161.224.0"
+            ],
+            "orgabuseref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE3-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5603-ARIN"
+            ],
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5603-ARIN",
+            "++abuse": "abuse@verizon.net",
+            "orgabuseemail": "abuse@verizon.net",
+            "orgtechname": "SWIPPER",
+            "orgname": "Verizon Business",
+            "++registrant": "Verizon Business",
+            "organization": "Verizon Business (MCICS)",
+            "updated": [
+                "2022-05-31",
+                "2024-02-12"
+            ],
+            "orgdnsemail": "dnsadmin@verizon.com",
+            "orgdnshandle": "VZDNS1-ARIN",
+            "orgdnsname": "VZ-DNSADMIN",
+            "orgdnsref": "https:\/\/rdap.arin.net\/registry\/entity\/VZDNS1-ARIN",
+            "orgdnsphone": "+1-800-900-0241",
+            "++updated": "2024-02-12 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "VA",
+                "Virginia"
+            ],
+            "asn": "AS701",
+            "city": "Ashburn",
+            "zip": "20147",
+            "address": "22001 Loudoun County Pkwy",
+            "lat": "39.0127",
+            "long": "-77.5342",
+            "org": [
+                "UUNET",
+                "Verizon Business (MCICS)"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-length": "592",
+            "++code": "503",
+            "++content-type": "text\/html",
+            "date": "Sat, 16 Nov 2024 10:17:04 GMT",
+            "++target": "http:\/\/71.163.132.77\/",
+            "++redirect": "https:\/\/71.163.132.77\/"
+        },
+        "ssl": {
+            "issuer": "\/CN=letsencrypt-nginx-proxy-companion",
+            "subject": "\/CN=letsencrypt-nginx-proxy-companion",
+            "version": "v3",
+            "org": "letsencrypt-nginx-proxy-companion",
+            "fingerprint": "159ef04c605e9640e66009b4ac73e4cad436eadcb2b41b2cbbb078cff080296a",
+            "expires": "2025-07-22 21:03:32",
+            "valid": "2024-07-22 21:03:32"
+        },
+        "meta": {
+            "++title": "503 Service Temporarily Unavailable"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/72aa9da65e404c6f7a07371b33f514b8.jpeg"
+        }
+    }
+}

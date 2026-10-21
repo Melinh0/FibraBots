@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 64841945,
+    "indicator": "93.182.161.111",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-10 09:07:32",
+    "stamp_updated": "2024-12-11 10:46:40",
+    "stamp_seen": "2024-11-10 09:13:40",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64843140,
+                "indicator": "http:\/\/93.182.161.111\/cgi-bin\/luci\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-10 09:07:32"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "SE",
+            "address": [
+                "Sweden",
+                "Winstrupsgatan 1",
+                "S-222 22 Lund"
+            ],
+            "last-modified": [
+                "2012-03-22T09:34:39Z",
+                "2009-03-27T19:20:07Z",
+                "2012-03-22T15:34:17Z"
+            ],
+            "mnt-by": "MNT-VIAE",
+            "route": "93.182.128.0\/18",
+            "admin-c": [
+                "MJ1080-RIPE",
+                "VR761-RIPE"
+            ],
+            "role": "ViaEuropa Routingregistry",
+            "abuse-mailbox": "abuse@viaeuropa.net",
+            "tech-c": [
+                "MJ1080-RIPE",
+                "VR761-RIPE"
+            ],
+            "netname": "VIAEUROPA-NET-SE",
+            "origin": "AS47155",
+            "descr": [
+                "VIAEU-BLK",
+                "INFRA-CITY-C2IP"
+            ],
+            "nic-hdl": "VR761-RIPE",
+            "created": [
+                "2009-03-27T14:03:29Z",
+                "2008-03-07T15:37:11Z",
+                "2012-03-22T15:34:17Z"
+            ],
+            "++abuse": "abuse@viaeuropa.net",
+            "++registrant": [
+                "VR761-RIPE",
+                "MJ1080-RIPE"
+            ],
+            "++email": "abuse@viaeuropa.net",
+            "++updated": [
+                "2009-03-27 19:20:07",
+                "2012-03-22 09:34:39",
+                "2012-03-22 15:34:17"
+            ],
+            "++registered": [
+                "2008-03-07 15:37:11",
+                "2009-03-27 14:03:29",
+                "2012-03-22 15:34:17"
+            ],
+            "inetnum": "93.182.161.0 - 93.182.161.255"
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS47155",
+            "address": [
+                "Sweden",
+                "Winstrupsgatan 1",
+                "S-222 22 Lund"
+            ],
+            "lat": "55.8355",
+            "long": "13.3019",
+            "region": "Sk\ufffdne County",
+            "city": "Esl\ufffdv",
+            "org": "ViaEuropa Sverige AB"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "vary": "Accept-Encoding",
+            "cache-control": "no-cache",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "status": "403 Forbidden",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "x-luci-login-required": "yes",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.19.6",
+            "date": "Sat, 11 Nov 2023 13:56:02 GMT",
+            "++redirect": "http:\/\/93.182.161.111\/cgi-bin\/luci\/",
+            "++target": "http:\/\/93.182.161.111\/",
+            "expires": "0"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "msapplication-tap-highlight": "no",
+            "mobile-web-app-capable": "yes",
+            "charset": "utf-8",
+            "apple-mobile-web-app-capable": "yes",
+            "theme-color": "#09c",
+            "msapplication-tilecolor": "#09c",
+            "apple-mobile-web-app-title": "GNX - LuCI",
+            "application-name": "GNX - LuCI",
+            "++title": "GNX - Dashboard - LuCI"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/613833cb612a6adfc1e4986c9c16ebef.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\u0007\u0014\ufffd\ufffd\ufffdqy\ufffd\ufffd\u0004DRfE\u0002\ufffdd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000 ssh-ed25519,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000d\ufffd\ufffd<\u000e\ufffd\ufffd"
+        }
+    }
+}

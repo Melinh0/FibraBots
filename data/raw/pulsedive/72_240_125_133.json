@@ -1,0 +1,229 @@
+{
+    "qid": null,
+    "iid": 20183831,
+    "indicator": "72.240.125.133",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-12-31 14:36:57",
+    "stamp_updated": "2024-12-15 11:36:57",
+    "stamp_seen": "2024-12-15 07:55:22",
+    "stamp_probed": "2024-09-30 19:08:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64085021,
+                "indicator": "https:\/\/72.240.125.133\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-01-03 21:40:57"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-12-31 14:36:58"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-09 08:50:24"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-03-28 12:30:35"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-01-03 21:40:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-03-12 15:19:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CentOS",
+            "OpenSSL"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgtechname": "IP Network Engineering",
+            "parent": "NET72 (NET-72-0-0-0-0)",
+            "stateprov": "OH",
+            "++registered": [
+                "2005-04-21 00:00:00",
+                "2000-11-10 00:00:00"
+            ],
+            "orgabusename": "Abuse Contact",
+            "city": "Toledo",
+            "regdate": [
+                "2000-11-10",
+                "2005-04-21"
+            ],
+            "updated": [
+                "2012-03-02",
+                "2020-09-15"
+            ],
+            "orgtechhandle": "INE20-ARIN",
+            "orgnochandle": "INE20-ARIN",
+            "orgnocname": "IP Network Engineering",
+            "referralserver": "rwhois:\/\/rwhois.buckeyecom.net:4321",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/INE20-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/INE20-ARIN",
+            "orgabusehandle": "ABUSE5855-ARIN",
+            "orgabuseemail": "abuse@bex.net",
+            "address": "5566 Southwyck Blvd.",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZA107-ARIN",
+            "++registrant": "Buckeye Cablevision, Inc.",
+            "organization": "Buckeye Cablevision, Inc. (BUCKEY-4)",
+            "rtechphone": "+1-419-724-3845",
+            "netname": "BUCKEYE-CABLESYSTEM",
+            "rtechemail": "dns-tech@buckeye-access.com",
+            "++abuse": "abuse@bex.net",
+            "postalcode": "43614",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BUCKEY-4",
+                "https:\/\/rdap.arin.net\/registry\/ip\/72.240.0.0"
+            ],
+            "orgname": "Buckeye Cablevision, Inc.",
+            "rtechhandle": "ZA107-ARIN",
+            "rtechname": "DNS-TECH",
+            "orgid": "BUCKEY-4",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5855-ARIN",
+            "nethandle": "NET-72-240-0-0-1",
+            "cidr": "72.240.0.0\/15",
+            "netrange": "72.240.0.0 - 72.241.255.255",
+            "++phone": [
+                "+1-419-724-3884",
+                "+1-419-724-3845"
+            ],
+            "orgnocphone": "+1-419-724-3884",
+            "orgtechphone": "+1-419-724-3884",
+            "++updated": "2020-09-15 00:00:00",
+            "++email": "chustwayte@sharedsvcs.com",
+            "orgnocemail": "chustwayte@sharedsvcs.com",
+            "orgabusephone": "+1-419-724-3884",
+            "orgtechemail": "chustwayte@sharedsvcs.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "OH",
+                "Ohio"
+            ],
+            "city": "Toledo",
+            "asn": "AS13490",
+            "zip": "43614",
+            "long": "-83.6753",
+            "lat": "41.6432",
+            "org": [
+                "BUCKEYECABLEVISION",
+                "Buckeye Cablevision, Inc. (BUCKEY-4)"
+            ],
+            "address": "5566 Southwyck Blvd."
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips",
+            "content-length": "6650",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/72.240.125.133\/",
+            "date": "Tue, 22 Oct 2024 05:50:28 GMT",
+            "last-modified": "Tue, 22 Oct 2024 05:49:46 GMT",
+            "etag": "\"1674-625725709826c\""
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "DPLUS Dashboard"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "GlobalSign GCC R6 AlphaSSL CA 2023",
+            "issuer": "\/C=BE\/O=GlobalSign nv-sa\/CN=GlobalSign GCC R6 AlphaSSL CA 2023",
+            "fingerprint": "6a344c7a75beb1aa7a6cf1123452b0f980f584abab76a0ad1043fe1fa9b40d47",
+            "domain": [
+                "*.dstargateway.org",
+                "dstargateway.org"
+            ],
+            "expires": "2025-03-03 02:06:53",
+            "subject": "\/CN=*.dstargateway.org",
+            "valid": "2024-01-31 02:06:54"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\n"
+        },
+        "dns": {
+            "ptr": "cm-72-240-125-133.buckeyecom.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/69e29a8d2793db7d21bb9f37ac8575a9.jpeg"
+        }
+    }
+}

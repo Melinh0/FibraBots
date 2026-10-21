@@ -1,0 +1,147 @@
+{
+    "qid": null,
+    "iid": 42436589,
+    "indicator": "197.199.224.52",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-12-18 10:14:37",
+    "stamp_updated": "2024-12-25 12:47:00",
+    "stamp_seen": "2024-12-25 12:46:59",
+    "stamp_probed": "2024-09-30 07:59:01",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-01-01 08:29:32"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-12-18 10:14:37"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-01-01 08:29:32"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-02-19 13:42:47"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-31 09:06:08"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "EG",
+            "address": [
+                "Egypt",
+                "Etisalat Misr",
+                "S4, Down Town, 90th Street,",
+                "5th Compound,",
+                "New Cairo, Egypt.",
+                "Cairo 11835"
+            ],
+            "descr": [
+                "Network used for 3G Web Users",
+                "Etisalat Misr Mobile BB"
+            ],
+            "mnt-by": [
+                "GENERATED-BDVY6DBBH98KLPSUIXSD5SUX8WDCVXTF-MNT",
+                "etisalat-mnt"
+            ],
+            "nic-hdl": "SMM2-AFRINIC",
+            "person": "Sherif Magdy Mohamed",
+            "phone": "tel:+20-2-35381000",
+            "fax-no": "tel:+20-2-35381072",
+            "admin-c": "SMM2-AFRINIC",
+            "tech-c": "SMM2-AFRINIC",
+            "++registrant": [
+                "SMM2-AFRINIC",
+                "Sherif Magdy Mohamed"
+            ],
+            "netname": "EM-2",
+            "origin": "as36992",
+            "inetnum": "197.199.224.0 - 197.199.255.255",
+            "route": "197.199.224.0\/24",
+            "source": "AFRINIC # Filtered",
+            "parent": "197.192.0.0 - 197.199.255.255"
+        },
+        "geo": {
+            "country": "Egypt",
+            "countrycode": "EG",
+            "asn": "AS36992",
+            "org": "Etisalat Misr",
+            "address": [
+                "Egypt",
+                "Etisalat Misr",
+                "S4, Down Town, 90th Street,",
+                "5th Compound,",
+                "New Cairo, Egypt.",
+                "Cairo 11835"
+            ],
+            "lat": "30.0352",
+            "long": "31.2241"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.6.1\n"
+        },
+        "dns": {
+            "ptr": "host-197.199.224.52.etisalat.com.eg"
+        }
+    }
+}

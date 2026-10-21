@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 64908042,
+    "indicator": "47.206.67.127",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-13 09:13:58",
+    "stamp_updated": "2024-12-12 11:27:17",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64918784,
+                "indicator": "https:\/\/47.206.67.127\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-13 09:13:58"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-30 00:46:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Emotion",
+            "HSTS",
+            "Nginx",
+            "Sentry"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "FL",
+            "orgabusename": "Abuse",
+            "++registered": [
+                "2015-04-02 00:00:00",
+                "2015-08-28 00:00:00"
+            ],
+            "parent": "NET47 (NET-47-0-0-0-0)",
+            "city": "Tampa",
+            "updated": [
+                "2015-08-28",
+                "2023-06-01"
+            ],
+            "postalcode": "33602",
+            "regdate": [
+                "2015-04-02",
+                "2015-08-28"
+            ],
+            "referralserver": "rwhois:\/\/rwhois.frontiernet.net:4321",
+            "orgabusehandle": "ABUSE223-ARIN",
+            "orgtechhandle": "ZF47-ARIN",
+            "++registrant": "Frontier Communications Corporation",
+            "orgtechname": "Frontier Communications",
+            "orgname": "Frontier Communications Corporation",
+            "address": "610 Zack Street",
+            "organization": "Frontier Communications Corporation (FCC-210)",
+            "netrange": "47.191.0.0 - 47.207.255.255",
+            "netname": "FCC-210",
+            "nethandle": "NET-47-191-0-0-1",
+            "orgid": "FCC-210",
+            "cidr": "47.192.0.0\/12, 47.191.0.0\/16",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZF47-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE223-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/47.191.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/FCC-210"
+            ],
+            "orgroutingname": "Hostmaster",
+            "orgroutinghandle": "HOSTM2146-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/HOSTM2146-ARIN",
+            "orgroutingphone": "+1-585-777-0949",
+            "++phone": [
+                "+1-585-777-0949",
+                "+1-877-474-7876"
+            ],
+            "++updated": "2023-06-01 00:00:00",
+            "orgtechphone": "+1-877-474-7876",
+            "orgroutingemail": "hostmaster@support.ftr.com",
+            "++email": "abuse@support.ftr.com",
+            "orgabuseemail": "abuse@support.ftr.com",
+            "++abuse": "abuse@support.ftr.com",
+            "orgtechemail": "abuse@support.ftr.com",
+            "orgabusephone": "+1-877-474-7876"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "FL",
+                "Florida"
+            ],
+            "city": "Tampa",
+            "asn": "AS5650",
+            "zip": "33602",
+            "lat": "28.0206",
+            "long": "-82.4574",
+            "org": [
+                "FRONTIER-FRTR",
+                "Frontier Communications Corporation (FCC-210)"
+            ],
+            "address": "610 Zack Street"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "cache-control": "no-cache",
+            "x-content-type-options": "nosniff",
+            "x-dns-prefetch-control": "off",
+            "referrer-policy": "no-referrer",
+            "strict-transport-security": "max-age=15552000; includeSubDomains",
+            "access-control-allow-credentials": "false",
+            "content-length": "819",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "access-control-expose-headers": "Content-Disposition, Content-Range, Filename, Location, Range, Upload-Length, Upload-Offset, X-Connection-Type, X-Csrf-Token, X-File-Id, X-Token-Expire-Time, X-Updated-Csrf-Token",
+            "etag": "\"671897da-333\"",
+            "last-modified": "Wed, 23 Oct 2024 06:29:46 GMT",
+            "date": "Wed, 13 Nov 2024 10:08:04 GMT",
+            "++target": "https:\/\/47.206.67.127\/",
+            "expires": "Wed, 13 Nov 2024 10:08:03 GMT"
+        },
+        "ssl": {
+            "domain": [
+                "localhost",
+                "[::1]",
+                "unifi.local"
+            ],
+            "version": "v3",
+            "org": "unifi.local",
+            "issuer": "\/CN=unifi.local",
+            "subject": "\/CN=unifi.local",
+            "ip": [
+                "127.0.0.1",
+                "fe80::1"
+            ],
+            "fingerprint": "ed1a8e963c849506643b862138adee5d6f4203c6233a972d5a0b04d5234c1e9e",
+            "expires": "2026-04-23 13:00:35",
+            "valid": "2024-01-19 14:00:35"
+        },
+        "meta": {
+            "viewport": "width=device-width,initial-scale=1",
+            "charset": "utf-8",
+            "++title": "UniFi OS"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

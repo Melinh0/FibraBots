@@ -1,0 +1,234 @@
+{
+    "qid": null,
+    "iid": 27838991,
+    "indicator": "107.189.14.43",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-09-03 11:59:06",
+    "stamp_updated": "2024-12-25 17:23:53",
+    "stamp_seen": "2024-12-25 17:23:53",
+    "stamp_probed": "2024-10-01 05:14:13",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 38162675,
+                "indicator": "http:\/\/107.189.14.43\/"
+            },
+            {
+                "iid": 64147639,
+                "indicator": "https:\/\/107.189.14.43\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-01-22 19:27:17"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-09-03 11:59:07"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-08-22 09:03:12"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-01-22 19:27:17"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-09-03 11:59:07"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-03-09 17:51:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++phone": "+1-778-977-8246",
+            "++registrant": "FranTech Solutions",
+            "address": "1621 Central Ave",
+            "city": "Cheyenne",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": "FranTech Solutions (SYNDI-5)",
+            "orgid": "SYNDI-5",
+            "orgname": "FranTech Solutions",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": "82001",
+            "regdate": [
+                "2010-07-21",
+                "2014-04-17"
+            ],
+            "stateprov": "WY",
+            "++registered": [
+                "2014-04-17 00:00:00",
+                "2010-07-21 00:00:00"
+            ],
+            "parent": "NET107 (NET-107-0-0-0-0)",
+            "++abuse": "fdias@frantech.ca",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "cidr": "107.189.0.0\/19",
+            "nethandle": "NET-107-189-0-0-1",
+            "netname": "PONYNET-11",
+            "netrange": "107.189.0.0 - 107.189.31.255",
+            "updated": [
+                "2014-04-17",
+                "2024-11-25"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.189.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Luxembourg"
+            ],
+            "countrycode": [
+                "US",
+                "LU"
+            ],
+            "asn": "AS53667",
+            "city": [
+                "Cheyenne",
+                "Luxembourg"
+            ],
+            "zip": "82001",
+            "region": [
+                "Luxembourg",
+                "WY"
+            ],
+            "long": "6.1294",
+            "address": "1621 Central Ave",
+            "org": [
+                "FranTech Solutions (SYNDI-5)",
+                "PONYNET"
+            ],
+            "lat": "49.6113"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "35239",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Sat, 13 Aug 2022 22:34:21 GMT",
+            "etag": "\"62f826ed-89a7\"",
+            "server": "nginx\/1.26.2",
+            "++redirect": "https:\/\/107.189.14.43\/",
+            "++target": "http:\/\/107.189.14.43\/",
+            "date": "Tue, 24 Dec 2024 17:29:56 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "++title": "This is a Tor Exit Router"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": "tor-exit-node-46344-l.supermegaultra.xyz",
+            "subject": "\/CN=tor-exit-node-46344-l.supermegaultra.xyz",
+            "valid": "2024-10-27 11:45:31",
+            "fingerprint": "b1dc242d2b3547a05d6ccf9246261ae1ccce4935397aba08d06ebbeb3f403ee9",
+            "expires": "2025-01-25 11:45:30"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5\n"
+        },
+        "dns": {
+            "ptr": "tor-exit-node-46344-l.supermegaultra.xyz"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/49c5f476a2bff6f641123285a7b8c8d6.jpeg"
+        }
+    }
+}

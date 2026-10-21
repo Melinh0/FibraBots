@@ -1,0 +1,205 @@
+{
+    "qid": null,
+    "iid": 52947259,
+    "indicator": "80.66.75.106",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-11 22:26:30",
+    "stamp_updated": "2024-12-11 10:46:14",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": "2024-09-16 15:32:35",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 52947298,
+                "indicator": "http:\/\/80.66.75.106\/"
+            },
+            {
+                "iid": 56786375,
+                "indicator": "https:\/\/www.wikipedia.de\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-12-10 03:27:48"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-11 22:26:30"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-12-10 03:27:48"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-20 15:21:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "Let's Encrypt",
+            "Matomo Analytics",
+            "Next.js",
+            "Nginx",
+            "Node.js",
+            "Priority Hints",
+            "React",
+            "webpack"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "org-type": "OTHER",
+            "mnt-ref": [
+                "FREENET-MNT",
+                "ru-avm-1-mnt"
+            ],
+            "mnt-by": [
+                "ru-avm-1-mnt",
+                "DUWM-MNT"
+            ],
+            "origin": [
+                "AS35029",
+                "AS211849"
+            ],
+            "organisation": "ORG-DL550-RIPE",
+            "++registrant": "DN4804-RIPE",
+            "org-name": "DUWM LLC",
+            "last-modified": [
+                "2023-03-10T11:30:29Z",
+                "2023-03-10T08:56:24Z",
+                "2022-09-06T06:23:24Z",
+                "2022-06-15T09:17:01Z",
+                "2023-04-26T02:45:35Z"
+            ],
+            "netname": "duwm-net",
+            "address": "12700 Kyrgiz Republic Green str 1-50",
+            "created": [
+                "2022-06-11T11:48:54Z",
+                "2023-03-10T08:59:17Z",
+                "2023-03-10T08:56:24Z",
+                "2022-09-06T06:23:24Z",
+                "2022-06-15T09:17:01Z"
+            ],
+            "inetnum": "80.66.75.0 - 80.66.75.255",
+            "route": "80.66.75.0\/24",
+            "abuse-c": "ACRO52056-RIPE",
+            "role": "duwm noc",
+            "nic-hdl": "DN4804-RIPE",
+            "org": "ORG-DL550-RIPE",
+            "admin-c": "DN4804-RIPE",
+            "tech-c": "DN4804-RIPE",
+            "++registered": [
+                "2023-03-10 08:59:17",
+                "2023-03-10 08:56:24",
+                "2022-09-06 06:23:24",
+                "2022-06-15 09:17:01"
+            ],
+            "++updated": [
+                "2023-04-26 02:45:35",
+                "2023-03-10 08:56:24",
+                "2022-09-06 06:23:24",
+                "2022-06-15 09:17:01"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS211849",
+            "org": "Kakharov Orinbassar Maratuly",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.22.1",
+            "++redirect": "https:\/\/www.wikipedia.de\/",
+            "++target": "http:\/\/80.66.75.106\/",
+            "date": "Sat, 12 Oct 2024 09:47:12 GMT"
+        },
+        "meta": {
+            "charset": "UTF-8",
+            "viewport": "width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0",
+            "++title": "Wikipedia, die freie Enzyklop\ufffddie"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "www.wikipedia.de",
+            "subject": "\/CN=www.wikipedia.de",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "valid": "2024-09-08 05:29:45",
+            "expires": "2024-12-07 05:29:44",
+            "fingerprint": "78f219f28beae2cd57bf460cdb5ac14d8564263cdfb48c98d9f432dff816c812"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        },
+        "cookies": {
+            "_pk_ses.3.9878": "1",
+            "_pk_id.3.9878": "cbd7849d318a916b.1728726435.",
+            "_pk_ref.3.9878": "%5B%22%22%2C%22%22%2C1728726435%2C%22http%3A%2F%2F80.66.75.106%2F%22%5D"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8245959844a8a4c7f4a809322ab18cbb.jpeg"
+        }
+    }
+}

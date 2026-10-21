@@ -1,0 +1,226 @@
+{
+    "qid": null,
+    "iid": 60766970,
+    "indicator": "121.78.119.104",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-01 16:48:09",
+    "stamp_updated": "2024-12-16 17:09:16",
+    "stamp_seen": "2024-12-16 17:09:16",
+    "stamp_probed": "2024-08-28 22:46:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60767015,
+                "indicator": "http:\/\/121.78.119.104\/"
+            },
+            {
+                "iid": 63859577,
+                "indicator": "https:\/\/121.78.119.104\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-01 16:48:09"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-05 05:22:10"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Bootstrap",
+            "CentOS",
+            "Font Awesome",
+            "Google Tag Manager",
+            "jQuery",
+            "jQuery UI",
+            "Kakao",
+            "Open Graph",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "++phone": "+82-2-580-4600",
+            "address": [
+                "13, Daelim Acrotel",
+                "Seoul Gangnam-gu Eonju-ro 30-gil 13",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "MI443-KR",
+                "IM574-AP",
+                "IM405-AP"
+            ],
+            "descr": "KINX",
+            "e-mail": [
+                "noc@kinx.net",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "KINXINC-KR",
+                "KINXINC"
+            ],
+            "nic-hdl": [
+                "MI443-KR",
+                "IM405-AP"
+            ],
+            "phone": "+82-2-580-4600",
+            "tech-c": [
+                "MI443-KR",
+                "IM574-AP",
+                "IM405-AP"
+            ],
+            "inetnum": "121.78.0.0 - 121.78.255.255",
+            "last-modified": [
+                "2017-10-10T00:50:41Z",
+                "2021-06-15T06:21:49Z",
+                "2024-09-25T01:54:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM405-AP",
+                "MI443-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "noc@kinx.net",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-10-10 00:50:41",
+                "2024-09-25 01:54:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "org": "GABIA Inc.",
+            "asn": "AS17589",
+            "lat": "37.5112",
+            "long": "126.9741",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Gangnam-gu Eonju-ro 30-gil 13",
+                "13, Daelim Acrotel"
+            ],
+            "country": "South Korea"
+        },
+        "http": {
+            "connection": "close",
+            "pragma": "no-cache",
+            "x-powered-by": "PHP\/5.4.16",
+            "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips PHP\/5.4.16",
+            "p3p": "CP=\"NOI CURa ADMa DEVa TAIa OUR DELa BUS IND PHY ONL UNI COM NAV INT DEM PRE\"",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "++redirect": "https:\/\/121.78.119.104\/",
+            "++target": "http:\/\/121.78.119.104\/",
+            "date": "Mon, 18 Nov 2024 17:17:11 GMT",
+            "last-modified": "Mon, 18 Nov 2024 17:17:11 GMT",
+            "set-cookie": "PHPSESSID=hatan428r5f57ufdv3vikonu56; path=\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "x-ua-compatible": "IE=edge",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+            "og:site_name": "\uc131\uacbd\uc9c4\ub9ac\uc0ac\uc5ed\uc6d0(BTMK)",
+            "og:description": "\uc131\uacbd\uc9c4\ub9ac\uc0ac\uc5ed\uc6d0,\uc0ac\uc5ed\uc6d0,\uc8fc\ub2d8\uc758 \ud68c\ubcf5,\ud68c\ubcf5,\uc9c0\ubc29\uad50\ud68c,\ud55c\uad6d\uc9c0\ubc29\uad50\ud68c,\uc9c0\ubc29\uad50\ud68c\ub4e4,\uc6cc\uce58\ub9cc \ub2c8,\uc704\ud2b8\ub2c8\uc2a4 \ub9ac,\ud558\ub098\ub2d8,\uadf8\ub9ac\uc2a4\ub3c4,\uc131\uacbd,FTTS,BTMK",
+            "og:image": "http:\/\/btmk.org\/images\/btmk-logo.png",
+            "++title": "\uc131\uacbd\uc9c4\ub9ac\uc0ac\uc5ed\uc6d0(BTMK)",
+            "og:title": "\uc131\uacbd\uc9c4\ub9ac\uc0ac\uc5ed\uc6d0(BTMK)",
+            "og:url": "http:\/\/121.78.119.104\/",
+            "description": "\uc131\uacbd\uc9c4\ub9ac\uc0ac\uc5ed\uc6d0,\uc0ac\uc5ed\uc6d0,\uc8fc\ub2d8\uc758 \ud68c\ubcf5,\ud68c\ubcf5,\uc9c0\ubc29\uad50\ud68c,\ud55c\uad6d\uc9c0\ubc29\uad50\ud68c,\uc9c0\ubc29\uad50\ud68c\ub4e4,\uc6cc\uce58\ub9cc \ub2c8,\uc704\ud2b8\ub2c8\uc2a4 \ub9ac,\ud558\ub098\ub2d8,\uadf8\ub9ac\uc2a4\ub3c4,\uc131\uacbd,FTTS,BTMK"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "SomeOrganization",
+            "issuer": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=kserver119-104\/E=root@kserver119-104",
+            "expires": "2022-09-10 22:56:55",
+            "valid": "2021-09-10 22:56:55",
+            "subject": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=kserver119-104\/E=root@kserver119-104",
+            "org": "kserver119-104",
+            "fingerprint": "9ea74d5a4a9b4a187e3f81f0e879073dfb6ecb295e367cdaaf22cff65080e855"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "J\u0000\u0000\u0000\n5.6.49\u0000v4\u000e\u0000X|*VV.#_\u0000\ufffd\ufffd!\u0002\u0000\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000089Tz+b\/ay`Ui\u0000mysql_native_password\u0000"
+        },
+        "cookies": {
+            "phpsessid": "hatan428r5f57ufdv3vikonu56"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cb598168a7ba68a4ca9d49f7a5c6b659.jpeg"
+        }
+    }
+}

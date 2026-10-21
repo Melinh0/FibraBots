@@ -1,0 +1,239 @@
+{
+    "qid": null,
+    "iid": 23870352,
+    "indicator": "182.59.139.27",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-04-22 14:11:36",
+    "stamp_updated": "2024-12-15 11:31:42",
+    "stamp_seen": "2024-12-01 00:00:00",
+    "stamp_probed": "2024-08-28 22:50:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 32607959,
+                "indicator": "http:\/\/182.59.139.27\/"
+            },
+            {
+                "iid": 63860593,
+                "indicator": "http:\/\/182.59.139.27\/login.php"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-06-25 12:41:02"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-04-22 14:11:36"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-01-09 18:46:20"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-05-28 12:33:33"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-06-25 12:41:02"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-16 14:47:08"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "22",
+            "23",
+            "443",
+            "53",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "PPTP",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "address": [
+                "Mahanagar Doorsanchar Sadan, 5th Floor, 9 CGO Complex, Lodhi Road, New Delhi ,New Delhi,Delhi-110003",
+                "Jeevan Bharati Building",
+                "Tower 1, 12th Floor, 124, Connaught Circus, New Delhi"
+            ],
+            "admin-c": "AB782-AP",
+            "descr": [
+                "Mahanagar Telephone Nigam Limited",
+                "Route Object"
+            ],
+            "e-mail": [
+                "dgmitco@bol.net.in",
+                "mgritco@bol.net.in"
+            ],
+            "irt": "IRT-MTNL-IN",
+            "mnt-by": [
+                "MAINT-IN-MTNL",
+                "MAINT-IN-IRINN"
+            ],
+            "mnt-irt": "IRT-MTNL-IN",
+            "mnt-lower": "MAINT-IN-MTNL",
+            "mnt-routes": "MAINT-IN-MTNL",
+            "netname": "MTNL",
+            "nic-hdl": [
+                "AB782-AP",
+                "SM2089-AP"
+            ],
+            "person": "Amarjeetkaur Bedi",
+            "phone": "+91 01124325185",
+            "role": "Senior Manager",
+            "tech-c": [
+                "AB782-AP",
+                "SM2089-AP"
+            ],
+            "origin": "AS17813",
+            "inetnum": "182.56.0.0 - 182.59.255.255",
+            "last-modified": [
+                "2016-12-14T06:28:12Z",
+                "2016-12-14T06:25:35Z",
+                "2016-12-14T04:38:45Z",
+                "2022-07-01T08:44:20Z",
+                "2023-01-20T12:34:43Z"
+            ],
+            "++registrant": [
+                "AB782-AP",
+                "Amarjeetkaur Bedi"
+            ],
+            "++email": [
+                "dgmitco@bol.net.in",
+                "mgritco@bol.net.in",
+                "abusemtnl@bol.net.in"
+            ],
+            "++abuse": "abusemtnl@bol.net.in",
+            "abuse-mailbox": "abusemtnl@bol.net.in",
+            "route": "182.59.139.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-07-01 08:44:20",
+                "2016-12-14 06:25:35",
+                "2016-12-14 06:28:12",
+                "2023-01-20 12:34:43"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Maharashtra",
+            "asn": "AS17813",
+            "org": "Mahanagar Telephone Nigam Limited",
+            "city": "Mumbai",
+            "address": [
+                "Jeevan Bharati Building",
+                "Tower 1, 12th Floor, 124, Connaught Circus, New Delhi",
+                "Mahanagar Doorsanchar Sadan, 5th Floor, 9 CGO Complex, Lodhi Road, New Delhi ,New Delhi,Delhi-110003"
+            ],
+            "lat": "19.0748",
+            "long": "72.8856"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=99",
+            "x-powered-by": "PHP\/5.4.16",
+            "server": "Apache\/2.4.6 (CentOS) PHP\/5.4.16",
+            "content-length": "2368",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/182.59.139.27\/",
+            "++redirect": "http:\/\/182.59.139.27\/login.php",
+            "date": "Mon, 07 Oct 2024 01:05:18 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "dns": {
+            "ptr": "static-mum-182.59.139.27.mtnl.net.in"
+        },
+        "banners": {
+            "1723": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/081f3d5d10f79b159325fb184ed3486d.jpeg"
+        },
+        "cookies": {
+            "phpsessid": "p74cecp7qi7j2njm2kb20qnrh0"
+        }
+    }
+}

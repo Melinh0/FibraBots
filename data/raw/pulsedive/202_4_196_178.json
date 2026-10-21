@@ -1,0 +1,212 @@
+{
+    "qid": null,
+    "iid": 29048971,
+    "indicator": "202.4.196.178",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-10-23 10:21:18",
+    "stamp_updated": "2024-12-13 11:24:59",
+    "stamp_seen": "2024-12-11 23:22:48",
+    "stamp_probed": "2024-09-30 08:58:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 29051055,
+                "indicator": "http:\/\/202.4.196.178\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-10-23 10:21:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "Basic"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "abuse-mailbox": "corepssupport@pccw.com",
+            "last-modified": [
+                "2016-12-23T04:08:45Z",
+                "2021-01-11T00:23:04Z",
+                "2022-08-25T09:56:36Z",
+                "2023-09-05T02:15:37Z",
+                "2024-05-02T02:48:36Z",
+                "2024-05-02T02:49:26Z",
+                "2024-08-08T07:13:44Z"
+            ],
+            "mnt-irt": "IRT-PCCWMOBILE-HK",
+            "mnt-by": [
+                "MAINT-PCCWMOBILE-HK",
+                "APNIC-HM",
+                "APNIC-ABUSE",
+                "MINT-HK-SUNDAY"
+            ],
+            "e-mail": [
+                "raymond.wy.cheung@pccw.com",
+                "corepssupport@pccw.com",
+                "techsupport@pccw.com"
+            ],
+            "admin-c": "RC828-AP",
+            "tech-c": "RC828-AP",
+            "address": [
+                "39\/F, PCCW Tower, Taikoo Place, 979 King's Road",
+                "Taikoo Place",
+                "979 King's Road",
+                "39\/F, PCCW Tower"
+            ],
+            "++phone": [
+                "+852-2883-8438",
+                "+000000000"
+            ],
+            "nic-hdl": [
+                "RC828-AP",
+                "AP1097-AP"
+            ],
+            "person": "Raymond Cheung",
+            "irt": "IRT-PCCWMOBILE-HK",
+            "phone": [
+                "+852-2883-8438",
+                "+000000000"
+            ],
+            "descr": "Hong Kong Telecommunications (HKT) Limited",
+            "mnt-routes": "MINT-HK-SUNDAY",
+            "mnt-lower": "MINT-HK-SUNDAY",
+            "netname": "HKT",
+            "inetnum": "202.4.192.0 - 202.4.223.255",
+            "org": "ORG-HKTL1-AP",
+            "organisation": "ORG-HKTL1-AP",
+            "org-name": "Hong Kong Telecommunications (HKT) Limited",
+            "fax-no": "+852-2968-5189",
+            "++registrant": [
+                "RC828-AP",
+                "Raymond Cheung"
+            ],
+            "++email": [
+                "techsupport@pccw.com",
+                "raymond.wy.cheung@pccw.com",
+                "corepssupport@pccw.com"
+            ],
+            "++abuse": "corepssupport@pccw.com",
+            "origin": [
+                "AS9444",
+                "AS38819"
+            ],
+            "abuse-c": "AP1097-AP",
+            "role": "ABUSE PCCWMOBILEHK",
+            "route": "202.4.196.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-05-02 02:48:36",
+                "2023-09-05 02:15:37",
+                "2024-05-02 02:49:26",
+                "2016-12-23 04:08:45",
+                "2024-08-08 07:13:44",
+                "2022-08-25 09:56:36"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS9444",
+            "address": [
+                "Taikoo Place",
+                "979 King's Road",
+                "39\/F, PCCW Tower, Taikoo Place, 979 King's Road",
+                "39\/F, PCCW Tower"
+            ],
+            "org": [
+                "ORG-HKTL1-AP",
+                "Hong Kong Telecommunications HKT Limited"
+            ],
+            "lat": "22.2578",
+            "long": "114.1657"
+        },
+        "http": {
+            "connection": "close",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "Boa\/0.94.13",
+            "++code": "401",
+            "++status": "Unauthorized",
+            "content-type": "text\/html; charset=ISO-8859-1",
+            "++content-type": "text\/html",
+            "www-authenticate": "Basic realm=\"BiPAC 4700ZUL\"",
+            "set-cookie": "SESSIONID=08be9c20;HttpOnly",
+            "date": "Sat, 07 Sep 2024 12:44:03 GMT"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd!\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "53": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2017.75\n\u0000\u0000\u0002D\u0004\u0014w:\ufffd\u0019%\u000f&\u0019>r\u05f3;J\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000&\ufffdl"
+        },
+        "dns": {
+            "ptr": "202-4-196-178.static.pccw-hkt.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5340e74d573e03963ee06afec1c53183.jpeg"
+        },
+        "cookies": {
+            "sessionid": "08be9c20"
+        }
+    }
+}

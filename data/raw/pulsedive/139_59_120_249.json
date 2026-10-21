@@ -1,0 +1,248 @@
+{
+    "qid": null,
+    "iid": 52095289,
+    "indicator": "139.59.120.249",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-13 23:42:58",
+    "stamp_updated": "2024-12-12 11:19:48",
+    "stamp_seen": "2024-12-11 23:10:28",
+    "stamp_probed": "2024-09-07 07:48:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 52096275,
+                "indicator": "http:\/\/139.59.120.249\/"
+            },
+            {
+                "iid": 64118755,
+                "indicator": "https:\/\/139.59.120.249\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-12-05 19:43:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-13 23:42:58"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-12-05 19:43:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-18 09:47:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "Cart Functionality",
+            "ERPNext",
+            "Frappe",
+            "HSTS",
+            "jQuery",
+            "Leaflet",
+            "Let's Encrypt",
+            "Moment.js",
+            "Nginx",
+            "Open Graph",
+            "Vue.js"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "SG",
+                "ZZ"
+            ],
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": [
+                "noc@digitalocean.com",
+                "abuse@digitalocean.com"
+            ],
+            "abuse-mailbox": "abuse@digitalocean.com",
+            "address": [
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013"
+            ],
+            "admin-c": "DOIA2-AP",
+            "descr": "DigitalOcean, LLC",
+            "e-mail": [
+                "abuse@digitalocean.com",
+                "noc@digitalocean.com"
+            ],
+            "fax-no": "+1 646 397 8051",
+            "irt": "IRT-DIGITALOCEAN-AP",
+            "mnt-by": [
+                "MAINT-DIGITALOCEAN-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-DIGITALOCEAN-AP",
+            "netname": "DIGITALOCEAN-AP",
+            "nic-hdl": [
+                "DOIA2-AP",
+                "AD699-AP"
+            ],
+            "phone": [
+                "+1 646 397 8051",
+                "+000000000"
+            ],
+            "role": [
+                "Digital Ocean Inc administrator",
+                "ABUSE DIGITALOCEANAP"
+            ],
+            "tech-c": "DOIA2-AP",
+            "last-modified": [
+                "2015-04-02T20:27:52Z",
+                "2020-05-31T21:37:27Z",
+                "2024-06-03T15:11:43Z",
+                "2024-06-03T15:12:12Z"
+            ],
+            "++phone": "+000000000",
+            "++registrant": "DOIA2-AP",
+            "abuse-c": "AD699-AP",
+            "inetnum": "139.59.112.0 - 139.59.127.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-06-03 15:11:43",
+                "2024-06-03 15:12:12",
+                "2015-04-02 20:27:52"
+            ]
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "US",
+                "SG",
+                "ZZ"
+            ],
+            "asn": "AS14061",
+            "city": "Singapore",
+            "address": [
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013"
+            ],
+            "org": "DIGITALOCEAN-ASN",
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "referrer-policy": "same-origin, strict-origin-when-cross-origin",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "x-from-cache": "True",
+            "++content-type": "text\/html",
+            "x-page-name": "contact",
+            "++redirect": "https:\/\/139.59.120.249\/",
+            "++target": "http:\/\/139.59.120.249\/",
+            "date": "Sat, 19 Oct 2024 12:10:18 GMT",
+            "set-cookie": "sid=Guest; Expires=Tue, 22 Oct 2024 12:10:18 GMT; Secure; HttpOnly; Path=\/; SameSite=Lax\nsystem_user=no; Secure; Path=\/; SameSite=Lax\nfull_name=Guest; Secure; Path=\/; SameSite=Lax\nuser_id=Guest; Secure; Path=\/; SameSite=Lax\nuser_image=; Secure; Path=\/; SameSite=Lax"
+        },
+        "meta": {
+            "twitter:card": "summary",
+            "og:type": "article",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "generator": "frappe",
+            "twitter:title": "Contact",
+            "og:title": "Contact",
+            "++title": "Contact Us",
+            "charset": "utf-8",
+            "language": "en-US",
+            "title": "Contact"
+        },
+        "cookies": {
+            "sid": "Guest",
+            "user_id": "Guest",
+            "full_name": "Guest",
+            "system_user": "no",
+            "user_image": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "domain": "akademi.koperasihartanahbersatu.com.my",
+            "expires": "2024-11-10 22:12:39",
+            "valid": "2024-08-12 22:12:40",
+            "subject": "\/CN=akademi.koperasihartanahbersatu.com.my",
+            "fingerprint": "2b224e9d30dc7ba4302a86d15c071c0fe71e28c0291e5e070f8fed4ab2173f95"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d009ba865822a068e01a1257ea12fb7d.jpeg"
+        }
+    }
+}

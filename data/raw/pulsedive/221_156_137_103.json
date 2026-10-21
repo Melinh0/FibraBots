@@ -1,0 +1,196 @@
+{
+    "qid": null,
+    "iid": 64272108,
+    "indicator": "221.156.137.103",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-11 06:12:20",
+    "stamp_updated": "2024-12-14 11:30:11",
+    "stamp_seen": "2024-10-11 07:09:28",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64276169,
+                "indicator": "https:\/\/221.156.137.103\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-11 06:12:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "221.144.0.0 - 221.168.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-02-06T02:32:54Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Suncheon",
+            "region": "Jeollanam-do",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "lat": "34.9785",
+            "long": "127.4851",
+            "country": "South Korea"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "W\/\"5e2106bb-81\"",
+            "last-modified": "Fri, 17 Jan 2020 00:58:35 GMT",
+            "++redirect": "https:\/\/221.156.137.103\/",
+            "++target": "http:\/\/221.156.137.103\/",
+            "date": "Fri, 11 Oct 2024 07:09:25 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "valid": "2024-02-27 00:00:00",
+            "expires": "2025-03-29 23:59:59",
+            "subject": "\/CN=admin.jnfc.or.kr",
+            "domain": [
+                "admin.jnfc.or.kr",
+                "www.admin.jnfc.or.kr"
+            ],
+            "fingerprint": "627892393c6736913d5ec7ed89cea96fd3eeae2851b0293d207befa531a6311d"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n",
+            "25": "220 b103s.b103s ESMTP Postfix (Ubuntu)\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "meta": {
+            "refresh": "0;url=.\/web_page\/index.php"
+        }
+    }
+}

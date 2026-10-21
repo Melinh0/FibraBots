@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 14448155,
+    "indicator": "118.70.15.19",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-08-22 17:09:51",
+    "stamp_updated": "2024-12-02 10:07:01",
+    "stamp_seen": "2024-11-23 16:54:27",
+    "stamp_probed": "2020-12-23 18:56:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 164,
+            "name": "Emotet",
+            "category": "malware",
+            "risk": "high",
+            "stamp_linked": "2020-08-22 17:09:51"
+        },
+        {
+            "tid": 599,
+            "name": "Heodo",
+            "category": "general",
+            "risk": "unknown",
+            "stamp_linked": "2020-09-30 04:59:58"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-13 06:08:43"
+        },
+        {
+            "fid": 31,
+            "name": "Feodo Tracker",
+            "category": "malware",
+            "organization": "abuse.ch",
+            "pricing": "free",
+            "stamp_linked": "2020-09-30 04:59:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS18403",
+            "country": "Viet Nam",
+            "countrycode": "VN",
+            "isp": "The Corporation for Financing & Promoting Technology",
+            "org": "The Corporation for Financing & Promoting Technology",
+            "city": "Hanoi",
+            "region": "Hanoi",
+            "lat": "21.0313",
+            "long": "105.8516"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-FPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "origin": "AS18403",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "NOC21-AP"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "address": [
+                "FPT Telecom",
+                "Ha Noi, VietNam"
+            ],
+            "descr": [
+                "2nd floor FPT Building, Pham Hung Road, Cau Giay District, Hanoi",
+                "FPT Telecom Company",
+                "Vietnam Internet Network Information Center (VNNIC)"
+            ],
+            "e-mail": [
+                "haitt3@fpt.com.vn",
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com.vn"
+            ],
+            "netname": "FPT-STATICIP-NET",
+            "nic-hdl": [
+                "TTH19-AP",
+                "NOC21-AP"
+            ],
+            "person": [
+                "Tran Thanh Hai",
+                "Network Operation Center"
+            ],
+            "phone": [
+                "+84-90-4211450",
+                "+84-24-35564944",
+                "+84-28-73093388"
+            ],
+            "admin-c": [
+                "TTH19-AP",
+                "NTTT1-AP"
+            ],
+            "inetnum": "118.70.0.0 - 118.70.15.255",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-28-73093388",
+                "+84-90-4211450"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": [
+                "+84-24-37821462",
+                "+84-24-37262163",
+                "+84-28-73008889"
+            ],
+            "last-modified": [
+                "2017-11-13T04:26:47Z",
+                "2017-11-08T09:40:06Z",
+                "2017-11-13T06:48:10Z",
+                "2014-11-13T03:49:35Z",
+                "2019-08-01T06:45:22Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "auth": "mnt-by: MAINT-VN-VNNIC",
+            "++registrant": [
+                "NTTT1-AP",
+                "TTH19-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com.vn",
+                "haitt3@fpt.com.vn"
+            ],
+            "++updated": "2019-08-01 00:00:00",
+            "route": "118.70.15.0\/24"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx\/1.13.1",
+            "content-length": "615",
+            "++code": "503",
+            "++status": "Service Temporarily Unavailable",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Wed, 23 Dec 2020 16:22:47 GMT"
+        },
+        "meta": {
+            "++title": "503 Service Temporarily Unavailable"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/aedc19654e88e0dd9b3691bdc2ec0acc.jpeg"
+        }
+    }
+}

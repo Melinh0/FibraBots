@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 60529761,
+    "indicator": "125.20.16.22",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-23 16:24:00",
+    "stamp_updated": "2024-12-11 10:39:28",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 01:08:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62430156,
+                "indicator": "https:\/\/125.20.16.22\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-23 16:24:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-27 05:03:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "IN",
+            "admin-c": "NA40-AP",
+            "descr": [
+                "INDIA",
+                "BHARTI-IN",
+                "Bharti Tele-Ventures Limited",
+                "Class A ISP in INDIA .",
+                "234 , OKHLA PHASE III ,",
+                "Bhopal",
+                "Madhya Pradesh",
+                "Bharti Televentures Limited A\/c ABTS MP",
+                "1 Malviya Nagar",
+                "Contact Person: Nitin Lamba",
+                "Email: nitin.lamba@airtel.in",
+                "Phone:9893124927",
+                "NEW DELHI",
+                "India"
+            ],
+            "mnt-by": "MAINT-IN-BBIL",
+            "tech-c": "NA40-AP",
+            "origin": "AS9498",
+            "address": [
+                "Phase III, New Delhi-110020, INDIA",
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA"
+            ],
+            "fax-no": "+91-124-4244017",
+            "nic-hdl": "NA40-AP",
+            "person": "Network Administrator",
+            "phone": "+91-124-4222222",
+            "++phone": "+91-124-4222222",
+            "last-modified": [
+                "2008-09-04T07:54:39Z",
+                "2008-09-04T07:10:16Z",
+                "2018-12-18T12:52:19Z"
+            ],
+            "netname": "Bharti-3254-chn",
+            "e-mail": "noc-dataprov@airtel.com",
+            "++registrant": [
+                "NA40-AP",
+                "Network Administrator"
+            ],
+            "++email": "noc-dataprov@airtel.com",
+            "route": "125.20.16.0\/24",
+            "inetnum": "125.20.16.0 - 125.20.16.255",
+            "++updated": [
+                "2018-12-18 12:52:19",
+                "2008-09-04 07:54:39"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "asn": "AS9498",
+            "org": "BHARTI Airtel Ltd.",
+            "address": [
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "Phase III, New Delhi-110020, INDIA",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA"
+            ],
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "accept-ranges": "bytes",
+            "x-content-type-options": "nosniff",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "GajWebServer",
+            "last-modified": "Sat, 02 Sep 2023 07:38:16 GMT",
+            "content-length": "0",
+            "etag": "\"0-6045b5dd466c0\"",
+            "++target": "http:\/\/125.20.16.22\/",
+            "++redirect": "https:\/\/125.20.16.22\/",
+            "date": "Sat, 12 Oct 2024 13:24:09 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "ca.gajshield.com",
+            "subject": "\/C=IN\/ST=Maharastra\/L=Mumbai\/O=Gajshield Infotech Pvt. Ltd.\/OU=IT\/CN=ca.gajshield.com\/E=support@gajshield.com",
+            "expires": "2025-01-07 09:39:02",
+            "valid": "2023-01-07 09:39:02",
+            "issuer": "\/C=IN\/ST=Maharastra\/L=Mumbai\/O=Gajshield Infotech Pvt. Ltd.\/OU=IT\/CN=ca.gajshield.com\/E=support@gajshield.com",
+            "++subject": "Gajshield Infotech Pvt. Ltd.",
+            "fingerprint": "ac54f34e60099fc60e6ec07213f6f9c7e387bb7a277295d0028372a35802995c"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "qid": null,
+    "iid": 5085254,
+    "indicator": "188.254.0.160",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2019-02-20 18:49:17",
+    "stamp_updated": "2024-07-06 08:52:13",
+    "stamp_seen": "2024-04-03 01:18:17",
+    "stamp_probed": "2024-04-03 01:18:17",
+    "stamp_retired": "2024-07-06 08:52:13",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 20:17:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:56:52"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-29 00:25:09"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2019-05-31 22:55:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 20:17:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-14 22:33:38"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 08:08:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russian Federation",
+                "PJSC Rostelecom"
+            ],
+            "mnt-by": "ROSTELECOM-MNT",
+            "origin": "AS12389",
+            "abuse-mailbox": "abuse@rt.ru",
+            "nic-hdl": "RTNC-RIPE",
+            "descr": [
+                "ROSTELECOM NETS",
+                "BROADBAND INTERNET ACCESS FOR CUSTOMERS ROSTELECOM"
+            ],
+            "++registered": "2011-03-10 00:00:00",
+            "netname": "BROADBAND_INTERNET_ACCESS",
+            "last-modified": [
+                "2011-03-10T12:32:40Z",
+                "2011-02-25T07:31:52Z",
+                "2022-12-12T07:46:18Z"
+            ],
+            "route": "188.254.0.0\/17",
+            "created": [
+                "2011-03-10T12:32:40Z",
+                "2007-11-27T13:28:11Z",
+                "2011-02-25T07:31:52Z"
+            ],
+            "inetnum": "188.254.0.0 - 188.254.15.255",
+            "tech-c": [
+                "RTNC-RIPE",
+                "IE1277-RIPE"
+            ],
+            "admin-c": [
+                "RTNC-RIPE",
+                "IE1277-RIPE"
+            ],
+            "++abuse": "abuse@rt.ru",
+            "++registrant": [
+                "RTNC-RIPE",
+                "IE1277-RIPE"
+            ],
+            "++email": "abuse@rt.ru",
+            "role": "PJSC Rostelecom Technical Team",
+            "++updated": "2022-12-12 00:00:00"
+        },
+        "geo": {
+            "city": "Moscow",
+            "country": "Russian Federation",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS12389",
+            "org": "Rostelecom",
+            "isp": "Rostelecom",
+            "zip": "125310",
+            "address": [
+                "Russian Federation",
+                "PJSC Rostelecom"
+            ],
+            "lat": "55.7483",
+            "long": "37.6171"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.18 (Ubuntu)",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3186",
+            "++code": "200",
+            "++status": "OK",
+            "last-modified": "Wed, 23 Jan 2019 17:06:01 GMT",
+            "etag": "\"2c39-580231bbda86f-gzip\"",
+            "++content-type": "text\/html",
+            "date": "Sat, 27 May 2023 03:59:56 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.6\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/47e1de4b93761bbb0ad3e4538258f58b.jpeg"
+        }
+    }
+}

@@ -1,0 +1,284 @@
+{
+    "qid": null,
+    "iid": 23141173,
+    "indicator": "52.160.46.145",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-03-29 14:14:04",
+    "stamp_updated": "2024-12-16 03:27:04",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": "2024-09-30 17:26:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 23305126,
+                "indicator": "http:\/\/52.160.46.145\/"
+            },
+            {
+                "iid": 64084966,
+                "indicator": "https:\/\/52.160.46.145\/profile\/login\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-02-14 00:42:49"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-03-29 14:14:04"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-12 14:09:31"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-04-03 12:31:16"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-02-14 00:42:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-02-25 17:04:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Bootstrap",
+            "Bootstrap Icons",
+            "cdnjs",
+            "Django",
+            "Element UI",
+            "Font Awesome",
+            "jQuery",
+            "jsDelivr",
+            "Let's Encrypt",
+            "Nginx",
+            "Popper",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++registered": [
+                "2015-11-24 00:00:00",
+                "1998-07-10 00:00:00"
+            ],
+            "++abuse": "abuse@microsoft.com",
+            "++phone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "++registrant": "Microsoft Corporation",
+            "address": "One Microsoft Way",
+            "city": "Redmond",
+            "nethandle": "NET-52-145-0-0-1",
+            "netname": "MSFT",
+            "netrange": "52.145.0.0 - 52.191.255.255",
+            "orgabuseemail": "abuse@microsoft.com",
+            "orgabusehandle": "MAC74-ARIN",
+            "orgabusename": "Microsoft Abuse Contact",
+            "orgabusephone": "+1-425-882-8080",
+            "organization": "Microsoft Corporation (MSFT)",
+            "orgid": "MSFT",
+            "orgname": "Microsoft Corporation",
+            "orgtechemail": [
+                "IOC@microsoft.com",
+                "dabedard@microsoft.com",
+                "iphostmaster@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com"
+            ],
+            "orgtechhandle": [
+                "MRPD-ARIN",
+                "BEDAR6-ARIN",
+                "IPHOS5-ARIN",
+                "SINGH683-ARIN",
+                "KIMAV-ARIN"
+            ],
+            "orgtechname": [
+                "Microsoft Routing, Peering, and DNS",
+                "Bedard, Dawn",
+                "IPHostmaster, IPHostmaster",
+                "Singh, Prachi",
+                "Kim, Avery"
+            ],
+            "orgtechphone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "parent": "NET52 (NET-52-0-0-0-0)",
+            "postalcode": "98052",
+            "stateprov": "WA",
+            "cidr": "52.145.0.0\/16, 52.146.0.0\/15, 52.152.0.0\/13, 52.148.0.0\/14, 52.160.0.0\/11",
+            "regdate": [
+                "2015-11-24",
+                "1998-07-10"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MRPD-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BEDAR6-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPHOS5-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SINGH683-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/KIMAV-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MSFT",
+                "https:\/\/rdap.arin.net\/registry\/ip\/52.145.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MAC74-ARIN",
+            "++email": [
+                "iphostmaster@microsoft.com",
+                "dabedard@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com",
+                "ioc@microsoft.com"
+            ],
+            "updated": [
+                "2021-12-14",
+                "2024-03-18"
+            ],
+            "orgroutingname": "Chaturmohta, Somesh",
+            "orgroutinghandle": "CHATU3-ARIN",
+            "orgroutingemail": "someshch@microsoft.com",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/CHATU3-ARIN",
+            "orgroutingphone": "+1-425-882-8080",
+            "++updated": "2024-03-18 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "California",
+                "WA"
+            ],
+            "asn": "AS8075",
+            "city": [
+                "San Jose",
+                "Redmond"
+            ],
+            "zip": "98052",
+            "address": "One Microsoft Way",
+            "lat": "37.1835",
+            "org": [
+                "Microsoft Corporation (MSFT)",
+                "MICROSOFT-CORP-MSN-AS-BLOCK"
+            ],
+            "long": "-121.7714"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "content-encoding": "gzip",
+            "vary": "Accept-Language, Cookie",
+            "server": "nginx\/1.14.0 (Ubuntu)",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "content-language": "en-us",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/52.160.46.145\/profile\/login\/?next=\/",
+            "++target": "http:\/\/52.160.46.145\/",
+            "date": "Tue, 22 Oct 2024 18:54:11 GMT",
+            "set-cookie": "csrftoken=OssZAXUcGYCXUm1V8I47sIummZPtGuDCRPmLbi82SWUvRRNoaxLWW4vsukivKErG; expires=Tue, 21 Oct 2025 18:54:11 GMT; Max-Age=31449600; Path=\/; SameSite=Lax"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "Kaiser Permanente",
+            "description": "",
+            "generator": "",
+            "author": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=sandbox.qausal.ai",
+            "domain": "sandbox.qausal.ai",
+            "fingerprint": "2d961cac2f2669f57abbad2b733d6f1b07870e32a673147b55a757dce306b644",
+            "valid": "2024-10-10 15:21:38",
+            "expires": "2025-01-08 15:21:37"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n",
+            "3306": "[\u0000\u0000\u0000\n5.7.42-0ubuntu0.18.04.1\u0000\ufffd\ufffd\u0004\u0000{!p,WB9\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000V)\u001bf{5\u0001BGi9\u0013\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/473af6785d7f906f55c76bb4eb66408a.jpeg"
+        },
+        "cookies": {
+            "csrftoken": "T2yUhlZmFCO9xS7adjmIgOSkrFCILU7YF50Oan4E0kBP5iNyuMJRUvN2kCC20txy"
+        }
+    }
+}

@@ -1,0 +1,243 @@
+{
+    "qid": null,
+    "iid": 13673,
+    "indicator": "52.73.169.169",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-09-28 04:28:09",
+    "stamp_updated": "2024-12-10 02:30:32",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-29 08:05:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 29713200,
+                "indicator": "http:\/\/52.73.169.169\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-08 20:32:52"
+        },
+        {
+            "fid": 44,
+            "name": "High Confidence IPv4 Drop List",
+            "category": "general",
+            "organization": "St. Dominics Priory College - Australia",
+            "pricing": "free",
+            "stamp_linked": "2018-03-19 13:34:13"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-02 06:04:10"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 505613,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 02:01:59",
+            "stamp_updated": "2022-05-18 02:01:59"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "CloudFlare",
+            "Fastly",
+            "GitHub Pages",
+            "Google Analytics",
+            "MySQL",
+            "Nginx",
+            "PHP",
+            "Ruby on Rails",
+            "Ubuntu",
+            "Varnish",
+            "WordPress"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++registered": "2011-12-08 00:00:00",
+            "parent": "NET52 (NET-52-0-0-0-0)",
+            "stateprov": "WA",
+            "++email": "amzn-noc-contact@amazon.com",
+            "++registrant": "Amazon Technologies Inc.",
+            "address": "410 Terry Ave N.",
+            "city": "Seattle",
+            "orgabusehandle": "AEA8-ARIN",
+            "orgabusename": "Amazon EC2 Abuse",
+            "organization": "Amazon Technologies Inc. (AT-88-Z)",
+            "orgid": "AT-88-Z",
+            "orgname": "Amazon Technologies Inc.",
+            "orgnocemail": "amzn-noc-contact@amazon.com",
+            "orgnochandle": "AANO1-ARIN",
+            "orgnocname": "Amazon AWS Network Operations",
+            "orgtechemail": "amzn-noc-contact@amazon.com",
+            "orgtechhandle": "ANO24-ARIN",
+            "orgtechname": "Amazon EC2 Network Operations",
+            "postalcode": "98109",
+            "regdate": [
+                "2011-12-08",
+                "1991-12-19"
+            ],
+            "netname": "AT-88-Z",
+            "nethandle": "NET-52-0-0-0-1",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ANO24-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/AT-88-Z",
+                "https:\/\/rdap.arin.net\/registry\/ip\/52.0.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/AEA8-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/AANO1-ARIN",
+            "orgroutingemail": [
+                "aws-routing-poc@amazon.com",
+                "aws-rpki-routing-poc@amazon.com"
+            ],
+            "orgroutingname": [
+                "IP Routing",
+                "AWS RPKI Management POC"
+            ],
+            "orgroutingref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPROU3-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/ARMP-ARIN"
+            ],
+            "orgroutinghandle": [
+                "IPROU3-ARIN",
+                "ARMP-ARIN"
+            ],
+            "netrange": "52.0.0.0 - 52.79.255.255",
+            "cidr": "52.0.0.0\/10, 52.64.0.0\/12",
+            "orgabusephone": "+1-206-555-0000",
+            "++phone": "+1-206-555-0000",
+            "orgroutingphone": "+1-206-555-0000",
+            "orgnocphone": "+1-206-555-0000",
+            "orgtechphone": "+1-206-555-0000",
+            "++updated": [
+                "2024-01-24 00:00:00",
+                "2024-02-05 00:00:00"
+            ],
+            "updated": [
+                "2024-01-24",
+                "2024-02-05"
+            ],
+            "orgabuseemail": "trustandsafety@support.aws.com",
+            "++abuse": "trustandsafety@support.aws.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "WA",
+                "Virginia"
+            ],
+            "zip": "98109",
+            "city": [
+                "Seattle",
+                "Ashburn"
+            ],
+            "asn": "AS14618",
+            "long": "-77.4903",
+            "address": "410 Terry Ave N.",
+            "org": [
+                "Amazon Technologies Inc. (AT-88-Z)",
+                "AMAZON-AES"
+            ],
+            "lat": "39.0469"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx\/1.10.3 (Ubuntu)",
+            "content-encoding": "gzip",
+            "last-modified": "Fri, 18 Aug 2017 03:26:43 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "W\/\"59965e73-19e\"",
+            "++target": "http:\/\/52.73.169.169\/",
+            "date": "Sun, 15 Sep 2024 06:37:16 GMT"
+        },
+        "ssl": {
+            "domain": [
+                "sni.cloudflaressl.com",
+                "cybergreen.net",
+                "*.cybergreen.net"
+            ],
+            "version": "v3",
+            "org": "Cloudflare Inc ECC CA-3",
+            "issuer": "\/C=US\/O=Cloudflare, Inc.\/CN=Cloudflare Inc ECC CA-3",
+            "expires": "2022-06-30 23:59:59",
+            "subject": "\/C=US\/ST=California\/L=San Francisco\/O=Cloudflare, Inc.\/CN=sni.cloudflaressl.com",
+            "valid": "2021-07-01 00:00:00"
+        },
+        "dns": {
+            "ptr": "scanner2.scanning.cybergreen.net"
+        },
+        "meta": {
+            "refresh": "0; url=https:\/\/www.cybergreen.net\/opt-out\/",
+            "++title": "CyberGreen Scanning"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8\n"
+        },
+        "cookies": {
+            "__wpdm_client": "a02a045fff18ad3aefdccc647934220b",
+            "_ga_dct73cgt08": "GS1.1.1704885097.1.0.1704885097.0.0.0",
+            "_ga": "GA1.1.904112298.1704885097"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/67a761be949b591fc9ab23e6ec0743b9.jpeg"
+        }
+    }
+}

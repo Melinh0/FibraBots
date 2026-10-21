@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 63379589,
+    "indicator": "45.148.10.240",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-18 04:42:16",
+    "stamp_updated": "2024-12-10 02:28:49",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63380774,
+                "indicator": "http:\/\/45.148.10.240\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-09-19 10:30:44"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-18 04:42:16"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-09-19 10:30:44"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-19 15:16:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "NL",
+                "GB",
+                "AD"
+            ],
+            "country": [
+                "United Kingdom",
+                "Andorra",
+                "The Netherlands"
+            ],
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "asn": "AS48090",
+            "long": "4.8975",
+            "org": [
+                "Pptechnology Limited",
+                "ORG-PA1232-RIPE"
+            ],
+            "address": "35 Firs Avenue, London, England, N11 3NE",
+            "lat": "52.3759"
+        },
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": [
+                "GB",
+                "AD"
+            ],
+            "role": "Abuse contact role object",
+            "mnt-ref": [
+                "MNT-NETERRA",
+                "pptechnology"
+            ],
+            "mnt-by": [
+                "CYBR-DMZ",
+                "pptechnology"
+            ],
+            "netname": "DMZHOST",
+            "address": "35 Firs Avenue, London, England, N11 3NE",
+            "last-modified": [
+                "2019-09-21T13:21:51Z",
+                "2023-08-30T11:09:22Z",
+                "2023-12-15T16:03:28Z",
+                "2024-08-08T09:31:18Z"
+            ],
+            "route": "45.148.10.0\/24",
+            "inetnum": "45.148.10.0 - 45.148.10.255",
+            "mnt-domains": "CYBR-DMZ",
+            "origin": "AS48090",
+            "created": [
+                "2019-09-02T15:08:45Z",
+                "2019-09-05T14:32:45Z",
+                "2019-09-02T14:59:13Z",
+                "2019-09-02T14:58:45Z"
+            ],
+            "abuse-c": "ACRO26775-RIPE",
+            "organisation": "ORG-PA1232-RIPE",
+            "org": "ORG-PA1232-RIPE",
+            "admin-c": "ACRO26775-RIPE",
+            "++registrant": "ACRO26775-RIPE",
+            "tech-c": "ACRO26775-RIPE",
+            "nic-hdl": "ACRO26775-RIPE",
+            "org-name": "PPTECHNOLOGY LIMITED",
+            "++email": "abuse.mail.pptechnology@gmail.com",
+            "abuse-mailbox": "abuse.mail.pptechnology@gmail.com",
+            "++abuse": "abuse.mail.pptechnology@gmail.com",
+            "++updated": [
+                "2024-08-08 09:31:18",
+                "2023-08-30 11:09:22",
+                "2019-09-21 13:21:51"
+            ],
+            "++registered": [
+                "2019-09-02 15:08:45",
+                "2019-09-02 14:59:13",
+                "2019-09-02 14:58:45",
+                "2019-09-05 14:32:45"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.29 (Ubuntu)",
+            "content-length": "3138",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Wed, 18 Sep 2024 04:48:33 GMT",
+            "last-modified": "Tue, 17 Sep 2024 10:01:23 GMT",
+            "etag": "\"2aa6-6224dc59f97fd-gzip\"",
+            "++target": "http:\/\/45.148.10.240\/"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/621cf837bdaf177c2899638a88377a69.jpeg"
+        }
+    }
+}

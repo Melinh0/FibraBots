@@ -1,0 +1,124 @@
+{
+    "qid": null,
+    "iid": 48646125,
+    "indicator": "162.144.209.56",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-06-28 19:35:54",
+    "stamp_updated": "2024-12-11 10:40:39",
+    "stamp_seen": "2024-07-01 23:03:40",
+    "stamp_probed": "2024-07-01 23:03:39",
+    "stamp_retired": "2024-10-02 07:47:56",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-28 19:35:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Google PageSpeed",
+            "OpenSSL",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS46606",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "UNIFIEDLAYER-AS-1",
+            "isp": "UNIFIEDLAYER-AS-1"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "content-length": "116",
+            "cache-control": "max-age=0, no-cache, s-maxage=10",
+            "keep-alive": "timeout=5, max=100",
+            "x-mod-pagespeed": "1.13.35.1-0",
+            "server": "Apache\/2.4.18 (Unix) OpenSSL\/1.0.1e-fips mod_bwlimited\/1.4",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Mon, 01 Jul 2024 23:03:38 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "0"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 19:03. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/61f5596bfd962f55767a5bd2e2d305f1.jpeg"
+        },
+        "dns": {
+            "ptr": "ifs.ifsdevelopmentgroup.net"
+        }
+    }
+}

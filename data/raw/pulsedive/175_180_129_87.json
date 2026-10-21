@@ -1,0 +1,274 @@
+{
+    "qid": null,
+    "iid": 47095303,
+    "indicator": "175.180.129.87",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-10 03:01:53",
+    "stamp_updated": "2024-12-16 17:27:33",
+    "stamp_seen": "2024-12-16 17:27:33",
+    "stamp_probed": "2024-09-30 05:59:42",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64120695,
+                "indicator": "https:\/\/175.180.129.87\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-24 16:28:15"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-10 03:01:53"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-24 16:28:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-08-16 20:47:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "crypto-js",
+            "HSTS",
+            "jQuery",
+            "jQuery Migrate",
+            "React",
+            "YUI"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "TWNIC"
+            ],
+            "status": [
+                "ALLOCATED PORTABLE",
+                "ASSIGNED NON-PORTABLE"
+            ],
+            "abuse-mailbox": "hostmaster@twnic.net.tw",
+            "address": [
+                "Taipei, 114, R.O.C",
+                "TW Taiwan",
+                "2F, No.218, Rueiguang Road",
+                "New Century InfoComm Tech Co., Ltd",
+                "No.218, Rueiguang Road,Nei-Hu, Taipei City",
+                "3F., No. 123, Sec. 4, Bade Rd., Songshan Dist., Taipei 105, Taiwan"
+            ],
+            "admin-c": [
+                "TWA2-AP",
+                "IO1-TW",
+                "JC256-AP"
+            ],
+            "country": [
+                "TW",
+                "ZZ"
+            ],
+            "descr": [
+                "Taipei Taiwan 114",
+                "Taipei Taiwan",
+                "New Century InfoComm Tech. Co., Ltd.",
+                "1F~11F, No. 218, Rueiguang Road"
+            ],
+            "irt": "IRT-TWNIC-AP",
+            "mnt-by": [
+                "MAINT-TW-TWNIC",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-TWNIC-AP",
+            "mnt-lower": "MAINT-TW-TWNIC",
+            "netname": [
+                "SEEDNET-NET",
+                "NCICNET-NET"
+            ],
+            "tech-c": [
+                "TWA2-AP",
+                "IO1-TW",
+                "JC256-AP"
+            ],
+            "++phone": [
+                "+886-2-7700-8888",
+                "+000000000"
+            ],
+            "e-mail": [
+                "Jonaschou@fareastone.com.tw",
+                "hostmaster@twnic.net.tw",
+                "antispam@seed.net.tw"
+            ],
+            "fax-no": "+886-2-7700-8888",
+            "inetnum": [
+                "175.180.0.0 - 175.183.255.255",
+                "175.180.128.0 - 175.180.159.255"
+            ],
+            "nic-hdl": [
+                "JC256-AP",
+                "IO1-TW",
+                "AT939-AP"
+            ],
+            "person": [
+                "Jonas Chou",
+                "Anti-Spammer NCIC"
+            ],
+            "phone": [
+                "+886-2-7700-8888",
+                "+000000000"
+            ],
+            "last-modified": [
+                "2012-12-18T10:10:01Z",
+                "2021-11-04T00:59:51Z",
+                "2021-11-04T01:00:32Z",
+                "2021-11-04T00:49:49Z"
+            ],
+            "++abuse": "hostmaster@twnic.net.tw",
+            "++registrant": [
+                "TWA2-AP",
+                "JC256-AP",
+                "IO1-TW",
+                "Jonas Chou",
+                "Anti-Spammer NCIC"
+            ],
+            "++email": [
+                "hostmaster@twnic.net.tw",
+                "antispam@seed.net.tw",
+                "jonaschou@fareastone.com.tw"
+            ],
+            "abuse-c": "AT939-AP",
+            "role": "ABUSE TWNICAP",
+            "changed": [
+                "hostmaster@twnic.net 20170320",
+                "antispam@seed.net.tw 20100809"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-11-04 00:59:51",
+                "2021-11-04 01:00:32",
+                "2012-12-18 10:10:01"
+            ]
+        },
+        "geo": {
+            "asn": "AS4780",
+            "countrycode": [
+                "TW",
+                "ZZ"
+            ],
+            "org": "Digital United Inc.",
+            "city": "Kaohsiung",
+            "region": "Kaohsiung",
+            "lat": "22.6148",
+            "long": "120.3139",
+            "address": [
+                "Taipei, 114, R.O.C",
+                "2F, No.218, Rueiguang Road",
+                "TW Taiwan",
+                "New Century InfoComm Tech Co., Ltd",
+                "No.218, Rueiguang Road,Nei-Hu, Taipei City",
+                "3F., No. 123, Sec. 4, Bade Rd., Songshan Dist., Taipei 105, Taiwan"
+            ],
+            "country": [
+                "Taiwan",
+                "Unknown Region"
+            ]
+        },
+        "http": {
+            "connection": "close",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000",
+            "expires": "Wed, 31 Dec 1969 23:59:59 GMT",
+            "server": "xxxx",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "content-length": "24821",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html;charset=utf-8",
+            "++content-type": "text\/html",
+            "content-security-policy": "default-src https: data: ws: wss: blob: 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; frame-ancestors 'self';",
+            "++target": "https:\/\/175.180.129.87\/",
+            "date": "Mon, 18 Nov 2024 19:12:22 GMT",
+            "set-cookie": "JSESSIONID=1irf71x2xtui29tgdha6vw2ec230; Path=\/userportal; Secure; HttpOnly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "\u4f7f\u7528\u8005\u5165\u53e3\u7db2\u7ad9"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2015-08-01 00:00:00",
+            "expires": "2036-12-31 23:59:59",
+            "++subject": "NA",
+            "subject": "\/C=NA\/ST=NA\/L=NA\/O=NA\/OU=NA\/CN=Appliance_Certificate_jzSavs9xF3AdKd1\/E=na@example.com",
+            "issuer": "\/C=GB\/ST=Oxfordshire\/L=Abingdon\/O=Sophos\/OU=OU\/CN=Sophos_CA_C1C0B96W27C74E2\/E=support@sophos.com",
+            "org": "Sophos_CA_C1C0B96W27C74E2",
+            "fingerprint": "6e8b9e202cf0d1ded83710db81cfda4c420ccf9558b8b60a33334949bb6a41fe"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH\n"
+        },
+        "dns": {
+            "ptr": "175-180-129-87.adsl.dynamic.seed.net.tw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a1cbb7610138e70d346b3c493d634de2.jpeg"
+        }
+    }
+}

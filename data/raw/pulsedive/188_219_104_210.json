@@ -1,0 +1,184 @@
+{
+    "qid": null,
+    "iid": 62374947,
+    "indicator": "188.219.104.210",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-14 20:57:22",
+    "stamp_updated": "2024-12-14 20:25:06",
+    "stamp_seen": "2024-12-14 20:25:06",
+    "stamp_probed": "2024-09-30 07:18:02",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64121992,
+                "indicator": "https:\/\/188.219.104.210\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-14 20:57:22"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "ITALY",
+                "Via Jervis, 13",
+                "Ivrea (TO)"
+            ],
+            "country": "IT",
+            "abuse-mailbox": "italy.abuse@mail.vodafone.it",
+            "admin-c": [
+                "VIIA1-RIPE",
+                "VI745-RIPE"
+            ],
+            "mnt-by": "VODAFONE-IT-MNT",
+            "netname": "VODAFONE-IT",
+            "nic-hdl": "VI745-RIPE",
+            "origin": "AS30722",
+            "role": "Vodafone Italy",
+            "tech-c": [
+                "VIIA1-RIPE",
+                "VI745-RIPE"
+            ],
+            "descr": "route for VF-IT DSL subscribers",
+            "last-modified": [
+                "2009-07-14T15:49:32Z",
+                "2014-01-07T13:24:38Z",
+                "2018-03-14T14:13:48Z"
+            ],
+            "route": "188.218.0.0\/15",
+            "created": [
+                "2009-07-14T15:49:32Z",
+                "2011-10-27T12:50:34Z",
+                "2018-03-14T14:13:48Z"
+            ],
+            "inetnum": "188.219.0.0 - 188.219.127.255",
+            "++abuse": "italy.abuse@mail.vodafone.it",
+            "++registrant": [
+                "VI745-RIPE",
+                "VIIA1-RIPE"
+            ],
+            "++email": "italy.abuse@mail.vodafone.it",
+            "++updated": [
+                "2014-01-07 13:24:38",
+                "2009-07-14 15:49:32",
+                "2018-03-14 14:13:48"
+            ],
+            "++registered": [
+                "2011-10-27 12:50:34",
+                "2009-07-14 15:49:32",
+                "2018-03-14 14:13:48"
+            ]
+        },
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "region": [
+                "Emilia-Romagna",
+                "Province of Modena"
+            ],
+            "asn": "AS30722",
+            "org": "Vodafone Italia S.p.A.",
+            "city": "Modena",
+            "long": "10.9231",
+            "lat": "44.6534"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/188.219.104.210\/",
+            "date": "Tue, 22 Oct 2024 17:18:49 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2029-02-10 17:12:59",
+            "org": "usg60_BCCF4F423018",
+            "valid": "2019-02-13 17:12:59",
+            "issuer": "\/CN=usg60_BCCF4F423018",
+            "email": "usg60_BCCF4F423018",
+            "fingerprint": "111e5a48c92f32cc58ac4cd79885999c54b239c849bb777b5514bf0e1d0438d6",
+            "subject": "\/CN=usg60_BCCF4F423018"
+        },
+        "meta": {
+            "++title": "USG60",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "net-188-219-104-210.cust.vodafonedsl.it"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/53761a961f4ca08cdf9a4baada9565aa.jpeg"
+        }
+    }
+}

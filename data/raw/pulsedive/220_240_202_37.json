@@ -1,0 +1,231 @@
+{
+    "qid": null,
+    "iid": 65318259,
+    "indicator": "220.240.202.37",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-26 09:52:18",
+    "stamp_updated": "2024-12-14 11:30:06",
+    "stamp_seen": "2024-11-28 07:19:14",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65366253,
+                "indicator": "https:\/\/220.240.202.37\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-26 09:52:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft Word"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "AU",
+                "ZZ"
+            ],
+            "mnt-ref": "APNIC-HM",
+            "++phone": [
+                "+61-2-9850-0800",
+                "+000000000"
+            ],
+            "address": [
+                "North Ryde NSW 2113",
+                "TPG Internet Pty Ltd.",
+                "(Part of the Total Peripherals Group)",
+                "65 Waterloo Road",
+                "TPG Telecom Limited"
+            ],
+            "admin-c": [
+                "TPG3-AP",
+                "TH178-AP"
+            ],
+            "descr": "TPG Internet Pty Ltd.",
+            "e-mail": [
+                "hostmaster@tpg.com.au",
+                "ip@tpgtelecom.com.au",
+                "hostmaster@tpgtelecom.com.au"
+            ],
+            "fax-no": [
+                "+61 2 9850 0817",
+                "+61-2-9850-0813"
+            ],
+            "irt": "IRT-TPGCOM-AU",
+            "mnt-by": [
+                "MAINT-AU-TPGCOM",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-TPGCOM-AU",
+            "mnt-lower": "MAINT-AU-TPGCOM",
+            "netname": "TPG-AU",
+            "nic-hdl": [
+                "TH178-AP",
+                "AT937-AP"
+            ],
+            "notify": "hostmaster@tpg.com.au",
+            "org": "ORG-TIPL2-AP",
+            "org-name": "TPG Internet Pty Ltd",
+            "organisation": "ORG-TIPL2-AP",
+            "phone": [
+                "+61 2 9850 0800",
+                "+61-2-9850-0800",
+                "+000000000"
+            ],
+            "role": [
+                "TPG Hostmaster",
+                "ABUSE TPGCOMAU"
+            ],
+            "tech-c": [
+                "TA56-AP",
+                "TH178-AP",
+                "TPG2-AP"
+            ],
+            "inetnum": "220.240.0.0 - 220.240.255.255",
+            "++registrant": [
+                "TH178-AP",
+                "TPG3-AP"
+            ],
+            "++email": [
+                "ip@tpgtelecom.com.au",
+                "hostmaster@tpg.com.au",
+                "hostmaster@tpgtelecom.com.au"
+            ],
+            "abuse-c": "AT937-AP",
+            "last-modified": [
+                "2020-09-20T23:00:10Z",
+                "2021-01-12T01:23:14Z",
+                "2023-09-05T02:14:46Z",
+                "2024-10-23T13:07:17Z",
+                "2024-10-23T13:07:42Z"
+            ],
+            "abuse-mailbox": "hostmaster@tpgtelecom.com.au",
+            "++abuse": "hostmaster@tpgtelecom.com.au",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-09-05 02:14:46",
+                "2021-01-12 01:23:14",
+                "2024-10-23 13:07:17",
+                "2024-10-23 13:07:42"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Australia",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "AU",
+                "ZZ"
+            ],
+            "region": "Victoria",
+            "asn": "AS7545",
+            "org": [
+                "TPG Telecom Limited",
+                "ORG-TIPL2-AP"
+            ],
+            "city": "Melbourne",
+            "long": "145.0064",
+            "address": [
+                "TPG Internet Pty Ltd.",
+                "(Part of the Total Peripherals Group)",
+                "65 Waterloo Road",
+                "North Ryde NSW 2113",
+                "TPG Telecom Limited"
+            ],
+            "lat": "-37.786"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "Microsoft-IIS\/10.0",
+            "content-length": "41419",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 09 Oct 2024 01:54:02 GMT",
+            "++target": "https:\/\/220.240.202.37\/",
+            "etag": "\"c7beaf1dee19db1:0\"",
+            "date": "Thu, 28 Nov 2024 00:35:08 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=windows-1252",
+            "progid": "Word.Document",
+            "originator": "Microsoft Word 15",
+            "generator": "Microsoft Word 15"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=kimmy",
+            "valid": "2024-10-08 21:28:40",
+            "expires": "2025-10-09 00:00:00",
+            "org": "kimmy",
+            "issuer": "\/CN=kimmy",
+            "fingerprint": "18964526c5a9f0eeda434ffb686142f70f06bcb291ba15f6fd0ad7be3fc77586",
+            "domain": "kimmy"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_for_Windows_8.1\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/da90014e7ab957119974224b01f7e394.jpeg"
+        }
+    }
+}

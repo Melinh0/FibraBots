@@ -1,0 +1,116 @@
+{
+    "qid": null,
+    "iid": 29794327,
+    "indicator": "193.163.125.183",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-11-23 02:56:49",
+    "stamp_updated": "2024-12-11 06:49:41",
+    "stamp_seen": "2024-12-11 06:49:41",
+    "stamp_probed": "2024-08-10 00:35:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-23 02:56:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "date": "Fri, 18 Oct 2024 00:29:50 GMT",
+            "cf-ray": "8d446a974eb756af-OSL",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=e0HKnfaGtcVCWEizHzkD58rXkmUTXIzBrAGrFxefhlSDwormtk7iYdssDJU4vnEeiA%2Fz5Qo2vsrRo9dCfMYFuh86xdvmPDd3oCUSP8HHk75SW7GkO962I5ost8MBFGVVa80celNQe84P%2F8U%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "++target": "http:\/\/193.163.125.183\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "distinguished.census.internet-measurement.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        },
+        "cookies": {
+            "cf_clearance": "BJpY0tNwaKWhPxLS3hX62_I6XeX9VKYsaRJRluK3lVY-1729211393-1.2.1.1-fHztkSNQjdLaeeOdVc.QUwWnM2di5EHI__S9l2jNqY0zx1uGzM0k7OyUU9AMUuDK7oWIxs.QwxY0WxTKDWsca5rgGdzmo1o2PUaWNQbfF1.KkP9KzCWG_WoIktRvi0jrdaqqM5TMnhupnbxPl1O0JJWqLlyfAHLVpYfX6kqlBEApn4W7YgZM60ObiqiQXbMswbAOkE4sZNMaaz4L9EzA88as.HGz5Wje1tjPzyTjG4UlbF2HKP_3lsMaofGgQ9hIiXedR9sbL_RgyY1LQQVnLb3Wt7iJ_bENQ_W_Pdohzu3z3HmOHOPH1fEK8YclRBne5nA29MWrZkzjbUBwEwCEmvqOoGM_QRg.DIQbKG2lXB57TiyiFGwQqL2UAI.gZXZVZwZLGk2X.DJTLyKQQulzyQ"
+        }
+    }
+}

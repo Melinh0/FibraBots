@@ -1,0 +1,239 @@
+{
+    "qid": null,
+    "iid": 60529915,
+    "indicator": "152.52.15.210",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-23 16:24:49",
+    "stamp_updated": "2024-12-11 10:40:18",
+    "stamp_seen": "2024-11-23 16:57:06",
+    "stamp_probed": "2024-08-26 22:01:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60529962,
+                "indicator": "https:\/\/152.52.15.210\/"
+            },
+            {
+                "iid": 60529971,
+                "indicator": "https:\/\/152.52.15.210\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-23 16:24:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-12 07:01:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "PWA"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "IN",
+                "ZZ"
+            ],
+            "admin-c": [
+                "NA40-AP",
+                "NS282-AP"
+            ],
+            "mnt-by": [
+                "MAINT-IN-BBIL",
+                "MAINT-IN-TELEMEDIA",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "tech-c": [
+                "NA40-AP",
+                "NS282-AP"
+            ],
+            "origin": "AS9498",
+            "address": [
+                "Phase III, New Delhi-110020, INDIA",
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA",
+                "Transport Network Group",
+                "234, Okhla Phase III"
+            ],
+            "fax-no": "+91-124-4244017",
+            "nic-hdl": [
+                "NA40-AP",
+                "AB914-AP"
+            ],
+            "person": "Network Administrator",
+            "phone": [
+                "+91-124-4222222",
+                "+000000000",
+                "+911244282398"
+            ],
+            "mnt-lower": "MAINT-IN-BBIL",
+            "mnt-routes": "MAINT-IN-BBIL",
+            "netname": "BHARTI-IN",
+            "org": "ORG-BAL1-AP",
+            "org-name": "Bharti Airtel Limited",
+            "organisation": "ORG-BAL1-AP",
+            "++phone": [
+                "+91-124-4222222",
+                "+000000000",
+                "+911244282398"
+            ],
+            "descr": "Bharti Airtel Limited",
+            "e-mail": [
+                "noc-dataprov@airtel.com",
+                "shankar.B@airtel.com",
+                "apnic@airtel.com"
+            ],
+            "mnt-irt": "IRT-BHARTI-TELEMEDIA-IN",
+            "abuse-mailbox": "dsltac2north.unoc@airtel.com",
+            "irt": "IRT-BHARTI-TELEMEDIA-IN",
+            "last-modified": [
+                "2018-12-18T12:52:19Z",
+                "2020-07-07T05:00:53Z",
+                "2023-09-05T02:14:45Z",
+                "2024-03-14T06:26:43Z",
+                "2024-09-26T05:40:58Z",
+                "2024-09-26T05:41:48Z"
+            ],
+            "++abuse": "dsltac2north.unoc@airtel.com",
+            "++registrant": [
+                "NA40-AP",
+                "NS282-AP",
+                "Network Administrator"
+            ],
+            "++email": [
+                "noc-dataprov@airtel.com",
+                "dsltac2north.unoc@airtel.com",
+                "apnic@airtel.com",
+                "shankar.b@airtel.com"
+            ],
+            "abuse-c": "AB914-AP",
+            "role": "ABUSE BHARTITELEMEDIAIN",
+            "inetnum": "152.52.0.0 - 152.52.255.255",
+            "route": "152.52.15.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-09-05 02:14:45",
+                "2018-12-18 12:52:19",
+                "2024-09-26 05:40:58",
+                "2024-09-26 05:41:48",
+                "2024-03-14 06:26:43"
+            ]
+        },
+        "geo": {
+            "country": [
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "IN",
+                "ZZ"
+            ],
+            "asn": "AS9498",
+            "org": [
+                "BHARTI Airtel Ltd.",
+                "ORG-BAL1-AP"
+            ],
+            "address": [
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "Phase III, New Delhi-110020, INDIA",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA",
+                "Transport Network Group",
+                "234, Okhla Phase III"
+            ],
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "content-security-policy": "frame-ancestors 'self'",
+            "++code": "200",
+            "content-length": "3553",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/152.52.15.210\/",
+            "++redirect": "https:\/\/152.52.15.210\/login?redir=%2F",
+            "date": "Mon, 07 Oct 2024 00:16:26 GMT",
+            "set-cookie": "APSCOOKIE_2404201488=\"0%260\"; path=\/; expires=Sun, 20-Oct-1974 00:16:26 GMT; secure; SameSite=Strict\nCENTRAL_MGMT_OVERRIDE_2404201488=\"0%260\"; path=\/; expires=Sun, 20-Oct-1974 00:16:26 GMT; secure; SameSite=Strict\nFILE_DOWNLOADING_2404201488=\"0%260\"; path=\/; expires=Sun, 20-Oct-1974 00:16:26 GMT; secure; SameSite=Strict\nccsrftoken_2404201488=\"0%260\"; path=\/; expires=Sun, 20-Oct-1974 00:16:26 GMT; secure; SameSite=Strict\nccsrftoken=\"0%260\"; path=\/; expires=Sun, 20-Oct-1974 00:16:26 GMT; secure; SameSite=Strict\nsession_key_2404201488=\"0%260\"; path=\/; expires=Sun, 20-Oct-1974 00:16:26 GMT; secure; SameSite=Strict\nAUTOSCALE_CONFIG_REC_OVERRIDE_2404201488=\"0%260\"; path=\/; expires=Sun, 20-Oct-1974 00:16:26 GMT; secure; SameSite=Strict"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "pragma": "no-cache",
+            "charset": "UTF-8",
+            "x-ua-compatible": "IE=8; IE=EDGE"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "FortiGate",
+            "subject": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "issuer": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "expires": "2025-08-05 11:55:35",
+            "valid": "2023-05-03 11:55:35",
+            "++subject": "Fortinet Ltd.",
+            "fingerprint": "d7040740a8af03e3f610e346f02a66a8a031759a611ba922767d69d63bf583d4"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9a9b629a17c62045f2a0d3bfdca9446f.jpeg"
+        }
+    }
+}

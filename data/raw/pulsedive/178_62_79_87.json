@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 1834549,
+    "indicator": "178.62.79.87",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2018-07-15 08:41:13",
+    "stamp_updated": "2024-12-12 11:21:56",
+    "stamp_seen": "2024-12-07 19:35:02",
+    "stamp_probed": "2021-07-11 11:29:05",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65672239,
+                "indicator": "https:\/\/178.62.79.87\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:33:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-22 18:25:22"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-05-20 14:20:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE org: ORG-DOI2-RIPE"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "GB",
+            "person": "Network Operations",
+            "mnt-by": "digitalocean",
+            "mnt-routes": "digitalocean",
+            "++phone": "+13478756044",
+            "admin-c": "PT7353-RIPE",
+            "created": [
+                "2015-03-11T16:37:07Z",
+                "2014-04-07T06:16:03Z"
+            ],
+            "mnt-lower": "digitalocean",
+            "nic-hdl": "PT7353-RIPE",
+            "phone": "+13478756044",
+            "tech-c": "PT7353-RIPE",
+            "descr": "DigitalOcean London",
+            "inetnum": "178.62.0.0 - 178.62.127.255",
+            "netname": "DIGITALOCEAN-LON-1",
+            "address": [
+                "United States of America",
+                "101 Ave of the Americas, 10th Floor",
+                "New York, NY, 10013"
+            ],
+            "++registered": "2015-03-11 00:00:00",
+            "last-modified": [
+                "2015-11-20T14:45:50Z",
+                "2019-04-17T14:37:51Z"
+            ],
+            "++registrant": "PT7353-RIPE",
+            "++updated": "2019-04-17 00:00:00"
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS14061",
+            "city": "Slough",
+            "region": [
+                "Slough",
+                "England"
+            ],
+            "org": "DIGITALOCEAN-ASN",
+            "long": "-0.6718",
+            "lat": "51.5368"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "x-cache": "MISS",
+            "content-encoding": "gzip",
+            "content-length": "20",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/178.62.79.87\/",
+            "++target": "http:\/\/178.62.79.87\/",
+            "age": "0",
+            "date": "Sat, 07 Dec 2024 19:34:42 GMT"
+        },
+        "ssl": {
+            "issuer": "\/CN=selfsigned.cloudwaysapps.com",
+            "subject": "\/CN=selfsigned.cloudwaysapps.com",
+            "version": "v3",
+            "org": "selfsigned.cloudwaysapps.com",
+            "valid": "2013-09-16 08:03:43",
+            "expires": "2023-09-14 08:03:43",
+            "fingerprint": "e4b1a1d177da5111b012f12858474fba851bf00b0f0208e7dca6a29f789ae0ef"
+        },
+        "dns": {
+            "ptr": "20024-10382.cloudwaysapps.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

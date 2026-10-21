@@ -1,0 +1,140 @@
+{
+    "qid": null,
+    "iid": 64767544,
+    "indicator": "98.110.70.2",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-06 09:01:54",
+    "stamp_updated": "2024-12-09 10:40:07",
+    "stamp_seen": "2024-11-06 09:04:05",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64767908,
+                "indicator": "https:\/\/98.110.70.2\/redirect.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-06 09:01:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "ExtJS",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "New Jersey",
+            "asn": "AS701",
+            "city": "Medford",
+            "lat": "39.901",
+            "org": "UUNET",
+            "long": "-74.8235"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "set-cookie": "zy_pc_browser=1; path=\/; SameSite=lax\narip=98.110.70.2; path=\/; SameSite=lax",
+            "date": "Wed, 06 Nov 2024 09:03:25 GMT",
+            "++redirect": "https:\/\/98.110.70.2\/redirect.cgi?arip=98.110.70.2&original_url=http:\/\/98.110.70.2\/",
+            "++target": "http:\/\/98.110.70.2\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "charset": "utf-8",
+            "handheldfriendly": "true",
+            "++title": "USG FLEX 50W (USG20W-VPN)"
+        },
+        "cookies": {
+            "zy_pc_browser": "1",
+            "arip": "98.110.70.2"
+        },
+        "ssl": {
+            "version": "v3",
+            "fingerprint": "031bc704aff7a6eaefb8e52e219d3272650e43265915470aa91d7777bbfc989d",
+            "issuer": "\/CN=usg20w-vpn_BCCF4F576909",
+            "subject": "\/CN=usg20w-vpn_BCCF4F576909",
+            "expires": "2029-08-02 16:01:24",
+            "valid": "2019-08-05 16:01:24",
+            "org": "usg20w-vpn_BCCF4F576909",
+            "email": "usg20w-vpn_BCCF4F576909"
+        },
+        "banners": {
+            "22": "SSH-2.0-sshd\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG FLEX 50W) [::ffff:98.110.70.2]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/2b27dc0113fdcbbfbf52a39b7fd24a7b.jpeg"
+        }
+    }
+}

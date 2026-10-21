@@ -1,0 +1,73 @@
+{
+    "qid": null,
+    "iid": 65639963,
+    "indicator": "192.210.197.121",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-06 10:22:45",
+    "stamp_updated": "2024-12-11 10:42:12",
+    "stamp_seen": "2024-12-06 10:23:34",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 10:22:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "New York",
+            "asn": "AS36352",
+            "city": "Buffalo",
+            "lat": "42.8856",
+            "org": "AS-COLOCROSSING",
+            "long": "-78.8736"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3389": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

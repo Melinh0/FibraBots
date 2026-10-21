@@ -1,0 +1,200 @@
+{
+    "qid": null,
+    "iid": 60740489,
+    "indicator": "142.59.214.64",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-30 16:42:56",
+    "stamp_updated": "2024-12-16 17:19:47",
+    "stamp_seen": "2024-12-16 17:19:47",
+    "stamp_probed": "2024-08-28 22:47:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61028785,
+                "indicator": "https:\/\/142.59.214.64\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-30 16:42:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "GoAhead"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "asn": "AS852",
+            "region": "Alberta",
+            "city": "Edmonton",
+            "lat": "53.52",
+            "long": "-113.5319",
+            "org": "TELUS Communications"
+        },
+        "whois": {
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "country": "CA",
+            "parent": [
+                "NET142 (NET-142-0-0-0-0)",
+                "TELUS (NET-142-59-176-0-1)"
+            ],
+            "stateprov": [
+                "AB",
+                "BC"
+            ],
+            "city": [
+                "Burnaby",
+                "Beaumont"
+            ],
+            "orgabusehandle": "AAT-ARIN",
+            "orgtechhandle": "TBOTP-ARIN",
+            "orgabuseemail": "abuse@telus.com",
+            "address": [
+                "10 - 3777 Kingsway",
+                "5006 52 AVENUE"
+            ],
+            "orgtechphone": "+1-877-310-8324",
+            "++registrant": "TELUS Communications Inc.",
+            "organization": "TELUS Communications Inc. (TACE)",
+            "orgabusename": "Abuse at TELUS",
+            "orgabusephone": "+1-877-945-8220",
+            "orgtechname": "TELUS BC ORG TECH POC",
+            "postalcode": [
+                "V5H-3Z7",
+                "T4X 1E5"
+            ],
+            "++phone": "+1-877-310-8324",
+            "orgname": "TELUS Communications Inc.",
+            "++email": "IPadmin@telus.com",
+            "orgid": "TACE",
+            "orgtechemail": "IPadmin@telus.com",
+            "originas": "AS852",
+            "netname": [
+                "TELUS",
+                "TELUS-HSIA-BUMTAB1"
+            ],
+            "++registered": "2018-07-12 00:00:00",
+            "updated": [
+                "2018-07-12",
+                "2020-10-09"
+            ],
+            "regdate": [
+                "2018-07-12",
+                "1994-05-23"
+            ],
+            "netrange": [
+                "142.59.176.0 - 142.59.255.255",
+                "142.59.214.0 - 142.59.214.255"
+            ],
+            "custname": "TELUS-HSIA-BUMTAB01",
+            "nethandle": [
+                "NET-142-59-176-0-1",
+                "NET-142-59-214-0-1"
+            ],
+            "cidr": [
+                "142.59.192.0\/18, 142.59.176.0\/20",
+                "142.59.214.0\/24"
+            ],
+            "customer": "TELUS-HSIA-BUMTAB01 (C07021440)",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/TBOTP-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/AAT-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/TACE",
+                "https:\/\/rdap.arin.net\/registry\/ip\/142.59.176.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/142.59.214.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C07021440"
+            ],
+            "++abuse": "https:\/\/rdap.arin.net\/registry\/entity\/AAT-ARIN",
+            "++updated": "2020-10-09 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1",
+            "content-length": "365",
+            "++code": "503",
+            "++status": "Service Not Available",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/142.59.214.64\/",
+            "++redirect": "https:\/\/142.59.214.64\/",
+            "date": "Mon, 18 Nov 2024 18:10:51 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "RuckusPKI-DeviceSubCA-2",
+            "issuer": "\/CN=RuckusPKI-DeviceSubCA-2\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "subject": "\/CN=SN-222272000253\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "valid": "2022-05-14 07:04:10",
+            "expires": "2047-05-15 07:04:10",
+            "++subject": "Ruckus Wireless Inc.",
+            "fingerprint": "9f649374b705403a05e8579c0604519ca510b3f2f7060a59072e813bdc48723f"
+        },
+        "meta": {
+            "++title": "503 Service Not Available"
+        },
+        "dns": {
+            "ptr": "s142-59-214-64.ab.hsia.telus.net"
+        },
+        "cookies": {
+            "sid": "0"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/31e5c033318b3633bca997a7713e6aee.jpeg"
+        }
+    }
+}

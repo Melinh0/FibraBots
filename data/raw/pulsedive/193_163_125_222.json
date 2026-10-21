@@ -1,0 +1,80 @@
+{
+    "qid": null,
+    "iid": 30068803,
+    "indicator": "193.163.125.222",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-12-04 06:21:09",
+    "stamp_updated": "2024-11-29 14:42:45",
+    "stamp_seen": "2024-11-29 14:42:45",
+    "stamp_probed": "2021-12-04 06:30:50",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-04 06:21:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "country": "United Kingdom of Great Britain and Northern Ireland",
+            "isp": "Constantine Cybersecurity Ltd.",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "content-length": "19",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/plain",
+            "date": "Sat, 04 Dec 2021 06:29:54 GMT"
+        },
+        "dns": {
+            "ptr": "equitable.census.cyber.casa"
+        }
+    }
+}

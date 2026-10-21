@@ -1,0 +1,161 @@
+{
+    "qid": null,
+    "iid": 62471494,
+    "indicator": "195.178.110.34",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-20 21:31:29",
+    "stamp_updated": "2024-12-12 03:44:58",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-09-07 07:59:45",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-11-18 15:21:27"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-20 21:31:29"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-11-18 15:21:27"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-12 21:08:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": [
+                "GB",
+                "AD"
+            ],
+            "role": "Abuse contact role object",
+            "mnt-ref": [
+                "MNT-NETERRA",
+                "CYBR-DMZ"
+            ],
+            "mnt-by": [
+                "MNT-NETERRA",
+                "CYBR-DMZ"
+            ],
+            "netname": "DMZHOST",
+            "address": [
+                "35 Firs Avenue, London, England, N11 3NE",
+                "Damrak 8. Amsterdam"
+            ],
+            "org-name": "DMZHOST",
+            "mnt-domains": "CYBR-DMZ",
+            "origin": "AS48090",
+            "inetnum": "195.178.110.0 - 195.178.110.255",
+            "last-modified": [
+                "2024-08-08T12:53:22Z",
+                "2024-10-04T21:36:05Z",
+                "2024-10-04T20:10:55Z",
+                "2024-10-05T06:51:34Z"
+            ],
+            "mnt-routes": "CYBR-DMZ",
+            "++registered": [
+                "2024-08-08 12:53:22",
+                "2024-10-04 20:10:55",
+                "2024-10-04 20:10:42"
+            ],
+            "++updated": [
+                "2024-08-08 12:53:22",
+                "2024-10-04 21:36:05",
+                "2024-10-04 20:10:55",
+                "2024-10-05 06:51:34"
+            ],
+            "created": [
+                "2024-08-08T10:17:10Z",
+                "2024-08-08T12:53:22Z",
+                "2024-10-04T20:10:55Z",
+                "2024-10-04T20:10:42Z"
+            ],
+            "route": "195.178.110.0\/24",
+            "++registrant": "ACRO57756-RIPE",
+            "++email": "dmzhostabuse@gmail.com",
+            "++abuse": "dmzhostabuse@gmail.com",
+            "nic-hdl": "ACRO57756-RIPE",
+            "abuse-mailbox": "dmzhostabuse@gmail.com",
+            "organisation": "ORG-DL591-RIPE",
+            "abuse-c": "ACRO57756-RIPE",
+            "org": "ORG-DL591-RIPE",
+            "tech-c": "ACRO57756-RIPE",
+            "admin-c": "ACRO57756-RIPE",
+            "descr": "DMZHOST"
+        },
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "asn": "AS48090",
+            "org": "Pptechnology Limited",
+            "lat": "42.696",
+            "long": "23.332"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "195-178-110-34.apiversa.com"
+        }
+    }
+}

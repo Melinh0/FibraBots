@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 34306694,
+    "indicator": "171.244.37.103",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-04-24 07:44:55",
+    "stamp_updated": "2024-12-15 01:19:24",
+    "stamp_seen": "2024-12-13 00:00:00",
+    "stamp_probed": "2024-09-07 07:54:27",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-12 14:31:01"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-04-24 07:44:55"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-12 14:31:01"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-06 00:09:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306"
+        ],
+        "protocol": [
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "city": "Hanoi",
+            "asn": "AS7552",
+            "country": "Vietnam",
+            "region": "Hanoi",
+            "org": "Viettel Group",
+            "address": [
+                "Ha Noi, VietNam",
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City"
+            ],
+            "long": "105.8526",
+            "lat": "21.0292"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VIETEL"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NDT9-AP"
+            ],
+            "admin-c": [
+                "TVT8-AP",
+                "NTTT1-AP"
+            ],
+            "e-mail": [
+                "soc@viettel.com.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "inetnum": "171.224.0.0 - 171.255.255.255",
+            "address": [
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": [
+                "TVT8-AP",
+                "NDT9-AP"
+            ],
+            "person": [
+                "Tran Van Thanh",
+                "Nguyen Dang Tiep"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "netname": "VIETTEL-VN",
+            "descr": [
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Viettel Group"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2017-11-11T09:43:21Z",
+                "2017-11-11T09:40:35Z",
+                "2018-08-21T09:57:13Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "TVT8-AP",
+                "Nguyen Dang Tiep",
+                "Tran Van Thanh"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "soc@viettel.com.vn"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-11 09:40:35",
+                "2018-08-21 09:57:13",
+                "2017-11-11 09:43:21"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3306": "n\u0000\u0000\u0000\n5.5.5-10.6.18-MariaDB-0ubuntu0.22.04.1-log\u0000\ufffd\ufffd\u0005\u0000|K@?[+d7\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u001d\u0000\u0000\u0000$N>+\\n3T,{KB\u0000mysql_native_password\u0000"
+        }
+    }
+}

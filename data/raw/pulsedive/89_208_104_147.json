@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 56511380,
+    "indicator": "89.208.104.147",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-26 00:14:26",
+    "stamp_updated": "2024-12-16 11:37:49",
+    "stamp_seen": "2024-12-15 07:58:06",
+    "stamp_probed": "2024-09-30 20:36:04",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 56513476,
+                "indicator": "http:\/\/89.208.104.147\/"
+            },
+            {
+                "iid": 64132195,
+                "indicator": "https:\/\/89.208.104.147\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-23 20:31:43"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-26 00:14:26"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-23 20:31:43"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-24 21:50:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Hugo",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "long": "4.8975",
+            "lat": "52.3759",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd",
+            "country": "The Netherlands"
+        },
+        "whois": {
+            "country": "NL",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "DN-MNT",
+                "aeza-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "mnt-ref": [
+                "DN-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt"
+            ],
+            "route": "89.208.104.0\/22",
+            "inetnum": "89.208.104.0 - 89.208.107.255",
+            "created": [
+                "2009-03-16T11:16:53Z",
+                "2021-11-23T13:59:30Z",
+                "2021-10-13T17:49:21Z",
+                "2022-08-11T09:07:50Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "mnt-domains": "aeza-mnt",
+            "mnt-routes": "aeza-mnt",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "admin-c": "AN32681-RIPE",
+            "tech-c": "AN32681-RIPE",
+            "nic-hdl": "AN32681-RIPE",
+            "++registrant": "AN32681-RIPE",
+            "geoloc": "52.3559446 4.9531184",
+            "descr": "AEZA GROUP Ltd",
+            "netname": "NL-AEZA-NETWORK",
+            "last-modified": [
+                "2023-02-27T08:06:12Z",
+                "2022-08-11T09:07:50Z",
+                "2023-10-31T07:53:33Z",
+                "2024-08-23T16:18:21Z"
+            ],
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "++updated": [
+                "2024-08-23 16:18:21",
+                "2023-10-31 07:53:33",
+                "2022-08-11 09:07:50"
+            ],
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2021-10-13 17:49:21",
+                "2022-08-11 09:07:50"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "568",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/89.208.104.147\/",
+            "++redirect": "https:\/\/89.208.104.147\/",
+            "date": "Tue, 22 Oct 2024 05:53:28 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": "tube.monetka.name",
+            "subject": "\/CN=tube.monetka.name",
+            "fingerprint": "4405dd21f9e1cafedbf863b95fa8193179107fbb7c7b43a48f74f0c0c3a35024",
+            "valid": "2024-10-20 22:50:04",
+            "expires": "2025-01-18 22:50:03"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "funnyrock.aeza.network"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c20fa09307c6b5455a362b440b51d3bb.jpeg"
+        }
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "qid": null,
+    "iid": 58838537,
+    "indicator": "135.125.133.180",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-29 03:49:26",
+    "stamp_updated": "2024-12-15 11:29:48",
+    "stamp_seen": "2024-12-15 07:24:29",
+    "stamp_probed": "2024-09-30 01:26:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60391878,
+                "indicator": "https:\/\/135.125.133.180\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-29 03:49:26"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-25 04:56:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5432",
+            "80",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL",
+            "SSH"
+        ],
+        "technology": [
+            "AOS",
+            "Emotion",
+            "Let's Encrypt",
+            "MUI",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "++abuse": "abuse@ovh.net",
+            "abuse-mailbox": "abuse@ovh.net",
+            "admin-c": [
+                "OK217-RIPE",
+                "OTC13-RIPE"
+            ],
+            "mnt-by": "OVH-MNT",
+            "origin": "AS16276",
+            "org-type": "OTHER",
+            "mnt-ref": "OVH-MNT",
+            "tech-c": [
+                "GM84-RIPE",
+                "OTC13-RIPE"
+            ],
+            "address": [
+                "Deutschland",
+                "OVH GmbH",
+                "St. Johanner Str. 41-43",
+                "66111 Saarbrucken"
+            ],
+            "nic-hdl": "OTC13-RIPE",
+            "org": "ORG-OG9-RIPE",
+            "org-name": "OVH GmbH",
+            "organisation": "ORG-OG9-RIPE",
+            "role": "OVH DE Technical Contact",
+            "geoloc": "50.388228 8.073916",
+            "++email": "abuse@ovh.net",
+            "created": [
+                "2009-09-16T16:09:57Z",
+                "2005-09-02T12:40:05Z",
+                "2020-11-03T13:34:30Z",
+                "2020-12-08T20:48:43Z"
+            ],
+            "++registrant": [
+                "OK217-RIPE",
+                "OTC13-RIPE"
+            ],
+            "netname": "VPS-DE2",
+            "last-modified": [
+                "2020-11-03T13:34:30Z",
+                "2020-12-08T20:48:43Z",
+                "2021-02-26T13:10:09Z",
+                "2021-02-26T13:07:37Z"
+            ],
+            "route": "135.125.128.0\/17",
+            "inetnum": "135.125.132.0 - 135.125.133.255",
+            "abuse-c": "ACRO39426-RIPE",
+            "++updated": [
+                "2021-02-26 13:10:09",
+                "2021-02-26 13:07:37",
+                "2020-11-03 13:34:30"
+            ],
+            "++registered": [
+                "2005-09-02 12:40:05",
+                "2009-09-16 16:09:57",
+                "2020-11-03 13:34:30",
+                "2020-12-08 20:48:43"
+            ]
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.22.0 (Ubuntu)",
+            "last-modified": "Tue, 20 Aug 2024 10:59:27 GMT",
+            "etag": "W\/\"66c4770f-282\"",
+            "++redirect": "https:\/\/135.125.133.180\/",
+            "++target": "http:\/\/135.125.133.180\/",
+            "date": "Tue, 22 Oct 2024 05:16:18 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "LIVRO CLIC"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "subject": "\/CN=www.livroclic.com",
+            "domain": "www.livroclic.com",
+            "expires": "2024-12-21 09:59:52",
+            "valid": "2024-09-22 09:59:53",
+            "fingerprint": "0d46008adb56d3e7704e4e251690fcd67f30175d7b0a2099a8dc8a7d800d81ce"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu8.7\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "vps-82e251f4.vps.ovh.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/03146bd04368e5f566bb115a09a1781c.jpeg"
+        }
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "qid": null,
+    "iid": 62340101,
+    "indicator": "109.67.154.24",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 20:37:47",
+    "stamp_updated": "2024-12-10 10:33:03",
+    "stamp_seen": "2024-11-18 12:08:31",
+    "stamp_probed": "2024-08-28 22:45:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-12 20:37:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "Petach Tikva 49170 Israel",
+                "Bezeq International",
+                "40 hashacham st."
+            ],
+            "country": "IL",
+            "fax-no": "+972 3 9257674",
+            "mnt-by": [
+                "AS8551-MNT",
+                "MAINT-AS4148"
+            ],
+            "phone": "+972 1 800014014",
+            "abuse-mailbox": "abuse@bezeqint.net",
+            "origin": "AS6810",
+            "tech-c": [
+                "BHT2-RIPE",
+                "BNT1-RIPE",
+                "BAT17-RIPE"
+            ],
+            "admin-c": [
+                "RD1278-RIPE",
+                "BAT17-RIPE"
+            ],
+            "++registrant": [
+                "RD1278-RIPE",
+                "BAT17-RIPE"
+            ],
+            "netname": "BEZEQ-ISP-BROADBAND",
+            "role": "BEZEQINT ABUSE TEAM",
+            "inetnum": "109.67.128.0 - 109.67.183.255",
+            "++abuse": "abuse@bezeqint.net",
+            "nic-hdl": "BAT17-RIPE",
+            "++updated": [
+                "2024-05-07 14:14:41",
+                "2013-06-17 13:28:50",
+                "2023-09-21 13:31:51"
+            ],
+            "last-modified": [
+                "2024-05-07T14:14:41Z",
+                "2013-06-17T13:28:50Z",
+                "2023-09-21T13:31:51Z"
+            ],
+            "created": [
+                "2024-05-07T14:14:41Z",
+                "2013-06-17T13:28:50Z",
+                "2023-09-21T13:31:51Z"
+            ],
+            "++registered": [
+                "2024-05-07 14:14:41",
+                "2013-06-17 13:28:50",
+                "2023-09-21 13:31:51"
+            ],
+            "++email": "abuse@bezeqint.net",
+            "route": "109.67.154.0\/24"
+        },
+        "geo": {
+            "country": "Israel",
+            "countrycode": "IL",
+            "city": "Tel Aviv",
+            "region": "Tel Aviv",
+            "asn": "AS6810",
+            "org": "Bezeq- THE ISRAEL TELECOMMUNICATION CORP. LTD.",
+            "lat": "32.0803",
+            "long": "34.7805"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n"
+        },
+        "dns": {
+            "ptr": "bzq-109-67-154-24.red.bezeqint.net"
+        }
+    }
+}

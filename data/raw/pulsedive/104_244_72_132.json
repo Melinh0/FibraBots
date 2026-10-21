@@ -1,0 +1,266 @@
+{
+    "qid": null,
+    "iid": 27526184,
+    "indicator": "104.244.72.132",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-08-09 12:09:17",
+    "stamp_updated": "2024-12-25 17:23:38",
+    "stamp_seen": "2024-12-25 17:23:38",
+    "stamp_probed": "2024-08-28 03:27:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64147574,
+                "indicator": "https:\/\/104.244.72.132\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-04-11 16:21:59"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-08-16 02:27:31"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-08-09 12:09:17"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-08-14 06:17:14"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2021-12-27 02:24:04"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-08-16 02:27:31"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-08-09 12:09:17"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-04-11 16:21:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Debian",
+            "Let's Encrypt",
+            "Patreon"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "LU"
+            ],
+            "updated": [
+                "2017-01-28",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "nettype": [
+                "Direct Allocation",
+                "Reallocated"
+            ],
+            "parent": [
+                "NET104 (NET-104-0-0-0-0)",
+                "PONYNET-14 (NET-104-244-72-0-1)"
+            ],
+            "++phone": "+1-778-977-8246",
+            "++registrant": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "address": [
+                "1621 Central Ave",
+                "3, op der Poukewiss"
+            ],
+            "cidr": "104.244.72.0\/21",
+            "city": [
+                "Cheyenne",
+                "Roost"
+            ],
+            "nethandle": [
+                "NET-104-244-72-0-1",
+                "NET-104-244-72-0-2"
+            ],
+            "netname": [
+                "PONYNET-14",
+                "BUYVM-LUXEMBOURG-01"
+            ],
+            "netrange": "104.244.72.0 - 104.244.79.255",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": [
+                "FranTech Solutions (SYNDI-5)",
+                "BuyVM (BUYVM)"
+            ],
+            "orgid": [
+                "SYNDI-5",
+                "BUYVM"
+            ],
+            "orgname": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": [
+                "82001",
+                "7795"
+            ],
+            "regdate": [
+                "2010-07-21",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "stateprov": "WY",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "++registered": "2017-10-01 00:00:00",
+            "++updated": "2017-10-01 00:00:00",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.244.72.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BUYVM"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "++abuse": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN"
+        },
+        "geo": {
+            "asn": "AS53667",
+            "country": "Luxembourg",
+            "countrycode": "LU",
+            "city": "Luxembourg",
+            "region": "Luxembourg",
+            "long": "6.1294",
+            "org": "PONYNET",
+            "lat": "49.6113"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "content-length": "3787",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.62 (Debian)",
+            "++target": "http:\/\/104.244.72.132\/",
+            "onion-location": "http:\/\/io7mmtftm52fdgzrd5z6qi2rxv5jdqafwbtd6u3jgnklkrhp77hdxrid.onion\/index.html",
+            "++redirect": "https:\/\/104.244.72.132\/",
+            "last-modified": "Thu, 02 May 2024 21:03:56 GMT",
+            "etag": "\"26d0-6177ef0f924e2-gzip\"",
+            "date": "Tue, 24 Dec 2024 17:29:32 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes",
+            "charset": "utf-8",
+            "generator": "pandoc",
+            "keywords": "tor, quetzalcoatl, relays, privacy, anonymity, freedom",
+            "description": "Quetzalcoatl runs hundreds of Tor relays",
+            "author": "Quetzalcoatl",
+            "dcterms.date": "2024-4-24T09:53:52+00:00",
+            "++title": "Quetzalcoatl Relays"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=quetzalcoatl-relays.org",
+            "domain": "quetzalcoatl-relays.org",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "valid": "2024-12-22 17:02:54",
+            "fingerprint": "890b2698f0bd8c3f5a24f45d5fbb237dec9e40b46ce0f6954402ae99026b0cfc",
+            "expires": "2025-03-22 17:02:53"
+        },
+        "dns": {
+            "ptr": "quetzalcoatl-relays.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a9ebaf4d94c16f813e4987e7b3be2e8f.jpeg"
+        }
+    }
+}

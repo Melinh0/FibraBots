@@ -1,0 +1,183 @@
+{
+    "qid": null,
+    "iid": 60849087,
+    "indicator": "103.92.29.62",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-03 16:51:42",
+    "stamp_updated": "2024-12-15 11:27:36",
+    "stamp_seen": "2024-11-29 14:19:23",
+    "stamp_probed": "2024-08-28 22:45:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-03 16:51:42"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-02 06:23:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Viet Nam",
+            "countrycode": "VN",
+            "city": "Ho Chi Minh City",
+            "region": "Ho Chi Minh",
+            "asn": "AS56150",
+            "isp": "Viet Solutions Services Trading Company Limited",
+            "org": "Viet Solutions Services Trading Company Limited",
+            "address": [
+                "Ha Noi, VietNam",
+                "VHOSTHN-VN"
+            ],
+            "long": "106.6257",
+            "lat": "10.822"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "mnt-routes": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "TTN5-AP"
+            ],
+            "e-mail": [
+                "nghiatt@vhost.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "person": "Than Trung Nghia",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-28-73036806"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "TTN5-AP"
+            ],
+            "origin": "AS56150",
+            "inetnum": "103.92.28.0 - 103.92.31.255",
+            "address": [
+                "VHOSTHN-VN",
+                "Ha Noi, VietNam"
+            ],
+            "netname": "VHOSTHN-VN",
+            "descr": [
+                "VHOSTHN-VN",
+                "Viet solutions servers trading company limited - hanoi branch",
+                "The 1th floor, No 87 Nguyen Khang, Yen Hoa ward, Cau Giay district, Ha Noi city"
+            ],
+            "nic-hdl": "TTN5-AP",
+            "phone": [
+                "+84-28-73036806",
+                "+84-24-35564944"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2018-01-03T09:50:17Z",
+                "2018-01-03T09:49:42Z",
+                "2024-07-30T09:42:38Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "auth": "mnt-by: MAINT-VN-VNNIC",
+            "++registrant": [
+                "NTTT1-AP",
+                "TTN5-AP"
+            ],
+            "++email": "hm-changed@vnnic.vn",
+            "++updated": "2024-07-30 00:00:00",
+            "route": "103.92.29.0\/24"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "446",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.19.8",
+            "last-modified": "Tue, 07 Nov 2023 02:26:34 GMT",
+            "etag": "\"6549a05a-1be\"",
+            "date": "Wed, 28 Aug 2024 22:43:29 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "valid": "2024-08-07 09:18:48",
+            "domain": "admin-eproductid.stdio.asia",
+            "subject": "\/CN=admin-eproductid.stdio.asia",
+            "expires": "2024-11-05 09:18:47"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        },
+        "dns": {
+            "ptr": "mx2962.vhost.vn"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/74ed538345ded03dbb51cdd0b13a121e.jpeg"
+        }
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "qid": null,
+    "iid": 58944392,
+    "indicator": "213.124.221.2",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-02 17:37:41",
+    "stamp_updated": "2024-12-11 10:43:09",
+    "stamp_seen": "2024-11-20 05:06:01",
+    "stamp_probed": "2024-09-30 09:52:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-02 17:37:41"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-28 22:49:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "region": "North Holland",
+            "asn": "AS33915",
+            "org": "Vodafone Libertel B.V.",
+            "long": "4.9642",
+            "lat": "52.3373",
+            "city": "Diemen",
+            "country": "The Netherlands"
+        },
+        "whois": {
+            "country": "NL",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "The Netherlands",
+                "Ziggo Services B.V.",
+                "Kabelweg 51",
+                "1014 BA Amsterdam",
+                "Woonstichting Lieven De Key",
+                "Hoogte Kadijk 179",
+                "1018 BK  Amsterdam",
+                "VodafoneZiggo B2B NL"
+            ],
+            "mnt-routes": "AS6830-MNT",
+            "mnt-by": [
+                "ZIGGO-SERVICES-MNT",
+                "ZIGGO-RTRMGMT",
+                "TNF-MNT",
+                "ZIGGO-MNT"
+            ],
+            "nic-hdl": [
+                "PTNO1-RIPE",
+                "PTHM1-RIPE",
+                "WDW51-RIPE"
+            ],
+            "phone": [
+                "+31(0)88 717 0000",
+                "+31 (0)88 716 4444",
+                "+31 (0)20 62 14 530",
+                "+31(0)6 21 82 04 59",
+                "+31 (0)20 775 5000"
+            ],
+            "mnt-lower": "ZIGGO-AUTOREG1",
+            "origin": "AS33915",
+            "descr": [
+                "VODAFONE_ZIGGO",
+                "De Key Building 7"
+            ],
+            "tech-c": [
+                "PTHM1-RIPE",
+                "MB5261-RIPE",
+                "BH4773-RIPE",
+                "WDW51-RIPE"
+            ],
+            "admin-c": [
+                "PTNO1-RIPE",
+                "WDW51-RIPE",
+                "BH4773-RIPE"
+            ],
+            "role": [
+                "Ziggo Services B.V. Hostmasters",
+                "VodafoneZiggo B2B NL NO"
+            ],
+            "created": [
+                "2002-05-03T14:56:02Z",
+                "2012-12-07T16:18:03Z",
+                "2021-03-02T15:27:28Z",
+                "2013-02-20T16:23:55Z"
+            ],
+            "last-modified": [
+                "2017-06-02T12:01:58Z",
+                "2021-04-08T13:43:15Z",
+                "2021-03-09T12:52:42Z",
+                "2021-03-10T22:32:39Z",
+                "2024-07-03T08:19:31Z"
+            ],
+            "route": "213.124.192.0\/19",
+            "person": "Wim De Waard",
+            "fax-no": "+31 (0)20 63 14 322",
+            "++registrant": [
+                "PTNO1-RIPE",
+                "WDW51-RIPE",
+                "BH4773-RIPE",
+                "Wim De Waard"
+            ],
+            "++email": "abuse@ziggo.nl",
+            "++abuse": "abuse@ziggo.nl",
+            "abuse-mailbox": "abuse@ziggo.nl",
+            "netname": "PT-NL-CIA-DE-KEY",
+            "inetnum": "213.124.221.0 - 213.124.221.255",
+            "++updated": [
+                "2024-07-03 08:19:31",
+                "2021-04-08 13:43:15",
+                "2017-06-02 12:01:58",
+                "2021-03-09 12:52:42"
+            ],
+            "++registered": [
+                "2002-05-03 14:56:02",
+                "2013-02-20 16:23:55",
+                "2012-12-07 16:18:03",
+                "2021-03-02 15:27:28"
+            ]
+        },
+        "dns": {
+            "ptr": "ip-213-124-221-2.ip.prioritytelecom.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\u0004\u0005\u0014*\ufffd5~\ufffd\ufffdy\ufffd:\ufffd\ufffdt\ufffd\u017e\ufffd\u0000\u0000\u0000mcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\thmac-sha1\u0000\u0000\u0000\thmac-sha1\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000PiR\ufffd?"
+        }
+    }
+}

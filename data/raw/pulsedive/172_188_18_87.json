@@ -1,0 +1,126 @@
+{
+    "qid": null,
+    "iid": 62322098,
+    "indicator": "172.188.18.87",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-11 20:36:28",
+    "stamp_updated": "2024-12-11 14:48:04",
+    "stamp_seen": "2024-12-11 14:48:04",
+    "stamp_probed": "2024-08-11 20:36:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62322113,
+                "indicator": "http:\/\/172.188.18.87\/"
+            },
+            {
+                "iid": 65672186,
+                "indicator": "https:\/\/172.188.18.87\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:33:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-11 20:36:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS8075",
+            "city": "Singapore",
+            "country": "Singapore",
+            "countrycode": "SG",
+            "long": "103.8503",
+            "org": "MICROSOFT-CORP-MSN-AS-BLOCK",
+            "lat": "1.2868"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "568",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/172.188.18.87\/",
+            "++redirect": "https:\/\/172.188.18.87\/",
+            "date": "Fri, 18 Oct 2024 14:01:35 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=kcc.aptcoder.in",
+            "domain": [
+                "kcc.aptcoder.com",
+                "kcc.aptcoder.in"
+            ],
+            "valid": "2024-09-23 09:30:28",
+            "fingerprint": "46f835ebfb77ce1a1cfab27ca1bbad6b3dd9757cf00873ddbed4512d363c36d7",
+            "expires": "2024-12-22 09:30:27"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c20fa09307c6b5455a362b440b51d3bb.jpeg"
+        }
+    }
+}

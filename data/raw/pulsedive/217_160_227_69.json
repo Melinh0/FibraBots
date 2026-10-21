@@ -1,0 +1,174 @@
+{
+    "qid": null,
+    "iid": 65326070,
+    "indicator": "217.160.227.69",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-26 21:48:46",
+    "stamp_updated": "2024-12-10 02:26:40",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65375099,
+                "indicator": "http:\/\/217.160.227.69\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-26 21:48:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "ES",
+            "mnt-by": "AS8560-MNT",
+            "origin": "AS8560",
+            "nic-hdl": [
+                "IPOP-RIPE",
+                "IPAD-RIPE"
+            ],
+            "role": [
+                "IP Operations",
+                "IP Administration"
+            ],
+            "tech-c": [
+                "IPOP-RIPE",
+                "JR2342-RIPE",
+                "SH15342-RIPE"
+            ],
+            "admin-c": [
+                "IPAD-RIPE",
+                "JR2342-RIPE",
+                "SH15342-RIPE"
+            ],
+            "created": [
+                "2009-05-20T17:24:09Z",
+                "2009-05-28T16:25:04Z",
+                "2024-10-11T14:36:17Z",
+                "2023-01-27T14:59:42Z"
+            ],
+            "mnt-ref": "AS8560-MNT",
+            "abuse-c": "PBHM-RIPE",
+            "++abuse": "abuse@ionos.com",
+            "++email": "abuse@ionos.com",
+            "++registrant": [
+                "IPAD-RIPE",
+                "JR2342-RIPE",
+                "SH15342-RIPE"
+            ],
+            "abuse-mailbox": "abuse@ionos.com",
+            "address": "IONOS SE",
+            "descr": "IONOS SE",
+            "netname": "es-lgr-pl-ionos-cloud-vit",
+            "++registered": [
+                "2009-05-20 17:24:09",
+                "2009-05-28 16:25:04",
+                "2024-10-11 14:36:17",
+                "2023-01-27 14:59:42"
+            ],
+            "last-modified": [
+                "2024-08-06T14:19:45Z",
+                "2024-08-06T14:19:08Z",
+                "2024-10-11T14:36:17Z",
+                "2023-01-27T14:59:42Z"
+            ],
+            "++updated": [
+                "2024-08-06 14:19:45",
+                "2024-08-06 14:19:08",
+                "2024-10-11 14:36:17",
+                "2023-01-27 14:59:42"
+            ],
+            "route": "217.160.227.0\/24",
+            "inetnum": "217.160.227.0 - 217.160.227.255"
+        },
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "asn": "AS8560",
+            "lat": "40.4172",
+            "long": "-3.684",
+            "org": "IONOS SE",
+            "address": "IONOS SE"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3121",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.58 (Ubuntu)",
+            "++target": "http:\/\/217.160.227.69\/",
+            "last-modified": "Sat, 28 Sep 2024 10:59:28 GMT",
+            "etag": "\"29af-6232bdd90f51b-gzip\"",
+            "date": "Thu, 28 Nov 2024 00:41:03 GMT"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n",
+            "3306": "[\u0000\u0000\u0000\n8.0.39-0ubuntu0.24.04.2\u0000\u0016+\u0000\u0000E;:\u00116K\u00018\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000FLaP\u00025k Num\u0004\u0000caching_sha2_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/58cc99a82e02327e2d7cd1ba5aad749a.jpeg"
+        }
+    }
+}

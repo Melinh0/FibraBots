@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 48229291,
+    "indicator": "58.228.105.192",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-14 15:56:13",
+    "stamp_updated": "2024-12-16 17:49:19",
+    "stamp_seen": "2024-12-16 17:49:19",
+    "stamp_probed": "2024-09-07 08:18:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-12 14:08:29"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-14 15:56:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-12 14:08:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-15 01:51:16"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 549449,
+            "username": "damienrobbins",
+            "title": "",
+            "comment": "botnet",
+            "stamp_added": "2023-11-02 13:29:20",
+            "stamp_updated": "2023-11-02 13:29:20"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "SK Namsan Green Bldg.",
+                "Seoul Jung-gu Toegye-ro 24",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "descr": "SK Broadband Co Ltd",
+            "e-mail": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "broadNnet-KR",
+                "broadNnet"
+            ],
+            "nic-hdl": [
+                "IM12-KR",
+                "IM670-AP"
+            ],
+            "tech-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "inetnum": "58.224.0.0 - 58.239.255.255",
+            "last-modified": [
+                "2017-02-03T00:38:11Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM670-AP",
+                "IM12-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++phone": "+82-80-828-2106",
+            "phone": "+82-80-828-2106",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS9318",
+            "org": "SK Broadband Co Ltd",
+            "region": "Seoul",
+            "city": "Eunpyeong-gu",
+            "long": "126.9156",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Jung-gu Toegye-ro 24",
+                "SK Namsan Green Bldg."
+            ],
+            "lat": "37.597",
+            "country": "South Korea"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\u0005\u0014%\ufffd\ufffdtJ\u0003Kt\ufffd[\u000bg\ufffd\\g}\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au,kex-strict-s-v00@openssh.com\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdh\"e\ufffd"
+        }
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 50620019,
+    "indicator": "185.6.81.48",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-08-28 09:09:36",
+    "stamp_updated": "2024-12-15 07:35:35",
+    "stamp_seen": "2024-12-15 07:35:35",
+    "stamp_probed": "2024-09-30 07:04:17",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 50620129,
+                "indicator": "http:\/\/185.6.81.48\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-08-28 09:09:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-14 00:22:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "TATTELECOM-MNT"
+            ],
+            "country": "RU",
+            "descr": "route object for TATTELECOM",
+            "mnt-by": [
+                "TATTELECOM-MNT",
+                "RIPE-NCC-HM-MNT",
+                "GR10880-MNT"
+            ],
+            "origin": "AS28840",
+            "phone": [
+                "+7 843 2990399",
+                "+7 843 2990354"
+            ],
+            "abuse-c": "AR16966-RIPE",
+            "organisation": "ORG-OT4-RIPE",
+            "org": "ORG-OT4-RIPE",
+            "inetnum": "185.6.80.0 - 185.6.83.255",
+            "netname": "RU-TATTELECOM-20121010",
+            "address": [
+                "Kazan",
+                "Ershova str, 57",
+                "420061",
+                "RUSSIAN FEDERATION",
+                "Russian Federation, Kazan 420061, N. Ershova 57"
+            ],
+            "created": [
+                "2004-04-17T11:59:27Z",
+                "2019-04-22T10:49:15Z",
+                "2014-11-27T08:43:40Z",
+                "2014-11-27T09:25:23Z"
+            ],
+            "fax-no": "+7 843 2951219",
+            "tech-c": "GR10880-RIPE",
+            "nic-hdl": "GR10880-RIPE",
+            "++registrant": [
+                "GR10880-RIPE",
+                "Service Provider PJSC Tattelecom"
+            ],
+            "admin-c": "GR10880-RIPE",
+            "last-modified": [
+                "2020-01-09T05:40:32Z",
+                "2019-11-29T07:17:17Z",
+                "2024-09-12T07:44:46Z",
+                "2024-09-12T07:44:51Z"
+            ],
+            "person": "Service Provider PJSC Tattelecom",
+            "org-name": "PJSC \"TATTELECOM\"",
+            "route": "185.6.81.0\/24",
+            "source": "RIPE # Filtered",
+            "++registered": [
+                "2019-04-22 10:49:15",
+                "2014-11-27 08:43:40",
+                "2004-04-17 11:59:27",
+                "2014-11-27 09:25:23"
+            ],
+            "++updated": [
+                "2020-01-09 05:40:32",
+                "2024-09-12 07:44:51",
+                "2019-11-29 07:17:17"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS28840",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "org": "Pjsc tattelecom",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=20",
+            "content-length": "492",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 17 Apr 2017 16:15:53 GMT",
+            "etag": "\"eb-1ec-58f4ea39\"",
+            "++target": "http:\/\/185.6.81.48\/",
+            "date": "Tue, 22 Oct 2024 17:15:17 GMT"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "refresh": "0; URL=\/cgi-bin\/luci"
+        },
+        "dns": {
+            "ptr": "48.81.6.185.in-addr.arpa"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001,\u0007\u0014\u0007\u0016\u001d\ufffd\ufffdp1\ufffd\ufffd_r\ufffd@\ufffd\ufffd\u0000\u0000\u0000mcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd,\u0005\ufffdl\ufffd\ufffd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/578013637c8ae0a38dd5b5f2431e5b60.jpeg"
+        }
+    }
+}

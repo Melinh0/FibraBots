@@ -1,0 +1,237 @@
+{
+    "qid": null,
+    "iid": 34967542,
+    "indicator": "173.25.186.130",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-13 06:47:56",
+    "stamp_updated": "2024-12-11 10:41:04",
+    "stamp_seen": "2024-11-20 03:20:29",
+    "stamp_probed": "2024-09-30 05:55:53",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 34968772,
+                "indicator": "https:\/\/173.25.186.130\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-13 06:47:56"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-27 04:22:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "D3",
+            "jQuery",
+            "jQuery UI",
+            "Modernizr",
+            "Moment.js"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "parent": "NET173 (NET-173-0-0-0-0)",
+            "++registered": [
+                "2008-05-19 00:00:00",
+                "2008-02-05 00:00:00"
+            ],
+            "regdate": [
+                "2008-05-19",
+                "2008-02-05"
+            ],
+            "organization": "Mediacom Communications Corp (MCC-244)",
+            "updated": [
+                "2012-02-24",
+                "2024-06-18"
+            ],
+            "netrange": "173.16.0.0 - 173.31.255.255",
+            "netname": "MEDIACOM-RESIDENTIAL-CUST",
+            "nethandle": "NET-173-16-0-0-1",
+            "cidr": "173.16.0.0\/12",
+            "referralserver": "rwhois:\/\/rwhois.mediacomcc.com:4321",
+            "orgabusehandle": "MEDIA2-ARIN",
+            "orgtechhandle": [
+                "NAH5-ARIN",
+                "HCD1-ARIN"
+            ],
+            "orgabuseemail": "abuse@mediacombb.net",
+            "orgtechphone": [
+                "+1-515-559-0223",
+                "+1-845-313-4002"
+            ],
+            "++registrant": "Mediacom Communications Corp",
+            "orgabusename": "Mediacom Abuse",
+            "orgabusephone": "+1-845-695-2600",
+            "orgtechname": [
+                "Ahmad, Nisar",
+                "Dean, Henry Clay"
+            ],
+            "++abuse": "abuse@mediacombb.net",
+            "orgname": "Mediacom Communications Corp",
+            "++email": [
+                "nahmad@mediacomcc.com",
+                "hdean@mediacomcc.com"
+            ],
+            "orgid": "MCC-244",
+            "orgtechemail": [
+                "nahmad@mediacomcc.com",
+                "hdean@mediacomcc.com"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/NAH5-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/HCD1-ARIN"
+            ],
+            "++phone": [
+                "+1-845-313-4002",
+                "+1-515-559-0223",
+                "+1-515-559-0300"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MEDIA2-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/173.16.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/MCC-244"
+            ],
+            "postalcode": "10918",
+            "address": "1 Mediacom Way",
+            "city": "Mediacom Park",
+            "++updated": "2024-06-18 00:00:00",
+            "orgroutingname": "IP Operations",
+            "orgroutingphone": "+1-515-559-0300",
+            "orgroutinghandle": "IPOPE24-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/IPOPE24-ARIN",
+            "orgroutingemail": "MCC_IPOPS@mediacomcc.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS30036",
+            "region": [
+                "Minnesota",
+                "NY"
+            ],
+            "zip": "10918",
+            "city": [
+                "Long Lake",
+                "Mediacom Park"
+            ],
+            "org": [
+                "MEDIACOM-ENTERPRISE-BUSINESS",
+                "Mediacom Communications Corp (MCC-244)"
+            ],
+            "long": "-93.5782",
+            "lat": "44.9942",
+            "address": "1 Mediacom Way"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "server": "Server",
+            "content-length": "8534",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "++content-type": "text\/html",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "++target": "http:\/\/173.25.186.130\/",
+            "++redirect": "https:\/\/173.25.186.130\/",
+            "location": "http:\/\/173.25.186.130\/",
+            "date": "Sat, 12 Oct 2024 14:05:41 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/CN=UBNT Router UI\/O=Ubiquiti Networks\/ST=CA\/L=San Jose",
+            "subject": "\/C=US\/CN=UBNT Router UI\/O=Ubiquiti Networks\/ST=CA\/L=San Jose",
+            "version": "v3",
+            "org": "UBNT Router UI",
+            "valid": "2011-06-01 10:00:31",
+            "expires": "2021-05-29 10:00:31",
+            "++subject": "Ubiquiti Networks",
+            "fingerprint": "663b23469317e5312092bdfab7dc38b1155510f50e4cd29cf52bdf48cf26c3fb"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "x-ua-compatible": "IE=Edge;chrome=1",
+            "copyright": "Copyright 2012 Ubiquiti Networks, Inc. All rights reserved.",
+            "++title": "EdgeOS",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9\n"
+        },
+        "dns": {
+            "ptr": "173-25-186-130.client.mchsi.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6051d075730baecbbfcffdcc8fafeae9.jpeg"
+        }
+    }
+}

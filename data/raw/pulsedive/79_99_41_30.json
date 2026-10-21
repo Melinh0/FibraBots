@@ -1,0 +1,76 @@
+{
+    "qid": null,
+    "iid": 61764492,
+    "indicator": "79.99.41.30",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-30 06:26:05",
+    "stamp_updated": "2024-12-13 23:29:21",
+    "stamp_seen": "2024-12-13 23:29:21",
+    "stamp_probed": "2024-08-15 07:25:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-30 06:26:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS8560",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "org": "IONOS SE"
+        },
+        "dns": {
+            "ptr": "ip79-99-41-30.pbiaas.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n"
+        }
+    }
+}

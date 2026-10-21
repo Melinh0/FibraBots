@@ -1,0 +1,217 @@
+{
+    "qid": null,
+    "iid": 57262684,
+    "indicator": "89.208.103.230",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-14 14:47:40",
+    "stamp_updated": "2024-12-11 11:54:40",
+    "stamp_seen": "2024-12-11 11:54:39",
+    "stamp_probed": "2024-09-30 20:33:56",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 57267668,
+                "indicator": "http:\/\/89.208.103.230\/"
+            },
+            {
+                "iid": 65829389,
+                "indicator": "https:\/\/89.208.103.230\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-21 09:32:00"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-14 14:47:40"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-21 09:32:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-16 01:05:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "27017",
+            "443",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MongoDB",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "DN-MNT",
+                "aeza-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-10-13T17:49:21Z",
+                "2011-06-14T13:08:38Z",
+                "2022-08-11T09:07:09Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "++abuse": "AA38875-RIPE",
+            "mnt-domains": "aeza-mnt",
+            "mnt-routes": "aeza-mnt",
+            "++registered": "2022-08-11 00:00:00",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "mnt-ref": [
+                "aeza-mnt",
+                "renets-mnt"
+            ],
+            "admin-c": "AN32681-RIPE",
+            "tech-c": "AN32681-RIPE",
+            "nic-hdl": "AN32681-RIPE",
+            "++registrant": "AN32681-RIPE",
+            "geoloc": "50.1198369 8.7343672",
+            "descr": "AEZA GROUP Ltd",
+            "netname": "DE-AEZA-NETWORK",
+            "route": "89.208.103.0\/24",
+            "inetnum": "89.208.103.0 - 89.208.103.255",
+            "last-modified": [
+                "2022-08-11T09:07:09Z",
+                "2023-03-27T10:08:32Z",
+                "2024-03-19T08:47:02Z",
+                "2023-10-31T07:53:33Z"
+            ],
+            "++updated": "2024-03-19 00:00:00",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Hesse",
+            "long": "8.6842",
+            "city": "Frankfurt am Main",
+            "lat": "50.1187",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "15793",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.24.0",
+            "last-modified": "Mon, 19 Feb 2024 10:30:17 GMT",
+            "etag": "\"65d32db9-3db1\"",
+            "date": "Fri, 18 Oct 2024 02:50:58 GMT",
+            "++target": "http:\/\/89.208.103.230\/",
+            "++redirect": "https:\/\/89.208.103.230\/"
+        },
+        "meta": {
+            "robots": "noindex,nofollow",
+            "++title": "FASTPANEL"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "parking",
+            "subject": "\/C=\/ST=\/L=\/O=FASTPANEL\/OU=\/CN=parking",
+            "issuer": "\/C=\/ST=\/L=\/O=FASTPANEL\/OU=\/CN=parking",
+            "++subject": "FASTPANEL",
+            "valid": "2024-02-26 09:57:36",
+            "expires": "2025-02-25 09:57:36",
+            "fingerprint": "68c9771d90aa3390a9218d81fecaf177a16dd3394900d23476074eee7635477c"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.1\n",
+            "21": "220 ProFTPD Server (Debian) [::ffff:89.208.103.230]\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "27017": "\u0005\u0004\u0000\u0000",
+            "25": "220 jovial-friends.aeza.network ESMTP Exim 4.95 Ubuntu Fri, 18 Oct 2024 05:50:56 +0300\n"
+        },
+        "dns": {
+            "ptr": "jovial-friends.aeza.network"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f0a6f9eb8f72859ce878f2bca6765bba.jpeg"
+        }
+    }
+}

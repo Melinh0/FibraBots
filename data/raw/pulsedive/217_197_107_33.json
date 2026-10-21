@@ -1,0 +1,71 @@
+{
+    "qid": null,
+    "iid": 64332021,
+    "indicator": "217.197.107.33",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-14 06:17:32",
+    "stamp_updated": "2024-12-15 11:33:35",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-14 06:17:32"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-03 22:00:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd",
+            "country": "Russia"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        }
+    }
+}

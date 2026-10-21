@@ -1,0 +1,164 @@
+{
+    "qid": null,
+    "iid": 61945937,
+    "indicator": "154.213.187.233",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-03 20:18:40",
+    "stamp_updated": "2024-12-11 18:05:14",
+    "stamp_seen": "2024-12-11 18:05:14",
+    "stamp_probed": "2024-08-19 21:33:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65853765,
+                "indicator": "https:\/\/154.213.187.233\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-03 20:18:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Netherlands",
+                "The Netherlands"
+            ],
+            "countrycode": "NL",
+            "lat": "52.3824",
+            "long": "4.8995",
+            "asn": "AS51396",
+            "address": [
+                "Mahe",
+                "Seychelles",
+                "Ebene",
+                "MU"
+            ],
+            "org": "Pfcloud UG"
+        },
+        "whois": {
+            "country": "NL",
+            "status": "ASSIGNED PA",
+            "address": [
+                "Seychelles",
+                "MU",
+                "Ebene",
+                "Mahe"
+            ],
+            "admin-c": "CIS1-AFRINIC",
+            "mnt-by": [
+                "CIL1-MNT",
+                "LARUS-SERVICE-MNT"
+            ],
+            "nic-hdl": "CIS1-AFRINIC",
+            "person": "Cloud Innovation Support",
+            "tech-c": "CIS1-AFRINIC",
+            "phone": "tel:+248-4-610-795",
+            "origin": "AS51396",
+            "abuse-mailbox": "abuse@cloudinnovation.org",
+            "++abuse": "abuse@cloudinnovation.org",
+            "++registrant": [
+                "Cloud Innovation Support",
+                "CIS1-AFRINIC"
+            ],
+            "++email": "abuse@cloudinnovation.org",
+            "netname": "Pfcloud_UG",
+            "descr": "Pfcloud UG",
+            "inetnum": "154.213.187.0 - 154.213.187.255",
+            "route": "154.213.187.0\/24",
+            "source": "AFRINIC # Filtered",
+            "parent": "154.192.0.0 - 154.223.255.255"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=15768000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "etag": "W\/\"66c89723-10f\"",
+            "date": "Fri, 18 Oct 2024 17:09:29 GMT",
+            "++redirect": "https:\/\/154.213.187.233\/",
+            "++target": "http:\/\/154.213.187.233\/",
+            "last-modified": "Fri, 23 Aug 2024 14:05:23 GMT"
+        },
+        "meta": {
+            "robots": "noindex",
+            "++title": "this is a mail-in-a-box"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=box.seekmail.info",
+            "fingerprint": "878a0375ab86e8c75011f7b0cb27c1380b2b2fa57e0e3e9789c9a16649cbe647",
+            "expires": "2024-11-21 13:22:23",
+            "valid": "2024-08-23 13:22:24",
+            "domain": [
+                "box.seekmail.info",
+                "mta-sts.box.seekmail.info"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 box.seekmail.info ESMTP Hi, I'm a Mail-in-a-Box (Ubuntu\/Postfix; see https:\/\/mailinabox.email\/)\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c2e6ab594e1d37c4e9160510278cbaf7.jpeg"
+        }
+    }
+}

@@ -1,0 +1,173 @@
+{
+    "qid": null,
+    "iid": 63582425,
+    "indicator": "31.173.25.73",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-25 05:02:33",
+    "stamp_updated": "2024-12-10 10:40:19",
+    "stamp_seen": "2024-09-25 05:48:58",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63587568,
+                "indicator": "https:\/\/31.173.25.73\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-25 05:02:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "mnt-by": [
+                "MEGAFON-RIPE-MNT",
+                "MEGAFON-AUTO-MNT",
+                "GDC-TR-CoreIP"
+            ],
+            "origin": "AS25159",
+            "mnt-domains": "MEGAFON-DNS-MNT",
+            "descr": [
+                "GPRS pool for APN fixedIP.msk",
+                "MF-MOSCOW-MBB-FIXEDIP-31-173-24-0"
+            ],
+            "address": "Samara",
+            "mnt-routes": "GDC-TR-CoreIP",
+            "last-modified": [
+                "2020-02-05T11:44:29Z",
+                "2022-03-21T11:48:45Z",
+                "2023-06-29T07:45:56Z"
+            ],
+            "tech-c": "MA23317-RIPE",
+            "mnt-lower": "GDC-TR-CoreIP",
+            "admin-c": "MA23317-RIPE",
+            "role": "Mobile",
+            "nic-hdl": "MA23317-RIPE",
+            "++registrant": "MA23317-RIPE",
+            "created": [
+                "2020-02-05T11:44:29Z",
+                "2020-08-28T10:14:36Z",
+                "2016-02-14T07:09:45Z"
+            ],
+            "route": "31.173.24.0\/21",
+            "inetnum": "31.173.24.0 - 31.173.31.255",
+            "netname": "MF-MOSCOW-MBB-FIXEDIP-31-173-24-0",
+            "++registered": [
+                "2020-02-05 11:44:29",
+                "2020-08-28 10:14:36",
+                "2016-02-14 07:09:45"
+            ],
+            "++updated": [
+                "2020-02-05 11:44:29",
+                "2023-06-29 07:45:56",
+                "2022-03-21 11:48:45"
+            ]
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "org": "PJSC MegaFon",
+            "asn": "AS25159",
+            "address": "Samara",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "content-length": "386",
+            "keep-alive": "timeout=20",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"1f1-182-62d2849f\"",
+            "last-modified": "Sat, 16 Jul 2022 09:27:59 GMT",
+            "date": "Wed, 25 Sep 2024 05:48:42 GMT",
+            "++redirect": "https:\/\/31.173.25.73\/",
+            "++target": "http:\/\/31.173.25.73\/"
+        },
+        "ssl": {
+            "issuer": "\/C=DE\/ST=Berlin\/L=Berlin\/CN=OpenWrt",
+            "subject": "\/C=DE\/ST=Berlin\/L=Berlin\/CN=OpenWrt",
+            "version": "v3",
+            "org": "OpenWrt",
+            "expires": "2024-07-15 10:38:47",
+            "valid": "2022-07-16 10:38:47",
+            "fingerprint": "cda1b0311add8cad7ef7bae678062bd2242c419bbab55d9e6317c9e894af0110"
+        },
+        "meta": {
+            "refresh": "0; URL=\/cgi-bin\/luci"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2014.63\n\u0000\u0000\u0001L\b\u0014h?\ufffd\ufffd8B5\u001f\ufffdF|`\ufffdgH\ufffd\u0000\u0000\u0000Pdiffie-hellman-group1-sha1,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,3des-ctr,aes256-ctr,aes128-cbc,3des-cbc,aes256-cbc\u0000\u0000\u0000=aes128-ctr,3des-ctr,aes256-ctr,aes128-cbc,3des-cbc,aes256-cbc\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\u0014\u0003"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/51bfbda176f02b9d032ca74107d39354.jpeg"
+        }
+    }
+}

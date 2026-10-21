@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 51571774,
+    "indicator": "1.247.245.61",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-25 19:47:36",
+    "stamp_updated": "2024-12-14 20:03:17",
+    "stamp_seen": "2024-12-14 20:03:17",
+    "stamp_probed": "2023-11-21 20:34:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 51571797,
+                "indicator": "https:\/\/1.247.245.61\/redirect.cgi"
+            },
+            {
+                "iid": 65801960,
+                "indicator": "https:\/\/1.247.245.61\/ztp\/ztp_enabled.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-25 19:47:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "SK Namsan Green Bldg.",
+                "Seoul Jung-gu Toegye-ro 24",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "descr": "SK Broadband Co Ltd",
+            "e-mail": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "inetnum": "1.234.0.0 - 1.255.255.255",
+            "netname": [
+                "broadNnet-KR",
+                "broadNnet"
+            ],
+            "nic-hdl": [
+                "IM12-KR",
+                "IM670-AP"
+            ],
+            "tech-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "last-modified": [
+                "2017-02-03T00:38:09Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM670-AP",
+                "IM12-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++phone": "+82-80-828-2106",
+            "phone": "+82-80-828-2106",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS9318",
+            "org": "SK Broadband Co Ltd",
+            "city": "Cheonan",
+            "region": "Chungcheongnam-do",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Jung-gu Toegye-ro 24",
+                "SK Namsan Green Bldg."
+            ],
+            "country": "South Korea",
+            "long": "127.1293",
+            "lat": "36.8242"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "1464",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 29 Jun 2023 18:21:25 GMT",
+            "etag": "\"5b8-5ff48c49e7340\"",
+            "++target": "http:\/\/1.247.245.61\/",
+            "++redirect": "https:\/\/1.247.245.61\/ztp\/ztp_enabled.html",
+            "date": "Tue, 22 Oct 2024 15:05:23 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "ZTP is already enabled.",
+            "description": "",
+            "author": ""
+        },
+        "cookies": {
+            "zy_pc_browser": "1",
+            "arip": "1.247.245.61"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2031-07-29 12:12:20",
+            "issuer": "\/CN=vpn100_BCCF4FFFB87C",
+            "subject": "\/CN=vpn100_BCCF4FFFB87C",
+            "valid": "2021-07-31 12:12:20",
+            "org": "vpn100_BCCF4FFFB87C",
+            "fingerprint": "5e2974a034cfce5d95ab43e0f0f738d474cd52c6f39f3e6b809f0f62e3b3be39",
+            "email": "vpn100_BCCF4FFFB87C"
+        },
+        "banners": {
+            "21": "220 FTP Server (VPN100) [::ffff:1.247.245.61]\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/847e813ec4859ffac81377914ee427f7.jpeg"
+        }
+    }
+}

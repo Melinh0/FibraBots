@@ -1,0 +1,235 @@
+{
+    "qid": null,
+    "iid": 41316512,
+    "indicator": "104.244.73.136",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-16 20:42:42",
+    "stamp_updated": "2024-12-25 17:23:39",
+    "stamp_seen": "2024-12-25 17:23:39",
+    "stamp_probed": "2024-08-28 03:27:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64147592,
+                "indicator": "https:\/\/tor-exit-readme.middelstaedt.com\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2022-11-16 20:42:42"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-02-07 07:52:36"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2022-11-16 20:42:42"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-03-09 17:51:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ],
+        "technology": [
+            "CloudFlare",
+            "HSTS",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "LU"
+            ],
+            "updated": [
+                "2017-01-28",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "nettype": [
+                "Direct Allocation",
+                "Reallocated"
+            ],
+            "parent": [
+                "NET104 (NET-104-0-0-0-0)",
+                "PONYNET-14 (NET-104-244-72-0-1)"
+            ],
+            "++phone": "+1-778-977-8246",
+            "++registrant": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "address": [
+                "1621 Central Ave",
+                "3, op der Poukewiss"
+            ],
+            "cidr": "104.244.72.0\/21",
+            "city": [
+                "Cheyenne",
+                "Roost"
+            ],
+            "nethandle": [
+                "NET-104-244-72-0-1",
+                "NET-104-244-72-0-2"
+            ],
+            "netname": [
+                "PONYNET-14",
+                "BUYVM-LUXEMBOURG-01"
+            ],
+            "netrange": "104.244.72.0 - 104.244.79.255",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": [
+                "FranTech Solutions (SYNDI-5)",
+                "BuyVM (BUYVM)"
+            ],
+            "orgid": [
+                "SYNDI-5",
+                "BUYVM"
+            ],
+            "orgname": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": [
+                "82001",
+                "7795"
+            ],
+            "regdate": [
+                "2010-07-21",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "stateprov": "WY",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "++registered": "2017-10-01 00:00:00",
+            "++updated": "2017-10-01 00:00:00",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.244.72.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BUYVM"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "++abuse": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN"
+        },
+        "geo": {
+            "asn": "AS53667",
+            "country": "Luxembourg",
+            "countrycode": "LU",
+            "city": "Luxembourg",
+            "region": "Luxembourg",
+            "long": "6.1294",
+            "org": "PONYNET",
+            "lat": "49.6113"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "referrer-policy": "no-referrer",
+            "server": "cloudflare",
+            "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+            "++code": "200",
+            "cf-cache-status": "DYNAMIC",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "content-encoding": "zstd",
+            "last-modified": "Sat, 26 Nov 2022 22:19:34 GMT",
+            "permissions-policy": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=();",
+            "++target": "https:\/\/104.244.73.136\/",
+            "++redirect": "https:\/\/tor-exit-readme.middelstaedt.com\/",
+            "content-security-policy": "default-src 'none'; script-src 'self' 'strict-dynamic' 'sha256-tZtvDdhBE2A31mJFsi9sTa5J8ROqzmRFUzoxlK1ECKc=' 'sha256-l1rxOauCGJzRF84RaQ4yTQIV1gb1jNjnZAis\/xnX5ts='; style-src 'unsafe-hashes' 'sha256-kFAIUwypIt04FgLyVU63Lcmp2AQimPh\/TdYjy04Flxs=' 'sha256-XBs\/9LYykHib5bcWlRBv6hhcIO5lwFSVFSYTHHAGFmw=' 'sha256-l1rxOauCGJzRF84RaQ4yTQIV1gb1jNjnZAis\/xnX5ts=' 'sha256-+5G+Zr8BTBJxTGWPppMugUaKjVnRSiz5VnIPystTlxk=' 'sha256-B9mCwWBhtjAJ0UYoS0SQ0iL0YVp2FWNVaqvfrie5Rfg=' 'sha256-eH7QaZHQqGxHGHmYa4fQ9bDJdQ6fm0xq6BWG\/epyPDk=' 'sha256-TPPxNzrAGb+f5EoooQU63xpOniAzmmomZzp52q9p47k=' 'sha256-6RSD46GWdhhWg0nv1t2qdVg4NIGfO5IpS\/V020p84dE=' 'sha256-tZtvDdhBE2A31mJFsi9sTa5J8ROqzmRFUzoxlK1ECKc=' 'sha256-nF64oaXPMQ9YohLSFggLvcSYGaXHAOYk4mZa5uDri8M='; img-src 'self' data:; frame-ancestors 'self'; base-uri 'self'; form-action 'self';",
+            "date": "Tue, 24 Dec 2024 17:29:35 GMT",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=2733&min_rtt=612&rtt_var=4350&sent=8&recv=8&lost=0&retrans=0&sent_bytes=4019&recv_bytes=2373&delivery_rate=7029126&cwnd=251&unsent_bytes=0&cid=6eede6e21a769734&ts=441&x=0\"",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=VB7G43Ns1aUgzj04WnoQnzqfI%2FtwgAe134o0pzavGBGassoMYS16h34jF8NBgjaotCkhHvR%2FNmCi8er25g3k7z2%2BBntoytSTepKcMJV%2BmqeQof9BDoiRgeE%2F3rEBK3TsbQEp0pv2Y9A%2BWA1J8AJPDnvgWw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "cf-ray": "8f7a851cbecbf603-ORD"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "++title": "This is a Tor Exit Router"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "subject": "\/CN=tor-exit-readme.middelstaedt.com",
+            "domain": "tor-exit-readme.middelstaedt.com",
+            "valid": "2024-12-05 16:30:45",
+            "expires": "2025-03-05 17:30:43",
+            "fingerprint": "9bc461f8daa2a8ec1dcfecc41b473556211ea49ed02a42d4333a6a3d0a8a4442"
+        },
+        "dns": {
+            "ptr": "tor-exit-readme.middelstaedt.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/59c6da1290c2f14971ef5004bc60e692.jpeg"
+        }
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 63602595,
+    "indicator": "77.157.174.51",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-26 05:15:22",
+    "stamp_updated": "2024-12-15 11:37:02",
+    "stamp_seen": "2024-09-26 06:09:31",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63604760,
+                "indicator": "https:\/\/77.157.174.51\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-26 05:15:22"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "France",
+                "Campus SFR",
+                "12 rue Jean-Philippe Rameau",
+                "CS 80001",
+                "93634 La-Plaine-Saint-Denis Cedex"
+            ],
+            "abuse-mailbox": "abuse@gaoland.net",
+            "mnt-by": [
+                "LDCOM-MNT",
+                "SFR-MNT"
+            ],
+            "origin": "AS15557",
+            "phone": [
+                "+33 1 70 18 52 00",
+                "+33(0)1 85 06 48 87"
+            ],
+            "descr": [
+                "SFR",
+                "Entreprise"
+            ],
+            "created": [
+                "2016-06-09T15:14:19Z",
+                "2003-10-23T09:15:54Z",
+                "2012-09-05T13:48:48Z",
+                "2014-06-05T11:27:17Z"
+            ],
+            "last-modified": [
+                "2016-06-09T15:14:19Z",
+                "2017-11-22T12:32:04Z",
+                "2017-10-30T22:21:35Z",
+                "2023-09-18T07:21:21Z"
+            ],
+            "route": "77.144.0.0\/12",
+            "nic-hdl": [
+                "LD699-RIPE",
+                "RB14609-RIPE"
+            ],
+            "role": "SFR Legal Contact",
+            "inetnum": "77.157.0.0 - 77.157.255.255",
+            "netname": "SFR-PRO",
+            "person": "Rachade Bireau",
+            "tech-c": [
+                "RB14609-RIPE",
+                "HS10001-RIPE"
+            ],
+            "admin-c": [
+                "LD699-RIPE",
+                "LDC76-RIPE",
+                "HS10001-RIPE"
+            ],
+            "++abuse": "abuse@gaoland.net",
+            "++registrant": [
+                "LD699-RIPE",
+                "LDC76-RIPE",
+                "HS10001-RIPE",
+                "Rachade Bireau"
+            ],
+            "++email": "abuse@gaoland.net",
+            "country": "fr",
+            "++updated": [
+                "2023-09-18 07:21:21",
+                "2016-06-09 15:14:19",
+                "2017-10-30 22:21:35"
+            ],
+            "++registered": [
+                "2003-10-23 09:15:54",
+                "2016-06-09 15:14:19",
+                "2014-06-05 11:27:17",
+                "2012-09-05 13:48:48"
+            ]
+        },
+        "geo": {
+            "country": [
+                "France",
+                "fr"
+            ],
+            "countrycode": [
+                "FR",
+                "fr"
+            ],
+            "asn": "AS15557",
+            "address": [
+                "France",
+                "Campus SFR",
+                "12 rue Jean-Philippe Rameau",
+                "CS 80001",
+                "93634 La-Plaine-Saint-Denis Cedex"
+            ],
+            "lat": "45.7838",
+            "long": "3.0966",
+            "city": "Clermont-Ferrand",
+            "org": "Societe Francaise Du Radiotelephone - SFR SA",
+            "region": [
+                "Puy-de-D\ufffdme",
+                "Auvergne-Rh\ufffdne-Alpes"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 26 Sep 2024 06:06:57 GMT",
+            "++target": "https:\/\/77.157.174.51\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "usg110_5CE28C6435F3",
+            "issuer": "\/CN=usg110_5CE28C6435F3",
+            "expires": "2028-01-02 19:57:26",
+            "fingerprint": "cafedc23fa47ace4f50860835eb7bc5526c76da87b817d52120a105df61b973c",
+            "valid": "2018-01-04 19:57:26",
+            "subject": "\/CN=usg110_5CE28C6435F3",
+            "email": "usg110_5CE28C6435F3"
+        },
+        "meta": {
+            "++title": "USG110",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4d5eba18dced485e6dd70e0ec8871a8d.jpeg"
+        }
+    }
+}

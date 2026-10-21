@@ -1,0 +1,155 @@
+{
+    "qid": null,
+    "iid": 44881592,
+    "indicator": "146.19.169.228",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-02-19 11:03:04",
+    "stamp_updated": "2024-10-08 13:07:23",
+    "stamp_seen": "2024-07-05 13:32:48",
+    "stamp_probed": "2024-07-05 13:32:48",
+    "stamp_retired": "2024-10-08 13:07:23",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-02-20 17:51:39"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-02-19 11:03:04"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-02-20 17:51:39"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-03-26 04:21:54"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-02-22 03:44:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "RIPE",
+            "status": "ALLOCATED PA",
+            "address": [
+                "GERMANY",
+                "52531",
+                "Em Koddes 1",
+                "\ufffdbach-Palenberg"
+            ],
+            "country": "DE",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "mnt-de-xsserver-1"
+            ],
+            "origin": "AS44592",
+            "tech-c": [
+                "ME7748-RIPE",
+                "RS24146-RIPE",
+                "RS25803-RIPE"
+            ],
+            "++abuse": "AR56496-RIPE",
+            "org": "ORG-XG40-RIPE",
+            "organisation": "ORG-XG40-RIPE",
+            "++phone": "+4924519949570",
+            "org-name": "XSServer GmbH",
+            "admin-c": [
+                "ME7748-RIPE",
+                "RS24146-RIPE",
+                "RS25803-RIPE"
+            ],
+            "abuse-c": "AR56496-RIPE",
+            "mnt-ref": "mnt-de-xsserver-1",
+            "++registrant": [
+                "ME7748-RIPE",
+                "RS24146-RIPE",
+                "RS25803-RIPE"
+            ],
+            "phone": "+4924519949570",
+            "created": [
+                "2019-11-01T12:25:40Z",
+                "2021-11-15T11:01:16Z",
+                "2021-11-29T15:52:38Z",
+                "2023-12-14T12:01:01Z"
+            ],
+            "last-modified": [
+                "2020-12-16T12:19:05Z",
+                "2021-11-15T11:01:16Z",
+                "2021-11-29T15:52:38Z",
+                "2023-12-14T12:01:01Z"
+            ],
+            "role": "Rene Spellerberg",
+            "route": "146.19.169.0\/24",
+            "inetnum": "146.19.169.0 - 146.19.169.255",
+            "nic-hdl": "RS25803-RIPE",
+            "++updated": "2023-12-14 00:00:00",
+            "++registered": "2023-12-14 00:00:00",
+            "netname": "DE-XSSERVER4-20211116"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "lat": "51.2993",
+            "asn": "AS44592",
+            "org": "SkyLink Data Center BV",
+            "isp": "SkyLink Data Center BV",
+            "long": "9.491"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        }
+    }
+}

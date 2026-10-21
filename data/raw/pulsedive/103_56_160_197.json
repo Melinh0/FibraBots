@@ -1,0 +1,212 @@
+{
+    "qid": null,
+    "iid": 64342197,
+    "indicator": "103.56.160.197",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-16 06:10:48",
+    "stamp_updated": "2024-12-13 11:18:23",
+    "stamp_seen": "2024-10-17 22:48:25",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64365340,
+                "indicator": "https:\/\/103.56.160.197\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-16 06:10:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "25",
+            "443",
+            "465",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Google Font API",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "asn": "AS135905",
+            "org": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "iNET Corporation Company",
+                "No 247 Cau Giay, Dich Vong ward, Cau Giay district, Ha Noi City",
+                "INETSOFT-VN"
+            ]
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NMH17-AP"
+            ],
+            "origin": "AS135905",
+            "nic-hdl": [
+                "TK664-AP",
+                "NMH17-AP"
+            ],
+            "person": [
+                "Tran Kien",
+                "Nguyen Minh Hai"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-38385588"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "TK664-AP"
+            ],
+            "address": [
+                "No 247 Cau Giay, Dich Vong ward, Cau Giay district, Ha Noi City",
+                "Ha Noi, VietNam",
+                "iNET Corporation Company",
+                "INETSOFT-VN"
+            ],
+            "phone": [
+                "+84-24-38385588",
+                "+84-24-35564944"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "hainm@inet.vn",
+                "domain@inet.vn"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2017-11-18T04:27:23Z",
+                "2021-10-05T08:09:32Z",
+                "2022-01-28T09:56:38Z",
+                "2022-05-10T11:25:32Z"
+            ],
+            "inetnum": "103.56.160.0 - 103.56.163.255",
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "TK664-AP",
+                "Tran Kien",
+                "Nguyen Minh Hai"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "hainm@inet.vn",
+                "domain@inet.vn"
+            ],
+            "netname": "INETSOFT-VN",
+            "descr": [
+                "INETSOFT-VN",
+                "iNET software one member company limited"
+            ],
+            "route": "103.56.160.0\/22",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2021-10-05 08:09:32",
+                "2017-11-18 04:27:23",
+                "2022-01-28 09:56:38",
+                "2022-05-10 11:25:32"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "etag": "W\/\"6151df39-1a4ed\"",
+            "last-modified": "Mon, 27 Sep 2021 15:11:53 GMT",
+            "date": "Thu, 17 Oct 2024 17:58:14 GMT",
+            "++target": "http:\/\/103.56.160.197\/",
+            "++redirect": "https:\/\/103.56.160.197\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "x-ua-compatible": "ie=edge",
+            "++title": "Tr\u1ecf t\u00ean mi\u1ec1n th\u00e0nh c\u00f4ng.",
+            "description": ""
+        },
+        "ssl": {
+            "org": "localhost",
+            "subject": "\/C=US\/ST=Someprovince\/L=Sometown\/O=none\/OU=none\/CN=localhost\/E=webmaster@localhost",
+            "issuer": "\/C=US\/ST=Someprovince\/L=Sometown\/O=none\/OU=none\/CN=localhost\/E=webmaster@localhost",
+            "expires": "2049-01-23 08:01:15",
+            "valid": "2021-09-08 08:01:15",
+            "version": "v0",
+            "++subject": "none",
+            "fingerprint": "85c75d6bcb321a32df0ff542250163f52719eda3ef6881345b565e7ad8fd868c"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 00:58. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220 da.inet.vn ESMTP Exim 4.94.2 Fri, 18 Oct 2024 00:58:13 +0700\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/337b5b579e4503fe47eaafd5a8656af8.jpeg"
+        }
+    }
+}

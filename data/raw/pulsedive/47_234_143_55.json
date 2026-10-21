@@ -1,0 +1,141 @@
+{
+    "qid": null,
+    "iid": 55902810,
+    "indicator": "47.234.143.55",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-06 22:24:32",
+    "stamp_updated": "2024-12-12 01:15:56",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": "2024-09-30 15:24:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-06 22:24:32"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-10 09:07:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25"
+        ],
+        "protocol": [
+            "SMTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "orgtechname": "IPAddressing",
+            "stateprov": "CO",
+            "++abuse": "abuse@charter.net",
+            "++registrant": "Charter Communications",
+            "orgabuseemail": "abuse@charter.net",
+            "orgabusehandle": "ABUSE19-ARIN",
+            "organization": "Charter Communications (CC04)",
+            "orgid": "CC04",
+            "orgname": "Charter Communications",
+            "orgtechhandle": "IPADD1-ARIN",
+            "parent": "NET47 (NET-47-0-0-0-0)",
+            "netname": "CC04",
+            "city": "Greenwood Village",
+            "postalcode": "80111",
+            "++registered": "2017-11-27 00:00:00",
+            "regdate": "2017-11-27",
+            "updated": [
+                "2017-11-27",
+                "2022-09-14"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADD1-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC04",
+                "https:\/\/rdap.arin.net\/registry\/ip\/47.224.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE19-ARIN",
+            "nethandle": "NET-47-224-0-0-1",
+            "cidr": "47.224.0.0\/13, 47.234.0.0\/16, 47.232.0.0\/15",
+            "netrange": "47.224.0.0 - 47.234.255.255",
+            "orgtechemail": "PublicIPAddressing@charter.com",
+            "++phone": "+1-866-248-7662",
+            "orgabusephone": "+1-877-777-2263",
+            "address": "6175 S. Willow Dr",
+            "orgtechphone": "+1-866-248-7662",
+            "++updated": "2022-09-14 00:00:00",
+            "++email": "publicipaddressing@charter.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Texas",
+                "CO"
+            ],
+            "asn": "AS11427",
+            "zip": "80111",
+            "city": [
+                "Hutto",
+                "Greenwood Village"
+            ],
+            "lat": "30.5427",
+            "long": "-97.5467",
+            "org": [
+                "Charter Communications (CC04)",
+                "TWC-11427-TEXAS"
+            ],
+            "address": "6175 S. Willow Dr"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3\n",
+            "25": "220 wrn ESMTP Postfix (Ubuntu)\n"
+        },
+        "dns": {
+            "ptr": "syn-047-234-143-055.res.spectrum.com"
+        }
+    }
+}

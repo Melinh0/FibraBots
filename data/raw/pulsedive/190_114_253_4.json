@@ -1,0 +1,222 @@
+{
+    "qid": null,
+    "iid": 57334462,
+    "indicator": "190.114.253.4",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-16 23:10:13",
+    "stamp_updated": "2024-12-14 11:28:23",
+    "stamp_seen": "2024-12-02 00:00:00",
+    "stamp_probed": "2024-09-30 07:23:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 57334508,
+                "indicator": "http:\/\/190.114.253.4\/dashboard\/"
+            },
+            {
+                "iid": 64084719,
+                "indicator": "https:\/\/190.114.253.4\/dashboard\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-16 23:10:13"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-04 08:03:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "cdnjs",
+            "Facebook Login",
+            "Font Awesome",
+            "jQuery",
+            "mod_perl",
+            "Modernizr",
+            "OpenSSL",
+            "Perl",
+            "PHP",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "CL",
+            "created": [
+                "20111227",
+                "20120227",
+                "20180606"
+            ],
+            "owner": "ZAM LTDA.",
+            "owner-c": "CCF3",
+            "ownerid": "CL-ZALT-LACNIC",
+            "responsible": "Chi-Yin Feng",
+            "tech-c": "CCF3",
+            "nic-hdl": [
+                "CCF3",
+                "NOH10"
+            ],
+            "person": [
+                "Chan Chun Feng Diaz",
+                "NOC Haulmer"
+            ],
+            "++registrant": [
+                "Chan Chun Feng Diaz",
+                "NOC Haulmer"
+            ],
+            "++registered": "2018-06-06 00:00:00",
+            "abuse-c": "NOH10",
+            "changed": [
+                "20180606",
+                "20181206",
+                "20220217"
+            ],
+            "address": [
+                "Arturo Prat, 549, -",
+                "Prat, 527, Piso 3",
+                "Arturo Prat, 549,",
+                "3341656 - Curico - MA",
+                "3341656 - Curic\ufffd - Curic\ufffd"
+            ],
+            "++abuse": "NOH10",
+            "++phone": [
+                "+56 75962368122 [0000]",
+                "+56 963000495",
+                "+56 75 543220"
+            ],
+            "phone": [
+                "+56 75962368122 [0000]",
+                "+56 963000495",
+                "+56 75 543220"
+            ],
+            "nserver": [
+                "NS1.HAULMER.COM",
+                "NS2.HAULMER.COM"
+            ],
+            "++email": [
+                "chan@haulmer.com",
+                "noc@haulmer.com"
+            ],
+            "e-mail": [
+                "chan@haulmer.com",
+                "noc@haulmer.com"
+            ],
+            "inetnum": "190.114.252.0\/22",
+            "inetrev": "190.114.252.0\/22",
+            "nslastaa": "20240906",
+            "nsstat": "20240906 AA"
+        },
+        "geo": {
+            "country": "Chile",
+            "countrycode": "CL",
+            "asn": "AS52368",
+            "org": "ZAM LTDA.",
+            "lat": "-33.439",
+            "long": "-70.6432"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=99",
+            "content-length": "7575",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.48 (Unix) OpenSSL\/1.1.1k PHP\/7.4.21 mod_perl\/2.0.11 Perl\/v5.32.1",
+            "etag": "\"1d97-5c7c4d1077e80\"",
+            "last-modified": "Fri, 23 Jul 2021 06:50:18 GMT",
+            "++redirect": "https:\/\/190.114.253.4\/dashboard\/",
+            "++target": "http:\/\/190.114.253.4\/",
+            "date": "Mon, 07 Oct 2024 20:31:17 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=DE\/ST=Berlin\/L=Berlin\/O=Apache Friends\/CN=localhost",
+            "subject": "\/C=DE\/ST=Berlin\/L=Berlin\/O=Apache Friends\/CN=localhost",
+            "version": "v3",
+            "org": "localhost",
+            "valid": "2004-10-01 09:10:30",
+            "expires": "2010-09-30 09:10:30",
+            "++subject": "Apache Friends",
+            "fingerprint": "9de541b039cfdb96c7810df49efd958b28cc2df73e314f67c1a91469a2b19796"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "keywords": "xampp, apache, php, perl, mariadb, open source distribution",
+            "description": "XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.",
+            "++title": "Welcome to XAMPP",
+            "charset": "utf-8"
+        },
+        "dns": {
+            "ptr": [
+                "prueba.com",
+                "informaticaccm.com"
+            ]
+        },
+        "banners": {
+            "21": "220 ProFTPD Server (ProFTPD) [::ffff:190.114.253.4]\n",
+            "3306": "Y\u0000\u0000\u0000\n5.5.5-10.4.20-MariaDB\u0000\ufffd\u0000\u0000LVLYZ7D1\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000h9~60.5^Z+d8\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/969e8e16c8299e9f52a27c8f371d9374.jpeg"
+        }
+    }
+}

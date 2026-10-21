@@ -1,0 +1,247 @@
+{
+    "qid": null,
+    "iid": 134176,
+    "indicator": "89.218.185.66",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-10-19 01:36:35",
+    "stamp_updated": "2024-12-15 07:58:09",
+    "stamp_seen": "2024-12-15 07:58:08",
+    "stamp_probed": "2024-08-27 22:23:05",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 34170195,
+                "indicator": "https:\/\/89.218.185.66\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-07-14 12:45:22"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 17:53:05"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-02-07 19:24:03"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-07-14 12:45:22"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 509286,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 03:59:52",
+            "stamp_updated": "2022-05-18 03:59:52"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "Let's Encrypt",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "KZ",
+            "descr": [
+                "Kazakhtelecom Data Network Administration",
+                "PAVLODAR"
+            ],
+            "mnt-by": "KNIC-MNT",
+            "origin": "AS9198",
+            "address": [
+                "KZ",
+                "Pavlodar, str. Ak. Bekturov 60"
+            ],
+            "last-modified": [
+                "2010-01-26T11:05:01Z",
+                "2021-03-19T06:05:23Z"
+            ],
+            "route": "89.218.185.0\/24",
+            "inetnum": "89.218.185.64 - 89.218.185.67",
+            "created": [
+                "2010-01-26T11:05:01Z",
+                "2021-03-19T06:05:23Z"
+            ],
+            "tech-c": "AK21338-RIPE",
+            "admin-c": "AK21338-RIPE",
+            "++registrant": [
+                "AK21338-RIPE",
+                "ALINA KABYSHEVA"
+            ],
+            "++registered": [
+                "2021-03-19 06:05:23",
+                "2010-01-26 11:05:01"
+            ],
+            "++updated": [
+                "2021-03-19 06:05:23",
+                "2010-01-26 11:05:01"
+            ],
+            "nic-hdl": "AK21338-RIPE",
+            "phone": "+7 7182663388",
+            "person": "ALINA KABYSHEVA",
+            "netname": "PREMIUMOIL"
+        },
+        "geo": {
+            "country": "Kazakhstan",
+            "countrycode": "KZ",
+            "asn": "AS9198",
+            "org": "JSC Kazakhtelecom",
+            "city": "Pavlodar",
+            "region": "Pavlodar Region",
+            "lat": "52.2865",
+            "long": "76.9304"
+        },
+        "http": {
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "cache-control": [
+                "private",
+                "no-store, no-cache, must-revalidate, max-age=0\npost-check=0, pre-check=0"
+            ],
+            "keep-alive": [
+                "timeout=5, max=99",
+                "timeout=5, max=100",
+                "timeout=5, max=98",
+                "timeout=5, max=97",
+                "timeout=5, max=96"
+            ],
+            "x-powered-by": "PHP\/5.4.16",
+            "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips PHP\/5.4.16",
+            "content-type": [
+                "text\/css; charset=utf-8",
+                "application\/javascript; charset=utf-8",
+                "text\/html; charset=utf-8"
+            ],
+            "content-length": "1476",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "last-modified": "Tue, 22 Oct 2013 21:53:24 UTC",
+            "etag": [
+                "141833d7543ebc730f5bb724ecd33bf3",
+                "5480e6042aed096c9e9aeb6799d9bc73",
+                "96c66d63017f6a382ddb9b9e25ea2579"
+            ],
+            "++content-type": "text\/css",
+            "++target": "http:\/\/89.218.185.66\/",
+            "++redirect": "https:\/\/89.218.185.66\/",
+            "date": "Tue, 22 Oct 2024 19:25:34 GMT",
+            "set-cookie": "rlsmauth=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT\nrltoken=979713824831831e4723f3682917220c; expires=Thu, 21-Nov-2024 19:25:34 GMT; httponly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "google": "notranslate",
+            "viewport": "width=950,maximum-scale=2",
+            "robots": "noindex,nofollow,noodp",
+            "++title": "Webmail",
+            "charset": "utf-8",
+            "apple-mobile-web-app-capable": "yes",
+            "appbootdata": "{\"admin\":false,\"language\":\"ru_RU\",\"theme\":\"DarkShine\",\"mobile\":false,\"mobileDevice\":false}"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "subject": "\/CN=mail.ittk.kz",
+            "domain": "mail.ittk.kz",
+            "expires": "2023-06-08 22:05:21",
+            "valid": "2023-03-10 22:05:22",
+            "fingerprint": "f0302a4105d10fa4fe4971dba7197f58ef9257df4cc91c6c20d374a158b55521"
+        },
+        "dns": {
+            "ptr": "ittk.kz"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e48b38dbddae289ecbae77e3a78b6de9.jpeg"
+        },
+        "cookies": {
+            "rltoken": "ec1759692d6e71efeace079fcfeec97c"
+        }
+    }
+}

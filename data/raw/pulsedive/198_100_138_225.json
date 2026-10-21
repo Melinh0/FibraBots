@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 65318147,
+    "indicator": "198.100.138.225",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-26 09:50:49",
+    "stamp_updated": "2024-12-09 10:34:49",
+    "stamp_seen": "2024-11-28 07:19:07",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65366142,
+                "indicator": "https:\/\/198.100.138.225\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-26 09:50:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "jQuery",
+            "RequireJS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "parent": "NET198 (NET-198-0-0-0-0)",
+            "++registered": [
+                "2012-09-26 00:00:00",
+                "2003-01-14 00:00:00"
+            ],
+            "stateprov": "OR",
+            "city": "Roseburg",
+            "postalcode": "97470",
+            "++abuse": "abuse@douglasfast.net",
+            "++email": "noc@douglasfast.net",
+            "++phone": "+1-541-673-4242",
+            "++registrant": "Douglas FastNet",
+            "address": "2350 Aviation Drive",
+            "orgabuseemail": "abuse@douglasfast.net",
+            "orgabusehandle": "ABUSE1671-ARIN",
+            "orgabusename": "Douglas FastNet Security and Abuse",
+            "orgabusephone": "+1-541-673-4242",
+            "organization": "Douglas FastNet (DFD-5)",
+            "orgid": "DFD-5",
+            "orgname": "Douglas FastNet",
+            "orgnochandle": "NOC1711-ARIN",
+            "orgnocname": "Douglas FastNet Network Operations Center",
+            "orgnocphone": "+1-541-673-4242",
+            "orgtechemail": "noc@douglasfast.net",
+            "orgtechhandle": "IAD24-ARIN",
+            "orgtechname": "Douglas FastNet IP Administration",
+            "orgtechphone": "+1-541-673-4242",
+            "originas": "AS13692",
+            "regdate": [
+                "2003-01-14",
+                "2012-09-26"
+            ],
+            "updated": [
+                "2012-09-26",
+                "2024-11-25"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IAD24-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DFD-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/198.100.136.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE1671-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC1711-ARIN",
+            "netrange": "198.100.136.0 - 198.100.143.255",
+            "netname": "DOUGLAS-FAST-NET-C",
+            "nethandle": "NET-198-100-136-0-1",
+            "cidr": "198.100.136.0\/21",
+            "orgnocemail": "noc@dfn.net",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Oregon",
+                "OR"
+            ],
+            "city": [
+                "Roseburg",
+                "Glide"
+            ],
+            "zip": "97470",
+            "asn": "AS13692",
+            "org": [
+                "Douglas FastNet (DFD-5)",
+                "DFN-ASN-1"
+            ],
+            "address": "2350 Aviation Drive",
+            "lat": "43.3046",
+            "long": "-123.1019"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "4834",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 28 Nov 2024 00:34:54 GMT",
+            "etag": "\"2512294486\"",
+            "last-modified": "Tue, 15 Oct 2024 04:02:20 GMT",
+            "++redirect": "https:\/\/198.100.138.225\/",
+            "++target": "http:\/\/198.100.138.225\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "charset": "utf-8",
+            "++title": "Initializing..."
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2013-11-28 02:52:39",
+            "subject": "\/C=JP\/ST=Some-State\/O=company",
+            "issuer": "\/C=JP\/ST=Some-State\/O=company",
+            "expires": "2014-11-28 02:52:39",
+            "++subject": "company",
+            "fingerprint": "59e8be364095b3efa393769babc48702e5d9e6448c40452aab19560af8512caf"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.1\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b533ff0766432d7294fbf099ada3a804.jpeg"
+        }
+    }
+}

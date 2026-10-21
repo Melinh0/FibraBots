@@ -1,0 +1,165 @@
+{
+    "qid": null,
+    "iid": 58982252,
+    "indicator": "166.169.174.211",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-03 21:41:16",
+    "stamp_updated": "2024-12-15 07:31:41",
+    "stamp_seen": "2024-12-15 07:31:41",
+    "stamp_probed": "2024-09-30 05:18:37",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 58982254,
+                "indicator": "http:\/\/166.169.174.211\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-03 21:41:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Basic"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "PA",
+            "parent": "NET166 (NET-166-0-0-0-0)",
+            "++phone": "+1-215-489-7599",
+            "orgabusephone": "+1-215-489-7599",
+            "orgnocphone": "+1-215-489-7599",
+            "orgtechphone": "+1-215-489-7599",
+            "++abuse": "ipabuse@wirelessdataspco.org",
+            "++email": "ipabuse@wirelessdataspco.org",
+            "address": "PO Box 1381",
+            "cidr": "166.128.0.0\/9",
+            "city": "Doylestown",
+            "nethandle": "NET-166-128-0-0-1",
+            "netname": "NETBLK-CDPD-B",
+            "netrange": "166.128.0.0 - 166.255.255.255",
+            "orgabuseemail": "ipabuse@wirelessdataspco.org",
+            "orgabusehandle": "WDSPC-ARIN",
+            "orgabusename": "WDSPCo Helpdesk",
+            "orgnocemail": "ipabuse@wirelessdataspco.org",
+            "orgnochandle": "WDSPC-ARIN",
+            "orgnocname": "WDSPCo Helpdesk",
+            "orgtechemail": "ipabuse@wirelessdataspco.org",
+            "orgtechhandle": "WDSPC-ARIN",
+            "orgtechname": "WDSPCo Helpdesk",
+            "regdate": [
+                "1993-07-09",
+                "2024-02-08"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/WDSPC-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/166.128.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/WDSPC-Z"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/WDSPC-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/WDSPC-ARIN",
+            "postalcode": "18901",
+            "++updated": [
+                "2024-02-08 00:00:00",
+                "2024-02-28 00:00:00"
+            ],
+            "++registered": "2024-02-08 00:00:00",
+            "updated": [
+                "2024-02-08",
+                "2024-02-28"
+            ],
+            "++registrant": "Wireless Data Service Provider Corporation",
+            "orgid": "WDSPC-Z",
+            "organization": "Wireless Data Service Provider Corporation (WDSPC-Z)",
+            "orgname": "Wireless Data Service Provider Corporation"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": [
+                "Macon",
+                "Doylestown"
+            ],
+            "region": [
+                "North Carolina",
+                "PA"
+            ],
+            "zip": "18901",
+            "asn": "AS6167",
+            "address": "PO Box 1381",
+            "org": [
+                "CELLCO-PART",
+                "Wireless Data Service Provider Corporation (WDSPC-Z)"
+            ],
+            "long": "-78.0839",
+            "lat": "36.4388"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "httpd",
+            "++code": "401",
+            "++status": "Unauthorized",
+            "++content-type": "text\/html",
+            "www-authenticate": "Basic realm=\"Advanced-Modem\"",
+            "date": "Fri, 06 Sep 2024 14:32:00 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.1\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/356fa75eef2751d9c6c882a3b5635ddc.jpeg"
+        },
+        "dns": {
+            "ptr": "211.sub-166-169-174.myvzw.com"
+        }
+    }
+}

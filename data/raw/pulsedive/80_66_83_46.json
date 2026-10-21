@@ -1,0 +1,104 @@
+{
+    "qid": null,
+    "iid": 20697003,
+    "indicator": "80.66.83.46",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-01-15 11:11:38",
+    "stamp_updated": "2024-11-08 09:03:31",
+    "stamp_seen": "2024-09-03 19:32:54",
+    "stamp_probed": "2024-09-03 19:32:53",
+    "stamp_retired": "2021-04-15 22:53:38",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-01-15 13:20:12"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-01-15 11:11:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "city": "New Delhi",
+            "zip": "110030",
+            "region": "National Capital Territory of Delhi",
+            "lat": "28.652",
+            "org": "Xhost Internet Solutions Lp",
+            "isp": "Xhost Internet Solutions Lp",
+            "asn": "AS209559",
+            "long": "77.1663"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "4833",
+            "++code": "200",
+            "++status": "OK",
+            "last-modified": "Fri, 16 May 2014 15:12:48 GMT",
+            "etag": "\"53762af0-12e1\"",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.20.1",
+            "date": "Tue, 03 Sep 2024 17:25:12 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "p14.solitudelabs.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/33fab4d0325fca71ac3e2d1a31395902.jpeg"
+        }
+    }
+}

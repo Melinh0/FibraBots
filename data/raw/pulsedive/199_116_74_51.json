@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 65448039,
+    "indicator": "199.116.74.51",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 10:01:01",
+    "stamp_updated": "2024-12-13 11:24:39",
+    "stamp_seen": "2024-11-29 10:01:22",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65448121,
+                "indicator": "https:\/\/199.116.74.51\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 10:01:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "core-js",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgtechname": "Network Operations Center",
+            "stateprov": "CA",
+            "orgabusename": "Abuse Department",
+            "city": "San Francisco",
+            "parent": "NET199 (NET-199-0-0-0-0)",
+            "++abuse": "abuse@monkeybrains.net",
+            "++email": "noc@monkeybrains.net",
+            "++phone": "+1-415-974-1313",
+            "orgabuseemail": "abuse@monkeybrains.net",
+            "orgabusehandle": "ABUSE1245-ARIN",
+            "orgabusephone": "+1-415-974-1313",
+            "orgtechemail": "noc@monkeybrains.net",
+            "orgtechhandle": "NOC304-ARIN",
+            "orgtechphone": "+1-415-974-1313",
+            "originas": "AS32329",
+            "postalcode": "94110",
+            "regdate": [
+                "2012-03-06",
+                "2019-04-03"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC304-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE1245-ARIN",
+            "++registered": "2019-04-03 00:00:00",
+            "++registrant": "Another Corporate ISP, LLC",
+            "organization": "Another Corporate ISP, LLC (ACIL-22)",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/ACIL-22",
+                "https:\/\/rdap.arin.net\/registry\/ip\/199.116.72.0"
+            ],
+            "orgname": "Another Corporate ISP, LLC",
+            "orgid": "ACIL-22",
+            "netrange": "199.116.72.0 - 199.116.75.255",
+            "netname": "NET-MONKEYBRAINS-6",
+            "nethandle": "NET-199-116-72-0-1",
+            "cidr": "199.116.72.0\/22",
+            "updated": [
+                "2021-07-26",
+                "2024-11-25"
+            ],
+            "address": "933 Treat Ave",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "California",
+                "CA"
+            ],
+            "city": "San Francisco",
+            "zip": "94110",
+            "asn": "AS32329",
+            "lat": "37.7642",
+            "long": "-122.3993",
+            "org": [
+                "MONKEYBRAINS",
+                "Another Corporate ISP, LLC (ACIL-22)"
+            ],
+            "address": "933 Treat Ave"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "lighttpd",
+            "content-length": "688",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"-1452547637\"",
+            "++redirect": "https:\/\/199.116.74.51\/",
+            "++target": "http:\/\/199.116.74.51\/"
+        },
+        "ssl": {
+            "issuer": "\/CN=192.168.1.2",
+            "subject": "\/CN=192.168.1.2",
+            "version": "v3",
+            "org": "192.168.1.2",
+            "valid": "1970-01-01 00:00:58",
+            "expires": "1971-01-01 00:00:58",
+            "fingerprint": "3097eaf7d82320e3bb3d78ca73df53af0e51150426c9bf0ad3ca6f224e39647a"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "Log in \ufffd Ubiquiti EdgeSwitch"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.5\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cac78f3196c3e6a9585e46a9fb50918a.jpeg"
+        }
+    }
+}

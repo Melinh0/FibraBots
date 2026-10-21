@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 62359885,
+    "indicator": "42.200.229.102",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-13 20:55:27",
+    "stamp_updated": "2024-12-10 10:40:45",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-29 22:45:58",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62360686,
+                "indicator": "http:\/\/42.200.229.102\/"
+            },
+            {
+                "iid": 64127162,
+                "indicator": "http:\/\/42.200.229.102\/user\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-13 20:55:27"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-29 15:48:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "admin-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "origin": [
+                "AS4760",
+                "AS4515"
+            ],
+            "tech-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "descr": [
+                "PCCW IMSBiz route object",
+                "Hong Kong Telecommunications (HKT) Limited Business Internet",
+                "PCCW IMS Ltd (PCCW Business Internet Access)"
+            ],
+            "e-mail": "noc@imsbiz.com",
+            "irt": "IRT-PCCW-BIA-HK",
+            "mnt-by": [
+                "MAINT-HK-PCCW-BIA",
+                "MAINT-HK-PCCW-BIA-CS",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-PCCW-BIA-HK",
+            "mnt-routes": "MAINT-HK-PCCW-BIA",
+            "nic-hdl": [
+                "TA66-AP",
+                "AP706-AP"
+            ],
+            "notify": "noc@imsbiz.com",
+            "phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "role": [
+                "TECHNICAL ADMINISTRATORS",
+                "ABUSE PCCWBIAHK"
+            ],
+            "inetnum": "42.200.128.0 - 42.200.255.255",
+            "netname": "HKT-BIA",
+            "last-modified": [
+                "2011-03-22T05:30:03Z",
+                "2016-07-15T04:03:30Z",
+                "2020-06-12T06:22:25Z",
+                "2021-01-27T13:23:08Z",
+                "2024-08-22T03:30:23Z",
+                "2024-08-22T03:30:27Z"
+            ],
+            "route": "42.200.224.0\/19",
+            "++registrant": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++email": "noc@imsbiz.com",
+            "abuse-c": "AP706-AP",
+            "abuse-mailbox": "noc@imsbiz.com",
+            "++abuse": "noc@imsbiz.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-22 03:30:23",
+                "2024-08-22 03:30:27",
+                "2016-07-15 04:03:30",
+                "2011-03-22 05:30:03",
+                "2020-06-12 06:22:25"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS4760",
+            "city": "Kowloon City",
+            "region": "Kowloon City",
+            "org": "HKT Limited",
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "lat": "22.3361",
+            "long": "114.1999"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "CramSchool"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "J\u0000\u0000\u0000\n5.7.27\u0000'\u000f\u0000\u0000ILZp\u001e2;t\u0000\ufffd\ufffd!\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Fs1z}[,V\u001aCAN\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a57997773479cb15b9d5517a7432ea23.jpeg"
+        },
+        "dns": {
+            "ptr": "42-200-229-102.static.imsbiz.com"
+        },
+        "http": {
+            "++redirect": "http:\/\/42.200.229.102\/user\/login",
+            "++target": "http:\/\/42.200.229.102\/",
+            "++base": "http:\/\/42.200.229.102\/"
+        }
+    }
+}

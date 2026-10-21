@@ -1,0 +1,215 @@
+{
+    "qid": null,
+    "iid": 52915519,
+    "indicator": "142.93.13.232",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-10 19:54:25",
+    "stamp_updated": "2024-12-16 17:19:50",
+    "stamp_seen": "2024-12-16 17:19:50",
+    "stamp_probed": "2024-09-30 02:12:41",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 52915537,
+                "indicator": "http:\/\/142.93.13.232\/"
+            },
+            {
+                "iid": 64119010,
+                "indicator": "https:\/\/142.93.13.232\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-10 19:54:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-12 08:22:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Babel",
+            "core-js",
+            "Element UI",
+            "Let's Encrypt",
+            "Nginx",
+            "Nuxt.js",
+            "Open Graph",
+            "PWA",
+            "Vue.js",
+            "webpack"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-07-12"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2018-07-12 00:00:00"
+            ],
+            "parent": "NET142 (NET-142-0-0-0-0)",
+            "originas": "AS14061",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/142.93.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "nethandle": "NET-142-93-0-0-1",
+            "cidr": "142.93.0.0\/16",
+            "netrange": "142.93.0.0 - 142.93.255.255",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-142-93-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "North Bergen"
+            ],
+            "asn": "AS14061",
+            "zip": "10013",
+            "lat": "40.7924",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "-74.0096"
+        },
+        "http": {
+            "accept-ranges": "none",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "server": "nginx\/1.14.0",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/142.93.13.232\/",
+            "++target": "http:\/\/142.93.13.232\/",
+            "date": "Mon, 18 Nov 2024 18:10:59 GMT",
+            "etag": "\"df34-OFAhTVWSB\/zQIZ7b256SPilFnjw\""
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "description": "Medical Channel (www.medach.pro) \u2013 \u044d\u0442\u043e \u043f\u043e\u0440\u0442\u0430\u043b \u0434\u043b\u044f \u043c\u043e\u043b\u043e\u0434\u044b\u0445 \u0432\u0440\u0430\u0447\u0435\u0439 \u0438 \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0445 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u043e\u0432, \u0437\u0430\u0434\u0430\u0447\u0435\u0439 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0437\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u043b\u044e\u0434\u0435\u0439 \u0441 \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f\u043c\u0438 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u044b, \u043e\u0431\u043c\u0435\u043d\u043e\u043c \u0437\u043d\u0430\u043d\u0438\u044f\u043c\u0438 \u043c\u0435\u0436\u0434\u0443 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u043c\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0432\u044b\u043f\u0443\u0441\u043a \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432, \u043e\u0431\u043b\u0435\u0433\u0447\u0430\u044e\u0449\u0438\u0445 \u0443\u0447\u0435\u0431\u043d\u0443\u044e \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c.",
+            "og:image": "https:\/\/medach.pro\/android-chrome-512x512.png",
+            "++title": "\u041c\u0435\u0434\u0430\u0447 | \u0413\u043b\u0430\u0432\u043d\u0430\u044f",
+            "tg:site_verification": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=medach.pro",
+            "domain": "medach.pro",
+            "expires": "2025-01-07 18:04:38",
+            "fingerprint": "3cdd457ee2d50077c685e9decf56d5fee2198714061b509bb8af4cfe57faa502",
+            "valid": "2024-10-09 18:04:39"
+        },
+        "cookies": {
+            "_ym_isad": "2",
+            "_ym_d": "1731953461",
+            "_ym_uid": "1731953461236802293"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b1830ca6e35c2248cc20c41e9d8c796e.jpeg"
+        }
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 65640112,
+    "indicator": "206.189.151.50",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-06 10:23:29",
+    "stamp_updated": "2024-12-16 03:21:28",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65640533,
+                "indicator": "https:\/\/206.189.151.50\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 10:23:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-08 22:41:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "143",
+            "22",
+            "389",
+            "443",
+            "465",
+            "554",
+            "636",
+            "80",
+            "8080",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "LDAP",
+            "LDAPS",
+            "OpenVPN",
+            "RTSP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "1995-11-15"
+            ],
+            "stateprov": "NY",
+            "parent": "NET206 (NET-206-0-0-0-0)",
+            "++registered": "2012-05-14 00:00:00",
+            "originas": "AS14061",
+            "nethandle": "NET-206-189-0-0-1",
+            "cidr": "206.189.0.0\/16",
+            "netrange": "206.189.0.0 - 206.189.255.255",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/206.189.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-206-189-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore"
+            ],
+            "countrycode": [
+                "US",
+                "SG"
+            ],
+            "city": [
+                "New York",
+                "Singapore"
+            ],
+            "asn": "AS14061",
+            "region": "NY",
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "612",
+            "++code": "200",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "last-modified": "Tue, 21 Apr 2020 14:09:01 GMT",
+            "etag": "\"5e9efe7d-264\"",
+            "++content-type": "text\/html",
+            "date": "Fri, 06 Dec 2024 10:24:02 GMT",
+            "++redirect": "https:\/\/206.189.151.50\/",
+            "++target": "http:\/\/206.189.151.50\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "fingerprint": "70e3e17b5fa89378adc0d65865445e52f96580c026e8b8f627c4a9001190c442",
+            "valid": "2024-12-01 09:59:00",
+            "subject": "\/CN=sg-do.jabar.store",
+            "domain": "sg-do.jabar.store",
+            "expires": "2025-03-01 09:58:59"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "1194": "\u0005\u0004\u0000\u0000",
+            "554": "\u0005\u0004\u0000\u0000",
+            "636": "\u0005\u0004\u0000\u0000",
+            "389": "\u0005\u0004\u0000\u0000",
+            "143": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0002\u0014\u000b\u0014\ufffd\ufffdj%<pB\ufffdXR\ufffd$A\u0007\ufffdR\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd;w\ufffdXY\ufffd\ufffd\ufffd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

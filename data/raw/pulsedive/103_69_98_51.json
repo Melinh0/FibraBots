@@ -1,0 +1,181 @@
+{
+    "qid": null,
+    "iid": 62777421,
+    "indicator": "103.69.98.51",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-27 21:58:18",
+    "stamp_updated": "2024-12-12 11:16:35",
+    "stamp_seen": "2024-10-07 18:06:22",
+    "stamp_probed": "2024-08-27 21:58:21",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62777432,
+                "indicator": "https:\/\/103.69.98.51\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-27 21:58:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "NGOCHACLOUD-VN"
+            ],
+            "org": "NGOC HA TECHNOLOGY SERVICES CO., LTD",
+            "asn": "AS150887"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "LNAK1-AP"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-939456447",
+                "+84-932819919"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "LNB4-AP"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "kythuat@ngochacloud.com",
+                "bao.ln@ngochacloud.com"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2023-09-06T09:29:26Z",
+                "2023-09-06T09:25:56Z",
+                "2023-09-06T09:25:21Z"
+            ],
+            "address": [
+                "Ha Noi, VietNam",
+                "NGOCHACLOUD-VN"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-939456447",
+                "+84-932819919"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "LNB4-AP",
+                "Le Ngoc Anh Khoa",
+                "Le Ngoc Bao"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "kythuat@ngochacloud.com",
+                "bao.ln@ngochacloud.com"
+            ],
+            "netname": "NGOCHACLOUD-VN",
+            "nic-hdl": [
+                "LNAK1-AP",
+                "LNB4-AP"
+            ],
+            "inetnum": "103.69.98.0 - 103.69.99.255",
+            "person": [
+                "Le Ngoc Anh Khoa",
+                "Le Ngoc Bao"
+            ],
+            "descr": [
+                "NGOC HA TECHNOLOGY SERVICES CO., LTD",
+                "Villa 1163C, Thao Dien Villas, 11\/2 Street 57, Thao Dien Ward, Thu Duc City, Ho Chi Minh City, Vietnam"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2023-09-06 09:29:26",
+                "2023-09-06 09:25:56",
+                "2023-09-06 09:25:21"
+            ]
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "content-length": "19",
+            "++code": "404",
+            "++content-type": "text\/plain",
+            "date": "Thu, 19 Sep 2024 20:55:18 GMT",
+            "++target": "http:\/\/103.69.98.51\/",
+            "++redirect": "https:\/\/103.69.98.51\/"
+        },
+        "ssl": {
+            "issuer": "\/CN=TRAEFIK DEFAULT CERT",
+            "subject": "\/CN=TRAEFIK DEFAULT CERT",
+            "version": "v3",
+            "org": "TRAEFIK DEFAULT CERT",
+            "domain": "0e388d9fd59df54804a8c35854b19d4c.4582f13a564fc1fa06cb29da12633cc3.traefik.default",
+            "fingerprint": "56cf8926a16f18fd94bb48c22b3acf6b495e40addd7731ea02b03bd4a854a422",
+            "valid": "2024-09-19 20:55:12",
+            "expires": "2025-09-19 20:55:12"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        }
+    }
+}

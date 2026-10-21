@@ -1,0 +1,160 @@
+{
+    "qid": null,
+    "iid": 64767044,
+    "indicator": "5.180.184.62",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-06 08:59:03",
+    "stamp_updated": "2024-12-10 10:41:31",
+    "stamp_seen": "2024-11-30 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64767204,
+                "indicator": "https:\/\/5.180.184.62\/login_up.php"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-06 08:59:03"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-23 21:48:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Sign-in",
+            "Let's Encrypt",
+            "Nginx",
+            "PHP",
+            "Plesk",
+            "Prototype",
+            "PWA",
+            "RequireJS",
+            "Sentry"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "TR",
+            "lat": "41.0214",
+            "long": "28.9948",
+            "org": "Onur Ekren",
+            "asn": "AS203576",
+            "country": "T\ufffdrkiye"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "p3p": "CP=\"NON COR CURa ADMa OUR NOR UNI COM NAV STA\"",
+            "expires": "Fri, 28 May 1999 00:00:00 GMT",
+            "++code": "200",
+            "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+            "content-encoding": "br",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "date": "Wed, 06 Nov 2024 08:59:53 GMT",
+            "set-cookie": "plesk-ext-social-login-jwt-session=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwbGVzayIsImlhdCI6MTczMDg4MzU5MywiZGF0YSI6eyJzdGF0ZS1nb29nbGUiOiJRNFFyOUswelNuWUZsRDE4S0orV1NyOUxxRFlMSm5wOFNpOGNDd3ZVfHJlZGlyZWN0LXBsZXNrPWh0dHBzJTNBJTJGJTJGNS4xODAuMTg0LjYyJTJGbW9kdWxlcyUyRnNvY2lhbC1sb2dpbiUyRnB1YmxpYyUyRmxvZ2luLnBocCUzRnByb3ZpZGVyJTNEZ29vZ2xlIiwic3RhdGUtZ2l0aHViIjoiS1RVaFVmakhrTHRIcWFSTE0xSTJLclBtZ1draGpRSVJRcDBxb00xa3xyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjUuMTgwLjE4NC42MiUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGdpdGh1YiIsInN0YXRlLWZhY2Vib29rIjoiUmtONlFUS0tSeGgzMitKaUZUZFgwRm81REdmUm1MVk9lWlpwN0lLdnxyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjUuMTgwLjE4NC42MiUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGZhY2Vib29rIn19.S6M4sAGvx6G54k4DSKDKiEZ558xx9DlVT0kL6aylPGw; path=\/; secure; HttpOnly",
+            "last-modified": "Wed, 06 Nov 2024 08:59:52 GMT",
+            "++target": "http:\/\/5.180.184.62\/",
+            "++redirect": "https:\/\/5.180.184.62\/login_up.php"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "format-detection": "telephone=no",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "skype_toolbar": "SKYPE_TOOLBAR_PARSER_COMPATIBLE",
+            "charset": "utf-8",
+            "++title": "Plesk Obsidian 18.0.64",
+            "plesk-revision": "cfc99411a2dc98c5f5ae86fd27a531adc72f6f77",
+            "plesk-build": "1800241008.13",
+            "forgery_protection_token": "d9d5b8153ce530f4601e11e873aeabb3"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": "server.alpertungaakkus.com.tr",
+            "valid": "2024-10-17 11:50:45",
+            "fingerprint": "8f151ae3ab5dea477374466223b0da8dfe151562fe15237fa6b98fc521469483",
+            "subject": "\/CN=server.alpertungaakkus.com.tr",
+            "expires": "2025-01-15 11:50:44"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 server.alpertungaakkus.com.tr ESMTP Postfix\n",
+            "3306": "Y\u0000\u0000\u0000\n5.5.5-10.3.39-MariaDB\u0000x\u0003\f\u0000X\\C{aT_c\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000RR%`4$SYE,Kt\u0000mysql_native_password\u0000",
+            "21": "220 ProFTPD Server (ProFTPD) [5.180.184.62]\n"
+        },
+        "cookies": {
+            "plesk-ext-social-login-jwt-session": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwbGVzayIsImlhdCI6MTczMDg4MzU5MywiZGF0YSI6eyJzdGF0ZS1nb29nbGUiOiJRNFFyOUswelNuWUZsRDE4S0orV1NyOUxxRFlMSm5wOFNpOGNDd3ZVfHJlZGlyZWN0LXBsZXNrPWh0dHBzJTNBJTJGJTJGNS4xODAuMTg0LjYyJTJGbW9kdWxlcyUyRnNvY2lhbC1sb2dpbiUyRnB1YmxpYyUyRmxvZ2luLnBocCUzRnByb3ZpZGVyJTNEZ29vZ2xlIiwic3RhdGUtZ2l0aHViIjoiS1RVaFVmakhrTHRIcWFSTE0xSTJLclBtZ1draGpRSVJRcDBxb00xa3xyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjUuMTgwLjE4NC42MiUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGdpdGh1YiIsInN0YXRlLWZhY2Vib29rIjoiUmtONlFUS0tSeGgzMitKaUZUZFgwRm81REdmUm1MVk9lWlpwN0lLdnxyZWRpcmVjdC1wbGVzaz1odHRwcyUzQSUyRiUyRjUuMTgwLjE4NC42MiUyRm1vZHVsZXMlMkZzb2NpYWwtbG9naW4lMkZwdWJsaWMlMkZsb2dpbi5waHAlM0Zwcm92aWRlciUzRGZhY2Vib29rIn19.S6M4sAGvx6G54k4DSKDKiEZ558xx9DlVT0kL6aylPGw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/39af6a60685ad1c854e1a4d84f25b50b.jpeg"
+        }
+    }
+}

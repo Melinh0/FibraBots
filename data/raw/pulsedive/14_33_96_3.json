@@ -1,0 +1,172 @@
+{
+    "qid": null,
+    "iid": 41288500,
+    "indicator": "14.33.96.3",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-16 12:13:34",
+    "stamp_updated": "2024-12-10 10:35:27",
+    "stamp_seen": "2024-11-20 02:04:49",
+    "stamp_probed": "2024-09-07 07:48:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-07 07:33:35"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-16 12:13:35"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-07 07:33:35"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-15 00:18:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "FTP",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "14.32.0.0 - 14.95.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-03-30T06:39:01Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Hwaseong-si",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "region": "Gyeonggi-do",
+            "lat": "37.2196",
+            "long": "127.0442",
+            "country": "South Korea"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "21": "220 Operation successful\n",
+            "22": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0002\u0014\u000b\u0014(\\U\ufffd\ufffd\u0015\ufffd\ufffd-\ufffdP\ufffd^f#\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000U\ufffd\ufffd\ufffd\ufffd\ufffdp\ufffd\ufffd"
+        }
+    }
+}

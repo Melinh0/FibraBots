@@ -1,0 +1,242 @@
+{
+    "qid": null,
+    "iid": 65523816,
+    "indicator": "164.90.166.174",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-02 10:09:24",
+    "stamp_updated": "2024-12-16 16:39:39",
+    "stamp_seen": "2024-12-11 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65523838,
+                "indicator": "https:\/\/164.90.166.174\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-02 15:59:00"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-02 10:09:24"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-02 15:59:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-05 22:08:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Emotion",
+            "Let's Encrypt",
+            "LottieFiles",
+            "MUI",
+            "Nginx",
+            "Open Graph",
+            "PWA",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Germany",
+                "United States"
+            ],
+            "countrycode": [
+                "DE",
+                "US"
+            ],
+            "city": [
+                "New York",
+                "Frankfurt am Main"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "NY",
+                "Hesse"
+            ],
+            "zip": "10013",
+            "long": "8.6842",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "50.1187"
+        },
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2019-08-19"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2019-08-19 00:00:00"
+            ],
+            "originas": "AS14061",
+            "parent": "NET164 (NET-164-0-0-0-0)",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/164.90.128.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "netrange": "164.90.128.0 - 164.90.255.255",
+            "nethandle": "NET-164-90-128-0-1",
+            "cidr": "164.90.128.0\/17",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-164-90-128-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.26.0 (Ubuntu)",
+            "date": "Mon, 02 Dec 2024 10:09:31 GMT",
+            "etag": "W\/\"674b61f5-815\"",
+            "last-modified": "Sat, 30 Nov 2024 19:05:25 GMT",
+            "++target": "http:\/\/164.90.166.174\/",
+            "++redirect": "https:\/\/164.90.166.174\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "og:type": "website",
+            "robots": "index, follow",
+            "language": "English",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width,initial-scale=1",
+            "theme-color": "#000000",
+            "charset": "utf-8",
+            "++title": "Egyegybest - Stream Top Movies and Trending Series",
+            "twitter:description": "Explore the latest blockbusters and series. Free streaming with egyegybest.",
+            "twitter:image": "\/social-preview.png",
+            "description": "egyegybest is your ultimate destination to watch and stream top-rated movies, trending series, and the latest blockbusters. Enjoy free streaming of your favorite content.",
+            "og:title": "egyegybest - Watch Top Movies & TV Shows Online",
+            "author": "Oboualla",
+            "og:url": "https:\/\/egyegybest.net",
+            "og:image": "\/social-preview.png",
+            "og:description": "Stream trending movies and series for free. egyegybest offers a vast library of entertainment at your fingertips.",
+            "keywords": "movies, TV shows, streaming, watch online, trending movies, top movies, blockbusters, new releases, free streaming, HD movies, Bigflix, watch series, EgyBest",
+            "twitter:title": "egyegybest - Watch Top Movies & TV Shows Online",
+            "title": "egyegybest - Top Movies and TV Shows"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "domain": [
+                "raubashop.store",
+                "www.raubashop.store"
+            ],
+            "expires": "2025-02-28 15:33:24",
+            "fingerprint": "4ac1571cee0a013e1e08cc19de08c010dcdf700d45363e25ae2718f4e55571a8",
+            "valid": "2024-11-30 15:33:25",
+            "subject": "\/CN=raubashop.store"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.7p1 Ubuntu-7ubuntu4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dff3924f32a13548a77d37cd27c368b2.jpeg"
+        }
+    }
+}

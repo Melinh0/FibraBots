@@ -1,0 +1,235 @@
+{
+    "qid": null,
+    "iid": 65042661,
+    "indicator": "141.95.65.57",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-16 09:15:12",
+    "stamp_updated": "2024-12-07 19:33:19",
+    "stamp_seen": "2024-12-07 19:33:18",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65044751,
+                "indicator": "https:\/\/141.95.65.57\/login_up.php"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:31:08"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-16 09:15:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "PHP",
+            "Plesk",
+            "Prototype",
+            "PWA",
+            "RequireJS",
+            "Sentry"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "++abuse": "abuse@ovh.net",
+            "abuse-mailbox": "abuse@ovh.net",
+            "admin-c": [
+                "OK217-RIPE",
+                "OTC13-RIPE"
+            ],
+            "mnt-by": "OVH-MNT",
+            "origin": "AS16276",
+            "org-type": "OTHER",
+            "mnt-ref": "OVH-MNT",
+            "tech-c": [
+                "GM84-RIPE",
+                "OTC13-RIPE"
+            ],
+            "address": [
+                "Deutschland",
+                "OVH GmbH",
+                "St. Johanner Str. 41-43",
+                "66111 Saarbrucken"
+            ],
+            "nic-hdl": "OTC13-RIPE",
+            "org": "ORG-OG9-RIPE",
+            "org-name": "OVH GmbH",
+            "organisation": "ORG-OG9-RIPE",
+            "role": "OVH DE Technical Contact",
+            "geoloc": "50.388228 8.073916",
+            "++email": "abuse@ovh.net",
+            "created": [
+                "2009-09-16T16:09:57Z",
+                "2005-09-02T12:40:05Z",
+                "2021-08-23T12:04:27Z",
+                "2021-10-18T07:43:42Z"
+            ],
+            "++registrant": [
+                "OK217-RIPE",
+                "OTC13-RIPE"
+            ],
+            "last-modified": [
+                "2021-08-23T12:05:09Z",
+                "2021-02-26T13:10:09Z",
+                "2021-02-26T13:07:37Z",
+                "2021-10-18T07:43:42Z"
+            ],
+            "route": "141.95.0.0\/17",
+            "abuse-c": "ACRO39426-RIPE",
+            "++updated": [
+                "2021-02-26 13:10:09",
+                "2021-02-26 13:07:37",
+                "2021-08-23 12:05:09",
+                "2021-10-18 07:43:42"
+            ],
+            "++registered": [
+                "2005-09-02 12:40:05",
+                "2009-09-16 16:09:57",
+                "2021-08-23 12:04:27",
+                "2021-10-18 07:43:42"
+            ],
+            "netname": "SD-LIM-fra1-lim3-sdagg10a-b-n93-1-2",
+            "inetnum": "141.95.65.0 - 141.95.65.255"
+        },
+        "geo": {
+            "country": [
+                "Germany",
+                "France"
+            ],
+            "countrycode": [
+                "DE",
+                "FR"
+            ],
+            "org": [
+                "OVH SAS",
+                "ORG-OG9-RIPE"
+            ],
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387",
+            "address": [
+                "Deutschland",
+                "OVH GmbH",
+                "St. Johanner Str. 41-43",
+                "66111 Saarbrucken"
+            ]
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "p3p": "CP=\"NON COR CURa ADMa OUR NOR UNI COM NAV STA\"",
+            "expires": "Fri, 28 May 1999 00:00:00 GMT",
+            "++code": "200",
+            "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+            "content-encoding": "br",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/141.95.65.57\/login_up.php",
+            "++target": "http:\/\/141.95.65.57\/",
+            "date": "Sat, 07 Dec 2024 19:32:38 GMT",
+            "last-modified": "Sat, 07 Dec 2024 19:32:38 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "format-detection": "telephone=no",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "skype_toolbar": "SKYPE_TOOLBAR_PARSER_COMPATIBLE",
+            "charset": "utf-8",
+            "++title": "Plesk Obsidian 18.0.65",
+            "plesk-revision": "738ea4038904b53a068e522aa7c64390f4f29d5f",
+            "plesk-build": "1800241122.08",
+            "forgery_protection_token": "2bbe05b394b7d915987df8ca3772cefa"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=ns3205392.ip-141-95-65.eu",
+            "domain": "ns3205392.ip-141-95-65.eu",
+            "valid": "2024-10-29 20:05:04",
+            "fingerprint": "247915474e5dda3b64a75f72f31883e3c128a78f9c2ec6ac5bacd10b18ec0c64",
+            "expires": "2025-01-27 20:05:03"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 ProFTPD Server (ProFTPD) [141.95.65.57]\n",
+            "25": "220 ns3205392.ip-141-95-65.eu ESMTP Postfix\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a7dcbad5393fda3c9fedfb87ee82489d.jpeg"
+        }
+    }
+}

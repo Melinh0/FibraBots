@@ -1,0 +1,116 @@
+{
+    "qid": null,
+    "iid": 64337416,
+    "indicator": "85.130.200.51",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-15 06:23:51",
+    "stamp_updated": "2024-12-14 11:33:23",
+    "stamp_seen": "2024-10-17 22:38:06",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64361175,
+                "indicator": "https:\/\/85.130.200.51\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-15 06:23:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "DigiCert",
+            "IIS",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Israel",
+            "countrycode": "IL",
+            "city": "Tel Aviv",
+            "region": "Tel Aviv",
+            "asn": "AS6810",
+            "org": "Bezeq- THE ISRAEL TELECOMMUNICATION CORP. LTD.",
+            "lat": "32.0803",
+            "long": "34.7805"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "server": "Microsoft-IIS\/7.5",
+            "x-powered-by": "ASP.NET",
+            "content-encoding": "gzip",
+            "content-length": "587",
+            "etag": "\"3a24cbe86088cb1:0\"",
+            "last-modified": "Sat, 20 Nov 2010 03:13:31 GMT",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 17 Oct 2024 17:52:45 GMT",
+            "++target": "https:\/\/85.130.200.51\/"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/O=DigiCert Inc\/OU=www.digicert.com\/CN=RapidSSL TLS RSA CA G1",
+            "version": "v3",
+            "org": "RapidSSL TLS RSA CA G1",
+            "valid": "2024-03-01 00:00:00",
+            "expires": "2025-04-01 23:59:59",
+            "subject": "\/CN=*.infologic.co.il",
+            "fingerprint": "a6e1b79828474ceaa1324fc160f8c618f8a9c5a63532cb775e3a6e040fb97e84",
+            "domain": [
+                "*.infologic.co.il",
+                "infologic.co.il"
+            ]
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "IIS7"
+        },
+        "banners": {
+            "22": "SSH-2.0-sshd\n",
+            "25": "220 remote.infologic.co.il Microsoft ESMTP MAIL Service ready at Thu, 17 Oct 2024 20:52:41 +0300\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ec5370ead1e6dec3ec245abcaaa42d0f.jpeg"
+        }
+    }
+}

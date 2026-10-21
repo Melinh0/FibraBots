@@ -1,0 +1,181 @@
+{
+    "qid": null,
+    "iid": 65641375,
+    "indicator": "64.181.162.154",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-06 10:27:12",
+    "stamp_updated": "2024-12-15 11:36:41",
+    "stamp_seen": "2024-12-06 10:27:30",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65641399,
+                "indicator": "http:\/\/64.181.162.154\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 10:27:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Brazil",
+                "United States"
+            ],
+            "countrycode": [
+                "BR",
+                "US"
+            ],
+            "city": [
+                "Austin",
+                "S\ufffdo Paulo"
+            ],
+            "region": [
+                "TX",
+                "S\ufffdo Paulo"
+            ],
+            "asn": "AS31898",
+            "zip": "78741",
+            "org": [
+                "Oracle Corporation (ORACLE-4)",
+                "ORACLE-BMC-31898"
+            ],
+            "address": [
+                "Attn: Domain Administrator",
+                "2300 Oracle Way"
+            ],
+            "lat": "-23.5335",
+            "long": "-46.6359"
+        },
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "parent": "NET64 (NET-64-0-0-0-0)",
+            "stateprov": "TX",
+            "city": "Austin",
+            "++email": "domain-contact_ww_grp@oracle.com",
+            "++registrant": "Oracle Corporation",
+            "address": [
+                "Attn: Domain Administrator",
+                "2300 Oracle Way"
+            ],
+            "orgabusehandle": "NISAM-ARIN",
+            "orgabusename": "Network Information Systems Abuse Management",
+            "organization": "Oracle Corporation (ORACLE-4)",
+            "orgid": "ORACLE-4",
+            "orgname": "Oracle Corporation",
+            "orgtechemail": "domain-contact_ww_grp@oracle.com",
+            "orgtechhandle": "ORACL1-ARIN",
+            "orgtechname": "ORACLE NIS",
+            "++registered": [
+                "2004-07-21 00:00:00",
+                "1988-04-29 00:00:00"
+            ],
+            "postalcode": "78741",
+            "regdate": [
+                "2004-07-21",
+                "1988-04-29"
+            ],
+            "updated": [
+                "2016-11-03",
+                "2024-11-07"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ORACL1-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/ORACLE-4",
+                "https:\/\/rdap.arin.net\/registry\/ip\/64.181.128.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NISAM-ARIN",
+            "orgroutingemail": "network-contact_ww@oracle.com",
+            "++phone": [
+                "+1-800-392-2999",
+                "+1-800-633-0738"
+            ],
+            "orgroutingname": "ORACLEROUTING",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ORACL2-ARIN",
+            "orgroutingphone": "+1-800-392-2999",
+            "orgroutinghandle": "ORACL2-ARIN",
+            "orgabuseemail": "abuse@oracleemaildelivery.com",
+            "++abuse": "abuse@oracleemaildelivery.com",
+            "cidr": "64.181.128.0\/17",
+            "netrange": "64.181.128.0 - 64.181.255.255",
+            "netname": "ORCL-SLDC-1",
+            "nethandle": "NET-64-181-128-0-1",
+            "orgabusephone": "+1-800-633-0738",
+            "orgtechphone": "+1-800-633-0738",
+            "++updated": "2024-11-07 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "connection": "Upgrade, close",
+            "upgrade": "h2",
+            "content-length": "394",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"267-6287a5ff79c1a-gzip\"",
+            "date": "Fri, 06 Dec 2024 10:27:18 GMT",
+            "++target": "http:\/\/64.181.162.154\/",
+            "last-modified": "Wed, 04 Dec 2024 23:45:21 GMT"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

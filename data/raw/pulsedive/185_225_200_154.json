@@ -1,0 +1,83 @@
+{
+    "qid": null,
+    "iid": 55832044,
+    "indicator": "185.225.200.154",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-02-05 10:10:29",
+    "stamp_updated": "2024-12-13 11:23:47",
+    "stamp_seen": "2024-03-10 20:13:09",
+    "stamp_probed": "2024-03-10 20:13:09",
+    "stamp_retired": "2024-06-11 01:52:51",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-05 10:10:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-07 07:08:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "zip": "60313",
+            "region": "Hesse",
+            "lat": "50.1188",
+            "long": "8.6843",
+            "city": "Frankfurt am Main",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd",
+            "isp": "Aeza International Ltd"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "aromatic-plane.aeza.network"
+        }
+    }
+}

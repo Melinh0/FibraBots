@@ -1,0 +1,203 @@
+{
+    "qid": null,
+    "iid": 65336088,
+    "indicator": "95.66.153.194",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-27 10:03:28",
+    "stamp_updated": "2024-12-16 11:38:09",
+    "stamp_seen": "2024-11-28 08:01:58",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65382984,
+                "indicator": "https:\/\/95.66.153.194\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-27 10:03:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "last-modified": [
+                "2011-10-28T07:38:00Z",
+                "2016-08-16T14:00:14Z",
+                "2009-12-03T10:49:32Z",
+                "2010-06-03T07:42:38Z"
+            ],
+            "mnt-by": [
+                "INFOCENTRE-MNT",
+                "alexeydem-mnt",
+                "maximkhat-mnt"
+            ],
+            "route": "95.66.128.0\/19",
+            "admin-c": "DA3080-RIPE",
+            "inetnum": "95.66.128.0 - 95.66.187.255",
+            "tech-c": "KM1486-RIPE",
+            "address": [
+                "Limited Liability Company \"Infocentre\"",
+                "Limited Liability Company"
+            ],
+            "mnt-domains": "INFOCENTRE-MNT",
+            "netname": "INFOCENTRE-NET",
+            "++phone": [
+                "+74922470444",
+                "+74922410444"
+            ],
+            "origin": "AS35645",
+            "descr": [
+                "Limited Liability Company \"Infocentre\"",
+                "Limited Liability Company \"Vladinfo\""
+            ],
+            "nic-hdl": [
+                "KM1486-RIPE",
+                "DA3080-RIPE"
+            ],
+            "person": [
+                "Khatuntsev  Maxim",
+                "Dementyev Alexey"
+            ],
+            "phone": [
+                "+74922410444",
+                "+74922470444"
+            ],
+            "created": [
+                "2011-10-28T07:38:00Z",
+                "2008-11-05T07:45:27Z",
+                "2008-09-16T06:49:52Z",
+                "2008-09-16T07:06:30Z"
+            ],
+            "fax-no": [
+                "+74922410444",
+                "+74922470444"
+            ],
+            "++registrant": [
+                "DA3080-RIPE",
+                "Dementyev Alexey",
+                "Khatuntsev  Maxim"
+            ],
+            "++registered": [
+                "2008-11-05 07:45:27",
+                "2008-09-16 06:49:52",
+                "2008-09-16 07:06:30",
+                "2011-10-28 07:38:00"
+            ],
+            "++updated": [
+                "2016-08-16 14:00:14",
+                "2009-12-03 10:49:32",
+                "2010-06-03 07:42:38",
+                "2011-10-28 07:38:00"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "city": "Vladimir",
+            "asn": "AS35645",
+            "org": "Limited Liability Company VLADINFO",
+            "lat": "56.1342",
+            "long": "40.3888",
+            "address": [
+                "Limited Liability Company",
+                "Limited Liability Company \"Infocentre\""
+            ],
+            "region": "Vladimir Oblast",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 28 Nov 2024 01:02:55 GMT",
+            "++redirect": "https:\/\/95.66.153.194\/",
+            "++target": "http:\/\/95.66.153.194\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "fingerprint": "212448eeee647d90d9f907b62d8385397f2574771901c63c1d958c3ebffddefa",
+            "org": "usg20w-vpn_E4186BFBB5BC",
+            "email": "usg20w-vpn_E4186BFBB5BC",
+            "valid": "2016-10-26 10:39:08",
+            "subject": "\/CN=usg20w-vpn_E4186BFBB5BC",
+            "expires": "2026-10-24 10:39:08",
+            "issuer": "\/CN=usg20w-vpn_E4186BFBB5BC"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "USG20W-VPN"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG20W-VPN) [::ffff:95.66.153.194]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e07d77e8c32dd6ef8d5cddf991082fb3.jpeg"
+        }
+    }
+}

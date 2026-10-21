@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 59384758,
+    "indicator": "81.241.81.54",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-17 02:55:59",
+    "stamp_updated": "2024-12-15 11:37:18",
+    "stamp_seen": "2024-12-14 20:48:43",
+    "stamp_probed": "2024-09-30 20:09:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64131444,
+                "indicator": "https:\/\/81.241.81.54\/7.5.7.1\/gui\/tpl\/src\/home\/login.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-17 02:55:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2005-03-21T10:45:14Z",
+                "2022-09-28T11:40:45Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2005-03-21 10:45:14",
+                "2022-09-28 11:40:45"
+            ],
+            "country": "BE",
+            "address": [
+                "Belgium",
+                "Boulevard du Roi Albert II, 27",
+                "B-1030 Bruxelles",
+                "Proximus SA de droit public",
+                "TEC\/NEO\/IPR\/TDN\/DTO\/DSL Internet Networks"
+            ],
+            "mnt-by": [
+                "SKYNETBE-MNT",
+                "SKYNETBE-ROBOT-MNT"
+            ],
+            "origin": "AS5432",
+            "admin-c": [
+                "BIEC1-RIPE",
+                "SN2068-RIPE"
+            ],
+            "fax-no": "+32 2 203-6593",
+            "netname": "BE-BELGACOM-ADSL1",
+            "nic-hdl": "SN2068-RIPE",
+            "phone": "+32 2 202-4111",
+            "tech-c": [
+                "BIEC1-RIPE",
+                "SN2068-RIPE"
+            ],
+            "descr": [
+                "ADSL-GO-PLUS",
+                "Belgacom ISP SA\/NV",
+                "FIA-005"
+            ],
+            "++registrant": [
+                "SN2068-RIPE",
+                "BIEC1-RIPE"
+            ],
+            "inetnum": "81.241.80.0 - 81.241.95.255",
+            "++abuse": "abuse@proximus.com",
+            "abuse-mailbox": "abuse@proximus.com",
+            "++email": "abuse@proximus.com",
+            "last-modified": [
+                "2020-03-04T06:19:15Z",
+                "2023-07-27T09:45:16Z",
+                "2022-09-28T11:40:45Z"
+            ],
+            "role": "Proximus NOC administrators",
+            "++updated": [
+                "2020-03-04 06:19:15",
+                "2023-07-27 09:45:16",
+                "2022-09-28 11:40:45"
+            ],
+            "route": "81.241.0.0\/16"
+        },
+        "geo": {
+            "country": "Belgium",
+            "countrycode": "BE",
+            "asn": "AS5432",
+            "org": "Proximus NV",
+            "long": "5.5736",
+            "lat": "50.6336",
+            "region": [
+                "Wallonia",
+                "Li\ufffdge Province"
+            ],
+            "city": "Li\ufffdge"
+        },
+        "http": {
+            "server": "HTTP Server",
+            "++code": "307",
+            "++status": "Temporary Redirect",
+            "content-length": "0",
+            "++base": "https:\/\/81.241.81.54\/7.5.7.1\/gui\/tpl\/src\/home\/login.html",
+            "location": "\/7..1.\/gui\/tpl\/src\/home\/login.html",
+            "++target": "https:\/\/81.241.81.54\/",
+            "++redirect": "https:\/\/81.241.81.54\/7.5.7.1\/gui\/tpl\/src\/home\/login.html",
+            "date": "Tue, 22 Oct 2024 19:20:14 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=FR\/O=Sagemcom Ca\/CN=self-signedKey",
+            "subject": "\/C=FR\/O=Sagemcom Ca\/CN=self-signedKey",
+            "version": "v3",
+            "org": "self-signedKey",
+            "expires": "2111-09-20 12:32:29",
+            "valid": "2011-10-14 12:32:29",
+            "++subject": "Sagemcom Ca",
+            "fingerprint": "aeb7066e3d07a64eaa3327bdfc01ce1591c9ff54c98db146258cc97ec87d0ee9"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "charset": "utf-8",
+            "++title": "Welcome Page"
+        },
+        "cookies": {
+            "lang": "en",
+            "bbox3_session": "%7B%22req_id%22%3A3%2C%22sess_id%22%3A%220%22%2C%22basic%22%3Afalse%2C%22user%22%3A%22%22%2C%22dataModel%22%3A%7B%22name%22%3A%22Internal%22%2C%22nss%22%3A%5B%7B%22name%22%3A%22gtw%22%2C%22uri%22%3A%22http%3A%2F%2Fsagemcom.com%2Fgateway-data%22%7D%5D%7D%2C%22ha1%22%3A%22dfccada784undefineda9d85f722ec74dbe0e5792%22%7D"
+        },
+        "dns": {
+            "ptr": "54.81-241-81.adsl-dyn.isp.belgacom.be"
+        }
+    }
+}

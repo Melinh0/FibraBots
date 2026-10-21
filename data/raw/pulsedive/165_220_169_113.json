@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 62340680,
+    "indicator": "165.220.169.113",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 20:40:41",
+    "stamp_updated": "2024-12-15 11:30:47",
+    "stamp_seen": "2024-12-15 07:31:31",
+    "stamp_probed": "2024-08-28 22:48:29",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62341737,
+                "indicator": "https:\/\/165.220.169.113\/redirect.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-12 20:40:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "LEGACY",
+            "country": "GB",
+            "address": [
+                "1015",
+                "Lausanne",
+                "SWITZERLAND",
+                "c\/o Viasat Antenna Systems SA, Bat J EPFL Innovation Park"
+            ],
+            "mnt-by": [
+                "mnt-ch-viasat-1",
+                "infra-api-mnt",
+                "us-viasat-1-mnt",
+                "VIASAT-INFRA-MNT"
+            ],
+            "role": "Alessandro Pelosi",
+            "descr": "Viasat EMEA",
+            "last-modified": [
+                "2020-03-05T10:08:06Z",
+                "2023-01-20T22:42:49Z",
+                "2023-03-30T15:55:28Z"
+            ],
+            "++phone": "+41782304404",
+            "++registrant": "AP30753-RIPE",
+            "origin": "AS7155",
+            "phone": "+41782304404",
+            "admin-c": "AP30753-RIPE",
+            "tech-c": "AP30753-RIPE",
+            "nic-hdl": "AP30753-RIPE",
+            "created": [
+                "2020-03-05T10:08:06Z",
+                "2023-01-20T22:42:49Z",
+                "2023-03-30T15:55:28Z"
+            ],
+            "geofeed": "https:\/\/raw.githubusercontent.com\/Viasat\/geofeed\/main\/geofeed.csv",
+            "++registered": [
+                "2020-03-05 10:08:06",
+                "2023-01-20 22:42:49",
+                "2023-03-30 15:55:28"
+            ],
+            "++updated": [
+                "2020-03-05 10:08:06",
+                "2023-01-20 22:42:49",
+                "2023-03-30 15:55:28"
+            ],
+            "netname": "PUB-GB-PCM",
+            "inetnum": "165.220.169.0 - 165.220.169.255",
+            "route": "165.220.169.0\/24"
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "region": [
+                "Hampshire",
+                "England"
+            ],
+            "asn": "AS7155",
+            "city": "Farnborough",
+            "lat": "51.2887",
+            "long": "-0.7957",
+            "org": "VIASAT-SP-BACKBONE"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "set-cookie": "arip=165.220.169.113; path=\/\nzy_pc_browser=1; path=\/",
+            "++target": "http:\/\/165.220.169.113\/",
+            "++redirect": "https:\/\/165.220.169.113\/redirect.cgi?arip=165.220.169.113&original_url=http:\/\/165.220.169.113\/",
+            "date": "Fri, 25 Oct 2024 00:51:46 GMT"
+        },
+        "cookies": {
+            "zy_pc_browser": "1",
+            "arip": "165.220.169.113"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2026-06-04 20:39:09",
+            "subject": "\/CN=usg40w_603197755942",
+            "org": "usg40w_603197755942",
+            "valid": "2016-06-06 20:39:09",
+            "issuer": "\/CN=usg40w_603197755942",
+            "email": "usg40w_603197755942",
+            "fingerprint": "e10c35b12976d8aeb85c3b0c9c1a0524ecb0c763d041976fe791194291718ecc"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "USG40W"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "21": "220 FTP Server (USG40W) [::ffff:165.220.169.113]\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "165-220-169-113.cust.exede.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6651ff8f0406fd6954178a5d15a1bbfb.jpeg"
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "qid": null,
+    "iid": 65247420,
+    "indicator": "72.13.186.199",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-23 21:49:40",
+    "stamp_updated": "2024-12-01 00:13:33",
+    "stamp_seen": "2024-11-29 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65247671,
+                "indicator": "https:\/\/72.13.186.199\/index.asp"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-23 21:49:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "GoAhead",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": "Manitoba",
+            "asn": "AS15102",
+            "city": "Ebb and Flow",
+            "lat": "51.0348",
+            "org": "ASN-WIBAND-1",
+            "long": "-99.0723"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "server": "GoAhead-Webs",
+            "++code": "200",
+            "++status": "OK",
+            "pragma": "no-cache\nno-cache",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/72.13.186.199\/index.asp",
+            "++target": "http:\/\/72.13.186.199\/",
+            "date": "Sat Nov 23 15:55:22 2024"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIP Solutions Certificate Authority\/CN=VOIP Solutions Server Root Authority 1",
+            "subject": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIPTEST Solutions Certificate Authority\/CN=VOIPTEST  Solutions Root Authority 1",
+            "version": "v3",
+            "expires": "2017-07-24 07:35:53",
+            "valid": "2015-07-25 07:35:53",
+            "org": "VOIP Solutions Server Root Authority 1",
+            "++subject": "VOIP Solutions",
+            "fingerprint": "4b54d8498f21ed9209f3fa18cdd07e44973a4582bcc0173b1c17b083fba25edd"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "-1",
+            "content-type": [
+                "application\/xhtml+xml; charset=utf-8",
+                "application\/xhtml+xml; charset=UTF-8"
+            ],
+            "++title": "cnPilot R201 Login"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e1b17f1f0a03893b540de5cdd489d1c5.jpeg"
+        }
+    }
+}

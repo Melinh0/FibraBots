@@ -1,0 +1,171 @@
+{
+    "qid": null,
+    "iid": 62759258,
+    "indicator": "177.38.236.49",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-26 21:48:40",
+    "stamp_updated": "2024-12-16 11:31:35",
+    "stamp_seen": "2024-12-14 20:22:38",
+    "stamp_probed": "2024-08-26 21:48:54",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62759365,
+                "indicator": "http:\/\/177.38.236.49\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-26 21:48:40"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-26 15:33:19"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "lat": "-22.8305",
+            "long": "-43.2192",
+            "asn": "AS11835",
+            "org": "NOVA FIBRA TELECOM S.A."
+        },
+        "whois": {
+            "country": "BR",
+            "aut-num": "AS52760",
+            "created": [
+                "20120621",
+                "20120903",
+                "20240404"
+            ],
+            "inetnum": "177.38.232.0\/21",
+            "inetrev": "177.38.236.0\/24",
+            "nic-hdl-br": [
+                "GGTLT5",
+                "ADLTE17"
+            ],
+            "owner-c": "GGTLT5",
+            "ownerid": "03.868.136\/0001-06",
+            "person": [
+                "Grupo G-1 Telecomunicacoes Ltda",
+                "Administrador de Dominios Ligga Telecom"
+            ],
+            "tech-c": "GGTLT5",
+            "changed": [
+                "20120903",
+                "20230821",
+                "20240404"
+            ],
+            "++registrant": [
+                "Grupo G-1 Telecomunicacoes Ltda",
+                "Administrador de Dominios Ligga Telecom"
+            ],
+            "responsible": "Agnaldo Bastos Lopes",
+            "owner": "NOVA FIBRA TELECOM S.A.",
+            "nserver": [
+                "ns1.novafibratelecom.com.br",
+                "ns2.novafibratelecom.com.br"
+            ],
+            "e-mail": [
+                "bgp@liggavc.com.br",
+                "registro.ip.operacoes@liggavc.com.br"
+            ],
+            "++email": [
+                "bgp@liggavc.com.br",
+                "registro.ip.operacoes@liggavc.com.br"
+            ],
+            "abuse-c": "ADLTE17",
+            "nslastaa": "20241019",
+            "nsstat": "20241019 AA"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "content-language": "en",
+            "cache-control": "no-cache, no-store, max-age=0",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/177.38.236.49\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "pragma": "no-cache"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2014-12-05 10:33:44",
+            "org": "Huawei Technologies Co., Ltd",
+            "expires": "2024-12-04 10:33:44",
+            "subject": "\/CN=Huawei Technologies Co., Ltd\/ST=Guangdong\/C=CN\/E=support@huawei.com\/O=Huawei Technologies Co., Ltd\/OU=ONT",
+            "issuer": "\/CN=Huawei Technologies Co., Ltd\/ST=Guangdong\/C=CN\/E=support@huawei.com\/O=Huawei Technologies Co., Ltd"
+        },
+        "dns": {
+            "ptr": "ip-177-38-236-49.novafibratelecom.com.br"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "23": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2013.62\n\u0000\u0000\u0001\ufffd\n\u0014>\ufffd{\u001dSu\u046d\u000eB\ufffd@[\ufffd\bD\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000h8\ufffd\u07ce\ufffd&\ufffdx"
+        }
+    }
+}

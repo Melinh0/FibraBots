@@ -1,0 +1,208 @@
+{
+    "qid": null,
+    "iid": 50798660,
+    "indicator": "192.227.248.232",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-03 10:02:41",
+    "stamp_updated": "2024-12-10 10:38:01",
+    "stamp_seen": "2024-11-18 13:51:42",
+    "stamp_probed": "2024-09-30 07:34:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 50798752,
+                "indicator": "http:\/\/192.227.248.232\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-16 03:29:47"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-03 10:02:41"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-10-16 03:29:47"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-09-10 17:10:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "parent": "NET192 (NET-192-0-0-0-0)",
+            "address": [
+                "Suite 300",
+                "325 Delaware Avenue"
+            ],
+            "city": "Buffalo",
+            "postalcode": "14202",
+            "++registered": "2016-06-06 00:00:00",
+            "++phone": [
+                "+1-800-518-9716",
+                "+1-905-315-3455"
+            ],
+            "originas": "AS36352",
+            "rabuseemail": "abuse@colocrossing.com",
+            "rabusephone": "+1-800-518-9716",
+            "rtechemail": "support@colocrossing.com",
+            "rtechphone": "+1-800-518-9716",
+            "++abuse": [
+                "abuse@colocrossing.com",
+                "net-abuse-global@hostpapa.com"
+            ],
+            "regdate": [
+                "2016-06-06",
+                "2013-01-29"
+            ],
+            "cidr": "192.227.128.0\/17",
+            "nethandle": "NET-192-227-128-0-1",
+            "netname": "CC-12",
+            "netrange": "192.227.128.0 - 192.227.255.255",
+            "orgtechphone": "+1-905-315-3455",
+            "++registrant": "HostPapa",
+            "organization": "HostPapa (HOSTP-7)",
+            "orgabusephone": "+1-905-315-3455",
+            "orgname": "HostPapa",
+            "orgid": "HOSTP-7",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/192.227.128.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/HOSTP-7"
+            ],
+            "orgtechname": "NETTECH",
+            "orgabusename": "NETABUSE",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETTE9-ARIN",
+            "orgabusehandle": "NETAB23-ARIN",
+            "orgtechhandle": "NETTE9-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETAB23-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETAB27-ARIN",
+            "orgabuseemail": "net-abuse-global@hostpapa.com",
+            "rabusehandle": "NETAB27-ARIN",
+            "rabusename": "NETABUSE-COLOCROSSING",
+            "updated": [
+                "2024-02-02",
+                "2024-04-26"
+            ],
+            "orgtechemail": "net-tech-global@hostpapa.com",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETTE11-ARIN",
+            "rtechname": "NETTECH-COLOCROSSING",
+            "rtechhandle": "NETTE11-ARIN",
+            "++email": "net-tech-global@hostpapa.com",
+            "++updated": "2024-04-26 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Texas",
+                "NY"
+            ],
+            "city": [
+                "Dallas",
+                "Buffalo"
+            ],
+            "asn": "AS36352",
+            "zip": "14202",
+            "address": [
+                "325 Delaware Avenue",
+                "Suite 300"
+            ],
+            "org": [
+                "HostPapa (HOSTP-7)",
+                "AS-COLOCROSSING"
+            ],
+            "lat": "32.7797",
+            "long": "-96.8022"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=UTF-8",
+            "server": "Apache\/2.2.15 (CentOS)",
+            "x-powered-by": "PHP\/5.5.38",
+            "content-length": "174",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Sun, 15 Sep 2024 06:02:42 GMT",
+            "++target": "http:\/\/192.227.248.232\/"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n"
+        },
+        "dns": {
+            "ptr": "192-227-248-232-host.colocrossing.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/53013b73c72116c13ee3841bdf4a1fdc.jpeg"
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "qid": null,
+    "iid": 65447908,
+    "indicator": "192.99.188.102",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 10:00:41",
+    "stamp_updated": "2024-12-14 11:28:34",
+    "stamp_seen": "2024-11-29 10:01:04",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65448040,
+                "indicator": "http:\/\/192.99.188.102\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 10:00:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "3306",
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "NETBIOS",
+            "RDP"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "mod_dav",
+            "mod_perl",
+            "mod_ssl",
+            "OpenSSL",
+            "Perl",
+            "PHP",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "43.6319",
+            "long": "-79.3716"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "x-powered-by": "PHP\/5.3.1",
+            "server": "Apache\/2.2.14 (Win32) DAV\/2 mod_ssl\/2.2.14 OpenSSL\/0.9.8l mod_autoindex_color PHP\/5.3.1 mod_apreq2-20090110\/2.7.1 mod_perl\/2.0.4 Perl\/v5.10.1",
+            "content-length": "3712",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Fri, 29 Nov 2024 10:00:47 GMT",
+            "++target": "http:\/\/192.99.188.102\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=",
+            "++title": "AppServ Open Project _APPVERSION"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000",
+            "139": "\u0005\u0004\u0000\u0000",
+            "3306": "4\u0000\u0000\u0000\n5.1.41\u0000\ufffd\u0011\u0014\u0000,c\/_sF?K\u0000\ufffd\ufffd\b\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000<*[m3T-\"bJ*0\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b4323087f1a1fc9d1ec724075da8eae3.jpeg"
+        }
+    }
+}

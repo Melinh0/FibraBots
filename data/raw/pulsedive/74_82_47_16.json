@@ -1,0 +1,101 @@
+{
+    "qid": null,
+    "iid": 24587224,
+    "indicator": "74.82.47.16",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-05-11 15:10:37",
+    "stamp_updated": "2024-10-27 05:41:27",
+    "stamp_seen": "2024-07-24 00:00:00",
+    "stamp_probed": "2024-07-20 07:07:42",
+    "stamp_retired": "2024-10-27 05:41:27",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-05-11 15:10:37"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-02-26 17:09:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Apache",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS6939",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "HURRICANE",
+            "isp": "HURRICANE"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "2933",
+            "++code": "200",
+            "++status": "OK",
+            "server": "lighttpd\/1.4.55",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 15 Feb 2023 18:09:40 GMT",
+            "etag": "\"812608387\"",
+            "date": "Sat, 20 Jul 2024 06:36:57 GMT"
+        },
+        "dns": {
+            "ptr": "scan-11c.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/084e73c518ac5d989677df9fab569fa1.jpeg"
+        }
+    }
+}

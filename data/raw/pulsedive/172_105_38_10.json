@@ -1,0 +1,155 @@
+{
+    "qid": null,
+    "iid": 63564793,
+    "indicator": "172.105.38.10",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-24 04:56:57",
+    "stamp_updated": "2024-12-14 11:27:09",
+    "stamp_seen": "2024-10-07 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63566516,
+                "indicator": "https:\/\/172.105.38.10\/login_up.php"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-24 04:56:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-26 15:32:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "PHP",
+            "Plesk",
+            "Prototype",
+            "PWA",
+            "RequireJS",
+            "Sentry"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "asn": "AS63949",
+            "region": "Maharashtra",
+            "city": "Mumbai",
+            "lat": "19.0748",
+            "long": "72.8856",
+            "org": "Akamai Connected Cloud"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "p3p": "CP=\"NON COR CURa ADMa OUR NOR UNI COM NAV STA\"",
+            "expires": "Fri, 28 May 1999 00:00:00 GMT",
+            "++code": "200",
+            "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+            "content-encoding": "br",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "date": "Tue, 24 Sep 2024 05:11:49 GMT",
+            "last-modified": "Tue, 24 Sep 2024 05:11:49 GMT",
+            "++target": "http:\/\/172.105.38.10\/",
+            "++redirect": "https:\/\/172.105.38.10\/login_up.php"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "format-detection": "telephone=no",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "skype_toolbar": "SKYPE_TOOLBAR_PARSER_COMPATIBLE",
+            "charset": "utf-8",
+            "plesk-build": "1800240902.09",
+            "plesk-revision": "c4c18134fb374cc33046fff0087012b759db703d",
+            "++title": "Plesk Obsidian 18.0.63",
+            "forgery_protection_token": "7c28050f70835b9e95772decfb3915a6"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=172-105-38-10.ip.linodeusercontent.com",
+            "valid": "2024-08-22 06:58:25",
+            "domain": "172-105-38-10.ip.linodeusercontent.com",
+            "expires": "2024-11-20 06:58:24",
+            "fingerprint": "32ea06710aec803c2922db060ebff4a9af8ca8d23f49b618c3ff45dc378d2160"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220 172-105-38-10.ip.linodeusercontent.com ESMTP Postfix (Ubuntu)\n",
+            "21": "220 ProFTPD Server (ProFTPD) [172.105.38.10]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/127c79e9d1a60205401d77b9387a3f8a.jpeg"
+        }
+    }
+}

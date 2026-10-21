@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 60323899,
+    "indicator": "8.140.250.89",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-18 04:52:34",
+    "stamp_updated": "2024-12-11 18:04:30",
+    "stamp_seen": "2024-12-11 18:04:30",
+    "stamp_probed": "2024-08-20 07:35:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64217885,
+                "indicator": "https:\/\/8.140.250.89\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-18 04:52:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "DigiCert",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": [
+                "SG",
+                "CN",
+                "ZZ"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "origin": "AS37963",
+            "++abuse": "abuse@alibaba-inc.com",
+            "admin-c": "ASEP1-AP",
+            "descr": [
+                "Alibaba.com Singapore E-Commerce Private Limited",
+                "Aliyun Computing Co.LTD"
+            ],
+            "e-mail": [
+                "anti-spam@list.alibaba-inc.com",
+                "abuse@alibaba-inc.com"
+            ],
+            "fax-no": "+86-571-85022088",
+            "irt": "IRT-ASEPL-SG",
+            "mnt-by": [
+                "MAINT-ASEPL-SG",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-ASEPL-SG",
+            "nic-hdl": [
+                "ASEP1-AP",
+                "AA1926-AP"
+            ],
+            "phone": [
+                "+86-571-85022088",
+                "+000000000"
+            ],
+            "role": [
+                "Alibabacom Singapore E-Commerce Private Limited a",
+                "ABUSE ASEPLSG"
+            ],
+            "tech-c": "ASEP1-AP",
+            "++phone": [
+                "+86-571-85022088",
+                "+000000000"
+            ],
+            "last-modified": [
+                "2015-12-10T01:04:19Z",
+                "2021-04-14T01:11:45Z",
+                "2020-02-25T09:44:10Z",
+                "2024-10-08T07:53:08Z",
+                "2024-10-08T08:00:34Z"
+            ],
+            "netname": "ALICLOUD",
+            "inetnum": "8.128.0.0 - 8.159.255.255",
+            "++email": [
+                "anti-spam@list.alibaba-inc.com",
+                "abuse@alibaba-inc.com"
+            ],
+            "++registrant": "ASEP1-AP",
+            "abuse-c": "AA1926-AP",
+            "route": "8.140.250.0\/24",
+            "abuse-mailbox": "abuse@alibaba-inc.com",
+            "auth": "# Filtered",
+            "address": [
+                "1 Raffles Place # 59-00 One Raffles Place, Tower One Singapore, Singapore",
+                "1 Raffles Place #59-00 One Raffles Place, Tower One Singapore, Singapore"
+            ],
+            "++updated": [
+                "2015-12-10 01:04:19",
+                "2020-02-25 09:44:10",
+                "2024-10-08 07:53:08",
+                "2024-10-08 08:00:34"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Singapore",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "SG",
+                "ZZ"
+            ],
+            "asn": "AS37963",
+            "org": "Hangzhou Alibaba Advertising Co.,Ltd.",
+            "city": "Beijing",
+            "region": "Beijing",
+            "lat": "39.911",
+            "long": "116.395",
+            "address": [
+                "1 Raffles Place # 59-00 One Raffles Place, Tower One Singapore, Singapore",
+                "1 Raffles Place #59-00 One Raffles Place, Tower One Singapore, Singapore"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html;charset=UTF-8",
+            "content-length": "280",
+            "++code": "404",
+            "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.24.0",
+            "++target": "http:\/\/8.140.250.89\/",
+            "++redirect": "https:\/\/8.140.250.89\/",
+            "date": "Fri, 18 Oct 2024 17:06:02 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/O=DigiCert Inc\/OU=www.digicert.com\/CN=Encryption Everywhere DV TLS CA - G2",
+            "version": "v3",
+            "org": "Encryption Everywhere DV TLS CA - G2",
+            "expires": "2024-08-08 23:59:59",
+            "valid": "2024-05-11 00:00:00",
+            "fingerprint": "f0e94721654e70856cbd1bcf810a6f8abfa55bf0e209ad75cbfd10ef422dcf39",
+            "domain": "test.api.dlzjsd.com",
+            "subject": "\/CN=test.api.dlzjsd.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e706e1e812c9f938d3cade90d86db0cd.jpeg"
+        }
+    }
+}

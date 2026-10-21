@@ -1,0 +1,205 @@
+{
+    "qid": null,
+    "iid": 63582210,
+    "indicator": "222.119.124.66",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-25 05:01:50",
+    "stamp_updated": "2024-12-14 11:30:16",
+    "stamp_seen": "2024-09-25 05:46:09",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63587362,
+                "indicator": "https:\/\/222.119.124.66\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-25 05:01:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "ExtJS",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "222.96.0.0 - 222.122.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-02-06T02:32:55Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "region": "Busan",
+            "city": "Nam-gu",
+            "lat": "35.1362",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "long": "129.0783",
+            "country": "South Korea"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Wed, 25 Sep 2024 05:45:45 GMT",
+            "++target": "http:\/\/222.119.124.66\/",
+            "++redirect": "https:\/\/222.119.124.66\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "charset": "utf-8",
+            "handheldfriendly": "true",
+            "++title": "VPN50"
+        },
+        "ssl": {
+            "version": "v3",
+            "fingerprint": "654b16b356ba210f187b0f5764c6795c2350d35dd058e8430cd353636f51bdb9",
+            "subject": "\/CN=vpn50_BC9911AA661A",
+            "issuer": "\/CN=vpn50_BC9911AA661A",
+            "email": "vpn50_BC9911AA661A",
+            "valid": "2019-02-22 10:13:27",
+            "org": "vpn50_BC9911AA661A",
+            "expires": "2029-02-19 10:13:27"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (VPN50) [::ffff:222.119.124.66]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0111537fa4c7c1409d583c7936a77686.jpeg"
+        }
+    }
+}

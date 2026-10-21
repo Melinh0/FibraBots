@@ -1,0 +1,144 @@
+{
+    "qid": null,
+    "iid": 62441758,
+    "indicator": "80.242.208.68",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-18 21:31:30",
+    "stamp_updated": "2024-12-14 09:53:51",
+    "stamp_seen": "2024-12-14 09:53:51",
+    "stamp_probed": "2024-09-07 08:23:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65121982,
+                "indicator": "https:\/\/80.242.208.68\/account\/login\/"
+            },
+            {
+                "iid": 65121985,
+                "indicator": "https:\/\/80.242.208.68\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-10-02 11:40:53"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-18 21:31:30"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-10-02 11:40:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "ApexCharts.js",
+            "Bootstrap",
+            "Django",
+            "Dropzone",
+            "Google Font API",
+            "jQuery",
+            "jsDelivr",
+            "Let's Encrypt",
+            "Moment.js",
+            "Nginx",
+            "Open Graph",
+            "Popper",
+            "Quill",
+            "Select2",
+            "SweetAlert2",
+            "toastr",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Almaty",
+            "country": "Kazakhstan",
+            "countrycode": "KZ",
+            "asn": "AS35104",
+            "region": "Almaty",
+            "lat": "43.2433",
+            "org": "Jusan Mobile JSC",
+            "long": "76.8646"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "568",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/80.242.208.68\/",
+            "date": "Tue, 22 Oct 2024 04:47:39 GMT",
+            "++redirect": "https:\/\/80.242.208.68\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "domain": "*.creativecity.kz",
+            "subject": "\/CN=*.creativecity.kz",
+            "expires": "2025-01-02 08:10:43",
+            "fingerprint": "7d49587e0c5b65ba91c16d11b97044dd2363c4bc3798b43b4f5ec553cc04833b",
+            "valid": "2024-10-04 08:10:44"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-Go\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c20fa09307c6b5455a362b440b51d3bb.jpeg"
+        },
+        "cookies": {
+            "csrftoken": "TlJtnstcRH84WA5lN3Yyj5TAOnMTmP6O"
+        }
+    }
+}

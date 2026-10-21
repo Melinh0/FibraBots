@@ -1,0 +1,172 @@
+{
+    "qid": null,
+    "iid": 35483951,
+    "indicator": "182.57.16.58",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-31 02:39:54",
+    "stamp_updated": "2024-12-11 02:27:02",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-30 06:35:42",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-06-17 21:38:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-31 02:39:54"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-06-17 21:38:32"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-18 08:01:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "address": [
+                "Mahanagar Doorsanchar Sadan, 5th Floor, 9 CGO Complex, Lodhi Road, New Delhi ,New Delhi,Delhi-110003",
+                "Jeevan Bharati Building",
+                "Tower 1, 12th Floor, 124, Connaught Circus, New Delhi"
+            ],
+            "admin-c": "AB782-AP",
+            "descr": "Mahanagar Telephone Nigam Limited",
+            "e-mail": [
+                "dgmitco@bol.net.in",
+                "mgritco@bol.net.in"
+            ],
+            "irt": "IRT-MTNL-IN",
+            "mnt-by": [
+                "MAINT-IN-MTNL",
+                "MAINT-IN-IRINN"
+            ],
+            "mnt-irt": "IRT-MTNL-IN",
+            "mnt-lower": "MAINT-IN-MTNL",
+            "mnt-routes": "MAINT-IN-MTNL",
+            "netname": "MTNL",
+            "nic-hdl": [
+                "AB782-AP",
+                "SM2089-AP"
+            ],
+            "person": "Amarjeetkaur Bedi",
+            "phone": "+91 01124325185",
+            "role": "Senior Manager",
+            "tech-c": [
+                "AB782-AP",
+                "SM2089-AP"
+            ],
+            "origin": "AS17813",
+            "inetnum": "182.56.0.0 - 182.59.255.255",
+            "last-modified": [
+                "2016-12-14T06:28:12Z",
+                "2016-12-14T06:25:35Z",
+                "2016-12-14T04:38:45Z",
+                "2022-07-01T08:44:20Z",
+                "2023-06-26T06:56:03Z"
+            ],
+            "++registrant": [
+                "AB782-AP",
+                "Amarjeetkaur Bedi"
+            ],
+            "++email": [
+                "dgmitco@bol.net.in",
+                "mgritco@bol.net.in",
+                "abusemtnl@bol.net.in"
+            ],
+            "++abuse": "abusemtnl@bol.net.in",
+            "abuse-mailbox": "abusemtnl@bol.net.in",
+            "notify": "mgrinta@bol.net.in",
+            "route": "182.57.0.0\/17",
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-07-01 08:44:20",
+                "2016-12-14 06:25:35",
+                "2016-12-14 06:28:12",
+                "2023-06-26 06:56:03"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Maharashtra",
+            "asn": "AS17813",
+            "org": "Mahanagar Telephone Nigam Limited",
+            "address": [
+                "Jeevan Bharati Building",
+                "Tower 1, 12th Floor, 124, Connaught Circus, New Delhi",
+                "Mahanagar Doorsanchar Sadan, 5th Floor, 9 CGO Complex, Lodhi Road, New Delhi ,New Delhi,Delhi-110003"
+            ],
+            "lat": "19.1963",
+            "long": "72.9675",
+            "city": "Th\u0101ne"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5\n"
+        },
+        "dns": {
+            "ptr": "static-mum-182.57.16.58.mtnl.net.in"
+        }
+    }
+}

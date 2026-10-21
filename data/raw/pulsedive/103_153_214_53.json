@@ -1,0 +1,200 @@
+{
+    "qid": null,
+    "iid": 64316610,
+    "indicator": "103.153.214.53",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-13 06:06:57",
+    "stamp_updated": "2024-12-13 11:18:07",
+    "stamp_seen": "2024-10-13 06:10:08",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64317100,
+                "indicator": "https:\/\/103.153.214.53\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-13 06:06:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "3306",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL"
+        ],
+        "technology": [
+            "HTTP\/3",
+            "LiteSpeed"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "VINTEK-VN"
+            ],
+            "org": "VINTEK VIET NAM TECHNOLOGY TELECOM CO.,LTD",
+            "asn": "AS140745"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NTH29-AP"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-979258080",
+                "+84-898179791"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "TVL6-AP"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "hungnguyen8080@gmail.com",
+                "tanvanluong@gmail.com"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2020-07-28T03:03:21Z",
+                "2020-07-28T02:31:14Z",
+                "2020-07-28T02:30:22Z",
+                "2020-08-14T05:08:54Z"
+            ],
+            "address": [
+                "Ha Noi, VietNam",
+                "VINTEK-VN"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-979258080",
+                "+84-898179791"
+            ],
+            "person": [
+                "Nguyen Thanh Hung",
+                "Tan Van Luong"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "Nguyen Thanh Hung",
+                "Tan Van Luong",
+                "TVL6-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "hungnguyen8080@gmail.com",
+                "tanvanluong@gmail.com"
+            ],
+            "route": "103.153.214.0\/23",
+            "netname": "VINTEK-VN",
+            "nic-hdl": [
+                "NTH29-AP",
+                "TVL6-AP"
+            ],
+            "descr": [
+                "VINTEK VIET NAM TECHNOLOGY TELECOM CO.,LTD",
+                "85A, Dong Hung Thuan 2, Quarter 5, Tan Hung Thuan Ward, Dist. 12, Hochiminh city",
+                "VINTEK-VN"
+            ],
+            "inetnum": "103.153.214.0 - 103.153.215.255",
+            "origin": "AS140745",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2020-07-28 03:03:21",
+                "2020-07-28 02:31:14",
+                "2020-07-28 02:30:22",
+                "2020-08-14 05:08:54"
+            ]
+        },
+        "http": {
+            "content-length": "51",
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "LiteSpeed",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\"",
+            "etag": "\"33-658b9f7d-20749;;;\"",
+            "++redirect": "https:\/\/103.153.214.53\/",
+            "last-modified": "Wed, 27 Dec 2023 03:52:29 GMT",
+            "date": "Sun, 13 Oct 2024 06:09:31 GMT",
+            "++target": "http:\/\/103.153.214.53\/"
+        },
+        "ssl": {
+            "org": "localhost",
+            "subject": "\/C=US\/ST=Someprovince\/L=Sometown\/O=none\/OU=none\/CN=localhost\/E=webmaster@localhost",
+            "issuer": "\/C=US\/ST=Someprovince\/L=Sometown\/O=none\/OU=none\/CN=localhost\/E=webmaster@localhost",
+            "valid": "2016-10-17 05:24:00",
+            "expires": "2044-03-03 05:24:00",
+            "version": "v0",
+            "++subject": "none",
+            "fingerprint": "b5600f20c49178768685eea282f3f96aab461f63e94fc3b5c96d3e127b06351e"
+        },
+        "banners": {
+            "21": "220 ProFTPD 1.3.5b Server ready.\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "3306": "J\u0000\u0000\u0000\ufffdj\u0004Host '172.233.186.231' is not allowed to connect to this MariaDB server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f5bddcc8221e0940031c88620c76187f.jpeg"
+        }
+    }
+}

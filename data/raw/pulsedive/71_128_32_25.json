@@ -1,0 +1,234 @@
+{
+    "qid": null,
+    "iid": 49873301,
+    "indicator": "71.128.32.25",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-08-03 08:51:43",
+    "stamp_updated": "2024-12-17 11:39:59",
+    "stamp_seen": "2024-12-15 00:00:00",
+    "stamp_probed": "2024-09-30 19:03:27",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64130335,
+                "indicator": "https:\/\/71.128.32.25\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-11-13 02:38:39"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-08-03 08:51:43"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-11-13 02:38:39"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-08-24 12:58:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "1723",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "OpenVPN",
+            "PPTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "city": [
+                "Redmond",
+                "Plano"
+            ],
+            "postalcode": [
+                "98052",
+                "75075"
+            ],
+            "stateprov": [
+                "WA",
+                "TX"
+            ],
+            "orgabuseemail": "abuse@att.net",
+            "orgabusephone": "+1-919-319-8167",
+            "orgtechphone": "+1-888-510-5545",
+            "parent": [
+                "NET71 (NET-71-0-0-0-0)",
+                "SBCIS-SIS80 (NET-71-128-0-0-1)"
+            ],
+            "address": [
+                "Private Address",
+                "Attn: IP Management",
+                "7277 164th Ave NE"
+            ],
+            "netname": [
+                "SBCIS-SIS80",
+                "SBC07112803200026051117105641"
+            ],
+            "++phone": "+1-999-999-9999",
+            "nethandle": [
+                "NET-71-128-0-0-1",
+                "NET-71-128-32-0-1"
+            ],
+            "regdate": [
+                "2005-01-11",
+                "2018-03-05",
+                "2005-11-17"
+            ],
+            "orgabusehandle": "ABUSE7-ARIN",
+            "netrange": [
+                "71.128.0.0 - 71.131.191.255",
+                "71.128.32.0 - 71.128.32.63"
+            ],
+            "++registered": "2018-03-05 00:00:00",
+            "cidr": [
+                "71.128.0.0\/15, 71.131.128.0\/18, 71.130.0.0\/16, 71.131.0.0\/17",
+                "71.128.32.0\/26"
+            ],
+            "orgtechhandle": "ZS44-ARIN",
+            "orgtechname": "IPAdmin-ATT Internet Services",
+            "orgtechemail": "ipadmin@semail.att.com",
+            "updated": [
+                "2018-07-19",
+                "2005-11-17",
+                "2024-05-28"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZS44-ARIN",
+            "++registrant": "AT&T Corp.",
+            "organization": "AT&T Corp. (AC-3280)",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/AC-3280",
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.128.0.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.128.32.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C01222561"
+            ],
+            "orgname": "AT&T Corp.",
+            "++email": "ipadmin@semail.att.com",
+            "orgid": "AC-3280",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE7-ARIN",
+            "custname": "Global Software Resources 1127088",
+            "customer": "Global Software Resources 1127088 (C01222561)",
+            "orgabusename": "abuse",
+            "orgroutingname": "Routing POC",
+            "++abuse": "abuse",
+            "orgroutingphone": "+1-999-999-9999",
+            "++updated": "2024-05-28 00:00:00",
+            "orgroutingemail": "routing@cbbtier3.att.net",
+            "orgroutinghandle": "ROUTI59-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ROUTI59-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "California",
+            "city": "San Jose",
+            "asn": "AS7018",
+            "lat": "37.1835",
+            "org": "ATT-INTERNET4",
+            "long": "-121.7714"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "Server",
+            "content-length": "183",
+            "++code": "400",
+            "++status": "Bad Request",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/71.128.32.25\/",
+            "date": "Mon, 18 Nov 2024 23:39:31 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "subject": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "version": "v3",
+            "org": "Vigor Router",
+            "domain": "www.draytek.com",
+            "++subject": "DrayTek Corp.",
+            "valid": "2024-11-07 20:14:30",
+            "expires": "2025-12-07 20:14:30",
+            "fingerprint": "a9e95bbb81493b46c3ab994577e4e913c8b2691f6d5006c1897c04d6d8a6bff9"
+        },
+        "dns": {
+            "ptr": [
+                "mail02.gsr-inc.com",
+                "exchange.gsr-inc.com"
+            ]
+        },
+        "meta": {
+            "++title": "400 - Bad Request"
+        },
+        "banners": {
+            "1194": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d5fe63d587eaefc5221a1b44b3d8c799.jpeg"
+        }
+    }
+}

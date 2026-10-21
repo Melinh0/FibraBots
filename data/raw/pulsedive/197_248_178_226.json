@@ -1,0 +1,168 @@
+{
+    "qid": null,
+    "iid": 44083324,
+    "indicator": "197.248.178.226",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-01-25 01:26:03",
+    "stamp_updated": "2024-12-11 02:10:02",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2023-12-25 17:57:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-01-25 01:26:03"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-02-13 17:47:15"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "source": [
+                "AFRINIC",
+                "AFRINIC parent: 197.248.0.0 - 197.248.255.255"
+            ],
+            "address": [
+                "Kenya",
+                "Safaricom Limited",
+                "Safaricom House",
+                "P.O Box 66827, 00800",
+                "POBox 46350-00100 Nairobi",
+                "Nairobi"
+            ],
+            "country": "KE",
+            "admin-c": [
+                "JM27-AFRINIC",
+                "DA1485-AFRINIC"
+            ],
+            "descr": "For Safaricom KENYA Enterprise Business Unit",
+            "mnt-by": [
+                "GENERATED-UNS1E7EXFG6F7TJILQ9DMMHDN4Y0VRSV-MNT",
+                "MNT-SAF2004"
+            ],
+            "netname": "Safaricom-Business",
+            "nic-hdl": [
+                "JM27-afrinic",
+                "DA1485-AFRINIC"
+            ],
+            "person": [
+                "John Muita",
+                "Domain Admin"
+            ],
+            "inetnum": "197.248.128.0 - 197.248.191.255",
+            "phone": [
+                "tel:+254-722-002829",
+                "tel:+254-020427"
+            ],
+            "fax-no": "tel:+254-722-003272",
+            "++phone": [
+                "tel:+254-722-002829",
+                "tel:+254-020427"
+            ],
+            "tech-c": "DA1485-AFRINIC",
+            "++registrant": [
+                "DA1485-AFRINIC",
+                "JM27-AFRINIC"
+            ]
+        },
+        "geo": {
+            "country": "Kenya",
+            "countrycode": "KE",
+            "asn": "AS37061",
+            "isp": "Safaricom",
+            "org": "Safaricom",
+            "city": "Nairobi",
+            "region": "Nairobi",
+            "address": [
+                "Nairobi",
+                "Safaricom Limited",
+                "Safaricom House",
+                "POBox 46350-00100 Nairobi",
+                "Kenya",
+                "P.O Box 66827, 00800"
+            ],
+            "lat": "-1.2841",
+            "long": "36.8155"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "connection": "Upgrade, close",
+            "upgrade": "h2",
+            "content-length": "394",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"267-5e49eb814e30d-gzip\"",
+            "date": "Wed, 25 Jan 2023 01:26:11 GMT",
+            "last-modified": "Mon, 25 Jul 2022 10:33:47 GMT"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 17:53. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/854efde3d83cee0a62aefad6db44a0bf.jpeg"
+        },
+        "dns": {
+            "ptr": "197-248-178-226.safaricombusiness.co.ke"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "qid": null,
+    "iid": 62334631,
+    "indicator": "72.46.130.218",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 07:13:07",
+    "stamp_updated": "2024-12-12 11:28:36",
+    "stamp_seen": "2024-10-06 19:18:35",
+    "stamp_probed": "2024-09-30 19:08:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-22 21:42:16"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-12 07:13:07"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "parent": "NET72 (NET-72-0-0-0-0)",
+            "stateprov": "NV",
+            "city": "Las Vegas",
+            "postalcode": "89119",
+            "++email": "rob@fiberhub.com",
+            "address": [
+                "Suite 110",
+                "1110 Palms Airport Dr."
+            ],
+            "orgtechemail": "rob@fiberhub.com",
+            "orgtechhandle": "RTY1-ARIN",
+            "orgtechname": "Tyree, Robert",
+            "originas": "AS36114, AS53340",
+            "regdate": [
+                "2006-08-30",
+                "2009-11-09"
+            ],
+            "++registrant": "VegasNAP, LLC",
+            "orgabusephone": "+1-702-487-3838",
+            "organization": "VegasNAP, LLC (VEGAS-3)",
+            "orgid": "VEGAS-3",
+            "orgname": "VegasNAP, LLC",
+            "referralserver": "rwhois:\/\/rwhois.fiberhub.com:4321",
+            "++registered": "2009-11-09 00:00:00",
+            "nethandle": "NET-72-46-128-0-1",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/RTY1-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/VEGAS-3",
+                "https:\/\/rdap.arin.net\/registry\/ip\/72.46.128.0"
+            ],
+            "++updated": [
+                "2024-06-17 00:00:00",
+                "2024-08-20 00:00:00"
+            ],
+            "updated": [
+                "2024-06-17",
+                "2024-08-20"
+            ],
+            "orgabusehandle": "ABUSE9047-ARIN",
+            "netname": "VW-NET-72-46",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE9047-ARIN",
+            "++phone": "+1-702-623-3315",
+            "orgtechphone": "+1-702-623-3315",
+            "cidr": "72.46.128.0\/22",
+            "netrange": "72.46.128.0 - 72.46.131.255",
+            "orgabuseemail": "abusereports@fiberhub.com",
+            "++abuse": "abusereports@fiberhub.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "NV",
+                "Nevada"
+            ],
+            "city": "Las Vegas",
+            "asn": "AS36114",
+            "zip": "89119",
+            "address": [
+                "Suite 110",
+                "1110 Palms Airport Dr."
+            ],
+            "org": [
+                "VERSAWEB-ASN",
+                "VegasNAP, LLC (VEGAS-3)"
+            ],
+            "lat": "36.102",
+            "long": "-115.1447"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "test.reverse.ptr"
+        }
+    }
+}

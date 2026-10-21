@@ -1,0 +1,138 @@
+{
+    "qid": null,
+    "iid": 53223130,
+    "indicator": "143.202.210.210",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-21 13:25:49",
+    "stamp_updated": "2024-12-15 11:30:13",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-03-16 21:42:59",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-21 13:25:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-10 12:12:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "22"
+        ],
+        "protocol": [
+            "NETBIOS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "allocated",
+            "country": "PY",
+            "++registered": "2015-10-28 00:00:00",
+            "changed": [
+                "20151028",
+                "20221212"
+            ],
+            "created": [
+                "20150623",
+                "20151028"
+            ],
+            "abuse-c": "NET20",
+            "responsible": "Bruno Elias Chamorro Rodriguez",
+            "owner-c": "NET20",
+            "tech-c": "NET20",
+            "ownerid": "PY-RPTS-LACNIC",
+            "nic-hdl": "NET20",
+            "person": "Neo Telecom",
+            "owner": "RED PARAGUAYA DE TELECOMUNICACIONES SA",
+            "address": [
+                "7000 - Ciudad del Este -",
+                "- - Ciudad del Este -",
+                "Super Carretera a 1000m del viaducto, xx, km 4 camino a Hernandarias",
+                "Super Carretera, Sin n\ufffdmero Ed. Neo Telecom, , a 1000m del viaducto, km 4 camino Hernandarias"
+            ],
+            "++abuse": "NET20",
+            "++registrant": "Neo Telecom",
+            "++phone": [
+                "+595 061571430 [0000]",
+                "+595 061 571430"
+            ],
+            "phone": [
+                "+595 061571430 [0000]",
+                "+595 061 571430"
+            ],
+            "++email": "bruno@neo.com.py",
+            "inetnum": "143.202.208.0\/22",
+            "e-mail": "bruno@neo.com.py",
+            "inetrev": "143.202.208.0\/22",
+            "nserver": [
+                "NEWMASTER.NEO.COM.PY",
+                "NEWSLAVE.NEO.COM.PY"
+            ],
+            "aut-num": "AS264631",
+            "nslastaa": "20240316",
+            "nsstat": "20240316 AA"
+        },
+        "geo": {
+            "country": "Paraguay",
+            "countrycode": "PY",
+            "region": "Asuncion",
+            "asn": "AS264631",
+            "org": "RED PARAGUAYA DE TELECOMUNICACIONES SA",
+            "isp": "RED PARAGUAYA DE TELECOMUNICACIONES SA",
+            "address": [
+                "Super Carretera a 1000m del viaducto, xx, km 4 camino a Hernandarias",
+                "- - Ciudad del Este -",
+                "Super Carretera, Sin n\ufffdmero Ed. Neo Telecom, , a 1000m del viaducto, km 4 camino Hernandarias",
+                "7000 - Ciudad del Este -"
+            ],
+            "lat": "-25.2869",
+            "long": "-57.6511",
+            "city": "Asunci\ufffdn"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n"
+        },
+        "dns": {
+            "ptr": "143-202-210-210.neo.com.py"
+        }
+    }
+}

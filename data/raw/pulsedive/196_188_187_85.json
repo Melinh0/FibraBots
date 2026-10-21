@@ -1,0 +1,165 @@
+{
+    "qid": null,
+    "iid": 62322682,
+    "indicator": "196.188.187.85",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-11 20:37:43",
+    "stamp_updated": "2024-12-17 11:35:56",
+    "stamp_seen": "2024-12-16 17:32:29",
+    "stamp_probed": "2024-09-30 07:55:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65136595,
+                "indicator": "http:\/\/196.188.187.85\/login"
+            },
+            {
+                "iid": 62322708,
+                "indicator": "http:\/\/196.188.187.85\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-11 20:37:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Emotion",
+            "Grafana",
+            "jQuery",
+            "Monaco Editor",
+            "Nginx",
+            "Prism",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "address": [
+                "Ethiopia",
+                "Churchill Road",
+                "Addis Ababa, Ethiopia",
+                "Addis Ababa",
+                "Legehar Information System division",
+                "Ethio telecom",
+                "Addis Ababa 1047"
+            ],
+            "admin-c": "ET4-AFRINIC",
+            "country": "ET",
+            "mnt-by": [
+                "ETC-MNT",
+                "GENERATED-GRXPERJUPKL2DTQEXFFNEHRZHJZDFRJ7-MNT",
+                "GENERATED-ZPSFE1E8AGHQZZFKT4YYQSIX58FJ1MZ4-MNT"
+            ],
+            "nic-hdl": [
+                "ETID1-AFRINIC",
+                "ET4-AFRINIC"
+            ],
+            "origin": "AS24757",
+            "person": [
+                "Ethio Telecom IS Division",
+                "Ethio Telecom"
+            ],
+            "tech-c": "ETID1-AFRINIC",
+            "phone": [
+                "tel:+251-91-125-6562",
+                "tel:+251-91-151-0433",
+                "tel:+251-11-531-7220",
+                "tel:+251-93-001-1682",
+                "tel:+251-91-110-7398",
+                "tel:+251-91-124-3521",
+                "tel:+251-91-121-7654"
+            ],
+            "fax-no": "tel:+251-11-552-3296",
+            "descr": [
+                "Ethiotelecom",
+                "To__BRAS_DHCP_OA-10800E"
+            ],
+            "inetnum": "196.188.160.0 - 196.188.191.255",
+            "netname": "To__BRAS_DHCP_OA-10800E",
+            "++registrant": [
+                "ET4-AFRINIC",
+                "Ethio Telecom",
+                "Ethio Telecom IS Division"
+            ],
+            "route": "196.188.187.0\/24",
+            "source": "AFRINIC # Filtered",
+            "parent": "196.188.0.0 - 196.191.255.255"
+        },
+        "geo": {
+            "asn": "AS24757",
+            "country": "Ethiopia",
+            "countrycode": "ET",
+            "org": "Ethiopian Telecommunication Corporation",
+            "city": "Addis Ababa",
+            "region": "Addis Ababa",
+            "address": [
+                "Addis Ababa",
+                "Churchill Road",
+                "Addis Ababa, Ethiopia",
+                "Ethiopia",
+                "Ethio telecom",
+                "Legehar Information System division",
+                "Addis Ababa 1047"
+            ],
+            "long": "38.7439",
+            "lat": "9.026"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "568",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/196.188.187.85\/",
+            "date": "Mon, 18 Nov 2024 20:25:05 GMT"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c20fa09307c6b5455a362b440b51d3bb.jpeg"
+        }
+    }
+}

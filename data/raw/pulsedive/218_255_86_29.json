@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 20425677,
+    "indicator": "218.255.86.29",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-01-08 12:53:10",
+    "stamp_updated": "2024-12-15 11:33:40",
+    "stamp_seen": "2024-12-03 00:00:00",
+    "stamp_probed": "2022-11-18 12:01:02",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-02-01 13:58:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-01-08 12:53:10"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-01-09 11:24:32"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-02-01 13:58:05"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-21 21:59:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "admin-c": [
+                "HKBN-HK",
+                "HM1285-AP"
+            ],
+            "e-mail": [
+                "hostmaster@hkbn.com.hk",
+                "abuse-wtt@hkbn.com.hk"
+            ],
+            "phone": [
+                "+852-3999-3888",
+                "+000000000"
+            ],
+            "tech-c": [
+                "HKBN-HK",
+                "HM1285-AP"
+            ],
+            "++phone": [
+                "+852-3999-3888",
+                "+000000000"
+            ],
+            "++registrant": "Host Master",
+            "person": "Host Master",
+            "++email": "abuse-wtt@hkbn.com.hk",
+            "abuse-mailbox": "abuse-wtt@hkbn.com.hk",
+            "++abuse": "abuse-wtt@hkbn.com.hk",
+            "address": [
+                "Room 925, 9\/F, KITEC, 1 Trademart Drive, Kowloon Bay, Hong Kong",
+                "Trans Asia Centre"
+            ],
+            "netname": "HKBNES-HK",
+            "descr": "HKBN Enterprise Solutions HK Limited",
+            "mnt-by": [
+                "MAINT-HK-HKBNES",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-HK-HKBNES",
+            "auth": "mnt-by: MAINT-HK-HKBNES",
+            "irt": "IRT-HK-HKBNES",
+            "inetnum": "218.255.80.0 - 218.255.95.255",
+            "role": "ABUSE HKHKBNES",
+            "nic-hdl": [
+                "AH1146-AP",
+                "HM1285-AP"
+            ],
+            "abuse-c": "AH1146-AP",
+            "last-modified": [
+                "2021-05-07T06:07:00Z",
+                "2021-05-07T07:11:58Z",
+                "2022-12-01T03:42:52Z",
+                "2022-12-01T03:43:27Z"
+            ],
+            "++updated": "2022-12-01 00:00:00"
+        },
+        "geo": {
+            "country": "Hong Kong",
+            "countrycode": "HK",
+            "city": "Central",
+            "asn": "AS9381",
+            "region": "Central and Western District",
+            "org": "HKBN Enterprise Solutions HK Limited",
+            "isp": "HKBN Enterprise Solutions HK Limited",
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "vary": "User-Agent",
+            "server": "CPWS",
+            "cache-control": "no-store",
+            "content-length": "145",
+            "keep-alive": "timeout=2, max=100",
+            "++code": "302",
+            "++status": "Found",
+            "++content-type": "text\/html",
+            "location": "\/sslvpn\/Login\/Login",
+            "date": "Sat, 11 Feb 2023 00:44:22 GMT"
+        },
+        "dns": {
+            "ptr": "static.reserve.wtt.net.hk"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "robots": "noindex,nofollow"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/O=S0041_Server..z4obyw\/CN=S0041-7630740076-012 VPN Certificate",
+            "issuer": "\/O=S0041_Server..z4obyw",
+            "expires": "2023-10-10 06:53:59",
+            "valid": "2018-10-10 06:53:59",
+            "domain": "\u001c??"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/eaac2a7e1113856a43926dcbcb52d81e.jpeg"
+        }
+    }
+}

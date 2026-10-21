@@ -1,0 +1,168 @@
+{
+    "qid": null,
+    "iid": 33101197,
+    "indicator": "187.50.67.114",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-21 07:19:24",
+    "stamp_updated": "2024-12-16 11:32:30",
+    "stamp_seen": "2024-12-15 07:35:57",
+    "stamp_probed": "2024-08-29 22:41:08",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-05-07 20:41:22"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-21 07:19:24"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-05-07 20:41:23"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-10-14 19:06:55"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-08-10 05:45:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS10429",
+            "long": "-46.6409",
+            "org": "TELEFONICA BRASIL S.A",
+            "lat": "-23.6283",
+            "city": "S\ufffdo Paulo",
+            "region": "S\ufffdo Paulo"
+        },
+        "whois": {
+            "owner-c": "ARITE",
+            "ownerid": "02.558.157\/0001-62",
+            "responsible": "Diretoria de Planejamento e Tecnologia",
+            "country": "BR",
+            "aut-num": "AS10429",
+            "tech-c": "GRP95",
+            "nserver": [
+                "te-br-spo-ib-dns2.tdatabrasil.net.br",
+                "te-br-spo-tic-dns1.tdatabrasil.net.br"
+            ],
+            "inetnum": "187.50.0.0\/15",
+            "created": [
+                "20080407",
+                "20031027",
+                "20090313",
+                "20180713"
+            ],
+            "nic-hdl-br": [
+                "GRP95",
+                "ARITE",
+                "CSTBR"
+            ],
+            "person": [
+                "Grupo Provisionamento",
+                "CSIRT TELEFONICA BR",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "e-mail": [
+                "dominios-vivo.br@telefonica.com",
+                "abuse.br@telefonica.com",
+                "aprovb2b.br@telefonica.com"
+            ],
+            "changed": [
+                "20180713",
+                "20190410",
+                "20230629",
+                "20231107"
+            ],
+            "abuse-c": "CSTBR",
+            "++registrant": [
+                "CSIRT TELEFONICA BR",
+                "Grupo Provisionamento",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "++email": [
+                "dominios-vivo.br@telefonica.com",
+                "abuse.br@telefonica.com",
+                "aprovb2b.br@telefonica.com"
+            ],
+            "owner": "TELEF\ufffdNICA BRASIL S.A",
+            "inetrev": "187.50.67.0\/24",
+            "nsstat": "20241020 AA",
+            "nslastaa": "20241020"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "22": "SSH-2.0-OpenSSH_6.7\n"
+        },
+        "dns": {
+            "ptr": "187-50-67-114.customer.tdatabrasil.net.br"
+        }
+    }
+}

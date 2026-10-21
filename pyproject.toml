@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fibrabots"
+version = "0.1.0"
+description = "Coleta e consolidação de reputação de endereços IP."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "FibraBots contributors" }]
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "playwright>=1.64.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+fibrabots = "fibrabots.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "ruff>=0.8.6",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fibrabots"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

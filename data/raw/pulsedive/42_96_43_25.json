@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 60704961,
+    "indicator": "42.96.43.25",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-28 16:43:06",
+    "stamp_updated": "2024-12-11 13:53:35",
+    "stamp_seen": "2024-12-11 13:53:35",
+    "stamp_probed": "2024-08-26 22:14:01",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65837826,
+                "indicator": "https:\/\/42.96.43.25\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-28 16:43:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-05 05:33:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "asn": "AS45903",
+            "org": "CMC Telecom Infrastructure Company",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "CMCTELECOM-VN"
+            ]
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "mnt-routes": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NVH31-AP"
+            ],
+            "descr": [
+                "CMC Telecom Infrastructure Company",
+                "CMCTELECOM-VN",
+                "CMC Tower,Duy Tan, Dich Vong Hau, Cau Giay, Ha Noi"
+            ],
+            "origin": "AS45903",
+            "netname": "CMCTELECOM-VN",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-968189689",
+                "+84-366235766"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "HVA2-AP"
+            ],
+            "address": [
+                "CMCTELECOM-VN",
+                "Ha Noi, VietNam"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "hieu.nv@cmctelecom.vn",
+                "anh.hv@cmctelecom.vn"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2022-08-28T04:27:35Z",
+                "2022-09-16T17:51:36Z",
+                "2023-08-31T04:22:33Z",
+                "2023-08-31T04:56:14Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-968189689",
+                "+84-366235766"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "Nguyen Van Hieu",
+                "Hoang Viet Anh",
+                "HVA2-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "hieu.nv@cmctelecom.vn",
+                "anh.hv@cmctelecom.vn"
+            ],
+            "inetnum": "42.96.32.0 - 42.96.63.255",
+            "person": [
+                "Nguyen Van Hieu",
+                "Hoang Viet Anh"
+            ],
+            "nic-hdl": [
+                "NVH31-AP",
+                "HVA2-AP"
+            ],
+            "route": "42.96.43.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2023-08-31 04:22:33",
+                "2022-08-28 04:27:35",
+                "2023-08-31 04:56:14",
+                "2022-09-16 17:51:36"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "559",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.20.1",
+            "date": "Fri, 18 Oct 2024 11:12:25 GMT",
+            "++target": "http:\/\/42.96.43.25\/",
+            "++redirect": "https:\/\/42.96.43.25\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "fingerprint": "68ddbf7f96379cc37290740b3e51b075d5e9e4655017409da3b1a48fdb6f4660",
+            "domain": "api.gameplus.vn",
+            "valid": "2024-06-18 03:24:49",
+            "subject": "\/CN=api.gameplus.vn",
+            "expires": "2024-09-16 03:24:48"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "Y\u0000\u0000\u0000\n5.5.5-10.5.19-MariaDB\u0000\ufffd\ufffd\u0002\u0000i_~~!$\/]\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u000f\u0000\u0000\u0000jzH8!:>j|Rap\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/faba1ad9842b2c93257c17682b63954e.jpeg"
+        }
+    }
+}

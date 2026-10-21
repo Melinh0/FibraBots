@@ -1,0 +1,168 @@
+{
+    "qid": null,
+    "iid": 47233266,
+    "indicator": "94.45.76.149",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-16 03:27:19",
+    "stamp_updated": "2024-12-11 07:06:01",
+    "stamp_seen": "2024-12-11 07:06:01",
+    "stamp_probed": "2024-09-13 08:29:12",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-16 03:27:19"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-11 12:54:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": "UA",
+            "address": [
+                "Ukraine, Kiev",
+                "Ukraine, Kyiv",
+                "13b, Raduzhna street"
+            ],
+            "admin-c": "SA4405-RIPE",
+            "nic-hdl": [
+                "ZHAN1-RIPE",
+                "SA4405-RIPE"
+            ],
+            "person": [
+                "Andriy Zhydkov",
+                "Skorobagatko Andrey"
+            ],
+            "tech-c": "ZHAN1-RIPE",
+            "mnt-by": [
+                "UKRDATACOM-MNT",
+                "SUNLINE-MNT",
+                "ZHAN-MNT",
+                "DZHUVA-MNT",
+                "lir-ua-dzhuva-1-MNT"
+            ],
+            "org-name": "\"Sunline.net.ua\" LTD",
+            "abuse-c": "AR20856-RIPE",
+            "mnt-ref": "SUNLINE-MNT",
+            "org": "ORG-TA351-RIPE",
+            "organisation": "ORG-TA351-RIPE",
+            "++phone": [
+                "+380445380999",
+                "+380632598640",
+                "+380632598338"
+            ],
+            "origin": "AS47678",
+            "fax-no": "+380445380999",
+            "created": [
+                "2013-03-27T13:00:39Z",
+                "2007-03-07T12:00:43Z",
+                "2008-07-04T11:41:47Z",
+                "2023-10-17T15:55:41Z",
+                "2023-10-19T10:51:39Z"
+            ],
+            "phone": [
+                "+380445380999",
+                "+380632598640",
+                "+380632598338"
+            ],
+            "++registrant": [
+                "SA4405-RIPE",
+                "Skorobagatko Andrey",
+                "Andriy Zhydkov"
+            ],
+            "last-modified": [
+                "2021-05-17T10:23:51Z",
+                "2022-12-01T16:54:22Z",
+                "2023-10-17T16:13:40Z",
+                "2023-10-17T16:11:01Z",
+                "2023-10-19T10:51:39Z"
+            ],
+            "descr": "sunline.net.ua",
+            "netname": "SUNLINE-NET-76",
+            "inetnum": "94.45.76.0 - 94.45.79.255",
+            "route": "94.45.76.0\/22",
+            "++registered": [
+                "2007-03-07 12:00:43",
+                "2013-03-27 13:00:39",
+                "2023-10-17 15:55:41",
+                "2008-07-04 11:41:47",
+                "2023-10-19 10:51:39"
+            ],
+            "++updated": [
+                "2023-10-17 16:13:40",
+                "2021-05-17 10:23:51",
+                "2023-10-17 16:11:01",
+                "2022-12-01 16:54:22",
+                "2023-10-19 10:51:39"
+            ]
+        },
+        "geo": {
+            "country": "Ukraine",
+            "countrycode": "UA",
+            "city": "Kyiv",
+            "asn": "AS47678",
+            "org": "Sunline.net.ua LTD",
+            "region": "Kyiv City",
+            "lat": "50.458",
+            "long": "30.5303"
+        },
+        "dns": {
+            "ptr": "ip-4c95.sunline.net.ua"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\n\u0014\ufffdK\ufffd(\ufffdVu\ufffd\ufffda\u0012\ufffd\ufffdt\ufffd\u0007\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000<ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-256,ssh-rsa,ssh-dss\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd]v\ufffd\u001eKq\b\ufffd"
+        }
+    }
+}

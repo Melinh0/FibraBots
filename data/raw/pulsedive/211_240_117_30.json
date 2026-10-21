@@ -1,0 +1,216 @@
+{
+    "qid": null,
+    "iid": 64766056,
+    "indicator": "211.240.117.30",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-06 08:55:15",
+    "stamp_updated": "2024-12-10 10:39:05",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64766633,
+                "indicator": "https:\/\/211.240.117.30\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-06 08:55:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-27 21:53:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "PWA",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "admin-c": [
+                "IA8-KR",
+                "IM574-AP",
+                "IM372-AP"
+            ],
+            "descr": "ELIMNET, INC.",
+            "netname": [
+                "ELIMNET-KR",
+                "ELIMNET"
+            ],
+            "nic-hdl": [
+                "IM8-KR",
+                "IM372-AP",
+                "IA8-KR"
+            ],
+            "tech-c": [
+                "IM8-KR",
+                "IM574-AP",
+                "IM372-AP"
+            ],
+            "inetnum": "211.240.0.0 - 211.240.127.255",
+            "++registrant": [
+                "IM574-AP",
+                "IM372-AP",
+                "IA8-KR",
+                "IP Manager"
+            ],
+            "last-modified": [
+                "2019-04-29T07:40:21Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:04Z"
+            ],
+            "++phone": "+82-2-3149-4865",
+            "phone": "+82-2-3149-4865",
+            "e-mail": [
+                "irt@nic.or.kr",
+                "ict@elim.net"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Geumcheon-gu Gasan digital 1-ro",
+                "KCC Welltz Valley 14F"
+            ],
+            "++email": [
+                "irt@nic.or.kr",
+                "ict@elim.net"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4663",
+            "org": "ELIMNET, INC.",
+            "lat": "37.5112",
+            "long": "126.9741",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Geumcheon-gu Gasan digital 1-ro",
+                "KCC Welltz Valley 14F"
+            ],
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "510",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "date": "Wed, 06 Nov 2024 08:57:08 GMT",
+            "etag": "\"3ad-61cb57b5f404a-gzip\"",
+            "last-modified": "Mon, 08 Jul 2024 05:14:04 GMT",
+            "location": "http:\/\/211.240.117.30\/",
+            "++redirect": "https:\/\/211.240.117.30\/",
+            "++target": "http:\/\/211.240.117.30\/"
+        },
+        "meta": {
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1",
+            "theme-color": "#000000",
+            "charset": "utf-8",
+            "++title": "VidyoConnect\u2122",
+            "description": "VidyoConnect\u2122 is an enterprise meeting solution for team collaboration."
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "jj",
+            "expires": "2031-03-21 01:25:14",
+            "domain": "jj",
+            "fingerprint": "5a4e710c18d9d5840b0e78dcd8f02d68a17ad9a4934dc705a76c70fdd918d8dc",
+            "valid": "2021-03-23 01:25:14",
+            "subject": "\/CN=jj",
+            "issuer": "\/CN=jj"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.2\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/fc9da6a1e20c397e96bea8b988d75bd1.jpeg"
+        }
+    }
+}

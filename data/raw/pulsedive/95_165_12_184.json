@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 65449678,
+    "indicator": "95.165.12.184",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 10:07:36",
+    "stamp_updated": "2024-12-10 10:43:19",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65449941,
+                "indicator": "https:\/\/95.165.12.184\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 10:07:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-01 22:01:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Moscow, Russia",
+                "Khachaturyana 5",
+                "USPD MGTS"
+            ],
+            "admin-c": [
+                "AGS9167-RIPE",
+                "AVK103-RIPE",
+                "USPD-RIPE",
+                "GIA45-RIPE"
+            ],
+            "descr": [
+                "Moscow, Russia",
+                "Moscow Local Telephone Network (OAO MGTS)"
+            ],
+            "mnt-by": "MGTS-USPD-MNT",
+            "netname": "MGTS-PPPOE",
+            "nic-hdl": "USPD-RIPE",
+            "origin": "AS25513",
+            "tech-c": [
+                "ANO3-RIPE",
+                "USPD-RIPE",
+                "AVK103-RIPE",
+                "VMK"
+            ],
+            "created": [
+                "2009-01-27T13:52:05Z",
+                "2006-09-11T07:56:01Z",
+                "2009-11-27T18:33:25Z"
+            ],
+            "last-modified": [
+                "2009-01-27T13:52:05Z",
+                "2009-11-27T18:33:25Z",
+                "2022-04-04T16:36:51Z"
+            ],
+            "route": "95.165.0.0\/16",
+            "role": "PJSC Moscow City Telephone Network NOC",
+            "inetnum": "95.165.0.0 - 95.165.127.255",
+            "++registrant": [
+                "USPD-RIPE",
+                "AGS9167-RIPE",
+                "AVK103-RIPE",
+                "GIA45-RIPE"
+            ],
+            "abuse-mailbox": "abuse@spd-mgts.ru",
+            "++abuse": "abuse@spd-mgts.ru",
+            "++email": "abuse@spd-mgts.ru",
+            "++updated": [
+                "2022-04-04 16:36:51",
+                "2009-01-27 13:52:05"
+            ],
+            "++registered": [
+                "2006-09-11 07:56:01",
+                "2009-01-27 13:52:05",
+                "2009-11-27 18:33:25"
+            ]
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS25513",
+            "address": [
+                "Moscow, Russia",
+                "USPD MGTS",
+                "Khachaturyana 5"
+            ],
+            "org": "PJSC Moscow city telephone network",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "++code": "403",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "content-length": "564",
+            "date": "Fri, 29 Nov 2024 10:07:52 GMT",
+            "++redirect": "https:\/\/95.165.12.184\/",
+            "++target": "http:\/\/95.165.12.184\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "domain": [
+                "*.ramzol.ru",
+                "ramzol.ru"
+            ],
+            "subject": "\/CN=*.ramzol.ru",
+            "fingerprint": "85d7d54f22db3241387bc3bce60cc2c0b7ee2497686e3e466771982c3acaa936",
+            "expires": "2025-01-09 06:52:24",
+            "valid": "2024-10-11 06:52:25"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "143": "* OK IMAP4 ready\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 mail.ramzol.ru ESMTP ready\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/054789b57cf969ed1e56c743c2a086c0.jpeg"
+        }
+    }
+}

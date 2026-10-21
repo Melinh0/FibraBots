@@ -1,0 +1,195 @@
+{
+    "qid": null,
+    "iid": 65318229,
+    "indicator": "217.117.112.22",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-26 09:51:58",
+    "stamp_updated": "2024-12-16 11:33:51",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65366224,
+                "indicator": "https:\/\/217.117.112.22\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-26 09:51:58"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-27 21:53:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3306",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "descr": [
+                "Moscow, Russia",
+                "Procenter Network",
+                "Procenter Ltd."
+            ],
+            "mnt-by": [
+                "RIPE-NCC-LOCKED-MNT",
+                "PROCENTER-MNT",
+                "ru-niko-2001-1-mnt"
+            ],
+            "last-modified": [
+                "2016-04-06T17:00:49Z",
+                "2004-02-20T14:34:40Z",
+                "2004-11-09T08:00:53Z",
+                "2020-06-04T11:31:32Z"
+            ],
+            "tech-c": "RVP11-RIPE",
+            "address": [
+                "Procentr ltd",
+                "40, Leninsky prospekt",
+                "119296, Moscow,Russian Federation",
+                "5, Universitetskiy prospekt, 119296, Moscow, Russian Federation"
+            ],
+            "netname": "RU-PROC",
+            "++phone": "+749257441075",
+            "origin": "AS30953",
+            "route": "217.117.112.0\/20",
+            "admin-c": "VM139-RIPE",
+            "nic-hdl": [
+                "RVP11-RIPE",
+                "VM139-RIPE"
+            ],
+            "person": [
+                "Ruslan V Pustovoytov",
+                "Victor Malimon"
+            ],
+            "++registrant": [
+                "VM139-RIPE",
+                "Ruslan V Pustovoytov",
+                "Victor Malimon"
+            ],
+            "phone": [
+                "+7 495 7441075",
+                "+749257441075"
+            ],
+            "created": [
+                "2004-11-04T13:15:43Z",
+                "2003-07-08T08:51:51Z",
+                "2004-02-20T14:34:40Z",
+                "2004-03-12T13:32:22Z"
+            ],
+            "++registered": [
+                "2004-11-04 13:15:43",
+                "2003-07-08 08:51:51",
+                "2004-02-20 14:34:40"
+            ],
+            "inetnum": "217.117.112.0 - 217.117.112.255",
+            "++updated": [
+                "2016-04-06 17:00:49",
+                "2020-06-04 11:31:32",
+                "2004-02-20 14:34:40"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS30953",
+            "org": "Niko-2001 LLC",
+            "country": "Russia",
+            "address": [
+                "Procentr ltd",
+                "40, Leninsky prospekt",
+                "119296, Moscow,Russian Federation",
+                "5, Universitetskiy prospekt, 119296, Moscow, Russian Federation"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "595",
+            "server": "nginx\/1.14.1",
+            "++code": "500",
+            "++content-type": "text\/html",
+            "date": "Thu, 28 Nov 2024 00:35:04 GMT",
+            "++redirect": "https:\/\/217.117.112.22\/",
+            "++target": "http:\/\/217.117.112.22\/"
+        },
+        "ssl": {
+            "issuer": "\/CN=letsencrypt-nginx-proxy-companion",
+            "subject": "\/CN=letsencrypt-nginx-proxy-companion",
+            "org": "letsencrypt-nginx-proxy-companion",
+            "version": "v0",
+            "expires": "2025-07-24 07:18:02",
+            "fingerprint": "2bba721a55548ec6bb14b1ff3b42457a892df0294c8611fb27f10c9126c4906d",
+            "valid": "2024-07-24 07:18:02"
+        },
+        "meta": {
+            "++title": "500 Internal Server Error"
+        },
+        "banners": {
+            "3306": "J\u0000\u0000\u0000\n5.7.25\u0000\u02df\u0000\u00009\/\u001az\u0004J\u000e(\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ur5\u0003!-#%n\u0003\f\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a20ac92f4218b6c8a901e9265121b65f.jpeg"
+        }
+    }
+}

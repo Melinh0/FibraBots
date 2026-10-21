@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 48312279,
+    "indicator": "77.65.215.15",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-17 00:48:50",
+    "stamp_updated": "2024-11-23 17:20:09",
+    "stamp_seen": "2024-11-23 17:20:09",
+    "stamp_probed": "2024-07-23 10:11:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64197844,
+                "indicator": "https:\/\/77.65.215.15\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-17 00:48:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "80",
+            "8080",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Let's Encrypt"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "PL",
+            "abuse-mailbox": "abuse@inetia.pl",
+            "admin-c": [
+                "MO3780-RIPE",
+                "AS45958-RIPE"
+            ],
+            "fax-no": "+48(22)352 2213",
+            "mnt-by": "NETIA-MNT",
+            "mnt-lower": "NETIA-MNT",
+            "mnt-routes": "NETIA-MNT",
+            "nic-hdl": [
+                "NT1264-RIPE",
+                "AS45958-RIPE"
+            ],
+            "phone": [
+                "+48(22)352 0000",
+                "+48 500 450 100"
+            ],
+            "role": "Netia Telekom S.A. Contact Role",
+            "tech-c": [
+                "PN4644-RIPE",
+                "RPOZ-RIPE",
+                "AK3224-RIPE",
+                "NT1264-RIPE",
+                "KP2343-RIPE",
+                "MM18723-RIPE"
+            ],
+            "person": "Adam Szendzielorz",
+            "last-modified": [
+                "2017-01-10T08:56:03Z",
+                "2022-02-04T10:45:22Z",
+                "2021-12-07T06:36:04Z",
+                "2021-12-09T10:46:50Z"
+            ],
+            "address": [
+                "Poleczki 13",
+                "02-822 Warszawa",
+                "Poland",
+                "1 Maja 7",
+                "Jastrzebie-Zdroj"
+            ],
+            "created": [
+                "2002-09-05T10:14:26Z",
+                "2021-11-09T06:06:24Z",
+                "2021-12-09T10:46:50Z"
+            ],
+            "++abuse": "abuse@inetia.pl",
+            "++registrant": [
+                "MO3780-RIPE",
+                "AS45958-RIPE",
+                "Adam Szendzielorz"
+            ],
+            "++email": "abuse@inetia.pl",
+            "origin": "AS210379",
+            "route": "77.65.212.0\/22",
+            "descr": [
+                "PROGRESO.PL SP Z O.O",
+                "1 Maja 7 Jastrzebie-Zdroj 44-330"
+            ],
+            "netname": "PROGRESO",
+            "inetnum": "77.65.212.0 - 77.65.215.255",
+            "++updated": [
+                "2017-01-10 08:56:03",
+                "2022-02-04 10:45:22",
+                "2021-12-07 06:36:04",
+                "2021-12-09 10:46:50"
+            ],
+            "++registered": [
+                "2002-09-05 10:14:26",
+                "2021-11-09 06:06:24",
+                "2021-12-09 10:46:50"
+            ]
+        },
+        "geo": {
+            "country": "Poland",
+            "countrycode": "PL",
+            "lat": "52.2394",
+            "long": "21.0362",
+            "address": [
+                "Poland",
+                "Poleczki 13",
+                "02-822 Warszawa",
+                "1 Maja 7",
+                "Jastrzebie-Zdroj"
+            ],
+            "asn": "AS210379",
+            "org": "PROGRESO.PL Sp. z o.o"
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html; charset=iso-8859-1",
+            "content-length": "19",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "date": "Wed, 02 Oct 2024 08:23:28 GMT",
+            "++target": "http:\/\/77.65.215.15\/",
+            "++redirect": "https:\/\/77.65.215.15\/"
+        },
+        "ssl": {
+            "domain": [
+                "progreso.pl",
+                "*.progreso.pl"
+            ],
+            "subject": "\/CN=*.progreso.pl",
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "fingerprint": "5c73250cde854a940672a20d066036183ffe339eef32cb97d7aa19d87575a376",
+            "expires": "2024-12-17 02:26:13",
+            "valid": "2024-09-18 02:26:14"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] IMAP powered by progreso.pl\n",
+            "25": "220 p5204-smtp.progreso.pl ESMTP\n",
+            "21": "220 ProFTPD Server (p5204.progreso.pl) [::ffff:77.65.215.15]\n",
+            "22": "SSH-2.0-OpenSSH_9.8\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "p5204.progreso.pl"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/2c2094088f3e259ab0ed2c96c4343971.jpeg"
+        }
+    }
+}

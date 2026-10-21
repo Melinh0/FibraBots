@@ -1,0 +1,163 @@
+{
+    "qid": null,
+    "iid": 64068179,
+    "indicator": "45.84.107.76",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-06 12:15:46",
+    "stamp_updated": "2024-12-14 17:01:44",
+    "stamp_seen": "2024-11-28 08:45:40",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64068194,
+                "indicator": "http:\/\/45.84.107.76\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2024-10-06 12:15:46"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-24 08:17:24"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2024-10-06 12:15:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "Sweden",
+                "c\/o Helioworks",
+                "QuxLabs AB",
+                "Sundbybergs Torg 1",
+                "172 67 Sundbyberg"
+            ],
+            "country": "EU",
+            "mnt-by": "MNT-QUXLABS",
+            "++registered": [
+                "2024-04-29 07:40:19",
+                "2024-08-08 08:19:19",
+                "2024-08-08 08:25:10"
+            ],
+            "tech-c": "NA8786-RIPE",
+            "admin-c": "NA8786-RIPE",
+            "geofeed": "https:\/\/as203038.net\/geofeed.csv",
+            "role": "QuxLabs AB NOC",
+            "last-modified": [
+                "2024-08-08T15:47:49Z",
+                "2024-08-08T08:19:19Z",
+                "2024-08-08T08:25:10Z"
+            ],
+            "nic-hdl": "NA8786-RIPE",
+            "++updated": [
+                "2024-08-08 15:47:49",
+                "2024-08-08 08:25:10"
+            ],
+            "++registrant": "NA8786-RIPE",
+            "created": [
+                "2024-04-29T07:40:19Z",
+                "2024-08-08T08:19:19Z",
+                "2024-08-08T08:25:10Z"
+            ],
+            "origin": "AS214503",
+            "netname": "R0CKET-CLOUD-2",
+            "inetnum": "45.84.107.0 - 45.84.107.255",
+            "route": "45.84.107.0\/24"
+        },
+        "geo": {
+            "country": [
+                "Sweden",
+                "European Union"
+            ],
+            "countrycode": [
+                "SE",
+                "EU"
+            ],
+            "lat": "59.3247",
+            "long": "18.056",
+            "address": [
+                "Sweden",
+                "c\/o Helioworks",
+                "QuxLabs AB",
+                "Sundbybergs Torg 1",
+                "172 67 Sundbyberg"
+            ],
+            "asn": "AS214503",
+            "org": "QuxLabs AB"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "32669",
+            "++content-type": "text\/html",
+            "x-your-address-is": "172.233.44.13",
+            "++target": "http:\/\/45.84.107.76\/",
+            "expires": "Tue, 22 Oct 2024 08:59:23 GMT",
+            "date": "Tue, 22 Oct 2024 08:39:23 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "++title": "This is a Tor Exit Router"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b97beb67852ae23e275cfc17f3cd81a5.jpeg"
+        }
+    }
+}

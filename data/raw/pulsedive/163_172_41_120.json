@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 64382821,
+    "indicator": "163.172.41.120",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-18 06:23:17",
+    "stamp_updated": "2024-12-11 10:40:40",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64382902,
+                "indicator": "http:\/\/163.172.41.120\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-18 06:23:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-30 21:52:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "PWA"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "address": [
+                "see http:\/\/www.iana.org.",
+                "Brisbane, Australia"
+            ],
+            "role": [
+                "Internet Assigned Numbers Authority",
+                "ABUSE APNICAP"
+            ],
+            "country": [
+                "AU",
+                "ZZ"
+            ],
+            "admin-c": [
+                "IANA1-AP",
+                "HM20-AP"
+            ],
+            "descr": "Early registration addresses",
+            "inetnum": "163.0.0.0 - 163.255.255.255",
+            "irt": "IRT-APNIC-AP",
+            "mnt-by": [
+                "MAINT-APNIC-AP",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-APNIC-AP",
+            "mnt-lower": "APNIC-HM",
+            "netname": "ERX-NETBLOCK",
+            "nic-hdl": [
+                "IANA1-AP",
+                "AA1452-AP"
+            ],
+            "tech-c": [
+                "IANA1-AP",
+                "NO4-AP"
+            ],
+            "e-mail": "helpdesk@apnic.net",
+            "abuse-mailbox": "helpdesk@apnic.net",
+            "last-modified": [
+                "2018-06-22T22:34:30Z",
+                "2021-04-16T06:53:35Z",
+                "2023-08-18T00:42:38Z",
+                "2023-08-18T19:08:30Z"
+            ],
+            "++phone": "+000000000",
+            "phone": "+000000000",
+            "++abuse": "helpdesk@apnic.net",
+            "++registrant": [
+                "IANA1-AP",
+                "HM20-AP"
+            ],
+            "++email": "helpdesk@apnic.net",
+            "abuse-c": "AA1452-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-08-18 00:42:38",
+                "2018-06-22 22:34:30",
+                "2023-08-18 19:08:30"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Australia",
+                "France",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "AU",
+                "FR",
+                "ZZ"
+            ],
+            "asn": "AS12876",
+            "lat": "48.8582",
+            "long": "2.3387",
+            "address": [
+                "see http:\/\/www.iana.org.",
+                "Brisbane, Australia"
+            ],
+            "org": "Scaleway S.a.s."
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "referrer-policy": "no-referrer",
+            "x-permitted-cross-domain-policies": "none",
+            "x-robots-tag": "noindex, nofollow",
+            "transfer-encoding": "chunked",
+            "++code": "400",
+            "++status": "Bad Request",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "x-powered-by": "PHP\/8.2.24",
+            "server": "nginx\/1.27.2",
+            "content-security-policy": "default-src 'self'; script-src 'self' 'nonce-akw0TVYyUXBWcklIQkh0QUF0UWtrUnZJQVVKMGhYc2orc1hrMjA2WUpVTT06L1loZ1BsRlBQK0JQUlU4UFphVnE4MkwvWkJJMnJoZG92NE9vcURUVGZ5OD0='; style-src 'self' 'unsafe-inline'; frame-src *; img-src * data: blob:; font-src 'self' data:; media-src *; connect-src *; object-src 'none'; base-uri 'self';",
+            "date": "Fri, 18 Oct 2024 06:23:34 GMT",
+            "set-cookie": "ocss84pl7xw0=703ed8d33b131e85c506d60455081061; path=\/; HttpOnly; SameSite=Lax\noc_sessionPassphrase=66gABq73r7eJO33pG6J8KCInOJK6jO%2FA8gtB6jIGfWhETg7PGgFzdp4RgxQg%2BwCqDbXl%2Ft3CfFUZzAhDmfSoIKCjOwVQiWod0%2FfeYrrP4rSgOPQjwM0wkNtcCmJY5dKb; path=\/; HttpOnly; SameSite=Lax\nocss84pl7xw0=703ed8d33b131e85c506d60455081061; path=\/; HttpOnly; SameSite=Lax\nnc_sameSiteCookielax=true; path=\/; httponly;expires=Fri, 31-Dec-2100 23:59:59 GMT; SameSite=lax\nnc_sameSiteCookiestrict=true; path=\/; httponly;expires=Fri, 31-Dec-2100 23:59:59 GMT; SameSite=strict\nocss84pl7xw0=703ed8d33b131e85c506d60455081061; path=\/; HttpOnly; SameSite=Lax",
+            "++target": "http:\/\/163.172.41.120\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+            "++title": "Nextcloud",
+            "apple-itunes-app": "app-id=1125420102",
+            "theme-color": "#0082c9",
+            "charset": "utf-8"
+        },
+        "cookies": {
+            "nc_samesitecookiestrict": "true",
+            "nc_samesitecookielax": "true",
+            "ocss84pl7xw0": "703ed8d33b131e85c506d60455081061",
+            "oc_sessionpassphrase": "66gABq73r7eJO33pG6J8KCInOJK6jO%2FA8gtB6jIGfWhETg7PGgFzdp4RgxQg%2BwCqDbXl%2Ft3CfFUZzAhDmfSoIKCjOwVQiWod0%2FfeYrrP4rSgOPQjwM0wkNtcCmJY5dKb"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/419c4ba8dfafeb92ac59b64e01bd4943.jpeg"
+        }
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "qid": null,
+    "iid": 40252948,
+    "indicator": "102.130.127.117",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-21 10:25:06",
+    "stamp_updated": "2024-12-18 09:36:19",
+    "stamp_seen": "2024-12-18 09:36:18",
+    "stamp_probed": "2024-09-07 08:40:17",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-01-22 19:24:32"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2022-10-21 10:25:06"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-04 10:52:53"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-01-22 19:24:32"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2022-10-21 10:25:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-01-19 04:58:00"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 549839,
+            "username": "cepheuskb",
+            "title": "",
+            "comment": "Scanning for vulnerable FTP and Apache hosts",
+            "stamp_added": "2023-11-30 17:25:04",
+            "stamp_updated": "2023-11-30 17:25:04"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "ZA",
+            "origin": [
+                "AS37153",
+                "AS328364"
+            ],
+            "address": [
+                "South Africa",
+                "12 Helena Avenue",
+                "Somerset West, Cape Town"
+            ],
+            "admin-c": "MO39-AFRINIC",
+            "descr": [
+                "Hostafrica route object",
+                "HA-VPS-NET"
+            ],
+            "mnt-by": [
+                "Cloud-to-Machine-MNT",
+                "GENERATED-R5ARXRH714SOBJKNEIOWUVM3XMVLBZYK-MNT"
+            ],
+            "nic-hdl": "MO39-AFRINIC",
+            "person": "Michael Osterloh",
+            "tech-c": "MO39-AFRINIC",
+            "netname": "HA-VPS-NET",
+            "phone": "tel:+27-21-554-3096",
+            "fax-no": "tel:+27-21-554-3096",
+            "++registrant": [
+                "MO39-AFRINIC",
+                "Michael Osterloh"
+            ],
+            "route": "102.130.127.0\/24",
+            "inetnum": "102.130.127.0 - 102.130.127.255",
+            "source": "AFRINIC # Filtered",
+            "parent": "102.130.112.0 - 102.130.127.255"
+        },
+        "geo": {
+            "country": "South Africa",
+            "countrycode": "ZA",
+            "asn": "AS328364",
+            "address": [
+                "South Africa",
+                "12 Helena Avenue",
+                "Somerset West, Cape Town"
+            ],
+            "org": "Host-Africa-AS",
+            "lat": "-28.9984",
+            "long": "23.9888"
+        }
+    }
+}

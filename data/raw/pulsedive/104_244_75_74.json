@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 28722361,
+    "indicator": "104.244.75.74",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-10-13 00:01:47",
+    "stamp_updated": "2024-12-25 17:23:39",
+    "stamp_seen": "2024-12-25 17:23:39",
+    "stamp_probed": "2024-08-28 03:27:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 28722362,
+                "indicator": "http:\/\/104.244.75.74\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-06-14 22:59:40"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-10-13 00:01:47"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-27 05:14:33"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-10-13 00:01:47"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-06-14 22:59:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "LU"
+            ],
+            "updated": [
+                "2017-01-28",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "nettype": [
+                "Direct Allocation",
+                "Reallocated"
+            ],
+            "parent": [
+                "NET104 (NET-104-0-0-0-0)",
+                "PONYNET-14 (NET-104-244-72-0-1)"
+            ],
+            "++phone": "+1-778-977-8246",
+            "++registrant": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "address": [
+                "1621 Central Ave",
+                "3, op der Poukewiss"
+            ],
+            "cidr": "104.244.72.0\/21",
+            "city": [
+                "Cheyenne",
+                "Roost"
+            ],
+            "nethandle": [
+                "NET-104-244-72-0-1",
+                "NET-104-244-72-0-2"
+            ],
+            "netname": [
+                "PONYNET-14",
+                "BUYVM-LUXEMBOURG-01"
+            ],
+            "netrange": "104.244.72.0 - 104.244.79.255",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": [
+                "FranTech Solutions (SYNDI-5)",
+                "BuyVM (BUYVM)"
+            ],
+            "orgid": [
+                "SYNDI-5",
+                "BUYVM"
+            ],
+            "orgname": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": [
+                "82001",
+                "7795"
+            ],
+            "regdate": [
+                "2010-07-21",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "stateprov": "WY",
+            "++abuse": "fdias@frantech.ca",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "++registered": "2017-10-01 00:00:00",
+            "++updated": "2017-10-01 00:00:00",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.244.72.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BUYVM"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN"
+        },
+        "geo": {
+            "asn": "AS53667",
+            "country": "Luxembourg",
+            "countrycode": "LU",
+            "city": "Luxembourg",
+            "region": "Luxembourg",
+            "long": "6.1294",
+            "org": "PONYNET",
+            "lat": "49.6113"
+        },
+        "http": {
+            "++code": "404",
+            "++status": "Not found",
+            "date": "Wed, 28 Aug 2024 03:20:48 GMT"
+        },
+        "dns": {
+            "ptr": "this-is-a-tor-exit-node.h-o-s-t.name"
+        }
+    }
+}

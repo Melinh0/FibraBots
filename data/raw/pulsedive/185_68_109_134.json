@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 65056770,
+    "indicator": "185.68.109.134",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-17 09:20:29",
+    "stamp_updated": "2024-12-11 10:41:53",
+    "stamp_seen": "2024-11-17 09:32:32",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65057992,
+                "indicator": "https:\/\/185.68.109.134\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-17 09:20:29"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "ES",
+            "descr": [
+                "PROFESIONALHOSTING",
+                "IP addresses are assigned statically"
+            ],
+            "mnt-by": [
+                "PROFESIONALHOSTING-MNT",
+                "MNT-DESAFIOCLOUD",
+                "PROFESIONALHOSTING"
+            ],
+            "origin": "AS201446",
+            "netname": "PROFESIONALHOSTING",
+            "admin-c": "DC10120-RIPE",
+            "tech-c": "DC10120-RIPE",
+            "++phone": "+34911401900",
+            "nic-hdl": "DC10120-RIPE",
+            "phone": "+34911401900",
+            "created": [
+                "2013-02-07T12:11:06Z",
+                "2017-08-30T22:22:35Z",
+                "2015-03-11T17:21:12Z"
+            ],
+            "last-modified": [
+                "2015-03-11T17:21:12Z",
+                "2019-09-25T15:23:07Z",
+                "2020-02-08T13:03:43Z"
+            ],
+            "route": "185.68.109.0\/24",
+            "inetnum": "185.68.109.0 - 185.68.109.255",
+            "++registrant": [
+                "DC10120-RIPE",
+                "Mattias Kaneteg"
+            ],
+            "person": "Mattias Kaneteg",
+            "address": "C\/Hermanos Machado 19",
+            "++registered": [
+                "2013-02-07 12:11:06",
+                "2017-08-30 22:22:35",
+                "2015-03-11 17:21:12"
+            ],
+            "++updated": [
+                "2019-09-25 15:23:07",
+                "2020-02-08 13:03:43",
+                "2015-03-11 17:21:12"
+            ]
+        },
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "asn": "AS201446",
+            "org": "Soluciones web on line s.l.",
+            "lat": "40.4172",
+            "long": "-3.684",
+            "address": "C\/Hermanos Machado 19"
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html; charset=iso-8859-1",
+            "content-length": "402",
+            "strict-transport-security": "max-age=63072000;",
+            "++code": "403",
+            "++content-type": "text\/html",
+            "date": "Sun, 17 Nov 2024 09:32:08 GMT",
+            "++target": "http:\/\/185.68.109.134\/",
+            "++redirect": "https:\/\/185.68.109.134\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Plesk",
+            "subject": "\/C=CH\/L=Schaffhausen\/O=Plesk\/CN=Plesk\/E=info@plesk.com",
+            "issuer": "\/C=CH\/L=Schaffhausen\/O=Plesk\/CN=Plesk\/E=info@plesk.com",
+            "++subject": "Plesk",
+            "expires": "2022-02-18 14:24:40",
+            "fingerprint": "27438fed51bdcbdde17dc1b39d6cf1c450f84e31172409342c6b02e80f2c9e6d",
+            "valid": "2021-02-18 14:24:40"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "3306": "n\u0000\u0000\u0000\n5.5.5-10.5.8-MariaDB-1:10.5.8+maria~buster\u0000'\ufffd\u0007\u000043B1mS8Z\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u000f\u0000\u0000\u0000AuJQ9g}_Cp-,\u0000mysql_native_password\u0000",
+            "25": "220 dns109134.phdns5.es ESMTP Postfix (Debian\/GNU)\n",
+            "21": "220 ProFTPD Server (ProFTPD) [185.68.109.134]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b70073153f827d8d40b2d2d9e96423fe.jpeg"
+        }
+    }
+}

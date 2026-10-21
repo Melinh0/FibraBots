@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 62395379,
+    "indicator": "45.168.168.78",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-15 21:19:38",
+    "stamp_updated": "2024-12-16 17:46:00",
+    "stamp_seen": "2024-12-16 17:46:00",
+    "stamp_probed": "2024-09-30 13:00:17",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62398013,
+                "indicator": "https:\/\/45.168.168.78\/"
+            },
+            {
+                "iid": 62715904,
+                "indicator": "https:\/\/45.168.168.78\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-15 21:19:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "jQuery UI",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Minas Gerais",
+            "asn": "AS268077",
+            "org": "WEBLINK TECNOLOGIA LTDA",
+            "long": "-40.56",
+            "city": "Rio do Prado",
+            "lat": "-16.6834"
+        },
+        "whois": {
+            "country": "UY",
+            "parent": "NET45 (NET-45-0-0-0-0)",
+            "address": "Rambla Republica de Mexico 6125",
+            "city": "Montevideo",
+            "orgabusename": "LACNIC Whois Info",
+            "organization": "Latin American and Caribbean IP address Regional Registry (LACNIC)",
+            "orgid": "LACNIC",
+            "orgname": "Latin American and Caribbean IP address Regional Registry",
+            "orgtechemail": "whois-contact@lacnic.net",
+            "orgtechhandle": "LACNIC-ARIN",
+            "orgtechname": "LACNIC Whois Info",
+            "postalcode": "11400",
+            "referralserver": "whois:\/\/whois.lacnic.net",
+            "regdate": [
+                "2002-07-27",
+                "2014-09-10"
+            ],
+            "resourcelink": [
+                "http:\/\/lacnic.net\/cgi-bin\/lacnic\/whois",
+                "whois.lacnic.net"
+            ],
+            "++registered": [
+                "2014-09-10 00:00:00",
+                "2002-07-27 00:00:00"
+            ],
+            "nettype": "Transferred to LACNIC",
+            "++updated": [
+                "2018-03-15 00:00:00",
+                "2023-01-25 00:00:00"
+            ],
+            "updated": [
+                "2018-03-15",
+                "2023-01-25"
+            ],
+            "orgabusehandle": "LWI100-ARIN",
+            "orgabuseemail": "abuse@lacnic.net",
+            "orgtechphone": "+598-2604-2222",
+            "orgabusephone": "+598-2604-2222",
+            "++abuse": "abuse@lacnic.net",
+            "netname": "LACNIC",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/LACNIC-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/LACNIC",
+                "https:\/\/rdap.arin.net\/registry\/ip\/45.160.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/LWI100-ARIN",
+            "nethandle": "NET-45-160-0-0-1",
+            "++privacy": "1",
+            "netrange": "45.160.0.0 - 45.181.77.255",
+            "cidr": "45.181.64.0\/21, 45.160.0.0\/12, 45.176.0.0\/14, 45.181.0.0\/18, 45.181.76.0\/23, 45.181.72.0\/22, 45.180.0.0\/16"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "lighttpd\/1.4.39",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "transfer-encoding": "chunked",
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "set-cookie": "ui_language=pt_PT; Path=\/; Expires=Tuesday, 1-Jan-38 00:00:00 GMT; HttpOnly",
+            "++content-type": "text\/html",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "++redirect": "https:\/\/45.168.168.78\/login.cgi?uri=\/",
+            "++target": "http:\/\/45.168.168.78\/",
+            "location": "http:\/\/45.168.168.78\/",
+            "date": "Tue, 27 Aug 2024 06:23:16 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "0",
+            "++title": "Iniciar sess\ufffdo"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-01-01 00:00:00",
+            "expires": "2038-01-01 00:00:00",
+            "org": "UBNT-F0:9F:C2:E2:9A:55",
+            "domain": "UBNT-F0:9F:C2:E2:9A:55",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-F0:9F:C2:E2:9A:55\/E=support@ubnt.com",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-F0:9F:C2:E2:9A:55\/E=support@ubnt.com",
+            "++subject": "Ubiquiti Networks Inc.",
+            "fingerprint": "c6615fe88cd8b07d630f3bc2f730260df841e156973b656d8158108897b3deb0"
+        },
+        "cookies": {
+            "ui_language": "pt_PT",
+            "airos_f09fc2e29a55": "1a4057a122cd4d8f4742e5fdfd783edb"
+        },
+        "dns": {
+            "ptr": "78-168-168-45.weblinknet.com.br"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b0eddd4e9ab9a90943c9063ef48282f7.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001<\u000b\u0014<\ufffd\ufffd\ufffd\ufffd&\ufffd\ufffd\ufffdX\ufffdK\u0004C\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\/+\u0014\ufffd\ufffdQ6\u00c2\ufffd\ufffd"
+        }
+    }
+}

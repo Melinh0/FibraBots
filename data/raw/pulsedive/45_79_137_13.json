@@ -1,0 +1,153 @@
+{
+    "qid": null,
+    "iid": 37694180,
+    "indicator": "45.79.137.13",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-07-30 12:59:44",
+    "stamp_updated": "2022-11-02 12:55:04",
+    "stamp_seen": "2022-07-30 13:00:26",
+    "stamp_probed": "2022-07-30 13:00:25",
+    "stamp_retired": "2022-11-02 12:55:04",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2022-07-30 12:59:44"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2022-07-30 12:59:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++abuse": "abuse@linode.com",
+            "++email": "support@linode.com",
+            "++phone": "+1-609-380-7304",
+            "++registrant": "Linode",
+            "netname": "LINODE-US",
+            "orgabuseemail": "abuse@linode.com",
+            "orgabusehandle": "LAS12-ARIN",
+            "orgabusename": "Linode Abuse Support",
+            "orgabusephone": "+1-609-380-7100",
+            "organization": "Linode (LINOD)",
+            "orgid": "LINOD",
+            "orgname": "Linode",
+            "orgnocemail": "support@linode.com",
+            "orgnochandle": "LNO21-ARIN",
+            "orgnocname": "Linode Network Operations",
+            "orgnocphone": "+1-609-380-7304",
+            "orgtechemail": "support@linode.com",
+            "orgtechhandle": "LNO21-ARIN",
+            "orgtechname": "Linode Network Operations",
+            "orgtechphone": "+1-609-380-7304",
+            "regdate": [
+                "2008-04-24",
+                "2015-04-29"
+            ],
+            "++registered": "2015-04-29 00:00:00",
+            "originas": "AS3595, AS21844, AS6939, AS8001",
+            "parent": "NET45 (NET-45-0-0-0-0)",
+            "stateprov": "PA",
+            "cidr": "45.79.0.0\/16",
+            "nethandle": "NET-45-79-0-0-1",
+            "netrange": "45.79.0.0 - 45.79.255.255",
+            "city": "Philadelphia",
+            "postalcode": "19106",
+            "updated": [
+                "2015-04-29",
+                "2019-06-28"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/LNO21-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/LINOD",
+                "https:\/\/rdap.arin.net\/registry\/ip\/45.79.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/LAS12-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/LNO21-ARIN",
+            "++updated": "2019-06-28 00:00:00",
+            "address": "249 Arch St"
+        },
+        "geo": {
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "PA"
+            ],
+            "asn": "AS63949",
+            "isp": "Linode, LLC",
+            "org": [
+                "Linode, LLC",
+                "Linode (LINOD)"
+            ],
+            "city": [
+                "Philadelphia",
+                "Cedar Knolls"
+            ],
+            "zip": [
+                "19106",
+                "07927"
+            ],
+            "lat": "40.8229",
+            "country": "United States of America",
+            "address": "249 Arch St",
+            "long": "-74.4592"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\n"
+        },
+        "dns": {
+            "ptr": "45-79-137-13.ip.linodeusercontent.com"
+        }
+    }
+}

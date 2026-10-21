@@ -1,0 +1,208 @@
+{
+    "qid": null,
+    "iid": 37287082,
+    "indicator": "179.60.150.118",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-07-16 15:43:27",
+    "stamp_updated": "2024-10-08 13:07:33",
+    "stamp_seen": "2024-07-05 13:50:38",
+    "stamp_probed": "2024-07-05 13:50:38",
+    "stamp_retired": "2024-10-08 13:07:33",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-08-10 01:24:43"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-07-16 15:43:27"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-15 06:35:24"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-08-10 01:52:57"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-08-10 01:24:43"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-16 22:21:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "161",
+            "21",
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SNMP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "reallocated",
+            "aut-num": "N\/A",
+            "country": "BZ",
+            "responsible": "Eduardo Vega",
+            "++phone": "+507 838 74887",
+            "phone": "+507 838 74887",
+            "++registered": "2020-10-26 00:00:00",
+            "changed": [
+                "20201026",
+                "20210701"
+            ],
+            "created": "20201026",
+            "abuse-c": "MGL28",
+            "nic-hdl": "MGL28",
+            "ownerid": "BZ-MGLT-LACNIC",
+            "++abuse": "MGL28",
+            "owner": "MAXWELL GROUP LTD",
+            "tech-c": "MGL28",
+            "owner-c": "MGL28",
+            "person": "MAXWELL GROUP LTD",
+            "inetnum": "179.60.150.0\/24",
+            "address": [
+                "Albert St, 81, ---",
+                "0000 - Belize - --"
+            ],
+            "inetnum-up": "179.60.144.0\/21",
+            "++registrant": "MAXWELL GROUP LTD",
+            "e-mail": "info@amperehost.com",
+            "++email": "info@amperehost.com",
+            "inetrev": "179.60.150.0\/24",
+            "nserver": [
+                "NS1.AMPEREHOST.COM",
+                "NS2.AMPEREHOST.COM"
+            ],
+            "nslastaa": "20240701",
+            "nsstat": "20240701 AA"
+        },
+        "geo": {
+            "region": "Distrito Federal",
+            "country": [
+                "Belize",
+                "Venezuela (Bolivarian Republic of)"
+            ],
+            "countrycode": [
+                "BZ",
+                "VE"
+            ],
+            "city": "Caracas",
+            "address": [
+                "Albert St, 81, ---",
+                "0000 - Belize - --"
+            ],
+            "org": "Layer7 Networks GmbH",
+            "isp": "Layer7 Networks GmbH",
+            "lat": "10.4873",
+            "long": "-66.8738",
+            "asn": "AS211179"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-content-type-options": "nosniff",
+            "connection": "Keep-Alive",
+            "x-xss-protection": "1",
+            "strict-transport-security": "max-age=31536000",
+            "content-length": "258",
+            "content-security-policy": "block-all-mixed-content",
+            "++code": "200",
+            "++status": "OK",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "date": "Sat, 8 Jun 2024 05:44:02 GMT"
+        },
+        "ssl": {
+            "domain": "localhost.localdomain",
+            "issuer": "\/O=VMware Installer",
+            "version": "v3",
+            "expires": "2031-06-27 19:33:45",
+            "valid": "2019-12-27 19:33:45",
+            "subject": "\/C=US\/ST=California\/L=Palo Alto\/O=VMware, Inc\/OU=VMware ESX Server Default Certificate\/E=ssl-certificates@vmware.com\/CN=localhost.localdomain\/1.2.840.113549.1.9.2=1577475223,564d7761726520496e632e"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "Tue, 01 Jan 1980 1:00:00 GMT",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-status-bar-style": "black-translucent",
+            "charset": "utf-8",
+            "apple-mobile-web-app-capable": "yes",
+            "viewport": "\n       width=device-width,\n       initial-scale=0.5001,\n       minimum-scale=1.0001,\n       maximum-scale=5.0001,\n       user-scalable=yes"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.3\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3b0b00713832d484a66668cf488a918f.jpeg"
+        }
+    }
+}

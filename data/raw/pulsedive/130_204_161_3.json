@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 958,
+    "indicator": "130.204.161.3",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2017-09-28 03:09:49",
+    "stamp_updated": "2024-09-10 12:24:30",
+    "stamp_seen": "2024-06-09 02:23:02",
+    "stamp_probed": "2024-06-09 02:23:02",
+    "stamp_retired": "2024-09-10 12:24:30",
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-20 10:05:06"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-02-17 12:47:41"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-19 15:01:15"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-02-17 12:47:41"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 15:01:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-10 03:32:18"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 01:14:22"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-20 10:05:06"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "BG",
+            "++phone": [
+                "+35942976002",
+                "+359 88220"
+            ],
+            "admin-c": "SSS126-RIPE",
+            "created": [
+                "2011-11-03T15:21:38Z",
+                "2008-10-29T08:24:20Z",
+                "2011-11-15T11:59:04Z",
+                "2013-01-22T13:51:57Z"
+            ],
+            "inetnum": "130.204.160.0 - 130.204.167.255",
+            "mnt-by": "AS13124-MNT",
+            "nic-hdl": [
+                "SSS126-RIPE",
+                "SSB123-RIPE"
+            ],
+            "org": "ORG-IL1-RIPE",
+            "origin": "AS13124",
+            "phone": [
+                "+359 88220",
+                "+35942976002"
+            ],
+            "route": "130.204.0.0\/16",
+            "tech-c": "SSB123-RIPE",
+            "++registered": "2013-01-22 00:00:00",
+            "person": [
+                "Stoyan Stoyanov",
+                "Shteryo Stefanov Badalov"
+            ],
+            "descr": [
+                "A1 Bulgaria EAD",
+                "A1BG Docsys Sofia"
+            ],
+            "last-modified": [
+                "2018-05-29T19:58:11Z",
+                "2018-05-29T11:04:45Z",
+                "2018-05-30T10:55:12Z",
+                "2013-03-22T14:16:36Z"
+            ],
+            "++updated": "2018-05-30 00:00:00",
+            "netname": "A1BG-NEW-DOCSIS-1",
+            "address": [
+                "Nikola Gabrovski 83",
+                "Bulgaria, Sofia, 1 Kukush street, area Ilinden, building M7 mnt-by: AS13124-MNT"
+            ],
+            "++registrant": "SSS126-RIPE"
+        },
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "city": "Sofia",
+            "zip": "1000",
+            "asn": "AS13124",
+            "org": "A1 Bulgaria EAD",
+            "isp": "A1 Bulgaria EAD",
+            "region": "Sofia-Capital",
+            "lat": "42.6951",
+            "long": "23.325"
+        },
+        "dns": {
+            "ptr": "unknown.interbgc.com"
+        },
+        "http": {
+            "++code": "404",
+            "++status": "Not found",
+            "date": "Sat, 02 Mar 2024 09:35:07 GMT"
+        }
+    }
+}

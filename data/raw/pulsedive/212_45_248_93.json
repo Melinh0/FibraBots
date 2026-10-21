@@ -1,0 +1,154 @@
+{
+    "qid": null,
+    "iid": 59954447,
+    "indicator": "212.45.248.93",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-05 15:32:38",
+    "stamp_updated": "2024-12-11 10:43:06",
+    "stamp_seen": "2024-12-11 06:28:28",
+    "stamp_probed": "2024-08-16 01:00:08",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-05 15:32:38"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-16 04:41:15"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "mnt-by": [
+                "SETTC-MNT",
+                "MNT-TSVRN"
+            ],
+            "last-modified": [
+                "2007-09-21T06:04:07Z",
+                "2008-03-04T07:29:38Z",
+                "2019-04-01T05:36:11Z",
+                "2011-01-13T09:05:50Z"
+            ],
+            "tech-c": "MZ3066-RIPE",
+            "address": [
+                "394000 Russia, Voronezh",
+                "394000 Russia, Voronezh, Karl Marks str., 68",
+                "Pyatnitskogo str., 46"
+            ],
+            "origin": "AS44736",
+            "route": "212.45.224.0\/19",
+            "descr": [
+                "CPE network",
+                "TSVRN network 1"
+            ],
+            "admin-c": "KD534-RIPE",
+            "nic-hdl": [
+                "KD534-RIPE",
+                "MZ3066-RIPE"
+            ],
+            "person": [
+                "Mikhail Zart",
+                "Dmitriy Tsart"
+            ],
+            "phone": [
+                "+7 4732 599000",
+                "+7 4732 969574"
+            ],
+            "created": [
+                "2006-10-03T08:21:53Z",
+                "2007-09-21T06:04:07Z",
+                "2008-03-04T07:29:38Z",
+                "2011-01-13T09:05:50Z"
+            ],
+            "fax-no": "+7 4732 519232",
+            "++registrant": [
+                "KD534-RIPE",
+                "Dmitriy Tsart",
+                "Mikhail Zart"
+            ],
+            "netname": "NET-TSVRN-CPE-6",
+            "++updated": [
+                "2019-04-01 05:36:11",
+                "2007-09-21 06:04:07",
+                "2008-03-04 07:29:38"
+            ],
+            "++registered": [
+                "2011-01-13 09:05:50",
+                "2006-10-03 08:21:53",
+                "2007-09-21 06:04:07",
+                "2008-03-04 07:29:38"
+            ],
+            "inetnum": "212.45.248.0 - 212.45.255.255"
+        },
+        "geo": {
+            "countrycode": "RU",
+            "city": "Voronezh",
+            "org": "MTS PJSC",
+            "asn": "AS44736",
+            "region": "Voronezh Oblast",
+            "lat": "51.659",
+            "long": "39.2238",
+            "country": "Russia"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dns": {
+            "ptr": "ip212-45-248-93.rdns.tsvrn.ru"
+        }
+    }
+}

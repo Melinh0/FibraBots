@@ -1,0 +1,200 @@
+{
+    "qid": null,
+    "iid": 65056252,
+    "indicator": "146.19.113.80",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-17 09:17:49",
+    "stamp_updated": "2024-12-10 10:35:36",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65057099,
+                "indicator": "https:\/\/146.19.113.80\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-17 09:17:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-21 21:26:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russia",
+                "kvartal Stepnoy, 1-155",
+                "91000 Lugansk"
+            ],
+            "org-type": "OTHER",
+            "org-name": "Bystrov Dmitriy Sergeevich",
+            "origin": "AS34047",
+            "mnt-by": "IP-RIPE",
+            "mnt-ref": "IP-RIPE",
+            "++email": "inspire87.dgroup@gmail.com",
+            "++abuse": "inspire87.dgroup@gmail.com",
+            "org": "ORG-BDS9-RIPE",
+            "inetnum": "146.19.113.0 - 146.19.113.254",
+            "++registered": [
+                "2022-10-27 18:22:34",
+                "2022-10-27 18:22:31",
+                "2022-10-27 18:22:32",
+                "2022-10-27 18:25:41"
+            ],
+            "organisation": "ORG-BDS9-RIPE",
+            "tech-c": "BDS201-RIPE",
+            "abuse-mailbox": "inspire87.dgroup@gmail.com",
+            "created": [
+                "2022-10-27T18:22:34Z",
+                "2022-10-27T18:22:31Z",
+                "2022-10-27T18:22:32Z",
+                "2022-10-27T18:25:41Z"
+            ],
+            "++registrant": "BDS201-RIPE",
+            "admin-c": "BDS201-RIPE",
+            "netname": "RU-DGROUP-20221027",
+            "route": "146.19.113.0\/24",
+            "role": "IE Bystrov Dmitriy Sergeevich",
+            "++updated": [
+                "2023-05-02 12:21:18",
+                "2023-04-27 19:12:20",
+                "2022-10-27 18:26:23"
+            ],
+            "last-modified": [
+                "2022-10-27T18:22:38Z",
+                "2023-05-02T12:21:18Z",
+                "2023-04-27T19:12:20Z",
+                "2022-10-27T18:26:23Z"
+            ],
+            "nic-hdl": "BDS201-RIPE",
+            "abuse-c": "BDS201-RIPE"
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS34047",
+            "org": [
+                "Bystrov Dmitriy Sergeevich",
+                "ORG-BDS9-RIPE"
+            ],
+            "address": [
+                "Russia",
+                "kvartal Stepnoy, 1-155",
+                "91000 Lugansk"
+            ],
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "p3p": "policyref=\"\/bitrix\/p3p.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\"",
+            "x-bitrix-ajax-status": "Authorize",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "vary": "Accept-Encoding\nHTTPS",
+            "date": "Sun, 17 Nov 2024 09:23:01 GMT",
+            "++redirect": "https:\/\/146.19.113.80\/",
+            "set-cookie": "PHPSESSID=ePp7fFanY5TZe4Fie6Me5aEyRZwZkTtJ; path=\/; HttpOnly; SameSite=Lax",
+            "x-powered-cms": "Bitrix Site Manager (653e4c50f7f1582920f9ffdee323168d)",
+            "++target": "http:\/\/146.19.113.80\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "robots": "noindex, nofollow",
+            "++title": "\u0410\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Bitrix",
+            "subject": "\/C=EU\/O=Bitrix Inc.\/OU=Bitrix R&D\/CN=Bitrix\/E=support@bitrixsoft.com",
+            "issuer": "\/C=EU\/O=Bitrix Inc.\/OU=Bitrix R&D\/CN=Bitrix\/E=support@bitrixsoft.com",
+            "++subject": "Bitrix Inc.",
+            "expires": "2034-07-30 14:59:54",
+            "fingerprint": "7a9cd07015390b9739ab9e39e79a5407fcbe39fd2ad0ff3acc4b1a0e2ddd973d",
+            "valid": "2024-08-01 14:59:54"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.7\n",
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "cookies": {
+            "bitrix_sm_tz": "UTC",
+            "phpsessid": "ePp7fFanY5TZe4Fie6Me5aEyRZwZkTtJ"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a0ab6ffe1a691aad982600e941d7cb1b.jpeg"
+        }
+    }
+}

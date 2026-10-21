@@ -1,0 +1,203 @@
+{
+    "qid": null,
+    "iid": 60129149,
+    "indicator": "82.19.12.103",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-11 15:48:56",
+    "stamp_updated": "2024-12-16 11:37:33",
+    "stamp_seen": "2024-12-15 07:56:52",
+    "stamp_probed": "2024-09-30 20:12:35",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64131587,
+                "indicator": "https:\/\/82.19.12.103:5001\/"
+            },
+            {
+                "iid": 60129437,
+                "indicator": "http:\/\/82.19.12.103:5000\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-11 15:48:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5000",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "ExtJS",
+            "Nginx",
+            "Prototype",
+            "Synology DiskStation"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "GB",
+            "netname": "VMCBBUK",
+            "nic-hdl": "NNMC1-RIPE",
+            "origin": "AS5089",
+            "role": "Virgin Media Network Management Centre",
+            "mnt-by": "AS5089-MNT",
+            "address": [
+                "Berkshire",
+                "Virgin Media",
+                "Reading",
+                "500 Brook Drive Green Park",
+                "RG2 6UU"
+            ],
+            "admin-c": [
+                "NNMC1-RIPE",
+                "IPAM2-RIPE"
+            ],
+            "tech-c": [
+                "NNMC1-RIPE",
+                "IPAM2-RIPE"
+            ],
+            "org": "ORG-CIL2-RIPE",
+            "created": [
+                "2002-09-13T13:38:42Z",
+                "2022-07-25T05:49:18Z",
+                "2024-08-01T13:28:15Z"
+            ],
+            "descr": "BROMLEY",
+            "++registrant": [
+                "NNMC1-RIPE",
+                "IPAM2-RIPE"
+            ],
+            "last-modified": [
+                "2019-12-19T16:18:20Z",
+                "2022-07-25T05:49:18Z",
+                "2024-08-01T13:28:15Z"
+            ],
+            "++updated": [
+                "2019-12-19 16:18:20",
+                "2022-07-25 05:49:18",
+                "2024-08-01 13:28:15"
+            ],
+            "++registered": [
+                "2002-09-13 13:38:42",
+                "2022-07-25 05:49:18",
+                "2024-08-01 13:28:15"
+            ],
+            "route": "82.18.0.0\/15",
+            "inetnum": "82.19.12.0 - 82.19.15.255"
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS5089",
+            "region": [
+                "Bromley",
+                "England"
+            ],
+            "city": "Bromley",
+            "lat": "51.3693",
+            "long": "0.0221",
+            "org": "Virgin Media"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "cache-control": "no-store",
+            "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+            "keep-alive": "timeout=20",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "content-type": "text\/html; charset=\"UTF-8\"",
+            "content-security-policy": "base-uri 'self';  connect-src ws: wss: *; default-src 'self' 'unsafe-eval' data: blob: https:\/\/*.synology.com https:\/\/www.synology.cn\/; font-src 'self' data: https:\/\/*.googleapis.com https:\/\/*.gstatic.com; form-action 'self'; frame-ancestors 'self' https:\/\/gofile.me http:\/\/gofile.me; frame-src 'self' data: blob: https:\/\/*.synology.com https:\/\/www.synology.cn\/ http:\/\/*.synology.com http:\/\/*.synology.cn; img-src 'self' data: blob: https:\/\/*.google.com https:\/\/*.googleapis.com http:\/\/*.googlecode.com https:\/\/*.gstatic.com; media-src 'self' data: about:;  script-src 'self' 'unsafe-eval' data: blob: https:\/\/*.synology.com https:\/\/www.synology.cn\/ https:\/\/*.google.com https:\/\/*.googleapis.com; style-src 'self' 'unsafe-inline' https:\/\/*.googleapis.com;",
+            "++content-type": "text\/html",
+            "set-cookie": "id=;expires=Thu, 01-Jan-1970 00:00:01 GMT;path=\/",
+            "++target": "http:\/\/82.19.12.103\/",
+            "++redirect": "http:\/\/82.19.12.103:5000\/",
+            "date": "Tue, 22 Oct 2024 19:20:33 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "keywords": "Multitasking,Web Application,Personal Cloud",
+            "description": "DiskStation provides a full-featured network attached storage (NAS) solution to help you manage, backup and share data among Windows, Mac and Linux easily.",
+            "x-ua-compatible": "IE=11",
+            "msapplication-tileimage": "resources\/images\/icon_tile.png?v=4398",
+            "msapplication-tilecolor": "#246BB3",
+            "application-name": "DS414\ufffd-\ufffdSynology\ufffdDiskStation",
+            "++title": "DS414\ufffd-\ufffdSynology\ufffdDiskStation"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Synology Inc. CA",
+            "subject": "\/C=TW\/ST=Taiwan\/L=Taipei\/O=Synology Inc.\/OU=FTP Team\/CN=synology.com\/E=product@synology.com",
+            "issuer": "\/C=TW\/ST=Taiwan\/L=Taipei\/O=Synology Inc.\/OU=Certificate Authority\/CN=Synology Inc. CA\/E=product@synology.com",
+            "++subject": "Synology Inc.",
+            "email": "product@synology.com",
+            "valid": "2014-01-03 21:09:22",
+            "fingerprint": "1b2ea3c75aeb3f5ff0770e41bfbf041de8c5fe2d158c08273b06340023c7cfad",
+            "expires": "2033-09-20 21:09:22"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "cpc122100-bmly10-2-0-cust102.2-3.cable.virginm.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4b9f4da020177439f1b88b0c8c7b9368.jpeg"
+        }
+    }
+}

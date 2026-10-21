@@ -1,0 +1,88 @@
+{
+    "qid": null,
+    "iid": 65625637,
+    "indicator": "92.83.119.142",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-05 22:17:56",
+    "stamp_updated": "2024-12-14 03:45:10",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65625642,
+                "indicator": "http:\/\/92.83.119.142\/default.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-05 22:17:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Romania",
+            "countrycode": "RO",
+            "asn": "AS9050",
+            "org": "Orange Romania S.A.",
+            "city": "One\u015fti",
+            "long": "26.7496",
+            "lat": "46.2496",
+            "region": "Bac\u0103u County"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "397",
+            "server": "MS-MFC-HttpSvr\/1.1",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++redirect": "http:\/\/92.83.119.142\/default.html",
+            "++target": "http:\/\/92.83.119.142\/"
+        },
+        "meta": {
+            "++title": "DvrWeb 1,0,0,61"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd!\ufffd\ufffd\u0001\ufffd\ufffd\u0003\nlocalhost.localdomain login: "
+        }
+    }
+}

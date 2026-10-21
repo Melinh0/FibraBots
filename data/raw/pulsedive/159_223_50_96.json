@@ -1,0 +1,229 @@
+{
+    "qid": null,
+    "iid": 60888911,
+    "indicator": "159.223.50.96",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-04 17:04:30",
+    "stamp_updated": "2024-12-16 11:30:53",
+    "stamp_seen": "2024-12-16 11:13:24",
+    "stamp_probed": "2024-08-29 04:29:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64147515,
+                "indicator": "https:\/\/159.223.50.96\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-07-25 23:51:53"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-04 17:04:31"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-07-25 23:51:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-12 07:02:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "Font Awesome",
+            "Google Font API",
+            "jQuery",
+            "Modernizr",
+            "Nginx",
+            "Sectigo",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2020-11-03"
+            ],
+            "stateprov": "NY",
+            "parent": "NET159 (NET-159-0-0-0-0)",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2020-11-03 00:00:00"
+            ],
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/159.223.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "netname": "DO-13",
+            "netrange": "159.223.0.0 - 159.223.255.255",
+            "nethandle": "NET-159-223-0-0-1",
+            "cidr": "159.223.0.0\/16",
+            "updated": [
+                "2020-11-03",
+                "2023-10-23"
+            ],
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore"
+            ],
+            "countrycode": [
+                "US",
+                "SG"
+            ],
+            "city": [
+                "New York",
+                "Singapore"
+            ],
+            "asn": "AS14061",
+            "region": "NY",
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "cache-control": "no-cache, private",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/159.223.50.96\/",
+            "++target": "http:\/\/159.223.50.96\/",
+            "date": "Tue, 29 Oct 2024 07:33:22 GMT",
+            "set-cookie": "XSRF-TOKEN=eyJpdiI6IitvMGphaE1OSWZFSVlzMWJyMVhlQXc9PSIsInZhbHVlIjoiRUlYYkpXTVE1RElzU2NRU3E1MVQxRlBlWVQ1TUtweUZYV2kxdnVQN0Vvd1cwcVFCcnRBdmJkRUZNUGIzUmFhXC9RT1Q3TUdtc3g0K0hvU3BZbytLMHRPNzFzSUs3R0xYZVpDK0MxT2JzTVBcL1VpMFF0SW42RTVBZkF1dzNjRXBjQiIsIm1hYyI6IjYxNGRjM2VkZDU2YTRhNzFhZTJlNjExYTQ4NzA1MDhhN2ZlYzQxYTdjZjhlNGU3MmQxNjlkNTQ4MWEyYjE4NzAifQ%3D%3D; expires=Tue, 29-Oct-2024 09:33:22 GMT; Max-Age=7200; path=\/\nptap_prod_session=eyJpdiI6IjcwZ05PaEtxYXl0WGZ2WXpFZ2hyNkE9PSIsInZhbHVlIjoiNURqZkxuaXFSZjBaMUVoVEFkRStHWVR4WERaUndCUGd1Z1NXMWdlVmdicjc3cTRQdlwvOTc3Y3hCRTJ2Z0F0R1Z0MUt6Wll4dGJzbTVtbFptMHFwVEdnMDQwZFdxZlRiYUtyQlk4S2x4ZUhVRjh2enREUjNcL1l0cVE4Y0sxUk5kWiIsIm1hYyI6IjNhZDJlNTlhN2VmNjM0YjdhOTBiMzYwOGJiNTFlNzU2YjYyNWYyMmI0YmRjOTI2YjQ1ODIxZDJiZGFiYWExMzkifQ%3D%3D; expires=Tue, 29-Oct-2024 09:33:22 GMT; Max-Age=7200; path=\/; httponly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no",
+            "charset": "utf-8",
+            "++title": "PTAP Learning Platform",
+            "keywords": "PTAP",
+            "description": "PTAP Learning Platform"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Organization Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Organization Validation Secure Server CA",
+            "valid": "2023-10-17 00:00:00",
+            "expires": "2024-11-14 23:59:59",
+            "subject": "\/C=ID\/ST=DKI Jakarta\/O=PT Coursius Edukasi Sejahtera\/CN=*.supersmartsystem.com",
+            "fingerprint": "dc6f3f304801d7c0acfccc928aeae254492c8a8e6d061a206f33b606c97d58af",
+            "++subject": "PT Coursius Edukasi Sejahtera",
+            "domain": [
+                "*.supersmartsystem.com",
+                "supersmartsystem.com"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/865185c0907e6c7591fa7b0a4aea582d.jpeg"
+        },
+        "cookies": {
+            "xsrf-token": "eyJpdiI6IitvMGphaE1OSWZFSVlzMWJyMVhlQXc9PSIsInZhbHVlIjoiRUlYYkpXTVE1RElzU2NRU3E1MVQxRlBlWVQ1TUtweUZYV2kxdnVQN0Vvd1cwcVFCcnRBdmJkRUZNUGIzUmFhXC9RT1Q3TUdtc3g0K0hvU3BZbytLMHRPNzFzSUs3R0xYZVpDK0MxT2JzTVBcL1VpMFF0SW42RTVBZkF1dzNjRXBjQiIsIm1hYyI6IjYxNGRjM2VkZDU2YTRhNzFhZTJlNjExYTQ4NzA1MDhhN2ZlYzQxYTdjZjhlNGU3MmQxNjlkNTQ4MWEyYjE4NzAifQ%3D%3D",
+            "ptap_prod_session": "eyJpdiI6IjcwZ05PaEtxYXl0WGZ2WXpFZ2hyNkE9PSIsInZhbHVlIjoiNURqZkxuaXFSZjBaMUVoVEFkRStHWVR4WERaUndCUGd1Z1NXMWdlVmdicjc3cTRQdlwvOTc3Y3hCRTJ2Z0F0R1Z0MUt6Wll4dGJzbTVtbFptMHFwVEdnMDQwZFdxZlRiYUtyQlk4S2x4ZUhVRjh2enREUjNcL1l0cVE4Y0sxUk5kWiIsIm1hYyI6IjNhZDJlNTlhN2VmNjM0YjdhOTBiMzYwOGJiNTFlNzU2YjYyNWYyMmI0YmRjOTI2YjQ1ODIxZDJiZGFiYWExMzkifQ%3D%3D"
+        }
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "qid": null,
+    "iid": 16583,
+    "indicator": "93.174.95.106",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-09-28 04:44:22",
+    "stamp_updated": "2024-12-09 10:39:55",
+    "stamp_seen": "2024-11-27 00:00:00",
+    "stamp_probed": "2024-09-30 20:53:10",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-23 04:38:56"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-05-11 15:10:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-14 21:25:41"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 02:13:59"
+        },
+        {
+            "fid": 44,
+            "name": "High Confidence IPv4 Drop List",
+            "category": "general",
+            "organization": "St. Dominics Priory College - Australia",
+            "pricing": "free",
+            "stamp_linked": "2018-03-03 15:58:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-11 22:23:22"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-23 04:38:56"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 504088,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 01:08:00",
+            "stamp_updated": "2022-05-18 01:08:00"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "asn": "AS202425",
+            "org": "IP Volume inc",
+            "long": "4.8975",
+            "lat": "52.3759",
+            "country": "The Netherlands"
+        },
+        "whois": {
+            "country": [
+                "NL",
+                "SC"
+            ],
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "address": [
+                "Seychelles",
+                "BZ"
+            ],
+            "inetnum": "93.174.95.0 - 93.174.95.255",
+            "geoloc": "52.370216 4.895168",
+            "created": [
+                "2016-01-23T22:25:01Z",
+                "2018-05-14T11:46:50Z",
+                "2018-05-16T13:28:41Z",
+                "2019-02-08T16:07:47Z"
+            ],
+            "mnt-routes": "IPV",
+            "mnt-by": "IPV",
+            "org-name": "IP Volume inc",
+            "admin-c": "IVI24-RIPE",
+            "role": "IPV",
+            "abuse-c": "IVNO1-RIPE",
+            "mnt-ref": "IPV",
+            "++registrant": "IVI24-RIPE",
+            "tech-c": "IVI24-RIPE",
+            "mnt-lower": "IPV",
+            "organisation": "ORG-IVI1-RIPE",
+            "org": "ORG-IVI1-RIPE",
+            "origin": "AS202425",
+            "descr": "IPV NETBLOCK",
+            "nic-hdl": "IVI24-RIPE",
+            "last-modified": [
+                "2019-02-04T13:13:26Z",
+                "2019-02-08T16:07:47Z",
+                "2023-09-08T14:13:20Z",
+                "2023-09-08T14:14:36Z"
+            ],
+            "route": "93.174.95.0\/24",
+            "netname": "NET-3-95",
+            "++registered": [
+                "2018-05-14 11:46:50",
+                "2018-05-16 13:28:41",
+                "2019-02-08 16:07:47"
+            ],
+            "++updated": [
+                "2023-09-08 14:13:20",
+                "2023-09-08 14:14:36",
+                "2019-02-08 16:07:47"
+            ]
+        },
+        "dns": {
+            "ptr": "battery.census.shodan.io"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3\n"
+        }
+    }
+}

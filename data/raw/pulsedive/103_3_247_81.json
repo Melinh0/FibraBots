@@ -1,0 +1,233 @@
+{
+    "qid": null,
+    "iid": 61926583,
+    "indicator": "103.3.247.81",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-02 20:12:47",
+    "stamp_updated": "2024-12-11 10:37:21",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-29 21:30:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61926877,
+                "indicator": "http:\/\/103.3.247.81\/"
+            },
+            {
+                "iid": 64110257,
+                "indicator": "https:\/\/103.3.247.81\/en"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-02 20:12:47"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-20 07:15:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Font API",
+            "Let's Encrypt",
+            "Nginx",
+            "Odoo",
+            "Open Graph"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "VDATA-VN"
+            ],
+            "org": "Bach Kim Network solutions Join stock company",
+            "asn": "AS135967"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "PDT15-AP"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-988519361",
+                "+84-902203119"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "inetnum": "103.3.244.0 - 103.3.247.255",
+            "admin-c": [
+                "NTTT1-AP",
+                "NTN8-AP"
+            ],
+            "e-mail": [
+                "tampd@bkns.vn",
+                "hm-changed@vnnic.vn",
+                "info@vdata.vn"
+            ],
+            "person": [
+                "Pham Duy Tam",
+                "Nguyen Thi Ngan"
+            ],
+            "address": [
+                "VDATA-VN",
+                "Ha Noi, VietNam"
+            ],
+            "netname": "VDATA-VN",
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2020-12-10T10:32:41Z",
+                "2021-11-26T06:58:50Z",
+                "2021-11-26T06:55:15Z",
+                "2021-11-26T06:56:13Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-988519361",
+                "+84-902203119"
+            ],
+            "descr": [
+                "New Vision Trading Co.,Ltd",
+                "VDATA-VN",
+                "Floor 2 1B1 Tower, Dong Tien, Ward 14, District 10, Ho Chi Minh city"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "Pham Duy Tam",
+                "NTN8-AP",
+                "Nguyen Thi Ngan"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "tampd@bkns.vn",
+                "info@vdata.vn"
+            ],
+            "origin": "AS135967",
+            "route": "103.3.247.0\/24",
+            "nic-hdl": [
+                "NTN8-AP",
+                "PDT15-AP"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2021-11-26 06:58:50",
+                "2021-11-26 06:55:15",
+                "2021-11-26 06:56:13",
+                "2020-12-10 10:32:41"
+            ]
+        },
+        "http": {
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.20.1",
+            "++target": "http:\/\/103.3.247.81\/",
+            "date": "Sat, 12 Oct 2024 11:59:30 GMT",
+            "++redirect": "https:\/\/103.3.247.81\/en",
+            "set-cookie": "visitor_uuid=b1fa27dd1cda498bb87caf4d9d6522f4; Expires=Sun, 12-Oct-2025 11:59:30 GMT; Path=\/\nsession_id=c7dd382691bb51ede8a6a78f86e32de665e3f5ab; Expires=Fri, 10-Jan-2025 11:59:30 GMT; Max-Age=7776000; HttpOnly; Path=\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "og:type": "website",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "twitter:card": "summary_large_image",
+            "generator": "Odoo",
+            "charset": "utf-8",
+            "twitter:image": "https:\/\/103.3.247.81\/web\/image\/website\/1\/logo\/300x300?unique=cdd0b03",
+            "og:site_name": "SC TECH",
+            "og:image": "https:\/\/103.3.247.81\/web\/image\/website\/1\/logo?unique=cdd0b03",
+            "og:url": "https:\/\/103.3.247.81\/en\/",
+            "og:title": "Home | SCTech",
+            "++title": "Home | SCTech",
+            "twitter:title": "Home | SCTech"
+        },
+        "cookies": {
+            "frontend_lang": "en_US",
+            "tz": "UTC",
+            "session_id": "c7dd382691bb51ede8a6a78f86e32de665e3f5ab",
+            "visitor_uuid": "b1fa27dd1cda498bb87caf4d9d6522f4"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "expires": "2024-08-26 07:52:27",
+            "fingerprint": "c53a7fcf914fd3ead49e05c2716ca6ee27c5f8e2c11c30f75e09bf041b763f91",
+            "domain": "erp.sctechvn.com",
+            "valid": "2024-05-28 07:52:28",
+            "subject": "\/CN=erp.sctechvn.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.7\n"
+        },
+        "dns": {
+            "ptr": "static.bkdata.vn"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/756a40b9f8e00ed684a05fed820a5cb6.jpeg"
+        }
+    }
+}

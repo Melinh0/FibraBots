@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 11806108,
+    "indicator": "118.69.55.101",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2020-05-04 07:01:21",
+    "stamp_updated": "2024-06-04 18:05:36",
+    "stamp_seen": "2024-03-02 20:43:18",
+    "stamp_probed": "2024-03-02 20:43:18",
+    "stamp_retired": "2024-06-04 18:05:36",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 18:33:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:37:46"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 17:28:43"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 18:33:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-14 22:33:04"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS18403",
+            "country": "Viet Nam",
+            "countrycode": "VN",
+            "city": "Ho Chi Minh City",
+            "region": "Ho Chi Minh",
+            "address": [
+                "HCMC",
+                "Ha Noi, VietNam",
+                "66-68 Vo Van Tan"
+            ],
+            "long": "106.6257",
+            "lat": "10.822",
+            "isp": "FPT Telecom Company",
+            "org": "FPT Telecom Company"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "origin": "AS18403",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "LTVL1-AP",
+                "FHIG2-AP"
+            ],
+            "notify": "hm-changed@vnnic.net.vn",
+            "status": "ALLOCATED NON-PORTABLE",
+            "++phone": [
+                "+84-8-9301280",
+                "+84-24-35564944"
+            ],
+            "address": [
+                "HCMC",
+                "Ha Noi, VietNam",
+                "66-68 Vo Van Tan"
+            ],
+            "e-mail": [
+                "abuse@hcm.fpt.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "fax-no": [
+                "+84-4-7262163",
+                "+84-24-37821462"
+            ],
+            "mnt-by": "MAINT-VN-FPT",
+            "nic-hdl": "FHIG2-AP",
+            "phone": [
+                "+84-8-9301280",
+                "+84-24-35564944"
+            ],
+            "role": "FPT HCMC IPADMIN GROUP",
+            "admin-c": [
+                "LDP12-AP",
+                "NTTT1-AP",
+                "FHIG2-AP"
+            ],
+            "netname": "FPT-NET",
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2019-08-01T06:43:29Z",
+                "2022-01-17T02:04:25Z",
+                "2011-12-13T04:13:26Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "auth": "mnt-by: MAINT-VN-VNNIC",
+            "++registrant": [
+                "NTTT1-AP",
+                "LDP12-AP",
+                "FHIG2-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "abuse@hcm.fpt.vn"
+            ],
+            "route": "118.69.55.0\/24",
+            "descr": [
+                "Vietnam Internet Network Information Center (VNNIC)",
+                "IP range for xDSL, IPTV, Fixed Phone service at HCMC"
+            ],
+            "++updated": "2022-01-17 00:00:00",
+            "inetnum": "118.69.0.0 - 118.69.255.255"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "p3p": "CP=CAO PSA OUR",
+            "content-length": "2877",
+            "++code": "200",
+            "++status": "OK",
+            "last-modified": "Fri, 24 Aug 2018 02:59:38 GMT",
+            "etag": "\"1535079578:b3d\"",
+            "++content-type": "text\/html",
+            "date": "Fri, 06 Oct 2023 22:08:52 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "charset": "UTF-8"
+        },
+        "dns": {
+            "ptr": "mail.haiminhhandbag.vn"
+        },
+        "banners": {
+            "23": "\nSystem administrator is connecting from 114.39.115.226, \nReject the connection request !!!\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/61f5596bfd962f55767a5bd2e2d305f1.jpeg"
+        }
+    }
+}

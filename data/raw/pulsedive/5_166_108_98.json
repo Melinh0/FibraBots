@@ -1,0 +1,200 @@
+{
+    "qid": null,
+    "iid": 65335815,
+    "indicator": "5.166.108.98",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-27 10:00:39",
+    "stamp_updated": "2024-12-15 11:36:01",
+    "stamp_seen": "2024-11-28 07:59:25",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65381245,
+                "indicator": "https:\/\/5.166.108.98\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-27 10:00:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "org-type": "OTHER",
+            "address": [
+                "Russian Federation",
+                "shosse Kosmonavtov, 111",
+                "614099 Perm'",
+                "CJSC \"ER-Telecom\" Holding\", Barnaul branch"
+            ],
+            "fax-no": [
+                "+7 342 2195 104",
+                "+7 342 2 195 100"
+            ],
+            "mnt-by": "RAID-MNT",
+            "mnt-ref": "RAID-MNT",
+            "phone": [
+                "+7 342 2462 367",
+                "+7 342 2 195 100"
+            ],
+            "abuse-c": "RAID1-RIPE",
+            "descr": [
+                "Barnaul, Russia",
+                "TM DOM.RU, Barnaul ISP",
+                "PPPoE individual customers",
+                "CJSC \"ER-Telecom Holding\" Barnaul branch"
+            ],
+            "admin-c": [
+                "ERTH22-RIPE",
+                "RAID1-RIPE"
+            ],
+            "created": [
+                "2009-12-24T10:31:51Z",
+                "2009-12-24T10:07:12Z",
+                "2012-08-12T14:39:39Z",
+                "2012-08-12T14:39:42Z"
+            ],
+            "nic-hdl": "ERTH22-RIPE",
+            "org": "ORG-CHBB2-RIPE",
+            "org-name": "JSC \"ER-Telecom Holding\" Barnaul Branch",
+            "organisation": "ORG-CHBB2-RIPE",
+            "origin": "AS50512",
+            "role": "Network Operation Center CJSC ER-Telecom Holding Barnaul branch",
+            "tech-c": [
+                "ERTH22-RIPE",
+                "RAID1-RIPE"
+            ],
+            "last-modified": [
+                "2012-08-12T14:39:39Z",
+                "2012-08-12T14:39:42Z",
+                "2019-10-18T12:22:59Z",
+                "2019-10-22T09:34:16Z"
+            ],
+            "++registrant": [
+                "RAID1-RIPE",
+                "ERTH22-RIPE"
+            ],
+            "netname": "ERTH-BARNAUL-PPPOE-23-NET",
+            "route": "5.166.108.0\/22",
+            "inetnum": "5.166.104.0 - 5.166.111.255",
+            "++updated": [
+                "2019-10-18 12:22:59",
+                "2019-10-22 09:34:16",
+                "2012-08-12 14:39:42"
+            ],
+            "++registered": [
+                "2009-12-24 10:31:51",
+                "2009-12-24 10:07:12",
+                "2012-08-12 14:39:39",
+                "2012-08-12 14:39:42"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "org": [
+                "JSC ER-Telecom Holding",
+                "ORG-CHBB2-RIPE"
+            ],
+            "city": "Barnaul",
+            "asn": "AS50512",
+            "region": "Altai Krai",
+            "lat": "53.3563",
+            "address": [
+                "Russian Federation",
+                "shosse Kosmonavtov, 111",
+                "614099 Perm'",
+                "CJSC \"ER-Telecom\" Holding\", Barnaul branch"
+            ],
+            "long": "83.8087",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=20",
+            "content-length": "672",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 03 Jan 2023 00:24:21 GMT",
+            "etag": "\"4d4-2a0-63b375b5\"",
+            "date": "Thu, 28 Nov 2024 01:00:09 GMT",
+            "++target": "https:\/\/5.166.108.98\/"
+        },
+        "ssl": {
+            "domain": "OpenWrt",
+            "version": "v3",
+            "org": "OpenWrt",
+            "++subject": "OpenWrtd9517dd3",
+            "issuer": "\/C=ZZ\/ST=Somewhere\/L=Unknown\/O=OpenWrtd9517dd3\/CN=OpenWrt",
+            "fingerprint": "6e2b8e8d6f72f56334c04bc53f79fe8cb3083e0935b65677500a52ba238ef02f",
+            "subject": "\/C=ZZ\/ST=Somewhere\/L=Unknown\/O=OpenWrtd9517dd3\/CN=OpenWrt",
+            "valid": "2023-01-02 00:24:33",
+            "expires": "2025-01-02 00:24:33"
+        },
+        "meta": {
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "refresh": "0; URL=cgi-bin\/luci\/"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4043debb095e1cdf9c1e240521a45e4c.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\u0007\u0014\ufffdrO\ufffd\ufffd\ufffd\u0012\ufffd\ufffdT\u0014\ufffd\u0011\ufffd\u03dd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000 ssh-ed25519,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd;\ufffd0\ufffd"
+        }
+    }
+}

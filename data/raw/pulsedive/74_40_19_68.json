@@ -1,0 +1,219 @@
+{
+    "qid": null,
+    "iid": 48185386,
+    "indicator": "74.40.19.68",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-13 15:56:42",
+    "stamp_updated": "2024-12-15 11:36:59",
+    "stamp_seen": "2024-12-15 07:55:27",
+    "stamp_probed": "2024-09-07 08:21:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 49095030,
+                "indicator": "http:\/\/74.40.19.68\/"
+            },
+            {
+                "iid": 64130380,
+                "indicator": "https:\/\/74.40.19.68\/login"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-15 02:35:50"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-13 15:56:42"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-15 02:35:50"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-03 07:46:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Java",
+            "Jenkins",
+            "Jetty",
+            "PWA"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "city": "Rochester",
+            "orgabusename": "Abuse",
+            "rabusename": "Abuse",
+            "parent": "NET74 (NET-74-0-0-0-0)",
+            "++registered": [
+                "2006-01-27 00:00:00",
+                "1996-05-09 00:00:00"
+            ],
+            "referralserver": "rwhois:\/\/rwhois.frontiernet.net:4321",
+            "orgabusehandle": "ABUSE223-ARIN",
+            "orgtechhandle": "ZF47-ARIN",
+            "orgtechname": "Frontier Communications",
+            "address": "95 Fitzhugh St N",
+            "++registrant": "Frontier Communications of America, Inc.",
+            "organization": "Frontier Communications of America, Inc. (FRTR)",
+            "netname": "FRONTIER-COMMUNICATIONS",
+            "postalcode": "14614",
+            "orgname": "Frontier Communications of America, Inc.",
+            "orgid": "FRTR",
+            "rabusehandle": "ABUSE223-ARIN",
+            "rtechname": "Frontier Communications",
+            "rtechhandle": "ZF47-ARIN",
+            "originas": "AS26127, AS30064, AS3593, AS5650, AS7011",
+            "netrange": "74.32.0.0 - 74.47.255.255",
+            "nethandle": "NET-74-32-0-0-1",
+            "cidr": "74.32.0.0\/12",
+            "updated": [
+                "2012-02-24",
+                "2024-01-19"
+            ],
+            "regdate": [
+                "1996-05-09",
+                "2006-01-27"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZF47-ARIN",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZF47-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE223-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/FRTR",
+                "https:\/\/rdap.arin.net\/registry\/ip\/74.32.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE223-ARIN",
+            "orgroutingname": "Hostmaster",
+            "orgroutinghandle": "HOSTM2146-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/HOSTM2146-ARIN",
+            "orgroutingphone": "+1-585-777-0949",
+            "++phone": [
+                "+1-585-777-0949",
+                "+1-585-623-4519"
+            ],
+            "++updated": "2024-01-19 00:00:00",
+            "orgroutingemail": "hostmaster@support.ftr.com",
+            "++email": "abuse@support.ftr.com",
+            "orgabuseemail": "abuse@support.ftr.com",
+            "++abuse": "abuse@support.ftr.com",
+            "orgtechemail": "abuse@support.ftr.com",
+            "rtechemail": "abuse@support.ftr.com",
+            "rabuseemail": "abuse@support.ftr.com",
+            "orgabusephone": "+1-877-474-7876",
+            "orgtechphone": "+1-585-623-4519",
+            "rtechphone": "+1-585-623-4519",
+            "rabusephone": "+1-877-474-7876"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": "Rochester",
+            "asn": "AS5650",
+            "region": "NY",
+            "zip": "14614",
+            "lat": "37.751",
+            "long": "-97.822",
+            "address": "95 Fitzhugh St N",
+            "org": [
+                "Frontier Communications of America, Inc. (FRTR)",
+                "FRONTIER-FRTR"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "content-security-policy": "frame-ancestors 'self'",
+            "content-length": "3559",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/74.40.19.68\/login?redir=%2F",
+            "++target": "http:\/\/74.40.19.68\/",
+            "date": "Tue, 22 Oct 2024 05:50:29 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "pragma": "no-cache",
+            "charset": "UTF-8",
+            "x-ua-compatible": "IE=8; IE=EDGE"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "FortiGate",
+            "subject": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "issuer": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "++subject": "Fortinet Ltd.",
+            "expires": "2031-04-06 12:38:33",
+            "valid": "2021-04-05 12:38:33",
+            "fingerprint": "a243af03a08b2371d4a7a3ae9d52bc14059166f72f58232c5f14ee05eaf7c149"
+        },
+        "cookies": {
+            "jsessionid.1d21de4d": "node03ob5heh4babv93r5v55443l312862.node0"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7c86b3f9c867bf4056652d95c2196676.jpeg"
+        }
+    }
+}

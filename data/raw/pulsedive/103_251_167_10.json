@@ -1,0 +1,190 @@
+{
+    "qid": null,
+    "iid": 32386838,
+    "indicator": "103.251.167.10",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-01 03:37:40",
+    "stamp_updated": "2024-12-25 17:23:29",
+    "stamp_seen": "2024-12-25 17:23:29",
+    "stamp_probed": "2024-09-04 02:08:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 32386842,
+                "indicator": "http:\/\/103.251.167.10\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-03-10 07:13:32"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2022-03-01 03:37:40"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-17 00:00:58"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2022-03-01 03:37:40"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-03-10 07:13:32"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "NL",
+                "ZZ"
+            ],
+            "asn": "AS60404",
+            "city": "Dronten",
+            "region": "Flevoland",
+            "lat": "52.5378",
+            "address": "N\/A",
+            "long": "5.6966",
+            "org": "The Infrastructure Group B.V.",
+            "country": [
+                "Unknown Region",
+                "The Netherlands"
+            ]
+        },
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-by": [
+                "APNIC-HM",
+                "APNIC-STUB",
+                "APNIC-ABUSE"
+            ],
+            "++phone": "+000000000",
+            "phone": [
+                "+000000000",
+                "+00 0000 0000"
+            ],
+            "last-modified": [
+                "2019-09-23T04:53:33Z",
+                "2023-05-17T13:13:09Z",
+                "2024-01-24T04:04:44Z",
+                "2024-01-24T04:05:14Z"
+            ],
+            "mnt-irt": "IRT-STUB-AP",
+            "e-mail": "no-email@apnic.net",
+            "admin-c": "STUB-AP",
+            "abuse-mailbox": "no-email@apnic.net",
+            "++registrant": [
+                "STUB-AP",
+                "STUB PERSON"
+            ],
+            "country": "ZZ",
+            "tech-c": "STUB-AP",
+            "++abuse": "no-email@apnic.net",
+            "nic-hdl": [
+                "STUB-AP",
+                "AS2444-AP"
+            ],
+            "person": "STUB PERSON",
+            "irt": "IRT-STUB-AP",
+            "++email": "no-email@apnic.net",
+            "address": "N\/A",
+            "descr": "Transferred to the RIPE region on 2016-02-08T22:10:56Z.",
+            "netname": "STUB-103-251-164SLASH22",
+            "inetnum": "103.251.164.0 - 103.251.167.255",
+            "role": "ABUSE STUBAP",
+            "abuse-c": "AS2444-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-01-24 04:04:44",
+                "2024-01-24 04:05:14",
+                "2019-09-23 04:53:33"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "32679",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/103.251.167.10\/",
+            "date": "Tue, 24 Dec 2024 17:29:21 GMT",
+            "expires": "Tue, 24 Dec 2024 17:49:21 GMT",
+            "x-your-address-is": "172.234.212.85"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "++title": "This is a Tor Exit Router"
+        },
+        "dns": {
+            "ptr": "this-is-a-TOR-EXIT-NODE.union"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b97beb67852ae23e275cfc17f3cd81a5.jpeg"
+        }
+    }
+}

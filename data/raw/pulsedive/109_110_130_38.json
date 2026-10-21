@@ -1,0 +1,94 @@
+{
+    "qid": null,
+    "iid": 61489321,
+    "indicator": "109.110.130.38",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-23 13:55:07",
+    "stamp_updated": "2024-12-10 03:23:32",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": "2024-07-23 20:47:54",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 2606,
+            "name": "7777 botnet",
+            "category": "botnet",
+            "risk": "unknown",
+            "stamp_linked": "2024-07-23 13:55:07"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-01 20:25:13"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Hungary",
+            "countrycode": "HU",
+            "zip": "8500",
+            "asn": "AS50181",
+            "isp": "KabelszatNet-2002. Musoreloszto es Kereskedelmi Kft.",
+            "org": "KabelszatNet-2002. Musoreloszto es Kereskedelmi Kft.",
+            "long": "17.4684",
+            "lat": "47.3328",
+            "city": "P\ufffdpa",
+            "region": "Veszpr\ufffdm megye"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "uc-httpd 1.0.0",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "0"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/aa08f4be55643b85835308dfc95e55e1.jpeg"
+        },
+        "dns": {
+            "ptr": "host-109-110-130-38.kabelszat2002.hu"
+        }
+    }
+}

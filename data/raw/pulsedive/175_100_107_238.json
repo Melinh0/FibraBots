@@ -1,0 +1,232 @@
+{
+    "qid": null,
+    "iid": 29115679,
+    "indicator": "175.100.107.238",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-10-28 09:21:31",
+    "stamp_updated": "2024-12-16 11:31:28",
+    "stamp_seen": "2024-12-15 07:33:01",
+    "stamp_probed": "2024-08-28 22:49:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 29119513,
+                "indicator": "https:\/\/175.100.107.238\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-10-28 09:21:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-10-04 15:18:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "21",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "NETBIOS"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "Express",
+            "HSTS",
+            "jQuery",
+            "jQuery UI",
+            "Nginx",
+            "Node.js",
+            "Socket.io"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "mnt-by": [
+                "MAINT-NEW",
+                "MAINT-KH-VIETTELCAMBODIA",
+                "APNIC-ABUSE"
+            ],
+            "admin-c": "VAT6-AP",
+            "country": [
+                "KH",
+                "ZZ"
+            ],
+            "descr": "VIETTEL (CAMBODIA) PTE., LTD.",
+            "e-mail": [
+                "tuva1@viettel.com.vn",
+                "namtt1@viettel.com.vn"
+            ],
+            "irt": "IRT-VIETTEL-CAMBODIA-KH",
+            "mnt-irt": "IRT-VIETTEL-CAMBODIA-KH",
+            "netname": "VIETTEL-CAMBODIA",
+            "nic-hdl": [
+                "VAT6-AP",
+                "AV489-AP"
+            ],
+            "person": "Vo Anh Tu",
+            "phone": [
+                "+855 977068079",
+                "+000000000"
+            ],
+            "tech-c": "VAT6-AP",
+            "mnt-lower": "MAINT-KH-VIETTELCAMBODIA",
+            "mnt-routes": "MAINT-KH-VIETTELCAMBODIA",
+            "inetnum": "175.100.96.0 - 175.100.111.255",
+            "notify": "tuva1@viettel.com.vn",
+            "last-modified": [
+                "2011-01-27T07:25:27Z",
+                "2021-01-20T06:45:11Z",
+                "2024-07-10T13:10:51Z",
+                "2024-07-10T13:15:11Z"
+            ],
+            "++phone": "+000000000",
+            "++registrant": [
+                "VAT6-AP",
+                "Vo Anh Tu"
+            ],
+            "++email": [
+                "tuva1@viettel.com.vn",
+                "namtt1@viettel.com.vn"
+            ],
+            "role": "ABUSE VIETTELCAMBODIAKH",
+            "abuse-c": "AV489-AP",
+            "abuse-mailbox": "namtt1@viettel.com.vn",
+            "++abuse": "namtt1@viettel.com.vn",
+            "auth": "# Filtered",
+            "address": [
+                "# 199, Mao Tse Toung Blvd(245), Phnom Penh, Cambodia.",
+                "#42, STR 242, SANGKAT CHATUMUK, KHAN DAUN PENH, PHNOM PENH."
+            ],
+            "++updated": [
+                "2024-07-10 13:10:51",
+                "2024-07-10 13:15:11",
+                "2011-01-27 07:25:27"
+            ]
+        },
+        "geo": {
+            "city": "Phnom Penh",
+            "asn": "AS38623",
+            "country": [
+                "Cambodia",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "KH",
+                "ZZ"
+            ],
+            "region": "Phnom Penh",
+            "lat": "11.5583",
+            "long": "104.9121",
+            "org": "ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.",
+            "address": [
+                "# 199, Mao Tse Toung Blvd(245), Phnom Penh, Cambodia.",
+                "#42, STR 242, SANGKAT CHATUMUK, KHAN DAUN PENH, PHNOM PENH."
+            ]
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "public, max-age=0",
+            "x-powered-by": "Express",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=63072000; includeSubdomains;",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "allow": "GET, POST",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 19 Feb 2020 11:05:03 GMT",
+            "set-cookie": "branding=aw; Path=\/; secure; HttpOnly",
+            "etag": "W\/\"41331-1582110303000\"",
+            "++redirect": "https:\/\/175.100.107.238\/",
+            "++target": "http:\/\/175.100.107.238\/",
+            "date": "Tue, 22 Oct 2024 16:56:50 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "utf-8",
+            "++title": "AVIWEST - StreamHub"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-01 15:58:34",
+            "issuer": "\/CN=uservsftpd",
+            "subject": "\/CN=uservsftpd",
+            "expires": "2119-06-07 15:58:34",
+            "org": "uservsftpd",
+            "fingerprint": "d09580ba07efda8c03b7051baa60e1706c093b702f5ad35051893c338f7186a1"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.3)\n",
+            "139": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "dynamic-ip-adsl.metfone.com.kh"
+        },
+        "cookies": {
+            "branding": "aw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5cdc0f65a379d6648dedbc60e0535341.jpeg"
+        }
+    }
+}

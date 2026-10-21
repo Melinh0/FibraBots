@@ -1,0 +1,230 @@
+{
+    "qid": null,
+    "iid": 61522392,
+    "indicator": "220.246.42.178",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-23 19:45:12",
+    "stamp_updated": "2024-12-16 17:37:32",
+    "stamp_seen": "2024-12-16 17:37:32",
+    "stamp_probed": "2024-09-30 10:23:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64125625,
+                "indicator": "https:\/\/220.246.42.178\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-23 19:45:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "ExtJS",
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ",
+                "hk"
+            ],
+            "++phone": [
+                "+852-2888-2888",
+                "+000000000"
+            ],
+            "admin-c": [
+                "WC109-AP",
+                "NA45-AP"
+            ],
+            "descr": "Hong Kong Telecommunications (HKT) Limited Mass Internet",
+            "e-mail": [
+                "pmaster@netvigator.com",
+                "noc@imsbiz.com"
+            ],
+            "irt": "IRT-HKTIMS-HK",
+            "mnt-by": [
+                "MAINT-HK-IMS-CS",
+                "MAINT-HK-IMS",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-HKTIMS-HK",
+            "netname": "NETVIGATOR",
+            "nic-hdl": [
+                "NA45-AP",
+                "AH981-AP"
+            ],
+            "origin": "AS4760",
+            "phone": [
+                "+852-2888-2888",
+                "+000000000"
+            ],
+            "role": [
+                "NETVIGATOR ADMINISTRATORS",
+                "ABUSE HKTIMSHK"
+            ],
+            "tech-c": [
+                "WC109-AP",
+                "NA45-AP"
+            ],
+            "mnt-lower": "MAINT-HK-IMS-CS",
+            "mnt-routes": "MAINT-HK-IMS-WILSON",
+            "notify": "netadmin@netvigator.com",
+            "address": [
+                "PO Box 9896 GPO",
+                "Hong Kong"
+            ],
+            "inetnum": "220.246.0.0 - 220.246.127.255",
+            "route": "220.246.0.0\/16",
+            "last-modified": [
+                "2008-09-04T07:54:15Z",
+                "2015-01-15T03:10:04Z",
+                "2021-01-27T13:20:37Z",
+                "2024-08-22T03:30:23Z",
+                "2024-08-22T03:30:25Z"
+            ],
+            "++registrant": [
+                "NA45-AP",
+                "WC109-AP"
+            ],
+            "++email": [
+                "pmaster@netvigator.com",
+                "noc@imsbiz.com"
+            ],
+            "abuse-c": "AH981-AP",
+            "abuse-mailbox": "noc@imsbiz.com",
+            "++abuse": "noc@imsbiz.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-22 03:30:23",
+                "2024-08-22 03:30:25",
+                "2008-09-04 07:54:15",
+                "2015-01-15 03:10:04"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "hk",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ",
+                "hk"
+            ],
+            "asn": "AS4760",
+            "org": "HKT Limited",
+            "address": [
+                "PO Box 9896 GPO",
+                "Hong Kong"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "cache-control": "no-cache, must-revalidate",
+            "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+            "keep-alive": "timeout=120, max=199",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "x-frame-options": "DENY",
+            "strict-transport-security": "max-age=31536000;includeSubDomains",
+            "++content-type": "text\/html",
+            "etag": "\"4517c-6040-5c708ad2\"",
+            "++redirect": "https:\/\/220.246.42.178\/",
+            "last-modified": "Sat, 19 Oct 2024 12:45:13 GMT",
+            "++target": "http:\/\/220.246.42.178\/",
+            "date": "Sat, 19 Oct 2024 12:45:13 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html",
+            "x-ua-compatible": "IE=9;IE=10;IE=Edge,chrome=1",
+            "++title": "Log In - Juniper Web Device Manager"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "self-signed",
+            "subject": "\/CN=CV2018AF0814\/CN=system generated\/CN=self-signed",
+            "fingerprint": "f631e676e2e454786ff3ee724fc50cdcae2645fe6ba9412cda7b8321c66d73f5",
+            "valid": "2020-06-04 08:51:12",
+            "expires": "2025-06-03 08:51:12",
+            "issuer": "\/CN=CV2018AF0814\/CN=system generated\/CN=self-signed"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.9\n"
+        },
+        "dns": {
+            "ptr": "178.42.246.220.static.netvigator.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/886d51a665a57af2a77654b6fe44dd84.jpeg"
+        }
+    }
+}

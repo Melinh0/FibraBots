@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 25898179,
+    "indicator": "194.163.148.138",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-06-19 14:19:28",
+    "stamp_updated": "2024-12-14 11:28:37",
+    "stamp_seen": "2024-11-06 00:00:00",
+    "stamp_probed": "2024-09-30 07:48:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62325172,
+                "indicator": "http:\/\/194.163.148.138\/"
+            },
+            {
+                "iid": 64084754,
+                "indicator": "https:\/\/194.163.148.138\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-11 20:37:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-14 07:13:29"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Debian",
+            "Let's Encrypt"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "address": [
+                "81549 Muenchen",
+                "Aschauer Str. 32a",
+                "Contabo GmbH"
+            ],
+            "admin-c": "MH7476-RIPE",
+            "fax-no": "+49 89 21665862",
+            "mnt-by": [
+                "MNT-CONTABO",
+                "MNT-GIGA-HOSTING"
+            ],
+            "nic-hdl": "MH7476-RIPE",
+            "origin": "AS51167",
+            "phone": "+49 89 21268372",
+            "tech-c": "MH7476-RIPE",
+            "netname": "CONTABO",
+            "created": [
+                "2010-01-04T10:41:37Z",
+                "2021-04-27T08:52:23Z",
+                "2021-03-12T09:26:37Z"
+            ],
+            "++registrant": [
+                "MH7476-RIPE",
+                "Johannes Selg"
+            ],
+            "inetnum": "194.163.128.0 - 194.163.159.255",
+            "route": "194.163.128.0\/18",
+            "last-modified": [
+                "2021-04-27T08:52:23Z",
+                "2021-03-12T09:26:37Z",
+                "2024-04-15T11:05:18Z"
+            ],
+            "++updated": [
+                "2024-04-15 11:05:18",
+                "2021-03-12 09:26:37"
+            ],
+            "person": "Johannes Selg",
+            "++registered": [
+                "2010-01-04 10:41:37",
+                "2021-04-27 08:52:23",
+                "2021-03-12 09:26:37"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS51167",
+            "org": "Contabo GmbH",
+            "address": [
+                "Aschauer Str. 32a",
+                "Contabo GmbH",
+                "81549 Muenchen"
+            ],
+            "region": "North Rhine-Westphalia",
+            "lat": "51.1878",
+            "long": "6.8607",
+            "city": "D\ufffdsseldorf"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "954",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.48 (Debian)",
+            "date": "Fri, 13 Sep 2024 17:51:37 GMT",
+            "++redirect": "https:\/\/194.163.148.138\/",
+            "++target": "http:\/\/194.163.148.138\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "++title": "Envool | Admin"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "valid": "2024-07-17 15:37:46",
+            "subject": "\/CN=admin.envool.com",
+            "domain": "admin.envool.com",
+            "expires": "2024-10-15 15:37:45",
+            "fingerprint": "ab012bb72c22ff845b024d53b6a5e1cd606922fc9a9dc7adf4f375bed5c1a123"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 19:51. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5\n"
+        },
+        "dns": {
+            "ptr": "vmi676656.contaboserver.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/960b83d6b4709ba42252bf028028bb5b.jpeg"
+        }
+    }
+}

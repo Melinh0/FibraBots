@@ -1,0 +1,194 @@
+{
+    "qid": null,
+    "iid": 52021404,
+    "indicator": "117.50.165.23",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-11 23:27:11",
+    "stamp_updated": "2024-12-16 17:07:59",
+    "stamp_seen": "2024-12-16 17:07:58",
+    "stamp_probed": "2024-09-06 14:20:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-24 07:19:38"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-11 23:27:11"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-24 07:19:38"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-20 15:05:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "3306",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "address": [
+                "Beijing, China",
+                "510,SOHO B,Zhongguancun,Haidian, Beijing",
+                "2nd Floor 3rd Building No.200 EAST Guoding Road,Yangpu District,Shanghai"
+            ],
+            "abuse-mailbox": [
+                "ipas@cnnic.cn",
+                "jacky.jia@ucloud.cn"
+            ],
+            "admin-c": [
+                "IP50-AP",
+                "JJ2197-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CNNIC-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-routes": "MAINT-CNNIC-AP",
+            "tech-c": [
+                "IP50-AP",
+                "JJ2197-AP"
+            ],
+            "mnt-lower": "MAINT-CNNIC-AP",
+            "++phone": [
+                "+86-13811069300",
+                "+000000000"
+            ],
+            "descr": "Shanghai UCloud Information Technology Company Limited",
+            "netname": "UCLOUD-NET",
+            "nic-hdl": [
+                "JJ2197-AP",
+                "AC1601-AP"
+            ],
+            "person": "Jinhui Jia",
+            "phone": [
+                "+86-13811069300",
+                "+000000000"
+            ],
+            "inetnum": "117.50.0.0 - 117.50.255.255",
+            "e-mail": [
+                "ipas@cnnic.cn",
+                "jacky.jia@ucloud.cn",
+                "hegui@ucloud.cn"
+            ],
+            "++abuse": [
+                "ipas@cnnic.cn",
+                "jacky.jia@ucloud.cn"
+            ],
+            "++registrant": [
+                "IP50-AP",
+                "JJ2197-AP",
+                "Jinhui Jia"
+            ],
+            "++email": [
+                "ipas@cnnic.cn",
+                "hegui@ucloud.cn",
+                "jacky.jia@ucloud.cn"
+            ],
+            "abuse-c": "AC1601-AP",
+            "role": "ABUSE CNNICCN",
+            "last-modified": [
+                "2022-03-23T06:19:21Z",
+                "2021-09-01T00:41:22Z",
+                "2023-11-28T00:56:57Z",
+                "2024-07-30T11:55:46Z"
+            ],
+            "mnt-irt": "IRT-UCLOUD-NET-CN",
+            "irt": "IRT-UCLOUD-NET-CN",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-30 11:55:46",
+                "2023-11-28 00:56:57",
+                "2021-09-01 00:41:22",
+                "2022-03-23 06:19:21"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4808",
+            "org": "China Unicom Beijing Province Network",
+            "lat": "34.7732",
+            "address": [
+                "Beijing, China",
+                "510,SOHO B,Zhongguancun,Haidian, Beijing",
+                "2nd Floor 3rd Building No.200 EAST Guoding Road,Yangpu District,Shanghai"
+            ],
+            "long": "113.722"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 21:56. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "3306": "N\u0000\u0000\u0000\n5.7.40-log\u0000\ufffd \u0000\u0000Hce_Sug\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000(#1)%\u0002+w:I\u0011\u0001\u0000mysql_native_password\u0000"
+        }
+    }
+}

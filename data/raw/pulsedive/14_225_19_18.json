@@ -1,0 +1,219 @@
+{
+    "qid": null,
+    "iid": 42179198,
+    "indicator": "14.225.19.18",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-12-13 20:18:43",
+    "stamp_updated": "2024-12-10 10:35:25",
+    "stamp_seen": "2024-11-20 02:04:44",
+    "stamp_probed": "2024-09-30 01:43:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 42179317,
+                "indicator": "http:\/\/14.225.19.18\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-17 12:37:00"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-12-13 20:18:43"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-17 12:37:00"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-02-06 03:00:11"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-15 10:20:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "city": "Hanoi",
+            "asn": "AS135905",
+            "org": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+            "country": "Vietnam",
+            "region": "Hanoi",
+            "address": [
+                "Ha Noi, VietNam",
+                "VNPT-VN"
+            ],
+            "long": "105.8526",
+            "lat": "21.0292"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VNPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "e-mail": [
+                "huypt@vnpt.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "mnt-lower": "MAINT-VN-VNPT",
+            "mnt-routes": "MAINT-VN-VNPT",
+            "inetnum": "14.224.0.0 - 14.255.255.255",
+            "origin": "AS135905",
+            "netname": "VNPT-VN",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-37741604"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "address": [
+                "VNPT-VN",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": "PTH13-AP",
+            "person": "Pham Tien Huy",
+            "phone": [
+                "+84-24-37741604",
+                "+84-24-35564944"
+            ],
+            "descr": [
+                "No 57, Huynh Thuc Khang Street, Lang Ha ward, Dong Da district, Ha Noi City",
+                "Vietnam Posts and Telecommunications Group",
+                "VNPT"
+            ],
+            "last-modified": [
+                "2017-11-19T07:06:20Z",
+                "2017-11-08T09:40:06Z",
+                "2018-01-25T03:55:18Z",
+                "2022-07-29T16:09:17Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "PTH13-AP",
+                "NTTT1-AP",
+                "Pham Tien Huy"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "huypt@vnpt.vn"
+            ],
+            "route": "14.225.19.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-19 07:06:20",
+                "2018-01-25 03:55:18",
+                "2022-07-29 16:09:17"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx\/1.10.3",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "W\/\"607d3436-264\"",
+            "last-modified": "Mon, 19 Apr 2021 07:41:42 GMT",
+            "++target": "http:\/\/14.225.19.18\/",
+            "date": "Sat, 12 Oct 2024 13:35:07 GMT"
+        },
+        "dns": {
+            "ptr": "static.vnpt.vn"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u6\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

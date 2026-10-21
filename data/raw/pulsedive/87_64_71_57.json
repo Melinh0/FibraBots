@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 48649158,
+    "indicator": "87.64.71.57",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-28 19:45:35",
+    "stamp_updated": "2024-12-16 11:37:46",
+    "stamp_seen": "2024-12-11 19:00:29",
+    "stamp_probed": "2024-08-18 22:00:24",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-09-25 11:56:57"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-28 19:45:35"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-09-25 11:56:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-06-29 10:24:55"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2006-08-18T14:12:01Z",
+                "2022-09-28T11:44:15Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2006-08-18 14:12:01",
+                "2022-09-28 11:44:15"
+            ],
+            "country": "BE",
+            "address": [
+                "Belgium",
+                "Boulevard du Roi Albert II, 27",
+                "B-1030 Bruxelles",
+                "Proximus SA de droit public",
+                "TEC\/NEO\/IPR\/TDN\/DTO\/DSL Internet Networks"
+            ],
+            "mnt-by": [
+                "SKYNETBE-MNT",
+                "SKYNETBE-ROBOT-MNT"
+            ],
+            "origin": "AS5432",
+            "admin-c": [
+                "BIEC1-RIPE",
+                "SN2068-RIPE"
+            ],
+            "fax-no": "+32 2 203-6593",
+            "netname": "BE-BELGACOM-ADSL1",
+            "nic-hdl": "SN2068-RIPE",
+            "phone": "+32 2 202-4111",
+            "tech-c": [
+                "BIEC1-RIPE",
+                "SN2068-RIPE"
+            ],
+            "descr": [
+                "ADSL-GO-PLUS",
+                "Belgacom ISP SA\/NV",
+                "FIA-008"
+            ],
+            "++registrant": [
+                "SN2068-RIPE",
+                "BIEC1-RIPE"
+            ],
+            "inetnum": "87.64.64.0 - 87.64.79.255",
+            "++abuse": "abuse@proximus.com",
+            "abuse-mailbox": "abuse@proximus.com",
+            "++email": "abuse@proximus.com",
+            "last-modified": [
+                "2020-03-04T06:19:15Z",
+                "2022-09-28T11:44:15Z",
+                "2023-07-27T09:53:29Z"
+            ],
+            "role": "Proximus NOC administrators",
+            "route": "87.64.0.0\/16",
+            "++updated": [
+                "2020-03-04 06:19:15",
+                "2023-07-27 09:53:29",
+                "2022-09-28 11:44:15"
+            ]
+        },
+        "geo": {
+            "country": "Belgium",
+            "countrycode": "BE",
+            "asn": "AS5432",
+            "org": "Proximus NV",
+            "city": "Antwerp",
+            "lat": "51.2192",
+            "region": [
+                "Antwerp Province",
+                "Flanders"
+            ],
+            "long": "4.3917"
+        },
+        "dns": {
+            "ptr": "57.71-64-87.adsl-dyn.isp.belgacom.be"
+        }
+    }
+}

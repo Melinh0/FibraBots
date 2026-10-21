@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 63868102,
+    "indicator": "45.182.119.202",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-02 05:40:46",
+    "stamp_updated": "2024-12-16 11:35:35",
+    "stamp_seen": "2024-10-02 06:23:32",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63871455,
+                "indicator": "https:\/\/45.182.119.202\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-02 05:40:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "Express",
+            "HSTS",
+            "jQuery",
+            "jQuery UI",
+            "Nginx",
+            "Socket.io"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2023-06-28T12:56:20Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2023-06-28 12:56:20"
+            ],
+            "address": "see http:\/\/www.iana.org.",
+            "admin-c": "IANA1-RIPE",
+            "netname": "NON-RIPE-NCC-MANAGED-ADDRESS-BLOCK",
+            "nic-hdl": "IANA1-RIPE",
+            "role": "Internet Assigned Numbers Authority",
+            "status": "ALLOCATED UNSPECIFIED",
+            "tech-c": "IANA1-RIPE",
+            "last-modified": [
+                "2001-09-22T09:31:27Z",
+                "2023-06-28T12:56:20Z"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-MNT",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "descr": "IPv4 address block not managed by the RIPE NCC",
+            "++registrant": "IANA1-RIPE",
+            "inetnum": "45.181.80.0 - 45.182.187.255",
+            "++updated": [
+                "2001-09-22 09:31:27",
+                "2023-06-28 12:56:20"
+            ],
+            "country": "EU # Country is really world wide"
+        },
+        "geo": {
+            "country": [
+                "Ecuador",
+                "EU # Country is really world wide"
+            ],
+            "countrycode": "EC",
+            "city": "Cuenca",
+            "region": "Azuay",
+            "address": "see http:\/\/www.iana.org.",
+            "long": "-79.0045",
+            "lat": "-2.8976",
+            "asn": "AS269790",
+            "org": "UNIVERSIDAD CATOLICA DE CUENCA"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "public, max-age=0",
+            "x-powered-by": "Express",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=63072000; includeSubdomains;",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "allow": "GET, POST",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "set-cookie": "branding=aw; Path=\/; secure; HttpOnly",
+            "last-modified": "Mon, 18 May 2020 10:32:50 GMT",
+            "etag": "W\/\"44331-1589797970000\"",
+            "date": "Wed, 02 Oct 2024 06:23:17 GMT",
+            "++target": "http:\/\/45.182.119.202\/",
+            "++redirect": "https:\/\/45.182.119.202\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "utf-8",
+            "++title": "AVIWEST - StreamHub"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-01 15:58:34",
+            "issuer": "\/CN=uservsftpd",
+            "subject": "\/CN=uservsftpd",
+            "expires": "2119-06-07 15:58:34",
+            "org": "uservsftpd",
+            "fingerprint": "d09580ba07efda8c03b7051baa60e1706c093b702f5ad35051893c338f7186a1"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.3)\n"
+        },
+        "cookies": {
+            "branding": "aw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/32dc9ba1a422c9b67761bde74d554a62.jpeg"
+        }
+    }
+}

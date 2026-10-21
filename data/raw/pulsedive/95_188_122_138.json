@@ -1,0 +1,97 @@
+{
+    "qid": null,
+    "iid": 60513660,
+    "indicator": "95.188.122.138",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-06-23 05:38:51",
+    "stamp_updated": "2024-09-29 04:59:27",
+    "stamp_seen": "2024-06-28 00:00:00",
+    "stamp_probed": "2024-06-23 05:38:53",
+    "stamp_retired": "2024-09-29 04:59:27",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-23 05:38:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "21",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "NETBIOS",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Russian Federation",
+            "countrycode": "RU",
+            "asn": "AS12389",
+            "city": "Krasnoyarsk",
+            "zip": "660000",
+            "org": "Rostelecom",
+            "isp": "Rostelecom",
+            "lat": "56.0133",
+            "long": "92.7885",
+            "region": "Krasnoyarsk Krai"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=UTF-8",
+            "cache-control": "no-cache",
+            "server": "micro_httpd",
+            "++code": "200",
+            "++status": "Unauthorized",
+            "++content-type": "text\/html",
+            "date": "Mon, 05 Jan 1970 02:17:01 GMT"
+        },
+        "meta": {
+            "pragma": "no-cache"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd!\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "21": "220 bftpd 3.8 at 95.188.122.138 ready."
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d33cc2ddbcafde77af1600bfaea9b42e.jpeg"
+        }
+    }
+}

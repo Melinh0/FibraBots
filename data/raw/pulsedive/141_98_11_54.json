@@ -1,0 +1,90 @@
+{
+    "qid": null,
+    "iid": 38444040,
+    "indicator": "141.98.11.54",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-08-27 12:09:05",
+    "stamp_updated": "2023-07-17 18:08:26",
+    "stamp_seen": "2023-04-15 02:04:02",
+    "stamp_probed": "2023-04-15 02:04:02",
+    "stamp_retired": "2023-07-17 18:08:26",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-08-27 16:07:01"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-08-27 12:09:05"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-08-27 16:07:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Lithuania",
+            "countrycode": "LT",
+            "lat": "55.4167",
+            "long": "24",
+            "asn": "AS209605",
+            "org": "UAB Host Baltic",
+            "isp": "UAB Host Baltic"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "secua.poppopprision.com"
+        }
+    }
+}

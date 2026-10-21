@@ -1,0 +1,78 @@
+{
+    "qid": null,
+    "iid": 62342503,
+    "indicator": "62.162.39.12",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 20:47:09",
+    "stamp_updated": "2024-12-16 11:36:52",
+    "stamp_seen": "2024-12-01 00:00:00",
+    "stamp_probed": "2024-08-20 21:51:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-12 20:47:09"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-21 21:42:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "5060",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SIP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "zip": "1000",
+            "countrycode": "MK",
+            "city": "Skopje",
+            "lat": "41.9985",
+            "long": "21.4313",
+            "country": "Macedonia, The former Yugoslav Republic of",
+            "asn": "AS215863",
+            "isp": "Prolink Ict Dooel",
+            "org": "Prolink Ict Dooel"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

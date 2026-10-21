@@ -1,0 +1,99 @@
+{
+    "qid": null,
+    "iid": 64615295,
+    "indicator": "191.243.79.22",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-01 08:37:52",
+    "stamp_updated": "2024-12-16 11:32:43",
+    "stamp_seen": "2024-11-01 23:25:55",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64648600,
+                "indicator": "http:\/\/191.243.79.22\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-01 08:37:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio de Janeiro",
+            "asn": "AS263499",
+            "org": "Telecom Conectividade",
+            "city": "Cachoeiras de Macacu",
+            "long": "-42.7133",
+            "lat": "-22.4861"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "Boa\/0.94.13",
+            "content-length": "3905",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Sat, 13 May 2023 07:31:38 GMT",
+            "date": "Fri, 01 Nov 2024 20:12:47 GMT",
+            "++target": "http:\/\/191.243.79.22\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": [
+                "no-cache",
+                "no-store"
+            ],
+            "pragma": "no-cache",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "cache": "no-cache",
+            "renderer": "webkit",
+            "expires": "0"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2017.75\n\u0000\u0000\u0001\ufffd\u0004\u0014\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdenq\ufffd,x\ufffd\ufffd\u0000\u0000\u0000Pdiffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u0095m"
+        }
+    }
+}

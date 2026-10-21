@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 63579171,
+    "indicator": "103.171.168.246",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-25 04:51:56",
+    "stamp_updated": "2024-12-16 11:27:27",
+    "stamp_seen": "2024-09-25 04:53:07",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63579474,
+                "indicator": "https:\/\/103.171.168.246\/gui\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-25 04:51:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23",
+            "443",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "Telnet"
+        ],
+        "technology": [
+            "jQuery",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-RGTECHNOSOLUTIONS",
+                "MAINT-IN-VSTECHNO"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "descr": [
+                "R G TECHNOSOLUTIONS PVT LTD",
+                "V S TECHNOLOGIES"
+            ],
+            "mnt-routes": [
+                "MAINT-IN-RGTECHNOSOLUTIONS",
+                "MAINT-IN-VSTECHNO"
+            ],
+            "origin": "AS134922",
+            "role": "NOC ADMIN",
+            "irt": "IRT-VSTECHNO-IN",
+            "netname": "VSTECHNO",
+            "last-modified": [
+                "2021-08-13T07:43:59Z",
+                "2021-08-13T07:38:53Z",
+                "2021-08-13T07:38:25Z",
+                "2021-08-18T10:55:47Z"
+            ],
+            "nic-hdl": "NA897-AP",
+            "inetnum": "103.171.168.0 - 103.171.169.255",
+            "tech-c": [
+                "NA897-AP",
+                "VS526-AP"
+            ],
+            "admin-c": [
+                "NA897-AP",
+                "VS526-AP"
+            ],
+            "++registrant": [
+                "NA897-AP",
+                "VS526-AP"
+            ],
+            "mnt-irt": "IRT-VSTECHNO-IN",
+            "e-mail": "vsvedsrivastava@gmail.com",
+            "phone": "+91 7617011006",
+            "abuse-mailbox": "vstechnology.gst@gmail.com",
+            "++email": [
+                "vstechnology.gst@gmail.com",
+                "vsvedsrivastava@gmail.com"
+            ],
+            "address": [
+                "3RD FLOOR BALA JI COMPLEX, CIVIL LINE ,Rae Bareli,Uttar Pradesh-229001",
+                "3RD FLOOR BALA JI COMPLEX, CIVIL LINE RAEBARELI,Rae Bareli,Uttar Pradesh-229001"
+            ],
+            "++abuse": "vstechnology.gst@gmail.com",
+            "route": "103.171.168.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-08-13 07:43:59",
+                "2021-08-13 07:38:53",
+                "2021-08-13 07:38:25",
+                "2021-08-18 10:55:47"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Uttar Pradesh",
+            "asn": "AS134922",
+            "org": "R G TECHNOSOLUTIONS PVT LTD",
+            "city": "Mau",
+            "lat": "25.9394",
+            "long": "83.5627",
+            "address": [
+                "3RD FLOOR BALA JI COMPLEX, CIVIL LINE ,Rae Bareli,Uttar Pradesh-229001",
+                "3RD FLOOR BALA JI COMPLEX, CIVIL LINE RAEBARELI,Rae Bareli,Uttar Pradesh-229001"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "pragma": "no-cache",
+            "server": "lighttpd\/1.4.35",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Wed, 11 Jan 2023 12:34:34 GMT",
+            "++target": "https:\/\/103.171.168.246\/",
+            "++redirect": "https:\/\/103.171.168.246\/gui\/login.cgi"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-03-18 11:21:32",
+            "org": "route",
+            "expires": "2039-03-13 11:21:32",
+            "issuer": "\/C=OS\/ST=route\/L=route\/O=route\/OU=route\/CN=route\/E=route",
+            "++subject": "route",
+            "subject": "\/C=OS\/ST=route\/L=route\/O=route\/OU=route\/CN=route\/E=route",
+            "fingerprint": "d07d1f33c23176c83b5979be10e4da05bfbab6dc320edc9b830731dda74230e2"
+        },
+        "meta": {
+            "++title": "Router",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "23": "\nUser Access Verification\n\nEntering 'radius'\/'tacacs+' for server authentication\n\n\ufffd\ufffd\u0001\ufffd\ufffd\u0003\ufffd\ufffd\"\ufffd\ufffd\u001fUsername: "
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5668d56305ea71e37a04eac727868c2e.jpeg"
+        }
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "qid": null,
+    "iid": 34443574,
+    "indicator": "119.147.211.178",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-04-28 22:41:22",
+    "stamp_updated": "2024-12-14 20:11:17",
+    "stamp_seen": "2024-12-14 20:11:17",
+    "stamp_probed": "2024-08-27 22:01:40",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64115439,
+                "indicator": "https:\/\/119.147.211.178\/admin\/public\/index.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-27 21:59:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-04-28 22:41:22"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "admin-c": "CH93-AP",
+            "irt": "IRT-CHINANET-CN",
+            "mnt-irt": "IRT-CHINANET-CN",
+            "tech-c": [
+                "CH93-AP",
+                "IC83-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CHINANET",
+                "MAINT-CHINANET-GD",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "++phone": [
+                "+86-10-58501724",
+                "+86-20-87189274",
+                "+000000000"
+            ],
+            "address": [
+                "NO.18,RO. ZHONGSHANER,YUEXIU DISTRIC,GUANGZHOU",
+                "100032",
+                "No.31 ,jingrong street,beijing"
+            ],
+            "descr": [
+                "China Telecom",
+                "Data Communication Division",
+                "CHINANET Guangdong province network"
+            ],
+            "fax-no": [
+                "+86-20-87189274",
+                "+86-10-58501724"
+            ],
+            "mnt-lower": "MAINT-CHINANET-GD",
+            "netname": "CHINANET-GD",
+            "nic-hdl": [
+                "IC83-AP",
+                "CH93-AP",
+                "AC1573-AP"
+            ],
+            "person": [
+                "IPMASTER CHINANET-GD",
+                "Chinanet Hostmaster"
+            ],
+            "phone": [
+                "+86-20-87189274",
+                "+86-10-58501724",
+                "+000000000"
+            ],
+            "mnt-routes": "MAINT-CHINANET-GD",
+            "inetnum": "119.144.0.0 - 119.147.255.255",
+            "++registrant": [
+                "CH93-AP",
+                "Chinanet Hostmaster",
+                "IPMASTER CHINANET-GD"
+            ],
+            "abuse-c": "AC1573-AP",
+            "role": "ABUSE CHINANETCN",
+            "abuse-mailbox": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "++email": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "e-mail": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "++abuse": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "last-modified": [
+                "2021-05-12T09:06:58Z",
+                "2021-06-15T08:05:44Z",
+                "2022-02-28T06:53:44Z",
+                "2024-10-17T03:10:56Z",
+                "2024-10-17T03:11:15Z"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-02-28 06:53:44",
+                "2021-05-12 09:06:58",
+                "2024-10-17 03:10:56",
+                "2024-10-17 03:11:15"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4134",
+            "lat": "34.7732",
+            "address": [
+                "No.31 ,jingrong street,beijing",
+                "100032",
+                "NO.18,RO. ZHONGSHANER,YUEXIU DISTRIC,GUANGZHOU"
+            ],
+            "org": "Chinanet",
+            "long": "113.722"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1",
+            "strict-transport-security": "max-age=31536000",
+            "content-length": "5756",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' frame-ancestors 'self' ; base-uri 'self' ; block-all-mixed-content",
+            "++redirect": "https:\/\/119.147.211.178\/admin\/public\/index.html",
+            "last-modified": "Sat, 30 Jul 2022 06:36:59 GMT",
+            "++target": "https:\/\/119.147.211.178\/",
+            "date": "Tue, 22 Oct 2024 06:43:06 UTC"
+        },
+        "meta": {
+            "generator": "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.6), see www.w3.org",
+            "++title": "Cisco ASDM 7.18(1)"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=CN=ASA Temporary Self Signed Certificate",
+            "issuer": "\/CN=CN=ASA Temporary Self Signed Certificate",
+            "org": "CN=ASA Temporary Self Signed Certificate",
+            "expires": "2032-12-31 21:55:39",
+            "valid": "2023-01-03 21:55:39",
+            "fingerprint": "79f8eba140793e1828e0f4738faa42822900aeb14a5679a525af04b1dac3c20c"
+        },
+        "banners": {
+            "22": "SSH-2.0-Cisco-1.25\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/fdac1bf9665d990c80ac97269b66003b.jpeg"
+        }
+    }
+}

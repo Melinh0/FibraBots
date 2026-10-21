@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 33505617,
+    "indicator": "177.75.6.242",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-04-01 17:36:02",
+    "stamp_updated": "2024-12-11 02:26:33",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-08-28 22:49:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 33505738,
+                "indicator": "https:\/\/177.75.6.242\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-16 06:45:41"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-04-01 17:36:02"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-16 06:45:41"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-12-23 15:25:19"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-11 17:41:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "636",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "LDAPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Bootstrap",
+            "jQuery",
+            "Let's Encrypt",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS28178",
+            "org": "Networld Provedor e Servicos de Internet Ltda",
+            "lat": "-15.7792",
+            "region": "Federal District",
+            "long": "-47.9341",
+            "city": "Bras\ufffdlia"
+        },
+        "whois": {
+            "++registered": "2011-08-26 00:00:00",
+            "country": "BR",
+            "created": [
+                "20110826",
+                "19981202"
+            ],
+            "abuse-c": "PRI3",
+            "aut-num": "AS28178",
+            "nic-hdl-br": "PRI3",
+            "owner": "Networld Provedor e Servicos de Internet Ltda",
+            "owner-c": "PRI3",
+            "ownerid": "00.545.482\/0001-65",
+            "person": "Principal Internet",
+            "responsible": "Eric Figueiredo Nobre Formiga",
+            "tech-c": "PRI3",
+            "inetnum": "177.75.0.0\/20",
+            "inetrev": "177.75.0.0\/21",
+            "changed": [
+                "20110826",
+                "20200729"
+            ],
+            "nserver": [
+                "dnsrev01.nwi.com.br",
+                "dnsrev02.nwi.com.br"
+            ],
+            "++abuse": "PRI3",
+            "++registrant": "Principal Internet",
+            "++email": "postmaster@nwi.com.br",
+            "e-mail": "postmaster@nwi.com.br",
+            "nslastaa": "20240826",
+            "nsstat": "20240826 AA"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3423",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "etag": "\"3c3c-5e4e50eab1a49-gzip\"",
+            "last-modified": "Thu, 28 Jul 2022 22:28:48 GMT",
+            "++redirect": "https:\/\/177.75.6.242\/",
+            "++target": "http:\/\/177.75.6.242\/",
+            "date": "Mon, 07 Oct 2024 01:01:57 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "charset": "utf-8",
+            "x-ua-compatible": "ie-edge",
+            "++title": "Wise inform\ufffdtica - Ind\ufffdstria de Telecomunica\ufffd\ufffdes"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=wi.com.br",
+            "domain": [
+                "wi.com.br",
+                "www.wi.com.br"
+            ],
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "expires": "2024-11-20 23:58:51",
+            "valid": "2024-08-22 23:58:52",
+            "fingerprint": "2a9df591a6bfc0ab1ada90704e35634327097fb7219122dd675b9e8e66f1b5dc"
+        },
+        "banners": {
+            "21": "220 ProFTPD Server (Debian) [::ffff:192.168.1.13]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0e9c32c603c9c006a32e1e96bef2b3c3.jpeg"
+        }
+    }
+}

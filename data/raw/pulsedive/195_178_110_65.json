@@ -1,0 +1,98 @@
+{
+    "qid": null,
+    "iid": 64298113,
+    "indicator": "195.178.110.65",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-12 06:13:46",
+    "stamp_updated": "2024-12-08 10:30:04",
+    "stamp_seen": "2024-10-12 06:42:22",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64299940,
+                "indicator": "http:\/\/195.178.110.65\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-12 06:13:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "asn": "AS48090",
+            "org": "Pptechnology Limited",
+            "lat": "42.696",
+            "long": "23.332"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.29 (Ubuntu)",
+            "content-length": "3138",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/195.178.110.65\/",
+            "etag": "\"2aa6-62433d1d93a85-gzip\"",
+            "date": "Sat, 12 Oct 2024 06:40:24 GMT",
+            "last-modified": "Fri, 11 Oct 2024 13:54:02 GMT"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/621cf837bdaf177c2899638a88377a69.jpeg"
+        }
+    }
+}

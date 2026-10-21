@@ -1,0 +1,173 @@
+{
+    "qid": null,
+    "iid": 65720625,
+    "indicator": "103.191.92.159",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-09 10:27:53",
+    "stamp_updated": "2024-12-10 10:32:31",
+    "stamp_seen": "2024-12-09 10:28:18",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65720739,
+                "indicator": "https:\/\/103.191.92.159\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 10:27:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-MBTG"
+            ],
+            "descr": [
+                "Corporate \/ Direct Member IDNIC",
+                "PT MAJU BERSAMA TEPAT GUNA",
+                "JL.Kampung Jajan Pasar no 124",
+                "Bangetayu Kulon, Genuk, Semarang"
+            ],
+            "irt": "IRT-MBTG-ID",
+            "++email": [
+                "abuse@majubersamatepat.my.id",
+                "management@majubersamatepat.my.id"
+            ],
+            "inetnum": "103.191.92.0 - 103.191.93.255",
+            "mnt-irt": "IRT-MBTG-ID",
+            "nic-hdl": "MACJ1-AP",
+            "tech-c": "MACJ1-AP",
+            "abuse-mailbox": "abuse@majubersamatepat.my.id",
+            "phone": "+62818933991",
+            "++phone": "+62818933991",
+            "e-mail": [
+                "abuse@majubersamatepat.my.id",
+                "management@majubersamatepat.my.id"
+            ],
+            "person": "Mohammad Arkham Chadiar Jantra",
+            "address": [
+                "PT MAJU BERSAMA TEPAT GUNA",
+                "JALAN JAMBU NO.01, TEGAL"
+            ],
+            "mnt-lower": "MAINT-ID-MBTG",
+            "++registrant": [
+                "Mohammad Arkham Chadiar Jantra",
+                "MACJ1-AP"
+            ],
+            "++abuse": "abuse@majubersamatepat.my.id",
+            "netname": "IDNIC-MBTG-ID",
+            "admin-c": "MACJ1-AP",
+            "last-modified": [
+                "2022-07-13T10:19:42Z",
+                "2022-07-13T10:15:49Z",
+                "2022-07-13T10:16:12Z"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-07-13 10:19:42",
+                "2022-07-13 10:15:49",
+                "2022-07-13 10:16:12"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS136052",
+            "org": "PT Cloud Hosting Indonesia",
+            "lat": "-6.1728",
+            "long": "106.8272",
+            "address": [
+                "PT MAJU BERSAMA TEPAT GUNA",
+                "JALAN JAMBU NO.01, TEGAL"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "date": "Mon, 09 Dec 2024 10:28:01 GMT",
+            "last-modified": "Wed, 04 Dec 2024 04:03:29 GMT",
+            "++redirect": "https:\/\/103.191.92.159\/",
+            "++target": "http:\/\/103.191.92.159\/",
+            "etag": "W\/\"674fd491-4b0\""
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "fingerprint": "9fa86c31b0ce30fb2d9756a513e2a4cdfe815e6ad202210f602995a645d0cfa8",
+            "expires": "2025-03-03 06:59:45",
+            "domain": "sender.wiz.or.id",
+            "subject": "\/CN=sender.wiz.or.id",
+            "valid": "2024-12-03 06:59:46"
+        },
+        "meta": {
+            "charset": "utf-8",
+            "++title": "WIZBOT"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 17:27. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/505772f517cc801cb2faa0b09d04daac.jpeg"
+        }
+    }
+}

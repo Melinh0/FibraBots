@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 62341715,
+    "indicator": "41.243.25.136",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 20:44:44",
+    "stamp_updated": "2024-12-14 20:39:15",
+    "stamp_seen": "2024-12-14 20:39:15",
+    "stamp_probed": "2024-08-28 22:56:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62343564,
+                "indicator": "http:\/\/41.243.25.136\/"
+            },
+            {
+                "iid": 63862774,
+                "indicator": "https:\/\/41.243.25.136\/"
+            },
+            {
+                "iid": 64226297,
+                "indicator": "https:\/\/userscreen.airtelquiz.airtel.cd\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-12 20:44:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Flutter",
+            "PWA",
+            "Sectigo",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "descr": [
+                "ISP",
+                "Airtel CD"
+            ],
+            "address": [
+                "Congo DR",
+                "Kinshasa 1201",
+                "Airtel DRC",
+                "1, crois. Av. Tchad & Bas-Congo",
+                "Commnue Gombe"
+            ],
+            "country": "CD",
+            "mnt-by": [
+                "GENERATED-43LC9LWRWFWVYUJG84RSMUAJT41VCWKF-MNT",
+                "FWAMINIT-MNT",
+                "AIRTEL-DRC-MNT"
+            ],
+            "admin-c": "TF3-AFRINIC",
+            "tech-c": "TF3-AFRINIC",
+            "nic-hdl": "TF3-AFRINIC",
+            "person": "Thomas Fwamini",
+            "phone": [
+                "tel:+243-999-964-064",
+                "tel:+243-999-964-215",
+                "tel:+243-999-964-233",
+                "tel:+243-999-964-554"
+            ],
+            "++registrant": [
+                "TF3-AFRINIC",
+                "Thomas Fwamini"
+            ],
+            "origin": "AS37020",
+            "netname": "Airtel_DRC_41_243_24",
+            "inetnum": "41.243.24.0 - 41.243.31.255",
+            "route": "41.243.25.0\/24",
+            "source": "AFRINIC # Filtered",
+            "parent": "41.243.0.0 - 41.243.255.255"
+        },
+        "geo": {
+            "countrycode": "CD",
+            "city": "Kinshasa",
+            "asn": "AS37020",
+            "org": "CELTEL-DRC",
+            "region": "Kinshasa City",
+            "address": [
+                "Congo DR",
+                "Airtel DRC",
+                "1, crois. Av. Tchad & Bas-Congo",
+                "Commnue Gombe",
+                "Kinshasa 1201"
+            ],
+            "lat": "-4.33",
+            "long": "15.3104",
+            "country": [
+                "DR Congo",
+                "Congo - Kinshasa"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "content-length": "955",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "++target": "http:\/\/41.243.25.136\/",
+            "last-modified": "Mon, 29 Jul 2024 06:12:17 GMT",
+            "etag": "\"941-61e5cbe360e46-gzip\"",
+            "++base": "https:\/\/userscreen.airtelquiz.airtel.cd\/",
+            "++redirect": "https:\/\/userscreen.airtelquiz.airtel.cd\/",
+            "date": "Tue, 22 Oct 2024 18:23:19 GMT"
+        },
+        "meta": {
+            "apple-mobile-web-app-status-bar-style": "black",
+            "charset": "UTF-8",
+            "apple-mobile-web-app-capable": "yes",
+            "x-ua-compatible": "IE=Edge",
+            "description": "A new Flutter project.",
+            "apple-mobile-web-app-title": "airtel_trivia",
+            "++title": "airtel_trivia"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Organization Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Organization Validation Secure Server CA",
+            "expires": "2025-09-02 23:59:59",
+            "valid": "2024-09-02 00:00:00",
+            "++subject": "Bharti Airtel International (Netherlands) B.V.",
+            "subject": "\/C=NL\/ST=Noord-Holland\/O=Bharti Airtel International (Netherlands) B.V.\/CN=userscreen.airtelquiz.airtel.cd",
+            "fingerprint": "d6078f52f895ba728f5a5e38c1d811de61bcd66bc15ebbcd3da4a6a05c336f3a",
+            "domain": [
+                "userscreen.airtelquiz.airtel.cd",
+                "www.userscreen.airtelquiz.airtel.cd"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dns": {
+            "ptr": "136-25-243-41.r.airtel.cd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3cf813fd07ac36f9fceb92f341701c52.jpeg"
+        }
+    }
+}

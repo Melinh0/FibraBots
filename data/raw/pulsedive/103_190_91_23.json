@@ -1,0 +1,154 @@
+{
+    "qid": null,
+    "iid": 55364211,
+    "indicator": "103.190.91.23",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-01-23 11:53:14",
+    "stamp_updated": "2024-05-20 00:19:13",
+    "stamp_seen": "2024-02-18 15:46:29",
+    "stamp_probed": "2024-02-18 15:46:29",
+    "stamp_retired": "2024-05-20 00:19:13",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-23 11:53:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-WIFIWALA"
+            ],
+            "role": "MANAGER ADMIN",
+            "descr": [
+                "Route Object",
+                "SWIP WIFI NETWORK PRIVATE LIMITED"
+            ],
+            "++updated": "2022-09-12 00:00:00",
+            "irt": "IRT-WIFIWALA-IN",
+            "address": "GOPALGANJ BIHAR,Gopalganj,Bihar-841423",
+            "netname": "WIFIWALA",
+            "geoloc": "26.31590 84.66228",
+            "last-modified": [
+                "2022-09-12T08:24:24Z",
+                "2022-06-30T06:13:02Z",
+                "2022-06-30T06:11:02Z",
+                "2022-06-30T06:08:12Z",
+                "2022-07-01T09:04:28Z"
+            ],
+            "mnt-routes": "MAINT-IN-WIFIWALA",
+            "tech-c": [
+                "MA1612-AP",
+                "RS1523-AP"
+            ],
+            "nic-hdl": [
+                "MA1612-AP",
+                "RS1523-AP"
+            ],
+            "++email": "admin@wifiwalanet.in",
+            "mnt-lower": "MAINT-IN-WIFIWALA",
+            "origin": "AS149591",
+            "route": "103.190.91.0\/24",
+            "phone": "+91 7004411322",
+            "e-mail": "admin@wifiwalanet.in",
+            "admin-c": "RS1523-AP",
+            "++abuse": "admin@wifiwalanet.in",
+            "auth": "mnt-by: MAINT-IN-WIFIWALA",
+            "abuse-mailbox": "admin@wifiwalanet.in",
+            "person": "RAMASHANKAR SINGH",
+            "inetnum": "103.190.91.0 - 103.190.91.255",
+            "mnt-irt": "IRT-WIFIWALA-IN",
+            "++phone": "+91 7004411322",
+            "++registrant": "RS1523-AP"
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Bihar",
+            "lat": "26.4677",
+            "long": "84.4413",
+            "zip": "841423",
+            "asn": "AS149591",
+            "org": "Swip Wifi Network Private Limited",
+            "isp": "Swip Wifi Network Private Limited",
+            "address": "GOPALGANJ BIHAR,Gopalganj,Bihar-841423",
+            "city": "Gop\u0101lganj"
+        },
+        "http": {
+            "content-type": "text\/plain",
+            "server": "lighttpd\/1.4.39",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "set-cookie": "ui_language=en_US; Path=\/; Expires=Tuesday, 1-Jan-38 00:00:00 GMT; HttpOnly",
+            "++content-type": "text\/plain",
+            "date": "Tue, 23 Jan 2024 11:55:19 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2018-12-31 18:30:00",
+            "expires": "2037-12-31 18:30:00",
+            "++self-signed": "1",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-44:D9:E7:A8:DB:AB\/E=support@ubnt.com",
+            "org": "UBNT-44:D9:E7:A8:DB:AB",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-44:D9:E7:A8:DB:AB\/E=support@ubnt.com",
+            "domain": "UBNT-44:D9:E7:A8:DB:AB"
+        },
+        "cookies": {
+            "ui_language": "en_US",
+            "airos_44d9e7a8dbab": "31bd7d605eafad1351f45cf0a9f5e0e6"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001<\u000b\u0014E\ufffd\ufffd\ufffd\u0374\u0010:\u000ePt\u0705\ufffd\f\u000e\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0214\ufffd\u5556\ufffd\u0006\ufffdy5"
+        }
+    }
+}

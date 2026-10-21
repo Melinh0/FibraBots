@@ -1,0 +1,195 @@
+{
+    "qid": null,
+    "iid": 778,
+    "indicator": "109.169.33.163",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-09-28 03:08:44",
+    "stamp_updated": "2024-12-25 17:24:12",
+    "stamp_seen": "2024-12-25 17:24:12",
+    "stamp_probed": "2024-10-01 05:18:02",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [
+            {
+                "iid": 6956908,
+                "indicator": "https:\/\/2019.www.torproject.org\/images\/how_tor_works_thumb.png"
+            }
+        ],
+        "to": [
+            {
+                "iid": 6964663,
+                "indicator": "http:\/\/109.169.33.163\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-10-14 20:59:05"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-21 17:52:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 00:19:37"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-21 17:52:13"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-09-10 15:57:37"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-10-14 20:59:06"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "GB",
+            "address": [
+                "UK",
+                "London",
+                "Hands.com Ltd.",
+                "10 Onslow Gardend",
+                "South Woodford",
+                "E18 1NE"
+            ],
+            "++phone": "+442085309560",
+            "admin-c": "PH5285-RIPE",
+            "created": [
+                "2011-04-29T00:01:49Z",
+                "2011-12-09T16:35:09Z",
+                "2011-12-09T16:29:06Z"
+            ],
+            "descr": [
+                "Iomart Hosting Ltd",
+                "Hands.com Ltd"
+            ],
+            "inetnum": "109.169.33.160 - 109.169.33.175",
+            "last-modified": [
+                "2011-04-29T00:01:49Z",
+                "2012-12-03T12:00:55Z",
+                "2017-10-30T22:16:10Z"
+            ],
+            "mnt-by": [
+                "RAPIDSWITCH-MNT",
+                "GB10488-RIPE-MNT"
+            ],
+            "netname": "Hands",
+            "nic-hdl": "PH5285-RIPE",
+            "origin": "AS20860",
+            "person": "Philip Hands",
+            "phone": "+442085309560",
+            "route": "109.169.0.0\/18",
+            "tech-c": "PH5285-RIPE",
+            "++registrant": [
+                "PH5285-RIPE",
+                "Philip Hands"
+            ],
+            "++registered": [
+                "2011-04-29 00:01:49",
+                "2011-12-09 16:35:09",
+                "2011-12-09 16:29:06"
+            ],
+            "++updated": [
+                "2011-04-29 00:01:49",
+                "2017-10-30 22:16:10"
+            ]
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS20860",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "org": "Iomart Cloud Services Limited"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "5488",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/109.169.33.163\/",
+            "date": "Tue, 24 Dec 2024 17:30:18 GMT",
+            "expires": "Tue, 24 Dec 2024 17:50:18 GMT",
+            "x-your-address-is": "139.162.186.125"
+        },
+        "dns": {
+            "ptr": "tor-exit-readme.hands.com"
+        },
+        "meta": {
+            "++title": "This is a Tor Exit Router",
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a0adea48ffc02fcb1dd866ec807732f2.jpeg"
+        }
+    }
+}

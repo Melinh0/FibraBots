@@ -1,0 +1,318 @@
+{
+    "qid": null,
+    "iid": 101479,
+    "indicator": "198.49.23.144",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-10-18 02:37:35",
+    "stamp_updated": "2025-01-09 17:03:22",
+    "stamp_seen": "2025-01-09 17:03:22",
+    "stamp_probed": "2024-06-24 02:06:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 8,
+    "umbrella_rank": 1492,
+    "umbrella_domain": "kargo.com",
+    "riskfactors": [
+        {
+            "rfid": 71,
+            "description": "common resource or infrastructure",
+            "risk": "none"
+        },
+        {
+            "rfid": 62,
+            "description": "linked to top 100k domain",
+            "risk": "none"
+        },
+        {
+            "rfid": 61,
+            "description": "linked to top 10k domain",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55508614,
+                "indicator": "https:\/\/198.49.23.144\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 314,
+            "name": "Credential Harvesting",
+            "category": "general",
+            "risk": "unknown",
+            "stamp_linked": "2019-01-07 18:29:37"
+        },
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-21 03:39:54"
+        },
+        {
+            "tid": 68,
+            "name": "Dridex",
+            "category": "malware",
+            "risk": "high",
+            "stamp_linked": "2018-06-26 03:15:44"
+        },
+        {
+            "tid": 30,
+            "name": "Malware",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2018-07-07 17:44:29"
+        },
+        {
+            "tid": 10,
+            "name": "Matsnu",
+            "category": "malware",
+            "risk": "unknown",
+            "stamp_linked": "2019-01-18 10:54:25"
+        },
+        {
+            "tid": 12,
+            "name": "Nymaim",
+            "category": "malware",
+            "risk": "medium",
+            "stamp_linked": "2018-05-05 21:18:02"
+        },
+        {
+            "tid": 67,
+            "name": "Phishing",
+            "category": "general",
+            "risk": "high",
+            "stamp_linked": "2020-04-09 09:14:13"
+        },
+        {
+            "tid": 450,
+            "name": "REvil",
+            "category": "malware",
+            "risk": "high",
+            "stamp_linked": "2020-03-16 17:28:24"
+        },
+        {
+            "tid": 19,
+            "name": "Suppobox",
+            "category": "malware",
+            "risk": "unknown",
+            "stamp_linked": "2018-04-02 19:02:06"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2018-01-06 08:30:47"
+        },
+        {
+            "tid": 23,
+            "name": "Virut",
+            "category": "malware",
+            "risk": "unknown",
+            "stamp_linked": "2018-08-15 07:44:28"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 4,
+            "name": "C&C IPs",
+            "category": "malware",
+            "organization": "Bambenek Consulting",
+            "pricing": null,
+            "stamp_linked": "2018-05-05 21:18:02"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 09:12:48"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-21 03:39:54"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 130233,
+            "username": "3ch0x2",
+            "title": "Cyber Investigator",
+            "comment": "",
+            "stamp_added": "2020-03-15 17:00:17",
+            "stamp_updated": "2020-04-09 09:14:13"
+        },
+        {
+            "cid": 363,
+            "username": "sherd",
+            "title": "Founder",
+            "comment": "False positives, will correct risk algorithm to adjust for IPs ranked lower on Cisco Umbrella top million sites.",
+            "stamp_added": "2018-03-27 05:07:21",
+            "stamp_updated": "2018-03-27 05:07:21"
+        },
+        {
+            "cid": 362,
+            "username": "sherd",
+            "title": "Founder",
+            "comment": "False positives, will correct risk algorithm to adjust for IPs ranked lower on Cisco Umbrella top million sites.",
+            "stamp_added": "2018-03-27 05:07:19",
+            "stamp_updated": "2018-03-27 05:07:19"
+        }
+    ],
+    "attributes": {
+        "hosttype": [
+            "Name Server"
+        ],
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "DigiCert",
+            "Squarespace",
+            "Squarespace Commerce"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "orgabusename": "Abuse",
+            "regdate": [
+                "2013-08-14",
+                "2012-04-26"
+            ],
+            "++registered": [
+                "2013-08-14 00:00:00",
+                "2012-04-26 00:00:00"
+            ],
+            "++updated": [
+                "2017-01-04 00:00:00",
+                "2021-12-14 00:00:00"
+            ],
+            "parent": "NET198 (NET-198-0-0-0-0)",
+            "updated": [
+                "2017-01-04",
+                "2021-12-14"
+            ],
+            "++abuse": "abuse-network@squarespace.com",
+            "++email": "systems-net@squarespace.com",
+            "++phone": "+1-347-758-4644",
+            "++registrant": "Squarespace, Inc.",
+            "address": "225 Varick St",
+            "orgabuseemail": "abuse-network@squarespace.com",
+            "orgabusehandle": "ABUSE5803-ARIN",
+            "orgabusephone": "+1-347-758-4644",
+            "organization": "Squarespace, Inc. (SQUAR-30)",
+            "orgid": "SQUAR-30",
+            "orgname": "Squarespace, Inc.",
+            "orgnocemail": "systems-net@squarespace.com",
+            "orgnochandle": "SYSTE409-ARIN",
+            "orgnocname": "Systems",
+            "orgnocphone": "+1-347-758-4644",
+            "orgtechemail": "systems-net@squarespace.com",
+            "orgtechhandle": "SYSTE409-ARIN",
+            "orgtechname": "Systems",
+            "orgtechphone": "+1-347-758-4644",
+            "postalcode": "10014",
+            "cidr": "198.49.23.0\/24",
+            "nethandle": "NET-198-49-23-0-1",
+            "netname": "SQUARESPACE",
+            "netrange": "198.49.23.0 - 198.49.23.255",
+            "originas": "AS53831",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/SYSTE409-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/198.49.23.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SQUAR-30"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5803-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/SYSTE409-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": "New York",
+            "region": "NY",
+            "asn": "AS53831",
+            "zip": "10014",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "Squarespace, Inc. (SQUAR-30)",
+                "SQUARESPACE"
+            ],
+            "address": "225 Varick St"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, must-revalidate",
+            "content-length": "2062",
+            "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+            "++code": "400",
+            "server": "Squarespace",
+            "++content-type": "text\/html",
+            "date": "Tue, 05 Nov 2024 15:36:31 UTC",
+            "x-contextid": "2Xo97wrd\/81ZIv8uc",
+            "++target": "http:\/\/198.49.23.144\/",
+            "++redirect": "https:\/\/198.49.23.144\/"
+        },
+        "ssl": {
+            "domain": [
+                "squarespace.com",
+                "*.squarespace.com",
+                "static1.1.sqspcdn.com",
+                "static2.1.sqspcdn.com",
+                "static1.2.sqspcdn.com",
+                "cdn1.1.sqspcdn.com",
+                "*.campaign-preferences.com",
+                "campaign-preferences.com",
+                "*.engage.squarespace-mail.com",
+                "engage.squarespace-mail.com",
+                "sqsp.net",
+                "*.sqsp.net",
+                "*.sqspcdn.com",
+                "sqspcdn.com"
+            ],
+            "version": "v3",
+            "org": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+            "issuer": "\/C=US\/O=DigiCert Inc\/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+            "subject": "\/C=US\/ST=New York\/L=New York\/O=Squarespace, Inc.\/CN=*.squarespace.com",
+            "expires": "2025-02-28 23:59:59",
+            "valid": "2024-02-09 00:00:00",
+            "++subject": "Squarespace, Inc.",
+            "fingerprint": "24ef4f3b2e7c7f14f59c03b15a906926fcdc033ee42628e32ce03e80af0e40b0"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "++title": "400 Bad Request"
+        },
+        "dns": {
+            "ptr": ""
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d5c80ee3e8335afb6995789df4f255d7.jpeg"
+        }
+    }
+}

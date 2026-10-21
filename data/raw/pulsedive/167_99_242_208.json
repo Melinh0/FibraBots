@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 29460635,
+    "indicator": "167.99.242.208",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-11-05 19:58:51",
+    "stamp_updated": "2024-12-11 10:40:55",
+    "stamp_seen": "2022-05-14 14:28:30",
+    "stamp_probed": "2022-05-14 14:28:29",
+    "stamp_retired": "2022-02-06 17:58:02",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-11-09 15:36:27"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-05 19:58:51"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2021-11-09 15:36:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Google Analytics",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS14061",
+            "zip": "60313",
+            "region": "Hesse",
+            "lat": "50.1188",
+            "long": "8.6843",
+            "city": "Frankfurt am Main",
+            "org": "DIGITALOCEAN-ASN",
+            "isp": "DIGITALOCEAN-ASN"
+        },
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "address": [
+                "10th Floor",
+                "101 Ave of the Americas"
+            ],
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2017-11-10"
+            ],
+            "stateprov": "NY",
+            "parent": "NET167 (NET-167-0-0-0-0)",
+            "originas": "AS14061",
+            "++registered": "2017-11-10 00:00:00",
+            "netrange": "167.99.0.0 - 167.99.255.255",
+            "nethandle": "NET-167-99-0-0-1",
+            "cidr": "167.99.0.0\/16",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2021-05-03"
+            ],
+            "netname": "DIGITALOCEAN-167-99-0-0",
+            "++updated": "2021-05-03 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "content-length": "3996",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.29 (Ubuntu)",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"5098-5d1bbe2eca4ed-gzip\"",
+            "last-modified": "Sat, 27 Nov 2021 02:22:59 GMT",
+            "date": "Sat, 14 May 2022 14:28:12 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "utf-8",
+            "keywords": "\u062d\u0644\u0648\u0627\u0646\u064a",
+            "description": "\u0627\u0644\u0643\u0631\u0646\u0643"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5\n"
+        },
+        "cookies": {
+            "_gat_gtag_ua_213760896_1": "1",
+            "_gid": "GA1.1.1319963112.1652538494",
+            "_ga": "GA1.1.994855738.1652538494"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/47bdb7108810ddff8db248e28250b2cc.jpeg"
+        }
+    }
+}

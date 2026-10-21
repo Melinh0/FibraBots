@@ -1,0 +1,186 @@
+{
+    "qid": null,
+    "iid": 37699416,
+    "indicator": "200.35.54.73",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-07-31 08:50:50",
+    "stamp_updated": "2024-12-16 11:33:15",
+    "stamp_seen": "2024-12-15 07:40:30",
+    "stamp_probed": "2024-09-30 08:42:12",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-06-13 06:38:50"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-07-31 08:50:50"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-06-13 06:38:50"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-10-05 19:23:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "CO",
+            "nserver": [
+                "NSBOG01.UNE.NET.CO",
+                "BIRLOCHA.UNE.NET.CO",
+                "LAUTA.UNE.NET.CO"
+            ],
+            "responsible": "NOC Internet Edatel",
+            "owner": "EDATEL S.A. E.S.P",
+            "ownerid": "CO-ESES2-LACNIC",
+            "created": [
+                "20060317",
+                "20190530",
+                "20240611"
+            ],
+            "address": [
+                "CL 41 CR 52 -28 (PISO 15 ), 0, 0",
+                "0 - MEDELLIN - 4",
+                "Carrera 16, 11, INTERIOR 108",
+                "050022 - MEDELLIN - ANTIOQUIA",
+                "Rivana, 100,",
+                "00 - MEDELLIN - ANTIOQUIA"
+            ],
+            "phone": [
+                "+57 4 3846562",
+                "+57  3017894156 [0000]",
+                "+57  3001231234"
+            ],
+            "inetnum": "200.35.48.0\/20",
+            "inetrev": [
+                "200.35.56.0\/24",
+                "200.35.48.0\/21",
+                "200.35.58.0\/24",
+                "200.35.59.0\/24",
+                "200.35.57.0\/24",
+                "200.35.60.0\/22"
+            ],
+            "owner-c": "JDM29",
+            "nic-hdl": [
+                "JDM29",
+                "ABI13"
+            ],
+            "tech-c": "JDM29",
+            "changed": [
+                "20240611",
+                "20240815"
+            ],
+            "++email": [
+                "adm.internet@tigo.com.co",
+                "abuse.internet@tigo.com.co"
+            ],
+            "person": [
+                "Abuso Internet",
+                "ADM INTERNET"
+            ],
+            "abuse-c": "ABI13",
+            "e-mail": [
+                "adm.internet@tigo.com.co",
+                "abuse.internet@tigo.com.co"
+            ],
+            "++registrant": [
+                "Abuso Internet",
+                "ADM INTERNET"
+            ],
+            "nsstat": [
+                "20241023 AA",
+                "20241025 AA",
+                "20241026 AA",
+                "20241027 AA"
+            ],
+            "nslastaa": [
+                "20241023",
+                "20241025",
+                "20241026",
+                "20241027"
+            ]
+        },
+        "geo": {
+            "country": "Colombia",
+            "countrycode": "CO",
+            "region": "Antioquia",
+            "asn": "AS27695",
+            "org": "EDATEL S.A. E.S.P",
+            "lat": "6.2529",
+            "long": "-75.5646",
+            "address": [
+                "CL 41 CR 52 -28 (PISO 15 ), 0, 0",
+                "0 - MEDELLIN - 4",
+                "Carrera 16, 11, INTERIOR 108",
+                "050022 - MEDELLIN - ANTIOQUIA",
+                "Rivana, 100,",
+                "00 - MEDELLIN - ANTIOQUIA"
+            ],
+            "city": "Medell\ufffdn"
+        },
+        "dns": {
+            "ptr": "adsl-mnt-200-35-54-73.edatel.net.co"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2013.62\n\u0000\u0000\u0001\ufffd\n\u0014\ufffdL\u0010\ufffdq\ufffd\ufffd\u0019\ufffd\ufffd\ufffd?\f\ufffd\u001c\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdR\u0005\ufffdmuf\u001f\ufffd\ufffd"
+        }
+    }
+}

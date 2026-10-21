@@ -1,0 +1,120 @@
+{
+    "qid": null,
+    "iid": 30020669,
+    "indicator": "193.163.125.235",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-12-02 04:08:40",
+    "stamp_updated": "2024-12-14 09:37:12",
+    "stamp_seen": "2024-12-14 09:37:12",
+    "stamp_probed": "2021-12-02 04:11:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 30020955,
+                "indicator": "http:\/\/193.163.125.235\/"
+            },
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-02 04:08:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "++target": "http:\/\/193.163.125.235\/",
+            "date": "Tue, 22 Oct 2024 17:25:31 GMT",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=HD6E5JJ9Be%2F1jSbIr6JDx5n0ALwAncbsCAaTgqngT6jgPFFO4iMHaFAZ0%2FkJxxrfyTlyZfIbJBxb9I57gUZrUIS%2BPVR91%2BB2HCK5oDRFDCvouziBp9CDxy%2BEgxblJ%2BoctNlaRM4ydgcEVtM%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=7294&sent=7&recv=9&lost=0&retrans=0&sent_bytes=4129&recv_bytes=2328&delivery_rate=4930760&cwnd=196&unsent_bytes=0&cid=0dc721ea5e858718&ts=92&x=0\"",
+            "cf-ray": "8d6b2fe818ef53e9-YYZ"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "truthful.census.cyber.casa"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

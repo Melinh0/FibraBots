@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 60074539,
+    "indicator": "180.69.30.93",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-09 15:36:04",
+    "stamp_updated": "2024-12-11 10:41:27",
+    "stamp_seen": "2024-11-18 13:43:54",
+    "stamp_probed": "2024-09-04 16:37:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60076523,
+                "indicator": "http:\/\/180.69.30.93\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-09 15:36:04"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "3389",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "MySQL",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Raspbian"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "SK Namsan Green Bldg.",
+                "Seoul Jung-gu Toegye-ro 24",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "descr": "SK Broadband Co Ltd",
+            "e-mail": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "broadNnet-KR",
+                "broadNnet"
+            ],
+            "nic-hdl": [
+                "IM12-KR",
+                "IM670-AP"
+            ],
+            "tech-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "inetnum": "180.64.0.0 - 180.71.255.255",
+            "last-modified": [
+                "2017-02-03T00:38:21Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM670-AP",
+                "IM12-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++phone": "+82-80-828-2106",
+            "phone": "+82-80-828-2106",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS9318",
+            "org": "SK Broadband Co Ltd",
+            "city": "Suwon",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Jung-gu Toegye-ro 24",
+                "SK Namsan Green Bldg."
+            ],
+            "region": "Gyeonggi-do",
+            "lat": "37.2506",
+            "long": "127.0668",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-length": "134",
+            "content-encoding": "gzip",
+            "server": "Apache\/2.4.25 (Raspbian)",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Wed, 02 Oct 2024 19:22:43 GMT",
+            "++target": "http:\/\/180.69.30.93\/"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u7\n",
+            "3389": "\u0005\u0004\u0000\u0000",
+            "3306": "g\u0000\u0000\u0000\n5.5.5-10.3.39-MariaDB-0+deb10u2-log\u0000b\ufffd\u0000\u0000`}tQx'UZ\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000AwV&Wg}aL8qU\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f2e5d831a37a512b56d0f74fc387b7b6.jpeg"
+        }
+    }
+}

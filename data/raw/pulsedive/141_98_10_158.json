@@ -1,0 +1,74 @@
+{
+    "qid": null,
+    "iid": 36022286,
+    "indicator": "141.98.10.158",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-06-18 00:48:35",
+    "stamp_updated": "2024-12-10 10:35:32",
+    "stamp_seen": "2024-02-28 20:22:04",
+    "stamp_probed": "2024-02-28 20:22:04",
+    "stamp_retired": "2024-05-29 10:25:08",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-06-18 00:48:35"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-18 07:59:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Lithuania",
+            "countrycode": "LT",
+            "lat": "55.4167",
+            "long": "24",
+            "asn": "AS209605",
+            "org": "UAB Host Baltic",
+            "isp": "UAB Host Baltic"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4\n"
+        }
+    }
+}

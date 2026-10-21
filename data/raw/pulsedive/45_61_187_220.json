@@ -1,0 +1,148 @@
+{
+    "qid": null,
+    "iid": 61930829,
+    "indicator": "45.61.187.220",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-02 20:20:17",
+    "stamp_updated": "2024-12-16 11:35:38",
+    "stamp_seen": "2024-12-15 07:48:12",
+    "stamp_probed": "2024-09-30 13:06:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-02 20:20:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-07 06:58:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "updated": [
+                "2017-01-28",
+                "2015-01-02"
+            ],
+            "nettype": "Direct Allocation",
+            "++phone": "+1-778-977-8246",
+            "++registrant": "FranTech Solutions",
+            "address": "1621 Central Ave",
+            "city": "Cheyenne",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": "FranTech Solutions (SYNDI-5)",
+            "orgid": "SYNDI-5",
+            "orgname": "FranTech Solutions",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": "82001",
+            "regdate": [
+                "2010-07-21",
+                "2015-01-02"
+            ],
+            "stateprov": "WY",
+            "++registered": [
+                "2015-01-02 00:00:00",
+                "2010-07-21 00:00:00"
+            ],
+            "parent": "NET45 (NET-45-0-0-0-0)",
+            "++updated": "2017-01-28 00:00:00",
+            "++abuse": "fdias@frantech.ca",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "netrange": "45.61.128.0 - 45.61.191.255",
+            "netname": "PONYNET-15",
+            "nethandle": "NET-45-61-128-0-1",
+            "cidr": "45.61.128.0\/18",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/45.61.128.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Florida",
+                "WY"
+            ],
+            "city": [
+                "Miami",
+                "Cheyenne"
+            ],
+            "asn": "AS53667",
+            "zip": "82001",
+            "address": "1621 Central Ave",
+            "org": [
+                "FranTech Solutions (SYNDI-5)",
+                "PONYNET"
+            ],
+            "lat": "25.7838",
+            "long": "-80.1866"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "node3.anycasthub.com"
+        }
+    }
+}

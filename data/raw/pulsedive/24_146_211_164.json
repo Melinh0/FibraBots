@@ -1,0 +1,117 @@
+{
+    "qid": null,
+    "iid": 63273397,
+    "indicator": "24.146.211.164",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-15 04:36:47",
+    "stamp_updated": "2024-12-12 11:25:50",
+    "stamp_seen": "2024-09-15 04:37:02",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63273458,
+                "indicator": "https:\/\/24.146.211.164\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-15 04:36:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "New Jersey",
+            "asn": "AS6128",
+            "city": "Dover",
+            "lat": "40.912",
+            "org": "CABLE-NET-1",
+            "long": "-74.554"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "312",
+            "++code": "200",
+            "strict-transport-security": "max-age=0; includeSubdomains",
+            "++content-type": "text\/html",
+            "server": "lighttpd\/1.4.65",
+            "++target": "https:\/\/24.146.211.164\/",
+            "etag": "\"230765968\"",
+            "last-modified": "Fri, 21 Jul 2023 07:26:39 GMT",
+            "date": "Sun, 15 Sep 2024 04:36:21 GMT"
+        },
+        "meta": {
+            "refresh": "0; URL=\/cgi-bin\/luci"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/O=EnGenius Technologies, Inc.\/CN=engenius.ai",
+            "++subject": "EnGenius Technologies, Inc.",
+            "expires": "2121-02-09 05:07:23",
+            "fingerprint": "2d512fcf33ffcf7af7119d2a3f532c586ceabc85d6df4662d6d58cef0a487827",
+            "valid": "2021-03-05 05:07:23",
+            "issuer": "\/O=EnGenius Technologies, Inc.\/CN=engenius.ai",
+            "org": "engenius.ai"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\u0007\u0014\ufffd\ufffd\ufffd\ufffd3\ufffd{3\ufffd\ufffdYc\ufffdP1\u000e\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000 ssh-ed25519,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdn\\k\ufffd<\ufffd"
+        }
+    }
+}

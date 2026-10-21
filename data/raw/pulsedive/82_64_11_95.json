@@ -1,0 +1,152 @@
+{
+    "qid": null,
+    "iid": 44548689,
+    "indicator": "82.64.11.95",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-02-10 01:57:45",
+    "stamp_updated": "2024-12-08 10:36:26",
+    "stamp_seen": "2024-05-26 22:42:13",
+    "stamp_probed": "2024-05-26 22:42:13",
+    "stamp_retired": "2024-08-28 16:18:43",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-02-10 01:57:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-11 08:31:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE abuse-mailbox: abuse@proxad.net"
+            ],
+            "status": "ASSIGNED PA",
+            "descr": [
+                "Paris, France",
+                "Proxad \/ Free SAS",
+                "ProXad network \/ Free SA",
+                "Dynamic pool (ADSL)",
+                "NCCcountry: FR"
+            ],
+            "++phone": "+33 1 73 50 20 00",
+            "phone": "+33 1 73 50 20 00",
+            "abuse-mailbox": "abuse@proxad.net",
+            "address": [
+                "75008 Paris",
+                "Free SAS \/ ProXad",
+                "8, rue de la Ville L'Eveque"
+            ],
+            "admin-c": [
+                "APfP1-RIPE",
+                "ACP23-RIPE"
+            ],
+            "fax-no": "+33 1 73 92 25 69",
+            "nic-hdl": [
+                "TCP8-RIPE",
+                "ACP23-RIPE"
+            ],
+            "role": [
+                "Technical Contact for ProXad",
+                "Administrative Contact for ProXad"
+            ],
+            "tech-c": [
+                "TPfP1-RIPE",
+                "TCP8-RIPE"
+            ],
+            "mnt-by": "PROXAD-MNT",
+            "origin": "AS12322",
+            "netname": "FR-PROXAD-ADSL",
+            "++registered": "2003-09-30 00:00:00",
+            "created": [
+                "2003-04-03T09:35:03Z",
+                "2002-06-26T12:46:56Z",
+                "2002-06-26T12:29:10Z",
+                "2003-09-30T13:16:54Z"
+            ],
+            "inetnum": "82.64.0.0 - 82.64.114.255",
+            "last-modified": [
+                "2003-04-03T09:35:03Z",
+                "2013-08-01T12:16:00Z",
+                "2011-06-14T09:03:07Z",
+                "2003-10-28T14:45:43Z"
+            ],
+            "route": "82.64.0.0\/14",
+            "++updated": "2013-08-01 00:00:00",
+            "++email": "abuse@proxad.net",
+            "++abuse": "abuse@proxad.net",
+            "++registrant": [
+                "ACP23-RIPE",
+                "APfP1-RIPE"
+            ]
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "city": "Paris",
+            "asn": "AS12322",
+            "isp": "Free SAS",
+            "org": "Free SAS",
+            "region": "Paris",
+            "zip": "75011",
+            "lat": "48.8323",
+            "long": "2.4075"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2\n"
+        },
+        "dns": {
+            "ptr": "82-64-11-95.subs.proxad.net"
+        }
+    }
+}

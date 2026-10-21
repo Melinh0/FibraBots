@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 51138144,
+    "indicator": "106.37.72.112",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-14 22:54:19",
+    "stamp_updated": "2024-12-16 17:04:09",
+    "stamp_seen": "2024-12-16 17:04:08",
+    "stamp_probed": "2024-09-29 21:48:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-14 22:54:19"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-11 08:13:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "CN",
+                "ZZ",
+                "cn"
+            ],
+            "admin-c": [
+                "CH93-AP",
+                "HC55-AP"
+            ],
+            "descr": [
+                "Beijing 100032",
+                "China Telecom",
+                "No.31,jingrong street",
+                "CHINANET BEIJING PROVINCE NETWORK"
+            ],
+            "irt": "IRT-CHINANET-CN",
+            "mnt-irt": "IRT-CHINANET-CN",
+            "tech-c": [
+                "CH93-AP",
+                "HC55-AP"
+            ],
+            "++phone": [
+                "+86-010-58503461",
+                "+000000000"
+            ],
+            "address": [
+                "No. 107 XiDan Beidajie, Xicheng District Beijing",
+                "100032",
+                "No.31 ,jingrong street,beijing",
+                "Beijing Telecom"
+            ],
+            "e-mail": [
+                "bjnic@bjtelecom.net",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "fax-no": "+86-010-58503054",
+            "mnt-by": [
+                "MAINT-CHINATELECOM-BJ",
+                "MAINT-CHINANET",
+                "MAINT-CHINANET-BJ",
+                "APNIC-ABUSE"
+            ],
+            "mnt-lower": "MAINT-CHINANET-BJ",
+            "netname": "CHINANET-BJ",
+            "nic-hdl": [
+                "HC55-AP",
+                "AC1573-AP"
+            ],
+            "person": "Hostmaster of Beijing Telecom corporation CHINA   TELECOM",
+            "phone": [
+                "+86-010-58503461",
+                "+000000000"
+            ],
+            "inetnum": "106.37.0.0 - 106.39.255.255",
+            "last-modified": [
+                "2008-09-04T07:29:39Z",
+                "2021-06-15T08:06:27Z",
+                "2024-10-17T03:10:56Z",
+                "2024-10-17T03:11:15Z"
+            ],
+            "++registrant": [
+                "CH93-AP",
+                "HC55-AP",
+                "Hostmaster of Beijing Telecom corporation CHINA   TELECOM"
+            ],
+            "++email": [
+                "bjnic@bjtelecom.net",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "abuse-c": "AC1573-AP",
+            "role": "ABUSE CHINANETCN",
+            "++abuse": "anti-spam@chinatelecom.cn",
+            "abuse-mailbox": "anti-spam@chinatelecom.cn",
+            "auth": "# Filtered",
+            "++updated": [
+                "2008-09-04 07:29:39",
+                "2024-10-17 03:10:56",
+                "2024-10-17 03:11:15"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "cn",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "cn",
+                "ZZ"
+            ],
+            "asn": "AS23724",
+            "org": "IDC, China Telecommunications Corporation",
+            "lat": "34.7732",
+            "address": [
+                "No.31 ,jingrong street,beijing",
+                "100032",
+                "Beijing Telecom",
+                "No. 107 XiDan Beidajie, Xicheng District Beijing"
+            ],
+            "long": "113.722"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.6.1\n"
+        },
+        "dns": {
+            "ptr": "112.72.37.106.static.bjtelecom.net"
+        }
+    }
+}

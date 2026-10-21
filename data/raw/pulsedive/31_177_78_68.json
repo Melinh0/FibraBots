@@ -1,0 +1,107 @@
+{
+    "qid": null,
+    "iid": 64272156,
+    "indicator": "31.177.78.68",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-11 06:13:06",
+    "stamp_updated": "2024-12-16 11:34:55",
+    "stamp_seen": "2024-10-11 07:12:18",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64276213,
+                "indicator": "https:\/\/31.177.78.68\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-11 06:13:06"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "org": "Jsc ru-center",
+            "asn": "AS48287",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx\/1.10.3",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "strict-transport-security": "max-age=604800; includeSubDomains; preload",
+            "++content-type": "text\/html",
+            "date": "Fri, 11 Oct 2024 07:12:15 GMT",
+            "++redirect": "https:\/\/31.177.78.68\/",
+            "++target": "http:\/\/31.177.78.68\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "domain": "agent.petranelli.com",
+            "valid": "2024-09-18 06:48:59",
+            "fingerprint": "dd85a5a5619fe75fda82f1e876921046b8f509f1d3a376030f16e04e1774653c",
+            "expires": "2024-12-17 06:48:58",
+            "subject": "\/CN=agent.petranelli.com"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d7eef8779b3646348a1870039b28d467.jpeg"
+        }
+    }
+}

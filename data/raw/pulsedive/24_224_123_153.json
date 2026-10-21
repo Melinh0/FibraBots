@@ -1,0 +1,209 @@
+{
+    "qid": null,
+    "iid": 64889263,
+    "indicator": "24.224.123.153",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-12 09:08:47",
+    "stamp_updated": "2024-12-16 11:34:33",
+    "stamp_seen": "2024-11-12 09:27:36",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64890350,
+                "indicator": "https:\/\/24.224.123.153\/Login.htm"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-12 09:08:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++email": [
+                "ispadmin@tdstelecom.com",
+                "serviceactivation@tdstelecom.com",
+                "iprequests@tdstelecom.com"
+            ],
+            "orgtechemail": [
+                "IPRequests@tdstelecom.com",
+                "serviceactivation@tdstelecom.com",
+                "ispadmin@tdstelecom.com"
+            ],
+            "orgtechhandle": [
+                "INE14-ARIN",
+                "SERVI6-ARIN",
+                "INO44-ARIN"
+            ],
+            "orgtechname": [
+                "IP Network Engineering",
+                "Service Activation",
+                "IP Network Operations"
+            ],
+            "parent": "NET24 (NET-24-0-0-0-0)",
+            "++abuse": [
+                "abuse@tds.net",
+                "support@mi-connection.net"
+            ],
+            "++phone": "+1-800-358-3648",
+            "++registrant": "TDS TELECOM",
+            "address": "525 Junction Rd.",
+            "city": "Madison",
+            "orgabuseemail": "abuse@tds.net",
+            "orgabusehandle": "ABUSE163-ARIN",
+            "orgabusephone": "+1-800-358-3648",
+            "organization": "TDS TELECOM (TDST)",
+            "orgid": "TDST",
+            "orgname": "TDS TELECOM",
+            "orgtechphone": "+1-800-358-3648",
+            "postalcode": "53717",
+            "regdate": [
+                "1994-12-16",
+                "2007-11-30"
+            ],
+            "stateprov": "WI",
+            "originas": "AS4181",
+            "++registered": [
+                "2007-11-30 00:00:00",
+                "1994-12-16 00:00:00"
+            ],
+            "cidr": "24.224.64.0\/18",
+            "nethandle": "NET-24-224-64-0-1",
+            "netrange": "24.224.64.0 - 24.224.127.255",
+            "rabuseemail": "support@mi-connection.net",
+            "rabusehandle": "SUPPO512-ARIN",
+            "rabusephone": "+1-276-821-6240",
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/INO44-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SERVI6-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/INE14-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/TDST",
+                "https:\/\/rdap.arin.net\/registry\/ip\/24.224.64.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE163-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/SUPPO512-ARIN",
+            "++updated": [
+                "2019-04-22 00:00:00",
+                "2020-08-31 00:00:00"
+            ],
+            "updated": [
+                "2019-04-22",
+                "2020-08-31"
+            ],
+            "orgabusename": "abuse",
+            "rabusename": "support",
+            "netname": "NETBLK-TDSNET-CONTINUUM"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "North Carolina",
+                "WI"
+            ],
+            "asn": "AS4181",
+            "city": [
+                "Mooresville",
+                "Madison"
+            ],
+            "zip": "53717",
+            "address": "525 Junction Rd.",
+            "org": [
+                "TDS TELECOM (TDST)",
+                "TDS-AS"
+            ],
+            "lat": "35.5746",
+            "long": "-80.8234"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "++code": "200",
+            "++status": "OK",
+            "x-frame-options": "sameorigin",
+            "++content-type": "text\/html",
+            "server": "Web Server\/4.3.0 MatrixSSL\/4.3.0-OPEN",
+            "date": "Tue Nov 12 09:20:10 2024",
+            "++target": "http:\/\/24.224.123.153\/",
+            "++redirect": "https:\/\/24.224.123.153\/Login.htm"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=GD\/L=SZ\/O=dinstar\/OU=dinstar\/CN=dinstar.com",
+            "subject": "\/C=CN\/ST=GD\/L=SZ\/O=dinstar\/OU=dinstar\/CN=dinstar.com",
+            "version": "v3",
+            "valid": "2018-09-10 09:52:00",
+            "org": "dinstar.com",
+            "expires": "2028-09-07 09:52:00",
+            "fingerprint": "f0595db582669c647c27a0864200bff49f07cbb516a8b2fff6828eba3bd0c52d",
+            "email": "support@dinstar.com",
+            "++subject": "dinstar"
+        },
+        "meta": {
+            "++title": "Login",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_0.52\n",
+            "23": "Telnet disconnected\n\u0000\u0000\u0000\nInti"
+        },
+        "cookies": {
+            "devckie": "da43-0906-8065-0256,JSESSIONID=10c8ffcab35441a25947174cacf776ae,FG=1"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/80b9533d7a16cc43abfc37d0944ed64d.jpeg"
+        }
+    }
+}

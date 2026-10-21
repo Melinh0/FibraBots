@@ -1,0 +1,196 @@
+{
+    "qid": null,
+    "iid": 63581442,
+    "indicator": "194.35.188.202",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-25 04:59:30",
+    "stamp_updated": "2024-12-16 11:32:51",
+    "stamp_seen": "2024-09-25 05:33:38",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63586278,
+                "indicator": "https:\/\/194.35.188.202\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-25 04:59:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "++phone": "+496816070",
+            "address": [
+                "D-66115 Saarbruecken",
+                "Nell-Breuning-Allee 6",
+                "VSE NET GmbH"
+            ],
+            "descr": [
+                "D-66115 Saarbruecken",
+                "VSENET \/ Teresto \/ artelis",
+                "Nell-Breunig-Allee 6",
+                "VSE NET"
+            ],
+            "mnt-by": "SAARGATE-DE-MNT",
+            "nic-hdl": "TE847-RIPE",
+            "origin": "AS9063",
+            "phone": "+496816070",
+            "role": "TERESTO Role Account",
+            "admin-c": [
+                "AD4807-RIPE",
+                "TS17420-RIPE",
+                "TE847-RIPE",
+                "CE599-RIPE",
+                "HP318-RIPE",
+                "JW9031-RIPE"
+            ],
+            "tech-c": [
+                "AD4807-RIPE",
+                "TS17420-RIPE",
+                "CE599-RIPE",
+                "TE847-RIPE",
+                "HP318-RIPE",
+                "JW9031-RIPE"
+            ],
+            "created": [
+                "2007-04-03T07:39:55Z",
+                "2020-12-10T08:07:29Z",
+                "2019-10-22T10:58:19Z"
+            ],
+            "++registrant": [
+                "TE847-RIPE",
+                "TS17420-RIPE",
+                "CE599-RIPE",
+                "HP318-RIPE",
+                "AD4807-RIPE",
+                "JW9031-RIPE"
+            ],
+            "netname": "DHCP-SIFI-NET",
+            "route": "194.35.188.0\/23",
+            "last-modified": [
+                "2020-12-10T08:07:29Z",
+                "2019-10-22T10:58:19Z",
+                "2022-04-27T22:19:28Z"
+            ],
+            "inetnum": "194.35.188.0 - 194.35.188.255",
+            "++registered": [
+                "2020-12-10 08:07:29",
+                "2007-04-03 07:39:55",
+                "2019-10-22 10:58:19"
+            ],
+            "++updated": [
+                "2022-04-27 22:19:28",
+                "2019-10-22 10:58:19"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS9063",
+            "org": "VSE NET GmbH",
+            "lat": "51.2993",
+            "long": "9.491",
+            "address": [
+                "VSE NET GmbH",
+                "Nell-Breuning-Allee 6",
+                "D-66115 Saarbruecken"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Wed, 25 Sep 2024 05:33:22 GMT",
+            "++redirect": "https:\/\/194.35.188.202\/",
+            "++target": "http:\/\/194.35.188.202\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=usg310_04BF6D15B4E6",
+            "issuer": "\/CN=usg310_04BF6D15B4E6",
+            "valid": "2015-11-25 15:22:05",
+            "expires": "2025-11-22 15:22:05",
+            "org": "usg310_04BF6D15B4E6",
+            "fingerprint": "0771390c0b47dd82c98cac8e9638cc814fce8705cdfc46ae9a24ea971a77e841",
+            "email": "usg310_04BF6D15B4E6"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "USG310"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG310) [::ffff:194.35.188.202]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cb217fbebc796687325dd1c9e805aacf.jpeg"
+        }
+    }
+}

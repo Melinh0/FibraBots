@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 63626589,
+    "indicator": "92.204.144.53",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-26 15:47:27",
+    "stamp_updated": "2024-10-06 19:00:01",
+    "stamp_seen": "2024-09-30 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63626997,
+                "indicator": "https:\/\/92.204.144.53\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-26 15:47:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "US",
+            "status": "SUB-ALLOCATED PA",
+            "admin-c": [
+                "SEPP",
+                "JOKO",
+                "MOMO",
+                "GDDY",
+                "SR5534-RIPE"
+            ],
+            "tech-c": [
+                "SEPP",
+                "JOKO",
+                "MOMO",
+                "GDDY",
+                "SR5534-RIPE"
+            ],
+            "address": [
+                "Host Europe GmbH",
+                "50674 Koeln",
+                "c\/o WeWork Wallarkaden, Pilgrimstra\ufffde 6"
+            ],
+            "++registrant": [
+                "MOMO",
+                "SEPP",
+                "JOKO",
+                "GDDY",
+                "SR5534-RIPE"
+            ],
+            "mnt-by": "GODADDY-MNT",
+            "role": "GoDaddy LIR",
+            "nic-hdl": "GDDY",
+            "created": [
+                "2019-02-11T09:26:09Z",
+                "2021-04-27T14:49:21Z",
+                "2021-04-27T14:47:00Z"
+            ],
+            "abuse-c": "AR16180-RIPE",
+            "netname": "GDY-US-EAST",
+            "origin": "AS398108",
+            "last-modified": [
+                "2021-04-27T14:49:21Z",
+                "2021-04-27T14:47:00Z",
+                "2024-08-23T13:24:23Z"
+            ],
+            "inetnum": "92.204.144.0 - 92.204.151.255",
+            "route": "92.204.144.0\/21",
+            "++registered": [
+                "2019-02-11 09:26:09",
+                "2021-04-27 14:49:21",
+                "2021-04-27 14:47:00"
+            ],
+            "++updated": [
+                "2024-08-23 13:24:23",
+                "2021-04-27 14:47:00"
+            ]
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Virginia",
+            "lat": "38.9281",
+            "long": "-77.2654",
+            "address": [
+                "Host Europe GmbH",
+                "50674 Koeln",
+                "c\/o WeWork Wallarkaden, Pilgrimstra\ufffde 6"
+            ],
+            "org": "GO-DADDY-COM-LLC",
+            "asn": "AS398108",
+            "city": "Wolf Trap"
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html; charset=iso-8859-1",
+            "connection": "Keep-Alive",
+            "content-length": "318",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/92.204.144.53\/",
+            "date": "Thu, 26 Sep 2024 16:05:50 GMT",
+            "++redirect": "https:\/\/92.204.144.53\/"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/ST=TX\/L=Houston\/O=cPanel, Inc.\/CN=cPanel, Inc. Certification Authority",
+            "version": "v3",
+            "org": "cPanel, Inc. Certification Authority",
+            "expires": "2024-11-22 23:59:59",
+            "valid": "2024-08-24 00:00:00",
+            "subject": "\/CN=aprendersemfronteiras.net",
+            "fingerprint": "3a5d93d91ddf50a451ed4568756f598172e5e537249cf42f971427f232537cef",
+            "domain": [
+                "aprendersemfronteiras.net",
+                "mail.aprendersemfronteiras.net",
+                "webmail.aprendersemfronteiras.net",
+                "www.aprendersemfronteiras.net"
+            ]
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 13:05. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000",
+            "3306": "_\u0000\u0000\u0000\ufffdj\u0004Host '172-234-253-4.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7ddc0626c3a3d3e0898c79ae4ec4e034.jpeg"
+        }
+    }
+}

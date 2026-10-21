@@ -1,0 +1,90 @@
+{
+    "qid": null,
+    "iid": 64347869,
+    "indicator": "185.60.45.240",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-17 06:22:08",
+    "stamp_updated": "2024-12-15 11:32:01",
+    "stamp_seen": "2024-10-17 23:08:02",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64374748,
+                "indicator": "http:\/\/185.60.45.240\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-17 06:22:08"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS29124",
+            "org": "Iskratelecom CJSC",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "server": "Web server",
+            "++content-type": "text\/html",
+            "content-length": "553",
+            "x-detail": "0x1210, insufficient security level",
+            "date": "Thu, 17 Oct 2024 18:07:58 GMT",
+            "++target": "http:\/\/185.60.45.240\/"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/19ca5422392318d1b06e6f9aaacee640.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-server\n\u0000\u0000\u00024\u0005\u0014\ufffd\ufffdQ|\ufffd\ufffdl\ufffd\ufffd$\ufffd\ufffd\ufffdY(\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au,kex-strict-s-v00@openssh.com\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp521,rsa-sha2-256,ssh-rsa\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffdR\u0017E"
+        }
+    }
+}

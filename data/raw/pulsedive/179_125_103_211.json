@@ -1,0 +1,134 @@
+{
+    "qid": null,
+    "iid": 59044367,
+    "indicator": "179.125.103.211",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-05-06 03:58:00",
+    "stamp_updated": "2024-10-30 07:44:38",
+    "stamp_seen": "2024-07-27 00:00:00",
+    "stamp_probed": "2024-07-29 06:23:08",
+    "stamp_retired": "2024-10-30 07:44:38",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-06 03:58:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Minas Gerais",
+            "city": "Sete Lagoas",
+            "asn": "AS28198",
+            "zip": "35700",
+            "isp": "SEMPRE TELECOMUNICACOES LTDA",
+            "org": "SEMPRE TELECOMUNICACOES LTDA",
+            "long": "-44.2837",
+            "lat": "-19.4367"
+        },
+        "whois": {
+            "aut-num": "AS28198",
+            "created": [
+                "20130927",
+                "20210109",
+                "20221123"
+            ],
+            "inetnum": "179.125.96.0\/21",
+            "inetrev": "179.125.103.0\/24",
+            "changed": [
+                "20210109",
+                "20220502",
+                "20221123"
+            ],
+            "ownerid": "24.605.227\/0001-29",
+            "owner-c": "DEGCA62",
+            "++registrant": [
+                "Deywid Gomes do Carmo",
+                "SOC SEMPRE INTERNET"
+            ],
+            "owner": "SEMPRE TELECOMUNICACOES LTDA",
+            "nic-hdl-br": [
+                "DEGCA62",
+                "SOSIN30"
+            ],
+            "responsible": "Deywid Gomes do Carmo",
+            "person": [
+                "Deywid Gomes do Carmo",
+                "SOC SEMPRE INTERNET"
+            ],
+            "tech-c": "DEGCA62",
+            "nserver": [
+                "ns1.sempre.tec.br",
+                "ns2.sempre.tec.br"
+            ],
+            "++registered": "2022-11-23 00:00:00",
+            "++abuse": "SOSIN30",
+            "abuse-c": "SOSIN30",
+            "nsstat": "20240725 AA",
+            "nslastaa": "20240725"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "Boa\/0.93.15",
+            "++code": "302",
+            "++status": "Moved Temporarily",
+            "++content-type": "text\/html",
+            "location": "\/admin\/login.asp",
+            "date": "Sun, 04 Jan 1970 13:14:34 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html"
+        },
+        "banners": {
+            "21": "220 RTK_GW FTP server (GNU inetutils 1.4.1) ready.\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b6359239aac5cfa91351e4140f7e9dbe.jpeg"
+        },
+        "dns": {
+            "ptr": "179-125-103-211.sempre.tec.br"
+        }
+    }
+}

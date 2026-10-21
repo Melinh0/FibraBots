@@ -1,0 +1,112 @@
+{
+    "qid": null,
+    "iid": 64663399,
+    "indicator": "31.173.66.222",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-02 08:42:21",
+    "stamp_updated": "2024-12-17 11:37:51",
+    "stamp_seen": "2024-11-02 08:42:36",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64663427,
+                "indicator": "https:\/\/31.173.66.222\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-02 08:42:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ],
+        "technology": [
+            "Envoy",
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "org": "PJSC MegaFon",
+            "asn": "AS25159",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1",
+            "strict-transport-security": "max-age=31536000",
+            "content-security-policy": "upgrade-insecure-requests",
+            "content-length": "258",
+            "++code": "200",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/31.173.66.222\/",
+            "x-envoy-upstream-service-time": "0",
+            "date": "Sat, 2 Nov 2024 08:43:38 GMT"
+        },
+        "ssl": {
+            "domain": "localhost.localdomain",
+            "issuer": "\/O=VMware Installer",
+            "version": "v3",
+            "++subject": "VMware, Inc",
+            "fingerprint": "d5dbd9a914108f0734ccb62acfddfd24d3e5fdb477661df7537a5840508d89dc",
+            "expires": "2036-02-04 17:29:26",
+            "valid": "2024-08-05 17:29:26",
+            "subject": "\/C=US\/ST=California\/L=Palo Alto\/O=VMware, Inc\/OU=VMware ESX Server Default Certificate\/E=ssl-certificates@vmware.com\/CN=localhost.localdomain\/=1722878966,564d7761726520496e632e"
+        },
+        "meta": {
+            "refresh": "0;URL='\/ui'",
+            "content-type": "text\/html; charset=utf8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

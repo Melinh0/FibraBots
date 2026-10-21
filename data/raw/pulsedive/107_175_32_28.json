@@ -1,0 +1,217 @@
+{
+    "qid": null,
+    "iid": 60568833,
+    "indicator": "107.175.32.28",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-24 16:23:13",
+    "stamp_updated": "2024-12-11 02:21:56",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-29 21:53:33",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60569627,
+                "indicator": "http:\/\/107.175.32.28\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-25 20:43:48"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-24 16:23:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-25 20:43:48"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-07 05:25:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "IMAP",
+            "IMAPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "jQuery",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "parent": "NET107 (NET-107-0-0-0-0)",
+            "address": [
+                "Suite 300",
+                "325 Delaware Avenue"
+            ],
+            "city": "Buffalo",
+            "postalcode": "14202",
+            "++registered": "2016-06-06 00:00:00",
+            "++phone": [
+                "+1-800-518-9716",
+                "+1-905-315-3455"
+            ],
+            "originas": "AS36352",
+            "rabuseemail": "abuse@colocrossing.com",
+            "rabusephone": "+1-800-518-9716",
+            "rtechemail": "support@colocrossing.com",
+            "rtechphone": "+1-800-518-9716",
+            "++abuse": [
+                "abuse@colocrossing.com",
+                "net-abuse-global@hostpapa.com"
+            ],
+            "cidr": "107.172.0.0\/14",
+            "nethandle": "NET-107-172-0-0-1",
+            "netname": "CC-17",
+            "netrange": "107.172.0.0 - 107.175.255.255",
+            "regdate": [
+                "2016-06-06",
+                "2013-12-27"
+            ],
+            "orgtechphone": "+1-905-315-3455",
+            "++registrant": "HostPapa",
+            "organization": "HostPapa (HOSTP-7)",
+            "orgabusephone": "+1-905-315-3455",
+            "orgname": "HostPapa",
+            "orgid": "HOSTP-7",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.172.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/HOSTP-7"
+            ],
+            "orgtechname": "NETTECH",
+            "orgabusename": "NETABUSE",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETTE9-ARIN",
+            "orgabusehandle": "NETAB23-ARIN",
+            "orgtechhandle": "NETTE9-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETAB23-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NETAB27-ARIN",
+            "orgabuseemail": "net-abuse-global@hostpapa.com",
+            "rabusehandle": "NETAB27-ARIN",
+            "rabusename": "NETABUSE-COLOCROSSING",
+            "updated": [
+                "2024-02-02",
+                "2024-04-26"
+            ],
+            "orgtechemail": "net-tech-global@hostpapa.com",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETTE11-ARIN",
+            "rtechname": "NETTECH-COLOCROSSING",
+            "rtechhandle": "NETTE11-ARIN",
+            "++email": "net-tech-global@hostpapa.com",
+            "++updated": "2024-04-26 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "New York",
+                "NY"
+            ],
+            "asn": "AS36352",
+            "city": "Buffalo",
+            "zip": "14202",
+            "address": [
+                "325 Delaware Avenue",
+                "Suite 300"
+            ],
+            "lat": "42.8856",
+            "org": [
+                "HostPapa (HOSTP-7)",
+                "AS-COLOCROSSING"
+            ],
+            "long": "-78.8736"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "3014",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.20.1",
+            "++target": "http:\/\/107.175.32.28\/",
+            "date": "Mon, 07 Oct 2024 19:55:33 GMT",
+            "last-modified": "Fri, 20 Sep 2024 03:03:43 GMT",
+            "etag": "\"66ece60f-bc6\""
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "System Memory Status"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS LOGINDISABLED] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "107-175-32-28-host.colocrossing.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b6c80821a069e520f37f50907725c17e.jpeg"
+        }
+    }
+}

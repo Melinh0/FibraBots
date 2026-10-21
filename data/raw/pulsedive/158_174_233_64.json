@@ -1,0 +1,122 @@
+{
+    "qid": null,
+    "iid": 64342524,
+    "indicator": "158.174.233.64",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-16 06:14:24",
+    "stamp_updated": "2024-12-16 11:30:51",
+    "stamp_seen": "2024-10-17 22:49:31",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64366217,
+                "indicator": "https:\/\/158.174.233.64\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-16 06:14:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS8473",
+            "city": "Ronneby",
+            "org": "Bahnhof AB",
+            "long": "15.2806",
+            "region": "Blekinge County",
+            "lat": "56.2076"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 17 Oct 2024 17:59:08 GMT",
+            "++redirect": "https:\/\/158.174.233.64\/",
+            "++target": "http:\/\/158.174.233.64\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "email": "usg60_B8ECA3AE7F6C",
+            "subject": "\/CN=usg60_B8ECA3AE7F6C",
+            "org": "usg60_B8ECA3AE7F6C",
+            "issuer": "\/CN=usg60_B8ECA3AE7F6C",
+            "valid": "2017-05-31 10:41:15",
+            "expires": "2027-05-29 10:41:15",
+            "fingerprint": "89a6b0b84d1eea007b18239bc9570c9b155360d5fc54d6f6549058d6265a72e2"
+        },
+        "meta": {
+            "++title": "USG60",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG60) [::ffff:158.174.233.64]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9ed71c40e59de52e66bf2469a269d9a9.jpeg"
+        }
+    }
+}

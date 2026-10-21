@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 63600960,
+    "indicator": "103.49.233.234",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-26 04:59:54",
+    "stamp_updated": "2024-12-14 11:23:31",
+    "stamp_seen": "2024-09-26 05:21:18",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63602946,
+                "indicator": "https:\/\/103.49.233.234\/gui\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-26 04:59:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23",
+            "443",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "Telnet"
+        ],
+        "technology": [
+            "jQuery",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "descr": [
+                "route object",
+                "Gstech Software Systems Pvt Ltd"
+            ],
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-GSTECH",
+                "MAINT-IN-STBM"
+            ],
+            "role": "Manager Admin",
+            "phone": "+91 01216557566",
+            "origin": "AS133676",
+            "person": "Gaurav Sharma",
+            "mnt-routes": "MAINT-IN-GSTECH",
+            "mnt-irt": "IRT-GSTECH-IN",
+            "e-mail": [
+                "bharat@preciousnetcom.in",
+                "sachin@preciousnetcom.in"
+            ],
+            "admin-c": [
+                "GS1427-AP",
+                "MA1159-AP"
+            ],
+            "abuse-mailbox": "sachin@preciousnetcom.in",
+            "tech-c": [
+                "GS1427-AP",
+                "MA1159-AP"
+            ],
+            "address": "31,Govind Plaza, Boundry Road, Meerut- ,Meerut,Uttar Pradesh-250001",
+            "netname": "GSTECH",
+            "nic-hdl": [
+                "GS1427-AP",
+                "MA1159-AP"
+            ],
+            "irt": "IRT-GSTECH-IN",
+            "inetnum": "103.49.232.0 - 103.49.235.255",
+            "last-modified": [
+                "2017-09-25T09:44:06Z",
+                "2017-09-25T09:46:01Z",
+                "2017-09-25T09:46:31Z",
+                "2022-04-27T06:26:10Z",
+                "2021-08-18T05:39:13Z"
+            ],
+            "++registrant": [
+                "GS1427-AP",
+                "MA1159-AP",
+                "Gaurav Sharma"
+            ],
+            "++abuse": "sachin@preciousnetcom.in",
+            "++email": [
+                "sachin@preciousnetcom.in",
+                "bharat@preciousnetcom.in"
+            ],
+            "route": "103.49.233.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-09-25 09:44:06",
+                "2017-09-25 09:46:01",
+                "2017-09-25 09:46:31",
+                "2022-04-27 06:26:10",
+                "2021-08-18 05:39:13"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Uttar Pradesh",
+            "asn": "AS133676",
+            "city": "Noida",
+            "org": "Precious netcom pvt ltd",
+            "address": "31,Govind Plaza, Boundry Road, Meerut- ,Meerut,Uttar Pradesh-250001",
+            "lat": "28.6145",
+            "long": "77.3063"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "pragma": "no-cache",
+            "server": "lighttpd\/1.4.35",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 26 Sep 2024 10:51:07 GMT",
+            "++redirect": "https:\/\/103.49.233.234\/gui\/login.cgi",
+            "++target": "https:\/\/103.49.233.234\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-03-18 11:21:32",
+            "org": "route",
+            "expires": "2039-03-13 11:21:32",
+            "issuer": "\/C=OS\/ST=route\/L=route\/O=route\/OU=route\/CN=route\/E=route",
+            "++subject": "route",
+            "subject": "\/C=OS\/ST=route\/L=route\/O=route\/OU=route\/CN=route\/E=route",
+            "fingerprint": "d07d1f33c23176c83b5979be10e4da05bfbab6dc320edc9b830731dda74230e2"
+        },
+        "meta": {
+            "++title": "Router",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "23": "\nUser Access Verification\n\nEntering 'radius'\/'tacacs+' for server authentication\n\n\ufffd\ufffd\u0001\ufffd\ufffd\u0003\ufffd\ufffd\"\ufffd\ufffd\u001fUsername: "
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5668d56305ea71e37a04eac727868c2e.jpeg"
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 62799088,
+    "indicator": "189.217.130.86",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-28 22:27:53",
+    "stamp_updated": "2024-12-12 03:44:12",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-08-28 22:33:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63860945,
+                "indicator": "https:\/\/189.217.130.86\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-28 22:27:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-08 12:26:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "MX",
+            "abuse-c": "LAA2",
+            "created": [
+                "20050307",
+                "20071205"
+            ],
+            "nic-hdl": "LAA2",
+            "nserver": [
+                "CVDNSISP4.CABLEVISION.NET.MX",
+                "CVDNSISP5.CABLEVISION.NET.MX"
+            ],
+            "owner-c": "LAA2",
+            "ownerid": "MX-CSCV17-LACNIC",
+            "responsible": "Isaac Torres Galvam",
+            "tech-c": "LAA2",
+            "changed": [
+                "20111115",
+                "20240809"
+            ],
+            "address": [
+                "Ni\ufffdos H\ufffdroes, 41, Col. Doctores",
+                "06720 - Del. Cuauht\ufffdmoc - CX",
+                "Avenida Vasco de Quiroga, 2000, Col. Santa Fe",
+                "01210 - Alcald\ufffda Alvaro Obregon - CX"
+            ],
+            "owner": "Cablevisi\ufffdn, S.A. de C.V.",
+            "inetnum": "189.216.0.0\/15",
+            "inetrev": "189.216.0.0\/15",
+            "e-mail": "ipmastercv@izzi.mx",
+            "++email": "ipmastercv@izzi.mx",
+            "person": "IP Master Cablevision",
+            "++registrant": "IP Master Cablevision",
+            "nsstat": "20240910 AA",
+            "nslastaa": "20240910",
+            "phone": [
+                "+52  5550225757",
+                "+52  8006077082"
+            ]
+        },
+        "geo": {
+            "country": "Mexico",
+            "countrycode": "MX",
+            "asn": "AS28548",
+            "region": "Mexico City",
+            "lat": "19.4354",
+            "long": "-99.1427",
+            "org": "Cablevision, S.A. de C.V."
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "strict-transport-security": "max-age=15552000",
+            "connection": "Keep-Alive",
+            "content-security-policy": "frame-ancestors 'self'",
+            "keep-alive": "timeout=5, max=96",
+            "content-length": "2604",
+            "++code": "200",
+            "++status": "OK",
+            "x-ua-compatible": "IE=Edge",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/189.217.130.86\/login?redir=%2Fng",
+            "++target": "https:\/\/189.217.130.86\/",
+            "date": "Fri, 18 Oct 2024 15:17:24 GMT",
+            "set-cookie": "APSCOOKIE_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nVDOM_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nCENTRAL_MGMT_OVERRIDE_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nEDIT_HISTORY_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nFILE_DOWNLOADING_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nccsrftoken_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nccsrftoken=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nsession_key_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974 15:17:24 GMT; secure; SameSite=Strict\nAUTOSCALE_CONFIG_REC_OVERRIDE_1118770903=\"0%260\"; path=\/; expires=Thu, 31-Oct-1974"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "pragma": "no-cache",
+            "charset": "UTF-8",
+            "x-ua-compatible": "IE=8; IE=EDGE"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "FortiGate",
+            "subject": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "issuer": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "++subject": "Fortinet Ltd.",
+            "valid": "2024-01-03 22:38:10",
+            "expires": "2026-04-07 22:38:10",
+            "fingerprint": "bda888367b7d478b4ac5d8388b5b9eaa8bcc8680724b5813134b40a25d137bff"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1\n"
+        },
+        "dns": {
+            "ptr": "customer-189-217-130-86.cablevision.net.mx"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1ee43402e4d8159c25ce885789ff4313.jpeg"
+        }
+    }
+}

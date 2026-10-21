@@ -1,0 +1,116 @@
+{
+    "qid": null,
+    "iid": 64298120,
+    "indicator": "195.198.101.47",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-12 06:13:46",
+    "stamp_updated": "2024-12-13 11:24:30",
+    "stamp_seen": "2024-10-12 06:42:24",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64299946,
+                "indicator": "http:\/\/195.198.101.47\/cgi-bin\/luci\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-12 06:13:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS3301",
+            "org": "Telia Company AB",
+            "city": "Ljungby",
+            "lat": "56.8294",
+            "region": "Kronoberg County",
+            "long": "13.9402"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "vary": "Accept-Encoding",
+            "cache-control": "no-cache",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "status": "403 Forbidden",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "x-luci-login-required": "yes",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.19.6",
+            "date": "Sat, 12 Oct 2024 06:40:29 GMT",
+            "expires": "0",
+            "++target": "http:\/\/195.198.101.47\/",
+            "++redirect": "http:\/\/195.198.101.47\/cgi-bin\/luci\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "msapplication-tap-highlight": "no",
+            "mobile-web-app-capable": "yes",
+            "charset": "utf-8",
+            "apple-mobile-web-app-capable": "yes",
+            "theme-color": "#09c",
+            "msapplication-tilecolor": "#09c",
+            "apple-mobile-web-app-title": "XG6846B-Panther-GCSE-Basic - LuCI",
+            "application-name": "XG6846B-Panther-GCSE-Basic - LuCI",
+            "++title": "XG6846B-Panther-GCSE-Basic - Dashboard - LuCI"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6d5873a400e9dbc8c66b0f33cc2bf54f.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\u0007\u0014wHj \ufffd\ufffd\ufffd\ufffd\u0004N\ufffd\ufffd\ufffd\u0002\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000 ssh-ed25519,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd&V\ufffd\ufffd\ufffd"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "qid": null,
+    "iid": 64731701,
+    "indicator": "47.74.36.12",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-05 08:58:07",
+    "stamp_updated": "2024-12-09 10:37:46",
+    "stamp_seen": "2024-12-07 12:55:04",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-05 08:58:07"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Japan",
+            "countrycode": "JP",
+            "region": "Tokyo",
+            "city": "Tokyo",
+            "asn": "AS45102",
+            "lat": "35.6893",
+            "org": "Alibaba US Technology Co., Ltd.",
+            "long": "139.6899"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

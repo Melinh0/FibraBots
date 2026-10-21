@@ -1,0 +1,242 @@
+{
+    "qid": null,
+    "iid": 48492832,
+    "indicator": "103.3.43.242",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-23 22:41:33",
+    "stamp_updated": "2024-12-11 10:37:21",
+    "stamp_seen": "2024-12-11 06:26:24",
+    "stamp_probed": "2024-08-12 20:53:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-08-20 10:42:09"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-30 17:50:14"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-08-20 10:42:09"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-06-23 22:41:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5060",
+            "80",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SIP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "IN",
+                "ZZ"
+            ],
+            "++phone": [
+                "+91-22-67910367",
+                "+000000000",
+                "+91-22-66615168"
+            ],
+            "address": [
+                "Turbhe Navi mumbai",
+                "D 26 TTC Industrial Area MIDC Sanpada Navi mumbai P.O Turbhe",
+                "Pin 400703",
+                "D-26, TTC Industrial Area",
+                "MIDC, Sanpada",
+                "P.O Turbhe"
+            ],
+            "fax-no": "+91-22-67917777",
+            "mnt-by": [
+                "MAINT-IN-HTIL",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-lower": "MAINT-IN-HTIL",
+            "mnt-routes": "MAINT-IN-HTIL",
+            "netname": "HTIL-TTML-IN",
+            "nic-hdl": [
+                "IO9-AP",
+                "AT1288-AP"
+            ],
+            "org": "ORG-TTL2-AP",
+            "org-name": "Tata Teleservices (Maharashtra) Ltd",
+            "organisation": "ORG-TTL2-AP",
+            "origin": "AS17762",
+            "person": "ISP Operation",
+            "phone": [
+                "+91-22-67910367",
+                "+000000000",
+                "+91-22-66615168"
+            ],
+            "admin-c": "IO9-AP",
+            "tech-c": "IO9-AP",
+            "inetnum": "103.3.40.0 - 103.3.43.255",
+            "irt": "IRT-TATATELE-IN1",
+            "mnt-irt": "IRT-TATATELE-IN1",
+            "e-mail": [
+                "Vikas.Mate@tatacommunications.com",
+                "vikas.mate@tatacommunications.com",
+                "IP.Abuse@tatatel.co.in"
+            ],
+            "last-modified": [
+                "2018-03-20T09:32:06Z",
+                "2020-08-11T13:07:05Z",
+                "2021-07-16T10:53:59Z",
+                "2023-09-05T02:14:50Z",
+                "2024-07-15T14:59:07Z",
+                "2024-07-15T23:57:00Z"
+            ],
+            "descr": "Tata Teleservices (Maharashtra) Ltd",
+            "++registrant": [
+                "IO9-AP",
+                "ISP Operation"
+            ],
+            "++email": [
+                "vikas.mate@tatacommunications.com",
+                "ip.abuse@tatatel.co.in"
+            ],
+            "++abuse": "ip.abuse@tatatel.co.in",
+            "role": "ABUSE TATATELEIN1",
+            "abuse-c": "AT1288-AP",
+            "abuse-mailbox": "IP.Abuse@tatatel.co.in",
+            "route": "103.3.43.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-09-05 02:14:50",
+                "2024-07-15 14:59:07",
+                "2024-07-15 23:57:00",
+                "2018-03-20 09:32:06",
+                "2021-07-16 10:53:59"
+            ]
+        },
+        "geo": {
+            "country": [
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "IN",
+                "ZZ"
+            ],
+            "asn": "AS17762",
+            "org": [
+                "Tata Teleservices Maharashtra Ltd",
+                "ORG-TTL2-AP"
+            ],
+            "address": [
+                "D 26 TTC Industrial Area MIDC Sanpada Navi mumbai P.O Turbhe",
+                "Pin 400703",
+                "Turbhe Navi mumbai",
+                "D-26, TTC Industrial Area",
+                "MIDC, Sanpada",
+                "P.O Turbhe"
+            ],
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "content-security-policy": "frame-ancestors 'self'",
+            "content-length": "2804",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "set-cookie": "APSCOOKIE_8443=\"0%260\"; path=\/; expires=Sat, 29-Dec-1973 21:35:44 GMT; secure; SameSite=Strict\nCENTRAL_MGMT_OVERRIDE_8443=\"0%260\"; path=\/; expires=Sat, 29-Dec-1973 21:35:44 GMT; secure; SameSite=Strict\nccsrftoken_8443=\"0%260\"; path=\/; expires=Sat, 29-Dec-1973 21:35:44 GMT; secure; SameSite=Strict\nsession_key_8443=\"0%260\"; path=\/; expires=Sat, 29-Dec-1973 21:35:44 GMT; secure; SameSite=Strict\nAUTOSCALE_CONFIG_REC_OVERRIDE_8443=\"0%260\"; path=\/; expires=Sat, 29-Dec-1973 21:35:44 GMT; secure; SameSite=Strict",
+            "date": "Sun, 17 Dec 2023 21:35:43 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "pragma": "no-cache",
+            "charset": "UTF-8",
+            "x-ua-compatible": "IE=8; IE=EDGE"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "FortiGate",
+            "subject": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "issuer": "\/O=Fortinet Ltd.\/CN=FortiGate",
+            "++self-signed": "1",
+            "expires": "2025-09-19 10:01:56",
+            "valid": "2023-06-17 10:01:56"
+        },
+        "dns": {
+            "ptr": "static-242.43.3.103-tataidc.co.in"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dfc7c6e6560ca590284cb13a3aa6d442.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-FfVj2\n"
+        }
+    }
+}

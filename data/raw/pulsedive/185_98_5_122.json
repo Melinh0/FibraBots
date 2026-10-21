@@ -1,0 +1,116 @@
+{
+    "qid": null,
+    "iid": 20357659,
+    "indicator": "185.98.5.122",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-01-07 01:24:20",
+    "stamp_updated": "2024-11-24 09:44:23",
+    "stamp_seen": "2024-06-07 22:27:20",
+    "stamp_probed": "2024-06-07 22:27:20",
+    "stamp_retired": "2024-09-10 12:25:32",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-05 20:39:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Nginx",
+            "Plesk"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Kazakhstan",
+            "countrycode": "KZ",
+            "city": "Astana",
+            "region": "Astana",
+            "isp": "LLP Kompaniya Hoster.KZ",
+            "org": "LLP Kompaniya Hoster.KZ",
+            "lat": "51.1876",
+            "asn": "AS207333",
+            "long": "71.4491"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "x-powered-by": "PleskLin",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "W\/\"583c0b7e-9e9\"",
+            "last-modified": "Mon, 28 Nov 2016 10:48:30 GMT",
+            "date": "Fri, 07 Jun 2024 22:27:13 GMT"
+        },
+        "dns": {
+            "ptr": "pkz12.hoster.kz"
+        },
+        "cookies": {
+            "_ym_isad": "2",
+            "_ym_d": "1717799235",
+            "_ym_uid": "1717799235120870204"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "21": "220 ProFTPD Server (ProFTPD) [185.98.5.122]\n",
+            "25": "220 pkz12.hoster.kz ESMTP Postfix\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/851cc965159fa9e8fdbf6a038adecc61.jpeg"
+        }
+    }
+}

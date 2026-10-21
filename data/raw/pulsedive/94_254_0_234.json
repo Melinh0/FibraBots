@@ -1,0 +1,212 @@
+{
+    "qid": null,
+    "iid": 27533282,
+    "indicator": "94.254.0.234",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-08-09 18:23:17",
+    "stamp_updated": "2024-12-17 11:40:53",
+    "stamp_seen": "2024-12-16 18:07:42",
+    "stamp_probed": "2024-09-30 21:05:33",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 27573579,
+                "indicator": "http:\/\/94.254.0.234\/"
+            },
+            {
+                "iid": 64132841,
+                "indicator": "https:\/\/94.254.0.234\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-08-11 00:12:08"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-08-09 18:23:17"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-09 08:50:24"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-08-11 00:12:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-12 22:26:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Let's Encrypt",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "SE",
+            "address": [
+                "Sweden",
+                "Bahnhof AB",
+                "Tunnelgatan 2",
+                "111 37 Stockholm"
+            ],
+            "admin-c": "BD856-RIPE",
+            "descr": [
+                "Bahnhof Internet, Sweden",
+                "RID-0000020487"
+            ],
+            "mnt-by": "BAHNHOF-NCC",
+            "nic-hdl": "BD856-RIPE",
+            "origin": "AS8473",
+            "role": "Bahnhof DBM",
+            "tech-c": "BD856-RIPE",
+            "created": [
+                "2010-02-28T23:20:03Z",
+                "2004-03-01T23:41:37Z",
+                "2012-09-03T11:15:53Z"
+            ],
+            "last-modified": [
+                "2010-02-28T23:20:03Z",
+                "2012-09-03T11:15:53Z",
+                "2021-06-17T13:53:55Z"
+            ],
+            "route": "94.254.0.0\/18",
+            "netname": "RID-0000020487",
+            "inetnum": "94.254.0.0 - 94.254.0.255",
+            "++registrant": "BD856-RIPE",
+            "++updated": [
+                "2021-06-17 13:53:55",
+                "2010-02-28 23:20:03"
+            ],
+            "++registered": [
+                "2004-03-01 23:41:37",
+                "2010-02-28 23:20:03",
+                "2012-09-03 11:15:53"
+            ]
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "city": "Stockholm",
+            "asn": "AS8473",
+            "org": "Bahnhof AB",
+            "address": [
+                "Sweden",
+                "Bahnhof AB",
+                "Tunnelgatan 2",
+                "111 37 Stockholm"
+            ],
+            "region": "Stockholm County",
+            "long": "17.8808",
+            "lat": "59.3691"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3138",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "etag": "\"2aa6-5af0e95531ed3-gzip\"",
+            "last-modified": "Fri, 11 Sep 2020 19:20:53 GMT",
+            "++redirect": "https:\/\/94.254.0.234\/",
+            "++target": "http:\/\/94.254.0.234\/",
+            "date": "Tue, 19 Nov 2024 00:20:07 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "domain": "konradsberg.se",
+            "subject": "\/CN=konradsberg.se",
+            "fingerprint": "9ef0fc0fa1c98148bc623c3d0c8ae2f9af71fa791da0e4a4c8f3389ab2b4cecd",
+            "expires": "2025-02-06 17:48:37",
+            "valid": "2024-11-08 17:48:38"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "dns": {
+            "ptr": "h-94-254-0-234.na.cust.bahnhof.se"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.9\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/621cf837bdaf177c2899638a88377a69.jpeg"
+        }
+    }
+}

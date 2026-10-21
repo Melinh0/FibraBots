@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 59383719,
+    "indicator": "180.168.119.2",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-17 02:51:01",
+    "stamp_updated": "2024-12-15 11:31:32",
+    "stamp_seen": "2024-12-15 07:34:17",
+    "stamp_probed": "2024-09-30 06:24:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59386660,
+                "indicator": "http:\/\/180.168.119.2\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-17 02:51:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "25",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "admin-c": [
+                "CH93-AP",
+                "WWQ4-AP"
+            ],
+            "descr": [
+                "Beijing 100032",
+                "China Telecom",
+                "No.31,jingrong street",
+                "CHINANET SHANGHAI PROVINCE NETWORK"
+            ],
+            "irt": "IRT-CHINANET-CN",
+            "mnt-irt": "IRT-CHINANET-CN",
+            "tech-c": [
+                "CH93-AP",
+                "WWQ4-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CHINANET",
+                "MAINT-CHINANET-SH",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "address": [
+                "100032",
+                "Room 2405,357 Songlin Road,Shanghai 200122",
+                "No.31 ,jingrong street,beijing"
+            ],
+            "netname": "CHINANET-SH",
+            "++phone": [
+                "+86-21-68405784",
+                "+000000000"
+            ],
+            "fax-no": "+86-21-50623458",
+            "mnt-lower": "MAINT-CHINANET-SH",
+            "nic-hdl": [
+                "WWQ4-AP",
+                "AC1573-AP"
+            ],
+            "person": "Weng Wen Qian",
+            "phone": [
+                "+86-21-68405784",
+                "+000000000"
+            ],
+            "inetnum": "180.160.0.0 - 180.175.255.255",
+            "++registrant": [
+                "CH93-AP",
+                "WWQ4-AP",
+                "Weng Wen Qian"
+            ],
+            "abuse-c": "AC1573-AP",
+            "role": "ABUSE CHINANETCN",
+            "++email": [
+                "shizhiming.sh@chinatelecom.cn",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "e-mail": [
+                "shizhiming.sh@chinatelecom.cn",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "last-modified": [
+                "2021-06-15T08:05:54Z",
+                "2023-02-07T08:25:17Z",
+                "2024-10-17T03:10:56Z",
+                "2024-10-17T03:11:15Z"
+            ],
+            "++abuse": "anti-spam@chinatelecom.cn",
+            "abuse-mailbox": "anti-spam@chinatelecom.cn",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-02-07 08:25:17",
+                "2024-10-17 03:10:56",
+                "2024-10-17 03:11:15"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4812",
+            "city": "Shanghai",
+            "region": "Shanghai",
+            "address": [
+                "No.31 ,jingrong street,beijing",
+                "100032",
+                "Room 2405,357 Songlin Road,Shanghai 200122"
+            ],
+            "long": "121.4581",
+            "org": "China Telecom Group",
+            "lat": "31.2222"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "x-powered-by": "ASP.NET",
+            "content-encoding": "gzip",
+            "server": "Microsoft-IIS\/10.0",
+            "content-length": "468",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/180.168.119.2\/",
+            "last-modified": "Tue, 24 Sep 2024 14:23:20 GMT",
+            "date": "Tue, 22 Oct 2024 17:04:17 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "IIS Windows Server"
+        },
+        "banners": {
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1a51749b9accee03df7bd95ef105bd70.jpeg"
+        }
+    }
+}

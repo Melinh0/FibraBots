@@ -1,0 +1,207 @@
+{
+    "qid": null,
+    "iid": 38901714,
+    "indicator": "95.214.55.43",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-09-10 08:06:04",
+    "stamp_updated": "2024-10-18 01:46:46",
+    "stamp_seen": "2024-10-18 01:46:46",
+    "stamp_probed": "2024-05-22 16:09:21",
+    "stamp_retired": "2024-08-25 12:50:53",
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-11 21:41:41"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2022-09-10 08:06:04"
+        },
+        {
+            "tid": 2557,
+            "name": "UAC-0006",
+            "category": "group",
+            "risk": "unknown",
+            "stamp_linked": "2024-05-22 16:09:11"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-12 11:58:21"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2022-09-10 08:06:04"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-10-11 21:41:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "RIPE",
+            "status": "ALLOCATED PA",
+            "country": "PL",
+            "address": [
+                "POLAND",
+                "Warszawa",
+                "Augustyna Locciego 33",
+                "02-928",
+                "MEVSPACE Sp. z o.o.",
+                "02-928 Warszawa"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "SKYTECH-MNT"
+            ],
+            "tech-c": [
+                "AO3529-RIPE",
+                "mevs2-ripe",
+                "SO4268-RIPE"
+            ],
+            "origin": "AS201814",
+            "admin-c": [
+                "AO3529-RIPE",
+                "mevs2-ripe",
+                "SO4268-RIPE"
+            ],
+            "mnt-ref": "SKYTECH-MNT",
+            "abuse-c": "AR49979-RIPE",
+            "++abuse": "AR49979-RIPE",
+            "organisation": "ORG-MSZO78-RIPE",
+            "org": "ORG-MSZO78-RIPE",
+            "++phone": "+48221004144",
+            "phone": "+48221004144",
+            "created": [
+                "2018-12-20T08:55:28Z",
+                "2018-12-21T13:47:11Z",
+                "2022-12-07T13:04:36Z",
+                "2022-09-30T07:23:14Z"
+            ],
+            "netname": "PL-MEV-20181221",
+            "inetnum": "95.214.52.0 - 95.214.55.255",
+            "++registered": "2022-12-07 00:00:00",
+            "nic-hdl": "mevs2-ripe",
+            "++registrant": [
+                "mevs2-ripe",
+                "AO3529-RIPE",
+                "SO4268-RIPE"
+            ],
+            "org-name": "MEVSPACE sp. z o.o.",
+            "last-modified": [
+                "2023-01-16T12:16:04Z",
+                "2022-09-30T07:23:14Z",
+                "2023-03-29T20:31:27Z",
+                "2023-03-29T20:06:17Z"
+            ],
+            "route": "95.214.54.0\/23",
+            "++updated": "2023-03-29 00:00:00",
+            "role": "Mevspace Admins"
+        },
+        "geo": {
+            "country": "Poland",
+            "countrycode": "PL",
+            "lat": "52.2394",
+            "long": "21.0362",
+            "asn": "AS201814",
+            "org": "MEVSPACE sp. z o.o."
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "cache-control": "no-store, private",
+            "++code": "200",
+            "x-content-type-options": "nosniff\nnosniff",
+            "x-frame-options": "DENY\nSAMEORIGIN",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "++content-type": "text\/html",
+            "date": "Wed, 22 May 2024 16:09:14 GMT",
+            "set-cookie": "XSRF-TOKEN=eyJpdiI6IngydDFhNVdCdjZEK3o5QU8zYlA0WFE9PSIsInZhbHVlIjoiTWVnNUd2NlliaEV6V2pldWhNVDIzdElLT0NBckhQSjBqenN2NUplT1hKbGtwYWxhSEZBb0ZmT2Qra3ROUzVSNHgzWjloVTQrK3RBR3hoTFdIb28vZ1Z6VXh4VllnUW1JRUpMOG9SN2xZSFdQMWIreDczMlAzZDZCUGxFZlBqZzEiLCJtYWMiOiJlYzQwMmE1Y2I0NWJhZGY1MGU1OTk2YmFmMzlmNmYzN2I5YTEwZWI1NGNkOTY2OGViMjQxMTU4ZGIxODc1OTIzIiwidGFnIjoiIn0%3D; expires=Wed, 22 May 2024 21:29:15 GMT; Max-Age=19200; path=\/; secure; samesite=lax\nvirtfusion_session=eyJpdiI6InRZby82dFFpbW5hRVBpeU5XTUtFc0E9PSIsInZhbHVlIjoiZlBJVEJTRzdQeExsYUV4OWpNVVNVNUQ4dFNYdjZuZk14NlFVWENGVGlNaWV5dy8zNHZvR1dqMUJqQzk4U2x3ZUIySU00NWljYzYxRWJXaWoxbHVzSzV6VlVTYU0rNFRYS3BpS0FUZGoyKzJtWkg5ci9aRmRwUmVEQWt0NGdLbWkiLCJtYWMiOiIyZjY4NTRmNzJkZWVhOTAwZTEyNGM3MzBmZWViYTYyMjg4ZjQxZmNjYjkyM2FjZGUzYWIxMTU0Y2E3MDJjMGEwIiwidGFnIjoiIn0%3D; expires=Wed, 22 May 2024 21:29:15 GMT; Max-Age=19200; path=\/; secure; httponly; samesite=lax"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "theme-color": "#ffffff",
+            "msapplication-tilecolor": "#da532c",
+            "charset": "utf-8",
+            "csrf-token": "R9OB2HbG34y1Pmu5K1Vof5Cn4J3jJyK9Y8xEFrq1"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "valid": "2024-04-15 12:48:47",
+            "expires": "2024-07-14 12:48:46",
+            "domain": "virtfusion.forhost.eu",
+            "subject": "\/CN=virtfusion.forhost.eu"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/30e52360592a8a54433679ae07a3877e.jpeg"
+        },
+        "cookies": {
+            "xsrf-token": "eyJpdiI6IngydDFhNVdCdjZEK3o5QU8zYlA0WFE9PSIsInZhbHVlIjoiTWVnNUd2NlliaEV6V2pldWhNVDIzdElLT0NBckhQSjBqenN2NUplT1hKbGtwYWxhSEZBb0ZmT2Qra3ROUzVSNHgzWjloVTQrK3RBR3hoTFdIb28vZ1Z6VXh4VllnUW1JRUpMOG9SN2xZSFdQMWIreDczMlAzZDZCUGxFZlBqZzEiLCJtYWMiOiJlYzQwMmE1Y2I0NWJhZGY1MGU1OTk2YmFmMzlmNmYzN2I5YTEwZWI1NGNkOTY2OGViMjQxMTU4ZGIxODc1OTIzIiwidGFnIjoiIn0%3D",
+            "virtfusion_session": "eyJpdiI6InRZby82dFFpbW5hRVBpeU5XTUtFc0E9PSIsInZhbHVlIjoiZlBJVEJTRzdQeExsYUV4OWpNVVNVNUQ4dFNYdjZuZk14NlFVWENGVGlNaWV5dy8zNHZvR1dqMUJqQzk4U2x3ZUIySU00NWljYzYxRWJXaWoxbHVzSzV6VlVTYU0rNFRYS3BpS0FUZGoyKzJtWkg5ci9aRmRwUmVEQWt0NGdLbWkiLCJtYWMiOiIyZjY4NTRmNzJkZWVhOTAwZTEyNGM3MzBmZWViYTYyMjg4ZjQxZmNjYjkyM2FjZGUzYWIxMTU0Y2E3MDJjMGEwIiwidGFnIjoiIn0%3D"
+        }
+    }
+}

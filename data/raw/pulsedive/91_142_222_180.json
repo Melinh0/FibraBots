@@ -1,0 +1,214 @@
+{
+    "qid": null,
+    "iid": 51039960,
+    "indicator": "91.142.222.180",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-12 01:12:55",
+    "stamp_updated": "2024-12-14 20:50:31",
+    "stamp_seen": "2024-12-14 20:50:31",
+    "stamp_probed": "2024-08-26 22:27:02",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64132222,
+                "indicator": "https:\/\/91.142.222.180\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-12 01:12:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Let's Encrypt",
+            "Plesk"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "AS50926-MNT"
+            ],
+            "address": [
+                "SPAIN",
+                "Madrid",
+                "28009",
+                "Ronda Narciso Monturiol, 17",
+                "Ed. ASCENTER III - Of. 1-1",
+                "Valencia - SPAIN",
+                "Calle de Duque de Sesto 23, Planta 1",
+                "46980 -  Paterna"
+            ],
+            "country": "ES",
+            "mnt-by": [
+                "AS50926-MNT",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "origin": "AS50926",
+            "created": [
+                "2017-06-16T14:34:28Z",
+                "2004-10-07T15:33:06Z",
+                "2002-10-08T14:20:22Z",
+                "2006-10-20T07:36:13Z"
+            ],
+            "route": "91.142.208.0\/20",
+            "person": "Jose Daniel Domenech Gasco",
+            "organisation": "ORG-ISS3-RIPE",
+            "org": "ORG-ISS3-RIPE",
+            "admin-c": [
+                "VGP13-RIPE",
+                "JDDG1-RIPE"
+            ],
+            "abuse-c": "ABIT11-RIPE",
+            "tech-c": "JDDG1-RIPE",
+            "nic-hdl": "JDDG1-RIPE",
+            "last-modified": [
+                "2017-11-30T11:26:09Z",
+                "2022-02-20T18:27:29Z",
+                "2024-01-19T07:30:23Z",
+                "2022-06-23T11:01:42Z"
+            ],
+            "++registrant": [
+                "JDDG1-RIPE",
+                "VGP13-RIPE",
+                "Jose Daniel Domenech Gasco"
+            ],
+            "org-name": "AXARNET COMUNICACIONES, S.L.",
+            "++phone": "+34911868181",
+            "phone": "+34911868181",
+            "netname": "ES-INFORTELECOM-20061020",
+            "inetnum": "91.142.208.0 - 91.142.223.255",
+            "++registered": [
+                "2004-10-07 15:33:06",
+                "2002-10-08 14:20:22",
+                "2017-06-16 14:34:28",
+                "2006-10-20 07:36:13"
+            ],
+            "++updated": [
+                "2024-01-19 07:30:23",
+                "2022-02-20 18:27:29",
+                "2022-06-23 11:01:42"
+            ]
+        },
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "asn": "AS50926",
+            "lat": "40.4172",
+            "long": "-3.684",
+            "org": "Axarnet Comunicaciones, S.l."
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "Apache",
+            "accept-ranges": "bytes",
+            "content-length": "4961",
+            "x-powered-by": "PleskLin",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/91.142.222.180\/",
+            "++redirect": "https:\/\/91.142.222.180\/",
+            "date": "Tue, 22 Oct 2024 19:26:22 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=formulariosolidario.villanueva.edu",
+            "domain": "formulariosolidario.villanueva.edu",
+            "fingerprint": "865ca6dbd1bb5f82780b1dedd449ea2d253dd648b83d77d19cb07aaeb419a18a",
+            "valid": "2024-10-19 14:50:41",
+            "expires": "2025-01-17 14:50:40"
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "21": "220 ProFTPD Server (ProFTPD) [91.142.222.180]\n",
+            "25": "220 villanueva.vservers.es ESMTP Postfix\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "3306": "J\u0000\u0000\u0000\n5.5.55\u0000\ufffd\u0004\ufffd\u0000^;NS8]K>\u0000\ufffd\ufffd\b\u0002\u0000\u000f\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000079V&Xi+4d{aP\u0000mysql_native_password\u0000"
+        },
+        "dns": {
+            "ptr": [
+                "villanueva.vservers.es",
+                "decotrix1.sensekia.net"
+            ]
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ba0937548b34b12651c84c0266cb8441.jpeg"
+        }
+    }
+}

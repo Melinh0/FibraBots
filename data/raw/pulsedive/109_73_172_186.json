@@ -1,0 +1,119 @@
+{
+    "qid": null,
+    "iid": 64780696,
+    "indicator": "109.73.172.186",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-07 08:51:49",
+    "stamp_updated": "2024-12-02 10:05:54",
+    "stamp_seen": "2024-11-07 08:53:38",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-07 08:51:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "GB",
+            "last-modified": [
+                "2011-11-14T16:18:03Z",
+                "2021-12-07T03:35:38Z"
+            ],
+            "mnt-by": "DIME-MNT",
+            "admin-c": "NA2657-RIPE",
+            "tech-c": "NA2657-RIPE",
+            "address": "440 west kennedy, orlando FL 32810",
+            "nic-hdl": "NA2657-RIPE",
+            "person": "Network Admins",
+            "phone": "+14077561126 ext 3001",
+            "created": [
+                "2009-09-14T22:56:03Z",
+                "2021-12-07T03:35:38Z"
+            ],
+            "++registrant": [
+                "Network Admins",
+                "NA2657-RIPE"
+            ],
+            "++registered": [
+                "2021-12-07 03:35:38",
+                "2009-09-14 22:56:03"
+            ],
+            "inetnum": "109.73.172.184 - 109.73.172.191",
+            "netname": "DIMENOC-392677",
+            "++updated": [
+                "2021-12-07 03:35:38",
+                "2011-11-14 16:18:03"
+            ]
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS33182",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "org": "DIMENOC",
+            "address": "440 west kennedy, orlando FL 32810"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 04:53. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

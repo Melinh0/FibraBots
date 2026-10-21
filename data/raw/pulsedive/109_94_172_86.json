@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 52193981,
+    "indicator": "109.94.172.86",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-16 23:47:13",
+    "stamp_updated": "2024-12-17 11:30:55",
+    "stamp_seen": "2024-12-15 00:00:00",
+    "stamp_probed": "2024-09-07 07:41:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-07 19:48:03"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-16 23:47:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-07 19:48:03"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-20 14:13:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "UZTELECOM-MNT"
+            ],
+            "country": "UZ",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "UZTELECOM-MNT",
+                "AS8193-MNT"
+            ],
+            "address": [
+                "Tashkent, Uzbekistan",
+                "UZBEKISTAN",
+                "100011",
+                "Alisher Navoi Avenue, 28A, Shaykhontohur District",
+                "ALISHER NAVOI AVENUE, 28A",
+                "TASHKENT"
+            ],
+            "org": [
+                "ORG-UNCN1-RIPE",
+                "ORG-JC7-RIPE"
+            ],
+            "org-name": "\"Uzbektelekom\" Joint Stock Company",
+            "admin-c": [
+                "BM2509-RIPE",
+                "ROJ1-RIPE"
+            ],
+            "origin": "AS202660",
+            "organisation": "ORG-JC7-RIPE",
+            "created": [
+                "2004-11-02T09:23:50Z",
+                "2018-10-09T04:28:53Z",
+                "2022-12-29T09:25:46Z",
+                "2023-04-17T08:27:41Z"
+            ],
+            "tech-c": [
+                "ROJ1-RIPE",
+                "BS10923-RIPE",
+                "SHI1990-RIPE"
+            ],
+            "++phone": [
+                "+998712448042",
+                "+998712146129"
+            ],
+            "role": "Role of Uzbektelecom JSC",
+            "abuse-c": "ROJ1-RIPE",
+            "nic-hdl": "ROJ1-RIPE",
+            "++registrant": [
+                "ROJ1-RIPE",
+                "BM2509-RIPE"
+            ],
+            "phone": [
+                "+998712448042",
+                "+998712146129"
+            ],
+            "fax-no": "+998712443443",
+            "++abuse": "ripe@bkm.uz",
+            "abuse-mailbox": "ripe@bkm.uz",
+            "++email": "ripe@bkm.uz",
+            "last-modified": [
+                "2021-05-26T05:11:22Z",
+                "2024-07-15T04:20:34Z",
+                "2022-12-29T09:25:46Z",
+                "2023-04-17T08:27:41Z"
+            ],
+            "++registered": [
+                "2018-10-09 04:28:53",
+                "2004-11-02 09:23:50",
+                "2022-12-29 09:25:46",
+                "2023-04-17 08:27:41"
+            ],
+            "++updated": [
+                "2021-05-26 05:11:22",
+                "2024-07-15 04:20:34",
+                "2023-04-17 08:27:41"
+            ],
+            "route": "109.94.172.0\/24",
+            "netname": "UZ-UZTELECOM-20180829",
+            "inetnum": "109.94.172.0 - 109.94.175.255"
+        },
+        "geo": {
+            "country": "Uzbekistan",
+            "countrycode": "UZ",
+            "city": "Tashkent",
+            "org": [
+                "Uzbektelekom Joint Stock Company",
+                "ORG-JC7-RIPE"
+            ],
+            "lat": "41.2615",
+            "region": "Tashkent",
+            "asn": "AS202660",
+            "address": [
+                "UZBEKISTAN",
+                "100011",
+                "Alisher Navoi Avenue, 28A, Shaykhontohur District",
+                "Tashkent, Uzbekistan",
+                "ALISHER NAVOI AVENUE, 28A",
+                "TASHKENT"
+            ],
+            "long": "69.2177"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

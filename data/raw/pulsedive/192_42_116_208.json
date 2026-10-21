@@ -1,0 +1,224 @@
+{
+    "qid": null,
+    "iid": 34472509,
+    "indicator": "192.42.116.208",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-04-29 21:03:50",
+    "stamp_updated": "2024-12-11 11:57:56",
+    "stamp_seen": "2024-12-11 11:57:56",
+    "stamp_probed": "2024-09-30 07:35:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 34472528,
+                "indicator": "http:\/\/192.42.116.208\/"
+            },
+            {
+                "iid": 54062063,
+                "indicator": "https:\/\/nothingtohide.nl\/tor-relay"
+            },
+            {
+                "iid": 54062064,
+                "indicator": "https:\/\/nothingtohide.nl\/tor-relay\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-11 22:32:59"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2022-04-29 21:03:50"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-02-20 14:37:35"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2022-04-29 21:03:50"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-03-23 08:56:29"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2024-04-11 22:32:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache",
+            "HTTP\/3",
+            "Let's Encrypt"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "asn": "AS1101",
+            "lat": "52.3824",
+            "long": "4.8995",
+            "org": "SURF B.V.",
+            "country": "The Netherlands"
+        },
+        "whois": {
+            "country": "NL",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "LEGACY",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "AS1103-MNT",
+                "AS1101-MNT",
+                "NOTSURFNET-MNT"
+            ],
+            "origin": "AS1101",
+            "created": [
+                "2007-12-19T21:20:53Z",
+                "2023-02-06T21:39:02Z",
+                "2023-02-06T21:32:03Z",
+                "2023-02-06T21:22:11Z"
+            ],
+            "descr": [
+                "IP-EEND-IP",
+                "Amsterdam",
+                "https:\/\/nothingtohide.nl"
+            ],
+            "last-modified": [
+                "2007-12-19T21:20:53Z",
+                "2023-02-06T21:39:02Z",
+                "2023-02-06T22:51:45Z",
+                "2023-02-06T22:56:59Z"
+            ],
+            "mnt-ref": "NOTSURFNET-MNT",
+            "route": "192.42.116.0\/22",
+            "address": [
+                "the Netherlands",
+                "Marterweide 21",
+                "3437 TK Nieuwegein"
+            ],
+            "tech-c": "NTH23-RIPE",
+            "netname": "TOR-EXIT-NTH",
+            "++email": "abuse@nothingtohide.nl",
+            "org": "ORG-NTH3-RIPE",
+            "admin-c": "NTH23-RIPE",
+            "inetnum": "192.42.116.172 - 192.42.116.223",
+            "org-name": "Nothing to hide",
+            "abuse-c": "NTH23-RIPE",
+            "organisation": "ORG-NTH3-RIPE",
+            "nic-hdl": "NTH23-RIPE",
+            "role": "Nothing to hide (Abuse)",
+            "++registrant": "NTH23-RIPE",
+            "++abuse": "abuse@nothingtohide.nl",
+            "abuse-mailbox": "abuse@nothingtohide.nl",
+            "++registered": [
+                "2023-02-06 21:39:02",
+                "2023-02-06 21:32:03",
+                "2023-02-06 21:22:11",
+                "2007-12-19 21:20:53"
+            ],
+            "++updated": [
+                "2023-02-06 22:51:45",
+                "2023-02-06 22:56:59",
+                "2007-12-19 21:20:53"
+            ]
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "content-length": "2043",
+            "++code": "200",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "server": "Caddy\nCaddy",
+            "alt-svc": "h3=\":443\"; ma=2592000",
+            "content-encoding": "zstd",
+            "++redirect": "https:\/\/nothingtohide.nl\/tor-relay\/",
+            "++target": "http:\/\/192.42.116.208\/",
+            "last-modified": "Fri, 18 Oct 2024 00:15:46 GMT",
+            "etag": "\"d4yhzagr24lc3eh-zstd\"",
+            "date": "Fri, 18 Oct 2024 02:55:22 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "Nothing to hide - Privacy infrastructure provider"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=nothingtohide.nl",
+            "domain": "nothingtohide.nl",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "expires": "2024-11-20 12:49:45",
+            "valid": "2024-08-22 12:49:46",
+            "fingerprint": "6526004e185c7b1a74466c3e8a08bc1018d5ea906ee9a7e3286acf1a9c5a8160"
+        },
+        "dns": {
+            "ptr": "11.tor-exit.nothingtohide.nl"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/71a9369ef3c35624b4d200063729c123.jpeg"
+        }
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "qid": null,
+    "iid": 6573648,
+    "indicator": "162.243.132.15",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2019-10-08 17:41:58",
+    "stamp_updated": "2024-08-28 16:16:53",
+    "stamp_seen": "2024-05-27 06:21:25",
+    "stamp_probed": "2024-05-27 06:21:25",
+    "stamp_retired": "2024-08-28 16:16:53",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 85,
+            "name": "Cobalt Strike",
+            "category": "malware",
+            "risk": "high",
+            "stamp_linked": "2019-10-08 17:41:58"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-30 01:40:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-02-20 21:31:48"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 171151,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "",
+            "stamp_added": "2020-04-21 16:38:56",
+            "stamp_updated": "2020-04-21 16:38:56"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2013-09-06"
+            ],
+            "stateprov": "NY",
+            "parent": "NET162 (NET-162-0-0-0-0)",
+            "++registered": "2013-09-06 00:00:00",
+            "originas": "AS14061",
+            "cidr": "162.243.0.0\/16",
+            "nethandle": "NET-162-243-0-0-1",
+            "netrange": "162.243.0.0 - 162.243.255.255",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "++abuse": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-162-243-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "countrycode": "US",
+            "region": [
+                "California",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "San Francisco"
+            ],
+            "asn": "AS14061",
+            "zip": [
+                "94124",
+                "10013"
+            ],
+            "country": "United States of America",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "37.7308",
+            "isp": "DIGITALOCEAN-ASN",
+            "long": "-122.3838"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10\n"
+        },
+        "dns": {
+            "ptr": "apzg-0727x-005.stretchoid.com"
+        }
+    }
+}

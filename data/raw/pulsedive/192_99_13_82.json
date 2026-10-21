@@ -1,0 +1,172 @@
+{
+    "qid": null,
+    "iid": 64298094,
+    "indicator": "192.99.13.82",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-12 06:13:31",
+    "stamp_updated": "2024-12-11 10:42:14",
+    "stamp_seen": "2024-10-12 06:39:23",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64299933,
+                "indicator": "https:\/\/192.99.13.82\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-12 06:13:31"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": [
+                "Ontario",
+                "QC"
+            ],
+            "org": [
+                "OVH SAS",
+                "OVH Hosting, Inc. (HO-2)"
+            ],
+            "asn": "AS16276",
+            "city": [
+                "Brampton",
+                "Montreal"
+            ],
+            "address": "800-1801 McGill College",
+            "zip": "H3A 2N4",
+            "lat": "43.7941",
+            "long": "-79.7011"
+        },
+        "whois": {
+            "nettype": "Direct Allocation",
+            "++abuse": "abuse@ovh.ca",
+            "++email": "noc@ovh.net",
+            "++phone": "+1-855-684-5463",
+            "++registrant": "OVH Hosting, Inc.",
+            "address": "800-1801 McGill College",
+            "city": "Montreal",
+            "country": "CA",
+            "orgabuseemail": "abuse@ovh.ca",
+            "orgabusehandle": "ABUSE3956-ARIN",
+            "orgabusename": "Abuse",
+            "orgabusephone": "+1-855-684-5463",
+            "organization": "OVH Hosting, Inc. (HO-2)",
+            "orgid": "HO-2",
+            "orgname": "OVH Hosting, Inc.",
+            "orgtechemail": "noc@ovh.net",
+            "orgtechhandle": "NOC11876-ARIN",
+            "orgtechname": "NOC",
+            "orgtechphone": "+1-855-684-5463",
+            "originas": "AS16276",
+            "postalcode": "H3A 2N4",
+            "regdate": [
+                "2011-06-22",
+                "2013-06-17"
+            ],
+            "stateprov": "QC",
+            "parent": "NET192 (NET-192-0-0-0-0)",
+            "++registered": [
+                "2011-06-22 00:00:00",
+                "2013-06-17 00:00:00"
+            ],
+            "cidr": "192.99.0.0\/16",
+            "nethandle": "NET-192-99-0-0-1",
+            "netname": "OVH-ARIN-7",
+            "netrange": "192.99.0.0 - 192.99.255.255",
+            "updated": [
+                "2013-06-17",
+                "2023-01-30"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC11876-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE3956-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/HO-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/192.99.0.0"
+            ],
+            "++updated": "2023-01-30 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/192.99.13.82\/",
+            "++redirect": "https:\/\/192.99.13.82\/",
+            "date": "Sat, 12 Oct 2024 06:39:06 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=crowdsec.server.kayser.dev",
+            "domain": "crowdsec.server.kayser.dev",
+            "valid": "2024-10-06 02:37:34",
+            "expires": "2025-01-04 02:37:33",
+            "fingerprint": "e9a0256bdcf1c6a8069a1df98c3c13365a2d024fa20e076597572b3193a679f1"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/054789b57cf969ed1e56c743c2a086c0.jpeg"
+        }
+    }
+}

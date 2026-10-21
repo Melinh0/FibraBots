@@ -1,0 +1,147 @@
+{
+    "qid": null,
+    "iid": 28416956,
+    "indicator": "196.217.240.243",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-10-02 19:38:16",
+    "stamp_updated": "2024-12-11 18:15:00",
+    "stamp_seen": "2024-12-11 18:15:00",
+    "stamp_probed": "2024-08-27 22:11:00",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-27 22:03:10"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-10-02 19:38:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "3389"
+        ],
+        "protocol": [
+            "FTP",
+            "RDP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "address": [
+                "Morocco",
+                "Immeuble DR Rabat",
+                "Division Exploitation et maintenance des PFS",
+                "MAROC TELECOM",
+                "Avenue de France AGDAL",
+                "Service Exploitation des PFS",
+                "Avenue Hay Annakhil Riad",
+                "rabat"
+            ],
+            "country": "MA",
+            "descr": [
+                "route object",
+                "IP_Static_MarocTelecom"
+            ],
+            "mnt-by": [
+                "GENERATED-QKJHRQGRJU8KJEZGF62S2JCUXLD0D81A-MNT",
+                "ONPT-MNT",
+                "GENERATED-59UQAQ1UAZKQWKK5GWNQRJ9VGMHDFDGD-MNT"
+            ],
+            "nic-hdl": [
+                "SMT1-AFRINIC",
+                "DMT1-AFRINIC"
+            ],
+            "person": [
+                "SEPFS Maroc Telecom",
+                "DEMPFS Maroc Telecom"
+            ],
+            "origin": [
+                "AS6713",
+                "AS36903"
+            ],
+            "admin-c": "SMT1-AFRINIC",
+            "tech-c": "DMT1-AFRINIC",
+            "netname": "IP_Static_MarocTelecom",
+            "inetnum": "196.217.240.0 - 196.217.243.255",
+            "phone": [
+                "tel:+212-37284319",
+                "tel:+212-37686318",
+                "tel:+212-37284314"
+            ],
+            "route": "196.217.0.0\/16",
+            "++registrant": [
+                "DEMPFS Maroc Telecom",
+                "SEPFS Maroc Telecom",
+                "SMT1-AFRINIC"
+            ],
+            "source": "AFRINIC # Filtered",
+            "parent": "196.217.0.0 - 196.217.255.255"
+        },
+        "geo": {
+            "country": "Morocco",
+            "countrycode": "MA",
+            "asn": "AS6713",
+            "org": "Itissalat Al-MAGHRIB",
+            "address": [
+                "Morocco",
+                "Division Exploitation et maintenance des PFS",
+                "MAROC TELECOM",
+                "Avenue de France AGDAL",
+                "Immeuble DR Rabat",
+                "Service Exploitation des PFS",
+                "Avenue Hay Annakhil Riad",
+                "rabat"
+            ],
+            "long": "-10",
+            "lat": "28.5"
+        },
+        "banners": {
+            "21": "220 Microsoft FTP Service\n",
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": [
+                "adsl196-243-240-217-196.adsl196-16.iam.net.ma",
+                "static196-243-240-217-196.adsl196-16.iam.net.ma"
+            ]
+        }
+    }
+}

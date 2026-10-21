@@ -1,0 +1,199 @@
+{
+    "qid": null,
+    "iid": 57581953,
+    "indicator": "64.23.178.20",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-25 13:46:06",
+    "stamp_updated": "2024-12-11 10:45:46",
+    "stamp_seen": "2024-11-18 16:17:45",
+    "stamp_probed": "2024-08-28 23:00:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 57581982,
+                "indicator": "http:\/\/64.23.178.20\/"
+            },
+            {
+                "iid": 63863199,
+                "indicator": "https:\/\/64.23.178.20\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-25 13:46:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-26 04:36:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2020-01-06"
+            ],
+            "stateprov": "NY",
+            "parent": "NET64 (NET-64-0-0-0-0)",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2020-01-06 00:00:00"
+            ],
+            "originas": "AS14061",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/64.23.128.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "netrange": "64.23.128.0 - 64.23.255.255",
+            "nethandle": "NET-64-23-128-0-1",
+            "cidr": "64.23.128.0\/17",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-64-23-128-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "California",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "San Francisco"
+            ],
+            "asn": "AS14061",
+            "zip": "10013",
+            "lat": "37.7809",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "-122.4245"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "content-length": "588",
+            "++code": "500",
+            "++status": "Internal Server Error",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.24.0 (Ubuntu)",
+            "++target": "http:\/\/64.23.178.20\/",
+            "date": "Mon, 07 Oct 2024 04:52:17 GMT",
+            "++redirect": "https:\/\/64.23.178.20\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "valid": "2024-09-30 07:07:02",
+            "domain": [
+                "adm.taxgig.com",
+                "www.adm.taxgig.com"
+            ],
+            "fingerprint": "539fbccd614e32e5cf9327eaae5aad632e6efe3ee2b18f796d6e721c7799a6b0",
+            "expires": "2024-12-29 07:07:01",
+            "subject": "\/CN=adm.taxgig.com"
+        },
+        "meta": {
+            "++title": "500 Internal Server Error"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.3p1 Ubuntu-1ubuntu3.2\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f9ddc6e04d67d737f36a6d1295945fa0.jpeg"
+        }
+    }
+}

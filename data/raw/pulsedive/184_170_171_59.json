@@ -1,0 +1,65 @@
+{
+    "qid": null,
+    "iid": 65288357,
+    "indicator": "184.170.171.59",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-24 21:41:47",
+    "stamp_updated": "2024-12-02 23:38:29",
+    "stamp_seen": "2024-12-01 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-24 21:41:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Indiana",
+            "asn": "AS30600",
+            "city": "Kokomo",
+            "lat": "40.4484",
+            "long": "-86.1394",
+            "org": "AS-CMN"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2012.55\n"
+        }
+    }
+}

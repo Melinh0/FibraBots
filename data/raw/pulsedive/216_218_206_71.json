@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 29307,
+    "indicator": "216.218.206.71",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2017-09-29 06:09:15",
+    "stamp_updated": "2024-10-05 10:33:02",
+    "stamp_seen": "2024-07-04 22:20:23",
+    "stamp_probed": "2024-07-04 22:20:23",
+    "stamp_retired": "2024-10-05 10:33:02",
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 189,
+            "name": "Dharma",
+            "category": "malware",
+            "risk": "high",
+            "stamp_linked": "2018-09-16 16:16:07"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 44,
+            "name": "High Confidence IPv4 Drop List",
+            "category": "general",
+            "organization": "St. Dominics Priory College - Australia",
+            "pricing": "free",
+            "stamp_linked": "2018-05-15 03:41:27"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-07 19:51:52"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 512475,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 05:28:48",
+            "stamp_updated": "2022-05-18 05:28:48"
+        },
+        {
+            "cid": 10351,
+            "username": "3ch0x2",
+            "title": "Cyber Investigator",
+            "comment": "Those IPs were used to brute-force credentials via RDP before Dharma ransomware was installed",
+            "stamp_added": "2018-09-16 16:16:07",
+            "stamp_updated": "2018-09-16 16:16:07"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "region": "California",
+            "asn": "AS6939",
+            "country": "United States of America",
+            "zip": "95421",
+            "city": "Cazadero",
+            "org": "HURRICANE",
+            "isp": "HURRICANE",
+            "long": "-123.1946",
+            "lat": "38.5923"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "2933",
+            "++code": "200",
+            "++status": "OK",
+            "server": "lighttpd\/1.4.55",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 15 Feb 2023 18:09:40 GMT",
+            "etag": "\"1349479359\"",
+            "date": "Tue, 02 Jul 2024 06:36:13 GMT"
+        },
+        "whois": {
+            "network": [
+                "Class-Name:network",
+                "Auth-Area:nets",
+                "Tech-Contact;I:POC-HE-NOC",
+                "Abuse-Contact;I:POC-HE-ABUSE",
+                "NOC-Contact;I:POC-HE-NOC",
+                "Created:20180817203004000",
+                "Updated:20180817203004000",
+                "Org-Contact;I:POC-CE-2897",
+                "ID;I:NET-216.218.206.64\/26",
+                "Network-Name;I:NET-216.218.206.64\/26",
+                "Parent;I:NET-216.218.128.0\/17",
+                "IP-Network:216.218.206.64\/26"
+            ],
+            "contact": [
+                "Auth-Area:contacts",
+                "Class-Name:contact",
+                "Province:CA",
+                "Country-Code:US",
+                "Phone:-",
+                "E-mail:-",
+                "Created:20180817203001000",
+                "ID;I:POC-HE-NOC",
+                "Name:Network Operations Center",
+                "Company:Hurricane Electric",
+                "Street-Address:760 Mission Ct",
+                "City:Fremont",
+                "Postal-Code:94539",
+                "Phone:+1-510-580-4100",
+                "E-Mail:noc@he.net",
+                "Created:20100901200738000",
+                "Updated:20100901200738000",
+                "ID;I:POC-HE-ABUSE",
+                "Name:Abuse Department",
+                "E-Mail:abuse@he.net",
+                "Updated:20180817203001000",
+                "ID;I:POC-CE-2897",
+                "Name:Richard Perlotto",
+                "Company:The Shadow Server Foundation",
+                "Street-Address:142 N Milpitas Blvd, Ste 476",
+                "City:Milpitas",
+                "Postal-Code:95035"
+            ]
+        },
+        "dns": {
+            "ptr": "scan-06a.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/084e73c518ac5d989677df9fab569fa1.jpeg"
+        }
+    }
+}

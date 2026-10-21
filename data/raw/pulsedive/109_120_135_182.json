@@ -1,0 +1,160 @@
+{
+    "qid": null,
+    "iid": 59133167,
+    "indicator": "109.120.135.182",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-09 01:48:57",
+    "stamp_updated": "2024-12-14 22:16:23",
+    "stamp_seen": "2024-12-14 22:16:23",
+    "stamp_probed": "2024-09-29 23:01:11",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-09-23 10:46:42"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-09 01:48:57"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-09-23 10:46:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": "SE",
+            "mnt-ref": [
+                "ROSNIIROS-MNT",
+                "DN-MNT",
+                "QWARTA-MNT",
+                "Cyber-MNT",
+                "NETWORK-MANAGEMENT-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt",
+                "Corinnafisch-MNT",
+                "LIR-ae-royal-1-MNT",
+                "JD-RIPE-MNT"
+            ],
+            "mnt-by": [
+                "aeza-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-10-13T17:49:21Z",
+                "2024-04-03T15:08:21Z",
+                "2024-04-03T15:11:17Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "netname": "Aeza-Network",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "admin-c": "AN32681-RIPE",
+            "tech-c": "AN32681-RIPE",
+            "nic-hdl": "AN32681-RIPE",
+            "++registrant": "AN32681-RIPE",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2021-10-13 17:49:21",
+                "2024-04-03 15:08:21",
+                "2024-04-03 15:11:17"
+            ],
+            "route": "109.120.134.0\/23",
+            "++updated": [
+                "2024-04-03 15:11:17",
+                "2024-10-16 14:38:44",
+                "2024-11-13 10:01:59"
+            ],
+            "inetnum": "109.120.134.0 - 109.120.135.255",
+            "last-modified": [
+                "2024-04-15T15:04:25Z",
+                "2024-04-03T15:11:17Z",
+                "2024-10-16T14:38:44Z",
+                "2024-11-13T10:01:59Z"
+            ],
+            "++email": "abuse@aeza.net",
+            "abuse-mailbox": "abuse@aeza.net",
+            "++abuse": "abuse@aeza.net"
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "city": "Stockholm",
+            "region": "Stockholm County",
+            "asn": "AS210644",
+            "lat": "59.3241",
+            "long": "18.0517",
+            "org": "Aeza International Ltd"
+        },
+        "banners": {
+            "22": "SSH-2.0-Go\n",
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "sbcatizen1.aeza.network"
+        }
+    }
+}

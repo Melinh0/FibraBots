@@ -1,0 +1,168 @@
+{
+    "qid": null,
+    "iid": 41289553,
+    "indicator": "195.133.156.133",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-16 12:17:25",
+    "stamp_updated": "2024-12-11 18:59:36",
+    "stamp_seen": "2024-12-11 18:59:36",
+    "stamp_probed": "2024-08-02 20:33:48",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64197014,
+                "indicator": "https:\/\/195.133.156.133\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-16 12:17:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-26 20:09:29"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "Pelephone"
+            ],
+            "country": "IL",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "Pelephone"
+            ],
+            "origin": "AS16116",
+            "admin-c": [
+                "PH4620-RIPE",
+                "DE1376-RIPE",
+                "AA35935-RIPE"
+            ],
+            "tech-c": "PH4620-RIPE",
+            "address": [
+                "Derech Yitzchak Rabin 33, Givataim",
+                "YITZCHAK RABIN 33",
+                "53483",
+                "GIVATIM",
+                "ISRAEL"
+            ],
+            "++phone": [
+                "+972507078374",
+                "+972507078888"
+            ],
+            "nic-hdl": "PH4620-RIPE",
+            "phone": [
+                "+972507078374",
+                "+972507078888"
+            ],
+            "last-modified": [
+                "2010-10-31T09:31:28Z",
+                "2020-12-16T12:46:21Z",
+                "2020-07-27T06:38:24Z",
+                "2020-08-25T14:11:08Z"
+            ],
+            "++registrant": [
+                "PH4620-RIPE",
+                "DE1376-RIPE",
+                "AA35935-RIPE",
+                "Pelephone Hostmaster"
+            ],
+            "created": [
+                "2010-07-18T07:39:38Z",
+                "2005-03-01T10:33:09Z",
+                "2020-07-27T06:38:24Z",
+                "2020-08-25T14:11:08Z"
+            ],
+            "org-name": "Pelephone Communications Ltd.",
+            "abuse-c": "AR15576-RIPE",
+            "organisation": "ORG-PCL4-RIPE",
+            "org": "ORG-PCL4-RIPE",
+            "fax-no": "+97235728049",
+            "person": "Pelephone Hostmaster",
+            "netname": "IL-PELEPHONE-19970415",
+            "inetnum": "195.133.152.0 - 195.133.159.255",
+            "route": "195.133.152.0\/21",
+            "++registered": [
+                "2005-03-01 10:33:09",
+                "2010-07-18 07:39:38",
+                "2020-07-27 06:38:24",
+                "2020-08-25 14:11:08"
+            ],
+            "++updated": [
+                "2020-12-16 12:46:21",
+                "2010-10-31 09:31:28",
+                "2020-08-25 14:11:08"
+            ]
+        },
+        "geo": {
+            "country": "Israel",
+            "countrycode": "IL",
+            "asn": "AS16116",
+            "org": "Pelephone Communications Ltd.",
+            "lat": "31.5",
+            "long": "34.75"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "Sat, 01 Dec 2001 00:00:00 GMT",
+            "++title": "index",
+            "charset": "utf-8"
+        },
+        "http": {
+            "++target": "https:\/\/195.133.156.133\/",
+            "++redirect": "https:\/\/195.133.156.133\/#\/"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2018.76\n\u0000\u0000\u0002\u0014\u000b\u0014h\u001a\ufffd[Z\ufffd=\ufffdF\ufffd\ufffd5\ufffd\ufffda\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00006\ufffd=QO\ufffd\ufffd\ufffd\ufffdW\ufffd"
+        }
+    }
+}

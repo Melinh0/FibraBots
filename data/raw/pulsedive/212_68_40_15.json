@@ -1,0 +1,97 @@
+{
+    "qid": null,
+    "iid": 63012529,
+    "indicator": "212.68.40.15",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-09-06 01:50:24",
+    "stamp_updated": "2024-12-09 19:11:57",
+    "stamp_seen": "2024-09-06 01:50:40",
+    "stamp_probed": "2024-09-06 01:50:39",
+    "stamp_retired": "2024-12-09 19:11:57",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-06 01:50:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Turkey",
+            "countrycode": "TR",
+            "asn": "AS42910",
+            "lat": "41.0214",
+            "long": "28.9948",
+            "org": "PremierDC Veri Merkezi Anonim Sirketi",
+            "isp": "PremierDC Veri Merkezi Anonim Sirketi"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "content-length": "163",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 04 Dec 2023 03:24:53 GMT",
+            "date": "Fri, 06 Sep 2024 01:50:27 GMT",
+            "expires": "0"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 04:50. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n"
+        },
+        "dns": {
+            "ptr": "static-15-40-68-212.sadecehosting.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/68e2953329f64a2f1ec07361e0b1a43a.jpeg"
+        }
+    }
+}

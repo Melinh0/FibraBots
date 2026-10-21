@@ -1,0 +1,207 @@
+{
+    "qid": null,
+    "iid": 13710729,
+    "indicator": "74.82.195.39",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-07-19 07:47:26",
+    "stamp_updated": "2024-12-10 10:42:29",
+    "stamp_seen": "2024-11-27 00:00:00",
+    "stamp_probed": "2024-07-02 01:08:29",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 30686419,
+                "indicator": "http:\/\/74.82.195.39\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-23 04:36:39"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-22 08:16:40"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-23 04:36:39"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-08-17 13:29:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL"
+        ],
+        "technology": [
+            "Caddy",
+            "Go"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "CA"
+            ],
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "orgabusename": "Abuse",
+            "stateprov": [
+                "CA",
+                "BC"
+            ],
+            "city": [
+                "Los Angeles",
+                "Burnaby"
+            ],
+            "postalcode": [
+                "90014",
+                "V5H 4M9"
+            ],
+            "orgnocname": "NOC",
+            "parent": [
+                "NET74 (NET-74-0-0-0-0)",
+                "CL-1210 (NET-74-82-192-0-1)"
+            ],
+            "regdate": [
+                "2016-10-11",
+                "2018-05-04",
+                "2018-05-07"
+            ],
+            "orgtechname": "Technical Contact",
+            "++phone": "+1-408-260-5757",
+            "orgabuseemail": "abuse@sioru.com",
+            "orgabusehandle": "ABUSE3623-ARIN",
+            "orgabusephone": "+1-408-260-5757",
+            "orgnocemail": "arin-noc@sioru.com",
+            "orgnochandle": "NOC12969-ARIN",
+            "orgnocphone": "+1-408-260-5757",
+            "orgtechphone": "+1-408-260-5757",
+            "++email": "arin-tech@sioru.com",
+            "custname": "IT7 Networks Inc",
+            "orgtechemail": "arin-tech@sioru.com",
+            "orgtechhandle": "TECHN1201-ARIN",
+            "++registrant": "Cluster Logic Inc",
+            "address": [
+                "530 W 6th Street",
+                "4974 Kingsway Ave",
+                "Suite 668"
+            ],
+            "organization": "Cluster Logic Inc (CL-1210)",
+            "orgid": "CL-1210",
+            "orgname": "Cluster Logic Inc",
+            "originas": "AS25820",
+            "netname": [
+                "CL-1210",
+                "CL-74-82-192-0-19"
+            ],
+            "++registered": "2018-05-07 00:00:00",
+            "updated": [
+                "2018-05-07",
+                "2018-05-04",
+                "2021-07-12"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/TECHN1201-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CL-1210",
+                "https:\/\/rdap.arin.net\/registry\/ip\/74.82.192.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C06975339"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE3623-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC12969-ARIN",
+            "nethandle": [
+                "NET-74-82-192-0-1",
+                "NET-74-82-192-0-2"
+            ],
+            "cidr": "74.82.192.0\/19",
+            "customer": "IT7 Networks Inc (C06975339)",
+            "netrange": "74.82.192.0 - 74.82.223.255",
+            "++abuse": "+1-408-260-5757",
+            "++updated": "2021-07-12 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "California",
+            "city": "Los Angeles",
+            "asn": "AS25820",
+            "lat": "34.0726",
+            "org": "IT7NET",
+            "long": "-118.261"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "server": "Caddy",
+            "content-length": "54",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/plain",
+            "date": "Mon, 07 Oct 2024 04:46:29 GMT",
+            "++target": "http:\/\/74.82.195.39\/"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        },
+        "dns": {
+            "ptr": "74.82.195.39.16clouds.com"
+        },
+        "banners": {
+            "3306": "J\u0000\u0000\u0000\n5.6.48\u0000[5\u0000\u0000d=Ao+('+\u0000\ufffd\ufffd-\u0002\u0000\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@BihQ;rNm]fk\u0000mysql_native_password\u0000"
+        }
+    }
+}

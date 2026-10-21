@@ -1,0 +1,148 @@
+{
+    "qid": null,
+    "iid": 47036522,
+    "indicator": "191.0.69.202",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-08 02:53:15",
+    "stamp_updated": "2024-12-09 10:34:29",
+    "stamp_seen": "2024-11-29 11:41:30",
+    "stamp_probed": "2024-07-27 20:10:07",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-14 19:42:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-08 02:53:15"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-14 19:42:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-04 16:05:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio de Janeiro",
+            "asn": "AS7738",
+            "lat": "-22.9201",
+            "city": "Rio de Janeiro",
+            "long": "-43.0811",
+            "org": "V tal"
+        },
+        "whois": {
+            "country": "BR",
+            "aut-num": "AS7738",
+            "created": [
+                "20000605",
+                "20140113",
+                "20230328"
+            ],
+            "nic-hdl-br": [
+                "CGR13",
+                "SEIVT2"
+            ],
+            "nserver": [
+                "ns4.telemar.net.br",
+                "ns2.telemar.net.br",
+                "ns9.telemar.net.br"
+            ],
+            "person": [
+                "Centro de Gerencia de Rede TELEMAR",
+                "Seguran\ufffda da Informa\ufffd\ufffdo Vtal"
+            ],
+            "tech-c": "CGR13",
+            "inetnum": "191.0.0.0\/14",
+            "inetrev": "191.0.64.0\/21",
+            "++registrant": [
+                "Centro de Gerencia de Rede TELEMAR",
+                "Seguran\ufffda da Informa\ufffd\ufffdo Vtal"
+            ],
+            "e-mail": [
+                "ld-numeracaoip@vtal.com",
+                "abuse@vtal.com"
+            ],
+            "++email": [
+                "ld-numeracaoip@vtal.com",
+                "abuse@vtal.com"
+            ],
+            "ownerid": "02.041.460\/0001-93",
+            "responsible": "BTCM V.Tal",
+            "owner": "V tal",
+            "changed": [
+                "20221006",
+                "20230412",
+                "20240529"
+            ],
+            "owner-c": "SEIVT2",
+            "abuse-c": "SEIVT2",
+            "nslastaa": "20241127",
+            "nsstat": "20241127 AA"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003"
+        },
+        "dns": {
+            "ptr": "191-0-69-202.host.telemar.net.br"
+        }
+    }
+}

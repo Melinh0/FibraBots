@@ -1,0 +1,229 @@
+{
+    "qid": null,
+    "iid": 46973857,
+    "indicator": "139.155.172.226",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-05 02:43:57",
+    "stamp_updated": "2024-12-09 10:31:21",
+    "stamp_seen": "2024-11-23 16:55:42",
+    "stamp_probed": "2024-08-28 22:47:07",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64215257,
+                "indicator": "https:\/\/139.155.172.226\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-05 02:43:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "DigiCert",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "address": [
+                "Beijing, China",
+                "District of Hi-tech Park, Shenzhen",
+                "9F, FIYTA Building, Gaoxinnanyi Road,Southern",
+                "9F, FIYTA Building, Gaoxinnanyi Road, Southern"
+            ],
+            "abuse-mailbox": [
+                "ipas@cnnic.cn",
+                "tencent_noc@tencent.com"
+            ],
+            "admin-c": [
+                "IP50-AP",
+                "JT1125-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CNNIC-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-routes": "MAINT-CNNIC-AP",
+            "tech-c": [
+                "IP50-AP",
+                "JX1747-AP"
+            ],
+            "mnt-lower": "MAINT-CNNIC-AP",
+            "++phone": [
+                "+86-755-86013388-84952",
+                "+000000000",
+                "+86-755-86013388-80224"
+            ],
+            "descr": [
+                "Shenzhen Tencent Computer Systems Company Limited",
+                "Tencent cloud computing (Beijing) Co., Ltd.",
+                "Floor 6, Yinke Building,38 Haidian St,",
+                "Haidian District Beijing"
+            ],
+            "netname": "TencentCloud",
+            "nic-hdl": [
+                "JX1747-AP",
+                "JT1125-AP",
+                "AC1601-AP"
+            ],
+            "notify": "jimmyxiao@tencent.com",
+            "origin": "AS45090",
+            "person": [
+                "Jimmy Xiao",
+                "James Tian"
+            ],
+            "phone": [
+                "+86-755-86013388-80224",
+                "+86-755-86013388-84952",
+                "+000000000"
+            ],
+            "e-mail": [
+                "tencent_noc@tencent.com",
+                "ipas@cnnic.cn",
+                "klayliang@tencent.com",
+                "johnsonqu@tencent.com"
+            ],
+            "++abuse": [
+                "ipas@cnnic.cn",
+                "tencent_noc@tencent.com"
+            ],
+            "++registrant": [
+                "IP50-AP",
+                "JT1125-AP",
+                "James Tian",
+                "Jimmy Xiao"
+            ],
+            "++email": [
+                "ipas@cnnic.cn",
+                "tencent_noc@tencent.com",
+                "klayliang@tencent.com",
+                "johnsonqu@tencent.com"
+            ],
+            "last-modified": [
+                "2019-04-18T03:50:02Z",
+                "2021-09-17T00:38:09Z",
+                "2023-11-28T00:57:05Z",
+                "2024-03-19T08:21:31Z",
+                "2024-07-30T11:55:46Z",
+                "2024-09-25T05:54:36Z"
+            ],
+            "route": "139.155.0.0\/16",
+            "inetnum": "139.155.0.0 - 139.155.255.255",
+            "abuse-c": "AC1601-AP",
+            "role": "ABUSE CNNICCN",
+            "irt": "IRT-TencentCloud-CN",
+            "mnt-irt": "IRT-TENCENTCLOUD-CN",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-30 11:55:46",
+                "2024-03-19 08:21:31",
+                "2021-09-17 00:38:09",
+                "2019-04-18 03:50:02",
+                "2024-09-25 05:54:36"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS45090",
+            "org": "Shenzhen Tencent Computer Systems Company Limited",
+            "lat": "34.7732",
+            "address": [
+                "Beijing, China",
+                "9F, FIYTA Building, Gaoxinnanyi Road,Southern",
+                "District of Hi-tech Park, Shenzhen",
+                "9F, FIYTA Building, Gaoxinnanyi Road, Southern"
+            ],
+            "long": "113.722"
+        },
+        "http": {
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "access-control-allow-origin": "*",
+            "access-control-allow-credentials": "true",
+            "access-control-allow-methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+            "access-control-max-age": "1800",
+            "++code": "404",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "access-control-allow-headers": "Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, X-CSRF-TOKEN, X-Requested-With,token",
+            "++redirect": "https:\/\/139.155.172.226\/",
+            "date": "Wed, 02 Oct 2024 19:06:17 GMT",
+            "++target": "http:\/\/139.155.172.226\/"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/O=DigiCert Inc\/OU=www.digicert.com\/CN=Encryption Everywhere DV TLS CA - G1",
+            "version": "v3",
+            "org": "Encryption Everywhere DV TLS CA - G1",
+            "expires": "2023-08-19 23:59:59",
+            "valid": "2022-08-19 00:00:00",
+            "subject": "\/CN=bbcadminapi.indoorbuy.com",
+            "domain": "bbcadminapi.indoorbuy.com",
+            "fingerprint": "f93dee984ac38d69ac119d584506ba9b9e0db1db7774a8d925ffd3da01e013b8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "N\u0000\u0000\u0000\n5.5.62-log\u0000\ufffdCN\u0000I,>5\/++5\u0000\ufffd\ufffd-\u0002\u0000\u000f\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000f$~q:n:vf{Z-\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8d5913cb958eaa277ba16f35d5e7164d.jpeg"
+        }
+    }
+}

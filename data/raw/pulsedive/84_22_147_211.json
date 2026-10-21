@@ -1,0 +1,198 @@
+{
+    "qid": null,
+    "iid": 62909434,
+    "indicator": "84.22.147.211",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-03 00:18:05",
+    "stamp_updated": "2024-12-17 11:40:28",
+    "stamp_seen": "2024-12-16 17:56:35",
+    "stamp_probed": "2024-09-04 13:30:42",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62965709,
+                "indicator": "https:\/\/84.22.147.211\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-03 00:18:05"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-10-05 16:28:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RTSP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "admin-c": "YD830-RIPE",
+            "created": [
+                "2017-03-29T04:21:50Z",
+                "2015-09-20T07:12:09Z",
+                "2015-05-18T07:59:57Z",
+                "2017-02-17T10:47:59Z"
+            ],
+            "descr": "Igra-Service LLC",
+            "inetnum": "84.22.144.0 - 84.22.147.255",
+            "last-modified": [
+                "2017-03-29T04:23:54Z",
+                "2015-05-18T07:59:58Z",
+                "2017-03-29T04:21:30Z",
+                "2019-09-07T07:38:00Z"
+            ],
+            "mnt-by": "ru-igra-service-1-mnt",
+            "mnt-routes": "ru-igra-service-1-mnt",
+            "netname": "IGRA-SERVICE-144-0-22",
+            "nic-hdl": [
+                "YD830-RIPE",
+                "ADIS-RIPE"
+            ],
+            "origin": "AS33991",
+            "person": "Yuri Dolin",
+            "phone": [
+                "+73912913913",
+                "+7 (391) 2913648"
+            ],
+            "role": "IGRA-SERVICE NOC",
+            "route": "84.22.144.0\/22",
+            "tech-c": [
+                "KLIU1-RIPE",
+                "ADIS-RIPE"
+            ],
+            "++phone": "+73912913913",
+            "address": [
+                "Krasnoyarsk",
+                "Russia, Krasnoyarsk",
+                "Gusarova 61-60",
+                "LLC \"Igra-Service\", office 221, Vysotnaya street",
+                "660028",
+                "RUSSIAN FEDERATION"
+            ],
+            "++registrant": [
+                "YD830-RIPE",
+                "Yuri Dolin"
+            ],
+            "++updated": [
+                "2019-09-07 07:38:00",
+                "2015-05-18 07:59:58",
+                "2017-03-29 04:23:54"
+            ],
+            "++registered": [
+                "2015-09-20 07:12:09",
+                "2015-05-18 07:59:57",
+                "2017-02-17 10:47:59",
+                "2017-03-29 04:21:50"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS33991",
+            "org": "Igra-Service LLC",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "address": [
+                "RUSSIAN FEDERATION",
+                "Krasnoyarsk",
+                "Russia, Krasnoyarsk",
+                "Gusarova 61-60",
+                "660028",
+                "LLC \"Igra-Service\", office 221, Vysotnaya street"
+            ],
+            "country": "Russia"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "content-length": "19",
+            "++code": "404",
+            "++content-type": "text\/plain",
+            "++target": "http:\/\/84.22.147.211\/",
+            "++redirect": "https:\/\/84.22.147.211\/",
+            "date": "Tue, 19 Nov 2024 00:03:25 GMT"
+        },
+        "ssl": {
+            "issuer": "\/CN=TRAEFIK DEFAULT CERT",
+            "subject": "\/CN=TRAEFIK DEFAULT CERT",
+            "version": "v3",
+            "org": "TRAEFIK DEFAULT CERT",
+            "fingerprint": "19472cc299ef74e627ec5ba30ffd9377a6f41712f142636d37d34d1acaccaf35",
+            "valid": "2024-10-18 04:43:55",
+            "domain": "2c9576e96f794e104e95de2b1d56266e.6e74ef6ba6d747f2fd40c1c97eb25782.traefik.default",
+            "expires": "2025-10-18 04:43:55"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "554": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "slava24.g-service.ru"
+        }
+    }
+}

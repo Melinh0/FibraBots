@@ -1,0 +1,171 @@
+{
+    "qid": null,
+    "iid": 55796701,
+    "indicator": "95.85.112.170",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-04 02:56:27",
+    "stamp_updated": "2024-12-10 10:43:21",
+    "stamp_seen": "2024-11-20 07:52:48",
+    "stamp_probed": "2024-09-30 21:10:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55798089,
+                "indicator": "https:\/\/95.85.112.170\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-04 02:56:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "HSTS",
+            "jQuery",
+            "Nginx",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "mnt-by": "TMTELECOM-NCC-MNT",
+            "admin-c": "AG10592-RIPE",
+            "country": "TM",
+            "tech-c": "AG10592-RIPE",
+            "address": "16, Azady str., Ashgabad 744000, Turkmenistan",
+            "netname": "TTELECOM-NET",
+            "origin": "AS20661",
+            "nic-hdl": "AG10592-RIPE",
+            "person": "Alex Grigoriev",
+            "descr": [
+                "Leased line customers",
+                "TMTELECOM Block"
+            ],
+            "created": [
+                "2010-10-26T22:21:40Z",
+                "2016-10-21T11:41:37Z",
+                "2016-10-13T06:07:24Z"
+            ],
+            "++registrant": [
+                "AG10592-RIPE",
+                "Alex Grigoriev"
+            ],
+            "last-modified": [
+                "2017-01-23T12:37:46Z",
+                "2021-09-08T12:43:14Z",
+                "2016-10-13T06:07:24Z"
+            ],
+            "route": "95.85.96.0\/19",
+            "phone": "+99312401700",
+            "++phone": "+99312401700",
+            "++registered": [
+                "2010-10-26 22:21:40",
+                "2016-10-21 11:41:37",
+                "2016-10-13 06:07:24"
+            ],
+            "++updated": [
+                "2021-09-08 12:43:14",
+                "2017-01-23 12:37:46"
+            ],
+            "inetnum": "95.85.112.0 - 95.85.112.255"
+        },
+        "geo": {
+            "country": "Turkmenistan",
+            "countrycode": "TM",
+            "asn": "AS20661",
+            "org": "State Company of Electro Communications Turkmentelecom",
+            "city": "Ashgabat",
+            "region": "Ashgabat",
+            "lat": "37.9519",
+            "long": "58.3958"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "date": "Sun, 15 Sep 2024 06:52:55 GMT",
+            "set-cookie": "PHPSESSID=cf84ca6e4901a23cbb2455378d598520; path=\/; secure; HttpOnly",
+            "++redirect": "https:\/\/95.85.112.170\/",
+            "last-modified": "Sun, 15 Sep 2024 06:52:55 GMT",
+            "++target": "http:\/\/95.85.112.170\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "++title": "pfSense - Login"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2022-01-17 04:28:08",
+            "issuer": "\/O=pfSense webConfigurator Self-Signed Certificate\/CN=pfSense-5fd83b57ae3fb",
+            "domain": "pfSense-5fd83b57ae3fb",
+            "valid": "2020-12-15 04:28:08",
+            "subject": "\/O=pfSense webConfigurator Self-Signed Certificate\/CN=pfSense-5fd83b57ae3fb",
+            "org": "pfSense-5fd83b57ae3fb",
+            "++subject": "pfSense webConfigurator Self-Signed Certificate",
+            "fingerprint": "61762c301bbea845e915444d64fb1ae85a6484fd4cdae30a2d77ad234e24909d"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/84122e9ae8d7e564dadbafb6153571f5.jpeg"
+        },
+        "cookies": {
+            "phpsessid": "cf84ca6e4901a23cbb2455378d598520"
+        }
+    }
+}

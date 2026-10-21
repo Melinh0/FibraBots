@@ -1,0 +1,184 @@
+{
+    "qid": null,
+    "iid": 57941361,
+    "indicator": "185.16.39.29",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-03 02:41:02",
+    "stamp_updated": "2024-10-20 06:27:34",
+    "stamp_seen": "2024-09-28 01:12:39",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63679309,
+                "indicator": "http:\/\/185.16.39.29\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-03 20:20:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "country": "PL",
+            "address": [
+                "POLAND",
+                "Warszawa",
+                "Augustyna Locciego 33",
+                "02-928",
+                "MEVSPACE Sp. z o.o.",
+                "02-928 Warszawa"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "SKYTECH-MNT"
+            ],
+            "tech-c": [
+                "AO3529-RIPE",
+                "mevs2-ripe",
+                "SO4268-RIPE"
+            ],
+            "origin": "AS201814",
+            "admin-c": [
+                "AO3529-RIPE",
+                "mevs2-ripe",
+                "SO4268-RIPE"
+            ],
+            "mnt-ref": "SKYTECH-MNT",
+            "inetnum": "185.16.36.0 - 185.16.39.255",
+            "abuse-c": "AR49979-RIPE",
+            "netname": "PL-MEV-20130118",
+            "organisation": "ORG-MSZO78-RIPE",
+            "org": "ORG-MSZO78-RIPE",
+            "++phone": "+48221004144",
+            "phone": "+48221004144",
+            "created": [
+                "2018-12-31T09:32:45Z",
+                "2018-12-20T08:55:28Z",
+                "2022-12-07T13:04:36Z",
+                "2022-09-30T07:23:46Z"
+            ],
+            "nic-hdl": "mevs2-ripe",
+            "++registrant": [
+                "mevs2-ripe",
+                "AO3529-RIPE",
+                "SO4268-RIPE"
+            ],
+            "org-name": "MEVSPACE sp. z o.o.",
+            "last-modified": [
+                "2023-01-16T12:16:04Z",
+                "2022-09-30T07:23:46Z",
+                "2023-03-29T20:31:27Z",
+                "2023-03-29T20:07:04Z"
+            ],
+            "route": "185.16.38.0\/23",
+            "role": "Mevspace Admins",
+            "++registered": [
+                "2018-12-31 09:32:45",
+                "2018-12-20 08:55:28",
+                "2022-12-07 13:04:36",
+                "2022-09-30 07:23:46"
+            ],
+            "++updated": [
+                "2023-03-29 20:07:04",
+                "2023-01-16 12:16:04",
+                "2023-03-29 20:31:27",
+                "2022-09-30 07:23:46"
+            ]
+        },
+        "geo": {
+            "country": "Poland",
+            "countrycode": "PL",
+            "lat": "52.2394",
+            "long": "21.0362",
+            "asn": "AS201814",
+            "address": [
+                "POLAND",
+                "Warszawa",
+                "Augustyna Locciego 33",
+                "02-928",
+                "MEVSPACE Sp. z o.o.",
+                "02-928 Warszawa"
+            ],
+            "org": [
+                "ORG-MSZO78-RIPE",
+                "MEVSPACE sp. z o.o."
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "date": "Sat, 28 Sep 2024 01:11:04 GMT",
+            "++target": "http:\/\/185.16.39.29\/"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3\n"
+        },
+        "dns": {
+            "ptr": "play26.liverpoolfcfans.co.uk"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/054789b57cf969ed1e56c743c2a086c0.jpeg"
+        }
+    }
+}

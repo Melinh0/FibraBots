@@ -1,0 +1,187 @@
+{
+    "qid": null,
+    "iid": 48732536,
+    "indicator": "102.88.10.10",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-30 17:49:52",
+    "stamp_updated": "2024-12-15 11:27:08",
+    "stamp_seen": "2024-12-15 06:48:38",
+    "stamp_probed": "2024-08-28 22:43:00",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-03 07:36:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-30 17:49:52"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-03 07:36:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-18 10:21:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ALLOCATED PA",
+            "mnt-by": [
+                "AFRINIC-HM-MNT",
+                "MTNNIGERA1-MNT",
+                "GENERATED-5DN7BDIQBRY0JCMBEE6EBZSP56LLR9GU-MNT",
+                "GENERATED-OTDTXORXHN6F82OVDX2NEJDCXAME7BSN-MNT",
+                "GENERATED-EBHBOB966K2GDPMBHLHKG9KPYWB1VW9T-MNT"
+            ],
+            "address": [
+                "Nigeria",
+                "Other",
+                "Golden Plaza Building, Falomo roundabout, ikoyi",
+                "Yellodrome building, adeola hopewell street, Victoria island",
+                "Lagos",
+                "Victoria island",
+                "Yellodrome building, adeola hopewell address: street, Victoria island"
+            ],
+            "country": "NG",
+            "++phone": "+08031230141",
+            "abuse-mailbox": "abuse@mtnnigeria.net",
+            "admin-c": [
+                "BRM1-AFRINIC",
+                "TI13-AFRINIC",
+                "CA48-AFRINIC"
+            ],
+            "nic-hdl": [
+                "ISP1-AFRINIC",
+                "BRM1-AFRINIC",
+                "CA48-AFRINIC",
+                "TI13-AFRINIC"
+            ],
+            "person": [
+                "Internet Services Planning",
+                "Business Risk Management",
+                "Chukwuebuka Ani",
+                "Taiwo Ikugbonmire"
+            ],
+            "phone": [
+                "+08031230141",
+                "tel:+234-803-123-0141",
+                "tel:+234-803-200-0490",
+                "tel:+234-803-200-284"
+            ],
+            "tech-c": [
+                "ISP1-AFRINIC",
+                "TI13-AFRINIC",
+                "CA48-AFRINIC"
+            ],
+            "mnt-ref": [
+                "AFRINIC-HM-MNT",
+                "MTNNIGERA1-MNT"
+            ],
+            "descr": [
+                "MTN Nigeria",
+                "MTN NIGERIA PREFIX"
+            ],
+            "mnt-lower": "MTNNIGERA1-MNT",
+            "netname": "MTN-Nigeria",
+            "org": "ORG-MN1-AFRINIC",
+            "org-name": "MTN Nigeria",
+            "organisation": "ORG-MN1-AFRINIC",
+            "mnt-domains": "MTNNIGERA1-MNT",
+            "inetnum": "102.88.0.0 - 102.95.255.255",
+            "++abuse": "abuse@mtnnigeria.net",
+            "++registrant": [
+                "Business Risk Management",
+                "Internet Services Planning",
+                "BRM1-AFRINIC",
+                "TI13-AFRINIC",
+                "CA48-AFRINIC",
+                "Chukwuebuka Ani",
+                "Taiwo Ikugbonmire"
+            ],
+            "++email": "abuse@mtnnigeria.net",
+            "origin": "AS29465",
+            "route": "102.88.10.0\/24",
+            "source": "AFRINIC # Filtered",
+            "parent": "102.0.0.0 - 102.255.255.255"
+        },
+        "geo": {
+            "country": "Nigeria",
+            "countrycode": "NG",
+            "asn": "AS29465",
+            "org": [
+                "MTN NIGERIA Communication limited",
+                "ORG-MN1-AFRINIC"
+            ],
+            "city": "Warri",
+            "region": "Delta",
+            "address": [
+                "Other",
+                "Lagos",
+                "Nigeria",
+                "Golden Plaza Building, Falomo roundabout, ikoyi",
+                "Yellodrome building, adeola hopewell street, Victoria island",
+                "Victoria island",
+                "Yellodrome building, adeola hopewell address: street, Victoria island"
+            ],
+            "long": "5.7442",
+            "lat": "5.5111"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.1\n"
+        }
+    }
+}

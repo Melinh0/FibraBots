@@ -1,0 +1,237 @@
+{
+    "qid": null,
+    "iid": 39411474,
+    "indicator": "50.127.177.194",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-09-30 04:50:42",
+    "stamp_updated": "2024-12-17 11:39:07",
+    "stamp_seen": "2024-12-16 17:48:00",
+    "stamp_probed": "2024-09-30 17:09:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39413085,
+                "indicator": "https:\/\/50.127.177.194\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-05-29 17:42:21"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-09-30 04:50:42"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-05-29 17:42:21"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-15 01:50:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "D3",
+            "jQuery",
+            "jQuery UI",
+            "Modernizr",
+            "Moment.js"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "city": "Rochester",
+            "orgabusename": "Abuse",
+            "++registered": [
+                "2011-09-06 00:00:00",
+                "1996-05-09 00:00:00"
+            ],
+            "parent": "NET50 (NET-50-0-0-0-0)",
+            "referralserver": "rwhois:\/\/rwhois.frontiernet.net:4321",
+            "orgabusehandle": "ABUSE223-ARIN",
+            "orgtechhandle": "ZF47-ARIN",
+            "orgtechname": "Frontier Communications",
+            "address": "95 Fitzhugh St N",
+            "++registrant": "Frontier Communications of America, Inc.",
+            "originas": "AS5650",
+            "organization": "Frontier Communications of America, Inc. (FRTR)",
+            "postalcode": "14614",
+            "orgname": "Frontier Communications of America, Inc.",
+            "orgid": "FRTR",
+            "netname": "FRTR-LEGACY-FTR13",
+            "regdate": [
+                "2011-09-06",
+                "1996-05-09"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZF47-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/FRTR",
+                "https:\/\/rdap.arin.net\/registry\/ip\/50.126.128.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE223-ARIN",
+            "updated": [
+                "2020-05-11",
+                "2024-01-19"
+            ],
+            "orgroutingname": "Hostmaster",
+            "orgroutinghandle": "HOSTM2146-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/HOSTM2146-ARIN",
+            "orgroutingphone": "+1-585-777-0949",
+            "++phone": [
+                "+1-585-777-0949",
+                "+1-877-474-7876"
+            ],
+            "++updated": "2024-01-19 00:00:00",
+            "orgtechphone": "+1-877-474-7876",
+            "orgroutingemail": "hostmaster@support.ftr.com",
+            "++email": "abuse@support.ftr.com",
+            "orgabuseemail": "abuse@support.ftr.com",
+            "++abuse": "abuse@support.ftr.com",
+            "orgtechemail": "abuse@support.ftr.com",
+            "orgabusephone": "+1-877-474-7876",
+            "netrange": "50.126.128.0 - 50.127.255.255",
+            "nethandle": "NET-50-126-128-0-1",
+            "cidr": "50.127.0.0\/16, 50.126.128.0\/17"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": [
+                "Rochester",
+                "Charleston"
+            ],
+            "asn": "AS5650",
+            "region": [
+                "West Virginia",
+                "NY"
+            ],
+            "zip": "14614",
+            "long": "-81.582",
+            "address": "95 Fitzhugh St N",
+            "org": [
+                "Frontier Communications of America, Inc. (FRTR)",
+                "FRONTIER-FRTR"
+            ],
+            "lat": "38.3997"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "server": "Server",
+            "content-length": "8511",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/50.127.177.194\/",
+            "++target": "http:\/\/50.127.177.194\/",
+            "date": "Mon, 18 Nov 2024 23:03:14 GMT",
+            "set-cookie": "beaker.session.id=6495ac4d3b2e48108ad209d85f9dd586; httponly; Path=\/; secure"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/CN=UBNT Router UI\/O=Ubiquiti Networks\/ST=CA\/L=San Jose",
+            "subject": "\/C=US\/CN=UBNT Router UI\/O=Ubiquiti Networks\/ST=CA\/L=San Jose",
+            "version": "v3",
+            "org": "UBNT Router UI",
+            "valid": "2015-01-01 00:00:39",
+            "expires": "2024-12-29 00:00:39",
+            "++subject": "Ubiquiti Networks",
+            "fingerprint": "f92b16f72b16eed8697143d3ef67e2dbe9866b34d1bff20d77024e5cee99f0b1"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "x-ua-compatible": "IE=Edge;chrome=1",
+            "copyright": "Copyright 2012 Ubiquiti Networks, Inc. All rights reserved.",
+            "++title": "EdgeOS",
+            "charset": "utf-8"
+        },
+        "dns": {
+            "ptr": "static-50-127-177-194.chtn.wv.frontiernet.net"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000",
+            "22": "\u0005\u0004\u0000\u0000"
+        },
+        "cookies": {
+            "beaker.session.id": "6495ac4d3b2e48108ad209d85f9dd586"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/682ac81be95cb9bbe1e4040dc32a2846.jpeg"
+        }
+    }
+}

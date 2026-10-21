@@ -1,0 +1,173 @@
+{
+    "qid": null,
+    "iid": 54023991,
+    "indicator": "138.204.127.54",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-08 18:26:53",
+    "stamp_updated": "2024-12-15 07:24:54",
+    "stamp_seen": "2024-12-15 07:24:54",
+    "stamp_probed": "2024-08-28 22:47:07",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 54024679,
+                "indicator": "http:\/\/138.204.127.54\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-14 16:47:10"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-08 18:26:53"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-14 16:47:10"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-10 08:08:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Debian"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio de Janeiro",
+            "city": "Cabo Frio",
+            "asn": "AS264411",
+            "org": "Costa Do Sol TV a cabo",
+            "lat": "-22.8902",
+            "long": "-42.0232"
+        },
+        "whois": {
+            "country": "BR",
+            "changed": [
+                "20150730",
+                "20201015",
+                "20240628"
+            ],
+            "++registered": "2015-07-30 00:00:00",
+            "nserver": [
+                "ns2.icabo.tv.br [lame - not published]",
+                "ns1.icabo.tv.br [lame - not published]"
+            ],
+            "owner": "Costa Do Sol TV a cabo",
+            "owner-c": "MAAMA73",
+            "ownerid": "00.135.052\/0001-75",
+            "responsible": "Maria Augusta Magalhaes",
+            "tech-c": "MAAMA73",
+            "created": [
+                "20070412",
+                "20090323",
+                "20150730"
+            ],
+            "nslastaa": [
+                "20170617",
+                "20180401"
+            ],
+            "inetnum": "138.204.124.0\/22",
+            "aut-num": "AS264411",
+            "nic-hdl-br": [
+                "MAAMA73",
+                "LVSLV"
+            ],
+            "person": [
+                "Maria Augusta Magalhaes",
+                "Lucas Vincius Santos LVS"
+            ],
+            "abuse-c": "LVSLV",
+            "inetrev": "138.204.127.0\/24",
+            "++registrant": [
+                "Maria Augusta Magalhaes",
+                "Lucas Vincius Santos LVS"
+            ],
+            "e-mail": [
+                "lucas@lucasvinicius.com.br",
+                "financeiro@novacosta.com.br"
+            ],
+            "++abuse": "LVSLV",
+            "++email": [
+                "lucas@lucasvinicius.com.br",
+                "financeiro@novacosta.com.br"
+            ],
+            "nsstat": "20240818 UH"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.10 (Debian)",
+            "content-encoding": "gzip",
+            "content-length": "3041",
+            "++code": "200",
+            "++status": "OK",
+            "keep-alive": "timeout=5, max=300",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 13 Jun 2017 14:05:55 GMT",
+            "etag": "\"29cd-551d7ef24ce73-gzip\"",
+            "++target": "http:\/\/138.204.127.54\/",
+            "date": "Tue, 22 Oct 2024 16:19:15 GMT"
+        },
+        "meta": {
+            "++title": "Apache2 Debian Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c61b1238ee253703dabec70795c30852.jpeg"
+        }
+    }
+}

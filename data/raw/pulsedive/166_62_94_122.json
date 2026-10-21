@@ -1,0 +1,224 @@
+{
+    "qid": null,
+    "iid": 55408431,
+    "indicator": "166.62.94.122",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-25 19:27:01",
+    "stamp_updated": "2024-12-14 20:20:32",
+    "stamp_seen": "2024-12-14 20:20:32",
+    "stamp_probed": "2024-09-30 05:20:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55415124,
+                "indicator": "http:\/\/166.62.94.122\/"
+            },
+            {
+                "iid": 64084593,
+                "indicator": "https:\/\/166.62.94.122\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-25 19:27:01"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-27 09:37:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "25",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "HSTS",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@godaddy.com",
+            "nettype": "Direct Allocation",
+            "orgnocname": "Network Operations Center",
+            "orgtechname": "Network Operations Center",
+            "orgabusename": "Abuse Department",
+            "++registered": [
+                "2012-11-14 00:00:00",
+                "2007-06-01 00:00:00"
+            ],
+            "++email": "noc@godaddy.com",
+            "++phone": "+1-480-505-8809",
+            "++registrant": "GoDaddy.com, LLC",
+            "netname": "GO-DADDY-COM-LLC",
+            "orgabuseemail": "abuse@godaddy.com",
+            "orgabusehandle": "ABUSE51-ARIN",
+            "orgabusephone": "+1-480-624-2505",
+            "organization": "GoDaddy.com, LLC (GODAD)",
+            "orgid": "GODAD",
+            "orgname": "GoDaddy.com, LLC",
+            "orgnocemail": "noc@godaddy.com",
+            "orgnochandle": "NOC124-ARIN",
+            "orgnocphone": "+1-480-505-8809",
+            "orgtechemail": "noc@godaddy.com",
+            "orgtechhandle": "NOC124-ARIN",
+            "orgtechphone": "+1-480-505-8809",
+            "originas": "AS26496",
+            "rabuseemail": "abuse@godaddy.com",
+            "rabusehandle": "ABUSE51-ARIN",
+            "rabusename": "Abuse Department",
+            "rabusephone": "+1-480-624-2505",
+            "regdate": [
+                "2007-06-01",
+                "2012-11-14"
+            ],
+            "rnocemail": "noc@godaddy.com",
+            "rnochandle": "NOC124-ARIN",
+            "rnocname": "Network Operations Center",
+            "rnocphone": "+1-480-505-8809",
+            "rtechemail": "noc@godaddy.com",
+            "rtechhandle": "NOC124-ARIN",
+            "rtechname": "Network Operations Center",
+            "rtechphone": "+1-480-505-8809",
+            "stateprov": "AZ",
+            "cidr": "166.62.0.0\/17",
+            "nethandle": "NET-166-62-0-0-1",
+            "netrange": "166.62.0.0 - 166.62.127.255",
+            "parent": "NET166 (NET-166-0-0-0-0)",
+            "city": "Tempe",
+            "postalcode": "85284",
+            "updated": [
+                "2014-02-25",
+                "2023-12-19"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE51-ARIN",
+            "rnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GODAD",
+                "https:\/\/rdap.arin.net\/registry\/ip\/166.62.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE51-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "address": "2155 E GoDaddy Way",
+            "++updated": "2023-12-19 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "AZ",
+            "city": "Tempe",
+            "zip": "85284",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "GoDaddy.com, LLC (GODAD)",
+                "GO-DADDY-COM-LLC"
+            ],
+            "asn": "AS398101",
+            "address": "2155 E GoDaddy Way"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.7 (Ubuntu)",
+            "content-length": "1",
+            "keep-alive": "timeout=5, max=100",
+            "x-powered-by": "PHP\/5.5.9-1ubuntu4.14",
+            "++code": "200",
+            "++status": "OK",
+            "strict-transport-security": "max-age=31536000;includeSubdomains; preload",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/166.62.94.122\/",
+            "++redirect": "https:\/\/166.62.94.122\/",
+            "date": "Sat, 19 Oct 2024 12:18:45 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=AU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "subject": "\/C=AU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "version": "v3",
+            "++subject": "Internet Widgits Pty Ltd",
+            "expires": "2017-03-14 08:40:36",
+            "valid": "2016-03-14 08:40:36",
+            "fingerprint": "bb5647dd11af06b24c19d548a67af654aa99018dd6904df7d3595c761509f636"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.2)\n",
+            "22": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2\n"
+        },
+        "dns": {
+            "ptr": "122.94.62.166.host.secureserver.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

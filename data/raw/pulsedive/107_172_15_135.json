@@ -1,0 +1,81 @@
+{
+    "qid": null,
+    "iid": 64614956,
+    "indicator": "107.172.15.135",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-01 08:32:45",
+    "stamp_updated": "2024-12-09 10:28:20",
+    "stamp_seen": "2024-12-06 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-01 08:32:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-03 20:32:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306"
+        ],
+        "protocol": [
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "New York",
+            "asn": "AS36352",
+            "city": "Buffalo",
+            "lat": "42.8856",
+            "org": "AS-COLOCROSSING",
+            "long": "-78.8736"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "3306": "N\u0000\u0000\u0000\n5.7.40-log\u0000\ufffd\u0004\u0000\u0000QW\b\u0013rFU\u0014\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000QjU>xW&83%\f1\u0000mysql_native_password\u0000"
+        }
+    }
+}

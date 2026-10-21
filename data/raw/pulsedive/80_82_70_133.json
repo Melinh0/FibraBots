@@ -1,0 +1,189 @@
+{
+    "qid": null,
+    "iid": 15502,
+    "indicator": "80.82.70.133",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-09-28 04:37:07",
+    "stamp_updated": "2024-12-09 10:39:20",
+    "stamp_seen": "2024-11-18 16:36:36",
+    "stamp_probed": "2024-09-30 20:03:48",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 51963985,
+                "indicator": "http:\/\/80.82.70.133\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-16 22:16:46"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2018-03-03 21:41:43"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2018-04-07 16:56:55"
+        },
+        {
+            "fid": 44,
+            "name": "High Confidence IPv4 Drop List",
+            "category": "general",
+            "organization": "St. Dominics Priory College - Australia",
+            "pricing": "free",
+            "stamp_linked": "2018-05-15 03:32:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "25",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SMTP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Netherlands",
+                "Seychelles"
+            ],
+            "countrycode": [
+                "NL",
+                "SC"
+            ],
+            "region": "Anse-aux-Pins",
+            "address": [
+                "BZ",
+                "Seychelles"
+            ],
+            "asn": "AS202425",
+            "org": [
+                "IP Volume inc",
+                "ORG-IVI1-RIPE"
+            ],
+            "city": "Anse aux Pins",
+            "long": "55.5242",
+            "lat": "-4.7046"
+        },
+        "whois": {
+            "country": [
+                "NL",
+                "SC"
+            ],
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "address": [
+                "Seychelles",
+                "BZ"
+            ],
+            "route": "80.82.70.0\/24",
+            "inetnum": "80.82.70.0 - 80.82.70.255",
+            "geoloc": "52.370216 4.895168",
+            "created": [
+                "2016-01-23T22:53:56Z",
+                "2018-05-14T11:46:50Z",
+                "2018-05-16T13:28:41Z",
+                "2019-02-01T18:34:55Z"
+            ],
+            "mnt-routes": "IPV",
+            "mnt-by": "IPV",
+            "org-name": "IP Volume inc",
+            "admin-c": "IVI24-RIPE",
+            "role": "IPV",
+            "abuse-c": "IVNO1-RIPE",
+            "mnt-ref": "IPV",
+            "++registrant": "IVI24-RIPE",
+            "tech-c": "IVI24-RIPE",
+            "mnt-lower": "IPV",
+            "organisation": "ORG-IVI1-RIPE",
+            "org": "ORG-IVI1-RIPE",
+            "origin": "AS202425",
+            "descr": "IPV NETBLOCK",
+            "nic-hdl": "IVI24-RIPE",
+            "last-modified": [
+                "2019-02-01T18:29:11Z",
+                "2019-02-01T18:34:55Z",
+                "2023-09-08T14:13:20Z",
+                "2023-09-08T14:14:36Z"
+            ],
+            "netname": "NET-1-70",
+            "++registered": [
+                "2018-05-14 11:46:50",
+                "2018-05-16 13:28:41",
+                "2019-02-01 18:34:55"
+            ],
+            "++updated": [
+                "2023-09-08 14:13:20",
+                "2023-09-08 14:14:36",
+                "2019-02-01 18:34:55"
+            ]
+        },
+        "http": {
+            "content-type": "text\/plain",
+            "content-length": "19",
+            "++code": "403",
+            "++status": "Forbidden",
+            "server": "istio-envoy",
+            "++content-type": "text\/plain",
+            "++target": "http:\/\/80.82.70.133\/",
+            "date": "Sun, 15 Sep 2024 06:46:58 GMT"
+        },
+        "banners": {
+            "25": "220 ci-scan-03.gibdev.ru ESMTP Postfix (Ubuntu)"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        },
+        "dns": {
+            "ptr": "rnd.group-ib.com"
+        }
+    }
+}

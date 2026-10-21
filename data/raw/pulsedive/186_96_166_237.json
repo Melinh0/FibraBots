@@ -1,0 +1,189 @@
+{
+    "qid": null,
+    "iid": 59906335,
+    "indicator": "186.96.166.237",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-04 15:24:34",
+    "stamp_updated": "2024-12-10 02:24:15",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-28 22:50:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59907187,
+                "indicator": "http:\/\/186.96.166.237\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-04 15:24:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-12 01:08:29"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Debian"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "MX",
+            "abuse-c": "CIT12",
+            "created": [
+                "20150513",
+                "20101022",
+                "20210209"
+            ],
+            "nic-hdl": [
+                "CIT12",
+                "DSC34"
+            ],
+            "nserver": [
+                "NS4.TOTALPLAY.COM.MX",
+                "NS3.TOTALPLAY.COM.MX",
+                "NS5.TOTALPLAY.COM.MX"
+            ],
+            "owner": "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+            "ownerid": "MX-TPTE-LACNIC",
+            "person": [
+                "Christian Ivan Dominguez Trujillo",
+                "DSI CyAAL"
+            ],
+            "responsible": "Alejandro Enrique Rodriguez Sanchez",
+            "tech-c": "CIT12",
+            "address": [
+                "PERIFERICO SUR, 4119, FUENTES DEL PEDREGAL",
+                "14140 - TLALPAN - CX",
+                "Insurgentes Sur, 3579, La Joya",
+                "14000 - Tlalpan - CX",
+                "Av. San Jeronimo, 252, Col.La Otra Banda",
+                "04519 - Mexico - CX"
+            ],
+            "++abuse": "CIT12",
+            "++phone": [
+                "+52 5551094400 [5331]",
+                "+52 5585825000",
+                "+52 5517207000 [72779]"
+            ],
+            "++registrant": [
+                "Christian Ivan Dominguez Trujillo",
+                "DSI CyAAL"
+            ],
+            "phone": [
+                "+52 5551094400 [5331]",
+                "+52 5585825000",
+                "+52 5517207000 [72779]"
+            ],
+            "++email": [
+                "cdominguez@totalplay.com.mx",
+                "lacnic@gruposalinas.com.mx"
+            ],
+            "e-mail": [
+                "cdominguez@totalplay.com.mx",
+                "lacnic@gruposalinas.com.mx"
+            ],
+            "changed": [
+                "20200817",
+                "20210216",
+                "20210720"
+            ],
+            "inetnum": "186.96.128.0\/18",
+            "inetrev": "186.96.128.0\/18",
+            "++registered": "2021-02-09 00:00:00",
+            "owner-c": "DSC34",
+            "nsstat": "20240825 AA",
+            "nslastaa": "20240825"
+        },
+        "geo": {
+            "country": "Mexico",
+            "countrycode": "MX",
+            "org": "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+            "asn": "AS22884",
+            "lat": "25.6491",
+            "long": "-100.1726",
+            "region": "Nuevo Le\ufffdn",
+            "city": "Ciudad Benito Ju\ufffdrez"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "content-encoding": "gzip",
+            "server": "Apache\/2.4.25 (Debian)",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "628",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "++target": "http:\/\/186.96.166.237\/",
+            "date": "Mon, 07 Oct 2024 01:09:58 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u2\n"
+        },
+        "dns": {
+            "ptr": "fixed-186-96-166-237.totalplay.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8c50ec86e6036639fc6d5ec7f2795dca.jpeg"
+        }
+    }
+}

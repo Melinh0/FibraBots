@@ -1,0 +1,82 @@
+{
+    "qid": null,
+    "iid": 57430427,
+    "indicator": "51.159.102.237",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-03-21 07:37:44",
+    "stamp_updated": "2024-09-16 18:49:47",
+    "stamp_seen": "2024-06-14 14:19:46",
+    "stamp_probed": "2024-06-14 14:19:45",
+    "stamp_retired": "2024-09-16 18:49:47",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-21 07:37:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "asn": "AS12876",
+            "city": "Paris",
+            "zip": "75001",
+            "region": "Paris",
+            "lat": "48.8323",
+            "long": "2.4075",
+            "isp": "Scaleway S.a.s.",
+            "org": "Scaleway S.a.s."
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\n"
+        },
+        "dns": {
+            "ptr": "a9de05f1-7661-41a9-a9f4-20d503025abd.fr-par-2.baremetal.scw.cloud"
+        }
+    }
+}

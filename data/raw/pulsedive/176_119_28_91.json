@@ -1,0 +1,229 @@
+{
+    "qid": null,
+    "iid": 65056543,
+    "indicator": "176.119.28.91",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-17 09:19:26",
+    "stamp_updated": "2024-11-24 09:43:20",
+    "stamp_seen": "2024-11-17 09:28:40",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65057829,
+                "indicator": "https:\/\/176.119.28.91\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-17 09:19:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HTTP\/3",
+            "LiteSpeed"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PI",
+            "country": "UA",
+            "mnt-by": [
+                "YURTEH-MNT",
+                "RIPE-NCC-HM-MNT",
+                "VSYS-NET",
+                "RIPE-NCC-END-MNT",
+                "VSYS-MNT"
+            ],
+            "origin": "AS30860",
+            "address": [
+                "Ukraine, Kyiv",
+                "03150",
+                "Turgenevska, 59",
+                "Laboratorna str., building 33\/37",
+                "Kiyv",
+                "UKRAINE"
+            ],
+            "admin-c": [
+                "VSYS-RIPE",
+                "SV4439-RIPE",
+                "VS10657-RIPE"
+            ],
+            "phone": [
+                "+38 044 5915679",
+                "+380981968199",
+                "+380445915679"
+            ],
+            "last-modified": [
+                "2017-06-05T09:11:20Z",
+                "2019-01-25T14:10:20Z",
+                "2019-02-03T09:50:17Z",
+                "2020-12-16T12:21:44Z"
+            ],
+            "tech-c": [
+                "YY281-RIPE",
+                "VSYS-RIPE",
+                "VS10657-RIPE"
+            ],
+            "netname": "Vsys_VDC_176",
+            "route": "176.119.28.0\/24",
+            "descr": "DC2 Backup route",
+            "inetnum": "176.119.24.0 - 176.119.31.255",
+            "created": [
+                "2017-06-05T09:11:20Z",
+                "2012-06-13T10:10:31Z",
+                "2013-10-16T18:42:32Z",
+                "2019-01-23T14:51:44Z"
+            ],
+            "org-name": "Virtual Systems LLC",
+            "++phone": [
+                "+380445915679",
+                "+380981968199"
+            ],
+            "++registrant": [
+                "VSYS-RIPE",
+                "SV4439-RIPE",
+                "VS10657-RIPE"
+            ],
+            "role": "V-SYS Network Coordination Center",
+            "abuse-mailbox": "abuse@v-sys.org",
+            "++abuse": "abuse@v-sys.org",
+            "nic-hdl": "VSYS-RIPE",
+            "++email": "abuse@v-sys.org",
+            "fax-no": "+38 044 5915679",
+            "abuse-c": "AR50431-RIPE",
+            "mnt-ref": "VSYS-MNT",
+            "org": "ORG-VSL22-RIPE",
+            "organisation": "ORG-VSL22-RIPE",
+            "++registered": [
+                "2019-01-23 14:51:44",
+                "2013-10-16 18:42:32",
+                "2017-06-05 09:11:20"
+            ],
+            "++updated": [
+                "2020-12-16 12:21:44",
+                "2019-01-25 14:10:20",
+                "2017-06-05 09:11:20"
+            ]
+        },
+        "geo": {
+            "country": "Ukraine",
+            "countrycode": "UA",
+            "asn": "AS30860",
+            "city": "Kyiv",
+            "region": "Kyiv City",
+            "org": [
+                "Virtual Systems LLC",
+                "ORG-VSL22-RIPE"
+            ],
+            "lat": "50.458",
+            "address": [
+                "UKRAINE",
+                "Laboratorna str., building 33\/37",
+                "03150",
+                "Kiyv",
+                "Ukraine, Kyiv",
+                "Turgenevska, 59"
+            ],
+            "long": "30.5303"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "server": "LiteSpeed",
+            "content-encoding": "gzip",
+            "cache-control": "private, no-cache, max-age=0",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\"",
+            "++target": "http:\/\/176.119.28.91\/",
+            "date": "Sun, 17 Nov 2024 09:28:18 GMT",
+            "++redirect": "https:\/\/176.119.28.91\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "++title": "404 Not Found"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "XX",
+            "valid": "2024-09-21 18:42:26",
+            "expires": "2034-09-19 18:42:26",
+            "issuer": "\/C=XX\/ST=XX\/L=XX\/O=XX\/OU=XX\/CN=isdomains\/E=root@isdomains",
+            "fingerprint": "5a30d70e16aef941340b38301e53d0ef8bde7e3cc2e0c573ec69895ba05e8458",
+            "org": "isdomains",
+            "subject": "\/C=XX\/ST=XX\/L=XX\/O=XX\/OU=XX\/CN=isdomains\/E=root@isdomains"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=CRAM-MD5] Dovecot (Ubuntu) ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 prowebcreation.fr ESMTP Exim 4.95 Ubuntu Sun, 17 Nov 2024 10:28:16 +0100\n",
+            "21": "220 ProFTPD Server (Debian) [::ffff:176.119.28.91]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4a3c1feb44514cd7db3f8a922f9c08a4.jpeg"
+        }
+    }
+}

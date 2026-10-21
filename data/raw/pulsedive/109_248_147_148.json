@@ -1,0 +1,83 @@
+{
+    "qid": null,
+    "iid": 52884901,
+    "indicator": "109.248.147.148",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-11-09 19:11:06",
+    "stamp_updated": "2024-06-20 13:13:26",
+    "stamp_seen": "2024-03-19 20:28:17",
+    "stamp_probed": "2024-03-19 20:28:16",
+    "stamp_retired": "2024-06-20 13:13:26",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2023-11-09 19:11:06"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2023-11-09 19:11:06"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Riga",
+            "country": "Latvia",
+            "countrycode": "LV",
+            "region": "Riga",
+            "isp": "DataClub S.A.",
+            "org": "DataClub S.A.",
+            "asn": "AS52048",
+            "lat": "56.9496",
+            "long": "24.0978",
+            "zip": "LV-1063"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.9\n"
+        },
+        "dns": {
+            "ptr": "ip-147-148.dataclub.info"
+        }
+    }
+}

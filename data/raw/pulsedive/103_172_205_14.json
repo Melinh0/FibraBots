@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 65575326,
+    "indicator": "103.172.205.14",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-04 10:10:53",
+    "stamp_updated": "2024-12-11 10:37:11",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65575502,
+                "indicator": "https:\/\/103.172.205.14\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-04 10:10:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-06 22:00:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-IDCLOUDHOST"
+            ],
+            "++phone": "+62-266-620073",
+            "abuse-mailbox": "admin@idcloudhost.com",
+            "address": [
+                "Sukabumi, Jawa Barat",
+                "Jl. Bojonggenteng No. 2",
+                "PT Cloud Hosting Indonesia",
+                "Jl. Bojonggenteng No.2"
+            ],
+            "admin-c": "APS20-AP",
+            "descr": [
+                "Tangerang Selatan, Banten",
+                "Corporate \/ Direct Member IDNIC",
+                "PT Cloud Hosting Indonesia",
+                "Pinus Raya Reni Jaya AG-1 No.01",
+                "Pamulang Barat, Pamulang"
+            ],
+            "e-mail": "admin@idcloudhost.com",
+            "irt": "IRT-IDCLOUDHOST-ID",
+            "mnt-irt": "IRT-IDCLOUDHOST-ID",
+            "mnt-routes": "MAINT-ID-IDCLOUDHOST",
+            "netname": "IDNIC-IDCLOUDHOST-ID",
+            "nic-hdl": "APS20-AP",
+            "person": "Alfian Pamungkas Sakawiguna",
+            "phone": "+62-266-620073",
+            "tech-c": "APS20-AP",
+            "last-modified": [
+                "2017-01-23T07:34:14Z",
+                "2018-05-31T22:30:59Z",
+                "2021-09-03T09:35:52Z"
+            ],
+            "++registrant": [
+                "Alfian Pamungkas Sakawiguna",
+                "APS20-AP"
+            ],
+            "++abuse": "admin@idcloudhost.com",
+            "++email": "admin@idcloudhost.com",
+            "inetnum": "103.172.205.0 - 103.172.205.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2018-05-31 22:30:59",
+                "2017-01-23 07:34:14",
+                "2021-09-03 09:35:52"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS136052",
+            "org": "PT Cloud Hosting Indonesia",
+            "address": [
+                "PT Cloud Hosting Indonesia",
+                "Jl. Bojonggenteng No. 2",
+                "Sukabumi, Jawa Barat",
+                "Jl. Bojonggenteng No.2"
+            ],
+            "lat": "-6.1728",
+            "long": "106.8272"
+        },
+        "http": {
+            "cache-control": "no-cache",
+            "access-control-allow-origin": "*",
+            "access-control-allow-credentials": "true",
+            "access-control-expose-headers": "Content-Length",
+            "content-length": "42",
+            "access-control-max-age": "86400",
+            "++code": "404",
+            "++status": "Not Found",
+            "connection": "keep-alive",
+            "content-type": "application\/json; charset=utf-8",
+            "++content-type": "application\/json",
+            "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE, UPDATE",
+            "server": "nginx\/1.24.0 (Ubuntu)",
+            "access-control-allow-headers": "Origin, Content-Type, api_key, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+            "date": "Wed, 04 Dec 2024 10:11:02 GMT",
+            "++redirect": "https:\/\/103.172.205.14\/",
+            "++target": "http:\/\/103.172.205.14\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "expires": "2025-03-02 13:10:04",
+            "fingerprint": "d12e55b48808c66fb890591d4e376451f55183eb4c0ee7022ee847d4a28b1820",
+            "valid": "2024-12-02 13:10:05",
+            "domain": "api.tedxits.org",
+            "subject": "\/CN=api.tedxits.org"
+        },
+        "meta": {
+            "charset": "utf-8",
+            "color-scheme": "light dark"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

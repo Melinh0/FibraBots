@@ -1,0 +1,186 @@
+{
+    "qid": null,
+    "iid": 43666356,
+    "indicator": "110.164.213.177",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-01-14 07:04:52",
+    "stamp_updated": "2024-12-14 11:23:52",
+    "stamp_seen": "2024-12-14 09:17:14",
+    "stamp_probed": "2024-09-29 23:05:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-01-14 07:04:52"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-25 06:05:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "3306",
+            "53",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "PPTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "TH",
+                "ZZ"
+            ],
+            "address": [
+                "Pakkret Nonthaburi 11120",
+                "200 Jasmine tower 29th floor",
+                "Chaengwattana road",
+                "Jasmine International Public Company Limited,Pakkret Nonthaburi 11120"
+            ],
+            "admin-c": [
+                "CW1178-AP",
+                "TTBP1-AP"
+            ],
+            "e-mail": "ipadmin@3bbmail.com",
+            "netname": "TRIPLETNET-TH",
+            "nic-hdl": [
+                "CW1178-AP",
+                "AT1597-AP"
+            ],
+            "tech-c": [
+                "CW1178-AP",
+                "TTBP1-AP"
+            ],
+            "descr": [
+                "3BB Broadband Internet service provider in Thailand",
+                "Triple T Broadband Public Company Limited"
+            ],
+            "abuse-mailbox": "ipadmin@3bbmail.com",
+            "++phone": [
+                "+66-2-1008552",
+                "+000000000"
+            ],
+            "mnt-by": [
+                "MAINT-TH-3BB",
+                "APNIC-ABUSE",
+                "MAINT-TTBP-TH"
+            ],
+            "origin": [
+                "AS45629",
+                "AS45758"
+            ],
+            "phone": [
+                "+66-2-1008552",
+                "+000000000"
+            ],
+            "++registrant": [
+                "Ip admin",
+                "CW1178-AP",
+                "TTBP1-AP"
+            ],
+            "++email": "ipadmin@3bbmail.com",
+            "++abuse": "ipadmin@3bbmail.com",
+            "route": "110.164.128.0\/17",
+            "person": "Ip admin",
+            "last-modified": [
+                "2020-06-17T00:44:10Z",
+                "2022-04-22T04:51:08Z",
+                "2022-04-22T11:17:11Z",
+                "2022-04-22T11:17:58Z",
+                "2022-09-02T09:36:30Z",
+                "2022-09-02T15:51:24Z"
+            ],
+            "irt": "IRT-TTBP-TH",
+            "role": "ABUSE TTBPTH",
+            "abuse-c": "AT1597-AP",
+            "mnt-irt": "IRT-TTBP-TH",
+            "inetnum": "110.164.192.0 - 110.164.255.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-09-02 09:36:30",
+                "2022-09-02 15:51:24",
+                "2020-06-17 00:44:10",
+                "2022-04-22 11:17:11",
+                "2022-04-22 11:17:58"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Thailand",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "TH",
+                "ZZ"
+            ],
+            "asn": "AS45758",
+            "city": "Chiang Mai",
+            "region": "Chiang Mai",
+            "address": [
+                "200 Jasmine tower 29th floor",
+                "Chaengwattana road",
+                "Pakkret Nonthaburi 11120",
+                "Jasmine International Public Company Limited,Pakkret Nonthaburi 11120"
+            ],
+            "long": "99.1393",
+            "lat": "18.8733",
+            "org": "Triple T Broadband Public Company Limited"
+        },
+        "dns": {
+            "ptr": "mx-ll-110-164-213-177.static.3bb.co.th"
+        },
+        "banners": {
+            "3306": "k\u0000\u0000\u0000\ufffdi\u0004Host '192.168.199.1' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'"
+        }
+    }
+}

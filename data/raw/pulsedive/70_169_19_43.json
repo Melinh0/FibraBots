@@ -1,0 +1,70 @@
+{
+    "qid": null,
+    "iid": 65449173,
+    "indicator": "70.169.19.43",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 10:06:20",
+    "stamp_updated": "2024-12-15 11:36:55",
+    "stamp_seen": "2024-11-29 10:06:57",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 10:06:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Virginia",
+            "city": "Hampton",
+            "asn": "AS22773",
+            "lat": "37.045",
+            "long": "-76.4067",
+            "org": "ASN-CXA-ALL-CCI-22773-RDC"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001t\n\u0014\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd3(\/\ufffd\ufffd\u0017N\ufffd]\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,kexguess2@matt.ucc.asn.au,kex-strict-s-v00@openssh.com\u0000\u0000\u0000 ssh-ed25519,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000D\u001e\ufffdi\ufffd\ufffd\u0002q\ufffd\u0016"
+        }
+    }
+}

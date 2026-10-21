@@ -1,0 +1,163 @@
+{
+    "qid": null,
+    "iid": 65446615,
+    "indicator": "109.106.136.152",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 09:55:12",
+    "stamp_updated": "2024-12-16 11:28:02",
+    "stamp_seen": "2024-11-29 09:55:29",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65446652,
+                "indicator": "http:\/\/109.106.136.152\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 09:55:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Voronezh, Russia",
+                "22 Eremeeva str.,",
+                "Nikitinskaya str.,"
+            ],
+            "admin-c": "SUB8-RIPE",
+            "mnt-by": [
+                "K-T-MNT",
+                "ARTN-MNT"
+            ],
+            "nic-hdl": [
+                "SUB8-RIPE",
+                "OYG1-RIPE"
+            ],
+            "origin": "AS43727",
+            "tech-c": "OYG1-RIPE",
+            "netname": "SVYAZ-TELECOM-RU",
+            "mnt-routes": "MNT-SVYAZ-TELECOM",
+            "mnt-lower": "MNT-SVYAZ-TELECOM",
+            "inetnum": "109.106.136.0 - 109.106.159.255",
+            "++phone": "+74732330330",
+            "person": [
+                "S U B",
+                "Oleg Yuryevich Gnedyh"
+            ],
+            "phone": [
+                "+7 4732 531133",
+                "+74732330330"
+            ],
+            "last-modified": [
+                "2018-05-30T07:31:16Z",
+                "2018-03-28T11:49:27Z",
+                "2011-04-26T06:05:54Z",
+                "2020-10-29T13:43:13Z"
+            ],
+            "created": [
+                "2007-09-16T14:36:00Z",
+                "2009-04-05T11:11:28Z",
+                "2010-03-29T15:57:23Z",
+                "2020-10-29T13:43:13Z"
+            ],
+            "descr": [
+                "Svyaz-Telecom",
+                "Voronezh multiservice network access",
+                "pppoe dynamic ip pool"
+            ],
+            "++registrant": [
+                "SUB8-RIPE",
+                "Oleg Yuryevich Gnedyh",
+                "S U B"
+            ],
+            "route": "109.106.136.0\/22",
+            "++registered": [
+                "2009-04-05 11:11:28",
+                "2007-09-16 14:36:00",
+                "2010-03-29 15:57:23",
+                "2020-10-29 13:43:13"
+            ],
+            "++updated": [
+                "2018-05-30 07:31:16",
+                "2018-03-28 11:49:27",
+                "2020-10-29 13:43:13"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS43727",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "address": [
+                "22 Eremeeva str.,",
+                "Voronezh, Russia",
+                "Nikitinskaya str.,"
+            ],
+            "org": "Jsc Kvant-telekom",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "server": "Web server",
+            "++content-type": "text\/html",
+            "content-length": "553",
+            "x-detail": "0x1210, insufficient security level",
+            "++target": "http:\/\/109.106.136.152\/",
+            "date": "Fri, 29 Nov 2024 09:55:17 GMT"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/19ca5422392318d1b06e6f9aaacee640.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-server\n\u0000\u0000\u00024\u0005\u0014<\u001a\ufffd\ufffd\ufffd\u0003i\ufffd\ufffd\u0094\u0001\ufffd4\u001e\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au,kex-strict-s-v00@openssh.com\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp521,rsa-sha2-256,ssh-rsa\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000%Xd\ufffd\ufffd"
+        }
+    }
+}

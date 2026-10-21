@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 47705346,
+    "indicator": "5.101.156.211",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-02 13:53:02",
+    "stamp_updated": "2024-12-09 10:37:57",
+    "stamp_seen": "2024-11-18 16:06:54",
+    "stamp_probed": "2024-08-10 21:06:57",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64128076,
+                "indicator": "https:\/\/5.101.156.211\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-02 13:53:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "cdnjs",
+            "FancyBox",
+            "Google Font API",
+            "jQuery",
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russian Federation",
+                "Karla Faberzhe st., n. 8B",
+                "Beget LLC",
+                "195112 Saint-Petersburg"
+            ],
+            "++phone": "+78123854136",
+            "abuse-mailbox": "abuse@beget.ru",
+            "admin-c": [
+                "ALEX22-RIPE",
+                "BGT2012-RIPE"
+            ],
+            "mnt-by": "BEGET-MNT",
+            "nic-hdl": "BGT2012-RIPE",
+            "org": "ORG-BL131-RIPE",
+            "origin": "AS198610",
+            "phone": "+78123854136",
+            "role": "BEGET contacts",
+            "mnt-lower": "BEGET-MNT",
+            "mnt-routes": "BEGET-MNT",
+            "last-modified": [
+                "2014-04-07T11:55:22Z",
+                "2014-03-11T13:09:19Z",
+                "2023-05-18T16:38:50Z"
+            ],
+            "route": "5.101.156.0\/24",
+            "inetnum": "5.101.156.0 - 5.101.156.255",
+            "netname": "BEGET-NET12",
+            "descr": [
+                "System server virtual hosting BEGET.RU",
+                "Hosting servers"
+            ],
+            "created": [
+                "2014-03-06T13:31:11Z",
+                "2012-08-10T07:51:28Z",
+                "2014-03-11T13:09:19Z"
+            ],
+            "tech-c": [
+                "BGT2012-RIPE",
+                "BGT198610-RIPE"
+            ],
+            "++registrant": [
+                "ALEX22-RIPE",
+                "BGT2012-RIPE"
+            ],
+            "++abuse": "abuse@beget.ru",
+            "++email": "abuse@beget.ru",
+            "++updated": [
+                "2023-05-18 16:38:50",
+                "2014-04-07 11:55:22"
+            ],
+            "++registered": [
+                "2012-08-10 07:51:28",
+                "2014-03-11 13:09:19",
+                "2014-03-06 13:31:11"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS198610",
+            "region": "St.-Petersburg",
+            "city": "St Petersburg",
+            "address": [
+                "Russian Federation",
+                "Karla Faberzhe st., n. 8B",
+                "Beget LLC",
+                "195112 Saint-Petersburg"
+            ],
+            "org": "Beget LLC",
+            "lat": "59.9417",
+            "long": "30.3096",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "x-robots-tag": "noindex",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "server": "nginx-reuseport\/1.21.1",
+            "last-modified": "Mon, 15 Jul 2024 13:20:26 GMT",
+            "date": "Sun, 15 Sep 2024 06:34:32 GMT",
+            "++target": "http:\/\/5.101.156.211\/",
+            "++redirect": "https:\/\/5.101.156.211\/",
+            "etag": "W\/\"6695221a-900c\""
+        },
+        "ssl": {
+            "domain": [
+                "beget.com",
+                "*.beget.com"
+            ],
+            "version": "v3",
+            "subject": "\/CN=beget.com",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "valid": "2024-08-19 23:16:33",
+            "expires": "2024-11-17 23:16:32",
+            "fingerprint": "755506662e34bc1b3f6a947205c0824ddd20f1b18cf92fc642da8cd7b01b9733"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "robots": "noindex",
+            "charset": "UTF-8",
+            "++title": "This domain is not linked to any directory on the server!"
+        },
+        "dns": {
+            "ptr": "m1.dirac4.beget.com"
+        },
+        "banners": {
+            "21": "220 Welcome to LTD BeGet FTP Server 'dirac4'\n",
+            "22": "SSH-2.0-OpenSSH_9.8\n",
+            "3306": "_\u0000\u0000\u0000\ufffdj\u0004Host '172-234-96-51.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/44a46890039f6c10b48cc3175db64c7d.jpeg"
+        }
+    }
+}

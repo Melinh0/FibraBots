@@ -1,0 +1,157 @@
+{
+    "qid": null,
+    "iid": 49339238,
+    "indicator": "77.91.78.115",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-07-20 01:03:19",
+    "stamp_updated": "2024-12-16 17:55:17",
+    "stamp_seen": "2024-12-16 17:55:17",
+    "stamp_probed": "2024-09-30 19:25:50",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-26 14:13:03"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-20 01:03:19"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-26 14:13:03"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-21 01:13:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": "FI",
+            "mnt-ref": [
+                "DN-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt"
+            ],
+            "admin-c": "AN32749-RIPE",
+            "mnt-by": [
+                "aeza-mnt",
+                "aeza-group-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "tech-c": "AN32749-RIPE",
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-11-24T09:55:02Z",
+                "2023-01-06T16:45:22Z",
+                "2023-01-06T19:52:50Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "++registrant": "AN32749-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "nic-hdl": "AN32749-RIPE",
+            "last-modified": [
+                "2023-02-19T01:03:34Z",
+                "2023-01-06T19:57:45Z",
+                "2023-10-31T07:53:49Z",
+                "2024-08-23T16:18:21Z"
+            ],
+            "geoloc": "60.3434548 25.0298069",
+            "netname": "Aeza-Network",
+            "inetnum": "77.91.78.0 - 77.91.78.255",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "route": "77.91.78.0\/24",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "++updated": [
+                "2024-08-23 16:18:21",
+                "2023-10-31 07:53:49",
+                "2023-01-06 19:57:45"
+            ],
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2021-11-24 09:55:02",
+                "2023-01-06 16:45:22",
+                "2023-01-06 19:52:50"
+            ]
+        },
+        "geo": {
+            "city": "Helsinki",
+            "country": "Finland",
+            "countrycode": "FI",
+            "region": "Uusimaa",
+            "long": "24.9344",
+            "asn": "AS210644",
+            "lat": "60.1797",
+            "org": "Aeza International Ltd"
+        },
+        "dns": {
+            "ptr": "test.aeza.network"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1\n"
+        }
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 40963552,
+    "indicator": "190.107.22.89",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-06 08:36:59",
+    "stamp_updated": "2024-10-07 18:09:28",
+    "stamp_seen": "2024-10-07 18:09:28",
+    "stamp_probed": "2024-06-30 23:40:35",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64183927,
+                "indicator": "https:\/\/190.107.22.89\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-07 01:48:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-06 08:36:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "25",
+            "3389",
+            "443",
+            "5060",
+            "80",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SIP",
+            "SMTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "CO",
+            "created": [
+                "20110714",
+                "20120321"
+            ],
+            "abuse-c": "SFB",
+            "address": [
+                "6601 - Pereira - Ri",
+                "AV 30 DE AGOSTO N 87-787, 1, 54",
+                "Calle 94, 14-73, Bodega 19A Multicentro Empresarial La Villa \/, CP",
+                "660001 - Pereira - RI"
+            ],
+            "nic-hdl": "SFB",
+            "owner-c": "SFB",
+            "tech-c": "SFB",
+            "nserver": [
+                "NAME2.MEDIACOMMERCE.COM.CO",
+                "NAME1.MEDIACOMMERCE.COM.CO"
+            ],
+            "owner": "Media Commerce Partners S.A",
+            "ownerid": "CO-CUOC1-LACNIC",
+            "changed": [
+                "20120321",
+                "20240401"
+            ],
+            "responsible": "V\ufffdctor Fabi\ufffdn Serna Villa",
+            "inetnum": "190.107.16.0\/20",
+            "inetrev": [
+                "190.107.17.0\/24",
+                "190.107.16.0\/24",
+                "190.107.20.0\/23",
+                "190.107.22.0\/23",
+                "190.107.31.0\/24",
+                "190.107.26.0\/24",
+                "190.107.19.0\/24",
+                "190.107.28.0\/24",
+                "190.107.25.0\/24",
+                "190.107.27.0\/24",
+                "190.107.24.0\/24",
+                "190.107.30.0\/24"
+            ],
+            "++email": "interconexion@mc.net.co",
+            "e-mail": "interconexion@mc.net.co",
+            "++registrant": "Pedro Eduardo Vera Garcia",
+            "person": "Pedro Eduardo Vera Garcia",
+            "phone": "+57  63112700 [11661]",
+            "nslastaa": [
+                "20240916",
+                "20240917",
+                "20240918",
+                "20240919"
+            ],
+            "nsstat": [
+                "20240916 AA",
+                "20240917 AA",
+                "20240918 AA",
+                "20240919 AA"
+            ]
+        },
+        "geo": {
+            "country": "Colombia",
+            "countrycode": "CO",
+            "asn": "AS27951",
+            "org": "Media Commerce Partners S.A",
+            "city": "Pamplona",
+            "address": [
+                "AV 30 DE AGOSTO N 87-787, 1, 54",
+                "6601 - Pereira - Ri",
+                "Calle 94, 14-73, Bodega 19A Multicentro Empresarial La Villa \/, CP",
+                "660001 - Pereira - RI"
+            ],
+            "lat": "7.3728",
+            "long": "-72.6538",
+            "region": "Norte de Santander Department"
+        },
+        "meta": {
+            "charset": "utf-8",
+            "x-ua-compatible": "ie=edge",
+            "description": "3CX",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1.6, minimum-scale=1.0",
+            "theme-color": "#363535",
+            "++title": "3CX"
+        },
+        "banners": {
+            "25": "220 Sophos ESMTP ready\n",
+            "5060": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "1901072289.ip63.static.mediacommerce.com.co"
+        },
+        "http": {
+            "++target": "http:\/\/190.107.22.89\/",
+            "++redirect": "https:\/\/190.107.22.89\/#\/login"
+        }
+    }
+}

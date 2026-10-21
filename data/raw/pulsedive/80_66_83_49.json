@@ -1,0 +1,90 @@
+{
+    "qid": null,
+    "iid": 60501994,
+    "indicator": "80.66.83.49",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-22 16:27:11",
+    "stamp_updated": "2024-12-11 11:54:18",
+    "stamp_seen": "2024-12-11 11:54:18",
+    "stamp_probed": "2024-07-19 19:41:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60502023,
+                "indicator": "http:\/\/80.66.83.49\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-22 16:27:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "city": "New Delhi",
+            "region": "National Capital Territory of Delhi",
+            "lat": "28.652",
+            "org": "Xhost Internet Solutions Lp",
+            "asn": "AS209559",
+            "long": "77.1663"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "4833",
+            "++code": "200",
+            "++status": "OK",
+            "last-modified": "Fri, 16 May 2014 15:12:48 GMT",
+            "etag": "\"53762af0-12e1\"",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.20.1",
+            "date": "Fri, 18 Oct 2024 02:50:44 GMT",
+            "++target": "http:\/\/80.66.83.49\/"
+        },
+        "meta": {
+            "++title": "Welcome to CentOS"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3b8e1bd563248baa83a338a4829d692d.jpeg"
+        }
+    }
+}

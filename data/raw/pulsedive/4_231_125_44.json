@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 65579183,
+    "indicator": "4.231.125.44",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-04 10:18:12",
+    "stamp_updated": "2024-12-15 00:53:15",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-04 10:18:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-09 22:46:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "NL",
+                "US"
+            ],
+            "country": [
+                "United States",
+                "The Netherlands"
+            ],
+            "region": [
+                "WA",
+                "North Holland"
+            ],
+            "asn": "AS8075",
+            "city": [
+                "Amsterdam",
+                "Redmond"
+            ],
+            "zip": "98052",
+            "address": "One Microsoft Way",
+            "org": [
+                "Microsoft Corporation (MSFT)",
+                "MICROSOFT-CORP-MSN-AS-BLOCK"
+            ],
+            "long": "4.8975",
+            "lat": "52.3759"
+        },
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++abuse": "abuse@microsoft.com",
+            "++phone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "++registrant": "Microsoft Corporation",
+            "address": "One Microsoft Way",
+            "city": "Redmond",
+            "netname": "MSFT",
+            "orgabuseemail": "abuse@microsoft.com",
+            "orgabusehandle": "MAC74-ARIN",
+            "orgabusename": "Microsoft Abuse Contact",
+            "orgabusephone": "+1-425-882-8080",
+            "organization": "Microsoft Corporation (MSFT)",
+            "orgid": "MSFT",
+            "orgname": "Microsoft Corporation",
+            "orgtechemail": [
+                "IOC@microsoft.com",
+                "dabedard@microsoft.com",
+                "iphostmaster@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com"
+            ],
+            "orgtechhandle": [
+                "MRPD-ARIN",
+                "BEDAR6-ARIN",
+                "IPHOS5-ARIN",
+                "SINGH683-ARIN",
+                "KIMAV-ARIN"
+            ],
+            "orgtechname": [
+                "Microsoft Routing, Peering, and DNS",
+                "Bedard, Dawn",
+                "IPHostmaster, IPHostmaster",
+                "Singh, Prachi",
+                "Kim, Avery"
+            ],
+            "orgtechphone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "postalcode": "98052",
+            "stateprov": "WA",
+            "++registered": [
+                "1998-07-10 00:00:00",
+                "2021-01-06 00:00:00"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MRPD-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BEDAR6-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPHOS5-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SINGH683-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/KIMAV-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MSFT",
+                "https:\/\/rdap.arin.net\/registry\/ip\/4.224.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MAC74-ARIN",
+            "++email": [
+                "iphostmaster@microsoft.com",
+                "dabedard@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com",
+                "ioc@microsoft.com"
+            ],
+            "parent": "NET4 (NET-4-0-0-0-0)",
+            "regdate": [
+                "1998-07-10",
+                "2021-01-06"
+            ],
+            "nethandle": "NET-4-224-0-0-2",
+            "cidr": "4.224.0.0\/12",
+            "netrange": "4.224.0.0 - 4.239.255.255",
+            "updated": [
+                "2021-01-06",
+                "2024-03-18"
+            ],
+            "orgroutingname": "Chaturmohta, Somesh",
+            "orgroutinghandle": "CHATU3-ARIN",
+            "orgroutingemail": "someshch@microsoft.com",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/CHATU3-ARIN",
+            "orgroutingphone": "+1-425-882-8080",
+            "++updated": "2024-03-18 00:00:00"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

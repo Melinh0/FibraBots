@@ -1,0 +1,212 @@
+{
+    "qid": null,
+    "iid": 64717524,
+    "indicator": "52.140.102.13",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-04 08:52:52",
+    "stamp_updated": "2024-12-15 11:36:13",
+    "stamp_seen": "2024-11-04 08:53:40",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64717786,
+                "indicator": "http:\/\/52.140.102.13\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-04 08:52:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++registered": [
+                "2015-11-24 00:00:00",
+                "1998-07-10 00:00:00"
+            ],
+            "++abuse": "abuse@microsoft.com",
+            "++phone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "++registrant": "Microsoft Corporation",
+            "address": "One Microsoft Way",
+            "city": "Redmond",
+            "netname": "MSFT",
+            "orgabuseemail": "abuse@microsoft.com",
+            "orgabusehandle": "MAC74-ARIN",
+            "orgabusename": "Microsoft Abuse Contact",
+            "orgabusephone": "+1-425-882-8080",
+            "organization": "Microsoft Corporation (MSFT)",
+            "orgid": "MSFT",
+            "orgname": "Microsoft Corporation",
+            "orgtechemail": [
+                "IOC@microsoft.com",
+                "dabedard@microsoft.com",
+                "iphostmaster@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com"
+            ],
+            "orgtechhandle": [
+                "MRPD-ARIN",
+                "BEDAR6-ARIN",
+                "IPHOS5-ARIN",
+                "SINGH683-ARIN",
+                "KIMAV-ARIN"
+            ],
+            "orgtechname": [
+                "Microsoft Routing, Peering, and DNS",
+                "Bedard, Dawn",
+                "IPHostmaster, IPHostmaster",
+                "Singh, Prachi",
+                "Kim, Avery"
+            ],
+            "orgtechphone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "parent": "NET52 (NET-52-0-0-0-0)",
+            "postalcode": "98052",
+            "stateprov": "WA",
+            "cidr": "52.132.0.0\/14, 52.136.0.0\/13",
+            "nethandle": "NET-52-132-0-0-1",
+            "netrange": "52.132.0.0 - 52.143.255.255",
+            "regdate": [
+                "2015-11-24",
+                "1998-07-10"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MRPD-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BEDAR6-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPHOS5-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SINGH683-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/KIMAV-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MSFT",
+                "https:\/\/rdap.arin.net\/registry\/ip\/52.132.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MAC74-ARIN",
+            "++email": [
+                "iphostmaster@microsoft.com",
+                "dabedard@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com",
+                "ioc@microsoft.com"
+            ],
+            "updated": [
+                "2021-12-14",
+                "2024-03-18"
+            ],
+            "orgroutingname": "Chaturmohta, Somesh",
+            "orgroutinghandle": "CHATU3-ARIN",
+            "orgroutingemail": "someshch@microsoft.com",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/CHATU3-ARIN",
+            "orgroutingphone": "+1-425-882-8080",
+            "++updated": "2024-03-18 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "India"
+            ],
+            "countrycode": [
+                "US",
+                "IN"
+            ],
+            "region": [
+                "WA",
+                "Maharashtra"
+            ],
+            "asn": "AS8075",
+            "city": [
+                "Pune",
+                "Redmond"
+            ],
+            "zip": "98052",
+            "address": "One Microsoft Way",
+            "org": [
+                "Microsoft Corporation (MSFT)",
+                "MICROSOFT-CORP-MSN-AS-BLOCK"
+            ],
+            "lat": "18.6161",
+            "long": "73.7286"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3145",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "date": "Mon, 04 Nov 2024 08:53:24 GMT",
+            "last-modified": "Wed, 23 Oct 2024 00:00:43 GMT",
+            "etag": "\"2aac-6251993c11761-gzip\"",
+            "++target": "http:\/\/52.140.102.13\/"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9f930936c86c0b83b28ede66b5b3cce3.jpeg"
+        }
+    }
+}

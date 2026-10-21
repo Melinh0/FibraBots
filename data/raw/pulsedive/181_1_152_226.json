@@ -1,0 +1,125 @@
+{
+    "qid": null,
+    "iid": 59954192,
+    "indicator": "181.1.152.226",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-05 15:30:00",
+    "stamp_updated": "2024-12-11 10:41:29",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-08-29 22:40:41",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-05 15:30:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-18 04:41:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306"
+        ],
+        "protocol": [
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "allocated",
+            "country": "PY",
+            "address": [
+                "0000 - Asuncion - Ce",
+                "Maximo Lira, 522,",
+                "8605 - Asuncion - CE"
+            ],
+            "created": [
+                "20140805",
+                "20101203"
+            ],
+            "nic-hdl": "SES52",
+            "ownerid": "PY-NUSA-LACNIC",
+            "person": "Sergio Da Silva",
+            "responsible": "Omar Monges",
+            "tech-c": "SES52",
+            "nserver": [
+                "NS3.PERSONAL.NET.PY",
+                "NS4.PERSONAL.NET.PY",
+                "NS2.PERSONAL.NET.PY",
+                "NS1.PERSONAL.NET.PY"
+            ],
+            "++registrant": "Sergio Da Silva",
+            "owner-c": "SES52",
+            "owner": "N\ufffdcleo S.A.",
+            "abuse-c": "SES52",
+            "aut-num": "AS27895",
+            "++email": "sergio.dasilva@personal.com.py",
+            "phone": [
+                "+595 21 2199000",
+                "+595 21 2199225"
+            ],
+            "e-mail": "sergio.dasilva@personal.com.py",
+            "changed": [
+                "20211228",
+                "20231207"
+            ],
+            "inetrev": "181.1.152.0\/22",
+            "inetnum": "181.1.152.0\/22",
+            "nsstat": "20241023 AA",
+            "nslastaa": "20241023"
+        },
+        "geo": {
+            "country": "Paraguay",
+            "countrycode": "PY",
+            "asn": "AS27895",
+            "lat": "-23.3333",
+            "long": "-58",
+            "org": "Nucleo S.A."
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "3306": "[\u0000\u0000\u0000\n8.0.22-0ubuntu0.20.04.2\u0000\ufffd\ufffd\u0000\u0000+L.sb\u0001n\u001d\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000]H\u0011*XF''j&<\u0000caching_sha2_password\u0000"
+        },
+        "dns": {
+            "ptr": "181.1.152.226.ptr.personal.net.py"
+        }
+    }
+}

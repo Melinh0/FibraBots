@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 40496875,
+    "indicator": "173.255.112.6",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-26 11:14:28",
+    "stamp_updated": "2024-12-15 07:32:51",
+    "stamp_seen": "2024-12-15 07:32:51",
+    "stamp_probed": "2024-08-28 22:49:27",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-12 14:31:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-10-26 11:14:28"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-12 14:31:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-11 01:30:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Basic",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++registered": [
+                "2010-07-15 00:00:00",
+                "2006-09-29 00:00:00"
+            ],
+            "parent": "NET173 (NET-173-0-0-0-0)",
+            "stateprov": "CA",
+            "++email": "arin-contact@google.com",
+            "++phone": "+1-650-253-0000",
+            "address": "1600 Amphitheatre Parkway",
+            "city": "Mountain View",
+            "orgabusephone": "+1-650-253-0000",
+            "orgtechemail": "arin-contact@google.com",
+            "orgtechhandle": "ZG39-ARIN",
+            "orgtechphone": "+1-650-253-0000",
+            "originas": "AS15169",
+            "postalcode": "94043",
+            "++abuse": "google-cloud-compliance@google.com",
+            "netname": "GOOGLE-CLOUD",
+            "orgabuseemail": "google-cloud-compliance@google.com",
+            "orgabusehandle": "GCABU-ARIN",
+            "orgabusename": "GC Abuse",
+            "orgid": "GOOGL-2",
+            "orgnocemail": "google-cloud-compliance@google.com",
+            "orgnochandle": "GCABU-ARIN",
+            "orgnocname": "GC Abuse",
+            "orgnocphone": "+1-650-253-0000",
+            "regdate": [
+                "2006-09-29",
+                "2010-07-15"
+            ],
+            "++registrant": "Google LLC",
+            "orgname": "Google LLC",
+            "organization": "Google LLC (GOOGL-2)",
+            "orgtechname": "Google LLC",
+            "cidr": "173.255.112.0\/20",
+            "nethandle": "NET-173-255-112-0-1",
+            "netrange": "173.255.112.0 - 173.255.127.255",
+            "updated": [
+                "2015-09-21",
+                "2019-11-01"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZG39-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOOGL-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/173.255.112.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "++updated": "2019-11-01 00:00:00"
+        },
+        "geo": {
+            "city": [
+                "Mountain View",
+                "Council Bluffs"
+            ],
+            "country": "United States",
+            "countrycode": "US",
+            "zip": "94043",
+            "region": [
+                "CA",
+                "Iowa"
+            ],
+            "address": "1600 Amphitheatre Parkway",
+            "lat": "41.2591",
+            "org": [
+                "Google LLC (GOOGL-2)",
+                "GOOGLE-CLOUD-PLATFORM"
+            ],
+            "asn": "AS396982",
+            "long": "-95.8517"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "590",
+            "www-authenticate": "Basic realm=\"Private Website\"",
+            "++code": "401",
+            "++status": "Unauthorized",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "date": "Fri, 02 Aug 2024 20:30:53 GMT"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b76f7ce915c59a5301c3b1b5c9e6257d.jpeg"
+        },
+        "dns": {
+            "ptr": "6.112.255.173.bc.googleusercontent.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "25": "220 demos-6.us-central1-a.c.devops-implementation.internal ESMTP Postfix (Ubuntu)\n"
+        }
+    }
+}

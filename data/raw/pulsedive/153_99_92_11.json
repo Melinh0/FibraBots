@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 55408384,
+    "indicator": "153.99.92.11",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-25 19:26:38",
+    "stamp_updated": "2024-12-11 19:13:42",
+    "stamp_seen": "2024-12-11 19:13:42",
+    "stamp_probed": "2024-09-06 14:29:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-04 07:55:33"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-25 19:26:38"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-04 07:55:33"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-23 14:01:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-by": [
+                "MAINT-NEW",
+                "MAINT-CNCGROUP-RR",
+                "MAINT-CNCGROUP",
+                "APNIC-HM"
+            ],
+            "++phone": [
+                "+86-10-66259764",
+                "+86257900060"
+            ],
+            "admin-c": "CH1302-AP",
+            "country": "CN",
+            "irt": "IRT-CU-CN",
+            "mnt-irt": "IRT-CU-CN",
+            "mnt-routes": "MAINT-CNCGROUP-RR",
+            "origin": "AS4837",
+            "phone": [
+                "+86-10-66259764",
+                "+86257900060"
+            ],
+            "tech-c": [
+                "CH1302-AP",
+                "LL58-AP"
+            ],
+            "address": [
+                "P.R.China",
+                "No. 65 Beijing West Road,Nanjing,China",
+                "No.21,Financial Street",
+                "Beijing,100033",
+                "No.21,Jin-Rong Street"
+            ],
+            "e-mail": [
+                "hqs-ipabuse@chinaunicom.cn",
+                "js-cu-ipmanage@chinaunicom.cn",
+                "zhaoyz3@chinaunicom.cn"
+            ],
+            "fax-no": [
+                "+86-10-66259764",
+                "+86252900280"
+            ],
+            "nic-hdl": [
+                "CH1302-AP",
+                "LL58-AP"
+            ],
+            "person": [
+                "ChinaUnicom Hostmaster",
+                "Lan Li"
+            ],
+            "mnt-lower": "MAINT-CNCGROUP-JS",
+            "netname": "UNICOM-JS",
+            "descr": [
+                "China Unicom Jiangsu Province Network",
+                "China Unicom",
+                "China Unicom Jiangsu province network"
+            ],
+            "inetnum": "153.99.0.0 - 153.99.255.255",
+            "route": "153.99.0.0\/16",
+            "last-modified": [
+                "2011-04-22T06:46:01Z",
+                "2017-08-17T06:13:16Z",
+                "2013-08-15T02:13:11Z",
+                "2016-05-04T00:30:19Z",
+                "2024-07-01T02:08:34Z"
+            ],
+            "++registrant": [
+                "CH1302-AP",
+                "ChinaUnicom Hostmaster",
+                "Lan Li"
+            ],
+            "++email": [
+                "hqs-ipabuse@chinaunicom.cn",
+                "js-cu-ipmanage@chinaunicom.cn",
+                "zhaoyz3@chinaunicom.cn"
+            ],
+            "abuse-mailbox": "zhaoyz3@chinaunicom.cn",
+            "++abuse": "zhaoyz3@chinaunicom.cn",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-01 02:08:34",
+                "2017-08-17 06:13:16",
+                "2013-08-15 02:13:11",
+                "2011-04-22 06:46:01"
+            ]
+        },
+        "geo": {
+            "country": "China",
+            "countrycode": "CN",
+            "asn": "AS4837",
+            "org": "CHINA UNICOM China169 Backbone",
+            "lat": "34.7732",
+            "address": [
+                "No.21,Financial Street",
+                "Beijing,100033",
+                "P.R.China",
+                "No.21,Jin-Rong Street",
+                "No. 65 Beijing West Road,Nanjing,China"
+            ],
+            "long": "113.722"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3306": "[\u0000\u0000\u0000\n8.0.39-0ubuntu0.22.04.1\u0000\u0017Q\u0000\u0000}3e:\u00105R%\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00006+gB}qyW`Zyo\u0000caching_sha2_password\u0000"
+        }
+    }
+}

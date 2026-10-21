@@ -1,0 +1,85 @@
+{
+    "qid": null,
+    "iid": 40810623,
+    "indicator": "80.151.31.87",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-11-03 00:34:31",
+    "stamp_updated": "2023-07-23 19:54:26",
+    "stamp_seen": "2023-04-22 02:14:31",
+    "stamp_probed": "2023-04-22 02:14:31",
+    "stamp_retired": "2023-07-23 19:54:26",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-03 00:34:31"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5060",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SIP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS3320",
+            "isp": "Deutsche Telekom AG",
+            "org": "Deutsche Telekom AG",
+            "city": "Solingen",
+            "region": "North Rhine-Westphalia",
+            "zip": "42719",
+            "lat": "51.1789",
+            "long": "7.0444"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1\n"
+        },
+        "dns": {
+            "ptr": "p50971f57.dip0.t-ipconnect.de"
+        }
+    }
+}

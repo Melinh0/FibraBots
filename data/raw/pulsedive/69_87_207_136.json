@@ -1,0 +1,181 @@
+{
+    "qid": null,
+    "iid": 59716594,
+    "indicator": "69.87.207.136",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-28 14:44:26",
+    "stamp_updated": "2024-11-29 12:09:00",
+    "stamp_seen": "2024-11-29 12:09:00",
+    "stamp_probed": "2024-09-16 11:45:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59716612,
+                "indicator": "https:\/\/69.87.207.136\/cgi-bin\/luci\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-28 14:44:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "updated": [
+                "2017-01-28",
+                "2024-06-28"
+            ],
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "stateprov": "CA",
+            "city": "Los Angeles",
+            "++updated": [
+                "2017-01-28 00:00:00",
+                "2024-06-28 00:00:00"
+            ],
+            "parent": "NET69 (NET-69-0-0-0-0)",
+            "postalcode": "90017",
+            "++abuse": "net-abuse@esited.com",
+            "++email": "noc@esited.com",
+            "++registrant": "eSited Solutions",
+            "address": "600 W 7th",
+            "orgabuseemail": "net-abuse@esited.com",
+            "orgabusehandle": "ABUSE3268-ARIN",
+            "orgabusephone": "+1-701-390-9638",
+            "organization": "eSited Solutions (NL-1)",
+            "orgid": "NL-1",
+            "orgname": "eSited Solutions",
+            "orgnocemail": "noc@esited.com",
+            "orgnochandle": "NETWO3799-ARIN",
+            "orgnocname": "Network Manager",
+            "orgnocphone": "+1-701-390-9638",
+            "orgtechemail": "noc@esited.com",
+            "orgtechhandle": "TONGB-ARIN",
+            "orgtechname": "Tong, Bryan",
+            "originas": "AS22552",
+            "referralserver": "rwhois:\/\/whois.esited.com:4321",
+            "regdate": [
+                "2010-10-04",
+                "2014-05-15"
+            ],
+            "++registered": [
+                "2010-10-04 00:00:00",
+                "2014-05-15 00:00:00"
+            ],
+            "++phone": [
+                "+1-507-298-1624",
+                "+1-701-390-9638"
+            ],
+            "orgtechphone": "+1-507-298-1624",
+            "cidr": "69.87.192.0\/20",
+            "nethandle": "NET-69-87-192-0-1",
+            "netrange": "69.87.192.0 - 69.87.207.255",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/TONGB-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/NL-1",
+                "https:\/\/rdap.arin.net\/registry\/ip\/69.87.192.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE3268-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NETWO3799-ARIN",
+            "netname": "E69-01"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "CA",
+            "city": "Los Angeles",
+            "zip": "90017",
+            "asn": "AS22552",
+            "lat": "37.751",
+            "long": "-97.822",
+            "address": "600 W 7th",
+            "org": [
+                "ESITED",
+                "eSited Solutions (NL-1)"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=20",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "++redirect": "https:\/\/69.87.207.136\/cgi-bin\/luci\/",
+            "++target": "http:\/\/69.87.207.136\/"
+        },
+        "meta": {
+            "viewport": "initial-scale=1.0",
+            "++title": "OpenWrt - LuCI",
+            "charset": "utf-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "OpenWrt",
+            "expires": "2024-07-27 06:11:15",
+            "subject": "\/C=ZZ\/ST=Somewhere\/L=Unknown\/O=OpenWrtf46cfb98\/CN=OpenWrt",
+            "valid": "2022-07-28 06:11:15",
+            "issuer": "\/C=ZZ\/ST=Somewhere\/L=Unknown\/O=OpenWrtf46cfb98\/CN=OpenWrt",
+            "fingerprint": "2fb2b6ea1d31a967a83c1dd2485cc7c377dee0569a4b16ed7c80b00d50c80f25",
+            "++subject": "OpenWrtf46cfb98"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.5)\n",
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\u0007\u0014\ufffd\b\ufffd\ufffdZg\ufffd1\ufffd\n\ufffd\ufffd^\ufffd\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000 ssh-ed25519,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0017{@\ufffd\ufffd9\ufffd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4b112bb63e3f352b9e152bce908bd0ce.jpeg"
+        }
+    }
+}

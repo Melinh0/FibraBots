@@ -1,0 +1,203 @@
+{
+    "qid": null,
+    "iid": 60473096,
+    "indicator": "103.174.115.172",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-21 16:17:41",
+    "stamp_updated": "2024-12-10 10:32:27",
+    "stamp_seen": "2024-11-23 16:53:52",
+    "stamp_probed": "2024-08-28 22:44:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60473124,
+                "indicator": "http:\/\/103.174.115.172\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-23 20:34:30"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-21 16:17:41"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-23 20:34:30"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-26 04:55:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-AWANBIT"
+            ],
+            "address": [
+                "Sukabumi, Jawa Barat",
+                "PT. AwanBit Data Indonesia",
+                "Jl. Bojonggenteng No 2",
+                "Sukabumi"
+            ],
+            "descr": [
+                "Corporate \/ Direct Member IDNIC",
+                "PT. AwanBit Data Indonesia",
+                "SakaSpace",
+                "Jl. Bojonggenteng No.2",
+                "Sukabumi, Jawa Barat"
+            ],
+            "++registrant": [
+                "FRS7-AP",
+                "Faisal Reza ST"
+            ],
+            "++email": [
+                "noc@cloudbit.co.id",
+                "reza@cloudbit.co.id",
+                "abuse@cloudbit.co.id"
+            ],
+            "admin-c": "FRS7-AP",
+            "person": "Faisal Reza ST",
+            "mnt-lower": "MAINT-ID-AWANBIT",
+            "abuse-mailbox": "abuse@cloudbit.co.id",
+            "phone": "+62-85926-900755",
+            "last-modified": [
+                "2021-10-11T09:30:28Z",
+                "2021-10-11T09:22:22Z",
+                "2021-10-11T09:23:28Z"
+            ],
+            "++phone": "+62-85926-900755",
+            "irt": "IRT-AWANBIT-ID",
+            "mnt-irt": "IRT-AWANBIT-ID",
+            "inetnum": "103.174.114.0 - 103.174.115.255",
+            "tech-c": "FRS7-AP",
+            "e-mail": [
+                "noc@cloudbit.co.id",
+                "reza@cloudbit.co.id"
+            ],
+            "mnt-routes": "MAINT-ID-AWANBIT",
+            "nic-hdl": "FRS7-AP",
+            "++abuse": "abuse@cloudbit.co.id",
+            "netname": "IDNIC-AWANBIT-ID",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-10-11 09:30:28",
+                "2021-10-11 09:22:22",
+                "2021-10-11 09:23:28"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS136052",
+            "org": "PT Cloud Hosting Indonesia",
+            "address": [
+                "Sukabumi, Jawa Barat",
+                "PT. AwanBit Data Indonesia",
+                "Jl. Bojonggenteng No 2",
+                "Sukabumi"
+            ],
+            "lat": "-6.1728",
+            "long": "106.8272"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "connection": "Upgrade, close",
+            "upgrade": "h2",
+            "content-length": "401",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"27e-61a1aaa54f2b2-gzip\"",
+            "last-modified": "Wed, 05 Jun 2024 01:41:29 GMT",
+            "++target": "http:\/\/103.174.115.172\/",
+            "date": "Sun, 06 Oct 2024 22:03:46 GMT"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 22:03. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "993": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "ip103-174-115-172.cloudhost.web.id"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

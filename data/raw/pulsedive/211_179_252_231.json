@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 60074760,
+    "indicator": "211.179.252.231",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-09 15:37:40",
+    "stamp_updated": "2024-12-17 11:36:45",
+    "stamp_seen": "2024-12-16 17:36:27",
+    "stamp_probed": "2024-09-30 09:43:24",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60077102,
+                "indicator": "http:\/\/211.179.252.231\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-09 15:37:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Basic"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "SK Namsan Green Bldg.",
+                "Seoul Jung-gu Toegye-ro 24",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "descr": "SK Broadband Co Ltd",
+            "e-mail": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "broadNnet-KR",
+                "broadNnet"
+            ],
+            "nic-hdl": [
+                "IM12-KR",
+                "IM670-AP"
+            ],
+            "tech-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "inetnum": "211.178.0.0 - 211.179.255.255",
+            "last-modified": [
+                "2017-02-03T00:38:41Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM670-AP",
+                "IM12-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++phone": "+82-80-828-2106",
+            "phone": "+82-80-828-2106",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS9318",
+            "org": "SK Broadband Co Ltd",
+            "city": "Buk-gu",
+            "region": "Ulsan",
+            "lat": "35.6018",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Jung-gu Toegye-ro 24",
+                "SK Namsan Green Bldg."
+            ],
+            "long": "129.3491",
+            "country": "South Korea"
+        },
+        "http": {
+            "connection": "close",
+            "server": "HTTPsrv",
+            "++code": "401",
+            "++status": "Unauthorized",
+            "content-type": "text\/html; charset=ISO-8859-1",
+            "++content-type": "text\/html",
+            "date": "Sat, 07 Sep 2024 13:45:54 GMT",
+            "www-authenticate": "Basic realm=\"0:0.73a1821b\""
+        },
+        "banners": {
+            "21": "220 (vsFTPd 2.3.2)\n",
+            "22": "SSH-2.0-dropbear_2017.75\n\u0000\u0000\u0001l\u0004\u001420\ufffdOj\b\ufffdD\ufffd#\ufffdf\ufffd\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd9\ufffd\ufffd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5efe29987b40b80935f5346562a08293.jpeg"
+        }
+    }
+}

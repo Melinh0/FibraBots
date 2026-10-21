@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 62333588,
+    "indicator": "45.114.142.178",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 07:10:25",
+    "stamp_updated": "2024-12-15 00:53:35",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-08-24 13:00:35",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64191705,
+                "indicator": "https:\/\/45.114.142.178\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-13 09:13:39"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-12 07:10:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "27017",
+            "3306",
+            "443",
+            "465",
+            "5060",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MongoDB",
+            "MySQL",
+            "SIP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CentOS",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-IPAPELABS",
+                "MAINT-IN-PSRIN"
+            ],
+            "origin": "AS18229",
+            "status": "ASSIGNED PORTABLE",
+            "role": "Manager NOC",
+            "abuse-mailbox": "abuse@psrholdings.in",
+            "address": "H.No 8-2-269, Road No 2, Banjara Hills, Hyderabad.",
+            "admin-c": "RR687-AP",
+            "descr": [
+                "PSRHoldings Route Object",
+                "PSR Holdings Private Limited"
+            ],
+            "e-mail": "ipadmin@psrholdings.in",
+            "fax-no": "+91 04023116055",
+            "irt": "IRT-PSRIN-IN",
+            "irt-nfy": "abuse@psrholdings.in",
+            "mnt-irt": "IRT-PSRIN-IN",
+            "mnt-routes": "MAINT-IN-PSRIN",
+            "netname": "PSR_IN",
+            "nic-hdl": [
+                "RR687-AP",
+                "MN375-AP"
+            ],
+            "notify": [
+                "ipadmin@psrholdings.in",
+                "abuse@psrholdings.in"
+            ],
+            "person": "Rajasimha Reddy",
+            "phone": "+91 04042030648",
+            "tech-c": [
+                "RR687-AP",
+                "MN375-AP"
+            ],
+            "inetnum": "45.114.140.0 - 45.114.143.255",
+            "last-modified": [
+                "2015-04-05T16:30:25Z",
+                "2014-05-19T10:28:59Z",
+                "2014-05-19T10:28:23Z",
+                "2014-05-19T10:27:40Z",
+                "2015-04-08T10:39:52Z"
+            ],
+            "route": "45.114.142.0\/24",
+            "++abuse": "abuse@psrholdings.in",
+            "++registrant": [
+                "RR687-AP",
+                "Rajasimha Reddy"
+            ],
+            "++email": [
+                "ipadmin@psrholdings.in",
+                "abuse@psrholdings.in"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2015-04-05 16:30:25",
+                "2014-05-19 10:28:59",
+                "2014-05-19 10:28:23",
+                "2014-05-19 10:27:40",
+                "2015-04-08 10:39:52"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "asn": "AS18229",
+            "address": "H.No 8-2-269, Road No 2, Banjara Hills, Hyderabad.",
+            "long": "79.0011",
+            "lat": "21.9974",
+            "org": "CtrlS"
+        },
+        "http": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "server": "Apache\/2.2.15 (CentOS)",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=100",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/html",
+            "content-length": "279",
+            "++target": "https:\/\/45.114.142.178\/",
+            "date": "Tue, 22 Oct 2024 05:43:16 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "valid": "2022-09-26 00:00:00",
+            "expires": "2023-10-26 23:59:59",
+            "subject": "\/CN=somnetics.in",
+            "domain": [
+                "somnetics.in",
+                "www.somnetics.in"
+            ],
+            "fingerprint": "d0d1265541d449e94b0df35ff135c83f30deae1a6cb0b0183e5c6829a981ecec"
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 2.2.2)\n",
+            "465": "220 SomImagi22662.localdomain ESMTP Postfix\n",
+            "27017": "\u0005\u0004\u0000\u0000",
+            "3306": "J\u0000\u0000\u0000\n5.5.62\u0000\ufffd\u0001\u0000\/&o!QW?s\u0000\ufffd\ufffd\b\u0002\u0000\u000f\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000HK$lw1,($wRq\u0000mysql_native_password\u0000"
+        },
+        "dns": {
+            "ptr": "somnetics.in"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/72216d267d74cf35a8d5bac6227f3631.jpeg"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "qid": null,
+    "iid": 64502516,
+    "indicator": "83.249.224.46",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-24 08:20:52",
+    "stamp_updated": "2024-10-25 08:25:19",
+    "stamp_seen": "2024-10-24 08:33:01",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64505356,
+                "indicator": "http:\/\/83.249.224.46\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-24 08:20:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "city": "Stockholm",
+            "asn": "AS1257",
+            "org": "Tele2 SWIPnet",
+            "region": "Stockholm County",
+            "lat": "59.3241",
+            "long": "18.0517"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=20",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 24 Oct 2024 08:32:49 GMT",
+            "++target": "http:\/\/83.249.224.46\/"
+        },
+        "meta": {
+            "++title": "Index of \/"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001,\u0004\u0014\u001b\ufffd\t\ufffd\ufffd\ufffd.\ufffdfyE\ufffd\u0011\u001aK\u0013\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000_\u0001\ufffd\ufffd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/56408f9f8fc0750d8d89524e50f630af.jpeg"
+        }
+    }
+}

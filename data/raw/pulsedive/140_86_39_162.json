@@ -1,0 +1,226 @@
+{
+    "qid": null,
+    "iid": 13222523,
+    "indicator": "140.86.39.162",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-06-26 11:25:34",
+    "stamp_updated": "2024-12-16 11:30:22",
+    "stamp_seen": "2024-12-15 07:26:53",
+    "stamp_probed": "2024-09-30 01:52:42",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 13235679,
+                "indicator": "https:\/\/140.86.39.162\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 19:09:43"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:45:52"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-16 06:44:07"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-22 04:29:51"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 19:09:43"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-14 22:33:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Lua",
+            "Nginx",
+            "OpenResty"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "LEGACY",
+            "country": "FR",
+            "address": [
+                "US",
+                "94065",
+                "CA",
+                "Oracle Corporation",
+                "500 Oracle Parkway - M\/S 4op234A",
+                "Redwood Shores"
+            ],
+            "mnt-routes": "ORCL-MNT",
+            "mnt-by": [
+                "ORCL-MNT",
+                "RIPE-ERX-MNT"
+            ],
+            "mnt-lower": "ORCL-MNT",
+            "last-modified": [
+                "2003-06-10T13:08:20Z",
+                "2019-12-04T13:12:51Z"
+            ],
+            "admin-c": "JKD11-RIPE",
+            "inetnum": "140.86.0.0 - 140.86.255.255",
+            "tech-c": "JKD11-RIPE",
+            "netname": "ORACLE-FR",
+            "descr": [
+                "92082 Paris La Defense",
+                "Oracle France SA",
+                "Tour GAN",
+                "Place de l'Iris",
+                "Cedex 13"
+            ],
+            "nic-hdl": "JKD11-RIPE",
+            "person": "John K. Doyle",
+            "phone": "+1 650 506 2380",
+            "created": [
+                "2003-06-10T13:08:20Z",
+                "2003-06-10T13:49:55Z"
+            ],
+            "++registrant": [
+                "JKD11-RIPE",
+                "John K. Doyle"
+            ],
+            "++updated": [
+                "2019-12-04 13:12:51",
+                "2003-06-10 13:08:20"
+            ],
+            "++registered": [
+                "2003-06-10 13:49:55",
+                "2003-06-10 13:08:20"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS31898",
+            "region": "Hesse",
+            "lat": "50.1049",
+            "long": "8.6295",
+            "city": "Frankfurt am Main",
+            "org": "ORACLE-BMC-31898"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "server": "openresty\/1.11.2.1",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "last-modified": "Thu, 09 Nov 2017 13:32:23 GMT",
+            "etag": "W\/\"5a0458e7-93a\"",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/140.86.39.162\/",
+            "++target": "http:\/\/140.86.39.162\/",
+            "date": "Tue, 22 Oct 2024 05:17:16 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "x-ua-compatible": "IE=EmulateIE7",
+            "++title": "Chef API"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "f1a848.compute-omcsseappstst05.oraclecloud.internal",
+            "subject": "\/C=US\/O=YouCorp\/OU=Operations\/CN=f1a848.compute-omcsseappstst05.oraclecloud.internal",
+            "issuer": "\/C=US\/O=YouCorp\/OU=Operations\/CN=f1a848.compute-omcsseappstst05.oraclecloud.internal",
+            "valid": "2017-11-09 13:31:12",
+            "expires": "2027-11-07 13:31:12",
+            "fingerprint": "d79df9b057152a710f49f9ad27fbbb1f53cdf8f1bafdf5c63c2f3d63e6effa25",
+            "++subject": "YouCorp"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n"
+        },
+        "dns": {
+            "ptr": "oc-140-86-39-162.compute.oraclecloud.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/96b1c1068aef62fa70197abcbb9ba66b.jpeg"
+        }
+    }
+}

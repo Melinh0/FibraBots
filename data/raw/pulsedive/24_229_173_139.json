@@ -1,0 +1,99 @@
+{
+    "qid": null,
+    "iid": 63551930,
+    "indicator": "24.229.173.139",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-23 04:56:33",
+    "stamp_updated": "2024-11-18 00:49:46",
+    "stamp_seen": "2024-11-16 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63553115,
+                "indicator": "http:\/\/24.229.173.139\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-23 04:56:33"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-12 21:12:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "3389",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "IMAP",
+            "RDP",
+            "SMTP"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Pennsylvania",
+            "asn": "AS3737",
+            "city": "Easton",
+            "lat": "40.6561",
+            "long": "-75.2336",
+            "org": "AS-PTD"
+        },
+        "http": {
+            "x-powered-by": "ASP.NET",
+            "server": "Microsoft-IIS\/8.5",
+            "++code": "200",
+            "++status": "OK",
+            "++target": "http:\/\/24.229.173.139\/",
+            "date": "Mon, 23 Sep 2024 08:11:25 GMT",
+            "content-length": "0"
+        },
+        "banners": {
+            "143": "* OK IMAPrev1\n",
+            "25": "220 localhost ESMTP\n",
+            "3389": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

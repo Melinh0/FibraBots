@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 52829713,
+    "indicator": "217.133.221.210",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-08 14:58:32",
+    "stamp_updated": "2024-12-15 07:43:50",
+    "stamp_seen": "2024-12-15 07:43:50",
+    "stamp_probed": "2024-08-27 22:11:45",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64216363,
+                "indicator": "https:\/\/217.133.221.210\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:37:26"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-08 14:58:32"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8080",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "city": "Milan",
+            "asn": "AS8612",
+            "org": "Tiscali SpA",
+            "region": [
+                "Milan",
+                "Lombardy"
+            ],
+            "lat": "45.4722",
+            "long": "9.1922"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "etag": "W\/\"6401dd45-746\"",
+            "++target": "http:\/\/217.133.221.210\/",
+            "++redirect": "https:\/\/217.133.221.210\/",
+            "last-modified": "Fri, 03 Mar 2023 11:43:01 GMT",
+            "date": "Fri, 25 Oct 2024 02:03:01 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "robots": "noindex",
+            "++title": "Welcome!"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=agromnia.ardito.it",
+            "domain": "agromnia.ardito.it",
+            "fingerprint": "296b0d0841fb10c1edb8742bc76626bbc3b080523e21d4e2928d94db905de639",
+            "expires": "2025-01-24 00:10:11",
+            "valid": "2024-10-26 00:10:12"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 10:05. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SPECIAL-USE XLIST LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Debian) ready.\n",
+            "25": "220 server1.mediavobis.com ESMTP Postfix (Debian\/GNU)\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "3306": "c\u0000\u0000\u0000\ufffdj\u0004Host '172-232-206-186.ip.linodeusercontent.com' is not allowed to connect to this MariaDB server"
+        },
+        "dns": {
+            "ptr": "217-133-221-210.static.clienti.tiscali.it"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a9f6df3f6a81a7ff0dd1502bab9d6842.jpeg"
+        }
+    }
+}

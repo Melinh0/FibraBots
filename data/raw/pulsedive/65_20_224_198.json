@@ -1,0 +1,133 @@
+{
+    "qid": null,
+    "iid": 39857143,
+    "indicator": "65.20.224.198",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-12 03:01:47",
+    "stamp_updated": "2024-12-17 11:39:50",
+    "stamp_seen": "2024-12-10 23:52:44",
+    "stamp_probed": "2024-08-14 21:16:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39857209,
+                "indicator": "https:\/\/65.20.224.198\/"
+            },
+            {
+                "iid": 39857199,
+                "indicator": "https:\/\/65.20.224.198\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-10-12 03:01:47"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-15 09:49:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "jQuery UI",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Iraq",
+            "countrycode": "IQ",
+            "asn": "AS203214",
+            "org": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+            "city": "Karbala",
+            "region": "Muhafazat Karbala'",
+            "lat": "32.6211",
+            "long": "44.0281"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "lighttpd\/1.4.39",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "set-cookie": "ui_language=en_US; Path=\/; Expires=Tuesday, 1-Jan-38 00:00:00 GMT; HttpOnly",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/65.20.224.198\/login.cgi?uri=\/",
+            "++target": "http:\/\/65.20.224.198\/",
+            "date": "Sat, 31 Aug 2024 00:20:18 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "++title": "Login",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-01-01 00:00:00",
+            "expires": "2038-01-01 00:00:00",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-60:22:32:C6:41:D1\/E=support@ubnt.com",
+            "org": "UBNT-60:22:32:C6:41:D1",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-60:22:32:C6:41:D1\/E=support@ubnt.com",
+            "++subject": "Ubiquiti Networks Inc.",
+            "domain": "UBNT-60:22:32:C6:41:D1",
+            "fingerprint": "174b15fc42008cff5ddd69440168735a5cbd329ba77e8dc7f285ad4c71d51afd"
+        },
+        "cookies": {
+            "ui_language": "en_US",
+            "airos_602232c641d1": "3a3881fdf70d805e4a872766bcdca3bc"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dfb6d28107f4325666c59b9f07162851.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001<\u000b\u0014\ufffd\ufffd9d\ufffd\ufffdG\t8y\u0012<[\u001e\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Vp`\ufffd\ufffd9\ufffd\ufffdy?\ufffd"
+        }
+    }
+}

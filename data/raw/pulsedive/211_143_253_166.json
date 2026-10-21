@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 17246178,
+    "indicator": "211.143.253.166",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-10-28 13:05:06",
+    "stamp_updated": "2024-12-13 23:13:13",
+    "stamp_seen": "2024-12-13 23:13:13",
+    "stamp_probed": "2024-08-26 22:09:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-12-28 11:13:13"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-10-28 13:05:06"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-12-28 11:13:13"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-21 04:57:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "3306"
+        ],
+        "protocol": [
+            "FTP",
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "CN",
+                "ZZ",
+                "cn"
+            ],
+            "abuse-mailbox": "abuse@chinamobile.com",
+            "admin-c": [
+                "CT74-AP",
+                "TC105-AP"
+            ],
+            "irt": "IRT-CHINAMOBILE-CN",
+            "mnt-by": [
+                "MAINT-CN-CMCC",
+                "MAINT-CN-CMCC-JIANGSU",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-CHINAMOBILE-CN",
+            "tech-c": [
+                "CT74-AP",
+                "TC105-AP"
+            ],
+            "address": [
+                "29, Jinrong Ave., Xicheng District, Beijing, 100032",
+                "81st. HuJu Road, Nanjing, P.R.China",
+                "China Mobile Communications Corporation"
+            ],
+            "origin": "AS9808",
+            "++phone": [
+                "+86-13800250222",
+                "+000000000"
+            ],
+            "e-mail": [
+                "socadmin@js.chinamobile.com",
+                "abuse@chinamobile.com"
+            ],
+            "fax-no": "+86-025-86668202",
+            "mnt-lower": "MAINT-CN-CMCC-jiangsu",
+            "netname": "CMNET-jiangsu",
+            "nic-hdl": [
+                "TC105-AP",
+                "AC2006-AP"
+            ],
+            "person": "tao chen",
+            "phone": [
+                "+86-13800250222",
+                "+000000000"
+            ],
+            "inetnum": "211.143.224.0 - 211.143.255.255",
+            "last-modified": [
+                "2012-02-15T02:36:39Z",
+                "2008-09-04T07:32:23Z",
+                "2021-01-20T01:07:27Z",
+                "2024-08-16T07:02:30Z",
+                "2024-08-16T07:03:17Z"
+            ],
+            "route": "211.143.0.0\/16",
+            "descr": [
+                "China Mobile Communications Corporation - jiangsu",
+                "China Mobile communications corporation"
+            ],
+            "++abuse": "abuse@chinamobile.com",
+            "++email": [
+                "abuse@chinamobile.com",
+                "socadmin@js.chinamobile.com"
+            ],
+            "++registrant": [
+                "CT74-AP",
+                "TC105-AP",
+                "tao chen"
+            ],
+            "role": "ABUSE CHINAMOBILECN",
+            "abuse-c": "AC2006-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-16 07:02:30",
+                "2024-08-16 07:03:17",
+                "2008-09-04 07:32:23",
+                "2012-02-15 02:36:39"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "cn",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "cn",
+                "ZZ"
+            ],
+            "org": "China Mobile communications corporation",
+            "asn": "AS56046",
+            "lat": "34.7732",
+            "address": [
+                "China Mobile Communications Corporation",
+                "29, Jinrong Ave., Xicheng District, Beijing, 100032",
+                "81st. HuJu Road, Nanjing, P.R.China"
+            ],
+            "long": "113.722"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 2.3.5)\n",
+            "3306": "J\u0000\u0000\u0000\n5.7.23\u0000\ufffd\ufffd\u0004\u0000\u0007\u001a'\u0010Cf>H\u0000\ufffd\ufffd!\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000LZ|L}-\u0014\u000fh0\u0017m\u0000mysql_native_password\u0000"
+        },
+        "dns": {
+            "ptr": "166.253.143.211.static.sz.js.chinamobile.com"
+        }
+    }
+}

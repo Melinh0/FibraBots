@@ -1,0 +1,248 @@
+{
+    "qid": null,
+    "iid": 40424442,
+    "indicator": "182.75.65.22",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-25 00:48:51",
+    "stamp_updated": "2024-12-16 03:18:31",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": "2024-08-26 22:04:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64225111,
+                "indicator": "https:\/\/182.75.65.22\/index.php"
+            },
+            {
+                "iid": 42766036,
+                "indicator": "http:\/\/182.75.65.22\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-28 00:50:02"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-10-25 00:48:51"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-13 23:37:31"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-10-28 00:50:02"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-02 00:25:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "IN",
+                "ZZ"
+            ],
+            "admin-c": "NA40-AP",
+            "irt": "IRT-BHARTI-IN",
+            "mnt-by": [
+                "MAINT-IN-BBIL",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-BHARTI-IN",
+            "tech-c": "NA40-AP",
+            "origin": "AS9498",
+            "address": [
+                "Phase III, New Delhi-110020, INDIA",
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "234 , Okhla Industrial Estate,",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA"
+            ],
+            "fax-no": "+91-124-4244017",
+            "nic-hdl": [
+                "NA40-AP",
+                "AB913-AP"
+            ],
+            "person": "Network Administrator",
+            "phone": [
+                "+91-124-4222222",
+                "+000000000"
+            ],
+            "++phone": [
+                "+91-124-4222222",
+                "+000000000"
+            ],
+            "descr": [
+                "Bharti Airtel Limited",
+                "n\/a",
+                "Bangalore",
+                "India",
+                "KARNATAKA",
+                "IKON TEL",
+                "73, 1st FLOOR,",
+                "ABMGP BUILDING, 17th CROSS,",
+                "Contact Person: ASHA D .",
+                "Email: asha.d@ikontel.com",
+                "Phone: 7411881177"
+            ],
+            "e-mail": [
+                "noc-dataprov@airtel.com",
+                "ip.misuse@airtel.com"
+            ],
+            "last-modified": [
+                "2018-12-18T12:52:19Z",
+                "2021-01-24T23:35:25Z",
+                "2023-05-24T13:05:19Z",
+                "2023-05-24T13:16:31Z",
+                "2023-12-03T15:11:55Z"
+            ],
+            "++registrant": [
+                "NA40-AP",
+                "Network Administrator"
+            ],
+            "++email": [
+                "noc-dataprov@airtel.com",
+                "ip.misuse@airtel.com"
+            ],
+            "abuse-c": "AB913-AP",
+            "role": "ABUSE BHARTIIN",
+            "++abuse": "ip.misuse@airtel.com",
+            "abuse-mailbox": "ip.misuse@airtel.com",
+            "netname": "IKON-1363349-Bangalore",
+            "inetnum": "182.75.65.16 - 182.75.65.23",
+            "route": "182.75.65.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2018-12-18 12:52:19",
+                "2023-05-24 13:05:19",
+                "2023-05-24 13:16:31",
+                "2023-12-03 15:11:55"
+            ]
+        },
+        "geo": {
+            "country": [
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "IN",
+                "ZZ"
+            ],
+            "region": "Haryana",
+            "asn": "AS9498",
+            "org": "BHARTI Airtel Ltd.",
+            "city": "Gurugram",
+            "address": [
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "234 , Okhla Industrial Estate,",
+                "Phase III, New Delhi-110020, INDIA",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA"
+            ],
+            "lat": "28.4597",
+            "long": "77.0282"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "content-length": "4897",
+            "etag": "\"1321-5058a1e728280\"",
+            "last-modified": "Thu, 16 Oct 2014 13:20:58 GMT",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips PHP\/5.4.16",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/182.75.65.22\/",
+            "date": "Sun, 27 Oct 2024 07:18:25 GMT"
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "nsg-static-22.65.75.182-airtel.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a3f90b274ec2a99e34bd43a8705fcf1d.jpeg"
+        }
+    }
+}

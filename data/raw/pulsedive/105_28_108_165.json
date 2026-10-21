@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 14895302,
+    "indicator": "105.28.108.165",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-09-12 22:55:54",
+    "stamp_updated": "2024-12-14 20:06:57",
+    "stamp_seen": "2024-12-14 20:06:57",
+    "stamp_probed": "2024-08-28 07:41:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-06-27 12:39:45"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-20 03:08:52"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-09 08:50:22"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-04-24 12:31:12"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-06-27 12:39:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-22 22:00:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "5060",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SIP",
+            "SSH"
+        ],
+        "technology": [
+            "Microsoft HTTPAPI"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "ZA",
+            "address": [
+                "South Africa",
+                "Kenya",
+                "Johannesburg",
+                "SEACOM",
+                "Building 7",
+                "Design Quarter District",
+                "Leslie Avenue, Magaliessig",
+                "P O Box 25224",
+                "KAM Building",
+                "Nairobi"
+            ],
+            "admin-c": [
+                "SM15-AFRINIC",
+                "MT991-AFRINIC"
+            ],
+            "descr": [
+                "In case of abuse, please contact abuse@seacom.mu",
+                "SEACOM Limited Networks - 105.16.0.0\/12",
+                "Assignment made to SEACOM Customers."
+            ],
+            "mnt-by": [
+                "SEACOM-MNT",
+                "GENERATED-HLLKII2FRH52MY2ABVODWAI9DRJDT1LJ-MNT",
+                "GENERATED-F072ANKSUXRSPIJORTV2AZAHKGHI21YT-MNT"
+            ],
+            "netname": "SEACOM-ASSIGNMENTS-CUSTOMERS",
+            "nic-hdl": [
+                "SM15-AFRINIC",
+                "MT991-AFRINIC"
+            ],
+            "origin": "AS37100",
+            "person": [
+                "Simon Mayoye",
+                "Mark Tinka"
+            ],
+            "route": "105.16.0.0\/12",
+            "tech-c": [
+                "MT991-AFRINIC",
+                "SM15-AFRINIC"
+            ],
+            "inetnum": "105.28.96.0 - 105.28.111.255",
+            "phone": [
+                "tel:+254-722-604072",
+                "tel:+27-11-461-6355",
+                "tel:+254-2203862685"
+            ],
+            "++registrant": [
+                "MT991-AFRINIC",
+                "SM15-AFRINIC",
+                "Mark Tinka",
+                "Simon Mayoye"
+            ],
+            "source": "AFRINIC # Filtered",
+            "parent": "105.16.0.0 - 105.31.255.255"
+        },
+        "geo": {
+            "country": "South Africa",
+            "countrycode": "ZA",
+            "region": "Gauteng",
+            "city": "Johannesburg",
+            "asn": "AS37100",
+            "org": "SEACOM-AS",
+            "lat": "-26.2309",
+            "long": "28.0583",
+            "address": [
+                "Nairobi",
+                "Johannesburg",
+                "South Africa",
+                "Kenya",
+                "SEACOM",
+                "Building 7",
+                "Design Quarter District",
+                "Leslie Avenue, Magaliessig",
+                "P O Box 25224",
+                "KAM Building"
+            ]
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=us-ascii",
+            "server": "Microsoft-HTTPAPI\/2.0",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/html",
+            "content-length": "315",
+            "date": "Sat, 21 Jan 2023 12:45:41 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=us-ascii"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "5060": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7f9a0af1491241f3150b3b4a250f3bd9.jpeg"
+        }
+    }
+}

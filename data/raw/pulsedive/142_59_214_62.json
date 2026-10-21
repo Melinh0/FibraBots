@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 60721898,
+    "indicator": "142.59.214.62",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-29 16:41:41",
+    "stamp_updated": "2024-12-11 15:18:26",
+    "stamp_seen": "2024-12-11 15:18:26",
+    "stamp_probed": "2024-08-29 22:37:52",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64187977,
+                "indicator": "https:\/\/142.59.214.62\/"
+            },
+            {
+                "iid": 65842649,
+                "indicator": "https:\/\/142.59.214.62\/login.asp"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-29 16:41:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "GoAhead",
+            "Microsoft ASP.NET",
+            "Prototype"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "asn": "AS852",
+            "region": "Alberta",
+            "city": "Edmonton",
+            "lat": "53.52",
+            "long": "-113.5319",
+            "org": "TELUS Communications"
+        },
+        "whois": {
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "country": "CA",
+            "parent": [
+                "NET142 (NET-142-0-0-0-0)",
+                "TELUS (NET-142-59-176-0-1)"
+            ],
+            "stateprov": [
+                "AB",
+                "BC"
+            ],
+            "city": [
+                "Burnaby",
+                "Beaumont"
+            ],
+            "orgabusehandle": "AAT-ARIN",
+            "orgtechhandle": "TBOTP-ARIN",
+            "orgabuseemail": "abuse@telus.com",
+            "address": [
+                "10 - 3777 Kingsway",
+                "5006 52 AVENUE"
+            ],
+            "orgtechphone": "+1-877-310-8324",
+            "++registrant": "TELUS Communications Inc.",
+            "organization": "TELUS Communications Inc. (TACE)",
+            "orgabusename": "Abuse at TELUS",
+            "orgabusephone": "+1-877-945-8220",
+            "orgtechname": "TELUS BC ORG TECH POC",
+            "postalcode": [
+                "V5H-3Z7",
+                "T4X 1E5"
+            ],
+            "++phone": "+1-877-310-8324",
+            "orgname": "TELUS Communications Inc.",
+            "++email": "IPadmin@telus.com",
+            "orgid": "TACE",
+            "orgtechemail": "IPadmin@telus.com",
+            "originas": "AS852",
+            "netname": [
+                "TELUS",
+                "TELUS-HSIA-BUMTAB1"
+            ],
+            "++registered": "2018-07-12 00:00:00",
+            "updated": [
+                "2018-07-12",
+                "2020-10-09"
+            ],
+            "regdate": [
+                "2018-07-12",
+                "1994-05-23"
+            ],
+            "netrange": [
+                "142.59.176.0 - 142.59.255.255",
+                "142.59.214.0 - 142.59.214.255"
+            ],
+            "custname": "TELUS-HSIA-BUMTAB01",
+            "nethandle": [
+                "NET-142-59-176-0-1",
+                "NET-142-59-214-0-1"
+            ],
+            "cidr": [
+                "142.59.192.0\/18, 142.59.176.0\/20",
+                "142.59.214.0\/24"
+            ],
+            "customer": "TELUS-HSIA-BUMTAB01 (C07021440)",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/TBOTP-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/AAT-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/TACE",
+                "https:\/\/rdap.arin.net\/registry\/ip\/142.59.176.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/142.59.214.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C07021440"
+            ],
+            "++updated": "2020-10-09 00:00:00",
+            "++abuse": "AAT-ARIN"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-cache, no-store",
+            "x-xss-protection": "1",
+            "server": "GoAhead-Webs",
+            "content-length": "2185",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/142.59.214.62\/",
+            "++redirect": "https:\/\/142.59.214.62\/login.asp",
+            "date": "Fri Oct 18 15:13:12 2024"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "Ruckus Wireless Admin"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "RuckusPKI-DeviceSubCA-1",
+            "issuer": "\/CN=RuckusPKI-DeviceSubCA-1\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "++subject": "Ruckus Wireless Inc.",
+            "expires": "2047-05-15 07:04:05",
+            "fingerprint": "1aa3bef824f06d40a75fd0b952cb80d7e30aae338a9ad0aeb0ca0a58698cfa96",
+            "valid": "2022-05-14 07:04:05",
+            "subject": "\/CN=SN-222272000248\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US"
+        },
+        "dns": {
+            "ptr": "s142-59-214-62.ab.hsia.telus.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/2fa13c1db125a259ae3193a85bf0bded.jpeg"
+        },
+        "cookies": {
+            "sid": "0"
+        }
+    }
+}

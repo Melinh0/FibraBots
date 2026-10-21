@@ -1,0 +1,122 @@
+{
+    "qid": null,
+    "iid": 64538847,
+    "indicator": "176.37.212.85",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-27 08:21:49",
+    "stamp_updated": "2024-12-12 11:21:43",
+    "stamp_seen": "2024-10-27 08:23:58",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64539183,
+                "indicator": "https:\/\/176.37.212.85\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-27 08:21:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "22",
+            "443",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "PPTP",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "jQuery UI",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Ukraine",
+            "countrycode": "UA",
+            "asn": "AS39608",
+            "org": "Lanet Network Ltd",
+            "city": "Kyiv",
+            "region": "Kyiv City",
+            "lat": "50.458",
+            "long": "30.5303"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "lighttpd\/1.4.39",
+            "content-length": "11462",
+            "++code": "401",
+            "++status": "Unauthorized",
+            "++content-type": "text\/html",
+            "date": "Sun, 27 Oct 2024 08:23:40 GMT",
+            "++target": "https:\/\/176.37.212.85\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "x-ua-compatible": "IE=edge",
+            "cache-control": "no-cache",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1, user-scalable=no",
+            "++title": "AiCloud",
+            "apple-mobile-web-app-capable": "yes"
+        },
+        "banners": {
+            "1723": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0001\ufffd\u0007\u0014\u001b\u001c\ufffd\ufffd8\u0015\u0007s\ufffd\ufffd4>\ufffd=\ufffdO\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000kuK\u0778\u0391"
+        },
+        "ssl": {
+            "version": "v0",
+            "++subject": "a",
+            "expires": "2122-04-01 17:15:51",
+            "org": "a",
+            "valid": "2022-04-25 17:15:51",
+            "subject": "\/C=aa\/ST=a\/L=a\/O=a\/OU=a\/CN=a",
+            "issuer": "\/C=aa\/ST=a\/L=a\/O=a\/OU=a\/CN=a",
+            "fingerprint": "b0522a15cb88ad263ab87b38c8a506be8c904315bc4880ff469b1ebf779ca59b"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7dd8fc38506ec1fa2c502fb3e98eb9bd.jpeg"
+        },
+        "cookies": {
+            "asus_token": "9BUZm941aiJIh0E9S0Sp"
+        }
+    }
+}

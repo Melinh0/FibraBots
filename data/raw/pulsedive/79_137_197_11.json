@@ -1,0 +1,199 @@
+{
+    "qid": null,
+    "iid": 58624768,
+    "indicator": "79.137.197.11",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-22 16:42:12",
+    "stamp_updated": "2024-12-10 10:42:37",
+    "stamp_seen": "2024-12-04 00:00:00",
+    "stamp_probed": "2024-09-30 19:35:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 58624806,
+                "indicator": "http:\/\/79.137.197.11\/"
+            },
+            {
+                "iid": 64130576,
+                "indicator": "https:\/\/79.137.197.11\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-22 16:42:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-27 04:34:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "cdnjs",
+            "Materialize CSS",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "long": "4.8975",
+            "lat": "52.3759",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd",
+            "country": "The Netherlands"
+        },
+        "whois": {
+            "country": "NL",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "DN-MNT",
+                "aeza-mnt",
+                "aeza-group-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "mnt-ref": [
+                "DN-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt"
+            ],
+            "admin-c": "AN32749-RIPE",
+            "tech-c": "AN32749-RIPE",
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-11-24T09:55:02Z",
+                "2022-09-01T13:10:46Z",
+                "2022-09-01T23:02:07Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "++registrant": "AN32749-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "mnt-domains": "aeza-mnt",
+            "mnt-routes": "aeza-mnt",
+            "nic-hdl": "AN32749-RIPE",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "netname": "aeza-net-7",
+            "route": "79.137.196.0\/22",
+            "geoloc": "52.3559446 4.9531184",
+            "last-modified": [
+                "2023-02-27T08:09:03Z",
+                "2022-09-01T23:02:07Z",
+                "2023-10-31T07:53:49Z",
+                "2024-08-23T16:18:21Z"
+            ],
+            "inetnum": "79.137.196.0 - 79.137.199.255",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "++updated": [
+                "2024-08-23 16:18:21",
+                "2023-10-31 07:53:49",
+                "2022-09-01 23:02:07"
+            ],
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2021-11-24 09:55:02",
+                "2022-09-01 13:10:46",
+                "2022-09-01 23:02:07"
+            ]
+        },
+        "http": {
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/79.137.197.11\/",
+            "++target": "http:\/\/79.137.197.11\/",
+            "date": "Sat, 12 Oct 2024 17:04:36 GMT"
+        },
+        "ssl": {
+            "subject": "\/CN=localhost",
+            "version": "v3",
+            "issuer": "\/CN=Personal CA",
+            "ip": "79.137.197.11",
+            "valid": "2024-03-11 18:05:51",
+            "expires": "2051-07-28 18:05:51",
+            "fingerprint": "ccf2c6dcc354c858f20b4024ea2c59ecea5b3fa95b05c2f520f1a3952c7678e7",
+            "org": "Personal CA"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "\u041b\u0438\u0447\u043d\u044b\u0439 \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\n"
+        },
+        "dns": {
+            "ptr": "colossal-pets.aeza.network"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6233b6e4a3b6139530dfaa9dbdf136e7.jpeg"
+        }
+    }
+}

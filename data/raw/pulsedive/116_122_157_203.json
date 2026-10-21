@@ -1,0 +1,204 @@
+{
+    "qid": null,
+    "iid": 60922502,
+    "indicator": "116.122.157.203",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-05 17:05:43",
+    "stamp_updated": "2024-12-15 11:28:35",
+    "stamp_seen": "2024-12-15 06:57:35",
+    "stamp_probed": "2024-08-28 22:45:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60922598,
+                "indicator": "http:\/\/116.122.157.203\/"
+            },
+            {
+                "iid": 60922594,
+                "indicator": "http:\/\/116.122.157.203\/ep_login.php"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-05 17:05:43"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-10 05:34:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Open Graph",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "SK Namsan Green Bldg.",
+                "Seoul Jung-gu Toegye-ro 24",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "descr": "SK Broadband Co Ltd",
+            "e-mail": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "broadNnet-KR",
+                "broadNnet"
+            ],
+            "nic-hdl": [
+                "IM12-KR",
+                "IM670-AP"
+            ],
+            "tech-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "inetnum": "116.120.0.0 - 116.127.255.255",
+            "last-modified": [
+                "2017-02-03T00:38:17Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM670-AP",
+                "IM12-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++phone": "+82-80-828-2106",
+            "phone": "+82-80-828-2106",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS9318",
+            "org": "SK Broadband Co Ltd",
+            "city": "Pyeongtaek-si",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Jung-gu Toegye-ro 24",
+                "SK Namsan Green Bldg."
+            ],
+            "region": "Gyeonggi-do",
+            "lat": "37.0009",
+            "long": "127.0859",
+            "country": "South Korea"
+        },
+        "http": {
+            "server": "Apache",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=99",
+            "cache-control": "pre-check=0, post-check=0, max-age=0",
+            "p3p": "CP=\"ALL CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC OTC\"",
+            "content-length": "6065",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "++target": "http:\/\/116.122.157.203\/",
+            "++redirect": "http:\/\/116.122.157.203\/ep_login.php",
+            "date": "Tue, 22 Oct 2024 15:44:44 GMT",
+            "last-modified": "Tue, 22 Oct 2024 15:44:44 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "og:type": "website",
+            "charset": "utf-8",
+            "og:description": "\uc804\uc9c0, \ubaa8\ubc14\uc77c, \ub514\uc2a4\ud50c\ub808\uc774 \uc18c\uc7ac\uad00\ub828 \ud575\uc2ec\uae30\uc220 \ud655\ubcf4",
+            "og:url": "http:\/\/www.kinnoep.co.kr",
+            "og:image": "..\/images\/logo_link.png",
+            "og:title": "\uace0\ub824\uc774\ub178\ud14c\ud06c EP",
+            "++title": "\uace0\ub824\uc774\ub178\ud14c\ud06c EP"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n",
+            "3306": "8\u0000\u0000\u0000\n5.1.73-log\u0000\b~w\u0000){Re(3h3\u0000\ufffd\ufffd!\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000e$!xZ9Ob~sHL\u0000"
+        },
+        "cookies": {
+            "2a0d2363701f23f8a75028924a3af643": "MTcyLjIzMi4xMjguMTMz",
+            "phpsessid": "l49n05n1u9spkeinj7i3mea376"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0e2f6ae40fa7cdb4f8ff473193acd410.jpeg"
+        }
+    }
+}

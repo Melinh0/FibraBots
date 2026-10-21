@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 49965732,
+    "indicator": "109.104.153.22",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-08-06 06:52:55",
+    "stamp_updated": "2024-12-25 17:24:09",
+    "stamp_seen": "2024-12-25 17:24:09",
+    "stamp_probed": "2024-08-25 08:17:11",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 49965737,
+                "indicator": "http:\/\/109.104.153.22\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-01-31 13:55:05"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2023-08-06 06:52:55"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-18 02:22:34"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2023-08-06 06:52:55"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2024-01-31 13:55:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "asn": "AS136258",
+            "org": "BrainStorm Network, Inc",
+            "region": "North Holland",
+            "long": "4.8975",
+            "lat": "52.3759",
+            "country": "The Netherlands"
+        },
+        "whois": {
+            "country": "NL",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "SUB-ALLOCATED PA",
+            "abuse-mailbox": "info@oneprovider.com",
+            "admin-c": "ACRO410-RIPE",
+            "mnt-by": "ONEPROVIDER",
+            "nic-hdl": "ACRO410-RIPE",
+            "origin": "AS136258",
+            "role": "Abuse contact role object",
+            "tech-c": "ACRO410-RIPE",
+            "created": [
+                "2016-03-07T23:07:41Z",
+                "2023-04-26T12:19:07Z",
+                "2023-05-03T08:22:06Z"
+            ],
+            "++email": "info@oneprovider.com",
+            "++abuse": "info@oneprovider.com",
+            "++registrant": "ACRO410-RIPE",
+            "last-modified": [
+                "2020-08-28T09:54:17Z",
+                "2023-04-26T12:19:07Z",
+                "2023-05-03T08:22:06Z"
+            ],
+            "address": "3275 Av Francis-Hughes H7L 5A5, Laval, Canada",
+            "inetnum": "109.104.153.0 - 109.104.153.255",
+            "route": "109.104.153.0\/24",
+            "netname": "ONEPROVIDER-NL",
+            "descr": "oneprovider.com - Amsterdam Infrastructure",
+            "++registered": [
+                "2016-03-07 23:07:41",
+                "2023-04-26 12:19:07",
+                "2023-05-03 08:22:06"
+            ],
+            "++updated": [
+                "2020-08-28 09:54:17",
+                "2023-04-26 12:19:07",
+                "2023-05-03 08:22:06"
+            ]
+        },
+        "http": {
+            "++code": "404",
+            "++status": "Not found",
+            "date": "Sun, 25 Aug 2024 08:14:50 GMT"
+        }
+    }
+}

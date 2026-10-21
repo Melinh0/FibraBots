@@ -1,0 +1,98 @@
+{
+    "qid": null,
+    "iid": 65702750,
+    "indicator": "45.12.133.6",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-08 10:33:33",
+    "stamp_updated": "2024-12-10 10:40:49",
+    "stamp_seen": "2024-12-08 10:34:10",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65702813,
+                "indicator": "http:\/\/45.12.133.6\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-08 10:33:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Cyprus",
+            "countrycode": "CY",
+            "asn": "AS44477",
+            "org": "Stark Industries Solutions Ltd",
+            "lat": "35.0077",
+            "long": "32.9882"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3121",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.58 (Ubuntu)",
+            "last-modified": "Sat, 30 Nov 2024 08:05:53 GMT",
+            "++target": "http:\/\/45.12.133.6\/",
+            "date": "Sun, 08 Dec 2024 10:33:40 GMT",
+            "etag": "\"29af-6281cc8d3cc80-gzip\""
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/58cc99a82e02327e2d7cd1ba5aad749a.jpeg"
+        }
+    }
+}

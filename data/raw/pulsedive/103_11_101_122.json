@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 65042488,
+    "indicator": "103.11.101.122",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-16 09:11:16",
+    "stamp_updated": "2024-12-11 10:37:00",
+    "stamp_seen": "2024-11-16 09:43:20",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65044448,
+                "indicator": "https:\/\/103.11.101.122\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-16 09:11:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "++phone": [
+                "+852-81143699",
+                "+000000000"
+            ],
+            "abuse-mailbox": "admin@scicube.com",
+            "address": "RM B, 2\/F., 88 KWAI CHEONG ROAD, KWAI CHUNG, NT",
+            "admin-c": "SLNA8-AP",
+            "e-mail": "admin@scicube.com",
+            "fax-no": "+852-30070512",
+            "irt": "IRT-SCICUBE-HK",
+            "mnt-by": [
+                "MAINT-SCICUBE-HK",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-SCICUBE-HK",
+            "mnt-lower": "MAINT-SCICUBE-HK",
+            "mnt-routes": "MAINT-SCICUBE-HK",
+            "netname": "SCICUBE",
+            "nic-hdl": [
+                "SLNA8-AP",
+                "AS2139-AP"
+            ],
+            "phone": [
+                "+852-81143699",
+                "+000000000"
+            ],
+            "role": [
+                "SCICUBE LIMITED - network administrator",
+                "ABUSE SCICUBEHK"
+            ],
+            "tech-c": "SLNA8-AP",
+            "last-modified": [
+                "2011-10-20T04:39:14Z",
+                "2018-08-13T09:20:08Z",
+                "2021-07-21T13:12:58Z",
+                "2024-07-12T03:06:47Z",
+                "2024-07-12T03:07:11Z"
+            ],
+            "inetnum": "103.11.101.0 - 103.11.101.255",
+            "descr": [
+                "Scicube Web Hosting Services",
+                "SCICUBE-ROUTE-OBJ",
+                "88 KWAI CHEONG ROAD, KWAI CHUNG, NT, HONG KONG"
+            ],
+            "origin": "AS132056",
+            "route": "103.11.101.0\/24",
+            "++abuse": "admin@scicube.com",
+            "++registrant": "SLNA8-AP",
+            "++email": "admin@scicube.com",
+            "abuse-c": "AS2139-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-12 03:06:47",
+                "2024-07-12 03:07:11",
+                "2011-10-20 04:39:14",
+                "2018-08-13 09:20:08"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS132056",
+            "address": "RM B, 2\/F., 88 KWAI CHEONG ROAD, KWAI CHUNG, NT",
+            "lat": "22.2578",
+            "long": "114.1657",
+            "org": "RM B, 2F 88 KWAI CHEONG ROAD"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "Apache\/2",
+            "vary": "User-Agent",
+            "content-length": "47",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 20 Apr 2023 06:17:28 GMT",
+            "++target": "http:\/\/103.11.101.122\/",
+            "etag": "\"2f-5f9be7eb2f832\"",
+            "++redirect": "https:\/\/103.11.101.122\/",
+            "date": "Sat, 16 Nov 2024 09:42:47 GMT"
+        },
+        "ssl": {
+            "domain": [
+                "pointdnshere.com",
+                "*.pointdnshere.com"
+            ],
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "expires": "2025-07-08 23:59:59",
+            "valid": "2024-06-20 00:00:00",
+            "subject": "\/CN=*.pointdnshere.com",
+            "fingerprint": "f60cd53d02338b2ae0736917cdc8e62d1d7eb4a6059d9d4d4264e0548abf750c"
+        },
+        "banners": {
+            "21": "220 ProFTPD Server ready.\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN] Dovecot DA ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "3306": "a\u0000\u0000\u0000\ufffdj\u0004Host '45-79-130-181.ip.linodeusercontent.com' is not allowed to connect to this MariaDB server",
+            "25": "220 kt-e04-p369.pointdnshere.com ESMTP Exim 4.96-58-g4e9ed49f8 Sat, 16 Nov 2024 17:42:46 +0800\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5b32a2a3229169808538ad57b54db549.jpeg"
+        }
+    }
+}

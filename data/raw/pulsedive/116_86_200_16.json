@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 57023464,
+    "indicator": "116.86.200.16",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-09 00:47:46",
+    "stamp_updated": "2024-12-11 19:12:21",
+    "stamp_seen": "2024-12-11 19:12:21",
+    "stamp_probed": "2024-08-28 22:45:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-09 00:47:46"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-11 12:37:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "SG",
+                "ZZ"
+            ],
+            "abuse-mailbox": "abuse@starhub.com",
+            "++phone": [
+                "+65-68255000",
+                "+000000000",
+                "+65-6825-0000"
+            ],
+            "e-mail": [
+                "apnic-scv@starhub.com",
+                "cmts-ops@starhub.com"
+            ],
+            "fax-no": "+65-68206008",
+            "irt": "IRT-SGCABLEVISION-SG",
+            "mnt-by": [
+                "MAINT-SG-SCV",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-SGCABLEVISION-SG",
+            "mnt-lower": "MAINT-SG-SCV",
+            "mnt-routes": "MAINT-SG-SCV",
+            "netname": "SGCABLEVISION-SG",
+            "nic-hdl": [
+                "ACS7-AP",
+                "AS2737-AP"
+            ],
+            "org": "ORG-SCVL1-AP",
+            "org-name": "StarHub Cable Vision Ltd",
+            "organisation": "ORG-SCVL1-AP",
+            "role": [
+                "APNIC Contact - SCV",
+                "ABUSE SGCABLEVISIONSG"
+            ],
+            "inetnum": "116.86.0.0 - 116.87.255.255",
+            "admin-c": "ACS7-AP",
+            "tech-c": "ACS7-AP",
+            "descr": [
+                "StarHub Cable Vision Ltd",
+                "Singapore Broadband Access Provider"
+            ],
+            "origin": "AS55430",
+            "address": [
+                "67 Ubi Avenue 1",
+                "StarHub Ltd",
+                "StarHub Ltd 67 Ubi Avenue 1 Singapore 408942 # 05-01 StarHub Green",
+                "# 05-01",
+                "StarHub Green"
+            ],
+            "phone": [
+                "+65-68255000",
+                "+000000000",
+                "+65-6825-0000"
+            ],
+            "++abuse": "abuse@starhub.com",
+            "++registrant": "ACS7-AP",
+            "++email": [
+                "apnic-scv@starhub.com",
+                "abuse@starhub.com",
+                "cmts-ops@starhub.com"
+            ],
+            "last-modified": [
+                "2019-04-30T00:15:01Z",
+                "2020-08-26T13:01:23Z",
+                "2018-12-13T17:53:14Z",
+                "2023-09-05T02:14:44Z",
+                "2024-08-19T03:56:08Z",
+                "2024-08-19T03:56:58Z"
+            ],
+            "abuse-c": "AS2737-AP",
+            "route": "116.86.200.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-09-05 02:14:44",
+                "2024-08-19 03:56:08",
+                "2019-04-30 00:15:01",
+                "2024-08-19 03:56:58",
+                "2018-12-13 17:53:14"
+            ]
+        },
+        "geo": {
+            "city": "Singapore",
+            "country": [
+                "Singapore",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "SG",
+                "ZZ"
+            ],
+            "asn": "AS55430",
+            "org": [
+                "ORG-SCVL1-AP",
+                "Starhub Ltd"
+            ],
+            "address": [
+                "67 Ubi Avenue 1",
+                "StarHub Ltd",
+                "StarHub Ltd 67 Ubi Avenue 1 Singapore 408942 # 05-01 StarHub Green",
+                "# 05-01",
+                "StarHub Green"
+            ],
+            "lat": "1.3352",
+            "long": "103.8529"
+        },
+        "dns": {
+            "ptr": "16.200.86.116.starhub.net.sg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\u0005\u0014;i{\ufffdk\u000b\ufffd\u001f\ufffd\ufffd\b\ufffd\u001d\\\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au,kex-strict-s-v00@openssh.com\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u0018\ufffd\u0006A"
+        }
+    }
+}

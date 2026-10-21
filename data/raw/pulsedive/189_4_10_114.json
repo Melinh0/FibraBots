@@ -1,0 +1,129 @@
+{
+    "qid": null,
+    "iid": 49871918,
+    "indicator": "189.4.10.114",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-08-03 08:49:32",
+    "stamp_updated": "2024-12-10 10:37:49",
+    "stamp_seen": "2024-11-20 03:54:27",
+    "stamp_probed": "2024-09-30 07:20:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-08-06 06:11:48"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-08-03 08:49:32"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-08-06 06:11:48"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-08-26 12:58:51"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "city": "Curitiba",
+            "asn": "AS28573",
+            "lat": "-25.4202",
+            "long": "-49.2762",
+            "org": "Claro NXT Telecomunicacoes Ltda",
+            "region": "Paran\ufffd"
+        },
+        "whois": {
+            "abuse-c": "GRSVI",
+            "aut-num": "AS28573",
+            "created": [
+                "20080512",
+                "20060906"
+            ],
+            "nic-hdl-br": "GRSVI",
+            "owner-c": "GRSVI",
+            "tech-c": "GRSVI",
+            "country": "BR",
+            "inetnum": "189.4.0.0\/14",
+            "inetrev": "189.4.0.0\/18",
+            "nserver": [
+                "ns8.virtua.com.br [lame - not published]",
+                "ns7.virtua.com.br"
+            ],
+            "responsible": "Suporte Redes",
+            "ownerid": "66.970.229\/0001-67",
+            "e-mail": "virtua@virtua.com.br",
+            "++email": "virtua@virtua.com.br",
+            "person": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "++registrant": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "changed": [
+                "20220615",
+                "20230704"
+            ],
+            "owner": "Claro NXT Telecomunicacoes Ltda",
+            "nslastaa": [
+                "20230430",
+                "20241018"
+            ],
+            "nsstat": [
+                "20241018 AA",
+                "20241018 TIMEOUT"
+            ]
+        },
+        "dns": {
+            "ptr": "bd040472.virtua.com.br"
+        }
+    }
+}

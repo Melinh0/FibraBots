@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 11192018,
+    "indicator": "185.220.101.88",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-04-13 02:42:25",
+    "stamp_updated": "2024-12-11 16:44:38",
+    "stamp_seen": "2024-12-10 22:30:21",
+    "stamp_probed": "2024-08-28 03:29:27",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55139743,
+                "indicator": "http:\/\/185.220.101.88\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-02-24 07:58:19"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-04-13 02:42:25"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-12 02:51:05"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-04-13 02:42:25"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2024-02-24 07:58:19"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "ZWIEBELFREUNDE",
+                "RELAYON-MNT",
+                "lir-de-renewablefreedom-1-MNT"
+            ],
+            "origin": "AS60729",
+            "route": "185.220.101.0\/24",
+            "mnt-ref": [
+                "ZWIEBELFREUNDE",
+                "RELAYON-MNT"
+            ],
+            "++email": "tor-abuse@cccs.de",
+            "abuse-c": "CSE48-RIPE",
+            "nic-hdl": "CSE48-RIPE",
+            "role": "CCC Stuttgart e.V.",
+            "admin-c": "CSE48-RIPE",
+            "org": "ORG-CA2327-RIPE",
+            "org-name": "CCC-Stuttgart-e-V",
+            "address": [
+                "c\/o Stefan Leibfarth",
+                "Gr\ufffdner Weg 32",
+                "72766 Reutlingen"
+            ],
+            "++registrant": "CSE48-RIPE",
+            "tech-c": "CSE48-RIPE",
+            "netname": "CCC-Stuttgart-e-V",
+            "abuse-mailbox": "tor-abuse@cccs.de",
+            "created": [
+                "2021-12-31T16:25:19Z",
+                "2021-12-31T16:22:18Z",
+                "2022-01-22T11:20:57Z",
+                "2021-12-31T16:26:33Z"
+            ],
+            "organisation": "ORG-CA2327-RIPE",
+            "++abuse": "tor-abuse@cccs.de",
+            "last-modified": [
+                "2021-12-31T16:26:33Z",
+                "2024-02-12T10:24:45Z",
+                "2023-11-04T17:28:26Z",
+                "2023-11-04T17:27:24Z"
+            ],
+            "inetnum": "185.220.101.64 - 185.220.101.95",
+            "++updated": [
+                "2024-02-12 10:24:45",
+                "2023-11-04 17:28:26",
+                "2023-11-04 17:27:24"
+            ],
+            "++registered": [
+                "2022-01-22 11:20:57",
+                "2021-12-31 16:26:33",
+                "2021-12-31 16:25:19",
+                "2021-12-31 16:22:18"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Brandenburg",
+            "city": "Brandenburg",
+            "asn": "AS60729",
+            "lat": "52.6171",
+            "long": "13.1207",
+            "org": "Stiftung Erneuerbare Freiheit"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "8017",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "x-your-address-is": "172.105.7.58",
+            "++target": "http:\/\/185.220.101.88\/",
+            "expires": "Thu, 17 Oct 2024 21:19:51 GMT",
+            "date": "Thu, 17 Oct 2024 20:59:51 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "++title": "This is a Tor Exit Router",
+            "charset": "utf-8"
+        },
+        "dns": {
+            "ptr": "tor-exit-88.cccs.de"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/72937e5b3e7ab787b89b0a9198791b91.jpeg"
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "qid": null,
+    "iid": 64043554,
+    "indicator": "37.58.18.237",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-06 05:52:21",
+    "stamp_updated": "2024-12-13 16:33:12",
+    "stamp_seen": "2024-11-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64045151,
+                "indicator": "http:\/\/37.58.18.237\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-10-12 12:42:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-06 05:52:21"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-10-12 12:42:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-07 20:55:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "TR",
+            "address": "Dora Telekom",
+            "admin-c": "TD1716-RIPE",
+            "created": [
+                "2008-12-04T14:18:08Z",
+                "2013-01-15T12:49:58Z",
+                "2020-02-24T09:09:36Z"
+            ],
+            "fax-no": "+90 216 330 40 33",
+            "mnt-by": [
+                "MNT-DORA",
+                "KRIWEB-SECURITY-MNT"
+            ],
+            "nic-hdl": "TD1716-RIPE",
+            "person": "Tonra Daylan",
+            "phone": "+90 532 111 36 72",
+            "tech-c": "TD1716-RIPE",
+            "last-modified": [
+                "2017-10-30T22:03:55Z",
+                "2022-08-05T08:55:52Z",
+                "2020-02-24T09:09:36Z"
+            ],
+            "origin": "AS48737",
+            "++registrant": [
+                "TD1716-RIPE",
+                "Tonra Daylan"
+            ],
+            "descr": "DT Iletisim Hizmetleri A.S.",
+            "netname": "DT-ILETISIM",
+            "route": "37.58.18.0\/24",
+            "inetnum": "37.58.18.0 - 37.58.18.255",
+            "++registered": [
+                "2013-01-15 12:49:58",
+                "2008-12-04 14:18:08",
+                "2020-02-24 09:09:36"
+            ],
+            "++updated": [
+                "2022-08-05 08:55:52",
+                "2017-10-30 22:03:55",
+                "2020-02-24 09:09:36"
+            ]
+        },
+        "geo": {
+            "countrycode": "TR",
+            "asn": "AS48737",
+            "lat": "41.0214",
+            "long": "28.9948",
+            "address": "Dora Telekom",
+            "org": "Dorabase Veri Merkezi Hizmetleri A.S.",
+            "country": "T\ufffdrkiye"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3121",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "date": "Sun, 06 Oct 2024 06:14:14 GMT",
+            "last-modified": "Tue, 20 Aug 2024 12:57:01 GMT",
+            "++target": "http:\/\/37.58.18.237\/",
+            "etag": "\"29af-6201cf6334999-gzip\""
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.5)\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/58cc99a82e02327e2d7cd1ba5aad749a.jpeg"
+        }
+    }
+}

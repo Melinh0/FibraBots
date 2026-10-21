@@ -1,0 +1,252 @@
+{
+    "qid": null,
+    "iid": 53696406,
+    "indicator": "146.59.80.142",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-02 05:14:25",
+    "stamp_updated": "2024-12-17 11:33:22",
+    "stamp_seen": "2024-12-16 17:22:42",
+    "stamp_probed": "2024-09-30 03:30:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64119512,
+                "indicator": "https:\/\/230volt.com.pl\/gb\/"
+            },
+            {
+                "iid": 53696572,
+                "indicator": "http:\/\/146.59.80.142\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-12-17 22:58:59"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-02 05:14:25"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-12-17 22:58:59"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-09 00:31:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Cart Functionality",
+            "Facebook Pixel",
+            "Google Analytics",
+            "Google Font API",
+            "jQuery",
+            "jQuery Migrate",
+            "jQuery UI",
+            "Let's Encrypt",
+            "Open Graph",
+            "PHP",
+            "PrestaShop",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "LEGACY",
+            "++abuse": "abuse@ovh.net",
+            "abuse-mailbox": "abuse@ovh.net",
+            "admin-c": [
+                "OK217-RIPE",
+                "OTC2-RIPE",
+                "OTC12-RIPE"
+            ],
+            "mnt-by": "OVH-MNT",
+            "origin": "AS16276",
+            "org-type": "OTHER",
+            "country": "PL",
+            "mnt-ref": "OVH-MNT",
+            "nic-hdl": "OTC12-RIPE",
+            "org": "ORG-OS23-RIPE",
+            "org-name": "OVH Sp. z o. o.",
+            "organisation": "ORG-OS23-RIPE",
+            "role": "OVH PL Technical Contact",
+            "tech-c": [
+                "GM84-RIPE",
+                "OTC12-RIPE"
+            ],
+            "++email": "abuse@ovh.net",
+            "geoloc": "52.225524 21.049737",
+            "address": [
+                "OVH Sp. z o. o.",
+                "ul. Swobodna 1",
+                "54-088 Wroclaw",
+                "50-088 Wroclaw",
+                "Poland"
+            ],
+            "created": [
+                "2009-09-16T16:09:56Z",
+                "2005-09-02T12:40:01Z",
+                "2020-06-09T16:08:19Z",
+                "2021-12-22T07:32:29Z"
+            ],
+            "++registrant": [
+                "OTC2-RIPE",
+                "OK217-RIPE",
+                "OTC12-RIPE"
+            ],
+            "netname": "VPS-WAW2",
+            "last-modified": [
+                "2019-08-08T07:47:57Z",
+                "2019-08-08T07:50:01Z",
+                "2020-06-09T16:08:19Z",
+                "2021-12-22T07:32:29Z"
+            ],
+            "route": "146.59.0.0\/17",
+            "inetnum": "146.59.80.0 - 146.59.80.255",
+            "++registered": [
+                "2005-09-02 12:40:01",
+                "2009-09-16 16:09:56",
+                "2020-06-09 16:08:19",
+                "2021-12-22 07:32:29"
+            ],
+            "++updated": [
+                "2019-08-08 07:47:57",
+                "2019-08-08 07:50:01",
+                "2020-06-09 16:08:19",
+                "2021-12-22 07:32:29"
+            ]
+        },
+        "geo": {
+            "country": [
+                "France",
+                "Poland"
+            ],
+            "countrycode": [
+                "FR",
+                "PL"
+            ],
+            "org": [
+                "OVH SAS",
+                "ORG-OS23-RIPE"
+            ],
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387",
+            "address": [
+                "ul. Swobodna 1",
+                "50-088 Wroclaw",
+                "Poland",
+                "OVH Sp. z o. o.",
+                "54-088 Wroclaw"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3138",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 24 Jan 2022 17:12:39 GMT",
+            "etag": "\"2aa6-5d6571361e561-gzip\"",
+            "++target": "http:\/\/146.59.80.142\/",
+            "date": "Mon, 18 Nov 2024 18:14:53 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "valid": "2024-09-19 20:36:50",
+            "expires": "2024-12-18 20:36:49",
+            "domain": "230volt.com.pl",
+            "fingerprint": "7e5a7c64657298e8009a53a51a2d9ff893c3a519946454a5f33e2facf65cef90",
+            "subject": "\/CN=230volt.com.pl"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "dns": {
+            "ptr": "vps-8abc05fb.vps.ovh.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/621cf837bdaf177c2899638a88377a69.jpeg"
+        },
+        "cookies": {
+            "prestashop-da6bb831d77bdc816d307f843d6c3629": "def5020031e6699a10d0572358835a7b1f00f328a5a9630072462ded979c85d792e7aa9aff58962889ed1e6a5db2a3d2be646c38dc5f0282023d7237331b315e46672b03484dca7efcf8d29c530ef89cabed6fe2eb07938a7d24e3329da6063742c7e7c1557204138c0e671b9f92a2c789f4e50109165e31152156371883d9cafc817d5d71bf20e2519efeb710f26db579578d5a8f0fe3fbc4b496f76f23ac3dc4e8538bbe156a7777c2714d5f2bc5845429da9b72131a96c2d7f2265b714f5aec70a83091251e09656c5cf159e926f00eedf86fb7",
+            "phpsessid": "deh0fd5tdo0l5cih8gb9hkhg0k",
+            "_ga": "GA1.1.567410911.1730011643",
+            "_ga_td3zscnqss": "GS1.1.1730011642.1.0.1730011642.0.0.0",
+            "_gcl_au": "1.1.145754238.1730011643",
+            "_fbp": "fb.2.1730011644415.17786266896950072",
+            "ajs_anonymous_id": "1d7a3b0e-5b71-497e-971b-65d586820df8"
+        }
+    }
+}

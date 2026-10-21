@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 64463247,
+    "indicator": "139.59.10.99",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-22 07:13:26",
+    "stamp_updated": "2024-12-10 00:43:23",
+    "stamp_seen": "2024-12-03 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64463325,
+                "indicator": "https:\/\/139.59.10.99\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-22 07:13:26"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-03 20:35:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "IN",
+                "ZZ"
+            ],
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": [
+                "noc@digitalocean.com",
+                "abuse@digitalocean.com"
+            ],
+            "abuse-mailbox": "abuse@digitalocean.com",
+            "address": [
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013"
+            ],
+            "admin-c": "DOIA2-AP",
+            "descr": "DigitalOcean, LLC",
+            "e-mail": [
+                "abuse@digitalocean.com",
+                "noc@digitalocean.com"
+            ],
+            "fax-no": "+1 646 397 8051",
+            "irt": "IRT-DIGITALOCEAN-AP",
+            "mnt-by": [
+                "MAINT-DIGITALOCEAN-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-DIGITALOCEAN-AP",
+            "netname": "DIGITALOCEAN-AP",
+            "nic-hdl": [
+                "DOIA2-AP",
+                "AD699-AP"
+            ],
+            "phone": [
+                "+1 646 397 8051",
+                "+000000000"
+            ],
+            "role": [
+                "Digital Ocean Inc administrator",
+                "ABUSE DIGITALOCEANAP"
+            ],
+            "tech-c": "DOIA2-AP",
+            "last-modified": [
+                "2015-04-02T20:27:52Z",
+                "2020-05-31T21:32:24Z",
+                "2024-06-03T15:11:43Z",
+                "2024-06-03T15:12:12Z"
+            ],
+            "++phone": "+000000000",
+            "++registrant": "DOIA2-AP",
+            "abuse-c": "AD699-AP",
+            "inetnum": "139.59.0.0 - 139.59.15.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-06-03 15:11:43",
+                "2024-06-03 15:12:12",
+                "2015-04-02 20:27:52"
+            ]
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "US",
+                "IN",
+                "ZZ"
+            ],
+            "asn": "AS14061",
+            "region": "Karnataka",
+            "city": "Bengaluru",
+            "address": [
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013"
+            ],
+            "org": "DIGITALOCEAN-ASN",
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "http": {
+            "server": "nginx",
+            "content-length": "114",
+            "++code": "404",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++status": "NOT FOUND",
+            "++content-type": "text\/html",
+            "date": "Tue, 22 Oct 2024 07:13:32 GMT",
+            "++redirect": "https:\/\/139.59.10.99\/",
+            "++target": "http:\/\/139.59.10.99\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "subject": "\/CN=erp.growthawk.com",
+            "valid": "2024-10-14 16:31:38",
+            "expires": "2025-01-12 16:31:37",
+            "fingerprint": "926d1774ff84da4f73562233990e6ff7dd8b968a5891b065b85c1c3126f3a341",
+            "domain": [
+                "erp.growthawk.com",
+                "erp.multark.com",
+                "erp.panorah.com"
+            ]
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8b0573000dc5783c38a9237dfc0a503b.jpeg"
+        }
+    }
+}

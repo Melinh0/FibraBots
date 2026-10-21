@@ -1,0 +1,212 @@
+{
+    "qid": null,
+    "iid": 61954649,
+    "indicator": "137.220.93.139",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-04 06:34:53",
+    "stamp_updated": "2024-10-07 15:52:48",
+    "stamp_seen": "2024-10-07 15:52:48",
+    "stamp_probed": "2024-10-01 13:49:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61954657,
+                "indicator": "http:\/\/137.220.93.139\/"
+            },
+            {
+                "iid": 61954651,
+                "indicator": "https:\/\/137.220.93.139\/ecc.jsp"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-04 06:34:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache Tomcat",
+            "Java"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-BCUBE"
+            ],
+            "country": "GB",
+            "address": [
+                "UNITED KINGDOM",
+                "London, W6 7NL",
+                "London",
+                "Hyperoptic Ltd",
+                "Hythe House",
+                "200 Shepherds Bush Road",
+                "W6 7JP",
+                "Kings House, 174 Hammersmith Road"
+            ],
+            "admin-c": "SA7920-RIPE",
+            "mnt-by": [
+                "MNT-BCUBE",
+                "RIPE-NCC-HM-MNT",
+                "SA68532-MNT"
+            ],
+            "mnt-routes": "MNT-BCUBE",
+            "nic-hdl": "SA7920-RIPE",
+            "origin": "AS56478",
+            "person": "Bojan Loncar",
+            "phone": [
+                "+44 333 332 1100",
+                "+44333 332 1144"
+            ],
+            "tech-c": "SA7920-RIPE",
+            "abuse-c": "SA31055-RIPE",
+            "fax-no": "+448082802390",
+            "org": "ORG-BL107-RIPE",
+            "org-name": "Hyperoptic Ltd",
+            "organisation": "ORG-BL107-RIPE",
+            "descr": "Hyperoptic Ltd",
+            "last-modified": [
+                "2017-10-30T22:14:00Z",
+                "2019-08-01T14:16:30Z",
+                "2020-03-25T13:00:23Z",
+                "2022-03-18T09:39:16Z"
+            ],
+            "created": [
+                "2011-06-13T09:58:23Z",
+                "2010-11-15T13:07:00Z",
+                "2019-08-01T14:16:30Z",
+                "2020-03-25T13:00:23Z"
+            ],
+            "++registrant": [
+                "SA7920-RIPE",
+                "Bojan Loncar"
+            ],
+            "netname": "UK-BCUBE-19900110",
+            "route": "137.220.92.0\/22",
+            "inetnum": "137.220.64.0 - 137.220.127.255",
+            "++updated": [
+                "2022-03-18 09:39:16",
+                "2017-10-30 22:14:00",
+                "2020-03-25 13:00:23"
+            ],
+            "++registered": [
+                "2010-11-15 13:07:00",
+                "2011-06-13 09:58:23",
+                "2019-08-01 14:16:30",
+                "2020-03-25 13:00:23"
+            ]
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "region": [
+                "Hammersmith and Fulham",
+                "England"
+            ],
+            "asn": "AS56478",
+            "org": [
+                "Hyperoptic Ltd",
+                "ORG-BL107-RIPE"
+            ],
+            "city": "Fulham",
+            "address": [
+                "London",
+                "UNITED KINGDOM",
+                "Hyperoptic Ltd",
+                "Hythe House",
+                "200 Shepherds Bush Road",
+                "London, W6 7NL",
+                "W6 7JP",
+                "Kings House, 174 Hammersmith Road"
+            ],
+            "lat": "51.477",
+            "long": "-0.1959"
+        },
+        "http": {
+            "content-type": "text\/html;charset=UTF-8",
+            "server": "Apache-Coyote\/1.1",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Mon, 16 Sep 2024 02:48:27 GMT",
+            "++redirect": "https:\/\/137.220.93.139\/ecc.jsp",
+            "++target": "http:\/\/137.220.93.139\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "++title": "ECC Express"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2028-08-04 02:58:16",
+            "org": "dahua",
+            "issuer": "\/C=86\/ST=zhejiang\/L=hangzhou\/O=dahua\/OU=dahua\/CN=dahua",
+            "valid": "2018-08-07 02:58:16",
+            "subject": "\/C=86\/ST=zhejiang\/L=hangzhou\/O=dahua\/OU=dahua\/CN=dahua",
+            "++subject": "dahua",
+            "fingerprint": "2fbdb09aa3ae8616c6f9bb88230835adf3a9b3e5ecc3cb884598e16642498a87"
+        },
+        "dns": {
+            "ptr": "93.220.137.139.bcube.co.uk"
+        },
+        "cookies": {
+            "jsessionid": "DF55724C24094250BDF58A49EDA42583"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/86bac92c88ea1902c6dc585359c46da4.jpeg"
+        }
+    }
+}

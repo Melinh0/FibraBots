@@ -1,0 +1,182 @@
+{
+    "qid": null,
+    "iid": 65541288,
+    "indicator": "171.244.40.20",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-03 10:14:23",
+    "stamp_updated": "2024-12-10 10:36:35",
+    "stamp_seen": "2024-12-03 10:14:46",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65541424,
+                "indicator": "http:\/\/171.244.40.20\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-03 10:14:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "asn": "AS38731",
+            "org": "CHT Compamy Ltd",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City"
+            ]
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VIETEL"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NDT9-AP"
+            ],
+            "admin-c": [
+                "TVT8-AP",
+                "NTTT1-AP"
+            ],
+            "e-mail": [
+                "soc@viettel.com.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "inetnum": "171.224.0.0 - 171.255.255.255",
+            "address": [
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": [
+                "TVT8-AP",
+                "NDT9-AP"
+            ],
+            "person": [
+                "Tran Van Thanh",
+                "Nguyen Dang Tiep"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "netname": "VIETTEL-VN",
+            "descr": [
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Viettel Group"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2017-11-11T09:43:21Z",
+                "2017-11-11T09:40:35Z",
+                "2018-08-21T09:57:13Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "TVT8-AP",
+                "Nguyen Dang Tiep",
+                "Tran Van Thanh"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "soc@viettel.com.vn"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-11 09:40:35",
+                "2018-08-21 09:57:13",
+                "2017-11-11 09:43:21"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3138",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "etag": "\"2aa6-628086bf940c4-gzip\"",
+            "last-modified": "Fri, 29 Nov 2024 07:48:16 GMT",
+            "++target": "http:\/\/171.244.40.20\/",
+            "date": "Tue, 03 Dec 2024 10:14:35 GMT"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "3306": "[\u0000\u0000\u0000\n8.0.40-0ubuntu0.20.04.1\u0000@\u0000\u0000\u0000A1%\u0018bL#\u0002\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\fAGb-J\u0006\u0007*m~\u0000caching_sha2_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/621cf837bdaf177c2899638a88377a69.jpeg"
+        }
+    }
+}

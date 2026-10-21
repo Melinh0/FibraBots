@@ -1,0 +1,184 @@
+{
+    "qid": null,
+    "iid": 65509079,
+    "indicator": "162.240.221.77",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-01 10:04:11",
+    "stamp_updated": "2024-12-03 10:13:59",
+    "stamp_seen": "2024-12-01 10:09:19",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65510010,
+                "indicator": "https:\/\/162.240.221.77\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-01 10:04:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Network Operations Center",
+            "orgnocname": "EIG Network Operations",
+            "orgnocphone": "+1-877-659-6181",
+            "parent": "NET162 (NET-162-0-0-0-0)",
+            "++registered": [
+                "2013-08-22 00:00:00",
+                "2006-08-08 00:00:00"
+            ],
+            "stateprov": "UT",
+            "++abuse": "abuse@bluehost.com",
+            "regdate": [
+                "2013-08-22",
+                "2006-08-08"
+            ],
+            "updated": [
+                "2013-08-22",
+                "2020-01-31"
+            ],
+            "city": "Provo",
+            "referralserver": "rwhois:\/\/rwhois.unifiedlayer.com:4321",
+            "address": "1958 South 950 East",
+            "++registrant": "Unified Layer",
+            "originas": "AS46606",
+            "organization": "Unified Layer (BLUEH-2)",
+            "postalcode": "84606",
+            "orgname": "Unified Layer",
+            "orgid": "BLUEH-2",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BLUEH-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/162.240.0.0"
+            ],
+            "netname": "UNIFIEDLAYER-NETWORK-16",
+            "nethandle": "NET-162-240-0-0-1",
+            "cidr": "162.240.0.0\/15",
+            "netrange": "162.240.0.0 - 162.241.255.255",
+            "orgnocemail": "eig-noc@endurance.com",
+            "++phone": "+1-877-659-6181",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ENO74-ARIN",
+            "orgtechhandle": "ENO74-ARIN",
+            "orgnochandle": "ENO74-ARIN",
+            "orgtechphone": "+1-877-659-6181",
+            "orgtechname": "EIG Network Operations",
+            "++email": "eig-noc@endurance.com",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/ENO74-ARIN",
+            "orgtechemail": "eig-noc@endurance.com",
+            "++updated": "2020-01-31 00:00:00",
+            "orgabuseemail": "abuse@bluehost.com",
+            "orgabusephone": "+1-801-765-9400",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC2320-ARIN",
+            "orgabusehandle": "NOC2320-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS46606",
+            "city": "Provo",
+            "zip": "84606",
+            "region": "UT",
+            "address": "1958 South 950 East",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "Unified Layer (BLUEH-2)",
+                "UNIFIEDLAYER-AS-1"
+            ]
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html;charset=ISO-8859-1",
+            "content-length": "623",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/162.240.221.77\/",
+            "date": "Sun, 01 Dec 2024 10:08:59 GMT",
+            "++target": "http:\/\/162.240.221.77\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2025-01-20 23:59:59",
+            "issuer": "\/C=US\/O=cPanel, LLC\/CN=cPanel ECC Domain Validation Secure Server CA 3",
+            "org": "cPanel ECC Domain Validation Secure Server CA 3",
+            "valid": "2024-10-22 00:00:00",
+            "domain": [
+                "shefameats.com",
+                "www.shefameats.com"
+            ],
+            "subject": "\/CN=shefameats.com",
+            "fingerprint": "7c2f949a23954c3762d0e0b9a2721c2e8af6f66a7f7011516f8fb827399f494f"
+        },
+        "meta": {
+            "++title": "Index of \/"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5d3290bfaa192a2c0080edcea5920141.jpeg"
+        }
+    }
+}

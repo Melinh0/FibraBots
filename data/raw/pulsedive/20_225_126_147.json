@@ -1,0 +1,251 @@
+{
+    "qid": null,
+    "iid": 46121111,
+    "indicator": "20.225.126.147",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-03-27 00:47:15",
+    "stamp_updated": "2024-12-10 10:38:27",
+    "stamp_seen": "2024-11-18 13:57:32",
+    "stamp_probed": "2024-08-28 22:51:48",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63861676,
+                "indicator": "https:\/\/20.225.126.147\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-04-05 04:28:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-27 00:47:15"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-04-05 04:28:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-04-01 09:40:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "Cufon",
+            "jQuery",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++abuse": "abuse@microsoft.com",
+            "++phone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "++registrant": "Microsoft Corporation",
+            "address": "One Microsoft Way",
+            "city": "Redmond",
+            "netname": "MSFT",
+            "orgabuseemail": "abuse@microsoft.com",
+            "orgabusehandle": "MAC74-ARIN",
+            "orgabusename": "Microsoft Abuse Contact",
+            "orgabusephone": "+1-425-882-8080",
+            "organization": "Microsoft Corporation (MSFT)",
+            "orgid": "MSFT",
+            "orgname": "Microsoft Corporation",
+            "orgtechemail": [
+                "IOC@microsoft.com",
+                "dabedard@microsoft.com",
+                "iphostmaster@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com"
+            ],
+            "orgtechhandle": [
+                "MRPD-ARIN",
+                "BEDAR6-ARIN",
+                "IPHOS5-ARIN",
+                "SINGH683-ARIN",
+                "KIMAV-ARIN"
+            ],
+            "orgtechname": [
+                "Microsoft Routing, Peering, and DNS",
+                "Bedard, Dawn",
+                "IPHostmaster, IPHostmaster",
+                "Singh, Prachi",
+                "Kim, Avery"
+            ],
+            "orgtechphone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "postalcode": "98052",
+            "stateprov": "WA",
+            "++registered": [
+                "2017-10-18 00:00:00",
+                "1998-07-10 00:00:00"
+            ],
+            "parent": "NET20 (NET-20-0-0-0-0)",
+            "regdate": [
+                "2017-10-18",
+                "1998-07-10"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MRPD-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BEDAR6-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPHOS5-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SINGH683-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/KIMAV-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MSFT",
+                "https:\/\/rdap.arin.net\/registry\/ip\/20.192.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MAC74-ARIN",
+            "netrange": "20.192.0.0 - 20.255.255.255",
+            "nethandle": "NET-20-192-0-0-1",
+            "cidr": "20.192.0.0\/10",
+            "++email": [
+                "iphostmaster@microsoft.com",
+                "dabedard@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com",
+                "ioc@microsoft.com"
+            ],
+            "updated": [
+                "2021-12-14",
+                "2024-03-18"
+            ],
+            "orgroutingname": "Chaturmohta, Somesh",
+            "orgroutinghandle": "CHATU3-ARIN",
+            "orgroutingemail": "someshch@microsoft.com",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/CHATU3-ARIN",
+            "orgroutingphone": "+1-425-882-8080",
+            "++updated": "2024-03-18 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Texas",
+                "WA"
+            ],
+            "city": [
+                "San Antonio",
+                "Redmond"
+            ],
+            "asn": "AS8075",
+            "zip": "98052",
+            "address": "One Microsoft Way",
+            "org": [
+                "Microsoft Corporation (MSFT)",
+                "MICROSOFT-CORP-MSN-AS-BLOCK"
+            ],
+            "lat": "29.4227",
+            "long": "-98.4927"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/20.225.126.147\/",
+            "++redirect": "https:\/\/20.225.126.147\/",
+            "date": "Wed, 02 Oct 2024 21:57:53 GMT",
+            "set-cookie": "sess=13ewwho48n15q1i9qhvd2tlgex6l7to0usrtbnl04lsjcwcxqoc4dfvp6aacmispdy35suso4lzaffnio92ikzsvitngtwn3hydl; path=\/; expires=Wed, 02-Oct-2024 22:18:03 GMT; secure"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "viewport": "width=device-width,initial-scale=1.0",
+            "referrer": "no-referrer",
+            "charset": "utf-8",
+            "keywords": "secret,password generator,share a secret,onetime",
+            "++title": "Share a secret - One Time",
+            "description": "Keep sensitive information out of your chat logs and email. Share a secret link that is available only one time."
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "expires": "2024-12-03 04:09:19",
+            "subject": "\/CN=secret.enuit.com",
+            "valid": "2024-09-04 04:09:20",
+            "domain": "secret.enuit.com",
+            "fingerprint": "dc6f8966171feafaff20602c5f223abf65759d270f461ed372a80ce935ccc15b"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8c1339fd6c2d81c5460527fffeccbf8a.jpeg"
+        },
+        "cookies": {
+            "sess": "13ewwho48n15q1i9qhvd2tlgex6l7to0usrtbnl04lsjcwcxqoc4dfvp6aacmispdy35suso4lzaffnio92ikzsvitngtwn3hydl"
+        }
+    }
+}

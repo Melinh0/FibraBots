@@ -1,0 +1,134 @@
+{
+    "qid": null,
+    "iid": 61928925,
+    "indicator": "186.208.159.8",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-02 20:17:18",
+    "stamp_updated": "2024-12-16 03:19:06",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": "2024-09-30 07:08:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-02 20:17:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-24 21:42:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio Grande do Sul",
+            "city": "Alegrete",
+            "asn": "AS262459",
+            "org": "Osirnet Info Telecom Ltda.",
+            "long": "-55.8792",
+            "lat": "-29.7709"
+        },
+        "whois": {
+            "++registered": "2012-04-11 00:00:00",
+            "country": "BR",
+            "abuse-c": "APAAQ",
+            "created": [
+                "20100317",
+                "20120411",
+                "20060304"
+            ],
+            "nic-hdl-br": [
+                "APAAQ",
+                "VML171"
+            ],
+            "person": [
+                "Aprimorar A & A",
+                "Vinicos Martins Leitzke"
+            ],
+            "aut-num": "AS262459",
+            "nserver": [
+                "dns2.osir.net.br",
+                "dns1.osir.net.br"
+            ],
+            "owner": "Osirnet Info Telecom Ltda.",
+            "owner-c": "VML171",
+            "ownerid": "10.773.501\/0001-64",
+            "responsible": "Vinicios Leitzke",
+            "tech-c": "VML171",
+            "changed": [
+                "20171114",
+                "20200609",
+                "20230228"
+            ],
+            "e-mail": [
+                "suporte@aprimorar.net.br",
+                "noc@osirnet.com.br"
+            ],
+            "inetnum": "186.208.144.0\/20",
+            "inetrev": "186.208.152.0\/21",
+            "++registrant": [
+                "Aprimorar A & A",
+                "Vinicos Martins Leitzke"
+            ],
+            "++abuse": "APAAQ",
+            "++email": [
+                "suporte@aprimorar.net.br",
+                "noc@osirnet.com.br"
+            ],
+            "nslastaa": "20240904",
+            "nsstat": "20240904 AA"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "186-208-159-8.osir.net.br"
+        }
+    }
+}

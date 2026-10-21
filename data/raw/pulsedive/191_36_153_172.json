@@ -1,0 +1,127 @@
+{
+    "qid": null,
+    "iid": 47230455,
+    "indicator": "191.36.153.172",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-16 03:22:57",
+    "stamp_updated": "2024-12-15 07:36:50",
+    "stamp_seen": "2024-12-15 07:36:50",
+    "stamp_probed": "2024-09-30 07:30:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-17 05:10:44"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-16 03:22:57"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-17 05:10:44"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-15 01:40:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723"
+        ],
+        "protocol": [
+            "PPTP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio Grande do Sul",
+            "asn": "AS263333",
+            "org": "VIPTURBO COMERCIO & SERVICOS DE INFORMATICA LTDA",
+            "long": "-54.3251",
+            "lat": "-30.3299",
+            "city": "S\ufffdo Gabriel"
+        },
+        "whois": {
+            "++registered": "2014-03-12 00:00:00",
+            "created": [
+                "20070228",
+                "20140312"
+            ],
+            "changed": [
+                "20140312",
+                "20160106"
+            ],
+            "abuse-c": "ININF6",
+            "responsible": "Emerson Brito Macedo",
+            "inetnum": "191.36.144.0\/20",
+            "owner-c": "ININF6",
+            "aut-num": "AS263333",
+            "tech-c": "ININF6",
+            "ownerid": "02.365.386\/0001-60",
+            "nic-hdl-br": "ININF6",
+            "inetrev": "191.36.144.0\/20",
+            "++abuse": "ININF6",
+            "nserver": [
+                "ns1.rr64.com.br",
+                "ns2.rr64.com.br"
+            ],
+            "person": "Infojet inform\ufffdtica",
+            "++registrant": "Infojet inform\ufffdtica",
+            "owner": "VIPTURBO COM\ufffdRCIO & SERVI\ufffdOS DE INFORM\ufffdTICA LTDA",
+            "nsstat": "20240816 AA",
+            "nslastaa": "20240816"
+        },
+        "dns": {
+            "ptr": "vipturbo.com.br"
+        },
+        "banners": {
+            "1723": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

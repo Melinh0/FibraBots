@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 14588779,
+    "indicator": "81.192.87.130",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-08-28 22:27:41",
+    "stamp_updated": "2024-12-11 10:46:15",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": "2024-09-30 20:08:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-10-02 22:55:48"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 08:15:35"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-10 09:14:28"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 23:56:44"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-10-02 22:55:48"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-18 08:07:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE-NONAUTH",
+                "RIPE # Filtered"
+            ],
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2003-09-17T15:35:46Z",
+                "2019-01-07T10:45:34Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2019-01-07 10:45:34",
+                "2003-09-17 15:35:46"
+            ],
+            "address": "see http:\/\/www.iana.org.",
+            "admin-c": "IANA1-RIPE",
+            "netname": "NON-RIPE-NCC-MANAGED-ADDRESS-BLOCK",
+            "nic-hdl": "IANA1-RIPE",
+            "role": "Internet Assigned Numbers Authority",
+            "status": "ALLOCATED UNSPECIFIED",
+            "tech-c": "IANA1-RIPE",
+            "last-modified": [
+                "2001-09-22T09:31:27Z",
+                "2018-09-04T15:39:08Z",
+                "2019-01-07T10:45:34Z"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-MNT",
+                "RIPE-NCC-HM-MNT",
+                "AS6713-MNT"
+            ],
+            "descr": [
+                "IPv4 address block not managed by the RIPE NCC",
+                "MAROC TELECOM Noeud Internet",
+                "Morocco-MAROC TELECOM- 6713"
+            ],
+            "inetnum": "81.192.0.0 - 81.192.255.255",
+            "origin": "AS6713",
+            "route": "81.192.0.0\/16",
+            "++registrant": "IANA1-RIPE",
+            "++updated": [
+                "2001-09-22 09:31:27",
+                "2019-01-07 10:45:34",
+                "2018-09-04 15:39:08"
+            ],
+            "country": "EU # Country is really world wide"
+        },
+        "geo": {
+            "country": "Morocco",
+            "countrycode": "MA",
+            "asn": "AS6713",
+            "city": "Casablanca",
+            "org": "Itissalat Al-MAGHRIB",
+            "region": [
+                "Casablanca-Settat",
+                "Casablanca"
+            ],
+            "lat": "33.5792",
+            "long": "-7.6133"
+        },
+        "dns": {
+            "ptr": "adsl-130-87-192-81.adsl2.iam.net.ma"
+        }
+    }
+}

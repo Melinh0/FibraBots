@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 52660938,
+    "indicator": "92.205.185.112",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-02 01:33:11",
+    "stamp_updated": "2024-12-14 11:33:40",
+    "stamp_seen": "2024-12-11 06:30:48",
+    "stamp_probed": "2024-08-25 08:14:53",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65790659,
+                "indicator": "https:\/\/justprint.ie\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-02 01:33:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8080",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Contact Form 7",
+            "Flickity",
+            "jQuery",
+            "jQuery Migrate",
+            "jsDelivr",
+            "Let's Encrypt",
+            "prettyPhoto",
+            "Priority Hints",
+            "reCAPTCHA",
+            "RSS",
+            "Twitter Emoji (Twemoji)",
+            "WooCommerce",
+            "WordPress"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "Host Europe GmbH",
+            "city": "Strasbourg",
+            "region": [
+                "Bas-Rhin",
+                "Grand Est"
+            ],
+            "lat": "48.5855",
+            "long": "7.7418",
+            "asn": "AS21499"
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "++code": "200",
+            "content-encoding": "br",
+            "content-length": "22334",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/92.205.185.112\/",
+            "date": "Fri, 18 Oct 2024 00:10:13 GMT",
+            "++redirect": "https:\/\/justprint.ie\/",
+            "link": "<https:\/\/justprint.ie\/wp-json\/>; rel=\"https:\/\/api.w.org\/\", <https:\/\/justprint.ie\/wp-json\/wp\/v2\/pages\/86>; rel=\"alternate\"; title=\"JSON\"; type=\"application\/json\", <https:\/\/justprint.ie\/>; rel=shortlink"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "robots": "max-image-preview:large",
+            "generator": [
+                "WooCommerce 7.8.2",
+                "WordPress 6.6.2"
+            ],
+            "origin-trial": "A\/kargTFyk8MR5ueravczef\/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9",
+            "msapplication-tileimage": "https:\/\/justprint.ie\/wp-content\/uploads\/2023\/07\/Logo_JustPrint_v3-180x180-1.png",
+            "++title": "JustPrint Print & Graphic Design \u2013 Print, Copy, Design, Business Cards, Flyers, Letterhead"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "expires": "2024-12-05 01:36:41",
+            "domain": [
+                "justprint.ie",
+                "www.justprint.ie"
+            ],
+            "fingerprint": "a40328d72c3c63ef869b34494e98c4dc6122188ddfb11600c3af9d6b9b3fd8de",
+            "valid": "2024-09-06 01:36:42",
+            "subject": "\/CN=www.justprint.ie"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 01:10. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000",
+            "3306": "^\u0000\u0000\u0000\ufffdj\u0004Host '172-105-7-58.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dns": {
+            "ptr": "112.185.205.92.host.secureserver.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/181c0a62a30a4e684a232965f86fcb9e.jpeg"
+        }
+    }
+}

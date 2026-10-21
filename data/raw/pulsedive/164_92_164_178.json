@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 65541187,
+    "indicator": "164.92.164.178",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-03 10:14:02",
+    "stamp_updated": "2024-12-10 10:36:15",
+    "stamp_seen": "2024-12-03 10:14:27",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65541299,
+                "indicator": "https:\/\/164.92.164.178\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-03 10:14:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Germany",
+                "United States"
+            ],
+            "countrycode": [
+                "DE",
+                "US"
+            ],
+            "city": [
+                "New York",
+                "Frankfurt am Main"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "NY",
+                "Hesse"
+            ],
+            "zip": "10013",
+            "long": "8.6842",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "50.1187"
+        },
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2020-05-04"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2020-05-04 00:00:00"
+            ],
+            "parent": "NET164 (NET-164-0-0-0-0)",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/164.92.64.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "netname": "DO-13",
+            "updated": [
+                "2020-05-04",
+                "2023-10-23"
+            ],
+            "nethandle": "NET-164-92-64-0-1",
+            "netrange": "164.92.64.0 - 164.92.255.255",
+            "cidr": "164.92.64.0\/18, 164.92.128.0\/17",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "http": {
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "last-modified": "Tue, 21 Apr 2020 14:09:01 GMT",
+            "etag": "W\/\"5e9efe7d-264\"",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/164.92.164.178\/",
+            "date": "Tue, 03 Dec 2024 10:14:13 GMT",
+            "++target": "http:\/\/164.92.164.178\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=crystecspas.com",
+            "valid": "2024-10-26 04:29:48",
+            "fingerprint": "05020060d9a956b90cdd7c6c503f0fc925f9aa9b4e34088d71936754ca0cc79b",
+            "expires": "2025-01-24 04:29:47",
+            "domain": [
+                "crystecspas.com",
+                "www.crystecspas.com"
+            ]
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

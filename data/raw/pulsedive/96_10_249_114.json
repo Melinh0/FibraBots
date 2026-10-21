@@ -1,0 +1,207 @@
+{
+    "qid": null,
+    "iid": 52199620,
+    "indicator": "96.10.249.114",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-16 23:57:17",
+    "stamp_updated": "2024-12-10 10:43:22",
+    "stamp_seen": "2024-11-18 16:45:17",
+    "stamp_probed": "2024-08-26 22:27:14",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-05 07:46:06"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-16 23:57:17"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-05 07:46:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-03 12:32:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "parent": "NET96 (NET-96-0-0-0-0)",
+            "netname": "RCMS",
+            "orgtechname": "IPAddressing",
+            "stateprov": "CO",
+            "++abuse": "abuse@charter.net",
+            "orgabuseemail": "abuse@charter.net",
+            "orgabusehandle": "ABUSE19-ARIN",
+            "orgtechhandle": "IPADD1-ARIN",
+            "cidr": "96.10.0.0\/15",
+            "nethandle": "NET-96-10-0-0-1",
+            "netrange": "96.10.0.0 - 96.11.255.255",
+            "regdate": [
+                "2007-07-24",
+                "2018-10-10"
+            ],
+            "city": "Greenwood Village",
+            "postalcode": "80111",
+            "updated": [
+                "2008-03-17",
+                "2022-09-14"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADD1-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/96.10.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC-3517"
+            ],
+            "++registered": "2018-10-10 00:00:00",
+            "orgname": "Charter Communications Inc",
+            "++registrant": "Charter Communications Inc",
+            "organization": "Charter Communications Inc (CC-3517)",
+            "orgid": "CC-3517",
+            "orgtechemail": "PublicIPAddressing@charter.com",
+            "++phone": "+1-866-248-7662",
+            "orgabusephone": "+1-877-777-2263",
+            "address": "6175 S. Willow Dr",
+            "orgtechphone": "+1-866-248-7662",
+            "++updated": "2022-09-14 00:00:00",
+            "++email": "publicipaddressing@charter.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS11426",
+            "region": [
+                "North Carolina",
+                "CO"
+            ],
+            "zip": "80111",
+            "city": [
+                "Raleigh",
+                "Greenwood Village"
+            ],
+            "lat": "35.8538",
+            "org": [
+                "Charter Communications Inc (CC-3517)",
+                "TWC-11426-CAROLINAS"
+            ],
+            "long": "-78.686",
+            "address": "6175 S. Willow Dr"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "date": "Mon, 26 Aug 2024 22:26:08 GMT",
+            "set-cookie": "PHPSESSID=0418f895a09ee20c993bc8947cafaad2; path=\/; secure; HttpOnly",
+            "last-modified": "Mon, 26 Aug 2024 22:26:08 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1"
+        },
+        "ssl": {
+            "version": "v3",
+            "++self-signed": "1",
+            "valid": "2020-02-04 13:42:08",
+            "expires": "2025-07-27 13:42:08",
+            "domain": "pfSense-5e3974af29e10",
+            "issuer": "\/O=pfSense webConfigurator Self-Signed Certificate\/CN=pfSense-5e3974af29e10",
+            "org": "pfSense-5e3974af29e10",
+            "subject": "\/O=pfSense webConfigurator Self-Signed Certificate\/CN=pfSense-5e3974af29e10"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.3\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/50afc36bdaa6fcc9e0d6a6a3f3139efd.jpeg"
+        },
+        "dns": {
+            "ptr": "syn-096-010-249-114.biz.spectrum.com"
+        },
+        "cookies": {
+            "phpsessid": "0418f895a09ee20c993bc8947cafaad2"
+        }
+    }
+}

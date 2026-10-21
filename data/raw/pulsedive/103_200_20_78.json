@@ -1,0 +1,214 @@
+{
+    "qid": null,
+    "iid": 39523024,
+    "indicator": "103.200.20.78",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-02 15:03:12",
+    "stamp_updated": "2024-12-10 10:32:32",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-28 07:38:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39523159,
+                "indicator": "http:\/\/103.200.20.78\/"
+            },
+            {
+                "iid": 63858611,
+                "indicator": "https:\/\/103.200.20.78\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-26 19:49:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-10-02 15:03:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "5432",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET",
+            "Microsoft HTTPAPI",
+            "Nginx",
+            "Sectigo",
+            "Ubuntu",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "asn": "AS135905",
+            "org": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "VIETNIX-VN",
+                "No 14, Song Thao street, 2 ward, Tan Binh district, Ho Chi Minh City"
+            ]
+        },
+        "whois": {
+            "country": "VN",
+            "inetnum": "103.200.20.0 - 103.200.23.255",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "mnt-routes": "MAINT-VN-VNNIC",
+            "netname": "VIETNIX-VN",
+            "nic-hdl": "LDT5-AP",
+            "person": "Luu Duc Tri",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "LDT5-AP"
+            ],
+            "origin": "AS45538",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-28-73082929"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "LDT5-AP"
+            ],
+            "phone": [
+                "+84-28-73082929",
+                "+84-24-35564944"
+            ],
+            "e-mail": [
+                "noc@vietnix.com.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "address": [
+                "No 14, Song Thao street, 2 ward, Tan Binh district, Ho Chi Minh City",
+                "Ha Noi, VietNam",
+                "VIETNIX-VN"
+            ],
+            "last-modified": [
+                "2015-12-03T06:29:21Z",
+                "2017-11-08T09:40:06Z",
+                "2017-11-20T04:03:55Z",
+                "2017-11-20T04:02:48Z"
+            ],
+            "route": "103.200.20.0\/23",
+            "descr": [
+                "TNIX-VN",
+                "No 14, Song Thao street, 2 ward, Tan Binh district, Ho Chi Minh City",
+                "VIETNIX Solution and Technology Joint Stock Company"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "LDT5-AP",
+                "Luu Duc Tri"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "noc@vietnix.com.vn"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-20 04:03:55",
+                "2017-11-20 04:02:48",
+                "2015-12-03 06:29:21"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "last-modified": "Tue, 21 Apr 2020 14:09:01 GMT",
+            "etag": "W\/\"5e9efe7d-264\"",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/103.200.20.78\/",
+            "++redirect": "https:\/\/103.200.20.78\/",
+            "date": "Sun, 06 Oct 2024 22:05:58 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "expires": "2025-07-30 23:59:59",
+            "valid": "2024-07-30 00:00:00",
+            "fingerprint": "0668b3b5394367a5180f898e09df3a40f1cc804f25b226eb8eb990d1fac8d35d",
+            "subject": "\/CN=chotaybac.vn",
+            "domain": [
+                "chotaybac.vn",
+                "www.chotaybac.vn"
+            ]
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

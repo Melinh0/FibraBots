@@ -1,0 +1,208 @@
+{
+    "qid": null,
+    "iid": 28116084,
+    "indicator": "107.189.29.103",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-09-22 10:44:35",
+    "stamp_updated": "2024-12-25 17:24:01",
+    "stamp_seen": "2024-12-25 17:24:01",
+    "stamp_probed": "2024-08-30 03:34:10",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65842005,
+                "indicator": "https:\/\/107.189.29.103\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-11-17 01:59:33"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-09-22 10:44:35"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-11-17 01:59:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "21",
+            "22",
+            "25",
+            "3389",
+            "443",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL",
+            "RDP",
+            "SMTP",
+            "SOCKS",
+            "SSH"
+        ],
+        "technology": [
+            "IIS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++phone": "+1-778-977-8246",
+            "++registrant": "FranTech Solutions",
+            "address": "1621 Central Ave",
+            "city": "Cheyenne",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": "FranTech Solutions (SYNDI-5)",
+            "orgid": "SYNDI-5",
+            "orgname": "FranTech Solutions",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": "82001",
+            "regdate": [
+                "2010-07-21",
+                "2014-04-17"
+            ],
+            "stateprov": "WY",
+            "++registered": [
+                "2014-04-17 00:00:00",
+                "2010-07-21 00:00:00"
+            ],
+            "parent": "NET107 (NET-107-0-0-0-0)",
+            "++abuse": "fdias@frantech.ca",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "cidr": "107.189.0.0\/19",
+            "nethandle": "NET-107-189-0-0-1",
+            "netname": "PONYNET-11",
+            "netrange": "107.189.0.0 - 107.189.31.255",
+            "updated": [
+                "2014-04-17",
+                "2024-11-25"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.189.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Luxembourg"
+            ],
+            "countrycode": [
+                "US",
+                "LU"
+            ],
+            "asn": "AS53667",
+            "city": [
+                "Cheyenne",
+                "Luxembourg"
+            ],
+            "zip": "82001",
+            "region": [
+                "Luxembourg",
+                "WY"
+            ],
+            "long": "6.1294",
+            "address": "1621 Central Ave",
+            "org": [
+                "FranTech Solutions (SYNDI-5)",
+                "PONYNET"
+            ],
+            "lat": "49.6113"
+        },
+        "http": {
+            "server": "Microsoft-IIS\/10.0",
+            "++code": "500",
+            "++status": "Internal Server Error",
+            "content-type": "text\/html; charset=utf-8",
+            "content-length": "2073",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/107.189.29.103\/",
+            "++redirect": "https:\/\/107.189.29.103\/",
+            "date": "Tue, 24 Dec 2024 17:29:57 GMT"
+        },
+        "banners": {
+            "21": "220 ProFTPD 1.2.10\n",
+            "3389": "\u0005\u0004\u0000\u0000",
+            "1080": "\u0005\u0004\u0000\u0000",
+            "25": "220 eac5cd035634 Python SMTP proxy version 0.3\n"
+        },
+        "ssl": {
+            "version": "v0",
+            "++subject": "None",
+            "valid": "2024-10-02 15:12:25",
+            "subject": "\/C=US\/ST=OR\/L=None\/O=None\/OU=None\/CN=0t6i84ve",
+            "fingerprint": "5072c75dd9cf2bdfed705be2ce1864238e97c442a4e9ac570d780818624a50e7",
+            "issuer": "\/C=US\/ST=OR\/L=None\/O=None\/OU=None\/CN=0t6i84ve",
+            "expires": "2026-10-02 15:12:25",
+            "org": "0t6i84ve"
+        },
+        "meta": {
+            "++title": "500 - Request did not return bytes"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1e1c296a476dcbc778a22e5981580776.jpeg"
+        }
+    }
+}

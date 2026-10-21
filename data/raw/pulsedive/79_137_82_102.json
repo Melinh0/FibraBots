@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 58035817,
+    "indicator": "79.137.82.102",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-06 04:09:01",
+    "stamp_updated": "2024-12-16 11:37:21",
+    "stamp_seen": "2024-12-15 07:55:55",
+    "stamp_probed": "2024-09-30 19:35:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-06 04:09:01"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-18 10:50:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "OVH-MNT"
+            ],
+            "++abuse": "abuse@ovh.net",
+            "abuse-mailbox": "abuse@ovh.net",
+            "address": [
+                "France",
+                "59100 Roubaix",
+                "2 rue Kellermann",
+                "59100",
+                "Roubaix",
+                "OVH SAS",
+                "FRANCE"
+            ],
+            "admin-c": [
+                "OK217-RIPE",
+                "OTC2-RIPE",
+                "GM84-RIPE"
+            ],
+            "country": "FR",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2004-04-17T11:23:17Z",
+                "2004-01-28T17:42:29Z",
+                "2017-01-16T14:29:13Z",
+                "2018-08-07T07:47:30Z"
+            ],
+            "mnt-by": [
+                "OVH-MNT",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "nic-hdl": [
+                "OK217-RIPE",
+                "OTC2-RIPE"
+            ],
+            "origin": "AS16276",
+            "person": "Octave Klaba",
+            "phone": [
+                "+33 9 74 53 13 23",
+                "+33972101007"
+            ],
+            "role": "OVH Technical Contact",
+            "tech-c": [
+                "SL10162-RIPE",
+                "GM84-RIPE",
+                "OTC2-RIPE"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2004-04-17 11:23:17",
+                "2004-01-28 17:42:29",
+                "2018-08-07 07:47:30",
+                "2017-01-16 14:29:13"
+            ],
+            "++phone": "+33972101007",
+            "abuse-c": "AR15333-RIPE",
+            "mnt-domains": "OVH-MNT",
+            "mnt-routes": "OVH-MNT",
+            "org": "ORG-OS3-RIPE",
+            "org-name": "OVH SAS",
+            "organisation": "ORG-OS3-RIPE",
+            "inetnum": "79.137.0.0 - 79.137.127.255",
+            "netname": "FR-OVH-20071018",
+            "++registrant": [
+                "Octave Klaba",
+                "OTC2-RIPE",
+                "OK217-RIPE",
+                "GM84-RIPE"
+            ],
+            "++email": "abuse@ovh.net",
+            "last-modified": [
+                "2014-09-05T10:47:15Z",
+                "2017-10-30T21:44:51Z",
+                "2017-01-16T14:29:13Z",
+                "2018-08-07T07:47:30Z",
+                "2020-12-16T10:24:51Z"
+            ],
+            "route": "79.137.0.0\/17",
+            "++updated": [
+                "2020-12-16 10:24:51",
+                "2014-09-05 10:47:15",
+                "2017-10-30 21:44:51",
+                "2018-08-07 07:47:30"
+            ]
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "dns": {
+            "ptr": "vps-926fddc5.vps.ovh.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

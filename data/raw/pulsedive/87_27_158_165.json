@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 59430723,
+    "indicator": "87.27.158.165",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-18 02:56:27",
+    "stamp_updated": "2024-12-11 11:54:41",
+    "stamp_seen": "2024-12-11 11:54:41",
+    "stamp_probed": "2024-09-30 20:28:21",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59434385,
+                "indicator": "https:\/\/87.27.158.165:8088\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-18 02:56:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3306",
+            "80",
+            "8088"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "IT",
+            "admin-c": "BS104-RIPE",
+            "descr": [
+                "INTERBUSINESS",
+                "Telecom Italia S.p.A. IPTV"
+            ],
+            "mnt-by": "TIWS-MNT",
+            "mnt-routes": [
+                "INTERB-MNT",
+                "TIWS-MNT"
+            ],
+            "nic-hdl": "BS104-RIPE",
+            "origin": "AS3269",
+            "person": "BBBEASYIP STAFF",
+            "phone": "+39 06 36881",
+            "tech-c": "BS104-RIPE",
+            "inetnum": "87.26.0.0 - 87.27.255.255",
+            "netname": "TELECOM-ADSL-IPTV",
+            "last-modified": [
+                "2017-05-17T12:02:50Z",
+                "2007-01-10T13:46:30Z",
+                "2019-01-15T13:58:43Z"
+            ],
+            "route": "87.27.0.0\/16",
+            "created": [
+                "2017-05-17T12:02:50Z",
+                "2007-01-10T13:46:30Z",
+                "2001-10-19T12:23:31Z"
+            ],
+            "address": [
+                "Via Oriolo Romano 240",
+                "00189 Roma",
+                "Italy"
+            ],
+            "++registrant": [
+                "BS104-RIPE",
+                "BBBEASYIP STAFF"
+            ],
+            "mnt-lower": "TIWS-MNT",
+            "++updated": [
+                "2019-01-15 13:58:43",
+                "2017-05-17 12:02:50"
+            ],
+            "++registered": [
+                "2001-10-19 12:23:31",
+                "2007-01-10 13:46:30",
+                "2017-05-17 12:02:50"
+            ]
+        },
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "region": [
+                "Veneto",
+                "Padua"
+            ],
+            "asn": "AS3269",
+            "city": "Montagnana",
+            "lat": "45.2326",
+            "long": "11.4668",
+            "org": "TIM"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-encoding": "gzip",
+            "content-length": "6471",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Boa\/0.94.101wk",
+            "last-modified": "Wed, 27 Mar 2024 08:47:40 GMT",
+            "date": "Sat, 07 Sep 2024 05:19:08 GMT"
+        },
+        "ssl": {
+            "domain": "MyPBX",
+            "version": "v3",
+            "valid": "2018-05-18 02:53:20",
+            "expires": "2028-05-15 02:53:20",
+            "org": "PBX",
+            "subject": "\/C=CN\/ST=Fujian\/L=XiaMen\/O=Yeastar Information Technology Co., Ltd.\/OU=Software\/CN=MyPBX\/2.5.4.41=MyPBX\/E=info@yeastar.com",
+            "issuer": "\/C=CN\/ST=Fujian\/L=XiaMen\/O=Yeastar Information Technology Co., Ltd.\/OU=Software\/CN=PBX\/2.5.4.41=PBX\/E=info@yeastar.com"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cf0ca3192a9f0412f784a508cac5f2df.jpeg"
+        },
+        "dns": {
+            "ptr": "host-87-27-158-165.business.telecomitalia.it"
+        },
+        "banners": {
+            "3306": "F\u0000\u0000\u0000\ufffdj\u0004Host '172.234.253.4' is not allowed to connect to this MySQL server"
+        }
+    }
+}

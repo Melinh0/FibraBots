@@ -1,0 +1,275 @@
+{
+    "qid": null,
+    "iid": 49335604,
+    "indicator": "12.156.67.18",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-07-20 00:54:07",
+    "stamp_updated": "2024-12-11 10:38:44",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-07 07:44:57",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 49335631,
+                "indicator": "http:\/\/12.156.67.18\/"
+            },
+            {
+                "iid": 64115531,
+                "indicator": "https:\/\/12.156.67.18\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-09-22 14:17:33"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-20 00:54:07"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-09-22 14:17:33"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-22 23:04:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "NETBIOS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Analytics",
+            "Java",
+            "jQuery",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": [
+                "NJ",
+                "CA"
+            ],
+            "++abuse": "abuse@att.net",
+            "orgabuseemail": "abuse@att.net",
+            "orgtechphone": [
+                "+1-888-510-5545",
+                "+1-888-613-6330",
+                "+1-888-876-2382"
+            ],
+            "++email": [
+                "help@ip.att.net",
+                "rm-ipspecialist@att.com",
+                "ipadmin@semail.att.com"
+            ],
+            "++registrant": "AT&T Services, Inc.",
+            "orgabusehandle": "ATTAB-ARIN",
+            "orgabusename": "ATT Abuse",
+            "orgname": "AT&T Services, Inc.",
+            "orgtechemail": [
+                "help@ip.att.net",
+                "rm-ipspecialist@att.com",
+                "ipadmin@semail.att.com"
+            ],
+            "orgtechhandle": [
+                "IPSWI-ARIN",
+                "ICC-ARIN",
+                "ZS44-ARIN"
+            ],
+            "orgtechname": [
+                "IP SWIP",
+                "IP Team",
+                "IPAdmin-ATT Internet Services"
+            ],
+            "rtechemail": "addrmgt@qsun.att.com",
+            "rtechhandle": "IAA17-ARIN",
+            "rtechname": "IP Address Administration",
+            "rtechphone": "+1-732-420-2071",
+            "address": [
+                "200 S. Laurel AVE.",
+                "3636 MURILLO AV"
+            ],
+            "city": [
+                "MIDDLETOWN",
+                "SJ"
+            ],
+            "parent": [
+                "ATT (NET-12-0-0-0-1)",
+                "NET12 (NET-12-0-0-0-0)"
+            ],
+            "postalcode": [
+                "07748",
+                "95148"
+            ],
+            "cidr": [
+                "12.0.0.0\/8",
+                "12.156.67.16\/28"
+            ],
+            "nethandle": [
+                "NET-12-0-0-0-1",
+                "NET-12-156-67-16-1"
+            ],
+            "netname": [
+                "ATT",
+                "SIKH-GUR92-67-16"
+            ],
+            "netrange": [
+                "12.0.0.0 - 12.255.255.255",
+                "12.156.67.16 - 12.156.67.31"
+            ],
+            "organization": "AT&T Services, Inc. (ATTW-Z)",
+            "orgid": "ATTW-Z",
+            "regdate": [
+                "2009-12-18",
+                "1983-08-23",
+                "2023-07-07"
+            ],
+            "orgabusephone": "+1-999-999-9999",
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPSWI-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/ICC-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/ZS44-ARIN"
+            ],
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IAA17-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/ATTW-Z",
+                "https:\/\/rdap.arin.net\/registry\/ip\/12.0.0.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/12.156.67.16",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C09776042"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ATTAB-ARIN",
+            "++phone": "+1-732-420-2071",
+            "orgroutingname": "Routing POC",
+            "custname": "SIKH GURDWARA-SJ",
+            "orgroutingphone": "+1-999-999-9999",
+            "updated": [
+                "2023-07-07",
+                "2024-05-28",
+                "2024-07-30"
+            ],
+            "++registered": "2023-07-07 00:00:00",
+            "customer": "SIKH GURDWARA-SJ (C09776042)",
+            "orgroutingemail": "routing@cbbtier3.att.net",
+            "orgroutinghandle": "ROUTI59-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ROUTI59-ARIN",
+            "++updated": "2024-07-30 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "California",
+            "asn": "AS7018",
+            "city": "Oakland",
+            "lat": "37.8075",
+            "long": "-122.2644",
+            "org": "ATT-INTERNET4"
+        },
+        "http": {
+            "content-type": "text\/html;charset=ISO-8859-1",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/12.156.67.18\/",
+            "++redirect": "https:\/\/12.156.67.18\/",
+            "date": "Sat, 12 Oct 2024 12:58:42 GMT",
+            "set-cookie": "JSESSIONID=5D98F415946CF244991ED456B240A2A0; Path=\/; HttpOnly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=EmulateIE7",
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "Sikh Gurdwara Sahib - San Jose, CA (Official Website)"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=sanjosegurdwara.org",
+            "domain": [
+                "sanjosegurdwara.org",
+                "www.sanjosegurdwara.org"
+            ],
+            "valid": "2024-10-11 03:22:01",
+            "expires": "2025-01-09 03:22:00",
+            "fingerprint": "95e2c0ba49d1629f963071baf04ff0f6e70fa3c7c67c87bc959173ac0e4af72c"
+        },
+        "cookies": {
+            "__utmt": "1",
+            "__utmc": "253306505",
+            "__utmb": "253306505.1.10.1728737924",
+            "jsessionid": "5D98F415946CF244991ED456B240A2A0",
+            "__utma": "253306505.28901238.1728737924.1728737924.1728737924.1",
+            "__utmz": "253306505.1728737924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "139": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/84705954bd7e8e1352f6b83c2f81aa11.jpeg"
+        }
+    }
+}

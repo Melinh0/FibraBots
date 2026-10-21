@@ -1,0 +1,117 @@
+{
+    "qid": null,
+    "iid": 46513369,
+    "indicator": "177.12.2.75",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-04-14 01:45:07",
+    "stamp_updated": "2024-12-10 10:36:48",
+    "stamp_seen": "2024-10-23 10:07:13",
+    "stamp_probed": "2024-09-30 06:08:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-06-13 06:29:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-14 01:45:07"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-06-13 06:29:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-04-16 10:35:29"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio de Janeiro",
+            "asn": "AS28665",
+            "org": "Predlink Rede de Telecomuniccoes Ltda",
+            "city": "Niter\ufffdi",
+            "lat": "-22.8905",
+            "long": "-43.1072"
+        },
+        "whois": {
+            "++registered": "2010-12-03 00:00:00",
+            "abuse-c": "PIL368",
+            "aut-num": "AS28665",
+            "created": [
+                "20021104",
+                "20101203"
+            ],
+            "nic-hdl-br": "PIL368",
+            "nserver": [
+                "ns2.predialnet.com.br",
+                "ns1.predialnet.com.br"
+            ],
+            "owner-c": "PIL368",
+            "ownerid": "05.980.171\/0001-48",
+            "responsible": "Renato Teixeira Junger",
+            "tech-c": "PIL368",
+            "inetnum": "177.12.0.0\/18",
+            "changed": [
+                "20170925",
+                "20201020"
+            ],
+            "inetrev": "177.12.2.0\/24",
+            "++abuse": "PIL368",
+            "person": "PredialNET Inform\ufffdtica LTDA.",
+            "++registrant": "PredialNET Inform\ufffdtica LTDA.",
+            "owner": "Predlink Rede de Telecomunic\ufffd\ufffdes Ltda",
+            "nslastaa": "20240823",
+            "nsstat": "20240823 AA"
+        },
+        "dns": {
+            "ptr": "fttx.cable-17712275.predialnet.com.br"
+        }
+    }
+}

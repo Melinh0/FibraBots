@@ -1,0 +1,111 @@
+{
+    "qid": null,
+    "iid": 29958357,
+    "indicator": "185.223.93.22",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-11-30 04:06:51",
+    "stamp_updated": "2024-12-14 11:28:01",
+    "stamp_seen": "2021-11-30 05:41:54",
+    "stamp_probed": "2021-11-30 05:41:54",
+    "stamp_retired": "2022-03-02 22:26:13",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-30 04:06:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "OpenSSL",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "city": "New York",
+            "region": "New York",
+            "asn": "AS14576",
+            "zip": "10023",
+            "country": "United States of America",
+            "lat": "40.782",
+            "long": "-73.9953",
+            "org": "HOSTING-SOLUTIONS",
+            "isp": "HOSTING-SOLUTIONS"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "vary": "Accept-Encoding,User-Agent",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "1947",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.48 (Unix) OpenSSL\/1.0.2k-fips",
+            "etag": "\"13cd-5c78c8ff37800-gzip\"",
+            "last-modified": "Tue, 20 Jul 2021 11:43:28 GMT",
+            "date": "Tue, 30 Nov 2021 05:32:34 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 00:32. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "25": "220 DS8621684.clientshostname.com ESMTP Postfix\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/fb049f1c0143b5ff5af9d384daa269c7.jpeg"
+        }
+    }
+}

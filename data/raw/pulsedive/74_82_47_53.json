@@ -1,0 +1,105 @@
+{
+    "qid": null,
+    "iid": 35166062,
+    "indicator": "74.82.47.53",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-05-18 03:48:49",
+    "stamp_updated": "2023-10-29 14:00:31",
+    "stamp_seen": "2023-07-28 14:31:26",
+    "stamp_probed": "2023-07-28 14:31:26",
+    "stamp_retired": "2023-10-29 14:00:31",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-13 00:34:28"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 509024,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 03:48:49",
+            "stamp_updated": "2022-05-18 03:48:49"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Apache",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "region": "Utah",
+            "asn": "AS6939",
+            "country": "United States of America",
+            "long": "-111.8404",
+            "org": "HURRICANE",
+            "isp": "HURRICANE",
+            "lat": "39.6906",
+            "zip": "84648",
+            "city": "Nephi"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "2933",
+            "++code": "200",
+            "++status": "OK",
+            "server": "lighttpd\/1.4.55",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 15 Feb 2023 18:09:40 GMT",
+            "etag": "\"812607623\"",
+            "date": "Wed, 26 Jul 2023 16:11:26 GMT"
+        },
+        "dns": {
+            "ptr": "scan-12k.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/084e73c518ac5d989677df9fab569fa1.jpeg"
+        }
+    }
+}

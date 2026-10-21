@@ -1,0 +1,83 @@
+{
+    "qid": null,
+    "iid": 47558778,
+    "indicator": "185.209.223.49",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-05-28 03:56:20",
+    "stamp_updated": "2024-12-09 10:34:03",
+    "stamp_seen": "2023-05-28 03:56:24",
+    "stamp_probed": "2023-05-28 03:56:24",
+    "stamp_retired": "2023-08-29 07:32:53",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-28 03:56:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22"
+        ],
+        "protocol": [
+            "FTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "city": "D\u00fcsseldorf",
+            "asn": "AS51167",
+            "isp": "Contabo GmbH",
+            "org": "Contabo GmbH",
+            "zip": "40213",
+            "region": "North Rhine-Westphalia",
+            "lat": "51.2184",
+            "long": "6.7734"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1\n",
+            "21": "220 ProFTPD Server (Debian) [::ffff:185.209.223.49]\n"
+        },
+        "dns": {
+            "ptr": "vmd112847.contaboserver.net"
+        }
+    }
+}

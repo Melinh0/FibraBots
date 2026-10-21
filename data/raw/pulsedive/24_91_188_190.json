@@ -1,0 +1,73 @@
+{
+    "qid": null,
+    "iid": 65723074,
+    "indicator": "24.91.188.190",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-09 10:36:34",
+    "stamp_updated": "2024-12-15 11:34:20",
+    "stamp_seen": "2024-12-09 10:52:11",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 10:36:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "22"
+        ],
+        "protocol": [
+            "OpenVPN",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Massachusetts",
+            "asn": "AS7922",
+            "city": "Newton",
+            "org": "COMCAST-7922",
+            "lat": "42.337",
+            "long": "-71.2092"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n",
+            "1194": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

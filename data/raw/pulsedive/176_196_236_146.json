@@ -1,0 +1,73 @@
+{
+    "qid": null,
+    "iid": 59905863,
+    "indicator": "176.196.236.146",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-04 15:23:47",
+    "stamp_updated": "2024-12-15 11:31:12",
+    "stamp_seen": "2024-12-14 20:22:26",
+    "stamp_probed": "2024-09-07 07:55:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-04 15:23:47"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-14 01:12:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS39927",
+            "city": "Kemerovo",
+            "region": "Kemerovo Oblast",
+            "org": "E-Light-Telecom Ltd.",
+            "long": "86.0805",
+            "lat": "55.3662",
+            "country": "Russia"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        }
+    }
+}

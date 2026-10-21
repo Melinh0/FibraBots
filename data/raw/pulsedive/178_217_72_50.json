@@ -1,0 +1,199 @@
+{
+    "qid": null,
+    "iid": 53920716,
+    "indicator": "178.217.72.50",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-06 23:22:33",
+    "stamp_updated": "2024-12-11 10:41:18",
+    "stamp_seen": "2024-12-06 00:00:00",
+    "stamp_probed": "2024-09-30 06:13:29",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 53920858,
+                "indicator": "http:\/\/178.217.72.50\/"
+            },
+            {
+                "iid": 64120849,
+                "indicator": "https:\/\/178.217.72.50\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-20 18:37:29"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-06 23:22:33"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-20 18:37:30"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-22 11:52:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "ExtJS",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "RU",
+            "org-type": "OTHER",
+            "status": "ASSIGNED PI",
+            "mnt-by": [
+                "RIPE-NCC-END-MNT",
+                "MNT-OSS-LTD"
+            ],
+            "mnt-routes": "MNT-OSS-LTD",
+            "last-modified": [
+                "2010-07-07T06:55:43Z",
+                "2018-08-29T07:23:06Z",
+                "2018-08-29T07:27:12Z",
+                "2022-12-01T16:41:09Z"
+            ],
+            "route": "178.217.72.0\/21",
+            "org-name": "OSS Ltd",
+            "abuse-c": "AC30987-RIPE",
+            "mnt-ref": "MNT-OSS-LTD",
+            "inetnum": "178.217.72.0 - 178.217.79.255",
+            "sponsoring-org": "ORG-ZA74-RIPE",
+            "address": "Republic of Abkhazia, Sukhum, Eshba str., 183",
+            "mnt-domains": "MNT-OSS-LTD",
+            "netname": "OSS-LTD-NET",
+            "organisation": "ORG-OL60-RIPE",
+            "org": "ORG-OL60-RIPE",
+            "origin": "AS51112",
+            "descr": "OSS NETS",
+            "created": [
+                "2010-05-19T13:47:26Z",
+                "2010-03-04T10:05:52Z",
+                "2010-07-07T06:55:43Z",
+                "2018-08-29T07:22:36Z"
+            ],
+            "nic-hdl": "AO5366-RIPE",
+            "tech-c": "AO5366-RIPE",
+            "person": "Armen Oganesyan",
+            "++registrant": [
+                "AO5366-RIPE",
+                "Armen Oganesyan"
+            ],
+            "phone": "+7 940 998 01 52",
+            "admin-c": "AO5366-RIPE",
+            "++updated": [
+                "2022-12-01 16:41:09",
+                "2018-08-29 07:27:12",
+                "2010-07-07 06:55:43"
+            ],
+            "++registered": [
+                "2010-05-19 13:47:26",
+                "2010-03-04 10:05:52",
+                "2018-08-29 07:22:36",
+                "2010-07-07 06:55:43"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS51112",
+            "org": "OSS Ltd",
+            "country": "Russia"
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=20",
+            "content-length": "308",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/178.217.72.50\/",
+            "++redirect": "https:\/\/178.217.72.50\/",
+            "date": "Sat, 12 Oct 2024 14:03:08 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "ARES",
+            "issuer": "\/C=RU\/ST=Spb\/L=Spb\/O=ARES\/OU=iptv\/CN=iptvportal.ru\/E=direct@iptvportal.ru",
+            "expires": "2031-12-11 19:17:49",
+            "valid": "2021-12-13 19:17:49",
+            "org": "iptvportal.ru",
+            "subject": "\/C=RU\/ST=Spb\/L=Spb\/O=ARES\/OU=iptv\/CN=iptvportal.ru\/E=direct@iptvportal.ru",
+            "fingerprint": "e4d019999bf4c5d5bd9e196012237ab191ef02936814a784f9b82d2a2fd1c578"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

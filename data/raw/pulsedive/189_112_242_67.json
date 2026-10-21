@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 56379428,
+    "indicator": "189.112.242.67",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-22 01:38:00",
+    "stamp_updated": "2024-12-10 10:37:48",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 07:19:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-22 01:38:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-10 00:57:10"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "25",
+            "3306",
+            "465"
+        ],
+        "protocol": [
+            "MySQL",
+            "SMTP",
+            "SMTPS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Santa Catarina",
+            "asn": "AS16735",
+            "org": "ALGAR TELECOM SA",
+            "lat": "-26.9771",
+            "long": "-48.7741",
+            "city": "Itaja\ufffd"
+        },
+        "whois": {
+            "responsible": "Diretoria de Planejamento e Tecnologia",
+            "country": "BR",
+            "abuse-c": "CST87",
+            "changed": [
+                "20141114",
+                "20130307",
+                "20240613"
+            ],
+            "created": [
+                "20051208",
+                "20080422",
+                "20060417",
+                "20140820"
+            ],
+            "nic-hdl-br": [
+                "CST87",
+                "ALTSA49",
+                "CNI15"
+            ],
+            "nserver": [
+                "nssar.ctbc.com.br",
+                "nspar.ctbc.com.br"
+            ],
+            "owner": "ALGAR TELECOM S\/A",
+            "owner-c": "ALTSA49",
+            "ownerid": "71.208.516\/0001-74",
+            "person": [
+                "Computer Security Incident Response Team",
+                "ALGAR TELECOM S\/A",
+                "CTBC - N\ufffdcleo de Aministra\ufffd\ufffdo de IPs"
+            ],
+            "aut-num": "AS16735",
+            "inetnum": "189.112.0.0\/16",
+            "inetrev": "189.112.224.0\/19",
+            "tech-c": "CNI15",
+            "e-mail": [
+                "abuse@algartelecom.com.br",
+                "security@algartelecom.com.br",
+                "registrobr@algartelecom.com.br"
+            ],
+            "++registrant": [
+                "ALGAR TELECOM S\/A",
+                "Computer Security Incident Response Team",
+                "CTBC - N\ufffdcleo de Aministra\ufffd\ufffdo de IPs"
+            ],
+            "++email": [
+                "registrobr@algartelecom.com.br",
+                "security@algartelecom.com.br",
+                "abuse@algartelecom.com.br"
+            ],
+            "nslastaa": "20241018",
+            "nsstat": "20241018 AA"
+        },
+        "dns": {
+            "ptr": "189-112-242-067.static.ctbcnetsuper.com.br"
+        },
+        "banners": {
+            "465": "\u0005\u0004\u0000\u0000",
+            "3306": "F\u0000\u0000\u0000\ufffdj\u0004Host '172.234.96.51' is not allowed to connect to this MySQL server",
+            "25": "220 localhost ESMTP Exim 4.92.3 Sat, 12 Oct 2024 11:32:35 -0300\n"
+        }
+    }
+}

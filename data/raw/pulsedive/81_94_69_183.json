@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 45374960,
+    "indicator": "81.94.69.183",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-03-05 04:12:38",
+    "stamp_updated": "2024-12-16 17:56:22",
+    "stamp_seen": "2024-12-16 17:56:22",
+    "stamp_probed": "2024-08-17 01:35:07",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-05 04:12:38"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-03-24 09:05:35"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "TEKNIKPARK-MNT"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "SE",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "TEKNIKPARK-MNT"
+            ],
+            "org-name": "Soderhamn NARA AB",
+            "admin-c": [
+                "PW434-RIPE",
+                "SODT1-RIPE",
+                "SNA80-RIPE",
+                "MA22113-RIPE"
+            ],
+            "abuse-c": "SNA80-RIPE",
+            "netname": "TEKNIKPARK",
+            "org": "ORG-STA2-RIPE",
+            "organisation": "ORG-STA2-RIPE",
+            "++phone": "+4627076610",
+            "origin": "AS28847",
+            "descr": [
+                "SE-TEKNIKPARK",
+                "Soderhamn NARA",
+                "Soderhamn"
+            ],
+            "phone": "+4627076610",
+            "created": [
+                "2004-04-17T12:04:56Z",
+                "2014-01-27T14:53:48Z",
+                "2004-02-19T10:05:32Z",
+                "2013-02-18T11:26:10Z"
+            ],
+            "fax-no": "+4627076605",
+            "route": "81.94.64.0\/19",
+            "address": [
+                "Box 94",
+                "826 22",
+                "Soderhamn",
+                "SE-826 22 Soderhamn",
+                "SWEDEN"
+            ],
+            "last-modified": [
+                "2014-02-25T07:38:15Z",
+                "2021-12-08T08:09:53Z",
+                "2021-12-08T08:36:49Z",
+                "2021-12-08T08:30:04Z"
+            ],
+            "role": "Soderhamn NARA AB",
+            "tech-c": [
+                "SNA80-RIPE",
+                "MA22113-RIPE"
+            ],
+            "nic-hdl": "SNA80-RIPE",
+            "++registrant": [
+                "SODT1-RIPE",
+                "SNA80-RIPE",
+                "PW434-RIPE",
+                "MA22113-RIPE"
+            ],
+            "++abuse": "abuse@soderhamnnara.se",
+            "abuse-mailbox": "abuse@soderhamnnara.se",
+            "++email": "abuse@soderhamnnara.se",
+            "inetnum": "81.94.69.0 - 81.94.69.255",
+            "++updated": [
+                "2021-12-08 08:36:49",
+                "2014-02-25 07:38:15",
+                "2021-12-08 08:09:53"
+            ],
+            "++registered": [
+                "2014-01-27 14:53:48",
+                "2004-02-19 10:05:32",
+                "2004-04-17 12:04:56"
+            ]
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS28847",
+            "org": [
+                "Soderhamn NARA AB",
+                "ORG-STA2-RIPE"
+            ],
+            "address": [
+                "SWEDEN",
+                "Box 94",
+                "826 22",
+                "Soderhamn",
+                "SE-826 22 Soderhamn"
+            ],
+            "lat": "61.3048",
+            "long": "17.0669",
+            "city": "S\ufffdderhamn",
+            "region": "G\ufffdvleborg County"
+        },
+        "dns": {
+            "ptr": "183-69.soderhamn.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2020.81\n\u0000\u0000\u0001\ufffd\n\u0014\ufffdha\ufffd\ufffd\u0196\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0222\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000<ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-256,ssh-rsa,ssh-dss\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b@\bb\u0000j\ufffd5P{"
+        }
+    }
+}

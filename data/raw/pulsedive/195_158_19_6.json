@@ -1,0 +1,234 @@
+{
+    "qid": null,
+    "iid": 30246216,
+    "indicator": "195.158.19.6",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-12-08 12:28:14",
+    "stamp_updated": "2024-12-15 11:32:34",
+    "stamp_seen": "2024-12-15 07:38:29",
+    "stamp_probed": "2024-09-07 07:59:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 30294144,
+                "indicator": "https:\/\/195.158.19.6\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-08 12:28:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-08-10 05:45:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "Express",
+            "HSTS",
+            "jQuery",
+            "jQuery UI",
+            "Nginx",
+            "Node.js",
+            "Socket.io"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "AS8193-MNT"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "UZ",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "UZTELECOM-MNT",
+                "AS8193-MNT"
+            ],
+            "address": [
+                "Tashkent, Uzbekistan",
+                "UZBEKISTAN",
+                "100011",
+                "Alisher Navoi Avenue, 28A, Shaykhontohur District",
+                "ALISHER NAVOI AVENUE, 28A",
+                "TASHKENT"
+            ],
+            "origin": "AS8193",
+            "org": [
+                "ORG-UNCN1-RIPE",
+                "ORG-JC7-RIPE"
+            ],
+            "org-name": "\"Uzbektelekom\" Joint Stock Company",
+            "admin-c": [
+                "BM2509-RIPE",
+                "ROJ1-RIPE"
+            ],
+            "organisation": "ORG-UNCN1-RIPE",
+            "created": [
+                "2004-04-17T12:24:40Z",
+                "2018-10-09T04:28:53Z",
+                "2018-10-10T06:33:18Z",
+                "2001-11-06T06:29:59Z"
+            ],
+            "tech-c": [
+                "ROJ1-RIPE",
+                "BS10923-RIPE",
+                "SHI1990-RIPE"
+            ],
+            "netname": "UZTELECOM-STATIC-CUSTOMERS",
+            "++phone": [
+                "+998712448042",
+                "+998712146129"
+            ],
+            "descr": "Uzbektelecom JSC",
+            "role": "Role of Uzbektelecom JSC",
+            "abuse-c": "ROJ1-RIPE",
+            "nic-hdl": "ROJ1-RIPE",
+            "++registrant": [
+                "ROJ1-RIPE",
+                "BM2509-RIPE"
+            ],
+            "phone": [
+                "+998712448042",
+                "+998712146129"
+            ],
+            "fax-no": "+998712443443",
+            "last-modified": [
+                "2018-10-10T06:33:18Z",
+                "2018-10-10T10:05:01Z",
+                "2021-05-26T05:11:22Z",
+                "2024-07-15T04:19:22Z"
+            ],
+            "route": "195.158.19.0\/24",
+            "inetnum": "195.158.19.0 - 195.158.19.255",
+            "++abuse": "ripe@bkm.uz",
+            "abuse-mailbox": "ripe@bkm.uz",
+            "++email": "ripe@bkm.uz",
+            "++registered": [
+                "2018-10-09 04:28:53",
+                "2004-04-17 12:24:40",
+                "2018-10-10 06:33:18",
+                "2001-11-06 06:29:59"
+            ],
+            "++updated": [
+                "2021-05-26 05:11:22",
+                "2024-07-15 04:19:22",
+                "2018-10-10 10:05:01"
+            ]
+        },
+        "geo": {
+            "country": "Uzbekistan",
+            "countrycode": "UZ",
+            "city": "Tashkent",
+            "asn": "AS8193",
+            "org": "Uzbektelekom Joint Stock Company",
+            "lat": "41.2615",
+            "region": "Tashkent",
+            "long": "69.2177"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "public, max-age=0",
+            "x-powered-by": "Express",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=63072000; includeSubdomains;",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "allow": "GET, POST",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "set-cookie": "branding=aw; Path=\/; secure; HttpOnly",
+            "last-modified": "Mon, 09 Dec 2019 09:51:57 GMT",
+            "etag": "W\/\"41331-1575885117000\"",
+            "++target": "http:\/\/195.158.19.6\/",
+            "++redirect": "https:\/\/195.158.19.6\/",
+            "date": "Tue, 22 Oct 2024 17:28:26 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "utf-8",
+            "++title": "AVIWEST - StreamHub"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-01 15:58:34",
+            "issuer": "\/CN=uservsftpd",
+            "subject": "\/CN=uservsftpd",
+            "expires": "2119-06-07 15:58:34",
+            "org": "uservsftpd",
+            "fingerprint": "d09580ba07efda8c03b7051baa60e1706c093b702f5ad35051893c338f7186a1"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.3)\n"
+        },
+        "cookies": {
+            "branding": "aw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/080a979672c2b2ed0731b11ae8f08f83.jpeg"
+        }
+    }
+}

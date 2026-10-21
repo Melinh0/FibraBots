@@ -1,0 +1,188 @@
+{
+    "qid": null,
+    "iid": 58622799,
+    "indicator": "14.46.114.239",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-22 16:35:18",
+    "stamp_updated": "2024-12-16 17:19:33",
+    "stamp_seen": "2024-12-16 17:19:33",
+    "stamp_probed": "2024-08-28 22:47:17",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 58623209,
+                "indicator": "http:\/\/14.46.114.239\/"
+            },
+            {
+                "iid": 63860125,
+                "indicator": "https:\/\/14.46.114.239\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-22 16:35:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "14.32.0.0 - 14.95.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-03-30T06:39:01Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Gimcheon",
+            "region": "Gyeongsangbuk-do",
+            "lat": "36.1278",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "long": "128.1762",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1",
+            "content-length": "365",
+            "++code": "503",
+            "++status": "Service Not Available",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/14.46.114.239\/",
+            "++redirect": "https:\/\/14.46.114.239\/",
+            "date": "Mon, 18 Nov 2024 18:06:25 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "RuckusPKI-DeviceSubCA-2",
+            "issuer": "\/CN=RuckusPKI-DeviceSubCA-2\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "++subject": "Ruckus Wireless Inc.",
+            "subject": "\/CN=SN-222202007783\/O=Ruckus Wireless Inc.\/L=Sunnyvale\/ST=California\/C=US",
+            "fingerprint": "3b8eb7bff2da6a1b2a28159a6259dbe67d61516fc6ffc32d7feb2cc9e9f35fac",
+            "expires": "2047-05-15 09:04:03",
+            "valid": "2022-05-14 09:04:03"
+        },
+        "meta": {
+            "++title": "503 Service Not Available"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/31e5c033318b3633bca997a7713e6aee.jpeg"
+        }
+    }
+}

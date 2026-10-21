@@ -1,0 +1,205 @@
+{
+    "qid": null,
+    "iid": 65544326,
+    "indicator": "89.101.28.237",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-03 10:20:56",
+    "stamp_updated": "2024-12-11 16:25:32",
+    "stamp_seen": "2024-12-03 10:21:13",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65544418,
+                "indicator": "https:\/\/89.101.28.237\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-03 16:01:54"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-03 10:20:57"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-03 16:01:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "IE",
+            "descr": [
+                "NTL Ireland",
+                "Virgin Media Ireland",
+                "Residential DHCP"
+            ],
+            "mnt-by": [
+                "AS6830-MNT",
+                "MNT-LGI",
+                "VM-IE-MNT"
+            ],
+            "origin": "AS6830",
+            "address": [
+                "Ireland",
+                "UPC Ireland",
+                "LEDP",
+                "Enterprise Development Park",
+                "Roxboro Road",
+                "Limerick"
+            ],
+            "created": [
+                "2006-02-22T15:41:02Z",
+                "2007-10-03T06:54:23Z",
+                "2017-10-27T09:55:20Z"
+            ],
+            "last-modified": [
+                "2010-01-25T10:18:14Z",
+                "2012-07-03T08:25:27Z",
+                "2017-10-27T09:55:20Z"
+            ],
+            "route": "89.101.0.0\/16",
+            "admin-c": "DH2529-RIPE",
+            "tech-c": "DH2529-RIPE",
+            "netname": "VM-IE",
+            "nic-hdl": "DH2529-RIPE",
+            "person": "Denis Hanley",
+            "phone": "+353 1 61272685",
+            "fax-no": "+353 1 868371324",
+            "++registrant": [
+                "DH2529-RIPE",
+                "Denis Hanley"
+            ],
+            "++registered": [
+                "2007-10-03 06:54:23",
+                "2006-02-22 15:41:02",
+                "2017-10-27 09:55:20"
+            ],
+            "++updated": [
+                "2012-07-03 08:25:27",
+                "2010-01-25 10:18:14",
+                "2017-10-27 09:55:20"
+            ],
+            "inetnum": "89.101.26.0 - 89.101.33.255"
+        },
+        "geo": {
+            "asn": "AS6830",
+            "country": "Ireland",
+            "countrycode": "IE",
+            "city": "Dublin",
+            "region": "Leinster",
+            "org": "Liberty Global B.V.",
+            "address": [
+                "Ireland",
+                "UPC Ireland",
+                "LEDP",
+                "Enterprise Development Park",
+                "Roxboro Road",
+                "Limerick"
+            ],
+            "lat": "53.3379",
+            "long": "-6.2591"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-content-type-options": "nosniff",
+            "content-length": "1023",
+            "++code": "200",
+            "++status": "OK",
+            "x-frame-options": "deny",
+            "++content-type": "text\/html",
+            "content-security-policy": "default-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-src https:\/\/*.ui.com; connect-src 'self' https:\/\/*.ui.com https:\/\/*.ubncloud.com https:\/\/*.ubnt.com https:\/\/*.unmsapp.com https:\/\/*.uisp.com",
+            "etag": "000003FF66D707AA",
+            "++target": "http:\/\/89.101.28.237\/",
+            "++redirect": "https:\/\/89.101.28.237\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "Log in \ufffd UISP Router"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "ubnt",
+            "domain": "ubnt",
+            "subject": "\/C=US\/CN=ubnt\/O=Ubiquiti Inc.\/ST=New York\/L=New York",
+            "issuer": "\/C=US\/CN=ubnt\/O=Ubiquiti Inc.\/ST=New York\/L=New York",
+            "++subject": "Ubiquiti Inc.",
+            "expires": "2025-06-30 17:07:37",
+            "valid": "2023-03-28 17:07:37",
+            "fingerprint": "c10f427e22ded4f587334313e82fda99969d58b1e60603461d2b11a8c03216d8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9a2b6788f2824ace16ad19e62be9e022.jpeg"
+        }
+    }
+}

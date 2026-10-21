@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 57864300,
+    "indicator": "200.196.50.91",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-01 03:24:53",
+    "stamp_updated": "2024-12-15 11:32:56",
+    "stamp_seen": "2024-12-15 07:40:32",
+    "stamp_probed": "2024-09-30 08:41:19",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 57867261,
+                "indicator": "http:\/\/200.196.50.91\/"
+            },
+            {
+                "iid": 64084781,
+                "indicator": "https:\/\/200.196.50.91\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-01 03:24:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-02 11:46:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Google Analytics",
+            "Let's Encrypt",
+            "mod_ssl",
+            "OpenSSL",
+            "PHP",
+            "Site Kit",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio de Janeiro",
+            "asn": "AS17222",
+            "lat": "-22.9201",
+            "city": "Rio de Janeiro",
+            "long": "-43.0811",
+            "org": "MUNDIVOX DO BRASIL LTDA"
+        },
+        "whois": {
+            "country": "BR",
+            "changed": [
+                "20101014",
+                "20130307"
+            ],
+            "abuse-c": "AIJ6",
+            "aut-num": "AS17222",
+            "created": [
+                "20010710",
+                "20000817"
+            ],
+            "nic-hdl-br": "AIJ6",
+            "owner-c": "AIJ6",
+            "ownerid": "03.580.510\/0002-54",
+            "person": "Alberto Ivan Duran de la Jara",
+            "responsible": "Alberto Ivan Duran de la Jara",
+            "tech-c": "AIJ6",
+            "nserver": [
+                "ns-rj-2.mundivox.com.br",
+                "ns-rj-1.mundivox.com.br"
+            ],
+            "inetnum": "200.196.48.0\/20",
+            "e-mail": "dns-adm@mundivox.com",
+            "inetrev": "200.196.50.0\/24",
+            "++registrant": "Alberto Ivan Duran de la Jara",
+            "++email": "dns-adm@mundivox.com",
+            "owner": "MUNDIVOX DO BRASIL LTDA",
+            "nsstat": "20240911 AA",
+            "nslastaa": "20240911"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "111",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.2.27 (Unix) mod_ssl\/2.2.27 OpenSSL\/1.0.1e-fips",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"1022f-6f-5560016c03d39\"",
+            "last-modified": "Sat, 05 Aug 2017 11:41:05 GMT",
+            "++redirect": "https:\/\/200.196.50.91\/",
+            "++target": "http:\/\/200.196.50.91\/",
+            "date": "Tue, 22 Oct 2024 17:35:51 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=Let's Encrypt Authority X3",
+            "version": "v3",
+            "org": "Let's Encrypt Authority X3",
+            "fingerprint": "de28d238958a6f15ce994ed826d747d19cf7c4a677957c892428272e22488940",
+            "valid": "2019-08-17 02:00:19",
+            "expires": "2019-11-15 02:00:19",
+            "subject": "\/CN=www.grupohct.com.br",
+            "domain": "www.grupohct.com.br"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 04:43. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "mvx-200-196-50-91.mundivox.com"
+        },
+        "cookies": {
+            "_fbp": "fb.2.1724659519028.36106891891910746",
+            "_ga": "GA1.1.1684916343.1724659519",
+            "_ga_n3tfdgm654": "GS1.1.1724659518.1.0.1724659518.60.0.0",
+            "__trf.src": "encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiaHR0cDovLzIwMC4xOTYuNTAuOTEvIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Imh0dHA6Ly8yMDAuMTk2LjUwLjkxLyIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzI0NjU5NTIwMTI5fQ=="
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "meta": {
+            "refresh": "0; url=http:\/\/www.grupohct.com.br\/"
+        }
+    }
+}

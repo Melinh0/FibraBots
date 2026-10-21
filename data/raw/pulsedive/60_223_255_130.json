@@ -1,0 +1,181 @@
+{
+    "qid": null,
+    "iid": 40810261,
+    "indicator": "60.223.255.130",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-03 00:33:45",
+    "stamp_updated": "2024-12-11 10:45:33",
+    "stamp_seen": "2024-11-20 06:46:13",
+    "stamp_probed": "2024-09-30 18:18:00",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64129301,
+                "indicator": "https:\/\/60.223.255.130\/en\/login.htm"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-03 00:33:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-11 12:52:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Bootstrap",
+            "Element UI",
+            "Font Awesome",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "CN",
+            "mnt-by": [
+                "MAINT-CNCGROUP-RR",
+                "MAINT-CNCGROUP-SX"
+            ],
+            "origin": "AS4837",
+            "descr": [
+                "China Unicom China169 Network",
+                "Shanxi jinzhong zhengwu"
+            ],
+            "route": "60.220.0.0\/14",
+            "last-modified": [
+                "2017-05-05T06:28:01Z",
+                "2008-09-04T07:46:48Z",
+                "2008-09-04T07:16:32Z"
+            ],
+            "++phone": "+86-354-3069980",
+            "address": "Shan Xi Jin Zhong",
+            "admin-c": "JZ1183-AP",
+            "e-mail": "jinzhong@public.yz.sx.cn",
+            "fax-no": "+86-354-3065066",
+            "nic-hdl": "JZ1183-AP",
+            "person": "jin zhong",
+            "phone": "+86-354-3069980",
+            "tech-c": "JZ1183-AP",
+            "++registrant": [
+                "JZ1183-AP",
+                "jin zhong"
+            ],
+            "++email": "jinzhong@public.yz.sx.cn",
+            "inetnum": "60.223.255.0 - 60.223.255.255",
+            "netname": "zhengwu",
+            "++updated": [
+                "2008-09-04 07:46:48",
+                "2017-05-05 06:28:01"
+            ]
+        },
+        "geo": {
+            "country": "China",
+            "countrycode": "CN",
+            "asn": "AS4837",
+            "org": "CHINA UNICOM China169 Backbone",
+            "lat": "34.7732",
+            "address": "Shan Xi Jin Zhong",
+            "long": "113.722"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "access-control-allow-origin": "*",
+            "server": "httpd",
+            "cache-control": "max-age=30",
+            "content-length": "3231",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 11 Apr 2023 08:04:36 GMT",
+            "etag": "\"2620692008\"",
+            "++target": "https:\/\/60.223.255.130\/",
+            "++redirect": "https:\/\/60.223.255.130\/en\/login.htm?from=https%3A%2F%2F60.223.255.130%2Fen%2Findex.htm",
+            "date": "Sat, 12 Oct 2024 16:42:28 GMT",
+            "expires": "Sat, 12 Oct 2024 16:42:58 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "++title": "Login",
+            "charset": "utf-8",
+            "description": "",
+            "author": ""
+        },
+        "ssl": {
+            "org": "router.local",
+            "expires": "2030-08-11 09:06:28",
+            "issuer": "\/C=CN\/ST=GCG\/L=WuHan\/O=Router\/OU=Networks\/CN=router.local\/E=admin@router.local",
+            "valid": "2020-08-13 09:06:28",
+            "subject": "\/C=CN\/ST=GCG\/L=WuHan\/O=Router\/OU=Networks\/CN=router.local\/E=admin@router.local",
+            "version": "v0",
+            "++subject": "Router",
+            "fingerprint": "abc4f542b9af34e88dc52ad7f73f638873c5d4f3a6cb13e4cf944992cc3881f7"
+        },
+        "dns": {
+            "ptr": "130.255.223.60.adsl-pool.sx.cn"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/58c08f4455cd66ca8b865cbc457e5286.jpeg"
+        }
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "qid": null,
+    "iid": 479266,
+    "indicator": "103.230.107.236",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2018-01-28 12:47:02",
+    "stamp_updated": "2022-07-12 04:42:28",
+    "stamp_seen": "2022-07-12 04:42:28",
+    "stamp_probed": "2022-07-12 04:42:28",
+    "stamp_retired": "2021-02-03 00:33:24",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2018-02-18 09:24:41"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 15:17:44"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2018-02-05 08:58:01"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2018-02-23 20:30:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": "BD",
+            "mnt-routes": "MAINT-TELETALK-BD",
+            "last-modified": [
+                "2017-05-22T06:18:37Z",
+                "2017-05-22T04:16:44Z",
+                "2021-01-13T03:13:03Z",
+                "2022-02-02T13:32:01Z",
+                "2022-02-02T13:32:11Z"
+            ],
+            "mnt-irt": "IRT-TELETALK-BD",
+            "mnt-by": [
+                "MAINT-TELETALK-BD",
+                "APNIC-ABUSE"
+            ],
+            "route": "103.230.107.0\/24",
+            "e-mail": "ipadmin@teletalk.com.bd",
+            "admin-c": "TBLn1-AP",
+            "role": [
+                "TELETALK BANGLADESH LTD - network administrator",
+                "ABUSE TELETALKBD"
+            ],
+            "abuse-mailbox": "abuse@teletalk.com.bd",
+            "inetnum": "103.230.107.0 - 103.230.107.255",
+            "tech-c": "TBLn1-AP",
+            "mnt-lower": "MAINT-TELETALK-BD",
+            "netname": "TELETALK-BD",
+            "++phone": "+8801550154444",
+            "origin": "AS45925",
+            "descr": [
+                "Route object for 103.230.107.0\/24",
+                "Teletalk Bangladesh Ltd."
+            ],
+            "nic-hdl": [
+                "TBLn1-AP",
+                "AT1203-AP"
+            ],
+            "irt": "IRT-TELETALK-BD",
+            "phone": "+8801550154444",
+            "fax-no": "+88029891417",
+            "address": [
+                "Holding country: BD",
+                "Holding phone: +8801550154444",
+                "Holding country: ZZ"
+            ],
+            "auth": "mnt-by: MAINT-TELETALK-BD",
+            "++registrant": "TBLn1-AP",
+            "++email": "ipadmin@teletalk.com.bd",
+            "abuse-c": "AT1203-AP",
+            "++abuse": "AT1203-AP",
+            "++updated": "2022-02-02 00:00:00"
+        },
+        "geo": {
+            "country": "Bangladesh",
+            "countrycode": "BD",
+            "city": "Dhaka",
+            "region": "Dhaka",
+            "zip": "1216",
+            "asn": "AS45925",
+            "isp": "ASN For Teletalk Bangladesh Ltd.",
+            "org": "ASN For Teletalk Bangladesh Ltd.",
+            "address": [
+                "Holding country: BD",
+                "Holding phone: +8801550154444",
+                "Holding country: ZZ"
+            ],
+            "lat": "23.8233",
+            "long": "90.365"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "content-type": "text\/html; charset=iso-8859-1",
+            "connection": "Keep-Alive",
+            "content-security-policy": "frame-ancestors 'self'",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "212",
+            "++code": "302",
+            "++status": "Found",
+            "++content-type": "text\/html",
+            "location": "https:\/\/103.230.107.236:443\/",
+            "date": "Tue, 12 Jul 2022 04:42:15 GMT"
+        },
+        "dns": {
+            "ptr": ";; connection timed out; no servers could be reached"
+        }
+    }
+}

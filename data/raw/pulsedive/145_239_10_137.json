@@ -1,0 +1,159 @@
+{
+    "qid": null,
+    "iid": 60046249,
+    "indicator": "145.239.10.137",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-08 15:33:43",
+    "stamp_updated": "2024-12-14 20:16:55",
+    "stamp_seen": "2024-12-14 20:16:55",
+    "stamp_probed": "2024-08-04 20:28:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-08 15:33:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "OVH-MNT"
+            ],
+            "status": "ASSIGNED PA",
+            "++abuse": "abuse@ovh.net",
+            "abuse-mailbox": "abuse@ovh.net",
+            "address": [
+                "France",
+                "59100 Roubaix",
+                "2 rue Kellermann",
+                "59100",
+                "Roubaix",
+                "OVH SAS",
+                "FRANCE"
+            ],
+            "admin-c": [
+                "OK217-RIPE",
+                "OTC2-RIPE",
+                "GM84-RIPE"
+            ],
+            "country": "FR",
+            "mnt-by": [
+                "OVH-MNT",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "origin": "AS16276",
+            "role": "OVH Technical Contact",
+            "tech-c": [
+                "SL10162-RIPE",
+                "GM84-RIPE",
+                "OTC2-RIPE"
+            ],
+            "++phone": "+33972101007",
+            "abuse-c": "AR15333-RIPE",
+            "descr": [
+                "OVH",
+                "OVH Dedicated Servers RBX"
+            ],
+            "org": "ORG-OS3-RIPE",
+            "org-name": "OVH SAS",
+            "organisation": "ORG-OS3-RIPE",
+            "nic-hdl": "OTC2-RIPE",
+            "created": [
+                "2017-06-19T13:48:30Z",
+                "2004-04-17T11:23:17Z",
+                "2004-01-28T17:42:29Z",
+                "2017-06-19T15:45:24Z"
+            ],
+            "last-modified": [
+                "2017-06-19T13:48:30Z",
+                "2014-09-05T10:47:15Z",
+                "2017-06-19T15:45:24Z",
+                "2020-12-16T10:24:51Z"
+            ],
+            "route": "145.239.0.0\/16",
+            "phone": "+33972101007",
+            "netname": "OVH-DEDICATED",
+            "inetnum": "145.239.8.0 - 145.239.11.255",
+            "++email": "abuse@ovh.net",
+            "++registrant": [
+                "OTC2-RIPE",
+                "OK217-RIPE",
+                "GM84-RIPE"
+            ],
+            "++registered": [
+                "2004-04-17 11:23:17",
+                "2004-01-28 17:42:29",
+                "2017-06-19 13:48:30",
+                "2017-06-19 15:45:24"
+            ],
+            "++updated": [
+                "2020-12-16 10:24:51",
+                "2014-09-05 10:47:15",
+                "2017-06-19 13:48:30"
+            ]
+        },
+        "geo": {
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "country": "Poland",
+            "countrycode": "PL",
+            "lat": "52.2394",
+            "long": "21.0362"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2 rescue-customer\n"
+        },
+        "dns": {
+            "ptr": "ns3085414.ip-145-239-10.eu"
+        }
+    }
+}

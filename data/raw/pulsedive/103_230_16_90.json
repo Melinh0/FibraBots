@@ -1,0 +1,196 @@
+{
+    "qid": null,
+    "iid": 64342193,
+    "indicator": "103.230.16.90",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-16 06:10:44",
+    "stamp_updated": "2024-12-10 10:32:36",
+    "stamp_seen": "2024-10-17 22:48:33",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64365453,
+                "indicator": "https:\/\/103.230.16.90\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-16 06:10:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "HSTS",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "BD",
+                "ZZ"
+            ],
+            "descr": "Level3 Carrier Limited",
+            "mnt-irt": "IRT-LEVEL3-BD",
+            "mnt-by": [
+                "MAINT-LEVEL3-BD",
+                "APNIC-ABUSE"
+            ],
+            "admin-c": "LCLN2-AP",
+            "role": [
+                "LEVEL3 CARRIER LIMITED - network administrator",
+                "ABUSE LEVEL3BD"
+            ],
+            "tech-c": "LCLN2-AP",
+            "address": "82 Mohakhali Tower",
+            "++phone": [
+                "+8809614000000",
+                "+000000000"
+            ],
+            "origin": "AS58682",
+            "nic-hdl": [
+                "LCLN2-AP",
+                "AL1458-AP"
+            ],
+            "irt": "IRT-LEVEL3-BD",
+            "phone": [
+                "+8809614000000",
+                "+000000000"
+            ],
+            "++registrant": "LCLN2-AP",
+            "last-modified": [
+                "2019-07-14T08:03:00Z",
+                "2021-01-09T07:27:58Z",
+                "2019-01-23T10:56:03Z",
+                "2024-07-16T09:20:51Z",
+                "2024-07-16T09:21:02Z"
+            ],
+            "e-mail": "shapon@level3carrier.com",
+            "abuse-mailbox": "shapon@level3carrier.com",
+            "++abuse": "shapon@level3carrier.com",
+            "++email": "shapon@level3carrier.com",
+            "abuse-c": "AL1458-AP",
+            "inetnum": "103.230.16.0 - 103.230.16.255",
+            "netname": "Level3-Carrier-FNA-Bkup",
+            "route": "103.230.16.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-16 09:20:51",
+                "2024-07-16 09:21:02",
+                "2019-07-14 08:03:00",
+                "2019-01-23 10:56:03"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Bangladesh",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "BD",
+                "ZZ"
+            ],
+            "asn": "AS58682",
+            "org": "Level3 Carrier Ltd.",
+            "lat": "23.7018",
+            "long": "90.3742",
+            "address": "82 Mohakhali Tower"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "x-content-type-options": "nosniff",
+            "content-length": "2651",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "content-encoding": "gzip",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 01 Jan 1970 00:00:00 GMT",
+            "content-security-policy": "default-src 'none'; child-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' wss:\/\/*:*; img-src 'self' data:; frame-src 'self'; font-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'",
+            "etag": "\"1805956220\"",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "location": "http:\/\/103.230.16.90\/",
+            "date": "Thu, 17 Oct 2024 11:58:09 GMT",
+            "++target": "http:\/\/103.230.16.90\/",
+            "++redirect": "https:\/\/103.230.16.90\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "++title": "Login",
+            "charset": "utf-8",
+            "author": "",
+            "description": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2018-04-23 17:25:49",
+            "expires": "2037-06-22 17:25:49",
+            "subject": "\/C=US\/O=American Megatrends Incorporated\/OU=Service Processors\/L=Norcross\/ST=Georgia\/CN=www.ami.com\/E=support@ami.com",
+            "issuer": "\/C=US\/O=American Megatrends Incorporated\/OU=Service Processors\/L=Norcross\/ST=Georgia\/CN=www.ami.com\/E=support@ami.com",
+            "org": "www.ami.com",
+            "fingerprint": "ed4da7c3e9e04349ed376daa817086fa267dc11f75466f9b85006534b292bd18",
+            "++subject": "American Megatrends Incorporated"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_X.X\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/39f4d2288cb743a6264700b73e488d0b.jpeg"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 59954810,
+    "indicator": "50.84.211.204",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-05 15:35:44",
+    "stamp_updated": "2024-12-15 01:24:57",
+    "stamp_seen": "2024-12-13 00:00:00",
+    "stamp_probed": "2024-08-29 22:52:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-05 15:35:44"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-08 01:02:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "5432"
+        ],
+        "protocol": [
+            "PostgreSQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "orgabusename": "Abuse",
+            "stateprov": [
+                "TX",
+                "CO"
+            ],
+            "parent": [
+                "NET50 (NET-50-0-0-0-0)",
+                "RCSW (NET-50-84-0-0-1)"
+            ],
+            "orgtechname": "IPAddressing",
+            "orgabuseemail": "abuse@charter.net",
+            "orgabusehandle": "ABUSE19-ARIN",
+            "orgtechhandle": "IPADD1-ARIN",
+            "city": [
+                "Austin",
+                "Greenwood Village"
+            ],
+            "regdate": [
+                "2010-11-11",
+                "2018-10-10",
+                "2022-09-19"
+            ],
+            "netname": [
+                "RCSW",
+                "RGB-HOSPITALITY"
+            ],
+            "cidr": [
+                "50.84.0.0\/16",
+                "50.84.211.192\/28"
+            ],
+            "nethandle": [
+                "NET-50-84-0-0-1",
+                "NET-50-84-211-192-1"
+            ],
+            "netrange": [
+                "50.84.0.0 - 50.84.255.255",
+                "50.84.211.192 - 50.84.211.207"
+            ],
+            "postalcode": [
+                "80111",
+                "78701"
+            ],
+            "updated": [
+                "2012-02-24",
+                "2022-09-14",
+                "2022-09-19"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADD1-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/50.84.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC-3517",
+                "https:\/\/rdap.arin.net\/registry\/ip\/50.84.211.192",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C08897236"
+            ],
+            "orgname": "Charter Communications Inc",
+            "++registrant": "Charter Communications Inc",
+            "organization": "Charter Communications Inc (CC-3517)",
+            "orgid": "CC-3517",
+            "++abuse": "Abuse",
+            "orgtechemail": "PublicIPAddressing@charter.com",
+            "++email": "PublicIPAddressing@charter.com",
+            "++phone": "+1-866-248-7662",
+            "orgabusephone": "+1-877-777-2263",
+            "address": [
+                "6175 S. Willow Dr",
+                "76 East Ave"
+            ],
+            "orgtechphone": "+1-866-248-7662",
+            "++registered": "2022-09-19 00:00:00",
+            "++updated": "2022-09-19 00:00:00",
+            "customer": "RGB Hospitality (C08897236)",
+            "custname": "RGB Hospitality"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Texas",
+            "asn": "AS11427",
+            "city": "Prosper",
+            "org": "TWC-11427-TEXAS",
+            "long": "-96.798",
+            "lat": "33.234"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "syn-050-084-211-204.biz.spectrum.com"
+        }
+    }
+}

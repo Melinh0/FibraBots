@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 65700956,
+    "indicator": "142.93.176.114",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-08 10:27:04",
+    "stamp_updated": "2024-12-14 11:26:16",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65700985,
+                "indicator": "https:\/\/142.93.176.114\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-08 10:27:04"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-12 00:28:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Analytics",
+            "Google Tag Manager",
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx",
+            "Open Graph",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-07-12"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2018-07-12 00:00:00"
+            ],
+            "parent": "NET142 (NET-142-0-0-0-0)",
+            "originas": "AS14061",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/142.93.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "nethandle": "NET-142-93-0-0-1",
+            "cidr": "142.93.0.0\/16",
+            "netrange": "142.93.0.0 - 142.93.255.255",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-142-93-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "Clifton"
+            ],
+            "asn": "AS14061",
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "40.8364",
+            "long": "-74.1403"
+        },
+        "http": {
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "server": "nginx\/1.14.0 (Ubuntu)",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "x-frame-options": "DENY",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "++content-type": "text\/html",
+            "date": "Sun, 08 Dec 2024 10:27:08 GMT",
+            "++target": "http:\/\/142.93.176.114\/",
+            "++redirect": "https:\/\/142.93.176.114\/"
+        },
+        "meta": {
+            "og:type": "website",
+            "author": "Capn",
+            "og:image": "https:\/\/i.imgur.com\/D4EIgeT.png?1",
+            "og:url": "https:\/\/chat.capn.dev\/",
+            "og:title": "CapnChat",
+            "og:description": "The BEST online chat there is!",
+            "capnchat": "Online Chat"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=chat.capn.dev",
+            "valid": "2024-10-11 07:52:22",
+            "expires": "2025-01-09 07:52:21",
+            "domain": "chat.capn.dev",
+            "fingerprint": "1f0f678405c57cab91d72af1dd0f7127f297e00bfb89f4f759ff387b7d0b51ba"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        },
+        "cookies": {
+            "_gat_ua-131236876-1": "1",
+            "_ga": "GA1.1.274258378.1733653629",
+            "_gid": "GA1.1.653935512.1733653629"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7fb953bf6b1db392aab22985f78f7eba.jpeg"
+        }
+    }
+}

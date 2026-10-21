@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 59658801,
+    "indicator": "92.62.243.154",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-26 14:22:41",
+    "stamp_updated": "2024-12-09 10:39:54",
+    "stamp_seen": "2024-11-20 07:46:33",
+    "stamp_probed": "2024-09-30 20:50:57",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59658843,
+                "indicator": "https:\/\/92.62.243.154\/"
+            },
+            {
+                "iid": 59658855,
+                "indicator": "https:\/\/92.62.243.154\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-26 14:22:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "jQuery UI",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "BG",
+            "origin": "AS24750",
+            "address": [
+                "Sofia",
+                "1408",
+                "BULGARIA",
+                "Yanko Zabunov str 5"
+            ],
+            "last-modified": [
+                "2019-11-12T14:28:27Z",
+                "2022-11-18T02:07:08Z",
+                "2022-11-18T02:04:33Z"
+            ],
+            "nic-hdl": "ND7040-RIPE",
+            "tech-c": "ND7040-RIPE",
+            "++registrant": "ND7040-RIPE",
+            "mnt-by": "mnt-bg-myacct-1",
+            "++phone": "+359898412550",
+            "phone": "+359898412550",
+            "created": [
+                "2019-11-12T14:28:26Z",
+                "2022-11-18T02:07:08Z",
+                "2022-11-18T02:04:33Z"
+            ],
+            "admin-c": "ND7040-RIPE",
+            "role": "Nikolay Dimitrov",
+            "inetnum": "92.62.243.0 - 92.62.243.255",
+            "netname": "Bunovo-LAN",
+            "route": "92.62.243.0\/24",
+            "++updated": [
+                "2022-11-18 02:07:08",
+                "2019-11-12 14:28:27",
+                "2022-11-18 02:04:33"
+            ],
+            "++registered": [
+                "2022-11-18 02:07:08",
+                "2019-11-12 14:28:26",
+                "2022-11-18 02:04:33"
+            ]
+        },
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "city": "Samokov",
+            "region": "Sofia",
+            "asn": "AS24750",
+            "org": "MyAcct LTD",
+            "lat": "42.3359",
+            "long": "23.5541"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "lighttpd\/1.4.39",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "set-cookie": "ui_language=en_US; Path=\/; Expires=Tuesday, 1-Jan-38 00:00:00 GMT; HttpOnly",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/92.62.243.154\/",
+            "++redirect": "https:\/\/92.62.243.154\/login.cgi?uri=\/",
+            "date": "Thu, 04 Jul 2019 16:55:13 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "++title": "Login",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-03 08:17:00",
+            "expires": "2024-07-03 08:17:00",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-24:5A:4C:C6:3F:BD\/E=support@ubnt.com",
+            "org": "UBNT-24:5A:4C:C6:3F:BD",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-24:5A:4C:C6:3F:BD\/E=support@ubnt.com",
+            "++subject": "Ubiquiti Networks Inc.",
+            "fingerprint": "b2521b18c2e6c225363c1f1d9c5a09b4ba42e69193a6c901f1cfc453f6a322ef"
+        },
+        "cookies": {
+            "ui_language": "en_US",
+            "airos_245a4cc63fbd": "7a88e896bb6441e00663c35072e7071e"
+        },
+        "dns": {
+            "ptr": "92.62.243.154.fibermax.bg"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/73f5957b26caa81eeeda076449dfd16e.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001<\u000b\u0014\u0007\u0016\ufffdt(\ufffd\ufffd\ufffdq\ufffd\ufffd[\ufffd@\u001f\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u0729\ufffd\ufffd\f\ufffd\ufffd\ufffd@y"
+        }
+    }
+}

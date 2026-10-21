@@ -1,0 +1,118 @@
+{
+    "qid": null,
+    "iid": 62889437,
+    "indicator": "154.92.16.94",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-01 22:41:53",
+    "stamp_updated": "2024-12-15 11:30:28",
+    "stamp_seen": "2024-12-15 07:28:45",
+    "stamp_probed": "2024-09-04 03:52:26",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-01 22:41:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-10-04 16:12:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "HK",
+            "address": [
+                "Seychelles",
+                "MU",
+                "Ebene",
+                "Mahe"
+            ],
+            "admin-c": "CIS1-AFRINIC",
+            "mnt-by": [
+                "CIL1-MNT",
+                "LARUS-SERVICE-MNT"
+            ],
+            "nic-hdl": "CIS1-AFRINIC",
+            "person": "Cloud Innovation Support",
+            "tech-c": "CIS1-AFRINIC",
+            "phone": "tel:+248-4-610-795",
+            "abuse-mailbox": "abuse@cloudinnovation.org",
+            "++abuse": "abuse@cloudinnovation.org",
+            "++registrant": [
+                "Cloud Innovation Support",
+                "CIS1-AFRINIC"
+            ],
+            "++email": "abuse@cloudinnovation.org",
+            "inetnum": "154.92.16.0 - 154.92.16.255",
+            "origin": "AS142403",
+            "route": "154.92.16.0\/24",
+            "descr": "Yisu Cloud Ltd",
+            "netname": "Yisu_Cloud_Ltd",
+            "source": "AFRINIC # Filtered",
+            "parent": "154.80.0.0 - 154.95.255.255"
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China"
+            ],
+            "countrycode": "HK",
+            "org": "YISU CLOUD LTD",
+            "address": [
+                "Mahe",
+                "Seychelles",
+                "Ebene",
+                "MU"
+            ],
+            "lat": "22.2578",
+            "long": "114.1657",
+            "asn": "AS142403"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 14:52. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n"
+        }
+    }
+}

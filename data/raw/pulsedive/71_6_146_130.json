@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 14893,
+    "indicator": "71.6.146.130",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-09-28 04:34:14",
+    "stamp_updated": "2024-12-14 09:52:28",
+    "stamp_seen": "2024-12-14 09:52:28",
+    "stamp_probed": "2024-09-30 19:03:52",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 189,
+            "name": "Dharma",
+            "category": "malware",
+            "risk": "high",
+            "stamp_linked": "2018-09-16 16:16:20"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-16 19:06:53"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 08:14:29"
+        },
+        {
+            "fid": 44,
+            "name": "High Confidence IPv4 Drop List",
+            "category": "general",
+            "organization": "St. Dominics Priory College - Australia",
+            "pricing": "free",
+            "stamp_linked": "2018-05-15 03:32:38"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-16 13:16:38"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 504857,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 01:36:57",
+            "stamp_updated": "2022-05-18 01:36:57"
+        },
+        {
+            "cid": 10375,
+            "username": "3ch0x2",
+            "title": "Cyber Investigator",
+            "comment": "Those IPs were used to brute-force credentials via RDP before Dharma ransomware was installed",
+            "stamp_added": "2018-09-16 16:16:20",
+            "stamp_updated": "2018-09-16 16:16:20"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": [
+                "CA",
+                "NV"
+            ],
+            "city": [
+                "San Diego",
+                "Henderson"
+            ],
+            "++registered": "2014-01-03 00:00:00",
+            "parent": [
+                "NET71 (NET-71-0-0-0-0)",
+                "CARINET-5 (NET-71-6-128-0-1)"
+            ],
+            "++abuse": "complaints@cari.net",
+            "++email": "network@cari.net",
+            "++registrant": "CariNet, Inc.",
+            "address": [
+                "8929 Complex Drive",
+                "170 S Green Valley Parkway, Suite 300"
+            ],
+            "custname": "CariNet, Inc.",
+            "orgabuseemail": "complaints@cari.net",
+            "orgabusehandle": "ABUSE341-ARIN",
+            "orgabusename": "CariNet Abuse",
+            "organization": "CariNet, Inc. (CARIN-6)",
+            "orgid": "CARIN-6",
+            "orgname": "CariNet, Inc.",
+            "orgtechemail": "network@cari.net",
+            "orgtechhandle": "CARIN-ARIN",
+            "orgtechname": "CariNet Networking",
+            "originas": "AS10439",
+            "postalcode": [
+                "92123",
+                "89012"
+            ],
+            "regdate": [
+                "2014-01-03",
+                "2009-11-17",
+                "2006-02-01"
+            ],
+            "updated": [
+                "2014-01-03",
+                "2012-03-02",
+                "2019-08-28"
+            ],
+            "cidr": [
+                "71.6.128.0\/17",
+                "71.6.146.128\/26"
+            ],
+            "nethandle": [
+                "NET-71-6-128-0-1",
+                "NET-71-6-146-128-1"
+            ],
+            "netname": [
+                "CARINET-5",
+                "NET-26"
+            ],
+            "netrange": [
+                "71.6.128.0 - 71.6.255.255",
+                "71.6.146.128 - 71.6.146.191"
+            ],
+            "customer": "CariNet, Inc. (C04837941)",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.6.128.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-6",
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.6.146.128",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C04837941"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE341-ARIN",
+            "++updated": "2019-08-28 00:00:00",
+            "orgtechphone": "+1-702-660-0350",
+            "orgabusephone": "+1-702-660-0350",
+            "++phone": "+1-702-660-0350"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS10439",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "CARINET"
+        },
+        "dns": {
+            "ptr": "refrigerator.census.shodan.io"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5\n"
+        }
+    }
+}

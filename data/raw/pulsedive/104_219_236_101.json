@@ -1,0 +1,160 @@
+{
+    "qid": null,
+    "iid": 30826330,
+    "indicator": "104.219.236.101",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-12-31 12:08:24",
+    "stamp_updated": "2024-06-04 18:05:36",
+    "stamp_seen": "2024-03-02 20:52:02",
+    "stamp_probed": "2024-03-02 20:52:02",
+    "stamp_retired": "2024-06-04 18:05:36",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-12-31 12:08:24"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-12-31 12:08:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgnocname": "Network Operations Center",
+            "orgtechname": "Network Operations Center",
+            "parent": "NET104 (NET-104-0-0-0-0)",
+            "stateprov": "NY",
+            "orgabusename": "Abuse",
+            "++registered": "2014-10-31 00:00:00",
+            "++email": "noc@datawagon.net",
+            "++registrant": "DataWagon LLC",
+            "address": "3 Mead Pond Lane",
+            "city": "Rye",
+            "orgabuseemail": "abuse@datawagon.net",
+            "orgabusehandle": "ABUSE4637-ARIN",
+            "organization": "DataWagon LLC (DL-167)",
+            "orgid": "DL-167",
+            "orgname": "DataWagon LLC",
+            "orgnocemail": "noc@datawagon.net",
+            "orgnochandle": "NOC31754-ARIN",
+            "orgtechemail": "noc@datawagon.net",
+            "orgtechhandle": "NOC31754-ARIN",
+            "originas": "AS27176",
+            "postalcode": "10580",
+            "regdate": [
+                "2014-03-04",
+                "2014-10-31"
+            ],
+            "cidr": "104.219.232.0\/21",
+            "nethandle": "NET-104-219-232-0-1",
+            "netrange": "104.219.232.0 - 104.219.239.255",
+            "updated": [
+                "2017-11-28",
+                "2019-11-26"
+            ],
+            "netname": "NET-104-219-232-0-1",
+            "orgtechphone": "+1-914-495-1661",
+            "orgabusephone": "+1-914-495-1661",
+            "++phone": "+1-914-495-1661",
+            "orgnocphone": "+1-914-495-1661",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC31754-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DL-167",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.219.232.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE4637-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC31754-ARIN",
+            "++updated": "2019-11-26 00:00:00",
+            "++abuse": "Abuse"
+        },
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS27176",
+            "city": "Rye",
+            "zip": "10580",
+            "region": "NY",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "address": "3 Mead Pond Lane",
+            "org": [
+                "DataWagon LLC (DL-167)",
+                "DATAWAGON"
+            ],
+            "isp": "DATAWAGON"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "6706",
+            "++code": "200",
+            "++status": "OK",
+            "x-your-address-is": "157.245.121.229",
+            "++content-type": "text\/html",
+            "date": "Thu, 29 Feb 2024 01:25:15 GMT",
+            "expires": "Thu, 29 Feb 2024 01:45:15 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "dns": {
+            "ptr": "ip-104-219-236-101.host.datawagon.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ae2abae02e5076cdca55fc58f2cbb6fd.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        }
+    }
+}

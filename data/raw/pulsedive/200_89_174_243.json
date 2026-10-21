@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 28068893,
+    "indicator": "200.89.174.243",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-09-16 13:11:27",
+    "stamp_updated": "2024-12-11 11:34:12",
+    "stamp_seen": "2024-12-11 11:34:12",
+    "stamp_probed": "2024-08-06 19:40:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 28184429,
+                "indicator": "http:\/\/200.89.174.243\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-16 13:11:27"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 514682,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 07:05:33",
+            "stamp_updated": "2022-05-18 07:05:33"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "allocated",
+            "country": "AR",
+            "++registered": "2003-05-05 00:00:00",
+            "nserver": [
+                "DNS2.CVTCI.COM.AR",
+                "DNS1.CVTCI.COM.AR"
+            ],
+            "created": [
+                "20020909",
+                "20030505"
+            ],
+            "++phone": [
+                "+54 11 4968 [4975]",
+                "+54 1149684975 [0000]"
+            ],
+            "abuse-c": "ADI2",
+            "address": [
+                "1425 - Buenos Aires -",
+                "Dorrego, 2520, Piso 11",
+                "Dorrego, 2502, piso 11"
+            ],
+            "nic-hdl": "ADI2",
+            "owner": "Telecom Argentina S.A.",
+            "owner-c": "ADI2",
+            "ownerid": "AR-TAST-LACNIC",
+            "person": "Administrador IP",
+            "phone": [
+                "+54 11 4968 [4975]",
+                "+54 1149684975 [0000]"
+            ],
+            "responsible": "Administrador IP",
+            "tech-c": "ADI2",
+            "changed": [
+                "20180529",
+                "20211227"
+            ],
+            "++abuse": "ADI2",
+            "++registrant": "Administrador IP",
+            "++email": "abuse@teco.com.ar",
+            "e-mail": "abuse@teco.com.ar",
+            "inetnum": "200.89.160.0\/19",
+            "inetrev": "200.89.160.0\/19",
+            "aut-num": "AS7303",
+            "nsstat": "20240804 AA",
+            "nslastaa": "20240804"
+        },
+        "geo": {
+            "asn": "AS7303",
+            "country": "Argentina",
+            "countrycode": "AR",
+            "org": "Telecom Argentina S.A.",
+            "region": "Buenos Aires",
+            "city": "San Isidro",
+            "lat": "-34.4727",
+            "long": "-58.5243"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "x-powered-by": "ASP.NET",
+            "content-length": "701",
+            "server": "Microsoft-IIS\/8.5",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Fri, 21 Aug 2020 17:28:01 GMT",
+            "etag": "\"e619d06be077d61:0\"",
+            "date": "Fri, 18 Oct 2024 05:31:53 GMT",
+            "++target": "http:\/\/200.89.174.243\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "IIS Windows Server"
+        },
+        "dns": {
+            "ptr": "243-174-89-200.fibertel.com.ar"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1a51749b9accee03df7bd95ef105bd70.jpeg"
+        }
+    }
+}

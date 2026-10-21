@@ -1,0 +1,182 @@
+{
+    "qid": null,
+    "iid": 60075330,
+    "indicator": "95.174.104.112",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-09 15:42:17",
+    "stamp_updated": "2024-12-10 10:43:19",
+    "stamp_seen": "2024-11-20 07:52:01",
+    "stamp_probed": "2024-09-30 21:07:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60078559,
+                "indicator": "http:\/\/95.174.104.112\/"
+            },
+            {
+                "iid": 64132869,
+                "indicator": "https:\/\/95.174.104.112\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-09 15:42:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "MNT-ML",
+                "WEBROCKET-MNT"
+            ],
+            "origin": "AS49037",
+            "last-modified": [
+                "2018-05-09T10:19:18Z",
+                "2023-09-03T19:16:30Z",
+                "2024-02-09T15:24:39Z",
+                "2023-07-27T19:40:39Z"
+            ],
+            "created": [
+                "2018-05-09T10:19:18Z",
+                "2019-02-15T07:23:41Z",
+                "2021-04-23T09:31:13Z",
+                "2023-07-27T19:40:39Z"
+            ],
+            "route": "95.174.104.0\/24",
+            "descr": "r105.nas.ritm.tgn.pg19.ru.",
+            "nic-hdl": "PG19-ORG",
+            "tech-c": "PG19-ORG",
+            "++registrant": "PG19-ORG",
+            "address": "347913, 11 B.Bulvarnay st., Taganrog, Russia",
+            "phone": "+7 (863) 206-7777",
+            "admin-c": "PG19-ORG",
+            "role": "Open network community PG19 NOC",
+            "mnt-ref": [
+                "WEBROCKET-MNT",
+                "HTEL-MNT"
+            ],
+            "++email": "abuse@pg19.ru",
+            "org": "ORG-CICP1-RIPE",
+            "organisation": "ORG-CICP1-RIPE",
+            "abuse-mailbox": "abuse@pg19.ru",
+            "org-name": "Consumer Internet Cooperative PG-19",
+            "abuse-c": "PG19-ORG",
+            "++abuse": "abuse@pg19.ru",
+            "inetnum": "95.174.103.128 - 95.174.127.255",
+            "geoloc": "47.21230033795488 38.91901218651058",
+            "netname": "PG19-Taganrog",
+            "++updated": [
+                "2023-09-03 19:16:30",
+                "2024-02-09 15:24:39",
+                "2018-05-09 10:19:18"
+            ],
+            "++registered": [
+                "2023-07-27 19:40:39",
+                "2021-04-23 09:31:13",
+                "2019-02-15 07:23:41",
+                "2018-05-09 10:19:18"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "city": "Taganrog",
+            "asn": "AS49037",
+            "lat": "47.2189",
+            "region": "Rostov Oblast",
+            "long": "38.9168",
+            "org": "Prostie Reshenia LLC",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=20",
+            "content-length": "510",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 22 Nov 2022 08:04:20 GMT",
+            "etag": "\"6e9-1fe-637c8284\"",
+            "date": "Sun, 15 Sep 2024 06:52:41 GMT",
+            "++redirect": "https:\/\/95.174.104.112\/",
+            "++target": "http:\/\/95.174.104.112\/"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "refresh": "0; URL=\/cgi-bin\/luci"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "NAGTECH",
+            "++subject": "NAGTECH406df4fd",
+            "valid": "2022-11-22 08:04:55",
+            "issuer": "\/C=ZZ\/ST=Somewhere\/L=Unknown\/O=NAGTECH406df4fd\/CN=NAGTECH",
+            "expires": "2024-11-21 08:04:55",
+            "subject": "\/C=ZZ\/ST=Somewhere\/L=Unknown\/O=NAGTECH406df4fd\/CN=NAGTECH",
+            "fingerprint": "78875cd68cddd919a956d8cbfcb53458dc5b75fa2606a906483ec200192e4d01"
+        },
+        "dns": {
+            "ptr": "ip-104-112.mlzone.ru"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001,\u0004\u0014\ufffdX\n\ufffd[_\ufffd\ufffd\ufffdS\ufffdo\ufffd\ufffd\u0006Z\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\u0000Z"
+        }
+    }
+}

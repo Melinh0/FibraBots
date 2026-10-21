@@ -1,0 +1,105 @@
+{
+    "qid": null,
+    "iid": 63397340,
+    "indicator": "179.43.191.19",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-19 04:39:02",
+    "stamp_updated": "2024-12-13 11:23:01",
+    "stamp_seen": "2024-12-07 19:36:08",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63397577,
+                "indicator": "http:\/\/179.43.191.19\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:35:21"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-19 04:39:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "PostgreSQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS51852",
+            "country": "Switzerland",
+            "countrycode": "CH",
+            "org": "Private Layer INC",
+            "region": "Zurich",
+            "long": "8.5255",
+            "lat": "47.4505",
+            "city": "R\ufffdmlang"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "server": "nginx",
+            "content-length": "548",
+            "++code": "404",
+            "++status": "Not Found",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/179.43.191.19\/",
+            "date": "Sat, 07 Dec 2024 19:35:44 GMT"
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5406a148f2bb696b3b122f2f2d13cf3e.jpeg"
+        }
+    }
+}

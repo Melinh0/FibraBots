@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 53610963,
+    "indicator": "158.180.89.135",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-30 03:44:41",
+    "stamp_updated": "2024-12-14 20:18:28",
+    "stamp_seen": "2024-12-14 20:18:28",
+    "stamp_probed": "2024-09-07 07:52:05",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-01-01 05:26:45"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-30 03:44:41"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-01-01 05:26:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-12 08:24:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306"
+        ],
+        "protocol": [
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "LEGACY",
+            "country": "US",
+            "org-type": "OTHER",
+            "address": [
+                "United States",
+                "500 Oracle Parkway",
+                "500 Oracle Parkway, M\/S 501ip3",
+                "Redwood Shores",
+                "CA, 94065",
+                "CA 94065"
+            ],
+            "++email": "domain-contact_ww_grp@oracle.com",
+            "++phone": "+1-650-506-2220",
+            "org-name": "Oracle Corporation",
+            "abuse-mailbox": "domain-contact_ww_grp@oracle.com",
+            "mnt-by": [
+                "ORCL-MNT",
+                "RIPE-NCC-LEGACY-MNT"
+            ],
+            "abuse-c": "AR17199-RIPE",
+            "mnt-ref": "ORCL-MNT",
+            "++abuse": "domain-contact_ww_grp@oracle.com",
+            "descr": [
+                "Austin Data Center",
+                "oracle"
+            ],
+            "last-modified": [
+                "2019-02-06T16:27:54Z",
+                "2023-02-09T06:58:43Z",
+                "2023-09-08T11:44:46Z"
+            ],
+            "nic-hdl": "ORCL1-RIPE",
+            "tech-c": "ORCL1-RIPE",
+            "++registrant": [
+                "ORCL1-RIPE",
+                "RN3825-RIPE",
+                "CM16298-RIPE",
+                "MP29448-RIPE",
+                "JH27328-RIPE",
+                "GB21983-RIPE",
+                "SS33835-RIPE"
+            ],
+            "created": [
+                "2016-03-15T11:29:38Z",
+                "2023-01-30T12:20:11Z",
+                "2020-03-20T13:42:38Z"
+            ],
+            "admin-c": [
+                "ORCL1-RIPE",
+                "RN3825-RIPE",
+                "CM16298-RIPE",
+                "MP29448-RIPE",
+                "JH27328-RIPE",
+                "GB21983-RIPE",
+                "SS33835-RIPE"
+            ],
+            "role": "Domain Administrator",
+            "inetnum": "158.180.0.0 - 158.180.95.255",
+            "netname": "oracle",
+            "sponsoring-org": "ORG-OSA29-RIPE",
+            "org": "ORG-OCU3-RIPE",
+            "organisation": "ORG-OCU3-RIPE",
+            "phone": "+1-650-506-2220",
+            "++updated": [
+                "2019-02-06 16:27:54",
+                "2023-09-08 11:44:46"
+            ],
+            "++registered": [
+                "2016-03-15 11:29:38",
+                "2023-01-30 12:20:11",
+                "2020-03-20 13:42:38"
+            ],
+            "geoloc": "37.530673  -122.262446"
+        },
+        "geo": {
+            "countrycode": "KR",
+            "city": "Chuncheon",
+            "asn": "AS31898",
+            "region": "Gangwon-do",
+            "org": "ORACLE-BMC-31898",
+            "lat": "37.8897",
+            "long": "127.736",
+            "country": "South Korea"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "J\u0000\u0000\u0000\n8.0.34\u0000z+\u0002\u0000~r\u001d\"oeT>\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000CF5BQ\u000b\f\u0013dE\f1\u0000caching_sha2_password\u0000"
+        }
+    }
+}

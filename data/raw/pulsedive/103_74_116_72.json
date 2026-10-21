@@ -1,0 +1,199 @@
+{
+    "qid": null,
+    "iid": 55584091,
+    "indicator": "103.74.116.72",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-29 19:43:38",
+    "stamp_updated": "2024-12-14 11:23:33",
+    "stamp_seen": "2024-12-07 19:31:41",
+    "stamp_probed": "2024-08-11 20:32:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64191947,
+                "indicator": "https:\/\/103.74.116.72\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:31:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-29 19:43:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "3306",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "asn": "AS63759",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "TADU-VN"
+            ],
+            "org": "TaDu Joint Stock Company"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NDD8-AP"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-905611699"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "e-mail": [
+                "ducdung@tadu.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "inetnum": "103.74.116.0 - 103.74.119.255",
+            "netname": "TADU-VN",
+            "nic-hdl": "NDD8-AP",
+            "person": "Nguyen Duc Dung",
+            "phone": [
+                "+84-905611699",
+                "+84-24-35564944"
+            ],
+            "admin-c": [
+                "NTTT1-AP",
+                "NDD8-AP"
+            ],
+            "address": [
+                "TADU-VN",
+                "Ha Noi, VietNam"
+            ],
+            "descr": [
+                "The 2th floor, Tat Minh Building, No 249 Cong Hoa street, 13 ward, Tan Binh district, Ho Chi Minh City",
+                "TaDu Joint Stock Company"
+            ],
+            "last-modified": [
+                "2017-12-03T03:49:38Z",
+                "2017-11-08T09:40:06Z",
+                "2017-12-03T03:50:12Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "NDD8-AP",
+                "Nguyen Duc Dung"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "ducdung@tadu.vn"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-12-03 03:50:12",
+                "2017-12-03 03:49:38"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "Apache\/2",
+            "vary": "User-Agent",
+            "content-encoding": "gzip",
+            "content-length": "227",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 26 Jul 2023 17:39:02 GMT",
+            "etag": "\"2c-6016752c315c0\"",
+            "++redirect": "https:\/\/103.74.116.72\/",
+            "++target": "http:\/\/103.74.116.72\/",
+            "date": "Sat, 07 Dec 2024 19:32:16 GMT"
+        },
+        "ssl": {
+            "domain": "localhost",
+            "issuer": "\/CN=localhost",
+            "subject": "\/CN=localhost",
+            "version": "v3",
+            "org": "localhost",
+            "valid": "2018-08-27 16:01:04",
+            "expires": "2018-09-26 16:01:04",
+            "fingerprint": "2c5b72e19d7c93799c6609e0ea7fbfe7813da178c363cb736efa838a3e64f7c8"
+        },
+        "banners": {
+            "21": "220 ProFTPD 1.3.5b Server ready.\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "3306": "H\u0000\u0000\u0000\ufffdj\u0004Host '45.79.192.216' is not allowed to connect to this MariaDB server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/794f219951defca19ba052039f8dba62.jpeg"
+        },
+        "cookies": {
+            "js_session1": "4c73e93eaf122cef-3483271b3ec00b6a0f84fe5e-03b86cf22b5579a1bcff8966d29fc2b48dc7e122c94622fce9288eca2f"
+        }
+    }
+}

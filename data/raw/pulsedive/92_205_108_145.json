@@ -1,0 +1,121 @@
+{
+    "qid": null,
+    "iid": 58984346,
+    "indicator": "92.205.108.145",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-05-03 21:47:07",
+    "stamp_updated": "2024-11-21 01:58:16",
+    "stamp_seen": "2024-08-18 00:26:53",
+    "stamp_probed": "2024-08-18 00:26:53",
+    "stamp_retired": "2024-11-21 01:58:16",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-03 21:47:07"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "isp": "Host Europe GmbH",
+            "org": "Host Europe GmbH",
+            "city": "Strasbourg",
+            "region": "Bas-Rhin",
+            "lat": "48.5855",
+            "long": "7.7418",
+            "asn": "AS21499"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=99",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Sat, 17 Aug 2024 23:55:12 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1",
+            "expires": "0"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220 ProFTPD Server (ProFTPD Default Installation) [::ffff:92.205.108.145]\n"
+        },
+        "dns": {
+            "ptr": "145.108.205.92.host.secureserver.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4229713da501bcd82e6599a4198606b7.jpeg"
+        }
+    }
+}

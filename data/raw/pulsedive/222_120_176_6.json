@@ -1,0 +1,224 @@
+{
+    "qid": null,
+    "iid": 36911956,
+    "indicator": "222.120.176.6",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-07-07 04:51:47",
+    "stamp_updated": "2024-12-15 11:34:05",
+    "stamp_seen": "2024-12-15 07:44:35",
+    "stamp_probed": "2024-09-07 08:06:04",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 36913654,
+                "indicator": "http:\/\/222.120.176.6\/"
+            },
+            {
+                "iid": 36913668,
+                "indicator": "http:\/\/222.120.176.6\/home\/intro"
+            },
+            {
+                "iid": 65139249,
+                "indicator": "https:\/\/222.120.176.6\/home\/intro"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-10 08:43:45"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-07-07 04:51:47"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-10 08:43:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-15 00:28:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL"
+        ],
+        "technology": [
+            "Apache Tomcat",
+            "Java",
+            "jQuery",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "222.96.0.0 - 222.122.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-02-06T02:32:55Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Paju",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "region": "Gyeonggi-do",
+            "lat": "37.7191",
+            "long": "126.7615",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html;charset=UTF-8",
+            "server": "Apache-Coyote\/1.1",
+            "content-language": "en-US",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/222.120.176.6\/",
+            "++redirect": "https:\/\/222.120.176.6\/home\/intro",
+            "date": "Tue, 22 Oct 2024 18:03:56 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "expires": "2022-11-08 23:59:59",
+            "valid": "2021-11-08 00:00:00",
+            "fingerprint": "d1a6548f1ac1ac0ddcc7f4f14d6f27ffcc65efeda8c815dbbc0565bd62e778df",
+            "domain": [
+                "mopius.re.kr",
+                "www.mopius.re.kr"
+            ],
+            "subject": "\/CN=mopius.re.kr"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "::: (\uc8fc)\uc544\uc774\uc5d0\uc2a4\ud050\uc5b4 :::"
+        },
+        "banners": {
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d4029c9755fec0c66f950b74c44b9f82.jpeg"
+        },
+        "cookies": {
+            "jsessionid": "49D9C25BA17143330B1BBC9568E8A454"
+        }
+    }
+}

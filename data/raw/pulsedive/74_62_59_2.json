@@ -1,0 +1,220 @@
+{
+    "qid": null,
+    "iid": 62342541,
+    "indicator": "74.62.59.2",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 20:47:28",
+    "stamp_updated": "2024-12-14 20:47:11",
+    "stamp_seen": "2024-12-14 20:47:11",
+    "stamp_probed": "2024-08-29 01:03:01",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62344372,
+                "indicator": "https:\/\/74.62.59.2\/redirect.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-12 20:47:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "orgabusename": "Abuse",
+            "stateprov": [
+                "CA",
+                "CO"
+            ],
+            "parent": [
+                "NET74 (NET-74-0-0-0-0)",
+                "RCWE (NET-74-62-0-0-1)"
+            ],
+            "orgtechname": "IPAddressing",
+            "orgabuseemail": "abuse@charter.net",
+            "orgabusehandle": "ABUSE19-ARIN",
+            "orgtechhandle": "IPADD1-ARIN",
+            "netname": [
+                "RCWE",
+                "NET-74-62-59-0-1"
+            ],
+            "cidr": [
+                "74.62.0.0\/16",
+                "74.62.59.0\/29"
+            ],
+            "nethandle": [
+                "NET-74-62-0-0-1",
+                "NET-74-62-59-0-1"
+            ],
+            "netrange": [
+                "74.62.0.0 - 74.62.255.255",
+                "74.62.59.0 - 74.62.59.7"
+            ],
+            "city": [
+                "Greenwood Village",
+                "CHATSWORTH"
+            ],
+            "postalcode": [
+                "80111",
+                "91311"
+            ],
+            "regdate": [
+                "2006-04-07",
+                "2018-10-10",
+                "2018-10-25"
+            ],
+            "updated": [
+                "2006-08-08",
+                "2018-10-25",
+                "2022-09-14"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADD1-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/74.62.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC-3517",
+                "https:\/\/rdap.arin.net\/registry\/ip\/74.62.59.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C07134470"
+            ],
+            "++registered": "2018-10-25 00:00:00",
+            "orgname": "Charter Communications Inc",
+            "++registrant": "Charter Communications Inc",
+            "organization": "Charter Communications Inc (CC-3517)",
+            "orgid": "CC-3517",
+            "orgtechemail": "PublicIPAddressing@charter.com",
+            "++email": "PublicIPAddressing@charter.com",
+            "orgabusephone": "+1-877-777-2263",
+            "address": [
+                "6175 S. Willow Dr",
+                "19850 DEVNSHIRE ST"
+            ],
+            "orgtechphone": "+1-866-248-7662",
+            "++abuse": "+1-877-777-2263",
+            "++phone": "+1-877-777-2263",
+            "++updated": "2022-09-14 00:00:00",
+            "customer": "EGREMONT SCHOOL (C07134470)",
+            "custname": "EGREMONT SCHOOL"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "California",
+            "asn": "AS20001",
+            "city": "Northridge",
+            "lat": "34.236",
+            "long": "-118.5235",
+            "org": "TWC-20001-PACWEST"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "set-cookie": "arip=74.62.59.2; path=\/\nzy_pc_browser=1; path=\/",
+            "++redirect": "https:\/\/74.62.59.2\/redirect.cgi?arip=74.62.59.2&original_url=http:\/\/74.62.59.2\/",
+            "++target": "http:\/\/74.62.59.2\/",
+            "date": "Tue, 22 Oct 2024 19:12:09 GMT"
+        },
+        "cookies": {
+            "zy_pc_browser": "1",
+            "arip": "74.62.59.2"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2017-09-28 17:04:51",
+            "subject": "\/CN=usg40_5CE28C5C12F4",
+            "expires": "2027-09-26 17:04:51",
+            "org": "usg40_5CE28C5C12F4",
+            "issuer": "\/CN=usg40_5CE28C5C12F4",
+            "email": "usg40_5CE28C5C12F4",
+            "fingerprint": "f4b95407730f10ba333344bd510bd1207255151e38ae5af372fec3cb877a3e5f"
+        },
+        "meta": {
+            "++title": "USG40",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "21": "220 FTP Server (USG40) [::ffff:74.62.59.2]\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "syn-074-062-059-002.biz.spectrum.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/53256544cd04ca3ae98f7b9091da444a.jpeg"
+        }
+    }
+}

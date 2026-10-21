@@ -1,0 +1,133 @@
+{
+    "qid": null,
+    "iid": 65722074,
+    "indicator": "172.245.73.164",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-09 10:33:03",
+    "stamp_updated": "2024-12-15 11:31:05",
+    "stamp_seen": "2024-12-09 10:51:35",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65725439,
+                "indicator": "https:\/\/172.245.73.164\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 10:33:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "cdnjs",
+            "Django",
+            "Font Awesome",
+            "Nginx",
+            "Tailwind CSS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Illinois",
+            "asn": "AS36352",
+            "city": "Elk Grove Village",
+            "long": "-87.9644",
+            "org": "AS-COLOCROSSING",
+            "lat": "42.0026"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "vary": "Cookie",
+            "referrer-policy": "same-origin",
+            "content-length": "11730",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "x-frame-options": "DENY",
+            "cross-origin-opener-policy": "same-origin",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.27.2",
+            "date": "Mon, 09 Dec 2024 10:48:48 GMT",
+            "++target": "http:\/\/172.245.73.164\/",
+            "set-cookie": "csrftoken=3kGMLG8IkoZGWOOhipCvJJr4NXrNw2ck; expires=Mon, 08 Dec 2025 10:48:48 GMT; Max-Age=31449600; Path=\/; SameSite=Lax",
+            "++redirect": "https:\/\/172.245.73.164\/login"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/O=CloudFlare, Inc.\/OU=CloudFlare Origin SSL Certificate Authority\/L=San Francisco\/ST=California",
+            "subject": "\/O=CloudFlare, Inc.\/OU=CloudFlare Origin CA\/CN=CloudFlare Origin Certificate",
+            "version": "v3",
+            "++subject": "CloudFlare, Inc.",
+            "fingerprint": "d53425ac933be84509238f9a7361f1142c2a13340c9b4f83077f714e5985f329",
+            "valid": "2024-11-01 23:01:00",
+            "expires": "2039-10-29 23:01:00",
+            "domain": [
+                "*.eduardokusar.com",
+                "eduardokusar.com"
+            ]
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "Iniciar sesion"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4\n"
+        },
+        "cookies": {
+            "csrftoken": "3kGMLG8IkoZGWOOhipCvJJr4NXrNw2ck"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7ffd38ab3a4e2b671c1e11bddef1b65f.jpeg"
+        }
+    }
+}

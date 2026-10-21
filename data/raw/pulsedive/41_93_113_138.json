@@ -1,0 +1,165 @@
+{
+    "qid": null,
+    "iid": 57685812,
+    "indicator": "41.93.113.138",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-29 03:18:30",
+    "stamp_updated": "2024-12-13 11:27:16",
+    "stamp_seen": "2024-11-29 11:50:57",
+    "stamp_probed": "2024-07-03 04:17:04",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-29 03:18:30"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-19 10:33:15"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ALLOCATED PA",
+            "source": [
+                "AFRINIC",
+                "AFRINIC parent: 41.0.0.0 - 41.255.255.255"
+            ],
+            "mnt-by": [
+                "AFRINIC-HM-MNT",
+                "TERNET-MNT",
+                "GENERATED-YMWDIDJZFMDXUQAEXDCYB3DPHAQMNTZF-MNT",
+                "GENERATED-IIJKZBGAMXKOFALAAXJSK4ZXHIW8QEQL-MNT",
+                "GENERATED-RPHMEKV0UZZOC5SLUQUWZVWJLNGVNBI1-MNT"
+            ],
+            "country": "TZ",
+            "mnt-ref": [
+                "AFRINIC-HM-MNT",
+                "TERNET-MNT"
+            ],
+            "origin": "AS37182",
+            "mnt-routes": "TERNET-MNT",
+            "org-name": "Tanzania Education And Research Network",
+            "inetnum": "41.93.0.0 - 41.93.127.255",
+            "mnt-lower": "TERNET-MNT",
+            "netname": "TERNET-20100302",
+            "org": "ORG-TEAR1-AFRINIC",
+            "organisation": "ORG-TEAR1-AFRINIC",
+            "++phone": [
+                "tel:+255-22-277-5378",
+                "tel:+255-738-752-300",
+                "tel:+255-754-557-648",
+                "tel:+255-712-851-770",
+                "tel:+255-714-514-420",
+                "tel:+255-752-520-764",
+                "tel:+255-713-722-002"
+            ],
+            "descr": [
+                "TERNET",
+                "Tanzania Research and Education Network - TERNET"
+            ],
+            "phone": [
+                "tel:+255-22-277-5378",
+                "tel:+255-738-752-300",
+                "tel:+255-754-557-648",
+                "tel:+255-712-851-770",
+                "tel:+255-714-514-420",
+                "tel:+255-752-520-764",
+                "tel:+255-713-722-002"
+            ],
+            "address": [
+                "Dar es Salaam",
+                "Tanzania, United Republic of",
+                "Kilimahewa Road, House No. 2, University of Dar es Salaam",
+                "P.O. BOX 95062"
+            ],
+            "route": "41.93.0.0\/17",
+            "mnt-domains": "TERNET-MNT",
+            "person": [
+                "Magesa Mihayo",
+                "Frank Philip Seth",
+                "Neema Peter"
+            ],
+            "nic-hdl": [
+                "MM193-AFRINIC",
+                "FPS1-AFRINIC",
+                "NP25-AFRINIC"
+            ],
+            "++registrant": [
+                "MM193-AFRINIC",
+                "FPS1-AFRINIC"
+            ],
+            "tech-c": [
+                "MM193-AFRINIC",
+                "NP25-AFRINIC"
+            ],
+            "admin-c": [
+                "MM193-AFRINIC",
+                "FPS1-AFRINIC"
+            ]
+        },
+        "geo": {
+            "country": "Tanzania, United Republic of",
+            "countrycode": "TZ",
+            "asn": "AS37182",
+            "isp": "TERNET",
+            "org": [
+                "TERNET",
+                "ORG-TEAR1-AFRINIC"
+            ],
+            "address": [
+                "Dar es Salaam",
+                "Tanzania, United Republic of",
+                "Kilimahewa Road, House No. 2, University of Dar es Salaam",
+                "P.O. BOX 95062"
+            ],
+            "region": "Dodoma",
+            "city": "Dodoma",
+            "lat": "-6.1749",
+            "long": "35.7356"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2020.81\n\u0000\u0000\u0001\ufffd\u0006\u0014f\n\ufffd}\ufffd\ufffd\u0013\ufffd6\ufffd\ufffdL\ufffd\u001a(\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000(ecdsa-sha2-nistp256,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd(\ufffd\u0019x"
+        }
+    }
+}

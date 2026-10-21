@@ -1,0 +1,103 @@
+{
+    "qid": null,
+    "iid": 238156,
+    "indicator": "162.144.37.219",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2017-11-09 08:09:54",
+    "stamp_updated": "2022-05-29 00:16:32",
+    "stamp_seen": "2022-02-27 04:03:36",
+    "stamp_probed": "2022-02-27 04:03:36",
+    "stamp_retired": "2022-05-29 00:16:32",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 67,
+            "name": "Phishing",
+            "category": "general",
+            "risk": "high",
+            "stamp_linked": "2017-11-09 13:09:54"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 22,
+            "name": "OpenPhish",
+            "category": "phishing",
+            "organization": "OpenPhish",
+            "pricing": null,
+            "stamp_linked": "2017-11-09 13:09:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS46606",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "UNIFIEDLAYER-AS-1",
+            "isp": "UNIFIEDLAYER-AS-1"
+        },
+        "dns": {
+            "ptr": "server04.rrwebhost.com.br"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 02:39. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity."
+        }
+    }
+}

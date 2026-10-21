@@ -1,0 +1,111 @@
+{
+    "qid": null,
+    "iid": 64383070,
+    "indicator": "178.62.212.119",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-18 06:24:23",
+    "stamp_updated": "2024-12-11 10:41:19",
+    "stamp_seen": "2024-10-18 06:24:54",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64383254,
+                "indicator": "https:\/\/178.62.212.119\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-18 06:24:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "asn": "AS14061",
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "lat": "52.352",
+            "long": "4.9392",
+            "org": "DIGITALOCEAN-ASN",
+            "country": "The Netherlands"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "403",
+            "++content-type": "text\/html",
+            "date": "Fri, 18 Oct 2024 06:24:43 GMT",
+            "++target": "http:\/\/178.62.212.119\/",
+            "++redirect": "https:\/\/178.62.212.119\/",
+            "etag": "W\/\"62c685ab-157\""
+        },
+        "ssl": {
+            "domain": [
+                "cloudwaysapps.com",
+                "*.cloudwaysapps.com"
+            ],
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "subject": "\/CN=*.cloudwaysapps.com",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "valid": "2024-04-05 00:00:00",
+            "expires": "2025-05-06 23:59:59",
+            "fingerprint": "ddb28f859a35dc96522b546185b957f051cf81710bec96656a98b14b24698610"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/df2ebccba0b0f5fe8266c6895aed51a0.jpeg"
+        }
+    }
+}

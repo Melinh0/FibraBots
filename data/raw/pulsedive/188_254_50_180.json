@@ -1,0 +1,167 @@
+{
+    "qid": null,
+    "iid": 51572990,
+    "indicator": "188.254.50.180",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-25 19:52:48",
+    "stamp_updated": "2024-12-10 02:24:29",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 07:18:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-11-15 18:59:04"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-25 19:52:48"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-11-15 18:59:04"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-12 04:38:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "53"
+        ],
+        "protocol": [
+            "DNS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russian Federation",
+                "PJSC Rostelecom",
+                "PJSC Rostelecom Russian Federation"
+            ],
+            "mnt-by": "ROSTELECOM-MNT",
+            "origin": "AS12389",
+            "abuse-mailbox": "abuse@rt.ru",
+            "nic-hdl": [
+                "RTNC-RIPE",
+                "PRTT1-RIPE"
+            ],
+            "descr": [
+                "ROSTELECOM NETS",
+                "BROADBAND INTERNET ACCESS FOR CUSTOMERS ROSTELECOM"
+            ],
+            "netname": "BROADBAND_INTERNET_ACCESS",
+            "last-modified": [
+                "2011-03-10T12:32:40Z",
+                "2022-12-12T07:46:18Z",
+                "2024-05-20T01:54:00Z",
+                "2024-06-04T10:15:05Z"
+            ],
+            "route": "188.254.0.0\/17",
+            "created": [
+                "2011-03-10T12:32:40Z",
+                "2007-11-27T13:28:11Z",
+                "2011-04-19T07:04:29Z",
+                "2024-05-20T01:54:00Z"
+            ],
+            "inetnum": "188.254.48.0 - 188.254.63.255",
+            "tech-c": [
+                "RTNC-RIPE",
+                "IE1277-RIPE"
+            ],
+            "++abuse": "abuse@rt.ru",
+            "++email": "abuse@rt.ru",
+            "role": "PJSC Rostelecom Technical Team",
+            "admin-c": [
+                "IE1277-RIPE",
+                "PRTT1-RIPE"
+            ],
+            "++registrant": [
+                "IE1277-RIPE",
+                "PRTT1-RIPE"
+            ],
+            "++updated": [
+                "2024-05-20 01:54:00",
+                "2022-12-12 07:46:18",
+                "2024-06-04 10:15:05",
+                "2011-03-10 12:32:40"
+            ],
+            "++registered": [
+                "2024-05-20 01:54:00",
+                "2007-11-27 13:28:11",
+                "2011-03-10 12:32:40"
+            ]
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS12389",
+            "org": "Rostelecom",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "profi.naviteh.ru"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

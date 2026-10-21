@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 47516484,
+    "indicator": "186.75.154.14",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-26 03:46:56",
+    "stamp_updated": "2024-12-11 10:41:56",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": "2024-09-30 07:11:59",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 47517078,
+                "indicator": "http:\/\/186.75.154.14\/"
+            },
+            {
+                "iid": 64225276,
+                "indicator": "https:\/\/186.75.154.14\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-26 03:46:56"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-05-26 20:15:04"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Let's Encrypt",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Panama",
+            "countrycode": "PA",
+            "asn": "AS11556",
+            "org": "Cable & Wireless Panama",
+            "city": "Panama City",
+            "lat": "8.9948",
+            "long": "-79.523",
+            "region": "Provincia de Panam\ufffd"
+        },
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "address": [
+                "9A - Panama -",
+                "0834-00659, Panama, 9A,",
+                "083400659 - Panama - -",
+                "Apartado 659, PA,",
+                "Juan Franco, 265,",
+                "569 - Panama -"
+            ],
+            "country": "PA",
+            "created": [
+                "20030416",
+                "20091106",
+                "20181016"
+            ],
+            "nic-hdl": [
+                "CAP3",
+                "OPD7"
+            ],
+            "owner": "Cable & Wireless Panama",
+            "owner-c": "CAP3",
+            "person": [
+                "Russell Bean",
+                "Operaciones Datos"
+            ],
+            "phone": [
+                "+507 882 2200 [22]",
+                "+507 2696181",
+                "+507 2642238"
+            ],
+            "tech-c": "CAP3",
+            "nserver": [
+                "NS2.CWPANAMA.NET",
+                "NS.CWPANAMA.NET"
+            ],
+            "ownerid": "PA-CWPA-LACNIC",
+            "responsible": "Cable and Wireless Panama",
+            "++registered": "2018-10-16 00:00:00",
+            "changed": [
+                "20181016",
+                "20210621",
+                "20220406"
+            ],
+            "++phone": [
+                "+507 882 2200 [22]",
+                "+507 2696181",
+                "+507 2642238"
+            ],
+            "++registrant": [
+                "Russell Bean",
+                "Operaciones Datos"
+            ],
+            "++email": [
+                "russell.j.bean@cwpanama.com",
+                "dloperdat@cwpanama.com"
+            ],
+            "e-mail": [
+                "russell.j.bean@cwpanama.com",
+                "dloperdat@cwpanama.com"
+            ],
+            "inetnum": "186.74.0.0\/15",
+            "inetrev": "186.74.0.0\/15",
+            "++abuse": "OPD7",
+            "abuse-c": "OPD7",
+            "nsstat": "20240817 AA",
+            "nslastaa": "20240817"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3138",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "etag": "\"2aa6-5e543bb6cc556-gzip\"",
+            "last-modified": "Tue, 02 Aug 2022 15:25:53 GMT",
+            "date": "Mon, 07 Oct 2024 01:09:58 GMT",
+            "++redirect": "https:\/\/186.75.154.14\/",
+            "++target": "http:\/\/186.75.154.14\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "valid": "2024-09-26 12:30:29",
+            "expires": "2024-12-25 12:30:28",
+            "domain": "mamaines-sta.com",
+            "subject": "\/CN=mamaines-sta.com",
+            "fingerprint": "7e65903eea1d2ff59dd08a549f28da82eefb7fe05d4cd0ab0eb6f252c91f133e"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/621cf837bdaf177c2899638a88377a69.jpeg"
+        }
+    }
+}

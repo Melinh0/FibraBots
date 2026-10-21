@@ -1,0 +1,195 @@
+{
+    "qid": null,
+    "iid": 2474274,
+    "indicator": "130.149.80.199",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2018-08-18 14:37:55",
+    "stamp_updated": "2024-09-07 09:21:53",
+    "stamp_seen": "2024-06-03 04:38:36",
+    "stamp_probed": "2024-06-03 04:38:36",
+    "stamp_retired": "2024-09-07 09:21:53",
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [
+            {
+                "iid": 6956908,
+                "indicator": "https:\/\/2019.www.torproject.org\/images\/how_tor_works_thumb.png"
+            }
+        ],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-12-12 00:28:36"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-21 17:53:08"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-21 17:53:08"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 01:13:54"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2021-12-12 00:28:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "DE",
+            "status": "LEGACY",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2002-04-04T09:04:50Z",
+                "2014-12-11T15:56:45Z",
+                "2014-12-11T15:52:09Z"
+            ],
+            "++phone": [
+                "+49 30 314 28800",
+                "+49 30 314 78572"
+            ],
+            "admin-c": "MF14745-RIPE",
+            "descr": [
+                "TUB",
+                "TU Berlin, campus network"
+            ],
+            "fax-no": "+49 30 314 21060",
+            "inetnum": "130.149.0.0 - 130.149.255.255",
+            "last-modified": [
+                "2010-02-18T12:50:43Z",
+                "2001-09-22T09:32:38Z",
+                "2016-11-23T11:41:32Z",
+                "2014-12-11T15:52:09Z",
+                "2019-12-04T13:05:29Z"
+            ],
+            "mnt-by": [
+                "DFN-MNT",
+                "DFN-LIR-MNT",
+                "DFN-NTFY"
+            ],
+            "mnt-irt": "IRT-DFN-CERT",
+            "mnt-lower": "DFN-LIR-MNT",
+            "mnt-routes": "DFN-MNT",
+            "netname": "TUB",
+            "nic-hdl": [
+                "MF14745-RIPE",
+                "TH5476-RIPE"
+            ],
+            "origin": [
+                "AS680",
+                "AS1275"
+            ],
+            "person": "Michael Flachsel",
+            "phone": [
+                "+49 30 314 78572",
+                "+49 30 314 28800"
+            ],
+            "role": "tubIT Hostmaster",
+            "route": "130.149.0.0\/16",
+            "tech-c": "TH5476-RIPE",
+            "++registered": "2014-12-11 00:00:00",
+            "address": [
+                "Technische Universitaet Berlin",
+                "tubIT \/ IT-Service Center",
+                "Sekretariat EN 50",
+                "Einsteinufer 17",
+                "10587 Berlin",
+                "Germany"
+            ],
+            "++updated": "2019-12-04 00:00:00",
+            "++registrant": "Michael Flachsel"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "city": "Berlin",
+            "asn": "AS680",
+            "isp": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+            "org": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+            "region": "Land Berlin",
+            "zip": "12487",
+            "lat": "52.441",
+            "long": "13.49"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "12415",
+            "++code": "200",
+            "++status": "OK",
+            "x-your-address-is": "157.245.121.229",
+            "++content-type": "text\/html",
+            "date": "Sun, 11 Feb 2024 05:42:24 GMT",
+            "expires": "Sun, 11 Feb 2024 06:02:24 GMT"
+        },
+        "dns": {
+            "ptr": "tor.dsi.tu-berlin.de"
+        },
+        "meta": {
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b8a7abb3b3e1e0af35708c9269a1170d.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        }
+    }
+}

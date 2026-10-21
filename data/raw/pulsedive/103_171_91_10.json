@@ -1,0 +1,157 @@
+{
+    "qid": null,
+    "iid": 64592474,
+    "indicator": "103.171.91.10",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-30 08:27:41",
+    "stamp_updated": "2024-12-17 11:30:11",
+    "stamp_seen": "2024-12-15 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-30 08:27:41"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-23 21:24:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "5432"
+        ],
+        "protocol": [
+            "PostgreSQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "4\/2 Dinh Bo Linh, Group 6, Phu Cuong Ward, Thu Dau Mot City, Binh Duong"
+            ],
+            "org": "42 Dinh Bo Linh, Group 6, Phu Cuong Ward, Thu Dau Mot City, Binh Duong",
+            "asn": "AS140819"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "TVP6-AP"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-938247116",
+                "+84-966444463"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "TVH12-AP"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "kythuat@exe.vn"
+            ],
+            "++registrant": [
+                "Tran Van Hung",
+                "NTTT1-AP",
+                "TVH12-AP",
+                "Tran Van Phuong"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2021-08-10T03:29:20Z",
+                "2021-08-10T03:19:58Z",
+                "2021-08-10T03:21:03Z",
+                "2023-12-20T03:00:41Z"
+            ],
+            "address": [
+                "Ha Noi, VietNam",
+                "4\/2 Dinh Bo Linh, Group 6, Phu Cuong Ward, Thu Dau Mot City, Binh Duong"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-938247116",
+                "+84-966444463"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "kythuat@exe.vn"
+            ],
+            "inetnum": "103.171.90.0 - 103.171.91.255",
+            "person": [
+                "Tran Van Hung",
+                "Tran Van Phuong"
+            ],
+            "descr": [
+                "HANA A&B JSC",
+                "4\/2 Dinh Bo Linh, Group 6, Phu Cuong Ward, Thu Dau Mot City, Binh Duong",
+                "HANA-VN"
+            ],
+            "nic-hdl": [
+                "TVH12-AP",
+                "TVP6-AP"
+            ],
+            "netname": "HANA-VN",
+            "origin": "AS140819",
+            "route": "103.171.90.0\/23",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2021-08-10 03:29:20",
+                "2021-08-10 03:19:58",
+                "2021-08-10 03:21:03",
+                "2023-12-20 03:00:41"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

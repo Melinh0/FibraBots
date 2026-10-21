@@ -1,0 +1,203 @@
+{
+    "qid": null,
+    "iid": 28082739,
+    "indicator": "161.10.247.113",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-09-18 10:38:56",
+    "stamp_updated": "2024-12-10 10:36:07",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-07 07:52:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-02-24 04:14:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-09-18 10:38:56"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-12 14:08:47"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-06-03 15:15:53"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-02-24 04:14:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-25 04:06:10"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23",
+            "443",
+            "5505",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "Telnet"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "UY",
+            "++registered": [
+                "2010-11-03 00:00:00",
+                "2002-07-27 00:00:00"
+            ],
+            "address": "Rambla Republica de Mexico 6125",
+            "city": "Montevideo",
+            "orgabusename": "LACNIC Whois Info",
+            "organization": "Latin American and Caribbean IP address Regional Registry (LACNIC)",
+            "orgid": "LACNIC",
+            "orgname": "Latin American and Caribbean IP address Regional Registry",
+            "orgtechemail": "whois-contact@lacnic.net",
+            "orgtechhandle": "LACNIC-ARIN",
+            "orgtechname": "LACNIC Whois Info",
+            "postalcode": "11400",
+            "referralserver": "whois:\/\/whois.lacnic.net",
+            "regdate": [
+                "2002-07-27",
+                "2010-11-03"
+            ],
+            "resourcelink": [
+                "http:\/\/lacnic.net\/cgi-bin\/lacnic\/whois",
+                "whois.lacnic.net"
+            ],
+            "parent": "NET161 (NET-161-0-0-0-0)",
+            "nettype": "Transferred to LACNIC",
+            "++updated": "2018-03-15 00:00:00",
+            "updated": [
+                "2018-03-15",
+                "2010-11-17"
+            ],
+            "orgabusehandle": "LWI100-ARIN",
+            "orgabuseemail": "abuse@lacnic.net",
+            "orgtechphone": "+598-2604-2222",
+            "orgabusephone": "+598-2604-2222",
+            "++abuse": "abuse@lacnic.net",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/LACNIC-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/LACNIC",
+                "https:\/\/rdap.arin.net\/registry\/ip\/161.10.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/LWI100-ARIN",
+            "netname": "LACNIC-ERX-161-10-0-0",
+            "nethandle": "NET-161-10-0-0-1",
+            "cidr": "161.10.0.0\/16",
+            "netrange": "161.10.0.0 - 161.10.255.255",
+            "++privacy": "1"
+        },
+        "geo": {
+            "country": "Colombia",
+            "countrycode": "CO",
+            "asn": "AS3816",
+            "long": "-74.0833",
+            "region": "Bogota D.C.",
+            "lat": "4.6115",
+            "city": "Bogot\ufffd",
+            "org": "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "last-modified": "Mon, 26 Aug 2024 22:01:36 GMT",
+            "date": "Mon, 26 Aug 2024 22:01:36 GMT",
+            "set-cookie": "PHPSESSID=7215aca18351c0a7234720b9c6ff2770; path=\/; secure; HttpOnly"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1"
+        },
+        "ssl": {
+            "version": "v3",
+            "++self-signed": "1",
+            "issuer": "\/O=pfSense webConfigurator Self-Signed Certificate\/CN=pfSense-631a1cc978302",
+            "org": "pfSense-631a1cc978302",
+            "valid": "2022-09-08 16:48:09",
+            "domain": "pfSense-631a1cc978302",
+            "expires": "2023-10-11 16:48:09",
+            "subject": "\/O=pfSense webConfigurator Self-Signed Certificate\/CN=pfSense-631a1cc978302"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9f837ee46c06fee8ef2164cccb71a14a.jpeg"
+        },
+        "cookies": {
+            "phpsessid": "7215aca18351c0a7234720b9c6ff2770"
+        }
+    }
+}

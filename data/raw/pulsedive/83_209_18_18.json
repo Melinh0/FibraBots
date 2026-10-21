@@ -1,0 +1,161 @@
+{
+    "qid": null,
+    "iid": 50494723,
+    "indicator": "83.209.18.18",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-08-24 12:59:17",
+    "stamp_updated": "2024-12-14 15:40:23",
+    "stamp_seen": "2024-12-14 15:40:23",
+    "stamp_probed": "2024-09-11 17:04:00",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 50494729,
+                "indicator": "http:\/\/83.209.18.18\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-30 22:41:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-08-24 12:59:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "23",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "SE",
+            "abuse-mailbox": "abuse@bredband2.se",
+            "address": "Sodra Tullgatan 4 S-211 40 Malmoe Sweden",
+            "admin-c": [
+                "BBPP-RIPE",
+                "BR1985-RIPE",
+                "RAD-RIPE"
+            ],
+            "fax-no": "+46 40 125890",
+            "mnt-by": "BB2-MNT",
+            "netname": "BREDBAND2-NET-SE",
+            "nic-hdl": "BR1985-RIPE",
+            "origin": "AS29518",
+            "phone": "+46 771 518500",
+            "role": "Bredband2 Routingregistry",
+            "tech-c": [
+                "BBPP-RIPE",
+                "BR1985-RIPE",
+                "RAD-RIPE"
+            ],
+            "route": "83.209.0.0\/16",
+            "last-modified": [
+                "2015-07-01T18:03:05Z",
+                "2021-03-09T11:51:09Z",
+                "2023-10-30T09:17:01Z"
+            ],
+            "created": [
+                "2009-03-09T13:07:04Z",
+                "2021-03-09T11:51:09Z",
+                "2020-01-23T10:52:52Z"
+            ],
+            "++abuse": "abuse@bredband2.se",
+            "++registrant": [
+                "BR1985-RIPE",
+                "RAD-RIPE",
+                "BBPP-RIPE"
+            ],
+            "++email": "abuse@bredband2.se",
+            "descr": [
+                "Bredband2 Customer",
+                "B2"
+            ],
+            "inetnum": "83.209.16.0 - 83.209.23.255",
+            "geofeed": "https:\/\/geofeed.bredband2.net\/geofeed.csv",
+            "++registered": [
+                "2009-03-09 13:07:04",
+                "2021-03-09 11:51:09",
+                "2020-01-23 10:52:52"
+            ],
+            "++updated": [
+                "2015-07-01 18:03:05",
+                "2021-03-09 11:51:09",
+                "2023-10-30 09:17:01"
+            ]
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS29518",
+            "org": "Bredband2 AB",
+            "lat": "59.3247",
+            "long": "18.056"
+        },
+        "meta": {
+            "pragma": "no-cache"
+        },
+        "http": {
+            "++code": "200",
+            "++status": "OK",
+            "++target": "http:\/\/83.209.18.18\/"
+        },
+        "banners": {
+            "21": "220 Ftp firmware update utility\n",
+            "23": "\u0005\u0004\u0000\u0000",
+            "22": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "h83-209-18-18.cust.bredband2.com"
+        }
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "qid": null,
+    "iid": 40008133,
+    "indicator": "35.224.42.65",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-15 16:27:32",
+    "stamp_updated": "2024-12-10 02:27:46",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 11:42:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 40008359,
+                "indicator": "http:\/\/35.224.42.65\/"
+            },
+            {
+                "iid": 64235091,
+                "indicator": "https:\/\/35.224.42.65\/web\/database\/selector"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-07 23:07:45"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-10-15 16:27:32"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-18 12:45:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-12-07 23:07:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-10-17 00:32:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "Font Awesome",
+            "HSTS",
+            "jQuery",
+            "Let's Encrypt",
+            "Nginx",
+            "Popper",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "CA",
+            "++registered": [
+                "2006-09-29 00:00:00",
+                "2017-09-29 00:00:00"
+            ],
+            "parent": "NET35 (NET-35-0-0-0-0)",
+            "++email": "arin-contact@google.com",
+            "++phone": "+1-650-253-0000",
+            "address": "1600 Amphitheatre Parkway",
+            "city": "Mountain View",
+            "orgabusephone": "+1-650-253-0000",
+            "orgtechemail": "arin-contact@google.com",
+            "orgtechhandle": "ZG39-ARIN",
+            "orgtechphone": "+1-650-253-0000",
+            "postalcode": "94043",
+            "++abuse": "google-cloud-compliance@google.com",
+            "netname": "GOOGLE-CLOUD",
+            "orgabuseemail": "google-cloud-compliance@google.com",
+            "orgabusehandle": "GCABU-ARIN",
+            "orgabusename": "GC Abuse",
+            "orgid": "GOOGL-2",
+            "orgnocemail": "google-cloud-compliance@google.com",
+            "orgnochandle": "GCABU-ARIN",
+            "orgnocname": "GC Abuse",
+            "orgnocphone": "+1-650-253-0000",
+            "regdate": [
+                "2006-09-29",
+                "2017-09-29"
+            ],
+            "++registrant": "Google LLC",
+            "orgname": "Google LLC",
+            "organization": "Google LLC (GOOGL-2)",
+            "orgtechname": "Google LLC",
+            "nethandle": "NET-35-208-0-0-1",
+            "netrange": "35.208.0.0 - 35.247.255.255",
+            "cidr": "35.240.0.0\/13, 35.224.0.0\/12, 35.208.0.0\/12",
+            "updated": [
+                "2018-01-24",
+                "2019-11-01"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZG39-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOOGL-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/35.208.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "++updated": "2019-11-01 00:00:00"
+        },
+        "geo": {
+            "city": [
+                "Mountain View",
+                "Council Bluffs"
+            ],
+            "country": "United States",
+            "countrycode": "US",
+            "zip": "94043",
+            "region": [
+                "CA",
+                "Iowa"
+            ],
+            "address": "1600 Amphitheatre Parkway",
+            "lat": "41.2591",
+            "org": [
+                "Google LLC (GOOGL-2)",
+                "GOOGLE-CLOUD-PLATFORM"
+            ],
+            "asn": "AS396982",
+            "long": "-95.8517"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "content-type": "text\/html; charset=utf-8",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "date": "Mon, 07 Oct 2024 20:49:31 GMT",
+            "set-cookie": "session_id=9cbb703fa3efd2528fabb9ce4385714744bcd60c; Expires=Sun, 05-Jan-2025 20:49:31 GMT; Max-Age=7776000; HttpOnly; Path=\/",
+            "++target": "http:\/\/35.224.42.65\/",
+            "++redirect": "https:\/\/35.224.42.65\/web\/database\/selector"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "Odoo"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=demo.polimastersac.com",
+            "domain": "demo.polimastersac.com",
+            "expires": "2024-11-28 04:00:30",
+            "fingerprint": "38283949eba93ff6954687ddd8d78c02f3484ba666a9fa9269b20d13534ec91b",
+            "valid": "2024-08-30 04:00:31"
+        },
+        "dns": {
+            "ptr": "65.42.224.35.bc.googleusercontent.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "cookies": {
+            "session_id": "9cbb703fa3efd2528fabb9ce4385714744bcd60c"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/07b86bc2d8f8083dee6fd35fb56bbcd7.jpeg"
+        }
+    }
+}

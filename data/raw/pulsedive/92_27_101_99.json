@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 32915047,
+    "indicator": "92.27.101.99",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-18 00:16:37",
+    "stamp_updated": "2024-12-17 11:40:48",
+    "stamp_seen": "2024-12-16 18:07:19",
+    "stamp_probed": "2024-09-30 20:50:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-05-04 21:43:29"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-18 00:16:37"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-15 06:36:22"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-05-04 21:43:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-23 12:02:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "GB",
+            "admin-c": [
+                "RT5719-RIPE",
+                "RH2381-RIPE",
+                "TTHM-RIPE",
+                "PB23547-RIPE"
+            ],
+            "tech-c": [
+                "RT5719-RIPE",
+                "RH2381-RIPE",
+                "TTHM-RIPE",
+                "PB23547-RIPE"
+            ],
+            "created": [
+                "2008-12-09T09:57:28Z",
+                "2018-11-09T15:39:41Z",
+                "2024-05-07T21:52:37Z"
+            ],
+            "origin": "AS13285",
+            "route": "92.26.0.0\/15",
+            "abuse-mailbox": "abuse@talktalkplc.com",
+            "address": [
+                "Manchester",
+                "TalkTalk Communications Limited",
+                "M5 3TT",
+                "Salford",
+                "Soapworks",
+                "Ordsall Lane",
+                "United Kingdom"
+            ],
+            "descr": [
+                "Customer Static IPs",
+                "TalkTalk Communications Limited"
+            ],
+            "++registrant": [
+                "RH2381-RIPE",
+                "RT5719-RIPE",
+                "TTHM-RIPE",
+                "PB23547-RIPE"
+            ],
+            "mnt-by": "TALKTALK-MNT",
+            "++abuse": "abuse@talktalkplc.com",
+            "++email": "abuse@talktalkplc.com",
+            "role": "TalkTalk Hostmaster",
+            "nic-hdl": "TTHM-RIPE",
+            "last-modified": [
+                "2019-11-06T23:58:17Z",
+                "2021-04-29T10:03:13Z",
+                "2024-05-07T21:52:37Z"
+            ],
+            "++registered": [
+                "2018-11-09 15:39:41",
+                "2024-05-07 21:52:37",
+                "2008-12-09 09:57:28"
+            ],
+            "++updated": [
+                "2021-04-29 10:03:13",
+                "2024-05-07 21:52:37",
+                "2019-11-06 23:58:17"
+            ],
+            "netname": "UK-OPALNET-20240705",
+            "inetnum": "92.27.0.0 - 92.27.127.255"
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS13285",
+            "org": "TalkTalk",
+            "city": "Kensington",
+            "region": [
+                "England",
+                "Royal Kensington and Chelsea"
+            ],
+            "lat": "51.5005",
+            "long": "-0.1905",
+            "address": [
+                "TalkTalk Communications Limited",
+                "Soapworks",
+                "Ordsall Lane",
+                "Salford",
+                "Manchester",
+                "M5 3TT",
+                "United Kingdom"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2\n"
+        },
+        "dns": {
+            "ptr": "host-92-27-101-99.static.as13285.net"
+        }
+    }
+}

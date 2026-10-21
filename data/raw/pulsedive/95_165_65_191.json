@@ -1,0 +1,181 @@
+{
+    "qid": null,
+    "iid": 61932323,
+    "indicator": "95.165.65.191",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-02 20:23:15",
+    "stamp_updated": "2024-12-10 10:43:19",
+    "stamp_seen": "2024-11-20 00:00:00",
+    "stamp_probed": "2024-09-30 21:07:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61932678,
+                "indicator": "http:\/\/95.165.65.191\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-02 20:23:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-10-03 16:28:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Moscow, Russia",
+                "Khachaturyana 5",
+                "USPD MGTS"
+            ],
+            "admin-c": [
+                "AGS9167-RIPE",
+                "AVK103-RIPE",
+                "USPD-RIPE",
+                "GIA45-RIPE"
+            ],
+            "descr": [
+                "Moscow, Russia",
+                "Moscow Local Telephone Network (OAO MGTS)"
+            ],
+            "mnt-by": "MGTS-USPD-MNT",
+            "netname": "MGTS-PPPOE",
+            "nic-hdl": "USPD-RIPE",
+            "origin": "AS25513",
+            "tech-c": [
+                "ANO3-RIPE",
+                "USPD-RIPE",
+                "AVK103-RIPE",
+                "VMK"
+            ],
+            "created": [
+                "2009-01-27T13:52:05Z",
+                "2006-09-11T07:56:01Z",
+                "2009-11-27T18:33:25Z"
+            ],
+            "last-modified": [
+                "2009-01-27T13:52:05Z",
+                "2009-11-27T18:33:25Z",
+                "2022-04-04T16:36:51Z"
+            ],
+            "route": "95.165.0.0\/16",
+            "role": "PJSC Moscow City Telephone Network NOC",
+            "inetnum": "95.165.0.0 - 95.165.127.255",
+            "++registrant": [
+                "USPD-RIPE",
+                "AGS9167-RIPE",
+                "AVK103-RIPE",
+                "GIA45-RIPE"
+            ],
+            "abuse-mailbox": "abuse@spd-mgts.ru",
+            "++abuse": "abuse@spd-mgts.ru",
+            "++email": "abuse@spd-mgts.ru",
+            "++updated": [
+                "2022-04-04 16:36:51",
+                "2009-01-27 13:52:05"
+            ],
+            "++registered": [
+                "2006-09-11 07:56:01",
+                "2009-01-27 13:52:05",
+                "2009-11-27 18:33:25"
+            ]
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS25513",
+            "org": "PJSC Moscow city telephone network",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "http": {
+            "connection": "close",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "content-security-policy": "frame-ancestors 'self'",
+            "cache-control": "no-cache,no-store",
+            "content-length": "89",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "set-cookie": "SID=38b5207ccfa11050007bc0eddfec65b2d173c7d1a7dd4caa42fe65fa6e8dc47e; PATH=\/; HttpOnly; SameSite=strict"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "x-ua-compatible": "IE=edge"
+        },
+        "cookies": {
+            "_testcookiesupport": "1",
+            "sid": "38b5207ccfa11050007bc0eddfec65b2d173c7d1a7dd4caa42fe65fa6e8dc47e"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c53230c20dd14f0d686ff6e484b53bc6.jpeg"
+        },
+        "dns": {
+            "ptr": "95-165-65-191.dynamic.spd-mgts.ru"
+        }
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "qid": null,
+    "iid": 52915320,
+    "indicator": "124.198.59.254",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-10 19:53:40",
+    "stamp_updated": "2024-12-11 00:43:32",
+    "stamp_seen": "2024-12-04 00:00:00",
+    "stamp_probed": "2024-09-07 07:46:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64117874,
+                "indicator": "https:\/\/124.198.59.254\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-11-15 18:45:32"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-10 19:53:40"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-11-15 18:45:32"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-12 05:09:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "++phone": "+82-2-3281-3456",
+            "admin-c": [
+                "HP88-KR",
+                "IM574-AP",
+                "IM851-AP"
+            ],
+            "descr": "HAIonNet",
+            "netname": [
+                "HAIONNET-KR",
+                "HAIONNET"
+            ],
+            "nic-hdl": [
+                "HP88-KR",
+                "IM851-AP"
+            ],
+            "phone": "+82-2-3281-3456",
+            "tech-c": [
+                "HP88-KR",
+                "IM574-AP",
+                "IM851-AP"
+            ],
+            "inetnum": "124.198.0.0 - 124.198.127.255",
+            "last-modified": [
+                "2017-02-02T02:44:03Z",
+                "2021-06-15T06:21:49Z",
+                "2021-11-16T08:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM851-AP",
+                "HP88-KR",
+                "IP Manager"
+            ],
+            "address": [
+                "Seoul Guro-gu Digital-ro",
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "DaeRyungPostTower 1Cha 1105"
+            ],
+            "e-mail": [
+                "irt@nic.or.kr",
+                "opt@haion.net"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++email": [
+                "irt@nic.or.kr",
+                "opt@haion.net"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-11-16 08:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "region": "Seoul",
+            "lat": "37.4906",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Guro-gu Digital-ro",
+                "DaeRyungPostTower 1Cha 1105"
+            ],
+            "city": "Seocho-gu",
+            "long": "127.0168",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15; max=19",
+            "content-length": "1999",
+            "++status": "OK",
+            "++code": "202",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/124.198.59.254\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "SoftEther VPN Server"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "59d8e7b9af38",
+            "fingerprint": "fa65ab14190331a03719e16e293a044adbdee2970536e5977b42b3c3cf8e292f",
+            "org": "59d8e7b9af38",
+            "valid": "2021-08-30 07:47:34",
+            "subject": "\/CN=59d8e7b9af38\/O=59d8e7b9af38\/OU=59d8e7b9af38\/C=US",
+            "expires": "2037-12-31 07:47:34",
+            "issuer": "\/CN=59d8e7b9af38\/O=59d8e7b9af38\/OU=59d8e7b9af38\/C=US"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f7236f45270b96c6e8ced9d148a8cbfa.jpeg"
+        }
+    }
+}

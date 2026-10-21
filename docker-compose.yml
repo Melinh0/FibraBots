@@ -1,0 +1,36 @@
+x-app: &app
+  build: .
+  image: fibrabots:local
+  env_file:
+    - .env
+  volumes:
+    - ./data:/app/data
+  restart: "no"
+
+services:
+  abuseipdb:
+    <<: *app
+    profiles: ["api"]
+    command: ["abuseipdb"]
+
+  virustotal:
+    <<: *app
+    profiles: ["api"]
+    command: ["virustotal"]
+
+  pulsedive:
+    <<: *app
+    profiles: ["api"]
+    command: ["pulsedive"]
+
+  ipvoid:
+    <<: *app
+    profiles: ["browser"]
+    environment:
+      FIBRABOTS_HEADLESS: "1"
+    command: ["ipvoid"]
+
+  convert:
+    <<: *app
+    profiles: ["pipeline"]
+    command: ["convert", "all"]

@@ -1,0 +1,120 @@
+{
+    "qid": null,
+    "iid": 64463968,
+    "indicator": "185.213.164.213",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-22 07:15:30",
+    "stamp_updated": "2024-12-10 02:24:02",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64464006,
+                "indicator": "https:\/\/185.213.164.213\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-22 07:15:30"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-01 20:27:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "IR",
+            "city": "Tehran",
+            "region": "Tehran",
+            "asn": "AS61173",
+            "long": "51.4158",
+            "lat": "35.6824",
+            "org": "Green Web Samaneh Novin PJSC",
+            "country": "Iran"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "content-length": "20",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.58 (Ubuntu)",
+            "last-modified": "Sun, 15 Sep 2024 06:22:51 GMT",
+            "date": "Tue, 22 Oct 2024 07:15:35 GMT",
+            "etag": "\"14-622227c63c210\"",
+            "++target": "http:\/\/185.213.164.213\/",
+            "++redirect": "https:\/\/185.213.164.213\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "exir",
+            "issuer": "\/C=IR\/ST=majid\/L=mashhad\/O=exir\/CN=185.213.164.213\/E=ghamajid@yahoo.com",
+            "valid": "2024-09-15 06:19:52",
+            "fingerprint": "27deb1ec10848442bd8c04f14da9efb71cec8c6e47c844c633d6ecc73947d805",
+            "subject": "\/C=IR\/ST=majid\/L=mashhad\/O=exir\/CN=185.213.164.213\/E=ghamajid@yahoo.com",
+            "org": "185.213.164.213",
+            "expires": "2025-09-15 06:19:52"
+        },
+        "banners": {
+            "22": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d5dd02e76af12a040b48fa916b1ca311.jpeg"
+        }
+    }
+}

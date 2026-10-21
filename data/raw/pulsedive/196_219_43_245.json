@@ -1,0 +1,203 @@
+{
+    "qid": null,
+    "iid": 62682176,
+    "indicator": "196.219.43.245",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-23 21:39:12",
+    "stamp_updated": "2024-09-29 03:22:55",
+    "stamp_seen": "2024-09-29 03:22:55",
+    "stamp_probed": "2024-08-23 21:40:22",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63696960,
+                "indicator": "https:\/\/196.219.43.245\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-23 21:39:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "139",
+            "3389",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "NETBIOS",
+            "OpenVPN",
+            "RDP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ASSIGNED PA",
+            "mnt-by": [
+                "AFRINIC-HM-MNT",
+                "TE-Data-MNT",
+                "GEGA-MNT"
+            ],
+            "country": "EG",
+            "descr": [
+                "TE Data",
+                "Telecom-Egypt-Data"
+            ],
+            "nic-hdl": [
+                "TDCR2-AFRINIC",
+                "TDCR1-AFRINIC"
+            ],
+            "role": [
+                "TE Data Contact Role-2",
+                "TE Data Contact Role"
+            ],
+            "tech-c": [
+                "MH7-AFRINIC",
+                "TDCR2-AFRINIC",
+                "TDCR1-AFRINIC",
+                "MS150-AFRINIC"
+            ],
+            "mnt-ref": [
+                "GEGA-MNT",
+                "AFRINIC-HM-MNT"
+            ],
+            "org": "ORG-TD2-AFRINIC",
+            "org-name": "TE Data",
+            "organisation": "ORG-TD2-AFRINIC",
+            "inetnum": "196.219.0.0 - 196.219.63.255",
+            "netname": "TED-01",
+            "admin-c": [
+                "MH7-AFRINIC",
+                "TDCR1-AFRINIC"
+            ],
+            "mnt-lower": "GEGA-MNT",
+            "phone": [
+                "tel:+20-2-33320700",
+                "tel:+20-2-3320700"
+            ],
+            "fax-no": [
+                "tel:+20-2-33320800",
+                "tel:+20-2-3320804"
+            ],
+            "origin": "AS8452",
+            "address": [
+                "TE Data,",
+                "Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km",
+                "6th October 12577",
+                "TE Data, Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km, 6th October 12577, Giza, Egypt"
+            ],
+            "route": "196.219.0.0\/18",
+            "++registrant": [
+                "TDCR1-AFRINIC",
+                "MH7-AFRINIC"
+            ],
+            "++email": "abuse@te.eg",
+            "++abuse": "abuse@te.eg",
+            "abuse-mailbox": "abuse@te.eg",
+            "source": "AFRINIC # Filtered",
+            "parent": "196.218.0.0 - 196.219.255.255"
+        },
+        "geo": {
+            "country": "Egypt",
+            "countrycode": "EG",
+            "asn": "AS8452",
+            "org": [
+                "TE Data",
+                "ORG-TD2-AFRINIC"
+            ],
+            "lat": "30.008",
+            "long": "31.2194",
+            "region": "Giza",
+            "city": "Giza",
+            "address": [
+                "TE Data,",
+                "Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km",
+                "6th October 12577",
+                "TE Data, Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km, 6th October 12577, Giza, Egypt"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15; max=19",
+            "content-length": "1999",
+            "++status": "OK",
+            "++code": "202",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/196.219.43.245\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "SoftEther VPN Server"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/CN=vpn121420957.softether.net\/O=vpn121420957.softether.net\/OU=vpn121420957.softether.net\/C=US",
+            "org": "vpn121420957.softether.net",
+            "valid": "2023-08-30 13:02:32",
+            "subject": "\/CN=vpn121420957.softether.net\/O=vpn121420957.softether.net\/OU=vpn121420957.softether.net\/C=US",
+            "fingerprint": "5fed02ebb35127c2df9b18c64ae5f743bdf1bf706dc32370dffcc9f89b34300f",
+            "expires": "2037-12-31 13:02:32",
+            "++subject": "vpn121420957.softether.net"
+        },
+        "dns": {
+            "ptr": "host-196.219.43.245-static.tedata.net"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000",
+            "1194": "\u0005\u0004\u0000\u0000",
+            "139": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f7236f45270b96c6e8ced9d148a8cbfa.jpeg"
+        }
+    }
+}

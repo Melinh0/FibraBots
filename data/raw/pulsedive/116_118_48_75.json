@@ -1,0 +1,198 @@
+{
+    "qid": null,
+    "iid": 58533280,
+    "indicator": "116.118.48.75",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-19 16:21:25",
+    "stamp_updated": "2024-12-15 11:28:35",
+    "stamp_seen": "2024-11-29 18:06:53",
+    "stamp_probed": "2024-09-16 09:27:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 58533448,
+                "indicator": "http:\/\/116.118.48.75\/"
+            },
+            {
+                "iid": 64115311,
+                "indicator": "https:\/\/116.118.48.75\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-19 16:21:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "asn": "AS63760",
+            "org": "AZDIGI Corporation",
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "10 Co Giang, Dist 1, Ho Chi Minh City",
+                "10 Co Giang, Dist.1, Ho Chi Minh City",
+                "SPT-VN"
+            ]
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-SPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "NTKD1-AP"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "++phone": [
+                "+84-28-54040121",
+                "+84-24-35564944",
+                "+84-937668468"
+            ],
+            "address": [
+                "10 Co Giang, Dist.1, Ho Chi Minh City",
+                "Ha Noi, VietNam",
+                "10 Co Giang, Dist 1, Ho Chi Minh City",
+                "SPT-VN"
+            ],
+            "e-mail": [
+                "kimdan@spt.vn",
+                "hm-changed@vnnic.vn",
+                "lanh.ho@spt.vn"
+            ],
+            "nic-hdl": [
+                "NTKD1-AP",
+                "HVL2-AP"
+            ],
+            "notify": "hanhdd@vnnic.vn",
+            "person": [
+                "Nguyen Thi Kim Dan",
+                "Ho Van Lanh"
+            ],
+            "phone": [
+                "+84-28-54040121",
+                "+84-24-35564944",
+                "+84-937668468"
+            ],
+            "inetnum": "116.118.0.0 - 116.118.63.255",
+            "netname": "ADSL-NET",
+            "last-modified": [
+                "2017-10-16T07:24:33Z",
+                "2017-11-08T09:40:06Z",
+                "2017-09-14T09:35:53Z",
+                "2022-09-15T16:35:24Z",
+                "2022-09-20T06:34:22Z"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "HVL2-AP"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "HVL2-AP",
+                "Ho Van Lanh",
+                "Nguyen Thi Kim Dan"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "lanh.ho@spt.vn",
+                "kimdan@spt.vn"
+            ],
+            "descr": [
+                "ADSL service",
+                "SPT-VN",
+                "AZDIGI - Customer of SPT"
+            ],
+            "origin": "AS63760",
+            "route": "116.118.48.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-09-14 09:35:53",
+                "2022-09-20 06:34:22",
+                "2022-09-15 16:35:24"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/116.118.48.75\/",
+            "++target": "http:\/\/116.118.48.75\/",
+            "date": "Sat, 12 Oct 2024 12:47:16 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=VN\/ST=Nginx\/L=Nginx\/O=Nginx\/OU=Nginx\/CN=Nginx\/E=nginx@gmail.com",
+            "org": "Nginx",
+            "subject": "\/C=VN\/ST=Nginx\/L=Nginx\/O=Nginx\/OU=Nginx\/CN=Nginx\/E=nginx@gmail.com",
+            "++subject": "Nginx",
+            "valid": "2023-05-29 14:28:30",
+            "expires": "2024-05-28 14:28:30",
+            "fingerprint": "7a171bd50a049943fa94a27a9de01bf6f60ac7e39348d7ab783fcfc9ace42d71"
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5406a148f2bb696b3b122f2f2d13cf3e.jpeg"
+        }
+    }
+}

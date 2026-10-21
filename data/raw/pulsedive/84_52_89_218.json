@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 64783732,
+    "indicator": "84.52.89.218",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-07 09:02:46",
+    "stamp_updated": "2024-12-11 10:46:21",
+    "stamp_seen": "2024-11-07 09:11:54",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64785994,
+                "indicator": "http:\/\/84.52.89.218\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-07 09:02:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Microsoft HTTPAPI"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russia",
+                "3 Galernyi lane.",
+                "199226, St.Petersburg"
+            ],
+            "admin-c": "ZA111-RIPE",
+            "descr": [
+                "WestCall-NET",
+                "WEST CALL LTD"
+            ],
+            "fax-no": "+7 812 352 0809",
+            "mnt-by": "WESTCALLSPB-MNT-RIPE",
+            "nic-hdl": "ZA111-RIPE",
+            "origin": "AS25408",
+            "person": "Zubov Alexey",
+            "phone": "+7 812 325 1751",
+            "tech-c": "ZA111-RIPE",
+            "created": [
+                "2004-11-01T11:35:08Z",
+                "2002-06-05T12:38:40Z",
+                "2007-02-21T07:23:19Z"
+            ],
+            "route": "84.52.64.0\/18",
+            "last-modified": [
+                "2004-11-01T11:35:08Z",
+                "2010-12-21T13:48:26Z",
+                "2009-10-20T14:29:51Z"
+            ],
+            "netname": "WESTCALL-NET",
+            "inetnum": "84.52.82.0 - 84.52.91.255",
+            "++registrant": [
+                "ZA111-RIPE",
+                "Zubov Alexey"
+            ],
+            "++updated": [
+                "2010-12-21 13:48:26",
+                "2004-11-01 11:35:08"
+            ],
+            "++registered": [
+                "2002-06-05 12:38:40",
+                "2004-11-01 11:35:08",
+                "2007-02-21 07:23:19"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "org": "JSC ER-Telecom Holding",
+            "asn": "AS25408",
+            "address": [
+                "Russia",
+                "3 Galernyi lane.",
+                "199226, St.Petersburg"
+            ],
+            "region": "St.-Petersburg",
+            "city": "St Petersburg",
+            "lat": "59.9417",
+            "long": "30.3096",
+            "country": "Russia"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=us-ascii",
+            "server": "Microsoft-HTTPAPI\/2.0",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/html",
+            "content-length": "315",
+            "date": "Thu, 07 Nov 2024 09:11:30 GMT",
+            "++target": "http:\/\/84.52.89.218\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=us-ascii",
+            "++title": "Not Found"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG40W) [::ffff:84.52.89.218]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8d7a49012208142773d632bdf25b6f79.jpeg"
+        }
+    }
+}

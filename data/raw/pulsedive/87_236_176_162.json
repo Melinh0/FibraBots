@@ -1,0 +1,125 @@
+{
+    "qid": null,
+    "iid": 39198726,
+    "indicator": "87.236.176.162",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-09-20 04:27:11",
+    "stamp_updated": "2024-12-11 14:10:10",
+    "stamp_seen": "2024-12-11 14:10:10",
+    "stamp_probed": "2024-09-16 12:22:59",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-09-20 04:27:11"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-12 05:06:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "cf-ray": "8d487db048bf2281-MIA",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=yySeolU9e8EOG9VkfAQc6le14hayEAhvfKcDUvZbjoJ%2BhFuO7fWc1n41CLnI8PjHycCZON9RKpdQ5juJGBsrYfyFSfhU56BSYBpgnAYNKqXy8rKkNdHFV3j%2Fy3siS7J559p0obW5vteonAc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=3273&sent=7&recv=9&lost=0&retrans=0&sent_bytes=4139&recv_bytes=2424&delivery_rate=2114897&cwnd=240&unsent_bytes=0&cid=cb8f05e832721887&ts=107&x=0\"",
+            "date": "Fri, 18 Oct 2024 12:21:55 GMT",
+            "++target": "http:\/\/87.236.176.162\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "fond.monitoring.internet-measurement.com"
+        },
+        "cookies": {
+            "cf_clearance": "PG7ZEcBr.cAByy8JSElkOWjDQMBlx95uf4xnGXfyYro-1707998007-1.0-AQ1QPGTPVHLbQnEFGDjr\/x5owElGetxcrjJCObZdyOVEpqUzQjy55dL6cbMvlH85hPF0\/Rf+Wh\/W1ycykDumiRU="
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

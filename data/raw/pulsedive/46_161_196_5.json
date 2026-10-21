@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 63582778,
+    "indicator": "46.161.196.5",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-25 05:04:08",
+    "stamp_updated": "2024-12-09 10:37:37",
+    "stamp_seen": "2024-09-25 05:56:09",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63588071,
+                "indicator": "https:\/\/46.161.196.5\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-25 05:04:08"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "Express",
+            "HSTS",
+            "jQuery",
+            "jQuery UI",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "iq-valeen-1-mnt"
+            ],
+            "country": "IQ",
+            "address": [
+                "IRAQ",
+                "Duhok",
+                "400 Qazi Mohammad Road, Duhok, Iraq",
+                "42001",
+                "Duhok Iraq"
+            ],
+            "abuse-c": "AR45955-RIPE",
+            "mnt-ref": "iq-valeen-1-mnt",
+            "organisation": "ORG-VCFG1-RIPE",
+            "org": "ORG-VCFG1-RIPE",
+            "origin": "AS205254",
+            "created": [
+                "2018-04-11T13:26:09Z",
+                "2020-03-08T07:03:59Z",
+                "2020-12-21T08:51:48Z",
+                "2020-12-21T10:41:45Z"
+            ],
+            "org-name": "Valin Company for General Trading and Communication LTD",
+            "last-modified": [
+                "2020-03-08T07:03:59Z",
+                "2021-02-15T10:06:56Z",
+                "2020-12-21T08:51:48Z",
+                "2020-12-21T10:41:45Z"
+            ],
+            "nic-hdl": "VO1332-RIPE",
+            "tech-c": "VO1332-RIPE",
+            "person": "Valeen Online",
+            "++registrant": [
+                "VO1332-RIPE",
+                "Valeen Online"
+            ],
+            "++phone": "+9647751234567",
+            "phone": "+9647751234567",
+            "admin-c": "VO1332-RIPE",
+            "route": "46.161.196.0\/24",
+            "netname": "IQ-VALEEN-20101122",
+            "inetnum": "46.161.192.0 - 46.161.199.255",
+            "++updated": [
+                "2021-02-15 10:06:56",
+                "2020-03-08 07:03:59",
+                "2020-12-21 10:41:45"
+            ],
+            "++registered": [
+                "2020-12-21 08:51:48",
+                "2018-04-11 13:26:09",
+                "2020-03-08 07:03:59",
+                "2020-12-21 10:41:45"
+            ]
+        },
+        "geo": {
+            "country": "Iraq",
+            "countrycode": "IQ",
+            "lat": "33",
+            "long": "44",
+            "asn": "AS205254",
+            "org": [
+                "Valin Company for General Trading and Communication LTD",
+                "ORG-VCFG1-RIPE"
+            ],
+            "address": [
+                "IRAQ",
+                "Duhok",
+                "400 Qazi Mohammad Road, Duhok, Iraq",
+                "42001",
+                "Duhok Iraq"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "public, max-age=0",
+            "x-powered-by": "Express",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=63072000; includeSubdomains;",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "allow": "GET, POST",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "set-cookie": "branding=aw; Path=\/; secure; HttpOnly",
+            "last-modified": "Tue, 21 Sep 2021 12:36:24 GMT",
+            "etag": "W\/\"b45e-17c085b7540\"",
+            "date": "Wed, 25 Sep 2024 05:55:57 GMT",
+            "++target": "http:\/\/46.161.196.5\/",
+            "++redirect": "https:\/\/46.161.196.5\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "utf-8",
+            "++title": "AVIWEST - StreamHub"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-01 15:58:34",
+            "issuer": "\/CN=uservsftpd",
+            "subject": "\/CN=uservsftpd",
+            "expires": "2119-06-07 15:58:34",
+            "org": "uservsftpd",
+            "fingerprint": "d09580ba07efda8c03b7051baa60e1706c093b702f5ad35051893c338f7186a1"
+        },
+        "cookies": {
+            "branding": "aw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1237262df2a3f956083417009ac19ab4.jpeg"
+        }
+    }
+}

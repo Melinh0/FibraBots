@@ -1,0 +1,71 @@
+{
+    "qid": null,
+    "iid": 62879588,
+    "indicator": "79.124.56.250",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-30 22:41:05",
+    "stamp_updated": "2024-11-23 18:16:21",
+    "stamp_seen": "2024-11-23 18:16:21",
+    "stamp_probed": "2024-09-04 05:45:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-30 22:41:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "asn": "AS50360",
+            "org": "Tamatiya EOOD",
+            "lat": "42.696",
+            "long": "23.332"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "ip-56-250.venom-dc.com"
+        }
+    }
+}

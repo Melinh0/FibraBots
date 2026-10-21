@@ -1,0 +1,138 @@
+{
+    "qid": null,
+    "iid": 64514550,
+    "indicator": "167.86.113.205",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-25 08:16:00",
+    "stamp_updated": "2024-12-05 10:20:44",
+    "stamp_seen": "2024-10-25 08:20:21",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64515653,
+                "indicator": "https:\/\/167.86.113.205\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-25 08:16:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Let's Encrypt",
+            "OpenSSL",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS51167",
+            "org": "Contabo GmbH",
+            "region": "Bavaria",
+            "city": "Nuremberg",
+            "long": "11.1617",
+            "lat": "49.405"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "vary": "Accept-Encoding,User-Agent",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "1947",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.54 (Unix) OpenSSL\/1.0.2k-fips",
+            "last-modified": "Mon, 13 Jun 2022 11:30:00 GMT",
+            "etag": "\"13cd-5e1529bbd5e00-gzip\"",
+            "date": "Fri, 25 Oct 2024 08:19:48 GMT",
+            "++redirect": "https:\/\/167.86.113.205\/",
+            "++target": "http:\/\/167.86.113.205\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "valid": "2024-10-01 21:41:56",
+            "expires": "2024-12-30 21:41:55",
+            "subject": "\/CN=vmi609655.contaboserver.net",
+            "domain": "vmi609655.contaboserver.net",
+            "fingerprint": "0c44abcdc90588694a1c7068f5bd87042b3f00e2abca9d639fc66cd1f8f36672"
+        },
+        "meta": {
+            "++title": "HTTP Server Test Page powered by CentOS-WebPanel.com",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 10:19. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 vmi609655.contaboserver.net ESMTP Postfix\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/abee99c16cf1fd045610472de342f862.jpeg"
+        }
+    }
+}

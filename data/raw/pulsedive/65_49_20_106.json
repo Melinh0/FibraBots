@@ -1,0 +1,107 @@
+{
+    "qid": null,
+    "iid": 29886157,
+    "indicator": "65.49.20.106",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-11-26 12:30:29",
+    "stamp_updated": "2024-03-27 12:32:39",
+    "stamp_seen": "2023-12-26 08:41:05",
+    "stamp_probed": "2023-12-26 08:41:05",
+    "stamp_retired": "2024-03-27 12:32:39",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-11-26 12:30:29"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 509001,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 03:48:45",
+            "stamp_updated": "2022-05-18 03:48:45"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Apache",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS6939",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "HURRICANE",
+            "isp": "HURRICANE"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "1153",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 01 Dec 2020 22:46:36 GMT",
+            "date": "Fri, 27 May 2022 18:35:57 GMT"
+        },
+        "dns": {
+            "ptr": "scan-17j.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7061fcd67b6d4c1d4a1e1a13875916fe.jpeg"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 56217128,
+    "indicator": "45.180.136.12",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-17 02:29:13",
+    "stamp_updated": "2024-12-15 11:35:24",
+    "stamp_seen": "2024-12-15 07:48:05",
+    "stamp_probed": "2024-09-30 13:00:48",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 56217134,
+                "indicator": "http:\/\/45.180.136.12\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-17 02:29:13"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-16 01:01:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "city": "Santa Albertina",
+            "org": "Andre L. Azariti & Cia LTDA",
+            "asn": "AS269136",
+            "region": "S\ufffdo Paulo",
+            "lat": "-20.0328",
+            "long": "-50.7147"
+        },
+        "whois": {
+            "country": "UY",
+            "parent": "NET45 (NET-45-0-0-0-0)",
+            "address": "Rambla Republica de Mexico 6125",
+            "city": "Montevideo",
+            "orgabusename": "LACNIC Whois Info",
+            "organization": "Latin American and Caribbean IP address Regional Registry (LACNIC)",
+            "orgid": "LACNIC",
+            "orgname": "Latin American and Caribbean IP address Regional Registry",
+            "orgtechemail": "whois-contact@lacnic.net",
+            "orgtechhandle": "LACNIC-ARIN",
+            "orgtechname": "LACNIC Whois Info",
+            "postalcode": "11400",
+            "referralserver": "whois:\/\/whois.lacnic.net",
+            "regdate": [
+                "2002-07-27",
+                "2014-09-10"
+            ],
+            "resourcelink": [
+                "http:\/\/lacnic.net\/cgi-bin\/lacnic\/whois",
+                "whois.lacnic.net"
+            ],
+            "++registered": [
+                "2014-09-10 00:00:00",
+                "2002-07-27 00:00:00"
+            ],
+            "nettype": "Transferred to LACNIC",
+            "++updated": [
+                "2018-03-15 00:00:00",
+                "2023-01-25 00:00:00"
+            ],
+            "updated": [
+                "2018-03-15",
+                "2023-01-25"
+            ],
+            "orgabusehandle": "LWI100-ARIN",
+            "orgabuseemail": "abuse@lacnic.net",
+            "orgtechphone": "+598-2604-2222",
+            "orgabusephone": "+598-2604-2222",
+            "++abuse": "abuse@lacnic.net",
+            "netname": "LACNIC",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/LACNIC-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/LACNIC",
+                "https:\/\/rdap.arin.net\/registry\/ip\/45.160.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/LWI100-ARIN",
+            "nethandle": "NET-45-160-0-0-1",
+            "++privacy": "1",
+            "netrange": "45.160.0.0 - 45.181.77.255",
+            "cidr": "45.181.72.0\/22, 45.160.0.0\/12, 45.180.0.0\/16, 45.176.0.0\/14, 45.181.64.0\/21, 45.181.0.0\/18, 45.181.76.0\/23"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3138",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 01 Jun 2020 15:09:55 GMT",
+            "etag": "\"2aa6-5a7072ffe01bc-gzip\"",
+            "++target": "http:\/\/45.180.136.12\/",
+            "date": "Tue, 22 Oct 2024 18:29:07 GMT"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dns": {
+            "ptr": "45-180-136-12.azarititelecom.com.br"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/621cf837bdaf177c2899638a88377a69.jpeg"
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 63867278,
+    "indicator": "119.160.193.12",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-02 05:32:17",
+    "stamp_updated": "2024-12-12 11:18:16",
+    "stamp_seen": "2024-11-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63868051,
+                "indicator": "http:\/\/119.160.193.12\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-02 05:32:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-10 20:49:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": "IN",
+            "person": "IP Admin",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-ISHAN"
+            ],
+            "++phone": "+91-2816647426",
+            "abuse-mailbox": "reportabuse@ishanitech.biz",
+            "admin-c": "IA180-AP",
+            "e-mail": [
+                "ipadmin@ishanitech.biz",
+                "reportabuse@ishanitech.biz",
+                "iptech@ishanitech.biz"
+            ],
+            "mnt-routes": "MAINT-IN-ISHAN",
+            "netname": "ISHAN-NETSOL",
+            "nic-hdl": [
+                "IA180-AP",
+                "IT137-AP"
+            ],
+            "origin": "AS45117",
+            "phone": "+91-2816647426",
+            "role": "IP Technical",
+            "tech-c": [
+                "IA180-AP",
+                "IT137-AP"
+            ],
+            "mnt-lower": "MAINT-IN-ISHAN",
+            "irt": "IRT-INPL-IN",
+            "irt-nfy": "reportabuse@ishanitech.biz",
+            "mnt-irt": "IRT-INPL-IN",
+            "notify": "reportabuse@ishanitech.biz",
+            "route": "119.160.193.0\/24",
+            "inetnum": "119.160.193.0 - 119.160.193.255",
+            "descr": "Ishan Netsol Pvt Ltd",
+            "++abuse": "reportabuse@ishanitech.biz",
+            "++registrant": [
+                "IA180-AP",
+                "IP Admin"
+            ],
+            "++email": [
+                "reportabuse@ishanitech.biz",
+                "iptech@ishanitech.biz",
+                "ipadmin@ishanitech.biz"
+            ],
+            "last-modified": [
+                "2020-09-03T11:12:16Z",
+                "2020-09-03T12:23:08Z",
+                "2020-09-03T12:21:31Z",
+                "2021-12-30T11:39:41Z",
+                "2021-12-30T11:39:45Z"
+            ],
+            "address": "315-316 Shivam Complex, Opp. Jagnath Temple, Dr. Yagnik Road, Rajkot",
+            "auth": "# Filtered",
+            "++updated": [
+                "2020-09-03 11:12:16",
+                "2020-09-03 12:23:08",
+                "2020-09-03 12:21:31",
+                "2021-12-30 11:39:41",
+                "2021-12-30 11:39:45"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Gujarat",
+            "asn": "AS45117",
+            "city": "Rajkot",
+            "address": "315-316 Shivam Complex, Opp. Jagnath Temple, Dr. Yagnik Road, Rajkot",
+            "long": "70.7915",
+            "lat": "22.2904",
+            "org": "Ishans Network"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3121",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "etag": "\"29af-6004c723642b4-gzip\"",
+            "last-modified": "Wed, 12 Jul 2023 16:09:53 GMT",
+            "++target": "http:\/\/119.160.193.12\/",
+            "date": "Wed, 02 Oct 2024 05:40:18 GMT"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3306": "a\u0000\u0000\u0000\ufffdj\u0004Host '172-234-96-51.ip.linodeusercontent.com' is not allowed to connect to this MariaDB server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/58cc99a82e02327e2d7cd1ba5aad749a.jpeg"
+        }
+    }
+}

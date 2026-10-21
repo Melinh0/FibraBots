@@ -1,0 +1,140 @@
+{
+    "qid": null,
+    "iid": 55770557,
+    "indicator": "37.131.74.43",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-03 00:35:03",
+    "stamp_updated": "2024-12-11 19:15:54",
+    "stamp_seen": "2024-12-11 19:15:54",
+    "stamp_probed": "2024-04-29 01:07:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-10-14 12:46:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-07 05:54:02"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-10-14 12:46:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-03 00:35:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "4434",
+            "5060",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "SIP",
+            "SMTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Bahrain",
+            "countrycode": "BH",
+            "city": "Manama",
+            "asn": "AS51375",
+            "region": "Manama",
+            "lat": "26.241",
+            "long": "50.5779",
+            "org": "Stc Bahrain B.s.c Closed"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+            "content-language": "en-us",
+            "content-type": "text\/html; charset=UTF-8",
+            "copyright": "checkpoint",
+            "title": "Check Point Security Appliance - Login",
+            "++title": "Check Point Security Appliance - Login"
+        },
+        "http": {
+            "++code": "200",
+            "++status": "OK",
+            "++target": "http:\/\/37.131.74.43\/",
+            "++redirect": "https:\/\/37.131.74.43:4434\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "my.firewall_7F78ECA1_1b2d5d35b7",
+            "issuer": "\/CN=my.firewall_7F78ECA1_1b2d5d35b7\/OU=Check Point Security Gateway\/O=Check Point\/C=US",
+            "subject": "\/CN=my.firewall_7F78ECA1_1b2d5d35b7\/OU=Check Point Security Gateway\/O=Check Point\/C=US",
+            "valid": "2020-07-22 17:13:19",
+            "expires": "2030-07-20 17:13:19",
+            "++subject": "Check Point",
+            "fingerprint": "5b9c531e15e3e29851190157068be79ec23a2ceb3164b0a3f33d4cc47d515a94"
+        },
+        "banners": {
+            "25": "421 No SMTP service here\n",
+            "5060": "\u0005\u0004\u0000\u0000",
+            "143": "\u0005\u0001\u0000\u0000",
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\b\u0014\ufffd\ufffd\u001b\ufffd\ufffdWoU\u00118X\ufffd\ufffd\ufffd-\"\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000+aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc\u0000\u0000\u0000+aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd+\ufffd\u0001\ufffd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f94a585d188c95d636c6b9bb17bf4c28.jpeg"
+        }
+    }
+}

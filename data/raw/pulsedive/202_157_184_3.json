@@ -1,0 +1,206 @@
+{
+    "qid": null,
+    "iid": 48938753,
+    "indicator": "202.157.184.3",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-07-06 10:36:46",
+    "stamp_updated": "2024-12-11 10:42:40",
+    "stamp_seen": "2024-12-06 00:00:00",
+    "stamp_probed": "2024-09-30 08:57:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 48939325,
+                "indicator": "http:\/\/202.157.184.3\/"
+            },
+            {
+                "iid": 48939333,
+                "indicator": "http:\/\/202.157.184.3\/web"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-09-22 14:59:34"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-06 10:36:46"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-09-22 14:59:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-24 21:19:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Less",
+            "Nginx",
+            "Node.js",
+            "Odoo",
+            "PostgreSQL",
+            "Python",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "ID",
+                "ZZ"
+            ],
+            "mnt-by": [
+                "MAINT-MY-MSC-HOSTING",
+                "MAINT-EXBCOID-ID",
+                "APNIC-ABUSE"
+            ],
+            "++phone": [
+                "+6567272277",
+                "+000000000"
+            ],
+            "abuse-mailbox": "abuse@exabytes.co.id",
+            "admin-c": "PENI1-AP",
+            "descr": [
+                "PT. EXABYTES NETWORK INDONESIA",
+                "Exa Bytes Network Sdn.Bhd."
+            ],
+            "e-mail": "abuse@exabytes.co.id",
+            "fax-no": "+6567272277",
+            "irt": "IRT-EXBCOID-ID",
+            "mnt-irt": "IRT-EXBCOID-ID",
+            "netname": "EXBCOID-ID",
+            "nic-hdl": [
+                "PENI1-AP",
+                "AE199-AP"
+            ],
+            "origin": "AS136170",
+            "phone": [
+                "+6567272277",
+                "+000000000"
+            ],
+            "role": [
+                "PT EXABYTES NETWORK INDONESIA administrator",
+                "ABUSE EXBCOIDID"
+            ],
+            "tech-c": "PENI1-AP",
+            "++abuse": "abuse@exabytes.co.id",
+            "++registrant": "PENI1-AP",
+            "++email": "abuse@exabytes.co.id",
+            "inetnum": "202.157.184.0 - 202.157.184.255",
+            "abuse-c": "AE199-AP",
+            "last-modified": [
+                "2021-02-24T13:05:01Z",
+                "2021-06-18T07:42:21Z",
+                "2021-06-01T09:12:18Z",
+                "2024-05-11T13:54:39Z",
+                "2024-05-11T13:55:27Z"
+            ],
+            "address": [
+                "Cyber 2 Tower, 29th Floor, JL .HR Rasuna Said X5 No.13, Jakarta 12950",
+                "Cyber 2 Tower, 29th Floor, JL .HR Rasuna Said X5 No.13, Jakarta  12950"
+            ],
+            "route": "202.157.184.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-05-11 13:54:39",
+                "2024-05-11 13:55:27",
+                "2021-06-18 07:42:21",
+                "2021-06-01 09:12:18"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Malaysia",
+                "Indonesia",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "MY",
+                "ID",
+                "ZZ"
+            ],
+            "asn": "AS136170",
+            "org": "PT. EXABYTES NETWORK INDONESIA",
+            "lat": "2.5",
+            "long": "112.5",
+            "address": [
+                "Cyber 2 Tower, 29th Floor, JL .HR Rasuna Said X5 No.13, Jakarta 12950",
+                "Cyber 2 Tower, 29th Floor, JL .HR Rasuna Said X5 No.13, Jakarta  12950"
+            ]
+        },
+        "http": {
+            "content-security-policy": "upgrade-insecure-requests",
+            "content-length": "215",
+            "server": "nginx\/1.14.0 (Ubuntu)",
+            "++code": "303",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++status": "SEE OTHER",
+            "++content-type": "text\/html",
+            "location": "http:\/\/202.157.184.3\/web",
+            "date": "Mon, 07 Oct 2024 01:26:26 GMT",
+            "++target": "http:\/\/202.157.184.3\/",
+            "++redirect": "http:\/\/202.157.184.3\/web",
+            "set-cookie": "session_id=e71073de77ff3313a23e585eb218ec4d1cd1b748; Expires=Mon, 14-Oct-2024 01:26:26 GMT; Max-Age=604800; HttpOnly; Path=\/"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3382edcf8983eaa9badd94b1701049da.jpeg"
+        },
+        "cookies": {
+            "session_id": "e71073de77ff3313a23e585eb218ec4d1cd1b748"
+        }
+    }
+}

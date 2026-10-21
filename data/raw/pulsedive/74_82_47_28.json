@@ -1,0 +1,160 @@
+{
+    "qid": null,
+    "iid": 15043,
+    "indicator": "74.82.47.28",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2017-09-28 04:34:44",
+    "stamp_updated": "2022-11-02 12:55:04",
+    "stamp_seen": "2022-07-31 17:39:53",
+    "stamp_probed": "2022-07-31 17:39:53",
+    "stamp_retired": "2022-11-02 12:55:04",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-16 01:37:28"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-23 12:02:04"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 507839,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 03:18:59",
+            "stamp_updated": "2022-05-18 03:18:59"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "region": "Utah",
+            "asn": "AS6939",
+            "country": "United States of America",
+            "long": "-111.8404",
+            "org": "HURRICANE",
+            "isp": "HURRICANE",
+            "lat": "39.6906",
+            "zip": "84648",
+            "city": "Nephi"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "1153",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 01 Dec 2020 22:46:36 GMT",
+            "date": "Sun, 31 Jul 2022 17:39:39 GMT"
+        },
+        "whois": {
+            "network": [
+                "Class-Name:network",
+                "Auth-Area:nets",
+                "Tech-Contact;I:POC-HE-NOC",
+                "Abuse-Contact;I:POC-HE-ABUSE",
+                "NOC-Contact;I:POC-HE-NOC",
+                "Created:20180817203003000",
+                "Updated:20180817203003000",
+                "ID;I:NET-74.82.47.0\/26",
+                "Network-Name;I:NET-74.82.47.0\/26",
+                "Parent;I:NET-74.82.0.0\/18",
+                "IP-Network:74.82.47.0\/26",
+                "Org-Contact;I:POC-CE-2897"
+            ],
+            "contact": [
+                "Auth-Area:contacts",
+                "Class-Name:contact",
+                "Province:CA",
+                "Country-Code:US",
+                "Phone:-",
+                "E-mail:-",
+                "Created:20180817203001000",
+                "ID;I:POC-HE-NOC",
+                "Name:Network Operations Center",
+                "Company:Hurricane Electric",
+                "Street-Address:760 Mission Ct",
+                "City:Fremont",
+                "Postal-Code:94539",
+                "Phone:+1-510-580-4100",
+                "E-Mail:noc@he.net",
+                "Created:20100901200738000",
+                "Updated:20100901200738000",
+                "ID;I:POC-HE-ABUSE",
+                "Name:Abuse Department",
+                "E-Mail:abuse@he.net",
+                "Updated:20180817203001000",
+                "ID;I:POC-CE-2897",
+                "Name:Richard Perlotto",
+                "Company:The Shadow Server Foundation",
+                "Street-Address:142 N Milpitas Blvd, Ste 476",
+                "City:Milpitas",
+                "Postal-Code:95035",
+                ""
+            ]
+        },
+        "dns": {
+            "ptr": "scan-11f.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7061fcd67b6d4c1d4a1e1a13875916fe.jpeg"
+        }
+    }
+}

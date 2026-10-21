@@ -1,0 +1,155 @@
+{
+    "qid": null,
+    "iid": 39412225,
+    "indicator": "87.236.176.38",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-09-30 04:51:48",
+    "stamp_updated": "2024-12-10 10:43:00",
+    "stamp_seen": "2024-08-29 22:54:16",
+    "stamp_probed": "2024-08-29 22:54:16",
+    "stamp_retired": "2024-11-30 11:12:11",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-09-30 04:51:48"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-08-04 13:33:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "CloudFlare"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "GB",
+            "address": [
+                "UNITED KINGDOM",
+                "London",
+                "Unit 72465, PO Box 6945",
+                "W1A 6US"
+            ],
+            "status": "LIR-PARTITIONED PA",
+            "origin": "AS211298",
+            "++phone": "+442037450350",
+            "phone": "+442037450350",
+            "++updated": "2023-02-13 00:00:00",
+            "++registered": "2023-02-13 00:00:00",
+            "role": "internet-measurement.com hostmaster",
+            "nic-hdl": "IH2391-RIPE",
+            "mnt-by": "INTERNET-MEASUREMENT-MNT",
+            "last-modified": [
+                "2023-02-13T18:56:18Z",
+                "2023-02-13T18:54:50Z",
+                "2023-02-13T18:45:08Z"
+            ],
+            "abuse-c": "IH2391-RIPE",
+            "route": "87.236.176.0\/24",
+            "admin-c": "IH2391-RIPE",
+            "++registrant": "IH2391-RIPE",
+            "abuse-mailbox": "network-abuse@internet-measurement.com",
+            "tech-c": "IH2391-RIPE",
+            "created": [
+                "2023-02-13T18:19:05Z",
+                "2022-09-02T21:38:48Z",
+                "2022-08-30T14:07:00Z"
+            ],
+            "++email": "network-abuse@internet-measurement.com",
+            "netname": "INTERNETMEASUREMENT-C",
+            "inetnum": "87.236.176.0 - 87.236.176.127",
+            "++abuse": "network-abuse@internet-measurement.com"
+        },
+        "geo": {
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "country": "United Kingdom of Great Britain and Northern Ireland",
+            "isp": "Constantine Cybersecurity Ltd.",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "cf-ray": "8bb01e8f2ed01859-EWR",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=Yx7YeJr8fcd11s6nQcDOwpuT9akIYKtzSD%2Bhawyy3TzJ5%2FC8CUY521T%2FOv8YYzlV%2F4JwhHCyDvydpY8zgQchthaY6xf0Sr8MVVPhUcsET33jkNusnM6JOBGUiAQUuH4Uy3pBE%2FiBh0f2la0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "date": "Thu, 29 Aug 2024 22:53:49 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "expires": "2024-10-25 19:17:13",
+            "valid": "2024-07-27 19:17:14"
+        },
+        "dns": {
+            "ptr": "phenomenal.monitoring.internet-measurement.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/67b921efdf33322a5891c22b6eec4787.jpeg"
+        }
+    }
+}

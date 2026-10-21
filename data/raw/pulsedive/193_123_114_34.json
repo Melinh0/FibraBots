@@ -1,0 +1,138 @@
+{
+    "qid": null,
+    "iid": 39589283,
+    "indicator": "193.123.114.34",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-05 12:41:53",
+    "stamp_updated": "2024-12-14 11:28:34",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": "2024-07-05 14:01:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-09 00:00:46"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-10-05 12:41:53"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-10-13 10:35:36"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-10-09 00:00:46"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-10-23 02:23:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "city": "Vinhedo",
+            "asn": "AS31898",
+            "org": [
+                "Oracle Corporation (ORACLE-4)",
+                "ORACLE-BMC-31898"
+            ],
+            "isp": "ORACLE-BMC-31898",
+            "lat": "-23.0251",
+            "long": "-46.9785",
+            "region": "S\ufffdo Paulo"
+        },
+        "whois": {
+            "nettype": "Direct Allocation",
+            "++registered": "2016-09-26 00:00:00",
+            "++email": "domain-contact_ww_grp@oracle.com",
+            "++phone": "+1-650-506-2220",
+            "orgabuseemail": "network-contact_ww_grp@oracle.com",
+            "orgabusehandle": "NISAM-ARIN",
+            "orgabusename": "Network Information Systems Abuse Management",
+            "orgabusephone": "+1-650-506-2220",
+            "organization": "Oracle Corporation (ORACLE-4)",
+            "orgtechemail": "domain-contact_ww_grp@oracle.com",
+            "orgtechhandle": "ORACL1-ARIN",
+            "orgtechname": "ORACLE NIS",
+            "orgtechphone": "+1-650-506-2220",
+            "netname": "OC-195",
+            "regdate": "2016-09-26",
+            "++updated": "2017-11-27 00:00:00",
+            "updated": "2017-11-27",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ORACL1-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NISAM-ARIN",
+            "parent": "RIPE-CBLK (NET-193-0-0-0-1)",
+            "netrange": "193.122.0.0 - 193.123.255.255",
+            "nethandle": "NET-193-122-0-0-1",
+            "cidr": "193.122.0.0\/15",
+            "ref": "https:\/\/rdap.arin.net\/registry\/ip\/193.122.0.0",
+            "orgroutingemail": "network-contact_ww@oracle.com",
+            "orgroutingname": "ORACLEROUTING",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ORACL2-ARIN",
+            "orgroutingphone": "+1-800-392-2999",
+            "orgroutinghandle": "ORACL2-ARIN",
+            "++abuse": "+1-650-506-2220"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "qid": null,
+    "iid": 21419047,
+    "indicator": "184.18.211.199",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-02-09 17:53:46",
+    "stamp_updated": "2024-12-11 10:41:43",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-30 06:49:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64121221,
+                "indicator": "https:\/\/184.18.211.199\/login.html"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-04-09 12:36:59"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-02-09 17:53:46"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-12 14:09:14"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-02-10 12:34:23"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-04-09 12:36:59"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-13 22:30:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Prototype"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NY",
+            "city": "Rochester",
+            "orgabusename": "Abuse",
+            "++registered": [
+                "2009-09-22 00:00:00",
+                "1996-05-09 00:00:00"
+            ],
+            "parent": "NET184 (NET-184-0-0-0-0)",
+            "regdate": [
+                "2009-09-22",
+                "1996-05-09"
+            ],
+            "referralserver": "rwhois:\/\/rwhois.frontiernet.net:4321",
+            "orgabusehandle": "ABUSE223-ARIN",
+            "orgtechhandle": "ZF47-ARIN",
+            "orgtechname": "Frontier Communications",
+            "address": "95 Fitzhugh St N",
+            "++registrant": "Frontier Communications of America, Inc.",
+            "organization": "Frontier Communications of America, Inc. (FRTR)",
+            "postalcode": "14614",
+            "orgname": "Frontier Communications of America, Inc.",
+            "orgid": "FRTR",
+            "updated": [
+                "2012-02-24",
+                "2024-01-19"
+            ],
+            "netrange": "184.16.0.0 - 184.19.255.255",
+            "netname": "SPINCO-BLOCK",
+            "nethandle": "NET-184-16-0-0-1",
+            "cidr": "184.16.0.0\/14",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZF47-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/FRTR",
+                "https:\/\/rdap.arin.net\/registry\/ip\/184.16.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE223-ARIN",
+            "orgroutingname": "Hostmaster",
+            "orgroutinghandle": "HOSTM2146-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/HOSTM2146-ARIN",
+            "orgroutingphone": "+1-585-777-0949",
+            "++phone": [
+                "+1-585-777-0949",
+                "+1-585-623-4519"
+            ],
+            "++updated": "2024-01-19 00:00:00",
+            "orgroutingemail": "hostmaster@support.ftr.com",
+            "++email": "abuse@support.ftr.com",
+            "orgabuseemail": "abuse@support.ftr.com",
+            "orgabusephone": "+1-585-623-4519",
+            "++abuse": "abuse@support.ftr.com",
+            "orgtechemail": "abuse@support.ftr.com",
+            "orgtechphone": "+1-585-623-4519"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": [
+                "Rochester",
+                "Fort Wayne"
+            ],
+            "region": [
+                "Indiana",
+                "NY"
+            ],
+            "asn": "AS5650",
+            "zip": "14614",
+            "lat": "41.0233",
+            "address": "95 Fitzhugh St N",
+            "org": [
+                "Frontier Communications of America, Inc. (FRTR)",
+                "FRONTIER-FRTR"
+            ],
+            "long": "-85.1848"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "1905",
+            "cache-control": "private, no-cache, must-revalidate, proxy-revalidate",
+            "++code": "200",
+            "++status": "OK",
+            "server": "ConfD",
+            "++content-type": "text\/html",
+            "set-cookie": "SERVERUSED=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=\/",
+            "++target": "https:\/\/184.18.211.199\/",
+            "etag": "\"5KqPdkCBZsc\"",
+            "++redirect": "https:\/\/184.18.211.199\/login.html",
+            "last-modified": "Wed, 21 Oct 2020 08:55:25 GMT",
+            "date": "Sat, 12 Oct 2024 14:26:23 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "gula-ca",
+            "expires": "2030-04-01 09:40:30",
+            "subject": "\/O=VF\/CN=sha256_rsa_server",
+            "++subject": "VF",
+            "valid": "2020-04-01 09:40:30",
+            "issuer": "\/O=VF\/CN=gula-ca",
+            "fingerprint": "e37536b2c56aac0be6ffc8cd8f5ff3c6e4d3dd9d7e127003f493a7c9de08ad1f"
+        },
+        "meta": {
+            "++title": "Login",
+            "content-type": "text\/html; charset=utf8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "static-184-18-211-199.ftwy.in.frontiernet.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/fccd9692fcf4b8c9ee2351fce0ebd4ac.jpeg"
+        }
+    }
+}

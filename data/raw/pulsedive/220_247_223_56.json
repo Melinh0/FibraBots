@@ -1,0 +1,188 @@
+{
+    "qid": null,
+    "iid": 39229890,
+    "indicator": "220.247.223.56",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-09-22 04:30:27",
+    "stamp_updated": "2024-12-17 11:37:14",
+    "stamp_seen": "2024-12-17 08:12:38",
+    "stamp_probed": "2024-09-30 10:23:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39230347,
+                "indicator": "http:\/\/220.247.223.56\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-10 00:32:40"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-09-22 04:30:27"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-10 09:15:11"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-10-10 00:32:40"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-09-26 13:14:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "LK",
+            "++phone": "+94-1-350412",
+            "address": [
+                "4th Floor, HQ Building, Sri Lanka Telecom, Lotus Road, Colombo",
+                "Internet Data Centre"
+            ],
+            "admin-c": "AH4-AP",
+            "descr": [
+                "COLOMBO",
+                "INTERNET DATA CENTER - SRI LANKA TELECOM",
+                "DATA CENTER",
+                "Sri Lanka Telecom Ltd"
+            ],
+            "e-mail": "arunah@slt.lk",
+            "fax-no": "+94-1-387918",
+            "mnt-by": "MNT-SLT-LK",
+            "netname": "SLTIDC-SLT-LK",
+            "nic-hdl": "AH4-AP",
+            "person": "Aruna Herath",
+            "phone": "+94-1-350412",
+            "tech-c": "AH4-AP",
+            "last-modified": [
+                "2008-09-04T07:35:30Z",
+                "2009-06-01T05:03:30Z",
+                "2019-10-17T07:53:42Z"
+            ],
+            "inetnum": "220.247.223.0 - 220.247.223.255",
+            "origin": "AS9329",
+            "++registrant": [
+                "AH4-AP",
+                "Aruna Herath"
+            ],
+            "++email": "arunah@slt.lk",
+            "route": "220.247.223.0\/24",
+            "++updated": [
+                "2009-06-01 05:03:30",
+                "2008-09-04 07:35:30",
+                "2019-10-17 07:53:42"
+            ]
+        },
+        "geo": {
+            "country": "Sri Lanka",
+            "countrycode": "LK",
+            "asn": "AS9329",
+            "org": "Sri Lanka Telecom Internet",
+            "city": "Colombo",
+            "region": [
+                "Western Province",
+                "Colombo District"
+            ],
+            "lat": "6.9394",
+            "address": [
+                "Internet Data Centre",
+                "4th Floor, HQ Building, Sri Lanka Telecom, Lotus Road, Colombo"
+            ],
+            "long": "79.8476"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "content-length": "4961",
+            "server": "Apache\/2.2.15 (CentOS)",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/220.247.223.56\/",
+            "date": "Tue, 17 Dec 2024 08:12:35 GMT"
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n"
+        },
+        "dns": {
+            "ptr": "56.sta.idc-2.slt.lk"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ba0937548b34b12651c84c0266cb8441.jpeg"
+        }
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "qid": null,
+    "iid": 64839611,
+    "indicator": "221.152.61.142",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-10 09:03:01",
+    "stamp_updated": "2024-12-11 10:43:30",
+    "stamp_seen": "2024-11-10 09:08:19",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64842021,
+                "indicator": "https:\/\/221.152.61.142\/pc\/login.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-10 09:03:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "Cufon",
+            "jQuery",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "221.144.0.0 - 221.168.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-02-06T02:32:54Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Yongin-si",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "region": "Gyeonggi-do",
+            "lat": "37.298",
+            "long": "127.0777",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "lighttpd\/1.4.35",
+            "content-length": "2793",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"-1571908778\"",
+            "last-modified": "Sat, 11 Jun 2022 07:03:07 GMT",
+            "date": "Sun, 10 Nov 2024 09:07:24 GMT",
+            "++target": "http:\/\/221.152.61.142\/",
+            "++redirect": "https:\/\/221.152.61.142\/pc\/login.html?v=p5"
+        },
+        "ssl": {
+            "subject": "\/C=CN\/ST=SH\/L=shanghai\/O=HC\/OU=R&D\/CN=joe",
+            "issuer": "\/C=CN\/ST=SH\/L=shanghai\/O=HC\/OU=R&D\/CN=joe",
+            "version": "v3",
+            "expires": "2023-10-13 02:18:06",
+            "++subject": "HC",
+            "org": "joe",
+            "valid": "2013-10-15 02:18:06",
+            "fingerprint": "ff6058236c1400f57cadece1da547221c60b8bd224cd005ab356a5c6acb4bf08"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "description": "Expand, contract, animate forms with jQuery wihtout leaving the page",
+            "keywords": "expand, form, css3, jquery, animate, width, height, adapt, unobtrusive javascript"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.2)\n",
+            "22": "SSH-2.0-OpenSSH_6.7\n",
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003\n(none) login: "
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b7e4bc04c29629733af949a1ade33e97.jpeg"
+        }
+    }
+}

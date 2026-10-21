@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 53050655,
+    "indicator": "117.2.123.19",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-15 15:25:49",
+    "stamp_updated": "2024-12-17 11:31:42",
+    "stamp_seen": "2024-12-16 17:07:51",
+    "stamp_probed": "2024-09-29 23:54:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-05 19:41:50"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-15 15:25:49"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-05 19:41:51"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-12 17:27:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "3389",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "OpenVPN",
+            "RDP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "city": "Hanoi",
+            "asn": "AS7552",
+            "country": "Vietnam",
+            "region": "Hanoi",
+            "org": "Viettel Group",
+            "lat": "21.0184",
+            "address": [
+                "Ha Noi, VietNam",
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City"
+            ],
+            "long": "105.8461"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VIETEL"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "NDT9-AP"
+            ],
+            "status": "ASSIGNED NON-PORTABLE",
+            "admin-c": [
+                "TVT8-AP",
+                "NTTT1-AP"
+            ],
+            "e-mail": [
+                "soc@viettel.com.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "origin": "AS7552",
+            "inetnum": "117.2.0.0 - 117.2.255.255",
+            "address": [
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": [
+                "TVT8-AP",
+                "NDT9-AP"
+            ],
+            "person": [
+                "Tran Van Thanh",
+                "Nguyen Dang Tiep"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "netname": "VIETTEL-VN",
+            "descr": [
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Viettel Group",
+                "Dai IP cho dich vu ADSL DGN+NAN",
+                "VIETTEL-VN"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2017-11-11T09:40:35Z",
+                "2017-11-11T09:59:00Z",
+                "2018-08-21T09:57:13Z",
+                "2023-05-26T16:05:21Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "TVT8-AP",
+                "Nguyen Dang Tiep",
+                "Tran Van Thanh"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "soc@viettel.com.vn"
+            ],
+            "route": "117.2.0.0\/15",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-11 09:40:35",
+                "2018-08-21 09:57:13",
+                "2017-11-11 09:59:00",
+                "2023-05-26 16:05:21"
+            ]
+        },
+        "dns": {
+            "ptr": "dynamic-ip-adsl.viettel.vn"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "qid": null,
+    "iid": 62410200,
+    "indicator": "62.213.219.53",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-16 21:25:43",
+    "stamp_updated": "2024-12-07 19:38:41",
+    "stamp_seen": "2024-12-07 19:38:41",
+    "stamp_probed": "2024-08-16 21:40:20",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65672808,
+                "indicator": "https:\/\/62.213.219.53\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:37:28"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-16 21:25:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "HSTS",
+            "jQuery",
+            "Let's Encrypt"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Belgium",
+            "countrycode": "BE",
+            "org": "Destiny N.V",
+            "asn": "AS28707",
+            "lat": "50.8509",
+            "long": "4.3447"
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html; charset=UTF-8",
+            "x-xss-protection": "1; mode=block",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "access-control-allow-origin": "*",
+            "strict-transport-security": "max-age=31536000",
+            "referrer-policy": "no-referrer-when-downgrade",
+            "content-length": "679",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "date": "Sat, 07 Dec 2024 19:38:26 GMT",
+            "++redirect": "https:\/\/62.213.219.53\/",
+            "++target": "http:\/\/62.213.219.53\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "Photon by HTML5 UP"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "expires": "2025-02-24 00:11:02",
+            "subject": "\/CN=09digital.be",
+            "valid": "2024-11-26 00:11:03",
+            "fingerprint": "9ed78aa6bb8865fa92c9e8de2d517c5240bf55b90ad97252ae5d80c93e84c890",
+            "domain": "09digital.be"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dns": {
+            "ptr": "apache12.websrv.be"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4c990fbf76dbb00d7b7b299bf46097fe.jpeg"
+        }
+    }
+}

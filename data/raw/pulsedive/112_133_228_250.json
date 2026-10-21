@@ -1,0 +1,266 @@
+{
+    "qid": null,
+    "iid": 32367758,
+    "indicator": "112.133.228.250",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-01 00:20:43",
+    "stamp_updated": "2024-12-10 10:33:19",
+    "stamp_seen": "2024-12-04 00:00:00",
+    "stamp_probed": "2024-09-29 23:22:11",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 32368522,
+                "indicator": "https:\/\/112.133.228.250\/"
+            },
+            {
+                "iid": 32368539,
+                "indicator": "http:\/\/112.133.228.250\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-08-28 20:58:35"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-01 00:20:43"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-13 23:39:07"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-08-03 12:48:01"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-08-28 20:58:35"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-19 18:59:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "mnt-by": [
+                "MAINT-NEW",
+                "MAINT-IN-RAILTEL"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": "IN",
+            "last-modified": [
+                "2008-09-04T07:29:24Z",
+                "2009-02-09T08:19:38Z",
+                "2019-09-26T11:10:11Z",
+                "2020-12-03T00:30:21Z",
+                "2022-05-12T07:26:27Z"
+            ],
+            "abuse-mailbox": "abuse@railtelindia.com",
+            "admin-c": [
+                "PK61-AP",
+                "NA1011-AP"
+            ],
+            "descr": [
+                "RailTel Corporation Of India Ltd.",
+                "RailTel-Secunderabad"
+            ],
+            "irt": "IRT-RAILTEL-IN",
+            "mnt-irt": "IRT-RAILTEL-IN",
+            "origin": "AS24186",
+            "address": [
+                "New Delhi, India, 110001",
+                "10th Floor, Bank of Baroda Building",
+                "Parliament Street",
+                "6th Floor, IIIrd Block, Delhi Technology Park, Shastri Park, Delhi-110053",
+                "Plot No, 143",
+                "Sector 44 ,Gurugram",
+                "Haryana ,122003"
+            ],
+            "e-mail": [
+                "pradeep@railtelindia.com",
+                "abuse@railtelindia.com",
+                "a.chandel@railtelindia.com"
+            ],
+            "fax-no": "+91-11-23311711",
+            "nic-hdl": [
+                "PK61-AP",
+                "ASC8-AP"
+            ],
+            "person": [
+                "Pradeep Kumar",
+                "Anand Singh Chandel"
+            ],
+            "phone": [
+                "+91-11-51501455",
+                "+91-11-22185933"
+            ],
+            "++registrant": [
+                "Pradeep Kumar",
+                "PK61-AP",
+                "Anand Singh Chandel",
+                "NA1011-AP"
+            ],
+            "route": "112.133.228.0\/24",
+            "++abuse": "abuse@railtelindia.com",
+            "++phone": [
+                "+91-11-51501455",
+                "+91-11-22185933"
+            ],
+            "++email": [
+                "abuse@railtelindia.com",
+                "pradeep@railtelindia.com",
+                "a.chandel@railtelindia.com"
+            ],
+            "tech-c": [
+                "ASC8-AP",
+                "NA1011-AP"
+            ],
+            "netname": "RailTel-IN",
+            "inetnum": "112.133.228.0 - 112.133.228.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-05-12 07:26:27",
+                "2008-09-04 07:29:24",
+                "2019-09-26 11:10:11",
+                "2009-02-09 08:19:38"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "asn": "AS24186",
+            "address": [
+                "Plot No, 143",
+                "Sector 44 ,Gurugram",
+                "Haryana ,122003",
+                "Parliament Street",
+                "6th Floor, IIIrd Block, Delhi Technology Park, Shastri Park, Delhi-110053",
+                "10th Floor, Bank of Baroda Building",
+                "New Delhi, India, 110001"
+            ],
+            "org": "RailTel Corporation of India Ltd",
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "x-content-type-options": "nosniff",
+            "content-length": "61",
+            "x-xss-protection": "1;mode=block",
+            "strict-transport-security": "max-age=604800; includeSubDomains",
+            "content-security-policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+            "++code": "400",
+            "++status": "Bad Request",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/112.133.228.250\/"
+        },
+        "ssl": {
+            "domain": [
+                "127.0.0.1",
+                "\u0000\u0000\u0001",
+                "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001",
+                "[::1]",
+                "172.16.24.30",
+                "\ufffd\u0010\u0018\u001e"
+            ],
+            "issuer": "\/CN=NVR",
+            "version": "v3",
+            "org": "NVR",
+            "valid": "2024-03-24 11:31:47",
+            "expires": "2054-03-18 11:31:47",
+            "subject": "\/CN=172.16.24.30\/C=CN\/ST=None\/L=None\/O=None\/OU=None"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "charset": "UTF-8"
+        },
+        "dns": {
+            "ptr": "ws250-228.133.112.rcil.gov.in"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "cookies": {
+            "jsessionid": "98937DD80F81CEB6976988FB62AF8589"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8c91711f5b0d2e128ae477c584608b48.jpeg"
+        }
+    }
+}

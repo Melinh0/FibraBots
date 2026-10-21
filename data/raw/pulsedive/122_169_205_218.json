@@ -1,0 +1,194 @@
+{
+    "qid": null,
+    "iid": 60107408,
+    "indicator": "122.169.205.218",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-10 15:37:28",
+    "stamp_updated": "2024-12-11 10:39:00",
+    "stamp_seen": "2024-11-20 01:22:36",
+    "stamp_probed": "2024-09-30 00:47:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60107457,
+                "indicator": "http:\/\/122.169.205.218\/"
+            },
+            {
+                "iid": 64115971,
+                "indicator": "https:\/\/122.169.205.218\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-10 15:37:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": "IN",
+            "descr": [
+                "INDIA",
+                "BHARTI-IN",
+                "Bharti Tele-Ventures Limited",
+                "Class A ISP in INDIA .",
+                "234 , OKHLA PHASE III ,",
+                "ABTS AP,",
+                "Splendid Towers, 4 Floor Opp Begumpet Police Station,",
+                "HUDA road ,",
+                "Date of allocation:17-jul-08",
+                "Contact Person: Satyaveer V",
+                "Email: dslnoc.ap@airtel.in",
+                "Phone:040-40000107",
+                "NEW DELHI",
+                "India",
+                "Hyderabad",
+                "Andhra Pradesh"
+            ],
+            "mnt-by": [
+                "MAINT-IN-BBIL",
+                "MAINT-IN-TELEMEDIA"
+            ],
+            "origin": "AS24560",
+            "e-mail": "dsl.noctn@in.airtel.com",
+            "mnt-lower": "MAINT-IN-TELEMEDIA",
+            "mnt-routes": "MAINT-IN-TELEMEDIA",
+            "++email": "dsl.noctn@in.airtel.com",
+            "phone": "+91-044-42100479",
+            "last-modified": [
+                "2008-09-04T07:55:27Z",
+                "2009-02-06T12:21:13Z",
+                "2012-03-22T12:32:58Z"
+            ],
+            "admin-c": "AP247-AP",
+            "tech-c": "AP247-AP",
+            "address": [
+                "Hyderabad,Andhra Pradesh",
+                "ABTS",
+                "Splendid Towers, 4 Floor Opp Begumpet Police Station, HUDA road"
+            ],
+            "nic-hdl": "AP247-AP",
+            "person": "Network Administrator for ABTS AP",
+            "inetnum": "122.169.192.0 - 122.169.223.255",
+            "netname": "ABTS-AP-DSL-105440-hyd",
+            "++phone": "+91-044-42100479",
+            "++registrant": [
+                "AP247-AP",
+                "Network Administrator for ABTS AP"
+            ],
+            "route": "122.169.205.0\/24",
+            "++updated": [
+                "2008-09-04 07:55:27",
+                "2012-03-22 12:32:58"
+            ]
+        },
+        "geo": {
+            "city": "Hyderabad",
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Telangana",
+            "asn": "AS24560",
+            "org": "Bharti Airtel Ltd., Telemedia Services",
+            "address": [
+                "ABTS",
+                "Splendid Towers, 4 Floor Opp Begumpet Police Station, HUDA road",
+                "Hyderabad,Andhra Pradesh"
+            ],
+            "long": "78.4378",
+            "lat": "17.3724"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "content-length": "272",
+            "last-modified": "Tue, 16 Jan 2024 09:34:26 GMT",
+            "etag": "\"cdf-110-65a64da2\"",
+            "++redirect": "https:\/\/122.169.205.218\/",
+            "++target": "http:\/\/122.169.205.218\/",
+            "date": "Sat, 12 Oct 2024 13:17:25 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=ShenZhen\/L=ShenZhen\/CN=TP-Link",
+            "subject": "\/C=CN\/ST=ShenZhen\/L=ShenZhen\/CN=TP-Link",
+            "version": "v3",
+            "org": "TP-Link",
+            "valid": "2018-01-01 08:00:39",
+            "expires": "2037-09-18 08:00:39",
+            "fingerprint": "bb63b4b8e6f549211a792f82f878de2a260634a8d4cb69b6a0a935f73946cbc4"
+        },
+        "meta": {
+            "refresh": "0; URL=\/webpages\/login.html"
+        },
+        "dns": {
+            "ptr": "abts-ap-dynamic-218.205.169.122.airtelbroadband.in"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\f\u0004\u0014J\ufffd\ufffdcZ&\ufffd\ufffd\"`\ufffdY\ufffdsn\ufffd\u0000\u0000\u0000Pdiffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000,md\ufffd"
+        }
+    }
+}

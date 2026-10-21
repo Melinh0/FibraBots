@@ -1,0 +1,171 @@
+{
+    "qid": null,
+    "iid": 63552516,
+    "indicator": "77.36.167.37",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-23 05:01:36",
+    "stamp_updated": "2024-12-11 10:46:02",
+    "stamp_seen": "2024-09-23 05:25:47",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63553532,
+                "indicator": "https:\/\/77.36.167.37\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-23 05:01:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "Express",
+            "HSTS",
+            "jQuery",
+            "jQuery UI",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "IR",
+            "mnt-by": "IRIB-MNT",
+            "admin-c": "AT13916-RIPE",
+            "tech-c": "AT13916-RIPE",
+            "address": "IRIB,Tehran, Iran",
+            "origin": "AS42586",
+            "nic-hdl": "AT13916-RIPE",
+            "person": "Ali Tohidi",
+            "created": [
+                "2017-03-04T05:12:12Z",
+                "2017-03-04T08:16:26Z",
+                "2016-04-06T04:18:39Z"
+            ],
+            "++registrant": [
+                "AT13916-RIPE",
+                "Ali Tohidi"
+            ],
+            "inetnum": "77.36.144.0 - 77.36.175.255",
+            "route": "77.36.167.0\/24",
+            "netname": "NSSR",
+            "++phone": "+9822169765",
+            "++registered": [
+                "2017-03-04 08:16:26",
+                "2017-03-04 05:12:12",
+                "2016-04-06 04:18:39"
+            ],
+            "last-modified": [
+                "2021-07-05T07:10:25Z",
+                "2021-07-05T07:05:23Z",
+                "2016-04-06T04:18:39Z"
+            ],
+            "++updated": [
+                "2021-07-05 07:10:25",
+                "2021-07-05 07:05:23",
+                "2016-04-06 04:18:39"
+            ],
+            "phone": "+9822169765"
+        },
+        "geo": {
+            "countrycode": "IR",
+            "asn": "AS42586",
+            "org": "IRIB (Islamic Republic of Iran Broadcasting)",
+            "lat": "35.698",
+            "long": "51.4115",
+            "country": "Iran",
+            "address": "IRIB,Tehran, Iran"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "public, max-age=0",
+            "x-powered-by": "Express",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=63072000; includeSubdomains;",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "allow": "GET, POST",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "set-cookie": "branding=aw; Path=\/; secure; HttpOnly",
+            "last-modified": "Tue, 21 Sep 2021 12:36:24 GMT",
+            "etag": "W\/\"b45e-17c085b7540\"",
+            "date": "Mon, 23 Sep 2024 05:25:20 GMT",
+            "++redirect": "https:\/\/77.36.167.37\/",
+            "++target": "http:\/\/77.36.167.37\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "utf-8",
+            "++title": "AVIWEST - StreamHub"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-01 15:58:34",
+            "issuer": "\/CN=uservsftpd",
+            "subject": "\/CN=uservsftpd",
+            "expires": "2119-06-07 15:58:34",
+            "org": "uservsftpd",
+            "fingerprint": "d09580ba07efda8c03b7051baa60e1706c093b702f5ad35051893c338f7186a1"
+        },
+        "cookies": {
+            "branding": "aw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5a7576598fe0f99b31fb37f630784ee2.jpeg"
+        }
+    }
+}

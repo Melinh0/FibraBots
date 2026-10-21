@@ -1,0 +1,145 @@
+{
+    "qid": null,
+    "iid": 6467311,
+    "indicator": "84.17.47.114",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2019-09-15 03:37:20",
+    "stamp_updated": "2024-12-05 10:27:13",
+    "stamp_seen": "2024-06-13 13:53:51",
+    "stamp_probed": "2024-06-13 13:53:51",
+    "stamp_retired": "2024-09-16 18:47:33",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-23 00:58:04"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-04 10:20:10"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-23 00:58:04"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "53",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Netherlands",
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "zip": "1012",
+            "region": "North Holland",
+            "asn": "AS60068",
+            "isp": "Datacamp Limited",
+            "org": "Datacamp Limited",
+            "long": "4.8975",
+            "lat": "52.3759"
+        },
+        "whois": {
+            "country": "NL",
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "admin-c": [
+                "JP4750-RIPE",
+                "DLTS1-RIPE"
+            ],
+            "tech-c": [
+                "JP4750-RIPE",
+                "DLTS1-RIPE"
+            ],
+            "abuse-mailbox": "abuse@cdn77.com",
+            "mnt-by": "DATACAMP-MNT",
+            "origin": "AS60068",
+            "address": [
+                "London",
+                "207 Regent Street",
+                "DataCamp Limited",
+                "United Kingdom"
+            ],
+            "role": "Datacamp Ltd. technical staff",
+            "nic-hdl": "DLTS1-RIPE",
+            "created": [
+                "2014-06-23T09:09:30Z",
+                "2019-08-02T10:59:04Z",
+                "2020-03-11T15:44:40Z"
+            ],
+            "++registrant": [
+                "DLTS1-RIPE",
+                "JP4750-RIPE"
+            ],
+            "last-modified": [
+                "2019-08-02T10:59:04Z",
+                "2020-03-04T15:32:52Z",
+                "2020-03-11T15:44:40Z"
+            ],
+            "route": "84.17.46.0\/23",
+            "netname": "CDN77_AMS_DC1",
+            "descr": "CDN77 AMS",
+            "++updated": "2020-03-11 00:00:00",
+            "++registered": "2020-03-11 00:00:00",
+            "++abuse": "abuse@cdn77.com",
+            "++email": "abuse@cdn77.com",
+            "inetnum": "84.17.46.64 - 84.17.47.255"
+        },
+        "dns": {
+            "ptr": "unn-84-17-47-114.cdn77.com"
+        }
+    }
+}

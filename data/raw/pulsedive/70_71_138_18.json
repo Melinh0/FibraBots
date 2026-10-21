@@ -1,0 +1,75 @@
+{
+    "qid": null,
+    "iid": 55725544,
+    "indicator": "70.71.138.18",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-02-01 16:54:38",
+    "stamp_updated": "2024-09-16 18:50:59",
+    "stamp_seen": "2024-06-14 18:57:32",
+    "stamp_probed": "2024-06-14 18:57:32",
+    "stamp_retired": "2024-09-16 18:50:59",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-01 16:54:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23"
+        ],
+        "protocol": [
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": "British Columbia",
+            "asn": "AS6327",
+            "city": "Surrey",
+            "zip": "V3W",
+            "long": "-122.8521",
+            "lat": "49.1378",
+            "org": "SHAW",
+            "isp": "SHAW"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003\n(none) login: "
+        },
+        "dns": {
+            "ptr": "S0106206a94130573.vs.shawcable.net"
+        }
+    }
+}

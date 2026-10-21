@@ -1,0 +1,91 @@
+{
+    "qid": null,
+    "iid": 65543817,
+    "indicator": "54.39.191.14",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-03 10:19:32",
+    "stamp_updated": "2024-12-15 11:36:16",
+    "stamp_seen": "2024-12-03 10:20:11",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65544033,
+                "indicator": "https:\/\/54.39.191.14\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-03 10:19:32"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5060",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SIP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": "Quebec",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "city": "Beauharnois",
+            "long": "-73.8736",
+            "lat": "45.3161"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "charset": "UTF-8",
+            "++title": "3CX Phone System Management Console"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\n",
+            "5060": "\u0005\u0004\u0000\u0000"
+        },
+        "http": {
+            "++redirect": "https:\/\/54.39.191.14\/#\/login",
+            "++target": "http:\/\/54.39.191.14\/"
+        }
+    }
+}

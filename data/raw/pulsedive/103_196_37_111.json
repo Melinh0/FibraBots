@@ -1,0 +1,245 @@
+{
+    "qid": null,
+    "iid": 32316545,
+    "indicator": "103.196.37.111",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-02-27 06:11:10",
+    "stamp_updated": "2024-12-25 17:23:28",
+    "stamp_seen": "2024-12-25 17:23:28",
+    "stamp_probed": "2024-10-01 05:08:08",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 32316550,
+                "indicator": "http:\/\/103.196.37.111\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-06-05 11:15:28"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2022-02-27 06:11:10"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-03 01:01:24"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2022-02-27 06:11:10"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-20 04:58:19"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2023-06-05 11:15:28"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 549840,
+            "username": "cepheuskb",
+            "title": "",
+            "comment": "Scanning for vulnerable FTP and Apache hosts",
+            "stamp_added": "2023-11-30 17:25:04",
+            "stamp_updated": "2023-11-30 17:25:04"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "country": [
+                "US",
+                "HK",
+                "ZZ"
+            ],
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "address": [
+                "United States",
+                "PO Box 3006",
+                "Walnut Creek, CA 94598-0006"
+            ],
+            "mnt-by": [
+                "MAINT-MD-AP",
+                "APNIC-HM",
+                "APNIC-ABUSE",
+                "MAINT-AP-MD"
+            ],
+            "e-mail": "noc@m-d.net",
+            "abuse-mailbox": "noc@m-d.net",
+            "netname": "MD-AP",
+            "++phone": [
+                "+000000000",
+                "+1-704-702-0202",
+                "+1-415-683-6453"
+            ],
+            "phone": [
+                "+000000000",
+                "+1-704-702-0202",
+                "+1-415-683-6453"
+            ],
+            "inetnum": "103.196.36.0 - 103.196.39.255",
+            "++abuse": "noc@m-d.net",
+            "org": "ORG-MDL3-AP",
+            "organisation": "ORG-MDL3-AP",
+            "descr": [
+                "Mach Dilemma, LLC",
+                "Michael Damm"
+            ],
+            "++email": "noc@m-d.net",
+            "route": "103.196.37.0\/24",
+            "origin": "AS40138",
+            "last-modified": [
+                "2023-12-04T20:02:48Z",
+                "2024-05-17T00:35:20Z",
+                "2024-05-17T12:58:26Z",
+                "2024-05-17T00:27:06Z",
+                "2024-08-21T13:10:27Z",
+                "2024-08-21T13:12:24Z"
+            ],
+            "mnt-lower": "MAINT-AP-MD",
+            "irt": "IRT-AP-MD",
+            "role": [
+                "ABUSE APMD",
+                "MD administrator"
+            ],
+            "nic-hdl": [
+                "AA2820-AP",
+                "MA1680-AP"
+            ],
+            "org-name": "Michael Damm",
+            "tech-c": "MA1680-AP",
+            "admin-c": "MA1680-AP",
+            "mnt-irt": "IRT-AP-MD",
+            "mnt-routes": "MAINT-AP-MD",
+            "abuse-c": "AA2820-AP",
+            "++registrant": "MA1680-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-21 13:10:27",
+                "2024-05-17 12:58:26",
+                "2024-08-21 13:12:24",
+                "2024-05-17 00:27:06",
+                "2023-12-04 20:02:48"
+            ]
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "US",
+                "HK",
+                "ZZ"
+            ],
+            "region": "California",
+            "asn": "AS40138",
+            "lat": "37.5625",
+            "long": "-122.0004",
+            "address": [
+                "United States",
+                "PO Box 3006",
+                "Walnut Creek, CA 94598-0006"
+            ],
+            "city": "Fremont",
+            "org": [
+                "MDNET",
+                "ORG-MDL3-AP"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "32675",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/103.196.37.111\/",
+            "x-your-address-is": "45.79.22.72",
+            "date": "Tue, 24 Dec 2024 17:29:19 GMT",
+            "expires": "Tue, 24 Dec 2024 17:49:19 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "++title": "This is a Tor Exit Router"
+        },
+        "dns": {
+            "ptr": "tor.fmt.53labs.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/90fb0d0d1975278c91395ee97ff95f4a.jpeg"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "qid": null,
+    "iid": 62359848,
+    "indicator": "37.123.128.79",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-13 20:55:10",
+    "stamp_updated": "2024-12-10 10:40:31",
+    "stamp_seen": "2024-11-18 21:53:42",
+    "stamp_probed": "2024-08-13 20:55:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-13 20:55:10"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS8473",
+            "city": "Sundsvall",
+            "org": "Bahnhof AB",
+            "lat": "62.3772",
+            "long": "17.3203",
+            "region": "V\ufffdsternorrland County"
+        },
+        "dns": {
+            "ptr": "h-37-123-128-79.A881.priv.bahnhof.se"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\u001c\u000b\u0014\ufffd\ufffdl\ufffdc\ufffd\u000b\u001b\ufffd~\ufffd:W\"\ufffd[\u0000\u0000\u0000mcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000a\ufffd<\ufffd+\ufffdM\ufffd\ufffd\ufffd+"
+        }
+    }
+}

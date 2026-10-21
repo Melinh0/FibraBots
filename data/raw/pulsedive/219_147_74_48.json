@@ -1,0 +1,138 @@
+{
+    "qid": null,
+    "iid": 8316321,
+    "indicator": "219.147.74.48",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-02-11 14:24:30",
+    "stamp_updated": "2024-12-16 17:37:25",
+    "stamp_seen": "2024-12-16 17:37:25",
+    "stamp_probed": "2024-09-07 08:05:21",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 21:01:46"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 08:04:33"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 19:12:34"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 21:01:46"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-11-16 20:23:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": "CN",
+            "mnt-by": [
+                "MAINT-CHINANET",
+                "MAINT-CHINANET-HLJTELE"
+            ],
+            "descr": [
+                "NO.178 Zhongshan Road,Haerbin,Heilongjiang 150040",
+                "CHINANET HEILONGJIANG PROVINCE NETWORK",
+                "Heilongjiang Telecom Corporation"
+            ],
+            "mnt-lower": "MAINT-CHINANET-HL",
+            "mnt-routes": "MAINT-CHINANET-HL",
+            "netname": "CHINANET-HL",
+            "address": "Communication Corporation Internet Enterprise Division of HLJ",
+            "e-mail": "network@hljtele.com",
+            "fax-no": "+86-451-53900012",
+            "nic-hdl": "LZ298-AP",
+            "person": "LIJUAN ZHENG",
+            "phone": "+86-451-53902002",
+            "++phone": "+86-451-53902002",
+            "admin-c": "LZ298-AP",
+            "tech-c": "LZ298-AP",
+            "inetnum": "219.147.64.0 - 219.147.95.255",
+            "last-modified": [
+                "2008-09-04T06:53:13Z",
+                "2008-09-04T07:30:38Z"
+            ],
+            "++registrant": [
+                "LZ298-AP",
+                "LIJUAN ZHENG"
+            ],
+            "++email": "network@hljtele.com",
+            "++updated": "2008-09-04 07:30:38"
+        },
+        "geo": {
+            "country": "China",
+            "countrycode": "CN",
+            "asn": "AS4134",
+            "lat": "34.7732",
+            "address": "Communication Corporation Internet Enterprise Division of HLJ",
+            "org": "Chinanet",
+            "long": "113.722"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n"
+        }
+    }
+}

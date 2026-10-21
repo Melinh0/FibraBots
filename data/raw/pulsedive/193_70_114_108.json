@@ -1,0 +1,251 @@
+{
+    "qid": null,
+    "iid": 63414659,
+    "indicator": "193.70.114.108",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-20 04:41:44",
+    "stamp_updated": "2024-12-14 11:28:37",
+    "stamp_seen": "2024-12-02 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63417111,
+                "indicator": "https:\/\/193.70.114.108\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-20 04:41:44"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-22 15:16:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "443",
+            "80",
+            "8080",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Debian"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "OVH-MNT"
+            ],
+            "++abuse": "abuse@ovh.net",
+            "abuse-mailbox": "abuse@ovh.net",
+            "address": [
+                "France",
+                "59100 Roubaix",
+                "2 rue Kellermann",
+                "59100",
+                "Roubaix",
+                "OVH SAS",
+                "FRANCE"
+            ],
+            "admin-c": [
+                "OK217-RIPE",
+                "OTC2-RIPE",
+                "GM84-RIPE"
+            ],
+            "country": "FR",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2016-10-07T08:51:27Z",
+                "2004-04-17T11:23:17Z",
+                "2004-01-28T17:42:29Z",
+                "2016-10-07T08:19:40Z"
+            ],
+            "mnt-by": [
+                "OVH-MNT",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "nic-hdl": [
+                "OK217-RIPE",
+                "OTC2-RIPE"
+            ],
+            "origin": "AS16276",
+            "person": "Octave Klaba",
+            "phone": [
+                "+33 9 74 53 13 23",
+                "+33972101007"
+            ],
+            "role": "OVH Technical Contact",
+            "tech-c": [
+                "SL10162-RIPE",
+                "GM84-RIPE",
+                "OTC2-RIPE"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2004-04-17 11:23:17",
+                "2004-01-28 17:42:29",
+                "2016-10-07 08:19:40",
+                "2016-10-07 08:51:27"
+            ],
+            "++phone": "+33972101007",
+            "abuse-c": "AR15333-RIPE",
+            "descr": "OVH",
+            "mnt-domains": "OVH-MNT",
+            "mnt-routes": "OVH-MNT",
+            "org": "ORG-OS3-RIPE",
+            "org-name": "OVH SAS",
+            "organisation": "ORG-OS3-RIPE",
+            "inetnum": "193.70.0.0 - 193.70.127.255",
+            "last-modified": [
+                "2016-10-07T08:51:27Z",
+                "2014-09-05T10:47:15Z",
+                "2017-10-30T21:44:51Z",
+                "2017-01-11T08:00:07Z",
+                "2020-12-16T10:24:51Z"
+            ],
+            "netname": "FR-OVH-930901",
+            "route": "193.70.0.0\/17",
+            "++registrant": [
+                "Octave Klaba",
+                "OTC2-RIPE",
+                "OK217-RIPE",
+                "GM84-RIPE"
+            ],
+            "++email": "abuse@ovh.net",
+            "++updated": [
+                "2020-12-16 10:24:51",
+                "2014-09-05 10:47:15",
+                "2017-10-30 21:44:51",
+                "2016-10-07 08:51:27"
+            ]
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": [
+                "OVH SAS",
+                "ORG-OS3-RIPE"
+            ],
+            "asn": "AS16276",
+            "city": "Villepinte",
+            "long": "2.5347",
+            "region": [
+                "Seine-Saint-Denis",
+                "\ufffdle-de-France"
+            ],
+            "address": [
+                "France",
+                "59100 Roubaix",
+                "OVH SAS",
+                "2 rue Kellermann",
+                "59100",
+                "Roubaix",
+                "FRANCE"
+            ],
+            "lat": "48.9655"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "605",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.62 (Debian)",
+            "date": "Fri, 20 Sep 2024 05:00:52 GMT",
+            "last-modified": "Sat, 08 Jun 2024 10:05:38 GMT",
+            "etag": "\"48f-61a5e0ed9ba2f-gzip\"",
+            "++target": "http:\/\/193.70.114.108\/",
+            "++redirect": "https:\/\/193.70.114.108\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "Nymble - Inicio de Sesi\ufffdn"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=ES\/ST=Salamanca\/L=Salamanca\/O=Nymble\/OU=Nymble\/CN=Nymble\/E=smalvaro@usal.es",
+            "subject": "\/C=ES\/ST=Salamanca\/L=Salamanca\/O=Nymble\/OU=Nymble\/CN=Nymble\/E=smalvaro@usal.es",
+            "expires": "2025-06-05 11:08:02",
+            "org": "Nymble",
+            "fingerprint": "2feaa1e9e7e91a3617ba27ab7d3fd95b2825c973c46450fa1b86e8dbe0b2bebc",
+            "valid": "2024-06-05 11:08:02",
+            "++subject": "Nymble"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.3)\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS LOGINDISABLED] Dovecot (Debian) ready.\n",
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\n",
+            "993": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a9e2a62a5a35fa9f94559e9d03184123.jpeg"
+        }
+    }
+}

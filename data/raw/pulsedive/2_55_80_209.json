@@ -1,0 +1,128 @@
+{
+    "qid": null,
+    "iid": 62879022,
+    "indicator": "2.55.80.209",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-30 22:36:18",
+    "stamp_updated": "2024-12-15 11:32:50",
+    "stamp_seen": "2024-12-15 07:39:53",
+    "stamp_probed": "2024-09-04 05:44:26",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65834336,
+                "indicator": "https:\/\/2.55.80.209\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-30 22:36:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "PPTP"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "Font Awesome",
+            "jQuery",
+            "Leaflet",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Israel",
+            "countrycode": "IL",
+            "asn": "AS12400",
+            "org": "Partner Communications Ltd.",
+            "city": "Tel Aviv",
+            "region": "Tel Aviv",
+            "lat": "32.0803",
+            "long": "34.7805"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "lighttpd\/1.4.30",
+            "content-length": "12527",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 31 Mar 2020 19:16:48 GMT",
+            "etag": "\"3399966007\"",
+            "++target": "https:\/\/2.55.80.209\/",
+            "date": "Fri, 25 Oct 2024 01:39:44 GMT"
+        },
+        "ssl": {
+            "issuer": "\/CN=localhost",
+            "subject": "\/CN=localhost",
+            "version": "v3",
+            "org": "localhost",
+            "expires": "2032-06-17 20:09:42",
+            "fingerprint": "b213f14bb00f22343bed6b3ede78d8c04e0f73d394ae7c4ea9fcae6ffb24fece",
+            "valid": "2022-06-20 20:09:42"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "Sat, 01 Dec 2001 00:00:00 GMT",
+            "++title": "index",
+            "charset": "utf-8"
+        },
+        "dns": {
+            "ptr": "2-55-80-209.orange.net.il"
+        },
+        "banners": {
+            "1723": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

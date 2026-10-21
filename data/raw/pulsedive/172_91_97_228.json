@@ -1,0 +1,158 @@
+{
+    "qid": null,
+    "iid": 50619834,
+    "indicator": "172.91.97.228",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-08-28 09:09:16",
+    "stamp_updated": "2024-12-09 10:33:03",
+    "stamp_seen": "2024-11-20 03:20:00",
+    "stamp_probed": "2024-09-30 05:52:54",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-10 08:31:33"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-08-28 09:09:16"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-10 08:31:33"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-11 12:42:15"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "parent": "NET172 (NET-172-0-0-0-0)",
+            "orgtechname": "IPAddressing",
+            "stateprov": "CO",
+            "++abuse": "abuse@charter.net",
+            "orgabuseemail": "abuse@charter.net",
+            "orgabusehandle": "ABUSE19-ARIN",
+            "orgtechhandle": "IPADD1-ARIN",
+            "netname": "RRWE",
+            "originas": "AS20001",
+            "cidr": "172.88.0.0\/14",
+            "nethandle": "NET-172-88-0-0-1",
+            "netrange": "172.88.0.0 - 172.91.255.255",
+            "city": "Greenwood Village",
+            "postalcode": "80111",
+            "updated": [
+                "2015-05-15",
+                "2022-09-14"
+            ],
+            "regdate": [
+                "2015-05-15",
+                "2018-10-10"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADD1-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/172.88.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC-3517"
+            ],
+            "++registered": "2018-10-10 00:00:00",
+            "orgname": "Charter Communications Inc",
+            "++registrant": "Charter Communications Inc",
+            "organization": "Charter Communications Inc (CC-3517)",
+            "orgid": "CC-3517",
+            "orgtechemail": "PublicIPAddressing@charter.com",
+            "++phone": "+1-866-248-7662",
+            "orgabusephone": "+1-877-777-2263",
+            "address": "6175 S. Willow Dr",
+            "orgtechphone": "+1-866-248-7662",
+            "++updated": "2022-09-14 00:00:00",
+            "++email": "publicipaddressing@charter.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "California",
+                "CO"
+            ],
+            "asn": "AS20001",
+            "city": [
+                "Santa Monica",
+                "Greenwood Village"
+            ],
+            "zip": "80111",
+            "org": [
+                "Charter Communications Inc (CC-3517)",
+                "TWC-20001-PACWEST"
+            ],
+            "lat": "34.0271",
+            "long": "-118.5035",
+            "address": "6175 S. Willow Dr"
+        },
+        "dns": {
+            "ptr": "syn-172-091-097-228.res.spectrum.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\u001c\b\u0014\ufffd\u001b^\ufffd\t\ufffd\ufffd\ufffd\ufffd\ufffd6\u0019\u07d4\u0016M\u0000\u0000\u0000Rcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000x\ufffd\ufffd\ufffdMF\ufffd"
+        }
+    }
+}

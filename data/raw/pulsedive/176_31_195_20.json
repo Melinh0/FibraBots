@@ -1,0 +1,87 @@
+{
+    "qid": null,
+    "iid": 38802673,
+    "indicator": "176.31.195.20",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-09-08 06:13:27",
+    "stamp_updated": "2024-04-24 21:01:26",
+    "stamp_seen": "2024-01-22 10:17:32",
+    "stamp_probed": "2022-09-08 06:13:33",
+    "stamp_retired": "2024-04-24 21:01:26",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "isp": "OVH SAS",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=15768000",
+            "content-length": "145",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 08 Sep 2022 06:13:27 GMT",
+            "x-server-name": "prd-front-web02",
+            "cache-control": "no-cache, must-revalidate\nmax-age=1",
+            "expires": "Thu, 08 Sep 2022 06:13:28 GMT"
+        },
+        "meta": {
+            "refresh": "3; url=https:\/\/www.nperf.com\/"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/84fbe1506a83450e1b7146d2b3547bc1.jpeg"
+        },
+        "dns": {
+            "ptr": "prd-nperf-cluster01.fhsarl.net"
+        }
+    }
+}

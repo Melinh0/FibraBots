@@ -1,0 +1,96 @@
+{
+    "qid": null,
+    "iid": 2604392,
+    "indicator": "5.188.206.22",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2018-08-30 08:43:29",
+    "stamp_updated": "2024-11-19 08:23:25",
+    "stamp_seen": "2024-11-19 08:23:25",
+    "stamp_probed": "2024-09-07 08:17:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2018-09-07 15:13:21"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 13:28:15"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 47525,
+            "username": "nkl0x55",
+            "title": "",
+            "comment": "Network Reconnaissance Source",
+            "stamp_added": "2019-02-17 09:05:54",
+            "stamp_updated": "2019-02-17 09:05:54"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "139",
+            "21",
+            "22",
+            "3389",
+            "443"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTPS",
+            "NETBIOS",
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "asn": "AS200391",
+            "org": "Krez 999 Eood",
+            "lat": "42.696",
+            "long": "23.332"
+        },
+        "dns": {
+            "ptr": ";; connection timed out; no servers could be reached"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "qid": null,
+    "iid": 52659700,
+    "indicator": "191.252.181.100",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-02 01:27:39",
+    "stamp_updated": "2024-12-09 10:34:30",
+    "stamp_seen": "2024-11-29 20:34:39",
+    "stamp_probed": "2024-08-28 22:50:58",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-02 01:27:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS27715",
+            "lat": "-22.8305",
+            "long": "-43.2192",
+            "org": "Locaweb Servicos de Internet SA"
+        },
+        "whois": {
+            "country": "BR",
+            "abuse-c": "HOSIT",
+            "aut-num": "AS27715",
+            "created": [
+                "20070308",
+                "19980119",
+                "20131220",
+                "20211004"
+            ],
+            "inetnum": "191.252.0.0\/16",
+            "nic-hdl-br": [
+                "HOSIT",
+                "GIM6",
+                "INRLO"
+            ],
+            "nserver": [
+                "ns3.locaweb.com.br",
+                "ns2.locaweb.com.br",
+                "ns1.locaweb.com.br"
+            ],
+            "owner-c": "GIM6",
+            "ownerid": "02.351.877\/0001-52",
+            "person": [
+                "Hospedagem de Sites",
+                "Locaweb Servi\ufffdos de Internet S\/A",
+                "Infra Redes Locaweb"
+            ],
+            "responsible": "Gilberto Mautner",
+            "changed": [
+                "20171123",
+                "20211004",
+                "20220804",
+                "20240903"
+            ],
+            "e-mail": [
+                "abuse@locaweb.com.br",
+                "hostmaster@locaweb.com.br",
+                "infra-redes@locaweb.com.br"
+            ],
+            "++registrant": [
+                "Hospedagem de Sites",
+                "Locaweb Servi\ufffdos de Internet S\/A",
+                "Infra Redes Locaweb"
+            ],
+            "++email": [
+                "hostmaster@locaweb.com.br",
+                "abuse@locaweb.com.br",
+                "infra-redes@locaweb.com.br"
+            ],
+            "owner": "Locaweb Servi\ufffdos de Internet S\/A",
+            "tech-c": "INRLO",
+            "inetrev": "191.252.160.0\/19",
+            "nsstat": "20241129 AA",
+            "nslastaa": "20241129"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.5)\n",
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8\n"
+        },
+        "dns": {
+            "ptr": "vps48887.publiccloud.com.br"
+        }
+    }
+}

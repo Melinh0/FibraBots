@@ -1,0 +1,115 @@
+{
+    "qid": null,
+    "iid": 63626526,
+    "indicator": "8.42.227.49",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-26 15:46:36",
+    "stamp_updated": "2024-12-11 10:46:13",
+    "stamp_seen": "2024-09-30 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63626867,
+                "indicator": "https:\/\/8.42.227.49\/index.asp"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-30 10:08:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-26 15:46:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ],
+        "technology": [
+            "GoAhead",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Texas",
+            "asn": "AS13904",
+            "lat": "32.8567",
+            "city": "Rotan",
+            "long": "-100.4722",
+            "org": "COSLINK"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "server": "GoAhead-Webs",
+            "++code": "200",
+            "++status": "OK",
+            "pragma": "no-cache\nno-cache",
+            "++content-type": "text\/html",
+            "date": "Thu Sep 26 10:04:38 2024",
+            "++redirect": "https:\/\/8.42.227.49\/index.asp",
+            "++target": "https:\/\/8.42.227.49\/"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIP Solutions Certificate Authority\/CN=VOIP Solutions Server Root Authority 1",
+            "subject": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIPTEST Solutions Certificate Authority\/CN=VOIPTEST  Solutions Root Authority 1",
+            "version": "v3",
+            "expires": "2017-07-24 07:35:53",
+            "valid": "2015-07-25 07:35:53",
+            "org": "VOIP Solutions Server Root Authority 1",
+            "++subject": "VOIP Solutions",
+            "fingerprint": "4b54d8498f21ed9209f3fa18cdd07e44973a4582bcc0173b1c17b083fba25edd"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "-1",
+            "content-type": [
+                "application\/xhtml+xml; charset=utf-8",
+                "application\/xhtml+xml; charset=UTF-8"
+            ],
+            "++title": "cnPilot R195W Login"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e1b17f1f0a03893b540de5cdd489d1c5.jpeg"
+        }
+    }
+}

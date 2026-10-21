@@ -1,0 +1,128 @@
+{
+    "qid": null,
+    "iid": 38626184,
+    "indicator": "186.201.10.10",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-09-02 19:48:55",
+    "stamp_updated": "2024-12-15 11:32:03",
+    "stamp_seen": "2022-10-21 13:02:06",
+    "stamp_probed": "2022-10-21 13:02:06",
+    "stamp_retired": "2023-01-23 02:43:28",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-09-02 19:48:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Sao Paulo",
+            "zip": "06500",
+            "asn": "AS10429",
+            "city": "Santana de Parnaiba",
+            "org": "TELEFONICA BRASIL S.A",
+            "isp": "TELEFONICA BRASIL S.A",
+            "long": "-46.9112",
+            "lat": "-23.4458"
+        },
+        "whois": {
+            "owner-c": "ARITE",
+            "ownerid": "02.558.157\/0001-62",
+            "responsible": "Diretoria de Planejamento e Tecnologia",
+            "aut-num": "AS10429",
+            "tech-c": "GRP95",
+            "nserver": [
+                "te-br-spo-ib-dns2.tdatabrasil.net.br",
+                "te-br-spo-tic-dns1.tdatabrasil.net.br"
+            ],
+            "inetnum": "186.200.0.0\/15",
+            "created": [
+                "20080407",
+                "20031027",
+                "20100415",
+                "20180713"
+            ],
+            "nic-hdl-br": [
+                "GRP95",
+                "ARITE",
+                "CSTBR"
+            ],
+            "changed": [
+                "20060809",
+                "20180713",
+                "20191007",
+                "20220104"
+            ],
+            "person": [
+                "Grupo Provisionamento",
+                "CSIRT TELEFONICA BR",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "++registered": "2018-07-13 00:00:00",
+            "abuse-c": "CSTBR",
+            "++abuse": "CSTBR",
+            "++registrant": [
+                "CSIRT TELEFONICA BR",
+                "Grupo Provisionamento",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "owner": "TELEF\ufffdNICA BRASIL S.A",
+            "inetrev": "186.201.10.0\/24",
+            "nsstat": "20221018 AA",
+            "nslastaa": "20221018"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2\n"
+        },
+        "dns": {
+            "ptr": "186-201-10-10.customer.tdatabrasil.net.br"
+        }
+    }
+}

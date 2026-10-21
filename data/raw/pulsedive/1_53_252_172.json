@@ -1,0 +1,237 @@
+{
+    "qid": null,
+    "iid": 65609322,
+    "indicator": "1.53.252.172",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-05 10:15:11",
+    "stamp_updated": "2024-12-11 10:36:47",
+    "stamp_seen": "2024-12-05 10:16:05",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65609388,
+                "indicator": "http:\/\/1.53.252.172\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-05 10:15:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CentOS",
+            "Drift",
+            "Drupal",
+            "Element UI",
+            "Facebook Login",
+            "FancyBox",
+            "Google Analytics",
+            "Google Tag Manager",
+            "Isotope",
+            "jQuery",
+            "jQuery UI",
+            "Open Graph",
+            "reCAPTCHA"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS18403",
+            "countrycode": "VN",
+            "city": "Hanoi",
+            "country": "Vietnam",
+            "region": "Hanoi",
+            "lat": "21.0184",
+            "address": [
+                "Ha Noi, VietNam",
+                "FPT Telecom",
+                "FPT-VN"
+            ],
+            "org": "FPT Telecom Company",
+            "long": "105.8461"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-FPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "origin": "AS18403",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "NOC21-AP"
+            ],
+            "status": "ASSIGNED NON-PORTABLE",
+            "address": [
+                "FPT Telecom",
+                "Ha Noi, VietNam",
+                "FPT-VN"
+            ],
+            "descr": [
+                "2nd floor FPT Building, Pham Hung Road, Cau Giay District, Hanoi",
+                "FPT Telecom Company",
+                "Vietnam Internet Network Information Center (VNNIC)"
+            ],
+            "netname": "FPTDYNAMICIP-NET",
+            "person": [
+                "Network Operation Center",
+                "Luong Duy Phuong"
+            ],
+            "admin-c": [
+                "LDP12-AP",
+                "NTTT1-AP"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-28-73093388",
+                "+84-28-73002222"
+            ],
+            "abuse-mailbox": [
+                "hm-changed@vnnic.vn",
+                "abuse@fpt.net"
+            ],
+            "fax-no": [
+                "+84-24-37821462",
+                "+84-28-73008889"
+            ],
+            "inetnum": "1.53.240.0 - 1.53.255.255",
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "phuongld@fpt.com",
+                "ftel.noc.net@fpt.com"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2019-08-01T06:40:20Z",
+                "2022-01-17T02:09:44Z",
+                "2023-10-16T02:13:55Z",
+                "2023-10-16T01:44:54Z"
+            ],
+            "nic-hdl": [
+                "NOC21-AP",
+                "LDP12-AP"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-28-73093388",
+                "+84-28-73002222"
+            ],
+            "++abuse": [
+                "hm-changed@vnnic.vn",
+                "abuse@fpt.net"
+            ],
+            "++registrant": [
+                "NTTT1-AP",
+                "LDP12-AP",
+                "Network Operation Center",
+                "Luong Duy Phuong"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com",
+                "phuongld@fpt.com",
+                "abuse@fpt.net"
+            ],
+            "route": "1.53.252.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2023-10-16 02:13:55",
+                "2023-10-16 01:44:54",
+                "2022-01-17 02:09:44",
+                "2019-08-01 06:40:20"
+            ]
+        },
+        "http": {
+            "connection": "close",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "Apache\/2.2.15 (CentOS)",
+            "cache-control": "no-cache, must-revalidate",
+            "content-language": "en",
+            "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+            "x-generator": "Drupal 7 (http:\/\/drupal.org)",
+            "x-powered-by": "PHP\/7.0.33",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "x-content-type-options": "nosniff\nnosniff",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "link": "<http:\/\/1.53.252.172\/en>; rel=\"canonical\",<http:\/\/1.53.252.172\/en>; rel=\"shortlink\"",
+            "date": "Thu, 05 Dec 2024 17:44:28 GMT",
+            "++target": "http:\/\/1.53.252.172\/",
+            "set-cookie": "SESS7c994588d9b41912aa4745035c8b8227=ln89fhnlag9ThncGQbgg_eT0X3etN10NemLjtAODOUg; expires=Sat, 28-Dec-2024 21:17:48 GMT; Max-Age=2000000; path=\/; HttpOnly"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "og:type": "website",
+            "generator": "Drupal 7 (http:\/\/drupal.org)",
+            "viewport": "user-scalable=0, width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui",
+            "origin-trial": "A\/kargTFyk8MR5ueravczef\/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9",
+            "og:url": "http:\/\/1.53.252.172\/en",
+            "og:site_name": "Tam Travel",
+            "++title": "Tam Travel | Home",
+            "og:title": "Tam Travel"
+        },
+        "cookies": {
+            "_gat": "1",
+            "has_js": "1",
+            "_gat_ua-119145520-1": "1",
+            "_gid": "GA1.4.2053897608.1733393727",
+            "_ga": "GA1.4.851432969.1733393727",
+            "sess7c994588d9b41912aa4745035c8b8227": "ln89fhnlag9ThncGQbgg_eT0X3etN10NemLjtAODOUg",
+            "_ga_hz75fvhr5q": "GS1.4.1733393728.1.0.1733393728.0.0.0",
+            "drift_campaign_refresh": "ad5bf416-eacd-4d20-8c9a-db70ca43c7a3"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4a79618fb5a88eb7a837e16d6d7b50f5.jpeg"
+        }
+    }
+}

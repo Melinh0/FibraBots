@@ -1,0 +1,312 @@
+{
+    "qid": null,
+    "iid": 42137148,
+    "indicator": "211.20.14.156",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-12-12 11:07:15",
+    "stamp_updated": "2024-12-10 10:39:03",
+    "stamp_seen": "2024-11-20 04:54:42",
+    "stamp_probed": "2024-08-29 22:42:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 42137174,
+                "indicator": "https:\/\/211.20.14.156\/"
+            },
+            {
+                "iid": 42927001,
+                "indicator": "https:\/\/211.20.14.156\/weblogin.htm"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-17 12:37:17"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-12-12 11:07:15"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-17 12:37:17"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-01-29 19:32:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-22 13:14:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "1723",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "OpenVPN",
+            "PPTP",
+            "SSH"
+        ],
+        "technology": [
+            "AngularJS",
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "TWNIC"
+            ],
+            "status": [
+                "ALLOCATED PORTABLE",
+                "ASSIGNED NON-PORTABLE"
+            ],
+            "abuse-mailbox": "hostmaster@twnic.net.tw",
+            "admin-c": [
+                "TWA2-AP",
+                "HN27-AP",
+                "BW392-TW"
+            ],
+            "country": [
+                "TW",
+                "ZZ"
+            ],
+            "irt": "IRT-TWNIC-AP",
+            "mnt-by": [
+                "MAINT-TW-TWNIC",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-TWNIC-AP",
+            "tech-c": [
+                "TWA2-AP",
+                "HN27-AP",
+                "BW392-TW"
+            ],
+            "descr": [
+                "Taipei Taiwan",
+                "10048, Taiwan",
+                "Data Communication Business Group,",
+                "Chunghwa Telecom Co.,Ltd.",
+                "No.21, Sec.1, Xinyi Rd., Taipei City",
+                "No.21-3, Sec. 1, Xinyi Rd., Taipei 10048, Taiwan, R.O.C."
+            ],
+            "e-mail": [
+                "network-adm@hinet.net",
+                "hostmaster@twnic.net.tw",
+                "augustwu@rcw.tw"
+            ],
+            "fax-no": [
+                "+886 2 2395 5671",
+                "+886 2 2344 2513",
+                "+886-2-2262-8734"
+            ],
+            "netname": [
+                "HINET-NET",
+                "REN-AN-HOSPITAL-TP-TW"
+            ],
+            "phone": [
+                "+886 2 2344 3007",
+                "+886 2 2322 3495",
+                "+886 2 2322 3442",
+                "+000000000",
+                "+886-2-2262-7088 ext. 709"
+            ],
+            "address": [
+                "Taipei Taiwan 100",
+                "New Taipei City Taiwan",
+                "CHTD, Chunghwa Telecom Co., Ltd.",
+                "No. 21, Sec. 21, Hsin-Yi Rd.,",
+                "3F., No. 123, Sec. 4, Bade Rd., Songshan Dist., Taipei 105, Taiwan",
+                "Ren An Hospital",
+                "No.8-1, Aly. 2, Ln. 45, Guangzheng St., Banqiao Dist."
+            ],
+            "nic-hdl": [
+                "HN27-AP",
+                "AT939-AP",
+                "BW392-TW"
+            ],
+            "person": [
+                "HINET Network-Adm",
+                "Bo Gung Wu"
+            ],
+            "inetnum": [
+                "211.20.0.0 - 211.20.255.255",
+                "211.20.14.144 - 211.20.14.159"
+            ],
+            "last-modified": [
+                "2011-08-22T06:04:01Z",
+                "2021-11-04T00:59:51Z",
+                "2021-11-04T01:00:32Z",
+                "2021-11-04T00:48:58Z"
+            ],
+            "++phone": "+000000000",
+            "++abuse": "hostmaster@twnic.net.tw",
+            "++registrant": [
+                "HN27-AP",
+                "TWA2-AP",
+                "HINET Network-Adm",
+                "BW392-TW",
+                "Bo Gung Wu"
+            ],
+            "++email": [
+                "hostmaster@twnic.net.tw",
+                "network-adm@hinet.net",
+                "augustwu@rcw.tw"
+            ],
+            "abuse-c": "AT939-AP",
+            "role": "ABUSE TWNICAP",
+            "changed": [
+                "network-adm@hinet.net 20040420",
+                "hostmaster@twnic.net 20121112"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-11-04 00:59:51",
+                "2021-11-04 01:00:32",
+                "2011-08-22 06:04:01"
+            ]
+        },
+        "geo": {
+            "countrycode": [
+                "TW",
+                "ZZ"
+            ],
+            "asn": "AS3462",
+            "org": "Data Communication Business Group",
+            "region": "New Taipei City",
+            "city": "Sanchong District",
+            "address": [
+                "CHTD, Chunghwa Telecom Co., Ltd.",
+                "No. 21, Sec. 21, Hsin-Yi Rd.,",
+                "Taipei Taiwan 100",
+                "New Taipei City Taiwan",
+                "3F., No. 123, Sec. 4, Bade Rd., Songshan Dist., Taipei 105, Taiwan",
+                "Ren An Hospital",
+                "No.8-1, Aly. 2, Ln. 45, Guangzheng St., Banqiao Dist."
+            ],
+            "lat": "25.0691",
+            "long": "121.4878",
+            "country": [
+                "Taiwan",
+                "Unknown Region"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "server": "Server",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "content-length": "8680",
+            "strict-transport-security": "max-age=31536000; includeSubdomains",
+            "++content-type": "text\/html",
+            "expires": "-1",
+            "content-security-policy": "default-src 'self' 'unsafe-inline';frame-ancestors 'self';form-action 'self';script-src 'self' 'nonce-draytek' 'unsafe-eval';img-src *;connect-src 'self' *.draytek.com.tw",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "location": "http:\/\/211.20.14.156\/",
+            "++redirect": "https:\/\/211.20.14.156\/weblogin.htm",
+            "++target": "http:\/\/211.20.14.156\/",
+            "date": "Sat, 12 Oct 2024 23:08:31 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "subject": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "version": "v3",
+            "org": "Vigor Router",
+            "domain": "www.draytek.com",
+            "valid": "2024-05-30 09:39:36",
+            "expires": "2025-06-29 09:39:36",
+            "++subject": "DrayTek Corp.",
+            "fingerprint": "07a4e6eccbdf8a0ba0d6550f587b5c426f41fde42e3294669a297a855c6697be"
+        },
+        "meta": {
+            "charset": "UTF-8",
+            "++title": "Vigor Login Page"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n",
+            "1194": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0000\u0010\u0000\u0001\u001a+<M\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0001"
+        },
+        "dns": {
+            "ptr": "211-20-14-156.hinet-ip.hinet.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cf113f00e4f35edd674abae8ff1ca066.jpeg"
+        }
+    }
+}

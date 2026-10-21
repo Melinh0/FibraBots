@@ -1,0 +1,251 @@
+{
+    "qid": null,
+    "iid": 65206421,
+    "indicator": "194.180.176.187",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-22 09:39:07",
+    "stamp_updated": "2024-12-11 10:42:16",
+    "stamp_seen": "2024-12-07 19:36:53",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65207903,
+                "indicator": "https:\/\/194.180.176.187\/login_up.php"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:35:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-22 09:39:07"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "PHP",
+            "Plesk",
+            "Prototype",
+            "PWA",
+            "RequireJS",
+            "Sentry"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "address": [
+                "GERMANY",
+                "81549 Muenchen",
+                "Aschauer Str. 32a",
+                "Aschauer Strasse 32a",
+                "81549",
+                "Munchen",
+                "Contabo GmbH"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "++phone": "+498921268372",
+            "abuse-c": "MH12453-RIPE",
+            "admin-c": "MH7476-RIPE",
+            "descr": [
+                "CONTABO",
+                "Contabo GmbH"
+            ],
+            "fax-no": [
+                "+49 89 21665862",
+                "+498921665862"
+            ],
+            "mnt-by": [
+                "MNT-CONTABO",
+                "MNT-GIGA-HOSTING",
+                "de-wn-1-mnt"
+            ],
+            "mnt-ref": [
+                "MNT-CONTABO",
+                "de-wn-1-mnt"
+            ],
+            "nic-hdl": "MH7476-RIPE",
+            "org-name": "Contabo GmbH",
+            "origin": "AS51167",
+            "phone": [
+                "+49 89 21268372",
+                "+498921268372"
+            ],
+            "tech-c": "MH7476-RIPE",
+            "created": [
+                "2010-01-04T10:41:37Z",
+                "2022-07-21T16:28:44Z",
+                "2022-07-21T16:28:43Z",
+                "2022-07-21T17:05:27Z"
+            ],
+            "++registrant": [
+                "MH7476-RIPE",
+                "Johannes Selg"
+            ],
+            "org-type": "other",
+            "netname": "TT-20220721",
+            "organisation": "ORG-CG337-RIPE",
+            "org": "ORG-CG337-RIPE",
+            "last-modified": [
+                "2022-07-21T16:28:44Z",
+                "2022-07-21T16:28:43Z",
+                "2022-07-21T17:05:27Z",
+                "2024-04-15T11:05:18Z"
+            ],
+            "++updated": [
+                "2024-04-15 11:05:18",
+                "2022-07-21 16:28:43",
+                "2022-07-21 16:28:44",
+                "2022-07-21 17:05:27"
+            ],
+            "person": "Johannes Selg",
+            "++registered": [
+                "2010-01-04 10:41:37",
+                "2022-07-21 16:28:43",
+                "2022-07-21 16:28:44",
+                "2022-07-21 17:05:27"
+            ],
+            "inetnum": "194.180.176.0 - 194.180.176.255",
+            "route": "194.180.176.0\/24"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS51167",
+            "org": [
+                "Contabo GmbH",
+                "ORG-CG337-RIPE"
+            ],
+            "address": [
+                "Aschauer Str. 32a",
+                "GERMANY",
+                "Aschauer Strasse 32a",
+                "81549",
+                "Munchen",
+                "Contabo GmbH",
+                "81549 Muenchen"
+            ],
+            "region": "North Rhine-Westphalia",
+            "lat": "51.1878",
+            "long": "6.8607",
+            "city": "D\ufffdsseldorf"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "p3p": "CP=\"NON COR CURa ADMa OUR NOR UNI COM NAV STA\"",
+            "expires": "Fri, 28 May 1999 00:00:00 GMT",
+            "++code": "200",
+            "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+            "content-encoding": "br",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/194.180.176.187\/",
+            "++redirect": "https:\/\/194.180.176.187\/login_up.php",
+            "date": "Sat, 07 Dec 2024 19:36:32 GMT",
+            "last-modified": "Sat, 07 Dec 2024 19:36:31 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "format-detection": "telephone=no",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "skype_toolbar": "SKYPE_TOOLBAR_PARSER_COMPATIBLE",
+            "charset": "utf-8",
+            "plesk-revision": "5f28ac65ab7698d3411bcb7b25e11dabc0d59dd9",
+            "plesk-build": "1800230404.10",
+            "++title": "Plesk Obsidian 18.0.51",
+            "forgery_protection_token": "f3a3b7cefc825c4806bb413bbc5892f7"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "domain": "187.176.180.194.ilgirdns.com",
+            "fingerprint": "bfa010aed0a862d9a3fb8645d03e94f07d0c589ca9898f8900aab19f80602da0",
+            "expires": "2024-08-28 02:34:08",
+            "subject": "\/CN=187.176.180.194.ilgirdns.com",
+            "valid": "2024-05-30 02:34:09"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 187.176.180.194.ilgirdns.com ESMTP Postfix (Ubuntu)\n",
+            "21": "220 ProFTPD Server (ProFTPD) [194.180.176.187]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/37b332075a2343266d5a61763c9d8563.jpeg"
+        }
+    }
+}

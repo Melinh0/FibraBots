@@ -1,0 +1,219 @@
+{
+    "qid": null,
+    "iid": 11651446,
+    "indicator": "119.73.179.114",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-04-28 22:48:38",
+    "stamp_updated": "2024-12-09 10:29:53",
+    "stamp_seen": "2024-11-25 00:00:00",
+    "stamp_probed": "2024-09-06 14:23:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 11651457,
+                "indicator": "http:\/\/119.73.179.114\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-23 04:41:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:38:11"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2021-07-11 12:42:52"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 17:33:47"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-23 04:41:05"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-05-04 02:16:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "SG",
+            "e-mail": [
+                "hostmaster@singnet.com.sg",
+                "thomas_tan@smm.salvationarmy.org"
+            ],
+            "fax-no": [
+                "+65 4753273",
+                "+65 65528542"
+            ],
+            "mnt-by": "MAINT-SG-SINGNET",
+            "nic-hdl": [
+                "SH9-AP",
+                "TT388-AP"
+            ],
+            "notify": "hostmaster@singnet.com.sg",
+            "person": [
+                "SingNet Hostmaster",
+                "THOMAS TAN"
+            ],
+            "phone": [
+                "+65 7845922",
+                "+65 65550224"
+            ],
+            "tech-c": "SH9-AP",
+            "address": [
+                "Singapore",
+                "SingNet Engineering & Operations",
+                "2 Stirling Road",
+                "THE SALVATION ARMY",
+                "Singapore 148943",
+                "#03-00 Queenstown Exchange",
+                "20 BISHAN STREET 22 #02-00",
+                "SALVATION ARMY BUILDING"
+            ],
+            "last-modified": [
+                "2011-12-22T05:14:44Z",
+                "2011-11-03T02:31:14Z",
+                "2009-01-06T09:35:57Z",
+                "2024-08-23T01:36:46Z"
+            ],
+            "descr": [
+                "SingNet Pte Ltd",
+                "THE SALVATION ARMY",
+                "7\/9 UPPER CHANGI ROAD",
+                "Singapore 507706"
+            ],
+            "++email": [
+                "hostmaster@singnet.com.sg",
+                "thomas_tan@smm.salvationarmy.org"
+            ],
+            "origin": "AS19905",
+            "++registrant": [
+                "SingNet Hostmaster",
+                "TT388-AP",
+                "THOMAS TAN"
+            ],
+            "netname": "SALVATION-SG",
+            "inetnum": "119.73.179.112 - 119.73.179.127",
+            "admin-c": "TT388-AP",
+            "route": "119.73.179.0\/24",
+            "++updated": [
+                "2011-12-22 05:14:44",
+                "2009-01-06 09:35:57",
+                "2024-08-23 01:36:46"
+            ]
+        },
+        "geo": {
+            "city": "Singapore",
+            "country": "Singapore",
+            "countrycode": "SG",
+            "asn": "AS3758",
+            "org": "SingNet",
+            "address": [
+                "Singapore",
+                "SingNet Engineering & Operations",
+                "2 Stirling Road",
+                "THE SALVATION ARMY",
+                "Singapore 148943",
+                "#03-00 Queenstown Exchange",
+                "20 BISHAN STREET 22 #02-00",
+                "SALVATION ARMY BUILDING"
+            ],
+            "long": "103.6983",
+            "lat": "1.3602"
+        },
+        "http": {
+            "connection": "close",
+            "window-target": "_top",
+            "++code": "403",
+            "++status": "Forbidden",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/119.73.179.114\/"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/ST=California\/L=Sunnyvale\/O=HTTPS Management Certificate for SonicWALL (self-signed)\/OU=HTTPS Management Certificate for SonicWALL (self-signed)\/CN=192.168.168.168",
+            "subject": "\/C=US\/ST=California\/L=Sunnyvale\/O=HTTPS Management Certificate for SonicWALL (self-signed)\/OU=HTTPS Management Certificate for SonicWALL (self-signed)\/CN=192.168.168.168",
+            "version": "v3",
+            "expires": "2038-01-19 03:14:07",
+            "org": "192.168.168.168",
+            "valid": "2070-01-01 00:00:01",
+            "++self-signed": "1"
+        },
+        "meta": {
+            "id": "siteBlocked",
+            "++title": "Web Site Blocked",
+            "content-type": "text\/html;charset=utf-8",
+            "ip": "119.73.179.114"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ae756164d500bf1acf11753d5b5f9231.jpeg"
+        }
+    }
+}

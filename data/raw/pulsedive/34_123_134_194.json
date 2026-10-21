@@ -1,0 +1,165 @@
+{
+    "qid": null,
+    "iid": 51470888,
+    "indicator": "34.123.134.194",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-21 15:15:27",
+    "stamp_updated": "2024-12-11 10:44:00",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": "2024-09-30 11:29:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-13 02:17:14"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-21 15:15:27"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-13 02:17:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-19 09:58:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "CA",
+            "++registered": [
+                "2006-09-29 00:00:00",
+                "2018-09-28 00:00:00"
+            ],
+            "parent": "NET34 (NET-34-0-0-0-0)",
+            "++email": "arin-contact@google.com",
+            "++phone": "+1-650-253-0000",
+            "address": "1600 Amphitheatre Parkway",
+            "city": "Mountain View",
+            "orgabusephone": "+1-650-253-0000",
+            "orgtechemail": "arin-contact@google.com",
+            "orgtechhandle": "ZG39-ARIN",
+            "orgtechphone": "+1-650-253-0000",
+            "postalcode": "94043",
+            "++abuse": "google-cloud-compliance@google.com",
+            "orgabuseemail": "google-cloud-compliance@google.com",
+            "orgabusehandle": "GCABU-ARIN",
+            "orgabusename": "GC Abuse",
+            "orgid": "GOOGL-2",
+            "orgnocemail": "google-cloud-compliance@google.com",
+            "orgnochandle": "GCABU-ARIN",
+            "orgnocname": "GC Abuse",
+            "orgnocphone": "+1-650-253-0000",
+            "regdate": [
+                "2006-09-29",
+                "2018-09-28"
+            ],
+            "netname": "GOOGL-2",
+            "++registrant": "Google LLC",
+            "orgname": "Google LLC",
+            "organization": "Google LLC (GOOGL-2)",
+            "orgtechname": "Google LLC",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZG39-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOOGL-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/34.64.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "updated": [
+                "2018-09-28",
+                "2019-11-01"
+            ],
+            "nethandle": "NET-34-64-0-0-1",
+            "cidr": "34.64.0.0\/10",
+            "netrange": "34.64.0.0 - 34.127.255.255",
+            "++updated": "2019-11-01 00:00:00"
+        },
+        "geo": {
+            "city": [
+                "Mountain View",
+                "Council Bluffs"
+            ],
+            "country": "United States",
+            "countrycode": "US",
+            "zip": "94043",
+            "region": [
+                "CA",
+                "Iowa"
+            ],
+            "address": "1600 Amphitheatre Parkway",
+            "lat": "41.2591",
+            "org": [
+                "Google LLC (GOOGL-2)",
+                "GOOGLE-CLOUD-PLATFORM"
+            ],
+            "asn": "AS396982",
+            "long": "-95.8517"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.1p1 Debian-5\n"
+        },
+        "dns": {
+            "ptr": "194.134.123.34.bc.googleusercontent.com"
+        }
+    }
+}

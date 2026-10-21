@@ -1,0 +1,103 @@
+{
+    "qid": null,
+    "iid": 31456374,
+    "indicator": "65.49.20.105",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-01-29 21:37:00",
+    "stamp_updated": "2024-10-05 10:33:02",
+    "stamp_seen": "2024-07-04 22:23:24",
+    "stamp_probed": "2024-07-04 22:23:24",
+    "stamp_retired": "2024-10-05 10:33:02",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-02-16 11:39:11"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 515457,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 08:28:14",
+            "stamp_updated": "2022-05-18 08:28:14"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Apache",
+            "lighttpd",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS6939",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "HURRICANE",
+            "isp": "HURRICANE"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "2933",
+            "++code": "200",
+            "++status": "OK",
+            "server": "lighttpd\/1.4.55",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 15 Feb 2023 18:09:40 GMT",
+            "etag": "\"3496966535\"",
+            "date": "Tue, 02 Jul 2024 06:37:28 GMT"
+        },
+        "dns": {
+            "ptr": "scan-20i.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/084e73c518ac5d989677df9fab569fa1.jpeg"
+        }
+    }
+}

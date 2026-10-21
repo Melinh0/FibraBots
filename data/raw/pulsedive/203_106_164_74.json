@@ -1,0 +1,274 @@
+{
+    "qid": null,
+    "iid": 16769539,
+    "indicator": "203.106.164.74",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-10-20 00:26:21",
+    "stamp_updated": "2024-12-10 10:38:39",
+    "stamp_seen": "2024-12-04 00:00:00",
+    "stamp_probed": "2024-09-30 09:00:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64124782,
+                "indicator": "https:\/\/www.wofs.biz\/v2\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-11-10 10:53:34"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-10-20 00:26:21"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-11 14:04:13"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-10-24 10:40:02"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-11-10 10:53:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-07 07:06:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CentOS",
+            "Cufon",
+            "Google Analytics",
+            "jQuery",
+            "jQuery UI",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "abuse-mailbox": "abuse@tm.com.my",
+            "address": [
+                "Jalan Pantai Baru, Kuala Lumpur.",
+                "Malaysia",
+                "Telekom Malaysia",
+                "Menara TM, Jalan Pantai Baharu,",
+                "59100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
+            ],
+            "country": [
+                "MY",
+                "ZZ"
+            ],
+            "e-mail": "abuse@tm.com.my",
+            "mnt-by": [
+                "TM-NET-AP",
+                "MAINT-MY-WEBE",
+                "APNIC-ABUSE"
+            ],
+            "++phone": [
+                "+6-1800-88-2646",
+                "+603-22466646",
+                "+601110001000"
+            ],
+            "admin-c": [
+                "AS115-AP",
+                "TA35-AP",
+                "ICO1-AP"
+            ],
+            "descr": [
+                "TMnet route object",
+                "TMNET"
+            ],
+            "fax-no": "+603-22402126",
+            "netname": "INFRA-TMNET",
+            "nic-hdl": [
+                "TA35-AP",
+                "AM2355-AP"
+            ],
+            "origin": "AS4788",
+            "phone": [
+                "+603-22466646",
+                "+6-1800-88-2646",
+                "+601110001000"
+            ],
+            "role": [
+                "TMNET IP Administrators",
+                "ABUSE MYWEBE"
+            ],
+            "tech-c": [
+                "SM135-AP",
+                "TA35-AP",
+                "ICO1-AP"
+            ],
+            "irt": "IRT-MY-WEBE",
+            "mnt-irt": "IRT-MY-WEBE",
+            "route": "203.106.128.0\/18",
+            "inetnum": "203.106.160.0 - 203.106.191.255",
+            "++abuse": "abuse@tm.com.my",
+            "++email": "abuse@tm.com.my",
+            "++registrant": [
+                "TA35-AP",
+                "AS115-AP",
+                "ICO1-AP"
+            ],
+            "last-modified": [
+                "2019-03-26T14:05:26Z",
+                "2023-06-30T00:25:43Z",
+                "2023-07-01T06:29:36Z",
+                "2024-05-09T14:22:07Z",
+                "2024-05-09T14:24:42Z"
+            ],
+            "abuse-c": "AM2355-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-05-09 14:22:07",
+                "2024-05-09 14:24:42",
+                "2019-03-26 14:05:26",
+                "2023-07-01 06:29:36"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Malaysia",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "MY",
+                "ZZ"
+            ],
+            "asn": "AS4788",
+            "region": "Selangor",
+            "city": "Petaling Jaya",
+            "long": "101.5843",
+            "address": [
+                "Malaysia",
+                "Telekom Malaysia",
+                "Jalan Pantai Baru, Kuala Lumpur.",
+                "Menara TM, Jalan Pantai Baharu,",
+                "59100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"
+            ],
+            "org": "TM TECHNOLOGY SERVICES SDN. BHD.",
+            "lat": "3.1196"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "server": "Apache\/2.2.15 (CentOS)",
+            "x-powered-by": "PHP\/5.3.3",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "content-length": "5197",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/www.wofs.biz\/v2\/",
+            "++target": "https:\/\/203.106.164.74\/",
+            "date": "Sat, 12 Oct 2024 14:14:47 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "imagetoolbar": "no",
+            "++title": "Business Partner Ordering System"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "expires": "2025-03-06 23:59:59",
+            "valid": "2024-03-06 00:00:00",
+            "domain": [
+                "wofs.biz",
+                "www.wofs.biz"
+            ],
+            "subject": "\/CN=wofs.biz",
+            "fingerprint": "533a23c2463817cdacb464aee7ee34b9e473e6df4dec6f31b7bf0e805bf1c5a3"
+        },
+        "cookies": {
+            "__utmt": "1",
+            "__utmc": "236558983",
+            "__utmz": "236558983.1728745137.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+            "__utma": "236558983.1921237844.1728745137.1728745137.1728745137.1",
+            "__utmb": "236558983.1.10.1728745137"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "gbk-164-74.tm.net.my"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1f6308780605e4c8af2d20ca12309c6a.jpeg"
+        }
+    }
+}

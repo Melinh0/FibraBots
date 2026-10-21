@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 40277493,
+    "indicator": "187.111.28.131",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-10-22 16:47:52",
+    "stamp_updated": "2024-12-15 11:32:06",
+    "stamp_seen": "2024-08-28 00:00:00",
+    "stamp_probed": "2024-08-26 08:31:50",
+    "stamp_retired": "2024-11-30 11:12:11",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-11-13 17:40:49"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-10-22 16:47:52"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-13 23:38:52"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-11-13 17:40:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-02 00:25:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "21",
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "NETBIOS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Minas Gerais",
+            "zip": "30000",
+            "city": "Belo Horizonte",
+            "asn": "AS53120",
+            "lat": "-19.9029",
+            "long": "-43.9572",
+            "org": "MUNDIVOX TELECOMUNICACOES LTDA",
+            "isp": "MUNDIVOX TELECOMUNICACOES LTDA"
+        },
+        "whois": {
+            "++registered": "2010-01-12 00:00:00",
+            "country": "BR",
+            "created": [
+                "20090923",
+                "20100112"
+            ],
+            "nserver": [
+                "ns-rj-2.mundivox.com.br",
+                "ns-rj-1.mundivox.com.br"
+            ],
+            "abuse-c": "LECOE9",
+            "responsible": "Leandro Coelho",
+            "inetnum": "187.111.16.0\/20",
+            "owner-c": "LECOE9",
+            "aut-num": "AS53120",
+            "tech-c": "LECOE9",
+            "ownerid": "07.228.550\/0001-01",
+            "nic-hdl-br": "LECOE9",
+            "person": "Leandro Coelho",
+            "inetrev": "187.111.16.0\/20",
+            "changed": [
+                "20130307",
+                "20210610"
+            ],
+            "e-mail": "engenharia@mundivox.com",
+            "++abuse": "LECOE9",
+            "++registrant": "Leandro Coelho",
+            "++email": "engenharia@mundivox.com",
+            "owner": "MUNDIVOX TELECOMUNICA\ufffd\ufffdES LTDA",
+            "nslastaa": "20240823",
+            "nsstat": "20240823 AA"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7\n"
+        },
+        "dns": {
+            "ptr": "mvx-187-111-28-131.mundivox.com"
+        }
+    }
+}

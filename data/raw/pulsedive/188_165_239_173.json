@@ -1,0 +1,122 @@
+{
+    "qid": null,
+    "iid": 64514846,
+    "indicator": "188.165.239.173",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-25 08:17:48",
+    "stamp_updated": "2024-12-07 19:36:27",
+    "stamp_seen": "2024-12-07 19:36:27",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64516366,
+                "indicator": "https:\/\/188.165.239.173\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:35:22"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-25 08:17:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-type": "text\/plain; charset=utf-8",
+            "content-length": "19",
+            "++code": "404",
+            "++content-type": "text\/plain",
+            "alt-svc": "h3=\":443\"; ma=2592000",
+            "++target": "http:\/\/188.165.239.173\/",
+            "++redirect": "https:\/\/188.165.239.173\/",
+            "date": "Sat, 07 Dec 2024 19:36:13 GMT"
+        },
+        "ssl": {
+            "issuer": "\/CN=TRAEFIK DEFAULT CERT",
+            "subject": "\/CN=TRAEFIK DEFAULT CERT",
+            "version": "v3",
+            "org": "TRAEFIK DEFAULT CERT",
+            "valid": "2024-12-07 11:54:23",
+            "fingerprint": "e8b746eed93fdc0c8a29d6540eb40bb66c55348906386c8f6c1a26ff841e94a1",
+            "domain": "bb9b0c5e59851106b283fecf3fe12ca2.1335e7c7acd6c73b4780a21349d4d508.traefik.default",
+            "expires": "2025-12-07 11:54:23"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\n"
+        }
+    }
+}

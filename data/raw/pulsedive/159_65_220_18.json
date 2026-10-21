@@ -1,0 +1,263 @@
+{
+    "qid": null,
+    "iid": 19232079,
+    "indicator": "159.65.220.18",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-12-10 13:42:40",
+    "stamp_updated": "2024-12-10 10:36:05",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 04:40:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 19452291,
+                "indicator": "http:\/\/159.65.220.18\/"
+            },
+            {
+                "iid": 64120043,
+                "indicator": "https:\/\/159.65.220.18\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-02-01 13:57:17"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-12-10 13:42:40"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-12 14:08:41"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-12-16 11:07:38"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-02-01 13:57:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-17 22:44:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "Cart Functionality",
+            "DataTables",
+            "DigitalOcean Spaces",
+            "Dropzone",
+            "FullStory",
+            "Google Font API",
+            "jQuery",
+            "jQuery UI",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2017-10-24"
+            ],
+            "stateprov": "NY",
+            "parent": "NET159 (NET-159-0-0-0-0)",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2017-10-24 00:00:00"
+            ],
+            "originas": "AS14061",
+            "nethandle": "NET-159-65-0-0-1",
+            "cidr": "159.65.0.0\/16",
+            "netrange": "159.65.0.0 - 159.65.255.255",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/159.65.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-159-65-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "North Bergen"
+            ],
+            "asn": "AS14061",
+            "zip": "10013",
+            "lat": "40.7924",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "-74.0096"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-cache, private",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/159.65.220.18\/",
+            "++redirect": "https:\/\/159.65.220.18\/",
+            "date": "Sat, 12 Oct 2024 13:52:40 GMT",
+            "set-cookie": "XSRF-TOKEN=eyJpdiI6IkpJNFJ5Nkprbm45YXhZbjg4bHhKQ0E9PSIsInZhbHVlIjoiSDZpdEp3WFhtMXkxaFFVaUdSbWcyUUtDQzJpMjJ5bVhqclM0L2FvREZRNjl5WGlzQWNraXA4UjNDN29HRUNjMnViT0x3c2hMVHc2SUpSdGNhb0JaY2JBbko0c3UxVmNOakEwTTZOUW8rWExOK05XaVVRN0M5dEp3OHpmb3lwOXMiLCJtYWMiOiI4M2RlY2FiNzBhZDQ3MjkzZmZjZjZkNjFmNDE3YmZhMGE4MDk4YTgxZTBhMzZiMzA4YWU2YzE5OTNlOWJkOTYxIiwidGFnIjoiIn0%3D; expires=Sat, 12 Oct 2024 15:52:40 GMT; Max-Age=7200; path=\/\nbritex_session=eyJpdiI6Ijh4QmMvbXVtT1hJN3ViVVR5akdKdHc9PSIsInZhbHVlIjoiR08wNUpsSHRmWVgzVjd0RktWb1B6cWUzVHF1YUxWR3FaSTd6MkE1RXVHVnpxTUE3emMvTDVmS1RUanlZLzdLTGI4WVB4WmVacFoxaU9SbGxXTEpJcXZlU01OZ2xtSTI1V0JoU1ZDS3NLa0wrZXNUK2owZXVtK21jaVc4S0xBbE8iLCJtYWMiOiIzZTI4NTJlOWFiOTlmZWM3M2JlYjQwYjk4NDJkNGI3YjQ0NzEzNjRiZmYzYjZlZmM3MDYyZDRhN2ZiYjQ5YWFkIiwidGFnIjoiIn0%3D; expires=Sat, 12 Oct 2024 15:52:40 GMT; Max-Age=7200; path=\/; httponly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": [
+                "width=device-width, initial-scale=1, maximum-scale=1",
+                "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+            ],
+            "charset": "UTF-8",
+            "++title": "Ulawifi",
+            "csrf-token": "cSrmC94E6K1CWLsY8HAhekrUyzLwnkru0A5sDtz0"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=ulaportal.com",
+            "domain": [
+                "ulaportal.com",
+                "www.ulaportal.com"
+            ],
+            "valid": "2024-09-29 05:52:44",
+            "expires": "2024-12-28 05:52:43",
+            "fingerprint": "9397c6023edff2b44adff1029791ff46b7ca82705bc84eefa2e855e366ef223a"
+        },
+        "dns": {
+            "ptr": "ulaportal.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "cookies": {
+            "xsrf-token": "eyJpdiI6IkpJNFJ5Nkprbm45YXhZbjg4bHhKQ0E9PSIsInZhbHVlIjoiSDZpdEp3WFhtMXkxaFFVaUdSbWcyUUtDQzJpMjJ5bVhqclM0L2FvREZRNjl5WGlzQWNraXA4UjNDN29HRUNjMnViT0x3c2hMVHc2SUpSdGNhb0JaY2JBbko0c3UxVmNOakEwTTZOUW8rWExOK05XaVVRN0M5dEp3OHpmb3lwOXMiLCJtYWMiOiI4M2RlY2FiNzBhZDQ3MjkzZmZjZjZkNjFmNDE3YmZhMGE4MDk4YTgxZTBhMzZiMzA4YWU2YzE5OTNlOWJkOTYxIiwidGFnIjoiIn0%3D",
+            "britex_session": "eyJpdiI6Ijh4QmMvbXVtT1hJN3ViVVR5akdKdHc9PSIsInZhbHVlIjoiR08wNUpsSHRmWVgzVjd0RktWb1B6cWUzVHF1YUxWR3FaSTd6MkE1RXVHVnpxTUE3emMvTDVmS1RUanlZLzdLTGI4WVB4WmVacFoxaU9SbGxXTEpJcXZlU01OZ2xtSTI1V0JoU1ZDS3NLa0wrZXNUK2owZXVtK21jaVc4S0xBbE8iLCJtYWMiOiIzZTI4NTJlOWFiOTlmZWM3M2JlYjQwYjk4NDJkNGI3YjQ0NzEzNjRiZmYzYjZlZmM3MDYyZDRhN2ZiYjQ5YWFkIiwidGFnIjoiIn0%3D"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/266b763e7e1ae692ff81d94b8e1049ed.jpeg"
+        }
+    }
+}

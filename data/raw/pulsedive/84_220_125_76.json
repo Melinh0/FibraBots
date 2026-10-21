@@ -1,0 +1,82 @@
+{
+    "qid": null,
+    "iid": 54437813,
+    "indicator": "84.220.125.76",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-12-19 03:26:23",
+    "stamp_updated": "2024-12-06 16:36:15",
+    "stamp_seen": "2024-09-04 00:00:00",
+    "stamp_probed": "2024-08-29 08:07:55",
+    "stamp_retired": "2024-12-06 16:36:15",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-19 03:26:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "23",
+            "443",
+            "5060"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTPS",
+            "SIP",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "asn": "AS8612",
+            "isp": "Tiscali SpA",
+            "org": "Tiscali SpA",
+            "city": "Naples",
+            "zip": "80125",
+            "region": "Naples",
+            "lat": "40.867",
+            "long": "14.2385"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd!\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "21": "220 ucftpd(Jul  2 2012-22:13:49) FTP server ready.\n"
+        },
+        "dns": {
+            "ptr": "dynamic-adsl-84-220-125-76.clienti.tiscali.it"
+        }
+    }
+}

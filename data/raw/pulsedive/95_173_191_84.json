@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 54084674,
+    "indicator": "95.173.191.84",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-10 21:57:33",
+    "stamp_updated": "2024-12-15 11:37:52",
+    "stamp_seen": "2024-12-15 08:00:11",
+    "stamp_probed": "2024-09-13 08:29:19",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 54084792,
+                "indicator": "http:\/\/95.173.191.84\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-01-21 08:45:28"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-10 21:57:33"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-01-21 08:45:28"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-12 08:39:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "TR",
+            "mnt-routes": "MNT-NETINTERNET",
+            "abuse-mailbox": "abuse@ni.net.tr",
+            "address": "Pamukkale Teknokent D Blok B01 Denizli",
+            "admin-c": [
+                "OM575-RIPE",
+                "NLA5-RIPE"
+            ],
+            "descr": "Netinternet Bilisim Teknolojileri AS",
+            "fax-no": "+90 258 215 50 71",
+            "geoloc": "37.738820042147495 29.09278392791748",
+            "language": "tr",
+            "mnt-by": "MNT-NETINTERNET",
+            "mnt-lower": "MNT-NETINTERNET",
+            "netname": "NETINTERNET",
+            "nic-hdl": "NLA5-RIPE",
+            "origin": "AS51559",
+            "phone": "+90 850 885 08 85",
+            "role": "Netinternet LIR Admin",
+            "inetnum": "95.173.191.0 - 95.173.191.255",
+            "tech-c": [
+                "NLA5-RIPE",
+                "AM39197-RIPE",
+                "AA32280-RIPE"
+            ],
+            "created": [
+                "2009-09-21T18:09:24Z",
+                "2011-03-27T11:31:32Z",
+                "2019-08-02T12:01:07Z"
+            ],
+            "last-modified": [
+                "2016-05-28T14:04:33Z",
+                "2020-01-28T11:53:23Z",
+                "2019-08-02T12:01:07Z"
+            ],
+            "++abuse": "abuse@ni.net.tr",
+            "++registrant": [
+                "NLA5-RIPE",
+                "OM575-RIPE"
+            ],
+            "++email": "abuse@ni.net.tr",
+            "org": "ORG-NBvT1-RIPE",
+            "route": "95.173.191.0\/24",
+            "++registered": [
+                "2009-09-21 18:09:24",
+                "2011-03-27 11:31:32",
+                "2019-08-02 12:01:07"
+            ],
+            "++updated": [
+                "2020-01-28 11:53:23",
+                "2019-08-02 12:01:07"
+            ]
+        },
+        "geo": {
+            "countrycode": "TR",
+            "asn": "AS51559",
+            "org": "Netinternet Bilisim Teknolojileri AS",
+            "lat": "41.0214",
+            "long": "28.9948",
+            "country": "T\ufffdrkiye"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "341",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "server": "lighttpd\/1.4.59",
+            "++target": "http:\/\/95.173.191.84\/",
+            "date": "Tue, 22 Oct 2024 19:30:48 GMT"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e8339e24fdf788e8f86e158e6f1033ca.jpeg"
+        }
+    }
+}

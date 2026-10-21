@@ -1,0 +1,161 @@
+{
+    "qid": null,
+    "iid": 61927822,
+    "indicator": "161.132.48.198",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-02 20:15:40",
+    "stamp_updated": "2024-12-12 03:39:46",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-09-30 04:43:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61928230,
+                "indicator": "http:\/\/161.132.48.198\/mbilling\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-02 20:15:40"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-12 07:02:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "Debian",
+            "ExtJS",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "country": "PE",
+            "status": "assigned",
+            "abuse-c": "RUR4",
+            "created": [
+                "20090722",
+                "19920824"
+            ],
+            "nic-hdl": "RUR4",
+            "nserver": [
+                "NS.RCP.NET.PE",
+                "ICHU.RCP.NET.PE"
+            ],
+            "owner": "Red Cientifica Peruana",
+            "owner-c": "RUR4",
+            "ownerid": "PE-RCPE4-LACNIC",
+            "person": "Ruben Rodriguez",
+            "responsible": "Ruben Rodriguez",
+            "tech-c": "RUR4",
+            "++registrant": "Ruben Rodriguez",
+            "address": [
+                "Jiron Gonzales Prada, 585,",
+                "L27 - Lima -",
+                "Jiron Gonzales Prada, 585, -",
+                "15047 - Lima, Surquillo - Lima"
+            ],
+            "changed": [
+                "20020110",
+                "20220329"
+            ],
+            "phone": [
+                "+51 1 7020138",
+                "+51  17020138 [0000]"
+            ],
+            "inetnum": "161.132.0.0\/16",
+            "inetrev": "161.132.0.0\/16",
+            "++email": "rrodriguez@rcp.pe",
+            "e-mail": "rrodriguez@rcp.pe",
+            "nsstat": "20240911 AA",
+            "nslastaa": "20240911"
+        },
+        "geo": {
+            "country": "Peru",
+            "countrycode": "PE",
+            "asn": "AS3132",
+            "org": "Red Cientifica Peruana",
+            "lat": "-12.0439",
+            "long": "-77.0281"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=98",
+            "content-length": "10531",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.62 (Debian)",
+            "++redirect": "http:\/\/161.132.48.198\/mbilling\/",
+            "++target": "http:\/\/161.132.48.198\/",
+            "etag": "\"7828-6236fe1afc9c0-gzip\"",
+            "last-modified": "Tue, 01 Oct 2024 20:08:15 GMT",
+            "date": "Mon, 07 Oct 2024 20:17:26 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+            "charset": "utf-8",
+            "++title": "MagnusBilling"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/69538160d2d25442fa8d2541dde7a8e4.jpeg"
+        },
+        "cookies": {
+            "phpsessid": "p4bo6s3qkk1alidslelvnaec9e"
+        }
+    }
+}

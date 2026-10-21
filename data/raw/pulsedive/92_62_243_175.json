@@ -1,0 +1,117 @@
+{
+    "qid": null,
+    "iid": 61062875,
+    "indicator": "92.62.243.175",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-07-10 17:21:57",
+    "stamp_updated": "2024-12-16 11:37:58",
+    "stamp_seen": "2024-08-29 01:03:41",
+    "stamp_probed": "2024-08-29 01:03:41",
+    "stamp_retired": "2024-11-30 11:12:11",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-10 17:21:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "zip": "2000",
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "city": "Samokov",
+            "region": "Sofia",
+            "asn": "AS24750",
+            "org": "MyAcct LTD",
+            "isp": "MyAcct LTD",
+            "lat": "42.3359",
+            "long": "23.5541"
+        },
+        "http": {
+            "server": "lighttpd\/1.4.39",
+            "++code": "302",
+            "++status": "Found",
+            "location": "https:\/\/92.62.243.175\/",
+            "content-length": "0",
+            "date": "Fri, 05 Jul 2019 00:06:59 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-03 08:17:00",
+            "expires": "2024-07-03 08:17:00",
+            "++self-signed": "1",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-60:22:32:C4:A4:82\/E=support@ubnt.com",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-60:22:32:C4:A4:82\/E=support@ubnt.com",
+            "org": "UBNT-60:22:32:C4:A4:82"
+        },
+        "cookies": {
+            "ui_language": "en_US",
+            "airos_602232c4a482": "f450e33e11fdcc62574ec8e000b98fca"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/764b4ca770616f51dac78d5c225dd5ba.jpeg"
+        },
+        "dns": {
+            "ptr": "92.62.243.175.fibermax.bg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001<\u000b\u0014\ufffd\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\ufffd\u0003\u0007^\u0742\ufffd\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdY\ufffd\u0204Ie&\ufffd\u000b\ufffd"
+        }
+    }
+}

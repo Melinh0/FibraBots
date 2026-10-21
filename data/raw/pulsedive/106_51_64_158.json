@@ -1,0 +1,232 @@
+{
+    "qid": null,
+    "iid": 57300077,
+    "indicator": "106.51.64.158",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-15 22:01:41",
+    "stamp_updated": "2024-12-10 02:18:10",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-29 07:44:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 58070953,
+                "indicator": "http:\/\/106.51.64.158\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-15 22:01:41"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-15 22:01:41"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-18 04:22:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Debian"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "IN",
+                "ZZ"
+            ],
+            "person": [
+                "IP Admin",
+                "IP Tech"
+            ],
+            "address": [
+                "No 1, 2nd Floor, Indian Express Building, Queen's Road, Bangalore",
+                "Atria Convergence Technologies Pvt Ltd",
+                "# 1, 2nd Floor, Indian Express Building,",
+                "Queen's Road, Bangalore - 560 001"
+            ],
+            "admin-c": "IA145-AP",
+            "irt": "IRT-CABLELITE-IN",
+            "mnt-by": [
+                "MAINT-IN-SHYJU",
+                "MAINT-IN-ACT",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-CABLELITE-IN",
+            "mnt-lower": "MAINT-IN-SHYJU",
+            "mnt-routes": "MAINT-IN-SHYJU",
+            "netname": "CABLELITE",
+            "nic-hdl": [
+                "IT120-AP",
+                "IA145-AP",
+                "AC1823-AP"
+            ],
+            "notify": "shyjumon.ravi@acttv.in",
+            "origin": "AS24309",
+            "tech-c": "IT120-AP",
+            "inetnum": "106.51.0.0 - 106.51.127.255",
+            "descr": "Atria Convergence Technologies Pvt. Ltd.,",
+            "++phone": [
+                "+91-080-4288-4288",
+                "+000000000"
+            ],
+            "phone": [
+                "+91-080-4288-4288",
+                "+000000000"
+            ],
+            "++registrant": [
+                "IA145-AP",
+                "IP Tech",
+                "IP Admin"
+            ],
+            "last-modified": [
+                "2019-06-17T10:18:26Z",
+                "2019-06-17T10:19:19Z",
+                "2019-12-22T04:13:38Z",
+                "2021-01-15T11:13:16Z",
+                "2024-07-12T05:26:18Z",
+                "2024-07-12T05:27:03Z"
+            ],
+            "e-mail": [
+                "apnic@actcorp.in",
+                "ip-admin@actcorp.in",
+                "iptech@actcorp.in"
+            ],
+            "abuse-mailbox": "abuse@actcorp.in",
+            "++abuse": "abuse@actcorp.in",
+            "++email": [
+                "apnic@actcorp.in",
+                "ip-admin@actcorp.in",
+                "iptech@actcorp.in",
+                "abuse@actcorp.in"
+            ],
+            "route": "106.51.64.0\/19",
+            "role": "ABUSE CABLELITEIN",
+            "abuse-c": "AC1823-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-12 05:26:18",
+                "2024-07-12 05:27:03",
+                "2019-06-17 10:18:26",
+                "2019-06-17 10:19:19",
+                "2019-12-22 04:13:38"
+            ]
+        },
+        "geo": {
+            "country": [
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "IN",
+                "ZZ"
+            ],
+            "region": "Karnataka",
+            "asn": "AS24309",
+            "org": "Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA",
+            "city": "Bengaluru",
+            "address": [
+                "Atria Convergence Technologies Pvt Ltd",
+                "No 1, 2nd Floor, Indian Express Building, Queen's Road, Bangalore",
+                "# 1, 2nd Floor, Indian Express Building,",
+                "Queen's Road, Bangalore - 560 001"
+            ],
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3041",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 03 Apr 2019 05:11:55 GMT",
+            "etag": "\"29cd-585994acf8ced-gzip\"",
+            "server": "Apache\/2.4.62 (Debian)",
+            "date": "Mon, 16 Sep 2024 01:55:30 GMT",
+            "++target": "http:\/\/106.51.64.158\/"
+        },
+        "meta": {
+            "++title": "Apache2 Debian Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Debian) ready.\n",
+            "25": "220 leanworxcloud.com ESMTP Postfix (Debian\/GNU)\n",
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n",
+            "993": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "106.51.64.158.actcorp.in"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c61b1238ee253703dabec70795c30852.jpeg"
+        }
+    }
+}

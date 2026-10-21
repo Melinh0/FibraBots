@@ -1,0 +1,84 @@
+{
+    "qid": null,
+    "iid": 47171481,
+    "indicator": "81.0.246.17",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-05-14 03:17:51",
+    "stamp_updated": "2023-08-17 03:30:38",
+    "stamp_seen": "2023-05-14 03:18:34",
+    "stamp_probed": "2023-05-14 03:18:34",
+    "stamp_retired": "2023-08-17 03:30:38",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-14 03:17:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "GB",
+            "asn": "AS51167",
+            "isp": "Contabo GmbH",
+            "org": "Contabo GmbH",
+            "city": "Portsmouth",
+            "zip": "PO9",
+            "region": "Portsmouth",
+            "country": "United Kingdom of Great Britain and Northern Ireland",
+            "lat": "50.8544",
+            "long": "-1.002"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3\n"
+        },
+        "dns": {
+            "ptr": "vmi1108203.contaboserver.net"
+        }
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "qid": null,
+    "iid": 9953202,
+    "indicator": "213.6.203.226",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-03-07 23:54:07",
+    "stamp_updated": "2024-12-14 20:35:32",
+    "stamp_seen": "2024-12-14 20:35:32",
+    "stamp_probed": "2024-09-07 08:04:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-03-16 12:35:17"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-03-24 07:15:51"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-01-02 11:47:05"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-03-21 22:39:28"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-03-16 12:35:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-11 22:22:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "Palestine.",
+                "PALTEL HDQ",
+                "Rafeedya St.",
+                "P.O.Box 1570, Nablus,"
+            ],
+            "admin-c": "RA2887-RIPE",
+            "country": "PS",
+            "fax-no": "+ 970 9 2376227",
+            "mnt-by": [
+                "PALTEL-MNTNER",
+                "PALTEL-MNT"
+            ],
+            "netname": "PALTEL-DSL",
+            "nic-hdl": "RA2887-RIPE",
+            "origin": "AS12975",
+            "person": "Ripe Admin-PALTEL",
+            "phone": "+ 970 9 2376225",
+            "tech-c": "RA2887-RIPE",
+            "inetnum": "213.6.192.0 - 213.6.210.255",
+            "last-modified": [
+                "2011-02-22T11:52:52Z",
+                "2014-05-18T12:24:39Z",
+                "2020-06-07T10:58:38Z"
+            ],
+            "descr": "Palestine Telecommunications Company (PALTEL)",
+            "created": [
+                "2006-11-01T07:03:00Z",
+                "2014-05-18T12:24:39Z",
+                "2020-06-07T10:58:38Z"
+            ],
+            "++registrant": [
+                "RA2887-RIPE",
+                "Ripe Admin-PALTEL"
+            ],
+            "route": "213.6.203.0\/24",
+            "++updated": [
+                "2014-05-18 12:24:39",
+                "2011-02-22 11:52:52",
+                "2020-06-07 10:58:38"
+            ],
+            "++registered": [
+                "2014-05-18 12:24:39",
+                "2006-11-01 07:03:00",
+                "2020-06-07 10:58:38"
+            ]
+        },
+        "geo": {
+            "asn": "AS12975",
+            "countrycode": "PS",
+            "org": "Palestine Telecommunications Company (PALTEL)",
+            "city": "Gaza",
+            "lat": "31.5019",
+            "long": "34.4666",
+            "region": "Gaza Governorate",
+            "country": "Palestine"
+        },
+        "banners": {
+            "22": "SSH-2.0-XXXX\n\u0000\u0000\u0001t\b\u00146\ufffd[W\ufffd\u0017\u0325\/\ufffd\u0003X\ufffdC\ufffdN\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u001eaes128-ctr,aes256-ctr,3des-ctr\u0000\u0000\u0000\u001eaes128-ctr,aes256-ctr,3des-ctr\u0000\u0000\u0000\thmac-sha1\u0000\u0000\u0000\thmac-sha1\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u001a\u001d\ufffd\ufffd\ufffd\ufffd"
+        }
+    }
+}

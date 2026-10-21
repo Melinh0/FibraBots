@@ -1,0 +1,138 @@
+{
+    "qid": null,
+    "iid": 63867458,
+    "indicator": "152.67.4.156",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-02 05:34:10",
+    "stamp_updated": "2024-12-14 03:31:57",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63868614,
+                "indicator": "https:\/\/152.67.4.156\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-02 05:34:10"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-10-03 16:10:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Angular",
+            "Bootstrap",
+            "jsDelivr",
+            "Leaflet",
+            "Nginx",
+            "Popper",
+            "Sectigo",
+            "Ubuntu",
+            "Zone.js"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Maharashtra",
+            "asn": "AS31898",
+            "city": "Mumbai",
+            "lat": "19.0748",
+            "long": "72.8856",
+            "org": "ORACLE-BMC-31898"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "5300",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "etag": "\"66b5f078-14b4\"",
+            "last-modified": "Fri, 09 Aug 2024 10:33:28 GMT",
+            "++target": "http:\/\/152.67.4.156\/",
+            "++redirect": "https:\/\/152.67.4.156\/",
+            "date": "Wed, 02 Oct 2024 05:48:15 GMT",
+            "++base": "https:\/\/152.67.4.156\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "Route"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "domain": [
+                "*.oasys.co",
+                "oasys.co"
+            ],
+            "subject": "\/CN=*.oasys.co",
+            "expires": "2025-05-17 23:59:59",
+            "valid": "2024-05-06 00:00:00",
+            "fingerprint": "8a7bf8e34fda0407a35f3d9fcf700a040d029148740d11d35511e3af7a7daddd"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "3306": "[\u0000\u0000\u0000\n8.0.39-0ubuntu0.20.04.1\u0000]\u0003\u0000\u0000tl\t\b\\sK#\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000hpaA\u001b\u001e:\u0001\u001c\u000e\u000f\u0004\u0000caching_sha2_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b3fe6a8c27c5e739c18e8792e1077813.jpeg"
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "qid": null,
+    "iid": 65336093,
+    "indicator": "97.74.84.253",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-27 10:03:33",
+    "stamp_updated": "2024-12-11 10:46:48",
+    "stamp_seen": "2024-11-28 08:02:03",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65383052,
+                "indicator": "https:\/\/97.74.84.253\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-27 10:03:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@godaddy.com",
+            "nettype": "Direct Allocation",
+            "orgnocname": "Network Operations Center",
+            "orgtechname": "Network Operations Center",
+            "orgabusename": "Abuse Department",
+            "parent": "NET97 (NET-97-0-0-0-0)",
+            "++email": "noc@godaddy.com",
+            "++phone": "+1-480-505-8809",
+            "++registrant": "GoDaddy.com, LLC",
+            "netname": "GO-DADDY-COM-LLC",
+            "orgabuseemail": "abuse@godaddy.com",
+            "orgabusehandle": "ABUSE51-ARIN",
+            "orgabusephone": "+1-480-624-2505",
+            "organization": "GoDaddy.com, LLC (GODAD)",
+            "orgid": "GODAD",
+            "orgname": "GoDaddy.com, LLC",
+            "orgnocemail": "noc@godaddy.com",
+            "orgnochandle": "NOC124-ARIN",
+            "orgnocphone": "+1-480-505-8809",
+            "orgtechemail": "noc@godaddy.com",
+            "orgtechhandle": "NOC124-ARIN",
+            "orgtechphone": "+1-480-505-8809",
+            "originas": "AS26496",
+            "rabuseemail": "abuse@godaddy.com",
+            "rabusehandle": "ABUSE51-ARIN",
+            "rabusename": "Abuse Department",
+            "rabusephone": "+1-480-624-2505",
+            "regdate": [
+                "2007-06-01",
+                "2008-08-14"
+            ],
+            "rnocemail": "noc@godaddy.com",
+            "rnochandle": "NOC124-ARIN",
+            "rnocname": "Network Operations Center",
+            "rnocphone": "+1-480-505-8809",
+            "rtechemail": "noc@godaddy.com",
+            "rtechhandle": "NOC124-ARIN",
+            "rtechname": "Network Operations Center",
+            "rtechphone": "+1-480-505-8809",
+            "stateprov": "AZ",
+            "++registered": [
+                "2008-08-14 00:00:00",
+                "2007-06-01 00:00:00"
+            ],
+            "cidr": "97.74.0.0\/16",
+            "nethandle": "NET-97-74-0-0-1",
+            "netrange": "97.74.0.0 - 97.74.255.255",
+            "city": "Tempe",
+            "postalcode": "85284",
+            "updated": [
+                "2012-02-24",
+                "2024-11-25"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE51-ARIN",
+            "rnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GODAD",
+                "https:\/\/rdap.arin.net\/registry\/ip\/97.74.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE51-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "address": "2155 E GoDaddy Way",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore"
+            ],
+            "countrycode": [
+                "US",
+                "SG"
+            ],
+            "city": [
+                "Singapore",
+                "Tempe"
+            ],
+            "asn": "AS26496",
+            "region": "AZ",
+            "zip": "85284",
+            "long": "103.8503",
+            "org": [
+                "GoDaddy.com, LLC (GODAD)",
+                "AS-26496-GO-DADDY-COM-LLC"
+            ],
+            "lat": "1.2868",
+            "address": "2155 E GoDaddy Way"
+        },
+        "http": {
+            "server": "Apache",
+            "vary": "Accept-Encoding",
+            "content-type": "text\/html;charset=ISO-8859-1",
+            "content-length": "317",
+            "++code": "200",
+            "content-encoding": "br",
+            "++content-type": "text\/html",
+            "date": "Thu, 28 Nov 2024 01:02:55 GMT",
+            "++redirect": "https:\/\/97.74.84.253\/",
+            "++target": "http:\/\/97.74.84.253\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "fingerprint": "a94224d34d7f5313f95080ef4f05f299e628bfa51a12b1c96ab204fcfcebe504",
+            "org": "evergrow.idaksh.in",
+            "valid": "2023-05-10 04:11:47",
+            "subject": "\/CN=evergrow.idaksh.in",
+            "expires": "2024-05-09 04:11:47",
+            "issuer": "\/CN=evergrow.idaksh.in",
+            "domain": [
+                "evergrow.idaksh.in",
+                "mail.evergrow.idaksh.in",
+                "www.evergrow.idaksh.in",
+                "cpanel.evergrow.idaksh.in",
+                "webmail.evergrow.idaksh.in",
+                "webdisk.evergrow.idaksh.in",
+                "cpcontacts.evergrow.idaksh.in",
+                "cpcalendars.evergrow.idaksh.in"
+            ]
+        },
+        "meta": {
+            "++title": "Index of \/"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000",
+            "3306": "a\u0000\u0000\u0000\ufffdj\u0004Host '172-236-101-124.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/79000638ef5c3636f429831e6ebbf0c9.jpeg"
+        }
+    }
+}

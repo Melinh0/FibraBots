@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 39341154,
+    "indicator": "87.236.176.163",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-09-27 04:45:22",
+    "stamp_updated": "2024-12-11 10:46:25",
+    "stamp_seen": "2024-11-19 09:37:10",
+    "stamp_probed": "2024-08-24 22:26:58",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-08-17 11:05:42"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-02-19 13:11:36"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-09-27 04:45:22"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-02-19 13:11:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-08-06 10:42:04"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2023-08-17 11:05:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "GB",
+            "address": [
+                "UNITED KINGDOM",
+                "London",
+                "Unit 72465, PO Box 6945",
+                "W1A 6US"
+            ],
+            "status": "LIR-PARTITIONED PA",
+            "origin": "AS211298",
+            "++phone": "+442037450350",
+            "phone": "+442037450350",
+            "++updated": "2023-02-13 00:00:00",
+            "++registered": "2023-02-13 00:00:00",
+            "role": "internet-measurement.com hostmaster",
+            "nic-hdl": "IH2391-RIPE",
+            "netname": "INTERNETMEASUREMENT-D",
+            "mnt-by": "INTERNET-MEASUREMENT-MNT",
+            "inetnum": "87.236.176.128 - 87.236.176.255",
+            "last-modified": [
+                "2023-02-13T18:45:37Z",
+                "2023-02-13T18:56:18Z",
+                "2023-02-13T18:54:50Z"
+            ],
+            "abuse-c": "IH2391-RIPE",
+            "route": "87.236.176.0\/24",
+            "admin-c": "IH2391-RIPE",
+            "++registrant": "IH2391-RIPE",
+            "abuse-mailbox": "network-abuse@internet-measurement.com",
+            "tech-c": "IH2391-RIPE",
+            "created": [
+                "2022-08-30T14:08:14Z",
+                "2023-02-13T18:19:05Z",
+                "2022-09-02T21:38:48Z"
+            ],
+            "++email": "network-abuse@internet-measurement.com",
+            "++abuse": "network-abuse@internet-measurement.com"
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=GGoLiPQQi5jKqHkTLVbwhwz6060YTbARQdYhJZm6F5zASVh3HO7Sd454MfFdh2t80dPKaCIflEixQCD6dTDJqFpn8iyWEAWf5tloSeCypsbwyHt3Cjibudzuv5TNUTJFYI0Cguf%2BJ3UvnwI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "cf-ray": "8d162de86d06a4da-MIA",
+            "date": "Sat, 12 Oct 2024 09:49:20 GMT",
+            "++target": "http:\/\/87.236.176.163\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "creative.monitoring.internet-measurement.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

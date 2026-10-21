@@ -1,0 +1,149 @@
+{
+    "qid": null,
+    "iid": 46092451,
+    "indicator": "191.103.121.105",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-03-26 00:43:07",
+    "stamp_updated": "2024-12-09 10:34:29",
+    "stamp_seen": "2024-11-20 03:58:19",
+    "stamp_probed": "2024-09-30 07:28:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-04-21 05:51:17"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-26 00:43:07"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-04-21 05:51:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-06-27 10:37:19"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "53",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "abuse-c": "JOW3",
+            "address": [
+                "6078 - Managua - MG",
+                "Semaforos Enitel V.Fontana 200m Norte. IBW, 12345, 678",
+                "NOC, 287, -",
+                "00505 - Managua - MG"
+            ],
+            "country": "NI",
+            "created": [
+                "20040407",
+                "20140328"
+            ],
+            "nic-hdl": "JOW3",
+            "owner": "IBW Communications",
+            "owner-c": "JOW3",
+            "ownerid": "NI-IBCO-LACNIC",
+            "person": "Ivan Palacios",
+            "responsible": "Ivan Palacios",
+            "tech-c": "JOW3",
+            "changed": [
+                "20140328",
+                "20220608"
+            ],
+            "nserver": [
+                "NS.IBW.COM.NI",
+                "NS2.IBW.COM.NI"
+            ],
+            "++registrant": "Ivan Palacios",
+            "++email": "noc.ibw@ibw.com.ni",
+            "e-mail": "noc.ibw@ibw.com.ni",
+            "inetnum": "191.103.112.0\/20",
+            "inetrev": "191.103.112.0\/20",
+            "phone": [
+                "+505  87203086 [0000]",
+                "+505  75228103 [5215]"
+            ],
+            "nsstat": "20241118 AA",
+            "nslastaa": "20241118"
+        },
+        "geo": {
+            "city": "Managua",
+            "country": "Nicaragua",
+            "countrycode": "NI",
+            "asn": "AS25607",
+            "org": "IBW Communications",
+            "region": "Managua Department",
+            "lat": "12.1346",
+            "long": "-86.2469"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "53": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2015.67\n\u0000\u0000\u0001L\b\u0014\u001aN\ufffd\ufffds\ufffd\u001fW\ufffd\ufffd\ufffdg&\ufffd!\ufffd\u0000\u0000\u0000Pdiffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0012hmac-sha1,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00002\ufffdh\ufffd\u00b4\ufffd\ufffd"
+        },
+        "dns": {
+            "ptr": "105.121.103.191.biz.sta.ibw.com.ni"
+        }
+    }
+}

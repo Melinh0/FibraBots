@@ -1,0 +1,203 @@
+{
+    "qid": null,
+    "iid": 47139801,
+    "indicator": "45.95.147.219",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-12 03:12:32",
+    "stamp_updated": "2024-10-08 07:18:18",
+    "stamp_seen": "2024-10-08 07:18:18",
+    "stamp_probed": "2024-08-28 22:57:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61954374,
+                "indicator": "http:\/\/45.95.147.219\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-05-12 08:05:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-12 03:12:32"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-05-12 08:05:05"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-05-14 12:26:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Netherlands",
+                "The Netherlands"
+            ],
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "address": [
+                "NETHERLANDS",
+                "Bruynvisweg 11",
+                "Wormer",
+                "1531 AX"
+            ],
+            "org": [
+                "ORG-AB247-RIPE",
+                "Alsycon B.V."
+            ],
+            "long": "4.8975",
+            "lat": "52.3759",
+            "asn": "AS49870"
+        },
+        "whois": {
+            "country": "NL",
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "mnt-ref": [
+                "MNT-HOSTUS",
+                "SpectraIP",
+                "Alsycon-BV"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "Alsycon-BV",
+                "Alsycon-BV-mnt"
+            ],
+            "address": [
+                "Bruynvisweg 11",
+                "Wormer",
+                "NETHERLANDS",
+                "1531 AX"
+            ],
+            "role": "Alsycon B.V.",
+            "org-name": "Alsycon B.V.",
+            "organisation": "ORG-AB247-RIPE",
+            "org": "ORG-AB247-RIPE",
+            "++phone": "+31224712026",
+            "descr": [
+                "Alsycon B.V. | VPS - Dedicated Servers - Colocation",
+                "www.alsycon.nl - info@alsycon.nl"
+            ],
+            "phone": "+31224712026",
+            "created": [
+                "2019-05-13T14:08:46Z",
+                "2019-07-10T10:43:25Z",
+                "2019-05-25T23:20:21Z",
+                "2021-02-16T21:52:04Z"
+            ],
+            "route": "45.95.147.0\/24",
+            "inetnum": "45.95.147.0 - 45.95.147.255",
+            "last-modified": [
+                "2019-05-25T23:20:57Z",
+                "2020-09-27T15:34:43Z",
+                "2021-07-28T21:55:27Z",
+                "2021-02-16T21:52:04Z"
+            ],
+            "abuse-c": "ACRO31910-RIPE",
+            "nic-hdl": "AB39270-RIPE",
+            "tech-c": "AB39270-RIPE",
+            "++registrant": "AB39270-RIPE",
+            "netname": "ALSYCON-CUSTOMERS",
+            "admin-c": "AB39270-RIPE",
+            "origin": "AS49870",
+            "++registered": [
+                "2019-07-10 10:43:25",
+                "2019-05-13 14:08:46",
+                "2019-05-25 23:20:21",
+                "2021-02-16 21:52:04"
+            ],
+            "++updated": [
+                "2021-07-28 21:55:27",
+                "2019-05-25 23:20:57",
+                "2021-02-16 21:52:04"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-length": "548",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Thu, 12 Sep 2024 14:18:48 GMT",
+            "++target": "http:\/\/45.95.147.219\/"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "hosted-by.as49870.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/237494869a012e94935872cf132133b4.jpeg"
+        }
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 62741304,
+    "indicator": "77.221.156.122",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-25 21:52:42",
+    "stamp_updated": "2024-12-14 22:17:04",
+    "stamp_seen": "2024-12-14 22:17:04",
+    "stamp_probed": "2024-09-30 19:22:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 291419,
+                "indicator": "https:\/\/www.google.com\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-08-27 02:46:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-25 21:52:42"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-08-27 02:46:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-17 21:36:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Closure Library",
+            "Google Web Server",
+            "HTTP\/3",
+            "Priority Hints"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-ref": [
+                "DN-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt"
+            ],
+            "mnt-by": "aeza-mnt",
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-10-13T17:49:21Z",
+                "2024-03-21T13:22:58Z",
+                "2024-03-21T13:24:26Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "netname": "Aeza-Network",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "admin-c": "AN32681-RIPE",
+            "tech-c": "AN32681-RIPE",
+            "nic-hdl": "AN32681-RIPE",
+            "++registrant": "AN32681-RIPE",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "last-modified": [
+                "2023-10-31T07:53:33Z",
+                "2024-08-23T16:18:21Z",
+                "2024-03-23T09:26:50Z",
+                "2024-03-23T09:27:00Z"
+            ],
+            "++updated": [
+                "2024-08-23 16:18:21",
+                "2023-10-31 07:53:33",
+                "2024-03-23 09:27:00"
+            ],
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2021-10-13 17:49:21",
+                "2024-03-21 13:22:58",
+                "2024-03-21 13:24:26"
+            ],
+            "route": "77.221.156.0\/23",
+            "inetnum": "77.221.156.0 - 77.221.157.255"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Hesse",
+            "long": "8.6842",
+            "city": "Frankfurt am Main",
+            "lat": "50.1187",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "server": "gws",
+            "x-frame-options": "SAMEORIGIN",
+            "content-length": "219",
+            "cache-control": "public, max-age=2592000",
+            "location": "http:\/\/www.google.com\/",
+            "++code": "301",
+            "++content-type": "text\/html",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+            "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\/\/csp.withgoogle.com\/csp\/report-to\/gws\/other\"}]}",
+            "permissions-policy": "unload=()",
+            "++redirect": "https:\/\/www.google.com\/",
+            "date": "Tue, 22 Oct 2024 04:47:17 GMT",
+            "expires": "Thu, 21 Nov 2024 04:47:17 GMT",
+            "++target": "https:\/\/77.221.156.122\/",
+            "x-xss-protection": "0",
+            "content-security-policy-report-only": "object-src 'none';base-uri 'self';script-src 'nonce-uuFlzUWTg2YfT7Xo_94Ngw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https:\/\/csp.withgoogle.com\/csp\/gws\/other-hp"
+        },
+        "ssl": {
+            "domain": "www.google.com",
+            "version": "v3",
+            "subject": "\/CN=www.google.com",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WR2",
+            "org": "WR2",
+            "valid": "2024-10-07 08:26:36",
+            "expires": "2024-12-30 08:26:35",
+            "fingerprint": "379a80c9252c66a1bb89d6c0c8833339551de60fd375585cf9a318370357a0d6"
+        },
+        "meta": {
+            "referrer": "origin",
+            "charset": "UTF-8",
+            "++title": "Google"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.3\n"
+        },
+        "dns": {
+            "ptr": "many-sky.aeza.network"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1338db8c0d7ef39a2d6819c1819192a5.jpeg"
+        },
+        "cookies": {
+            "aec": "AVYB7crXkPs67P518zMYxNSV9aUmkJIUn1c1e3UedCialTZFoAohEB8cyH8",
+            "__secure-enid": [
+                "23.SE=P0pDJT7UMCYLWd4aJte_an6PG18Nr4nLJT4tXF_MZjECPxIUiAowLT1cpU-i79X1IpqAAb3BZ8qBFNlN2oVPa8OQnc9RSZisIYdXkN501mjQc1MC36STGyfhJ2Wrw1zxFSnyVlNdNxPsqcgb1g4kp_7WL5yCj5r05BhoVfdZDJ7HLaeDI5NQ89sS5Oo9K0zBJHUrZtBKDiZg1o11B5C0TcjM5jS8fOhvwVCIbFny9Hmm-2bqkqY",
+                "23.SE=I0qguGvYNBsCRf8B-tYVB7QduoWQqpl44-7wO6Lx-A-prThTKm-BB5sgP8XISTFlNwtHEWXFJNR_QNF0SwMHLAB9P8RW9EBmYj9bBxqEyONaR_L94cONMJDf2BGqLCR4DjpplSgW3_uqMBHHHxaYF_34lWLMkEhCeTrJOYOxU7JBs7c5qT8K3DFoIRaR0sQ-qNPVUO-conQ4oi-2Wan7e3LjT80u8a7laKotQJhL-eI"
+            ]
+        }
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "qid": null,
+    "iid": 65318130,
+    "indicator": "196.251.197.10",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-26 09:50:45",
+    "stamp_updated": "2024-12-15 11:32:38",
+    "stamp_seen": "2024-11-28 07:18:55",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65366039,
+                "indicator": "https:\/\/196.251.197.10\/index.asp"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-26 09:50:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "GoAhead",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "ZA",
+            "address": [
+                "South Africa",
+                "Pretoria 0081",
+                "C\/o Graham and Silverlakes road"
+            ],
+            "descr": [
+                "Infogro",
+                "Infogro DSL"
+            ],
+            "mnt-by": [
+                "INFOGRO-MNT",
+                "GENERATED-UVTN5FDKHGPDP7TOIPNJJIWQ5JFD5T6J-MNT"
+            ],
+            "origin": "AS37403",
+            "netname": "INFOGRO-DSL",
+            "inetnum": "196.251.192.0 - 196.251.207.255",
+            "phone": "tel:+27-12-381-2990",
+            "tech-c": "IN27-AFRINIC",
+            "admin-c": "IN27-AFRINIC",
+            "person": "Infogro Networks",
+            "++registrant": [
+                "IN27-AFRINIC",
+                "Infogro Networks"
+            ],
+            "nic-hdl": "IN27-AFRINIC",
+            "route": "196.251.192.0\/19",
+            "source": "AFRINIC # Filtered",
+            "parent": "196.251.192.0 - 196.251.223.255"
+        },
+        "geo": {
+            "country": "South Africa",
+            "countrycode": "ZA",
+            "asn": "AS37403",
+            "city": "Brits",
+            "org": "INFOGRO",
+            "region": "North West",
+            "address": [
+                "South Africa",
+                "Pretoria 0081",
+                "C\/o Graham and Silverlakes road"
+            ],
+            "lat": "-25.6356",
+            "long": "27.7849"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "server": "GoAhead-Webs",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "pragma": "no-cache\nno-cache",
+            "++content-type": "text\/html",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "++redirect": "https:\/\/196.251.197.10\/index.asp",
+            "location": "http:\/\/196.251.197.10\/",
+            "++target": "http:\/\/196.251.197.10\/",
+            "date": "Thu Nov 28 02:34:56 2024"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIP Solutions Certificate Authority\/CN=VOIP Solutions Server Root Authority 1",
+            "subject": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIPTEST Solutions Certificate Authority\/CN=VOIPTEST  Solutions Root Authority 1",
+            "version": "v3",
+            "expires": "2017-07-24 07:35:53",
+            "valid": "2015-07-25 07:35:53",
+            "org": "VOIP Solutions Server Root Authority 1",
+            "++subject": "VOIP Solutions",
+            "fingerprint": "4b54d8498f21ed9209f3fa18cdd07e44973a4582bcc0173b1c17b083fba25edd"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "-1",
+            "content-type": [
+                "application\/xhtml+xml; charset=utf-8",
+                "application\/xhtml+xml; charset=UTF-8"
+            ],
+            "++title": "cnPilot R190W Login"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e1b17f1f0a03893b540de5cdd489d1c5.jpeg"
+        }
+    }
+}

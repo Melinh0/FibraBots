@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 16832757,
+    "indicator": "181.28.101.14",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-10-20 13:00:56",
+    "stamp_updated": "2024-12-11 02:26:53",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-07-05 13:51:53",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-07-01 12:48:21"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-10-20 13:00:56"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-11 14:02:39"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-11-14 10:42:28"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-07-01 12:48:21"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-13 22:30:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "21"
+        ],
+        "protocol": [
+            "FTP",
+            "PPTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "allocated",
+            "country": "AR",
+            "nserver": [
+                "DNS2.CVTCI.COM.AR",
+                "DNS1.CVTCI.COM.AR"
+            ],
+            "created": [
+                "20020909",
+                "20110121"
+            ],
+            "abuse-c": "ADI2",
+            "address": [
+                "1425 - Buenos Aires -",
+                "Dorrego, 2520, Piso 11",
+                "Dorrego, 2502, piso 11"
+            ],
+            "nic-hdl": "ADI2",
+            "owner": "Telecom Argentina S.A.",
+            "owner-c": "ADI2",
+            "ownerid": "AR-TAST-LACNIC",
+            "person": "Administrador IP",
+            "phone": [
+                "+54 11 4968 [4975]",
+                "+54  1149684975 [0000]"
+            ],
+            "responsible": "Administrador IP",
+            "tech-c": "ADI2",
+            "changed": [
+                "20180529",
+                "20211227"
+            ],
+            "++registrant": "Administrador IP",
+            "++email": "abuse@teco.com.ar",
+            "e-mail": "abuse@teco.com.ar",
+            "inetnum": "181.28.0.0\/14",
+            "inetrev": "181.28.0.0\/14",
+            "aut-num": "AS7303",
+            "nslastaa": "20241025",
+            "nsstat": "20241025 AA"
+        },
+        "geo": {
+            "asn": "AS7303",
+            "country": "Argentina",
+            "countrycode": "AR",
+            "org": "Telecom Argentina S.A.",
+            "region": "Santa Fe",
+            "lat": "-32.8169",
+            "long": "-61.4008",
+            "city": "Ca\ufffdada de G\ufffdmez"
+        },
+        "dns": {
+            "ptr": "14-101-28-181.fibertel.com.ar"
+        },
+        "banners": {
+            "21": "220 ProFTPD Server (Debian) [::ffff:192.168.1.6]\n",
+            "1723": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "qid": null,
+    "iid": 39544722,
+    "indicator": "105.174.43.194",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-03 15:12:53",
+    "stamp_updated": "2024-12-10 10:32:53",
+    "stamp_seen": "2024-11-29 00:00:00",
+    "stamp_probed": "2024-09-29 21:45:01",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 45340742,
+                "indicator": "http:\/\/105.174.43.194\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-22 21:44:29"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-26 23:49:16"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-15 06:36:39"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-10-22 21:44:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-10-03 15:12:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "AO",
+            "mnt-by": [
+                "GENERATED-XKUN1CLW96DTSTQ7Y2HMRH0L6PDBSCOK-MNT",
+                "UNITEL-MNT"
+            ],
+            "admin-c": "NF5-AFRINIC",
+            "tech-c": "NF5-AFRINIC",
+            "address": "Rua Kwame Nkrumah",
+            "nic-hdl": "NF5-AFRINIC",
+            "person": "Nsilu Ferreira",
+            "phone": "tel:+244-923-191-200",
+            "fax-no": "tel:+244-222-372-023",
+            "inetnum": "105.174.0.0 - 105.175.255.255",
+            "netname": "UnitelNetworkPool4",
+            "descr": "UnitelSA Network Pool 4",
+            "++registrant": [
+                "NF5-AFRINIC",
+                "Nsilu Ferreira"
+            ],
+            "source": "AFRINIC # Filtered",
+            "parent": "105.168.0.0 - 105.175.255.255"
+        },
+        "geo": {
+            "country": "Angola",
+            "countrycode": "AO",
+            "city": "Luanda",
+            "asn": "AS37119",
+            "region": "Luanda Province",
+            "lat": "-8.8385",
+            "long": "13.2353",
+            "address": "Rua Kwame Nkrumah",
+            "org": "UNITEL"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "content-length": "7065",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "++target": "http:\/\/105.174.43.194\/",
+            "date": "Mon, 07 Oct 2024 19:54:31 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "RouterOS router configuration page"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f6b875e19691f3e030961fd660931f3a.jpeg"
+        }
+    }
+}

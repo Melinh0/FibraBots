@@ -1,0 +1,125 @@
+{
+    "qid": null,
+    "iid": 64857333,
+    "indicator": "185.216.203.68",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-10 20:58:40",
+    "stamp_updated": "2024-11-19 00:19:03",
+    "stamp_seen": "2024-11-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64857343,
+                "indicator": "https:\/\/185.216.203.68\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-10 20:58:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "3306",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Nginx",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS51167",
+            "org": "Contabo GmbH",
+            "region": "North Rhine-Westphalia",
+            "lat": "51.1878",
+            "long": "6.8607",
+            "city": "D\ufffdsseldorf"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 30 Apr 2024 05:24:32 GMT",
+            "date": "Sun, 10 Nov 2024 20:58:46 GMT",
+            "++redirect": "https:\/\/185.216.203.68\/",
+            "etag": "W\/\"66308090-471\"",
+            "++target": "http:\/\/185.216.203.68\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "expires": "2025-04-14 23:59:59",
+            "valid": "2024-07-29 00:00:00",
+            "fingerprint": "b09b92d13f3f5a7f961d7f8130856235d6b41e7d67001b510b49e7e1b1d2d8db",
+            "subject": "\/CN=geoserver.konu.co.in",
+            "domain": [
+                "geoserver.konu.co.in",
+                "www.geoserver.konu.co.in"
+            ]
+        },
+        "meta": {
+            "charset": "utf-8",
+            "++title": "Site is created successfully!"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 22:58. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\n",
+            "3306": "a\u0000\u0000\u0000\ufffdj\u0004Host '104-237-150-227.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b33eb0ab6c82b51f82819cf1b13e0fbe.jpeg"
+        }
+    }
+}

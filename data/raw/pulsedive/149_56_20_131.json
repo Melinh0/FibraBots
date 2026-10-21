@@ -1,0 +1,128 @@
+{
+    "qid": null,
+    "iid": 65231050,
+    "indicator": "149.56.20.131",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-23 09:38:54",
+    "stamp_updated": "2024-12-01 10:03:39",
+    "stamp_seen": "2024-11-23 09:51:51",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65233195,
+                "indicator": "https:\/\/149.56.20.131\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-23 09:38:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": "Quebec",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "city": "Montreal",
+            "lat": "45.5075",
+            "long": "-73.5887"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "++code": "200",
+            "content-encoding": "br",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 27 Sep 2021 15:50:05 GMT",
+            "++target": "http:\/\/149.56.20.131\/",
+            "date": "Sat, 23 Nov 2024 09:51:26 GMT",
+            "++redirect": "https:\/\/149.56.20.131\/",
+            "etag": "W\/\"f12-5ccfc0cf969c9\""
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "++title": "Web Server's Default Page",
+            "charset": "utf-8",
+            "copyright": "Copyright 1999-2024. WebPros International GmbH. All rights reserved."
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=server.ziaetaiba.org",
+            "domain": "server.ziaetaiba.org",
+            "valid": "2024-09-29 06:58:54",
+            "fingerprint": "954980599ceddb320fcd8b0e5f60e6a6bce0531d2f4ad130485d40bd38e95bfc",
+            "expires": "2024-12-28 06:58:53"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 server.ziaetaiba.org ESMTP Postfix\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/04beeca2d307342074fbabe5897d660c.jpeg"
+        }
+    }
+}

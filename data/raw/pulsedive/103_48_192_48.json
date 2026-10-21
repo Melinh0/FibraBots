@@ -1,0 +1,189 @@
+{
+    "qid": null,
+    "iid": 6445453,
+    "indicator": "103.48.192.48",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2019-09-11 01:22:09",
+    "stamp_updated": "2024-12-10 02:15:43",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-26 21:47:02",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 17:42:28"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 06:49:53"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-16 06:45:42"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-23 04:08:22"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 17:42:28"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-02-20 04:42:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5060",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SIP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache Tomcat",
+            "Java"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Viet Nam",
+            "countrycode": "VN",
+            "asn": "AS131423",
+            "lat": "16.1667",
+            "isp": "Branch of Long Van System Solution JSC - Hanoi",
+            "org": "Branch of Long Van System Solution JSC - Hanoi",
+            "long": "107.8333"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "HG880-AP"
+            ],
+            "person": [
+                "Quach Dinh Toan",
+                "Ha Giang"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-62820238"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "e-mail": [
+                "toan@longvan.net",
+                "hm-changed@vnnic.vn",
+                "hagiang@longvan.net"
+            ],
+            "inetnum": "103.48.192.0 - 103.48.195.255",
+            "netname": "LVHN-VN",
+            "nic-hdl": [
+                "QDT3-AP",
+                "HG880-AP"
+            ],
+            "admin-c": [
+                "NTTT1-AP",
+                "QDT3-AP"
+            ],
+            "last-modified": [
+                "2017-11-18T08:45:32Z",
+                "2017-11-08T09:40:06Z",
+                "2017-11-18T08:45:12Z",
+                "2017-11-18T08:45:53Z",
+                "2022-03-16T08:07:22Z"
+            ],
+            "address": [
+                "Long Van System Solution JSC",
+                "Ha Noi, VietNam"
+            ],
+            "descr": [
+                "No. 23, 37\/2 Dich Vong Str, Dich Vong Ward, Cau Giay, Hanoi",
+                "Branch of Long Van System Solution JSC - Hanoi",
+                "Vietnam Internet Network Information Center (VNNIC)"
+            ],
+            "phone": [
+                "+84-24-62820238",
+                "+84-24-35564944"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "auth": "mnt-by: MAINT-VN-VNNIC",
+            "++email": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "Ha Giang",
+                "Quach Dinh Toan"
+            ],
+            "++updated": "2022-03-16 00:00:00",
+            "origin": "AS131423",
+            "route": "103.48.192.0\/24"
+        },
+        "http": {
+            "server": "Apache-Coyote\/1.1",
+            "++code": "404",
+            "++status": "Not Found",
+            "content-length": "0",
+            "date": "Mon, 26 Aug 2024 21:47:01 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.5\n"
+        }
+    }
+}

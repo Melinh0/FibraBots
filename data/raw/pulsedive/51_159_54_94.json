@@ -1,0 +1,81 @@
+{
+    "qid": null,
+    "iid": 56043495,
+    "indicator": "51.159.54.94",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-11 02:51:55",
+    "stamp_updated": "2024-12-11 13:11:10",
+    "stamp_seen": "2024-12-11 13:11:10",
+    "stamp_probed": "2024-09-30 17:07:48",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-11 02:51:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "asn": "AS12876",
+            "city": "Paris",
+            "region": [
+                "Paris",
+                "\ufffdle-de-France"
+            ],
+            "lat": "48.8323",
+            "long": "2.4075",
+            "org": "Scaleway S.a.s."
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.9\n"
+        },
+        "dns": {
+            "ptr": "51-159-54-94.rev.poneytelecom.eu"
+        }
+    }
+}

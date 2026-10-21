@@ -1,0 +1,98 @@
+{
+    "qid": null,
+    "iid": 43669525,
+    "indicator": "125.228.157.93",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-01-14 07:09:00",
+    "stamp_updated": "2023-04-14 17:31:03",
+    "stamp_seen": "2023-01-14 07:20:40",
+    "stamp_probed": "2023-01-14 07:20:40",
+    "stamp_retired": "2023-04-14 17:31:03",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-01-14 07:09:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "RTSP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Taichung",
+            "countrycode": "TW",
+            "asn": "AS3462",
+            "isp": "Data Communication Business Group",
+            "org": "Data Communication Business Group",
+            "country": "Taiwan (Province of China)",
+            "long": "120.6844",
+            "region": "Taichung City",
+            "lat": "24.144"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "server": "Boa\/0.94.14rc21",
+            "content-length": "963",
+            "++code": "200",
+            "++status": "OK",
+            "keep-alive": "timeout=10, max=999",
+            "++content-type": "text\/html",
+            "date": "Sat, 14 Jan 2023 07:20:59 GMT",
+            "last-modified": "Sat, 14 Jan 2023 07:20:59 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html",
+            "viewport": "width=device-width; initial-scale=1.0"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/84ce96d231c87d97ac892bfa6e7b08b5.jpeg"
+        },
+        "dns": {
+            "ptr": "125-228-157-93.hinet-ip.hinet.net"
+        }
+    }
+}

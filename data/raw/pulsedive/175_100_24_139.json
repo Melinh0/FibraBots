@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 43671782,
+    "indicator": "175.100.24.139",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-01-14 07:12:57",
+    "stamp_updated": "2024-12-10 10:36:40",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-16 18:36:12",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 43681079,
+                "indicator": "http:\/\/175.100.24.139\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-01-18 01:04:46"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-01-14 07:12:57"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-01-18 01:04:46"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-03-27 04:39:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-01-18 04:52:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "mnt-by": [
+                "MAINT-NEW",
+                "MAINT-KH-VIETTELCAMBODIA",
+                "APNIC-ABUSE"
+            ],
+            "++phone": [
+                "+855 977068079",
+                "+000000000"
+            ],
+            "admin-c": "VAT6-AP",
+            "country": "KH",
+            "descr": "VIETTEL (CAMBODIA) PTE., LTD.",
+            "e-mail": [
+                "tuva1@viettel.com.vn",
+                "namtt1@viettel.com.vn"
+            ],
+            "irt": "IRT-VIETTEL-CAMBODIA-KH",
+            "mnt-irt": "IRT-VIETTEL-CAMBODIA-KH",
+            "netname": "VIETTEL-CAMBODIA",
+            "nic-hdl": [
+                "VAT6-AP",
+                "AV489-AP"
+            ],
+            "person": "Vo Anh Tu",
+            "phone": [
+                "+855 977068079",
+                "+000000000"
+            ],
+            "tech-c": "VAT6-AP",
+            "mnt-lower": "MAINT-KH-VIETTELCAMBODIA",
+            "mnt-routes": "MAINT-KH-VIETTELCAMBODIA",
+            "last-modified": [
+                "2011-01-27T07:25:27Z",
+                "2021-01-20T06:45:10Z",
+                "2024-07-10T13:10:51Z",
+                "2024-07-10T13:15:11Z"
+            ],
+            "inetnum": "175.100.16.0 - 175.100.31.255",
+            "address": [
+                "country: KH",
+                "country: ZZ",
+                "e-mail: namtt1@viettel.com.vn"
+            ],
+            "auth": "mnt-by: MAINT-KH-VIETTELCAMBODIA",
+            "role": "ABUSE VIETTELCAMBODIAKH",
+            "abuse-c": "AV489-AP",
+            "++registrant": "Vo Anh Tu",
+            "++email": "namtt1@viettel.com.vn",
+            "abuse-mailbox": "namtt1@viettel.com.vn",
+            "++abuse": "namtt1@viettel.com.vn",
+            "++updated": "2024-07-10 00:00:00"
+        },
+        "geo": {
+            "city": "Phnom Penh",
+            "asn": "AS38623",
+            "country": "Cambodia",
+            "countrycode": "KH",
+            "region": "Phnom Penh",
+            "lat": "11.5583",
+            "long": "104.9121",
+            "isp": "ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.",
+            "org": "ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE."
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "content-length": "138",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "\"62f0f82d-8a\"",
+            "last-modified": "Mon, 08 Aug 2022 11:49:01 GMT",
+            "date": "Sat, 07 Sep 2024 04:33:35 GMT"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7fd6ed9c22d7a45147e9f088c03e320d.jpeg"
+        }
+    }
+}

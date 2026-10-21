@@ -1,0 +1,223 @@
+{
+    "qid": null,
+    "iid": 47982149,
+    "indicator": "14.63.221.137",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-08 14:24:05",
+    "stamp_updated": "2024-12-10 10:35:29",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 01:52:10",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 47982179,
+                "indicator": "http:\/\/14.63.221.137\/"
+            },
+            {
+                "iid": 64118988,
+                "indicator": "https:\/\/14.63.221.137\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-12 18:43:02"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-08 14:24:05"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-12 18:43:02"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-06-12 11:00:22"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "mod_wsgi",
+            "OpenSSL",
+            "Python"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "14.32.0.0 - 14.95.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-03-30T06:39:01Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "lat": "37.5112",
+            "long": "126.9741",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "content-length": "4897",
+            "etag": "\"1321-5058a1e728280\"",
+            "last-modified": "Thu, 16 Oct 2014 13:20:58 GMT",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips mod_fcgid\/2.3.9 mod_wsgi\/3.4 Python\/2.7.5",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/14.63.221.137\/",
+            "++target": "http:\/\/14.63.221.137\/",
+            "date": "Sat, 12 Oct 2024 13:37:04 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "localhost",
+            "issuer": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=localhost\/E=root@localhost",
+            "subject": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=localhost\/E=root@localhost",
+            "valid": "2019-03-12 08:01:03",
+            "expires": "2020-03-11 08:01:03",
+            "++subject": "SomeOrganization",
+            "fingerprint": "8071bcfa2baca9545fc1716f17b58fc71bba4c1ca338ef587b517b8fba4345ae"
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a3f90b274ec2a99e34bd43a8705fcf1d.jpeg"
+        }
+    }
+}

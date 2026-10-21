@@ -1,0 +1,203 @@
+{
+    "qid": null,
+    "iid": 55547337,
+    "indicator": "14.29.214.161",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-28 19:38:34",
+    "stamp_updated": "2024-12-11 19:13:20",
+    "stamp_seen": "2024-12-11 19:13:20",
+    "stamp_probed": "2024-08-29 22:37:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-11 04:22:40"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-28 19:38:34"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-11 04:22:40"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-12 11:19:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306"
+        ],
+        "protocol": [
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "admin-c": "CH93-AP",
+            "irt": "IRT-CHINANET-CN",
+            "mnt-irt": "IRT-CHINANET-CN",
+            "tech-c": [
+                "CH93-AP",
+                "IC83-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CHINANET",
+                "MAINT-CHINANET-GD",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "++phone": [
+                "+86-10-58501724",
+                "+86-20-87189274",
+                "+000000000"
+            ],
+            "address": [
+                "NO.18,RO. ZHONGSHANER,YUEXIU DISTRIC,GUANGZHOU",
+                "100032",
+                "No.31 ,jingrong street,beijing"
+            ],
+            "descr": [
+                "China Telecom",
+                "Data Communication Division",
+                "CHINANET Guangdong province network"
+            ],
+            "fax-no": [
+                "+86-20-87189274",
+                "+86-10-58501724"
+            ],
+            "mnt-lower": "MAINT-CHINANET-GD",
+            "netname": "CHINANET-GD",
+            "nic-hdl": [
+                "IC83-AP",
+                "CH93-AP",
+                "AC1573-AP"
+            ],
+            "notify": "abuse_gdnoc@189.cn",
+            "person": [
+                "IPMASTER CHINANET-GD",
+                "Chinanet Hostmaster"
+            ],
+            "phone": [
+                "+86-20-87189274",
+                "+86-10-58501724",
+                "+000000000"
+            ],
+            "inetnum": "14.16.0.0 - 14.31.255.255",
+            "++registrant": [
+                "CH93-AP",
+                "Chinanet Hostmaster",
+                "IPMASTER CHINANET-GD"
+            ],
+            "abuse-c": "AC1573-AP",
+            "role": "ABUSE CHINANETCN",
+            "abuse-mailbox": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "++email": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "e-mail": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "++abuse": [
+                "abuse_gdicnoc@163.com",
+                "anti-spam@chinatelecom.cn"
+            ],
+            "last-modified": [
+                "2021-05-12T09:06:58Z",
+                "2021-06-15T08:06:05Z",
+                "2022-02-28T06:53:44Z",
+                "2024-10-17T03:10:56Z",
+                "2024-10-17T03:11:15Z"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-02-28 06:53:44",
+                "2021-05-12 09:06:58",
+                "2024-10-17 03:10:56",
+                "2024-10-17 03:11:15"
+            ]
+        },
+        "geo": {
+            "city": "Hangzhou",
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "region": "Zhejiang",
+            "asn": "AS4134",
+            "address": [
+                "No.31 ,jingrong street,beijing",
+                "100032",
+                "NO.18,RO. ZHONGSHANER,YUEXIU DISTRIC,GUANGZHOU"
+            ],
+            "org": "Chinanet",
+            "long": "120.1612",
+            "lat": "30.2994"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "J\u0000\u0000\u0000\n8.0.27\u0000\ufffdN\u0003\u0000\u001b\u001d\u0017U~V)V\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Xx8 `\u001e<\u001a,#\/\u0000mysql_native_password\u0000"
+        }
+    }
+}

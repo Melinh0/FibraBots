@@ -1,0 +1,69 @@
+{
+    "qid": null,
+    "iid": 48938036,
+    "indicator": "178.128.84.187",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-07-06 10:35:05",
+    "stamp_updated": "2024-11-29 18:13:46",
+    "stamp_seen": "2024-11-29 18:13:46",
+    "stamp_probed": "2024-09-07 07:55:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-06 10:35:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS14061",
+            "city": "Singapore",
+            "country": "Singapore",
+            "countrycode": "SG",
+            "org": "DIGITALOCEAN-ASN",
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

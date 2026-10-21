@@ -1,0 +1,221 @@
+{
+    "qid": null,
+    "iid": 59488395,
+    "indicator": "92.204.239.74",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-20 03:26:01",
+    "stamp_updated": "2024-12-09 10:39:50",
+    "stamp_seen": "2024-12-07 19:40:31",
+    "stamp_probed": "2024-08-14 21:17:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64185476,
+                "indicator": "https:\/\/92.204.239.74\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:39:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-20 03:26:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "address": [
+                "GERMANY",
+                "Oskar-Messter-Str. 33",
+                "50354 Huerth",
+                "Daimler Strasse 9-11",
+                "HEG Mass",
+                "85737",
+                "Ismaning",
+                "Germany"
+            ],
+            "country": "DE",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-HEG-MASS",
+                "MNT-DOMAINFACTORY",
+                "GODADDY-MNT"
+            ],
+            "status": "ASSIGNED PA",
+            "fax-no": "+49 89 55266 222",
+            "phone": [
+                "+49 89 55266 0",
+                "+49 2203 1045 0"
+            ],
+            "nic-hdl": "HM5126-RIPE",
+            "role": "HEG Mass",
+            "mnt-by": [
+                "MNT-DOMAINFACTORY",
+                "MNT-HEG-MASS",
+                "GODADDY-MNT"
+            ],
+            "origin": "AS8972",
+            "abuse-c": "DFAB1-RIPE",
+            "admin-c": [
+                "PM16810-RIPE",
+                "HM5126-RIPE",
+                "JUPP",
+                "SF5156-RIPE"
+            ],
+            "org": "ORG-dG5-RIPE",
+            "org-name": "domainfactory GmbH",
+            "organisation": "ORG-dG5-RIPE",
+            "tech-c": [
+                "HM5126-RIPE",
+                "JUPP"
+            ],
+            "created": [
+                "2015-11-05T11:32:14Z",
+                "2004-04-17T11:06:43Z",
+                "2022-04-04T14:15:01Z",
+                "2021-12-03T12:00:19Z"
+            ],
+            "++registrant": [
+                "HM5126-RIPE",
+                "JUPP",
+                "SF5156-RIPE",
+                "PM16810-RIPE"
+            ],
+            "descr": "GD MASS Network",
+            "org-type": "Other",
+            "last-modified": [
+                "2023-04-28T10:37:52Z",
+                "2024-04-26T08:23:47Z",
+                "2022-04-04T14:17:07Z",
+                "2021-12-03T12:00:19Z"
+            ],
+            "++updated": [
+                "2024-04-26 08:23:47",
+                "2023-04-28 10:37:52",
+                "2021-12-03 12:00:19"
+            ],
+            "++registered": [
+                "2004-04-17 11:06:43",
+                "2015-11-05 11:32:14",
+                "2022-04-04 14:15:01",
+                "2021-12-03 12:00:19"
+            ],
+            "route": "92.204.239.0\/24",
+            "netname": "DF",
+            "inetnum": "92.204.239.0 - 92.204.239.255"
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "Host Europe GmbH",
+            "asn": "AS8972",
+            "city": "Strasbourg",
+            "region": [
+                "Bas-Rhin",
+                "Grand Est"
+            ],
+            "lat": "48.5855",
+            "long": "7.7418"
+        },
+        "http": {
+            "server": "nginx",
+            "content-type": "text\/html; charset=iso-8859-1",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/92.204.239.74\/",
+            "++redirect": "https:\/\/92.204.239.74\/",
+            "date": "Sat, 07 Dec 2024 19:40:10 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/C=DE\/ST=Bavaria\/L=Ismaing\/O=ispgateway\/CN=webslave.ispgateway.de",
+            "org": "webslave.ispgateway.de",
+            "issuer": "\/C=DE\/ST=Bavaria\/L=Ismaing\/O=ispgateway\/CN=webslave.ispgateway.de",
+            "++subject": "ispgateway",
+            "fingerprint": "22fc5a4e8fcfb1c79a620cdb7c5655ad598e524f4f76e176e0f53c1c83f0aebc",
+            "valid": "2022-01-28 14:24:33",
+            "expires": "2049-06-15 14:24:33"
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "banners": {
+            "21": "220 FTP Server ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n"
+        },
+        "dns": {
+            "ptr": "sh11279.ispgateway.de"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9841d90a7110fd11cdc4083beaf15124.jpeg"
+        }
+    }
+}

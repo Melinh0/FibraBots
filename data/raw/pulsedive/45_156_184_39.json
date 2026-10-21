@@ -1,0 +1,126 @@
+{
+    "qid": null,
+    "iid": 59735047,
+    "indicator": "45.156.184.39",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-05-29 15:03:33",
+    "stamp_updated": "2024-12-11 13:53:38",
+    "stamp_seen": "2024-12-11 13:53:38",
+    "stamp_probed": "2024-05-29 15:09:09",
+    "stamp_retired": "2024-08-31 19:52:30",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65837855,
+                "indicator": "https:\/\/45.156.184.39\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-29 15:03:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "IR",
+            "lat": "35.698",
+            "asn": "AS208161",
+            "org": "Pars Shabakeh Azarakhsh LLC",
+            "long": "51.4115",
+            "country": "Iran"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "163",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "last-modified": "Sat, 10 Oct 2020 19:37:25 GMT",
+            "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\"",
+            "++target": "http:\/\/45.156.184.39\/",
+            "date": "Fri, 18 Oct 2024 11:13:52 GMT",
+            "++redirect": "https:\/\/45.156.184.39\/"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "refresh": "0;URL=\/cgi-sys\/defaultwebpage.cgi"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "ZeroSSL RSA Domain Secure Site CA",
+            "issuer": "\/C=AT\/O=ZeroSSL\/CN=ZeroSSL RSA Domain Secure Site CA",
+            "expires": "2024-04-23 23:59:59",
+            "valid": "2024-01-24 00:00:00",
+            "subject": "\/CN=box113.parsvds.com",
+            "domain": "box113.parsvds.com",
+            "fingerprint": "64c6b1e82f4dd1b5ae7067b02df4a0abf7167e33c979594f1512f5c902589424"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 14:43. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220-box113.parsvds.com ESMTP Exim 4.97.1 #2 Fri, 18 Oct 2024 14:43:50 +0330 \n220-We do not authorize the use of this system to transport unsolicited, \n220 and\/or bulk e-mail.\n"
+        },
+        "dns": {
+            "ptr": "box113.parsvds.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

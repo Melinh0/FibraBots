@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 65577181,
+    "indicator": "156.238.99.142",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-04 10:14:00",
+    "stamp_updated": "2024-12-16 11:30:47",
+    "stamp_seen": "2024-12-04 10:44:07",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65585306,
+                "indicator": "https:\/\/156.238.99.142\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-07 16:12:28"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-04 10:14:00"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-07 16:12:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "HTTP\/3",
+            "LiteSpeed"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "address": [
+                "Seychelles",
+                "MU",
+                "Ebene",
+                "Mahe"
+            ],
+            "country": "IN",
+            "admin-c": "CIS1-AFRINIC",
+            "mnt-by": [
+                "CIL1-MNT",
+                "LARUS-SERVICE-MNT"
+            ],
+            "nic-hdl": "CIS1-AFRINIC",
+            "person": "Cloud Innovation Support",
+            "tech-c": "CIS1-AFRINIC",
+            "phone": "tel:+248-4-610-795",
+            "abuse-mailbox": "abuse@cloudinnovation.org",
+            "++abuse": "abuse@cloudinnovation.org",
+            "++registrant": [
+                "Cloud Innovation Support",
+                "CIS1-AFRINIC"
+            ],
+            "++email": "abuse@cloudinnovation.org",
+            "inetnum": "156.238.99.0 - 156.238.99.255",
+            "origin": "AS59187",
+            "source": "AFRINIC # Filtered",
+            "parent": "156.224.0.0 - 156.255.255.255",
+            "route": "156.238.99.0\/24",
+            "descr": "Neevai supercloud private limited",
+            "netname": "Neevai_supercloud_private_limited"
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "city": "Indore",
+            "region": "Madhya Pradesh",
+            "address": [
+                "Mahe",
+                "Seychelles",
+                "Ebene",
+                "MU"
+            ],
+            "long": "75.8337",
+            "lat": "22.717",
+            "org": "NEEVAI SUPERCLOUD PVT LTD",
+            "asn": "AS59187"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "server": "LiteSpeed",
+            "content-length": "2893",
+            "++code": "200",
+            "content-encoding": "br",
+            "++content-type": "text\/html",
+            "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\"",
+            "last-modified": "Tue, 19 Nov 2024 09:58:17 GMT",
+            "date": "Wed, 04 Dec 2024 10:20:00 GMT",
+            "++target": "http:\/\/156.238.99.142\/",
+            "etag": "\"35a5-673c6139-7ec6c;br\"",
+            "++redirect": "https:\/\/156.238.99.142\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "++title": "Welcome",
+            "charset": "utf-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "LiteSpeedCommunity",
+            "fingerprint": "6a5c5a86bb8df7da885d81215b600e38771ef3c721dca2c1d2b7271eea160cdd",
+            "subject": "\/CN=openlite\/C=US\/L=Virtual\/O=LiteSpeedCommunity\/OU=Testing\/ST=New Jersey\/E=.\/=openlitespeed\/=CP\/=openlitespeed",
+            "org": "openlite",
+            "issuer": "\/CN=openlite\/C=US\/L=Virtual\/O=LiteSpeedCommunity\/OU=Testing\/ST=New Jersey\/E=.\/=openlitespeed\/=CP\/=openlitespeed",
+            "valid": "2024-12-03 11:27:50",
+            "expires": "2027-03-03 11:27:50"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7b6aa766d4cacc631b0a7f06267f4982.jpeg"
+        }
+    }
+}

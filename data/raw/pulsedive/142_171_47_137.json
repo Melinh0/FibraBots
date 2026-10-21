@@ -1,0 +1,73 @@
+{
+    "qid": null,
+    "iid": 65721615,
+    "indicator": "142.171.47.137",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-09 10:31:46",
+    "stamp_updated": "2024-12-12 11:20:12",
+    "stamp_seen": "2024-12-09 10:48:51",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 10:31:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "5432"
+        ],
+        "protocol": [
+            "PostgreSQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "California",
+            "city": "Los Angeles",
+            "asn": "AS35916",
+            "lat": "34.0544",
+            "org": "MULTA-ASN1",
+            "long": "-118.2441"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

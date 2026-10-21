@@ -1,0 +1,189 @@
+{
+    "qid": null,
+    "iid": 64841905,
+    "indicator": "89.109.4.133",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-10 09:07:18",
+    "stamp_updated": "2024-12-09 10:39:41",
+    "stamp_seen": "2024-11-10 09:13:33",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64843105,
+                "indicator": "https:\/\/89.109.4.133\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-10 09:07:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russia",
+                "3, sq.Marshala Zhukova",
+                "603022, Nizhny Novgorod"
+            ],
+            "admin-c": [
+                "ASV77-RIPE",
+                "VT-RU"
+            ],
+            "descr": [
+                "NMTS Autonomous System",
+                "Network for PPPoE clients terminations in",
+                "with statical IP assigments in NN branch VolgaTelecom"
+            ],
+            "fax-no": "+7 831 4199707",
+            "mnt-by": "NMTS-MNT",
+            "nic-hdl": "VT-RU",
+            "origin": "AS25405",
+            "phone": "+7 831 4360222",
+            "tech-c": [
+                "ASV77-RIPE",
+                "VT-RU"
+            ],
+            "role": "OJSC Rostelecom, Nizhny Novgorod",
+            "last-modified": [
+                "2009-09-24T06:02:03Z",
+                "2018-10-22T06:00:16Z",
+                "2021-09-14T10:42:37Z"
+            ],
+            "netname": "PPPOE-IPPOOL8-NNOVVT",
+            "route": "89.109.4.0\/24",
+            "inetnum": "89.109.4.0 - 89.109.4.255",
+            "created": [
+                "2009-09-24T06:02:03Z",
+                "2007-02-20T09:09:55Z",
+                "2007-09-17T09:06:50Z"
+            ],
+            "++registrant": [
+                "ASV77-RIPE",
+                "VT-RU"
+            ],
+            "++registered": [
+                "2007-02-20 09:09:55",
+                "2007-09-17 09:06:50",
+                "2009-09-24 06:02:03"
+            ],
+            "++updated": [
+                "2021-09-14 10:42:37",
+                "2009-09-24 06:02:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS12389",
+            "city": "Nizhniy Novgorod",
+            "address": [
+                "Russia",
+                "3, sq.Marshala Zhukova",
+                "603022, Nizhny Novgorod"
+            ],
+            "org": "Rostelecom",
+            "region": "Nizhny Novgorod Oblast",
+            "long": "44.0012",
+            "lat": "56.3327",
+            "country": "Russia"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/89.109.4.133\/",
+            "date": "Sun, 10 Nov 2024 12:58:44 GMT",
+            "++target": "http:\/\/89.109.4.133\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "usg40_04BF6D1D54A5",
+            "email": "usg40_04BF6D1D54A5",
+            "issuer": "\/CN=usg40_04BF6D1D54A5",
+            "valid": "2016-01-15 00:13:05",
+            "subject": "\/CN=usg40_04BF6D1D54A5",
+            "fingerprint": "1198e7198b061dca5b25f7cd1d66eeec1d1755ca899ea4f738d65b590d924d15",
+            "expires": "2026-01-12 00:13:05"
+        },
+        "meta": {
+            "++title": "USG40",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG40) [::ffff:89.109.4.133]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8eec3e581f5ebdbcc22cb8138b5a3664.jpeg"
+        }
+    }
+}

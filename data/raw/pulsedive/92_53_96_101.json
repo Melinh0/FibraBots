@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 179489,
+    "indicator": "92.53.96.101",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-11-02 21:55:20",
+    "stamp_updated": "2024-12-11 10:46:39",
+    "stamp_seen": "2024-12-07 19:30:58",
+    "stamp_probed": "2024-07-01 14:57:40",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 47724995,
+                "indicator": "https:\/\/vh418.timeweb.ru\/parking\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 652,
+            "name": "Domain Spoofing",
+            "category": "general",
+            "risk": "high",
+            "stamp_linked": "2024-07-01 14:56:59"
+        },
+        {
+            "tid": 651,
+            "name": "Email Spoofing",
+            "category": "general",
+            "risk": "high",
+            "stamp_linked": "2024-07-01 14:56:59"
+        },
+        {
+            "tid": 67,
+            "name": "Phishing",
+            "category": "general",
+            "risk": "high",
+            "stamp_linked": "2018-02-13 01:56:14"
+        },
+        {
+            "tid": 546,
+            "name": "qsnatch",
+            "category": "general",
+            "risk": "unknown",
+            "stamp_linked": "2020-11-13 02:47:55"
+        },
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:28:52"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-16 19:51:38"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-03 13:55:40"
+        },
+        {
+            "fid": 4,
+            "name": "C&C IPs",
+            "category": "malware",
+            "organization": "Bambenek Consulting",
+            "pricing": null,
+            "stamp_linked": "2020-11-13 02:47:55"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 553464,
+            "username": "briangoosensm",
+            "title": "Lead Email Security Analyst",
+            "comment": "Sendmarc",
+            "stamp_added": "2024-07-01 14:56:59",
+            "stamp_updated": "2024-07-01 14:56:59"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "ADFOX",
+            "Google Analytics",
+            "Google Font API",
+            "Google Tag Manager",
+            "jQuery",
+            "Modernizr",
+            "Nginx",
+            "Optimizely",
+            "reCAPTCHA"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS9123",
+            "org": "TimeWeb Ltd.",
+            "region": "St.-Petersburg",
+            "city": "St Petersburg",
+            "lat": "59.9417",
+            "long": "30.3096",
+            "country": "Russia"
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "last-modified": "Wed, 16 Apr 2014 07:06:24 GMT",
+            "++content-type": "text\/html",
+            "etag": "W\/\"12d4d-4f7238deedc00\"",
+            "server": "nginx\/1.26.1",
+            "date": "Sat, 07 Dec 2024 19:30:13 GMT",
+            "++redirect": "https:\/\/vh418.timeweb.ru\/parking\/?ref=92.53.96.101",
+            "++target": "http:\/\/92.53.96.101\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "origin-trial": "A\/kargTFyk8MR5ueravczef\/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9",
+            "++title": "\u0414\u043e\u043c\u0435\u043d \u043f\u0440\u0438\u043f\u0430\u0440\u043a\u043e\u0432\u0430\u043d \u0432 Timeweb"
+        },
+        "ssl": {
+            "domain": [
+                "timeweb.ru",
+                "*.timeweb.ru"
+            ],
+            "version": "v3",
+            "org": "GlobalSign GCC R3 DV TLS CA 2020",
+            "issuer": "\/C=BE\/O=GlobalSign nv-sa\/CN=GlobalSign GCC R3 DV TLS CA 2020",
+            "subject": "\/CN=*.timeweb.ru",
+            "expires": "2025-08-17 10:16:39",
+            "valid": "2024-07-16 10:16:40",
+            "fingerprint": "e6f9f799cb1c4db15198be22186e8b47ca8caead45598b44c84398997b72fee6"
+        },
+        "cookies": {
+            "_ym_isad": "2",
+            "_ym_visorc_55039267": "w",
+            "_dc_gtm_ua-52903813-6": "1",
+            "_ym_visorc_516496": "w",
+            "_ga": "GA1.3.1675245971.1605235677",
+            "_gid": "GA1.3.1793471561.1605235677",
+            "_ym_d": "1605235678",
+            "_ym_uid": "160523567870556664"
+        },
+        "banners": {
+            "21": "220 ProFTPD Server\n",
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7+esm3\n"
+        },
+        "dns": {
+            "ptr": "vh418.timeweb.ru"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ad0e606d9763e5391efccc1b20ebe626.jpeg"
+        }
+    }
+}

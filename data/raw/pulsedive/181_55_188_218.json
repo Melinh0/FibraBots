@@ -1,0 +1,174 @@
+{
+    "qid": null,
+    "iid": 13660089,
+    "indicator": "181.55.188.218",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-07-17 16:28:16",
+    "stamp_updated": "2024-12-14 20:23:07",
+    "stamp_seen": "2024-12-14 20:23:06",
+    "stamp_probed": "2024-09-30 06:29:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-17 23:58:21"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:54:10"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-23 04:18:33"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 23:58:21"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-28 11:42:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "++registered": "2011-05-02 00:00:00",
+            "country": "CO",
+            "abuse-c": "ATI",
+            "created": [
+                "20020909",
+                "20110502"
+            ],
+            "nic-hdl": "ATI",
+            "nserver": [
+                "NS2.TELMEXLA.NET.CO",
+                "NS3.TELMEXLA.NET.CO"
+            ],
+            "owner": "Telmex Colombia S.A.",
+            "owner-c": "ATI",
+            "ownerid": "CO-ACSA-LACNIC",
+            "person": "Network Security Team",
+            "responsible": "Operaciones Core IP",
+            "tech-c": "ATI",
+            "address": [
+                "CLARO FIJO COLOMBIA - Cra 68A No. 24B-10, 11111,",
+                "11111 - Bogota - DC",
+                "Carrera 68a address: 111321 - Bogota - DC"
+            ],
+            "changed": [
+                "20110502",
+                "20240228"
+            ],
+            "++abuse": "ATI",
+            "++phone": [
+                "+57 017480456 [81966]",
+                "+57 01 7480000"
+            ],
+            "++registrant": "Network Security Team",
+            "phone": [
+                "+57 017480456 [81966]",
+                "+57 01 7480000"
+            ],
+            "inetnum": "181.48.0.0\/13",
+            "inetrev": [
+                "181.48.0.0\/16",
+                "181.49.0.0\/16",
+                "181.50.0.0\/16",
+                "181.51.0.0\/16",
+                "181.52.0.0\/16",
+                "181.53.0.0\/16",
+                "181.54.0.0\/16",
+                "181.55.0.0\/16"
+            ],
+            "++email": "ivan.pernett@claro.com.co",
+            "e-mail": "ivan.pernett@claro.com.co",
+            "nslastaa": [
+                "20240904",
+                "20240905",
+                "20240906"
+            ],
+            "nsstat": [
+                "20240904 AA",
+                "20240905 AA",
+                "20240906 AA"
+            ]
+        },
+        "geo": {
+            "country": "Colombia",
+            "countrycode": "CO",
+            "org": "Telmex Colombia S.A.",
+            "asn": "AS10620",
+            "region": "Bogota D.C.",
+            "long": "-74.0796",
+            "lat": "4.7075",
+            "city": "Bogot\ufffd"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "dynamic-ip-181550188218.cable.net.co"
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "qid": null,
+    "iid": 54809920,
+    "indicator": "139.59.30.174",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-02 07:37:18",
+    "stamp_updated": "2024-12-15 11:29:57",
+    "stamp_seen": "2024-12-15 07:26:13",
+    "stamp_probed": "2024-09-07 07:48:10",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-02 07:41:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-02 07:37:18"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-02 07:41:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-04 23:28:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "IN",
+                "ZZ"
+            ],
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": [
+                "noc@digitalocean.com",
+                "abuse@digitalocean.com"
+            ],
+            "abuse-mailbox": "abuse@digitalocean.com",
+            "address": [
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013"
+            ],
+            "admin-c": "DOIA2-AP",
+            "descr": "DigitalOcean, LLC",
+            "e-mail": [
+                "abuse@digitalocean.com",
+                "noc@digitalocean.com"
+            ],
+            "fax-no": "+1 646 397 8051",
+            "irt": "IRT-DIGITALOCEAN-AP",
+            "mnt-by": [
+                "MAINT-DIGITALOCEAN-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-DIGITALOCEAN-AP",
+            "netname": "DIGITALOCEAN-AP",
+            "nic-hdl": [
+                "DOIA2-AP",
+                "AD699-AP"
+            ],
+            "phone": [
+                "+1 646 397 8051",
+                "+000000000"
+            ],
+            "role": [
+                "Digital Ocean Inc administrator",
+                "ABUSE DIGITALOCEANAP"
+            ],
+            "tech-c": "DOIA2-AP",
+            "last-modified": [
+                "2015-04-02T20:27:52Z",
+                "2020-05-31T21:34:24Z",
+                "2024-06-03T15:11:43Z",
+                "2024-06-03T15:12:12Z"
+            ],
+            "++phone": "+000000000",
+            "++registrant": "DOIA2-AP",
+            "abuse-c": "AD699-AP",
+            "inetnum": "139.59.16.0 - 139.59.31.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-06-03 15:11:43",
+                "2024-06-03 15:12:12",
+                "2015-04-02 20:27:52"
+            ]
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "US",
+                "IN",
+                "ZZ"
+            ],
+            "asn": "AS14061",
+            "region": "Karnataka",
+            "city": "Bengaluru",
+            "address": [
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013"
+            ],
+            "org": "DIGITALOCEAN-ASN",
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8\n"
+        }
+    }
+}

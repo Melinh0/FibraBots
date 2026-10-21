@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 64336436,
+    "indicator": "106.245.246.26",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-15 06:08:48",
+    "stamp_updated": "2024-12-16 11:27:55",
+    "stamp_seen": "2024-10-17 22:35:28",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64359123,
+                "indicator": "https:\/\/106.245.246.26\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-15 06:08:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "ExtJS",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "LG UPLUS",
+                "Seoul Yongsan-gu Hangang-daero 32",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA5-KR",
+                "IM574-AP",
+                "IM646-AP"
+            ],
+            "descr": "LG DACOM Corporation",
+            "e-mail": [
+                "ipadm@lguplus.co.kr",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "BORANET-KR",
+                "BORANET"
+            ],
+            "nic-hdl": [
+                "IA5-KR",
+                "IM646-AP"
+            ],
+            "tech-c": [
+                "IA5-KR",
+                "IM574-AP",
+                "IM646-AP"
+            ],
+            "inetnum": "106.240.0.0 - 106.255.255.255",
+            "++phone": "+82-2-1-01",
+            "phone": "+82-2-1-01",
+            "last-modified": [
+                "2017-02-03T00:55:03Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM646-AP",
+                "IA5-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ipadm@lguplus.co.kr",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "asn": "AS3786",
+            "countrycode": "KR",
+            "org": "LG DACOM Corporation",
+            "city": "Seo-gu",
+            "region": "Incheon",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Yongsan-gu Hangang-daero 32",
+                "LG UPLUS"
+            ],
+            "lat": "37.5713",
+            "long": "126.6803",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "date": "Thu, 17 Oct 2024 17:50:27 GMT",
+            "++target": "http:\/\/106.245.246.26\/",
+            "++redirect": "https:\/\/106.245.246.26\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "charset": "utf-8",
+            "handheldfriendly": "true",
+            "++title": "VPN50"
+        },
+        "ssl": {
+            "version": "v3",
+            "email": "vpn50_BCCF4FD14A87",
+            "subject": "\/CN=vpn50_BCCF4FD14A87",
+            "expires": "2030-07-11 13:12:47",
+            "valid": "2020-07-13 13:12:47",
+            "issuer": "\/CN=vpn50_BCCF4FD14A87",
+            "org": "vpn50_BCCF4FD14A87",
+            "fingerprint": "032320f50e96cfd564a20b9b571ac01acfd8202d47c43590e437ddb055dd17d4"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (VPN50) [::ffff:106.245.246.26]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/05f8a385e8645c26bc5861bcf6903dda.jpeg"
+        }
+    }
+}

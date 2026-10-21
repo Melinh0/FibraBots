@@ -1,0 +1,212 @@
+{
+    "qid": null,
+    "iid": 3742197,
+    "indicator": "190.111.246.85",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2018-12-13 15:27:51",
+    "stamp_updated": "2024-12-11 14:48:17",
+    "stamp_seen": "2024-12-11 14:48:17",
+    "stamp_probed": "2024-03-03 08:59:42",
+    "stamp_retired": "2022-08-19 00:29:39",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65840534,
+                "indicator": "https:\/\/190.111.246.85\/enLogin.htm"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-30 05:21:14"
+        },
+        {
+            "fid": 44,
+            "name": "High Confidence IPv4 Drop List",
+            "category": "general",
+            "organization": "St. Dominics Priory College - Australia",
+            "pricing": "free",
+            "stamp_linked": "2019-01-16 04:46:22"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-08 08:19:30"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 514136,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 06:40:12",
+            "stamp_updated": "2022-05-18 06:40:12"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "countrycode": "AR",
+            "asn": "AS11014",
+            "org": "CPS",
+            "region": "Buenos Aires F.D.",
+            "long": "-58.3811",
+            "lat": "-34.6142"
+        },
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "AR",
+            "++registered": "2011-02-21 00:00:00",
+            "abuse-c": "ADG3",
+            "created": [
+                "20060908",
+                "20110221"
+            ],
+            "nic-hdl": "ADG3",
+            "nserver": [
+                "NS2.CPS.COM.AR",
+                "NS1.CPS.COM.AR"
+            ],
+            "owner": "CPS",
+            "owner-c": "ADG3",
+            "ownerid": "AR-CPSC2-LACNIC",
+            "tech-c": "ADG3",
+            "changed": [
+                "20110221",
+                "20220121"
+            ],
+            "address": [
+                "Tacuari, 351, P 1",
+                "tacuari, 351, planta baja",
+                "1071 - Capital Federal - CABA",
+                "1071 - Capital Federal -"
+            ],
+            "++abuse": "ADG3",
+            "person": "Metrotel Administrador",
+            "++registrant": "Metrotel Administrador",
+            "responsible": "Metrotel Administrador",
+            "++phone": "+54 1160911000 [0000]",
+            "phone": "+54 1160911000 [0000]",
+            "++email": "abuse@metrotel.com.ar",
+            "inetnum": "190.111.224.0\/19",
+            "e-mail": "abuse@metrotel.com.ar",
+            "inetrev": [
+                "190.111.240.0\/21",
+                "190.111.250.0\/23",
+                "190.111.249.0\/24",
+                "190.111.224.0\/21",
+                "190.111.232.0\/22",
+                "190.111.236.0\/24",
+                "190.111.252.0\/23",
+                "190.111.255.0\/24",
+                "190.111.238.0\/24",
+                "190.111.248.0\/24",
+                "190.111.237.0\/24"
+            ],
+            "nsstat": [
+                "20240228 AA",
+                "20240229 AA",
+                "20240301 AA",
+                "20240302 AA",
+                "20240303 AA"
+            ],
+            "nslastaa": [
+                "20240228",
+                "20240229",
+                "20240301",
+                "20240302",
+                "20240303"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "server": "Web Server\/2.1.0 PeerSec-MatrixSSL\/3.9.5-OPEN",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/190.111.246.85\/",
+            "date": "Fri Oct 18 14:02:00 2024",
+            "++redirect": "https:\/\/190.111.246.85\/enLogin.htm"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "pragma": "no-cache",
+            "++title": "Login"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=GD\/L=SZ\/O=dinstar\/OU=dinstar\/CN=dinstar.com",
+            "subject": "\/C=CN\/ST=GD\/L=SZ\/O=dinstar\/OU=dinstar\/CN=dinstar.com",
+            "version": "v3",
+            "valid": "2018-09-10 09:52:00",
+            "org": "dinstar.com",
+            "expires": "2028-09-07 09:52:00",
+            "fingerprint": "f0595db582669c647c27a0864200bff49f07cbb516a8b2fff6828eba3bd0c52d",
+            "email": "support@dinstar.com",
+            "++subject": "dinstar"
+        },
+        "dns": {
+            "ptr": "static.85.246.111.190.cps.com.ar"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3fd52aee4ce2b34ed688486c458514a1.jpeg"
+        },
+        "cookies": {
+            "devckie": "db01-1605-1001-0096"
+        }
+    }
+}

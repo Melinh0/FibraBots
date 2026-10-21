@@ -1,0 +1,75 @@
+{
+    "qid": null,
+    "iid": 65613077,
+    "indicator": "45.76.44.5",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-05 10:25:06",
+    "stamp_updated": "2024-12-06 10:25:39",
+    "stamp_seen": "2024-12-05 10:28:27",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-05 10:25:06"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS20473",
+            "country": "France",
+            "countrycode": "FR",
+            "city": "Aubervilliers",
+            "region": [
+                "Seine-Saint-Denis",
+                "\ufffdle-de-France"
+            ],
+            "lat": "48.9163",
+            "long": "2.3869",
+            "org": "AS-VULTR"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u4\n",
+            "25": "220 ac30526.soin-du-cheveux.fr ESMTP Postfix (Debian\/GNU)\n"
+        }
+    }
+}

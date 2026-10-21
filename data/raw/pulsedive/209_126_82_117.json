@@ -1,0 +1,164 @@
+{
+    "qid": null,
+    "iid": 51108652,
+    "indicator": "209.126.82.117",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-09-14 05:01:05",
+    "stamp_updated": "2024-12-12 11:24:27",
+    "stamp_seen": "2023-10-11 18:15:19",
+    "stamp_probed": "2023-10-11 18:15:19",
+    "stamp_retired": "2024-01-14 22:35:00",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-05 10:23:13"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-09-14 05:01:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "city": "St. Louis",
+            "stateprov": "MO",
+            "parent": "NET209 (NET-209-0-0-0-0)",
+            "postalcode": "63101",
+            "regdate": [
+                "2019-12-23",
+                "2021-03-18"
+            ],
+            "netname": "CONTA-48",
+            "orgtechname": "Contabo Tech",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CONTA392-ARIN",
+            "orgabusehandle": "CAD61-ARIN",
+            "orgtechhandle": "CONTA392-ARIN",
+            "orgroutingname": "Contabo NOC",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/CONTA393-ARIN",
+            "orgabuseemail": "abuse@contabo.de",
+            "orgnochandle": "CONTA393-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CONTA-48",
+                "https:\/\/rdap.arin.net\/registry\/ip\/209.126.80.0"
+            ],
+            "orgname": "Contabo Inc.",
+            "orgtechphone": "+498921665862",
+            "++registrant": "Contabo Inc.",
+            "organization": "Contabo Inc. (CONTA-48)",
+            "orgabusename": "Contabo Abuse Department",
+            "++email": "wilhelm.zwalina@contabo.de",
+            "orgid": "CONTA-48",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/CAD61-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/CONTA393-ARIN",
+            "orgtechemail": "wilhelm.zwalina@contabo.de",
+            "orgroutinghandle": "CONTA393-ARIN",
+            "orgnocname": "Contabo NOC",
+            "orgroutingemail": "noc@contabo.de",
+            "++phone": "+498921665862",
+            "orgnocphone": "+498921665862",
+            "orgnocemail": "noc@contabo.de",
+            "orgroutingphone": "+498921665862",
+            "orgabusephone": "+498921665862",
+            "++abuse": "Contabo Abuse Department",
+            "++registered": "2021-03-18 00:00:00",
+            "nethandle": "NET-209-126-80-0-1",
+            "netrange": "209.126.80.0 - 209.126.87.255",
+            "cidr": "209.126.80.0\/21",
+            "updated": [
+                "2023-04-05",
+                "2023-05-16"
+            ],
+            "address": "710 N Tucker Blvd. STE 400A",
+            "++updated": "2023-05-16 00:00:00",
+            "originas": "AS40021"
+        },
+        "geo": {
+            "countrycode": "US",
+            "zip": "63101",
+            "region": "MO",
+            "city": "St. Louis",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "Contabo Inc. (CONTA-48)",
+                "NL-811-40021"
+            ],
+            "asn": "AS40021",
+            "address": "710 N Tucker Blvd. STE 400A",
+            "isp": "NL-811-40021"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "599",
+            "++code": "503",
+            "++status": "Service Temporarily Unavailable",
+            "connection": "keep-alive",
+            "server": "nginx\/1.17.6",
+            "++content-type": "text\/html",
+            "date": "Thu, 14 Sep 2023 05:01:05 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5b288827f787036ed008f54051d51cb7.jpeg"
+        },
+        "dns": {
+            "ptr": "vmi1465680.contaboserver.net"
+        }
+    }
+}

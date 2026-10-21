@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 52771075,
+    "indicator": "220.203.1.193",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-07 01:41:08",
+    "stamp_updated": "2024-12-11 10:43:27",
+    "stamp_seen": "2024-11-23 17:03:01",
+    "stamp_probed": "2024-09-30 10:22:10",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 52771307,
+                "indicator": "http:\/\/220.203.1.193\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-07 01:41:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-15 00:28:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1293",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IPSec"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "mnt-by": [
+                "MAINT-CNCGROUP-RR",
+                "MAINT-CNNIC-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-routes": "MAINT-CNCGROUP-RR",
+            "origin": "AS4837",
+            "address": [
+                "Beijing, China",
+                "Beijing  100140 ,P.R.China",
+                "No.21 Financial Street,Xicheng District,",
+                "Beijing 100140 ,P.R.China"
+            ],
+            "abuse-mailbox": [
+                "ipas@cnnic.cn",
+                "zhaoyz3@chinaunicom.cn"
+            ],
+            "admin-c": [
+                "IP50-AP",
+                "YW6851-AP"
+            ],
+            "tech-c": [
+                "IP50-AP",
+                "YW6851-AP"
+            ],
+            "mnt-lower": "MAINT-CNNIC-AP",
+            "e-mail": [
+                "hqs-ipabuse@chinaunicom.cn",
+                "ipas@cnnic.cn",
+                "zhaoyz3@chinaunicom.cn"
+            ],
+            "fax-no": "+86-10-66259626",
+            "netname": "UNICOM",
+            "++phone": [
+                "+86-10-66258500",
+                "+000000000"
+            ],
+            "nic-hdl": [
+                "YW6851-AP",
+                "AC1601-AP"
+            ],
+            "person": "Yuzhen Zhao",
+            "phone": [
+                "+86-10-66258500",
+                "+000000000"
+            ],
+            "descr": [
+                "China Unicom Network",
+                "China Unicom",
+                "No.21 Financial Street,Xicheng District,",
+                "Beijing 100140 ,P.R.China"
+            ],
+            "inetnum": "220.192.0.0 - 220.207.255.255",
+            "route": "220.192.0.0\/12",
+            "last-modified": [
+                "2017-09-21T03:48:02Z",
+                "2011-12-13T01:08:02Z",
+                "2023-11-28T00:57:29Z",
+                "2024-07-01T02:08:34Z",
+                "2024-07-30T11:55:46Z"
+            ],
+            "++email": [
+                "hqs-ipabuse@chinaunicom.cn",
+                "ipas@cnnic.cn",
+                "zhaoyz3@chinaunicom.cn"
+            ],
+            "++abuse": [
+                "ipas@cnnic.cn",
+                "zhaoyz3@chinaunicom.cn"
+            ],
+            "++registrant": [
+                "IP50-AP",
+                "YW6851-AP",
+                "Yuzhen Zhao"
+            ],
+            "abuse-c": "AC1601-AP",
+            "role": "ABUSE CNNICCN",
+            "irt": "IRT-UNICOM-CN",
+            "mnt-irt": "IRT-UNICOM-CN",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-01 02:08:34",
+                "2024-07-30 11:55:46",
+                "2017-09-21 03:48:02",
+                "2011-12-13 01:08:02"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4837",
+            "org": "CHINA UNICOM China169 Backbone",
+            "lat": "34.7732",
+            "address": [
+                "Beijing, China",
+                "No.21 Financial Street,Xicheng District,",
+                "Beijing 100140 ,P.R.China",
+                "Beijing  100140 ,P.R.China"
+            ],
+            "long": "113.722"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "571",
+            "server": "nginx\/1.14.2",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/220.203.1.193\/",
+            "date": "Sat, 12 Oct 2024 15:18:17 GMT"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f67dcb630aa0cc0ab4f7200c39859f79.jpeg"
+        }
+    }
+}

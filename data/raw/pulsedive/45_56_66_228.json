@@ -1,0 +1,80 @@
+{
+    "qid": null,
+    "iid": 63013358,
+    "indicator": "45.56.66.228",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-09-06 01:53:40",
+    "stamp_updated": "2024-12-12 11:26:56",
+    "stamp_seen": "2024-09-06 01:53:50",
+    "stamp_probed": "2024-09-06 01:53:50",
+    "stamp_retired": "2024-12-09 19:11:57",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-06 01:53:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "region": "Texas",
+            "asn": "AS63949",
+            "city": "Richardson",
+            "zip": "75081",
+            "country": "United States of America",
+            "lat": "32.9473",
+            "long": "-96.7028",
+            "isp": "Akamai Connected Cloud",
+            "org": "Akamai Connected Cloud"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dns": {
+            "ptr": "45-56-66-228.ip.linodeusercontent.com"
+        }
+    }
+}

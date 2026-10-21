@@ -1,0 +1,79 @@
+{
+    "qid": null,
+    "iid": 64730374,
+    "indicator": "170.51.24.153",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-05 08:52:03",
+    "stamp_updated": "2024-12-11 10:40:57",
+    "stamp_seen": "2024-11-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-05 08:52:03"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-09 20:52:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "3306",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "MySQL",
+            "PPTP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Paraguay",
+            "countrycode": "PY",
+            "asn": "AS11664",
+            "org": "Techtel LMDS Comunicaciones Interactivas S.A.",
+            "lat": "-25.2869",
+            "long": "-57.6511",
+            "city": "Asunci\ufffdn",
+            "region": "Asunci\ufffdn"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000",
+            "3306": "[\u0000\u0000\u0000\n5.6.31-0ubuntu0.15.10.1\u0000\ufffd\u0000\u0000\u0000b>NN|G+@\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@_=Ur`inmZZ3\u0000mysql_native_password\u0000"
+        }
+    }
+}

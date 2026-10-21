@@ -1,0 +1,189 @@
+{
+    "qid": null,
+    "iid": 64251168,
+    "indicator": "42.98.73.250",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-09 06:03:52",
+    "stamp_updated": "2024-12-13 11:27:18",
+    "stamp_seen": "2024-10-15 04:15:43",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64252497,
+                "indicator": "https:\/\/42.98.73.250\/cgi-bin\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-09 06:03:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "389",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "LDAP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ",
+                "hk"
+            ],
+            "++phone": [
+                "+852-2888-2888",
+                "+000000000"
+            ],
+            "admin-c": [
+                "WC109-AP",
+                "NA45-AP"
+            ],
+            "descr": [
+                "Hong Kong Telecommunications (HKT) Limited Mass Internet",
+                "PCCW IMS Limited"
+            ],
+            "e-mail": [
+                "pmaster@netvigator.com",
+                "noc@imsbiz.com"
+            ],
+            "irt": "IRT-HKTIMS-HK",
+            "mnt-by": [
+                "MAINT-HK-IMS-CS",
+                "MAINT-HK-IMS",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-HKTIMS-HK",
+            "netname": "NETVIGATOR",
+            "nic-hdl": [
+                "NA45-AP",
+                "AH981-AP"
+            ],
+            "origin": "AS4760",
+            "phone": [
+                "+852-2888-2888",
+                "+000000000"
+            ],
+            "role": [
+                "NETVIGATOR ADMINISTRATORS",
+                "ABUSE HKTIMSHK"
+            ],
+            "tech-c": [
+                "WC109-AP",
+                "NA45-AP"
+            ],
+            "mnt-lower": "MAINT-HK-IMS-CS",
+            "mnt-routes": "MAINT-HK-IMS-WILSON",
+            "address": [
+                "PO Box 9896 GPO",
+                "Hong Kong"
+            ],
+            "inetnum": "42.98.0.0 - 42.98.127.255",
+            "last-modified": [
+                "2008-09-04T07:54:15Z",
+                "2021-01-27T13:20:36Z",
+                "2020-09-28T03:47:58Z",
+                "2024-08-22T03:30:23Z",
+                "2024-08-22T03:30:25Z"
+            ],
+            "++registrant": [
+                "NA45-AP",
+                "WC109-AP"
+            ],
+            "++email": [
+                "pmaster@netvigator.com",
+                "noc@imsbiz.com"
+            ],
+            "abuse-c": "AH981-AP",
+            "abuse-mailbox": "noc@imsbiz.com",
+            "++abuse": "noc@imsbiz.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-22 03:30:23",
+                "2024-08-22 03:30:25",
+                "2008-09-04 07:54:15",
+                "2020-09-28 03:47:58"
+            ],
+            "route": "42.98.73.0\/24"
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "hk",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ",
+                "hk"
+            ],
+            "asn": "AS4760",
+            "org": "HKT Limited",
+            "address": [
+                "PO Box 9896 GPO",
+                "Hong Kong"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "meta": {
+            "charset": "UTF-8",
+            "x-ua-compatible": "IE=10; IE=9; IE=8, chrome=1",
+            "viewport": "width=1180",
+            "cache-control": "NO-CACHE",
+            "pragma": "NO-CACHE",
+            "++title": "NAS332X1"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "389": "\u0005\u0004\u0000\u0000"
+        },
+        "http": {
+            "++target": "http:\/\/42.98.73.250\/",
+            "++redirect": "https:\/\/42.98.73.250\/cgi-bin\/"
+        }
+    }
+}

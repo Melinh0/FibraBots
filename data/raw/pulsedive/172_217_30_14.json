@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 21394456,
+    "indicator": "172.217.30.14",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-02-08 13:13:49",
+    "stamp_updated": "2021-05-24 08:17:41",
+    "stamp_seen": "2021-02-19 00:15:47",
+    "stamp_probed": "2021-02-19 00:15:46",
+    "stamp_retired": "2021-05-24 08:17:41",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 275897,
+                "indicator": "http:\/\/www.google.com\/"
+            },
+            {
+                "iid": 291419,
+                "indicator": "https:\/\/www.google.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Google Web Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "stateprov": "CA",
+            "parent": "NET172 (NET-172-0-0-0-0)",
+            "++abuse": "network-abuse@google.com",
+            "++email": "arin-contact@google.com",
+            "++phone": "+1-650-253-0000",
+            "address": "1600 Amphitheatre Parkway",
+            "city": "Mountain View",
+            "netname": "GOOGLE",
+            "orgabuseemail": "network-abuse@google.com",
+            "orgabusehandle": "ABUSE5250-ARIN",
+            "orgabusephone": "+1-650-253-0000",
+            "orgid": "GOGL",
+            "orgtechemail": "arin-contact@google.com",
+            "orgtechhandle": "ZG39-ARIN",
+            "orgtechphone": "+1-650-253-0000",
+            "originas": "AS15169",
+            "postalcode": "94043",
+            "regdate": [
+                "2000-03-30",
+                "2012-04-16"
+            ],
+            "++registered": "2012-04-16 00:00:00",
+            "cidr": "172.217.0.0\/16",
+            "nethandle": "NET-172-217-0-0-1",
+            "netrange": "172.217.0.0 - 172.217.255.255",
+            "++registrant": "Google LLC",
+            "organization": "Google LLC (GOGL)",
+            "orgname": "Google LLC",
+            "orgtechname": "Google LLC",
+            "updated": [
+                "2012-04-16",
+                "2019-10-31"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZG39-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOGL",
+                "https:\/\/rdap.arin.net\/registry\/ip\/172.217.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5250-ARIN",
+            "++updated": "2019-10-31 00:00:00"
+        },
+        "geo": {
+            "city": "Mountain View",
+            "countrycode": "US",
+            "zip": "94043",
+            "region": "CA",
+            "asn": "AS15169",
+            "address": "1600 Amphitheatre Parkway",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "Google LLC (GOGL)",
+                "GOOGLE"
+            ],
+            "isp": "GOOGLE"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "cache-control": "private, max-age=0",
+            "p3p": "CP=\"This is not a P3P policy! See g.co\/p3phelp for more info.\"",
+            "server": "gws",
+            "x-frame-options": "SAMEORIGIN",
+            "content-encoding": "gzip",
+            "x-xss-protection": "0",
+            "status": "200",
+            "++code": "200",
+            "content-length": "40376",
+            "++content-type": "text\/html",
+            "expires": "-1",
+            "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+            "date": "Fri, 19 Feb 2021 00:11:50 GMT",
+            "set-cookie": "1P_JAR=2021-02-19-00; expires=Sun, 21-Mar-2021 00:11:51 GMT; path=\/; domain=.google.com; Secure; SameSite=none\nNID=209=mopaMNjoR4FUe_Zz6B7CNknEPozuzGAun4CqH02Fq4DcXCnH4vsGXjJTC_iG9A7q2ppEQABJj_7POU54DrElucJoWtgfEaO_HmCYlDKycrEd7FM5e4pumxjByOikLrb-TKMRtYDx63va_vXC19gRGYYrbeN-2vMK5cfd7X_r3xE; expires=Sat, 21-Aug-2021 00:11:50 GMT; path=\/; domain=.google.com; HttpOnly"
+        },
+        "ssl": {
+            "domain": "www.google.com",
+            "subject": "\/C=US\/ST=California\/L=Mountain View\/O=Google LLC\/CN=www.google.com",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=GTS CA 1O1",
+            "version": "v3",
+            "org": "GTS CA 1O1",
+            "valid": "2021-01-26 09:06:56",
+            "expires": "2021-04-20 09:06:55"
+        },
+        "meta": {
+            "charset": "UTF-8"
+        },
+        "dns": {
+            "ptr": "rio01s23-in-f14.1e100.net"
+        },
+        "cookies": {
+            "1p_jar": "2021-02-19-00",
+            "nid": "209=mopaMNjoR4FUe_Zz6B7CNknEPozuzGAun4CqH02Fq4DcXCnH4vsGXjJTC_iG9A7q2ppEQABJj_7POU54DrElucJoWtgfEaO_HmCYlDKycrEd7FM5e4pumxjByOikLrb-TKMRtYDx63va_vXC19gRGYYrbeN-2vMK5cfd7X_r3xE"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4f687b4fb6b72c516b32e494ccee5371.jpeg"
+        }
+    }
+}

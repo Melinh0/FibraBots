@@ -1,0 +1,109 @@
+{
+    "qid": null,
+    "iid": 55604906,
+    "indicator": "79.61.137.252",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-01-30 04:04:24",
+    "stamp_updated": "2024-10-27 05:41:27",
+    "stamp_seen": "2024-07-25 00:00:00",
+    "stamp_probed": "2024-07-25 09:35:03",
+    "stamp_retired": "2024-10-27 05:41:27",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-30 04:04:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "23",
+            "443",
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "RTSP",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "city": "Florence",
+            "asn": "AS3269",
+            "isp": "Telecom Italia",
+            "org": "Telecom Italia",
+            "zip": "50145",
+            "region": "Province of Florence",
+            "lat": "43.7891",
+            "long": "11.2356"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "DVRDVS-Webs",
+            "content-length": "2110",
+            "last-modified": "Tue Mar 19 02:02:31 2013",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu Jul 25 08:04:45 2024"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8"
+        },
+        "cookies": {
+            "language": "en",
+            "updatetips": "true"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd!\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "21": "220 ucftpd(Jul  2 2012-22:13:49) FTP server ready.\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/41b77f7452f94e90c9c73b49b58821ff.jpeg"
+        },
+        "dns": {
+            "ptr": "host-79-61-137-252.business.telecomitalia.it"
+        }
+    }
+}

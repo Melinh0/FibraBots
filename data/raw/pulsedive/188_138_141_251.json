@@ -1,0 +1,145 @@
+{
+    "qid": null,
+    "iid": 64501507,
+    "indicator": "188.138.141.251",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-24 08:12:51",
+    "stamp_updated": "2024-12-10 02:05:05",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64502405,
+                "indicator": "https:\/\/188.138.141.251\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-24 08:12:51"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-05 22:08:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "443",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "jQuery",
+            "jQuery UI",
+            "Let's Encrypt",
+            "Nginx",
+            "RoundCube"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Chisinau",
+            "countrycode": "MD",
+            "asn": "AS31252",
+            "org": "StarNet Solutii SRL",
+            "region": "Chi\u0219in\u0103u Municipality",
+            "long": "28.8574",
+            "lat": "47.0042",
+            "country": "Moldova"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "cache-control": "private, no-cache, no-store, must-revalidate, post-check=0, pre-check=0",
+            "content-language": "en",
+            "content-encoding": "gzip",
+            "x-robots-tag": "noindex, nofollow",
+            "content-length": "2279",
+            "++code": "200",
+            "x-frame-options": "sameorigin",
+            "++content-type": "text\/html",
+            "date": "Thu, 24 Oct 2024 08:19:29 GMT",
+            "last-modified": "Thu, 24 Oct 2024 08:19:29 GMT",
+            "expires": "Thu, 24 Oct 2024 08:19:29 GMT",
+            "set-cookie": "roundcube_sessid=dll86s7ppsmitpit3plqh0b88i; path=\/; secure; HttpOnly",
+            "++target": "http:\/\/188.138.141.251\/",
+            "++redirect": "https:\/\/188.138.141.251\/"
+        },
+        "meta": {
+            "theme-color": "#f4f4f4",
+            "msapplication-navbutton-color": "#f4f4f4",
+            "viewport": "width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0",
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "IPN Webmail :: Welcome to IPN Mail"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "expires": "2025-01-08 10:14:03",
+            "subject": "\/CN=mail.ipn.md",
+            "fingerprint": "059750c7bd4ecb39ef088e74ba4be319107f21e8623f98ce3267a9b2addb11e9",
+            "domain": "mail.ipn.md",
+            "valid": "2024-10-10 10:14:04"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Debian) ready.\n",
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220 mail.ipn.md ESMTP Exim 4.96 Thu, 24 Oct 2024 11:19:28 +0300\n"
+        },
+        "cookies": {
+            "roundcube_sessid": "dll86s7ppsmitpit3plqh0b88i"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0749f7426627c3edea94404fc0c00676.jpeg"
+        }
+    }
+}

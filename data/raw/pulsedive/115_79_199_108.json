@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 53143138,
+    "indicator": "115.79.199.108",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-19 04:05:54",
+    "stamp_updated": "2024-12-16 17:07:19",
+    "stamp_seen": "2024-12-16 17:07:19",
+    "stamp_probed": "2024-08-28 22:45:00",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 53144942,
+                "indicator": "http:\/\/115.79.199.108\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-19 04:05:54"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-01 22:42:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "EmbedThis Appweb"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "city": "Ho Chi Minh City",
+            "region": "Ho Chi Minh",
+            "asn": "AS7552",
+            "country": "Vietnam",
+            "org": "Viettel Group",
+            "address": [
+                "Ha Noi, VietNam",
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City"
+            ],
+            "lat": "10.8217",
+            "long": "106.6254"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VIETEL"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NDT9-AP"
+            ],
+            "admin-c": [
+                "TVT8-AP",
+                "NTTT1-AP"
+            ],
+            "e-mail": [
+                "soc@viettel.com.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "origin": "AS7552",
+            "inetnum": "115.72.0.0 - 115.79.255.255",
+            "address": [
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": [
+                "TVT8-AP",
+                "NDT9-AP"
+            ],
+            "person": [
+                "Tran Van Thanh",
+                "Nguyen Dang Tiep"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "netname": "VIETTEL-VN",
+            "descr": [
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Viettel Group",
+                "VIETTEL-VN"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2017-11-11T09:40:35Z",
+                "2017-11-11T09:45:25Z",
+                "2018-08-21T09:57:13Z",
+                "2023-05-26T16:03:13Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "TVT8-AP",
+                "Nguyen Dang Tiep",
+                "Tran Van Thanh"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "soc@viettel.com.vn"
+            ],
+            "route": "115.72.0.0\/13",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-11 09:45:25",
+                "2017-11-11 09:40:35",
+                "2018-08-21 09:57:13",
+                "2023-05-26 16:03:13"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "content-length": "202",
+            "keep-alive": "timeout=120, max=199",
+            "server": "Embedthis-Appweb\/3.2.3",
+            "++code": "401",
+            "++status": "Unauthorized",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Mon, 17 Jun 2024 14:59:00 GMT"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0018\ufffd\ufffd \ufffd\ufffd#\ufffd\ufffd'\ufffd\ufffd$"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6e032bec9314cb0a2096813ffe649d26.jpeg"
+        }
+    }
+}

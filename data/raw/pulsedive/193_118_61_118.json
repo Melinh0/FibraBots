@@ -1,0 +1,71 @@
+{
+    "qid": null,
+    "iid": 59954322,
+    "indicator": "193.118.61.118",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-05 15:31:27",
+    "stamp_updated": "2024-12-09 10:34:37",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": "2024-09-07 07:59:12",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-05 15:31:27"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-11 00:58:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS21859",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "org": "ZEN-ECN"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n"
+        }
+    }
+}

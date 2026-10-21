@@ -1,0 +1,171 @@
+{
+    "qid": null,
+    "iid": 53010094,
+    "indicator": "107.189.14.57",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-11-14 05:41:53",
+    "stamp_updated": "2024-05-29 10:25:08",
+    "stamp_seen": "2024-02-28 20:17:47",
+    "stamp_probed": "2024-02-28 20:17:46",
+    "stamp_retired": "2024-05-29 10:25:08",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2023-11-14 05:41:53"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-06 23:19:13"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2023-11-14 05:41:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-14 19:27:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "updated": [
+                "2017-01-28",
+                "2014-04-17"
+            ],
+            "nettype": "Direct Allocation",
+            "++phone": "+1-778-977-8246",
+            "++registrant": "FranTech Solutions",
+            "address": "1621 Central Ave",
+            "city": "Cheyenne",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": "FranTech Solutions (SYNDI-5)",
+            "orgid": "SYNDI-5",
+            "orgname": "FranTech Solutions",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": "82001",
+            "regdate": [
+                "2010-07-21",
+                "2014-04-17"
+            ],
+            "stateprov": "WY",
+            "++registered": "2014-04-17 00:00:00",
+            "parent": "NET107 (NET-107-0-0-0-0)",
+            "++updated": "2017-01-28 00:00:00",
+            "++abuse": "fdias@frantech.ca",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "cidr": "107.189.0.0\/19",
+            "nethandle": "NET-107-189-0-0-1",
+            "netname": "PONYNET-11",
+            "netrange": "107.189.0.0 - 107.189.31.255",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.189.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN"
+        },
+        "geo": {
+            "asn": "AS53667",
+            "country": "Luxembourg",
+            "countrycode": "LU",
+            "city": "Luxembourg",
+            "region": "Luxembourg",
+            "zip": "L-1661",
+            "long": "6.1294",
+            "org": "PONYNET",
+            "isp": "PONYNET",
+            "lat": "49.6113"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "32018",
+            "++code": "200",
+            "++status": "OK",
+            "x-your-address-is": "142.93.40.83",
+            "++content-type": "text\/html",
+            "expires": "Sat, 17 Feb 2024 21:22:13 GMT",
+            "date": "Sat, 17 Feb 2024 21:02:13 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ec41d7bb5ec66de8e1bd6e8abee3f260.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u1\n"
+        },
+        "dns": {
+            "ptr": "tor.node1.righttoprivacy.net"
+        }
+    }
+}

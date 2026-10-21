@@ -1,0 +1,68 @@
+{
+    "qid": null,
+    "iid": 48632992,
+    "indicator": "45.147.250.222",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-28 06:35:36",
+    "stamp_updated": "2024-12-08 10:33:34",
+    "stamp_seen": "2024-11-19 06:17:22",
+    "stamp_probed": "2024-09-07 08:10:33",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-29 01:17:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "city": "Milan",
+            "region": [
+                "Milan",
+                "Lombardy"
+            ],
+            "asn": "AS36007",
+            "lat": "45.4722",
+            "org": "KAMATERA",
+            "long": "9.1922"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        }
+    }
+}

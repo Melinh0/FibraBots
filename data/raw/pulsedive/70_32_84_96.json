@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 65524858,
+    "indicator": "70.32.84.96",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-02 10:16:43",
+    "stamp_updated": "2024-12-15 16:38:40",
+    "stamp_seen": "2024-12-06 17:49:26",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65524916,
+                "indicator": "https:\/\/70.32.84.96\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-06 16:11:00"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-02 10:16:43"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 16:11:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@godaddy.com",
+            "nettype": "Direct Allocation",
+            "orgnocname": "Network Operations Center",
+            "orgtechname": "Network Operations Center",
+            "orgabusename": "Abuse Department",
+            "parent": "NET70 (NET-70-0-0-0-0)",
+            "++email": "noc@godaddy.com",
+            "++phone": "+1-480-505-8809",
+            "++registrant": "GoDaddy.com, LLC",
+            "orgabuseemail": "abuse@godaddy.com",
+            "orgabusehandle": "ABUSE51-ARIN",
+            "orgabusephone": "+1-480-624-2505",
+            "organization": "GoDaddy.com, LLC (GODAD)",
+            "orgid": "GODAD",
+            "orgname": "GoDaddy.com, LLC",
+            "orgnocemail": "noc@godaddy.com",
+            "orgnochandle": "NOC124-ARIN",
+            "orgnocphone": "+1-480-505-8809",
+            "orgtechemail": "noc@godaddy.com",
+            "orgtechhandle": "NOC124-ARIN",
+            "orgtechphone": "+1-480-505-8809",
+            "regdate": [
+                "2007-06-01",
+                "2008-06-26"
+            ],
+            "stateprov": "AZ",
+            "++registered": [
+                "2007-06-01 00:00:00",
+                "2008-06-26 00:00:00"
+            ],
+            "netname": "MEDIATEMPLE-106",
+            "city": "Tempe",
+            "postalcode": "85284",
+            "cidr": "70.32.64.0\/18",
+            "nethandle": "NET-70-32-64-0-1",
+            "netrange": "70.32.64.0 - 70.32.127.255",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GODAD",
+                "https:\/\/rdap.arin.net\/registry\/ip\/70.32.64.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE51-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC124-ARIN",
+            "address": "2155 E GoDaddy Way",
+            "originas": "AS31815",
+            "updated": [
+                "2023-06-20",
+                "2024-11-25"
+            ],
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Virginia",
+                "AZ"
+            ],
+            "city": [
+                "Ashburn",
+                "Tempe"
+            ],
+            "zip": "85284",
+            "long": "-77.4903",
+            "org": [
+                "GoDaddy.com, LLC (GODAD)",
+                "GO-DADDY-COM-LLC"
+            ],
+            "asn": "AS398101",
+            "address": "2155 E GoDaddy Way",
+            "lat": "39.0469"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "last-modified": "Thu, 16 Oct 2014 13:20:58 GMT",
+            "++code": "403",
+            "content-encoding": "br",
+            "etag": "W\/\"1321-5058a1e728280\"",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/70.32.84.96\/",
+            "++target": "http:\/\/70.32.84.96\/",
+            "date": "Fri, 06 Dec 2024 17:45:06 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/ST=Arizona\/L=Scottsdale\/O=Starfield Technologies, Inc.\/OU=http:\/\/certs.starfieldtech.com\/repository\/\/CN=Starfield Secure Certificate Authority - G2",
+            "version": "v3",
+            "org": "Starfield Secure Certificate Authority - G2",
+            "valid": "2020-10-13 09:42:10",
+            "fingerprint": "211764a6360451b9c918cbd1d383c4fd2658a2d9d7bcb73c20d800367555f1a9",
+            "subject": "\/OU=Domain Control Validated\/CN=www.arsonalinteractive.com",
+            "expires": "2021-10-16 14:09:05",
+            "domain": [
+                "www.arsonalinteractive.com",
+                "arsonalinteractive.com"
+            ]
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 arsonalinteractive.com ESMTP Postfix\n",
+            "21": "220 ProFTPD Server (ProFTPD) [70.32.84.96]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a3f90b274ec2a99e34bd43a8705fcf1d.jpeg"
+        }
+    }
+}

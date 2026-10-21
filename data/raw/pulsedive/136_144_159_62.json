@@ -1,0 +1,187 @@
+{
+    "qid": null,
+    "iid": 65230968,
+    "indicator": "136.144.159.62",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-23 09:38:20",
+    "stamp_updated": "2024-11-26 09:46:48",
+    "stamp_seen": "2024-11-23 09:48:53",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65232652,
+                "indicator": "https:\/\/136.144.159.62\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-23 09:38:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Let's Encrypt"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Netherlands",
+                "The Netherlands"
+            ],
+            "countrycode": "NL",
+            "asn": "AS20857",
+            "org": "Signet B.V.",
+            "lat": "51.9172",
+            "address": [
+                "NL",
+                "Vondellaan 47",
+                "2332 AA Leiden"
+            ],
+            "region": "South Holland",
+            "long": "4.5049"
+        },
+        "whois": {
+            "country": "NL",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "LEGACY",
+            "abuse-mailbox": "abuse@transip.nl",
+            "address": [
+                "NL",
+                "Vondellaan 47",
+                "2332 AA Leiden"
+            ],
+            "descr": [
+                "Amsterdam, The Netherlands",
+                "TransIP BV",
+                "TransIP B.V."
+            ],
+            "mnt-by": "TRANSIP-MNT",
+            "mnt-lower": "TRANSIP-MNT",
+            "mnt-routes": "TRANSIP-MNT",
+            "nic-hdl": "IPRO1-RIPE",
+            "origin": "AS20857",
+            "phone": "+31 71 524 1919",
+            "role": "TransIP B.V. Admin",
+            "created": [
+                "2016-09-23T14:05:57Z",
+                "2003-05-10T09:33:07Z",
+                "2016-06-28T14:42:26Z"
+            ],
+            "last-modified": [
+                "2017-03-17T07:07:02Z",
+                "2016-09-23T14:23:39Z",
+                "2023-09-07T09:15:01Z"
+            ],
+            "route": "136.144.128.0\/17",
+            "tech-c": [
+                "IPRO1-RIPE",
+                "SJ7309-RIPE"
+            ],
+            "admin-c": [
+                "IPRO1-RIPE",
+                "SJ7309-RIPE"
+            ],
+            "++abuse": "abuse@transip.nl",
+            "++registrant": [
+                "IPRO1-RIPE",
+                "SJ7309-RIPE"
+            ],
+            "++email": "abuse@transip.nl",
+            "inetnum": "136.144.128.0 - 136.144.255.255",
+            "mnt-domains": "TRANSIP-MNT",
+            "netname": "TRANSIP-136-144-128-0",
+            "++registered": [
+                "2003-05-10 09:33:07",
+                "2016-09-23 14:05:57",
+                "2016-06-28 14:42:26"
+            ],
+            "++updated": [
+                "2023-09-07 09:15:01",
+                "2017-03-17 07:07:02"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "Apache\/2",
+            "vary": "User-Agent",
+            "content-length": "47",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/136.144.159.62\/",
+            "date": "Sat, 23 Nov 2024 09:48:22 GMT",
+            "last-modified": "Wed, 10 Jan 2024 14:01:16 GMT",
+            "++target": "http:\/\/136.144.159.62\/",
+            "etag": "\"2f-60e97dd583886\""
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "domain": "server34.w0w.nl",
+            "subject": "\/CN=server34.w0w.nl",
+            "valid": "2024-11-02 01:33:27",
+            "fingerprint": "c06e2f2ada1413c3d7064918a181b435b6719271f510c64bddb43fc0ff09755b",
+            "expires": "2025-01-31 01:33:26"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN] Dovecot DA ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 10:48. Server port: 21.\n220-This is a private system - No anonymous login\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 server34.w0w.nl ESMTP Exim 4.98 Sat, 23 Nov 2024 10:48:20 +0100\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5b32a2a3229169808538ad57b54db549.jpeg"
+        }
+    }
+}

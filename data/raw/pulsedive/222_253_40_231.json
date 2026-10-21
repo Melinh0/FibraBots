@@ -1,0 +1,228 @@
+{
+    "qid": null,
+    "iid": 55186856,
+    "indicator": "222.253.40.231",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-16 20:29:42",
+    "stamp_updated": "2024-12-09 10:36:21",
+    "stamp_seen": "2024-10-08 10:48:07",
+    "stamp_probed": "2024-09-30 10:36:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64084810,
+                "indicator": "https:\/\/222.253.40.231\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-12 14:42:01"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-16 20:29:42"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-12 14:42:01"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-13 14:29:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "1723",
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "OpenVPN",
+            "PPTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "VN",
+                "vn"
+            ],
+            "city": "Ho Chi Minh City",
+            "region": "Ho Chi Minh",
+            "asn": "AS45899",
+            "org": "VNPT Corp",
+            "country": [
+                "Vietnam",
+                "vn"
+            ],
+            "address": [
+                "125 Hai Ba Trung, Dist1, HCMC",
+                "125 Hai Ba Trung, Dist 1,  HCMC"
+            ],
+            "long": "106.6257",
+            "lat": "10.822"
+        },
+        "whois": {
+            "country": [
+                "VN",
+                "vn"
+            ],
+            "source": "APNIC",
+            "notify": "hm-changed@vnnic.net.vn",
+            "status": "ALLOCATED NON-PORTABLE",
+            "mnt-by": "MAINT-VN-VNPT",
+            "descr": [
+                "VNPT-AS-AP",
+                "VietNam Post and Telecom Corporation (VNPT)",
+                "Ho Chi Minh City Post and Telecom Company"
+            ],
+            "origin": [
+                "AS45899",
+                "AS7643"
+            ],
+            "last-modified": [
+                "2010-01-19T01:24:56Z",
+                "2010-08-10T08:20:08Z",
+                "2008-09-04T07:10:30Z",
+                "2008-09-04T07:45:23Z",
+                "2014-05-21T02:00:25Z"
+            ],
+            "address": [
+                "125 Hai Ba Trung, Dist1, HCMC",
+                "125 Hai Ba Trung, Dist 1,  HCMC"
+            ],
+            "netname": "HCMPT-NET",
+            "e-mail": [
+                "giangdo@hcmpt.com.vn",
+                "quocviet@hcmpt.com.vn"
+            ],
+            "admin-c": "NG102-AP",
+            "tech-c": "DQ79-AP",
+            "++phone": [
+                "+84-882-46480",
+                "+84-882-46476"
+            ],
+            "nic-hdl": [
+                "NG102-AP",
+                "DQ79-AP"
+            ],
+            "person": [
+                "Nguyen Giang Do",
+                "Duong Quoc Viet"
+            ],
+            "phone": [
+                "+84-882-46476",
+                "+84-882-46480"
+            ],
+            "fax-no": "+84-882-46482",
+            "inetnum": "222.253.32.0 - 222.253.175.255",
+            "route": "222.253.32.0\/19",
+            "++registrant": [
+                "NG102-AP",
+                "Duong Quoc Viet",
+                "Nguyen Giang Do"
+            ],
+            "++email": [
+                "quocviet@hcmpt.com.vn",
+                "giangdo@hcmpt.com.vn"
+            ],
+            "++updated": [
+                "2008-09-04 07:45:23",
+                "2014-05-21 02:00:25",
+                "2010-01-19 01:24:56",
+                "2010-08-10 08:20:08"
+            ]
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "Server",
+            "content-length": "183",
+            "++code": "400",
+            "++status": "Bad Request",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/222.253.40.231\/",
+            "date": "Mon, 07 Oct 2024 20:44:27 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "subject": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "version": "v3",
+            "org": "Vigor Router",
+            "domain": "www.draytek.com",
+            "valid": "2021-06-24 14:11:26",
+            "expires": "2022-07-24 14:11:26",
+            "++subject": "DrayTek Corp.",
+            "fingerprint": "78590243f1be9abe0bee7cee4f7bdb42cd19514c55bcbbe1de8e46dbbfc96073"
+        },
+        "dns": {
+            "ptr": "static.vnpt.vn"
+        },
+        "meta": {
+            "++title": "400 - Bad Request"
+        },
+        "banners": {
+            "1194": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d5fe63d587eaefc5221a1b44b3d8c799.jpeg"
+        }
+    }
+}

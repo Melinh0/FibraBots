@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 64664817,
+    "indicator": "92.205.20.105",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-02 08:46:54",
+    "stamp_updated": "2024-12-07 19:40:41",
+    "stamp_seen": "2024-12-07 19:40:41",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64664869,
+                "indicator": "https:\/\/92.205.20.105\/cgi-sys\/suspendedpage.cgi"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:39:04"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-02 08:46:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "Host Europe GmbH",
+            "city": "Strasbourg",
+            "region": [
+                "Bas-Rhin",
+                "Grand Est"
+            ],
+            "lat": "48.5855",
+            "long": "7.7418",
+            "asn": "AS21499"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "vary": "Accept-Encoding",
+            "content-length": "3893",
+            "++code": "200",
+            "content-encoding": "br",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/92.205.20.105\/",
+            "++redirect": "https:\/\/92.205.20.105\/cgi-sys\/suspendedpage.cgi",
+            "date": "Sat, 07 Dec 2024 19:40:12 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1",
+            "++title": "Account Suspended",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2025-01-13 23:59:59",
+            "issuer": "\/C=US\/O=cPanel, LLC\/CN=cPanel ECC Domain Validation Secure Server CA 3",
+            "org": "cPanel ECC Domain Validation Secure Server CA 3",
+            "valid": "2024-10-15 00:00:00",
+            "subject": "\/CN=fcrm.marketing",
+            "fingerprint": "7f571ec4a24efe8faf575c241b646a08d7b81edff9d0be063f0fb50fa4c03910",
+            "domain": [
+                "fcrm.marketing",
+                "www.fcrm.marketing"
+            ]
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.7\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000",
+            "3306": "_\u0000\u0000\u0000\ufffdj\u0004Host '104-200-28-14.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c16783ee3fb1dfc247dc9671fb367970.jpeg"
+        }
+    }
+}

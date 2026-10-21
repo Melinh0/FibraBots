@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 30790687,
+    "indicator": "14.6.16.137",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-12-30 16:09:49",
+    "stamp_updated": "2024-12-16 17:19:34",
+    "stamp_seen": "2024-12-16 17:19:34",
+    "stamp_probed": "2024-09-07 07:48:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-11-07 03:23:49"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-30 16:09:49"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-11-07 03:23:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-15 09:45:08"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22"
+        ],
+        "protocol": [
+            "FTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "e-mail": [
+                "ipadm@lguplus.co.kr",
+                "irt@nic.or.kr"
+            ],
+            "++phone": "+82-2-1-01",
+            "phone": "+82-2-1-01",
+            "address": [
+                "null",
+                "Seoul Yongsan-gu Hangang-daero 32",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA74-KR",
+                "IM574-AP",
+                "IM675-AP"
+            ],
+            "descr": "DACOM-PUBNETPLUS",
+            "netname": [
+                "PUBNETPLUS-KR",
+                "PUBNETPLUS"
+            ],
+            "nic-hdl": [
+                "IM74-KR",
+                "IM675-AP",
+                "IA74-KR"
+            ],
+            "tech-c": [
+                "IM74-KR",
+                "IM574-AP",
+                "IM675-AP"
+            ],
+            "last-modified": [
+                "2017-08-07T01:06:20Z",
+                "2017-02-02T06:32:37Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM675-AP",
+                "IA74-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ipadm@lguplus.co.kr",
+                "irt@nic.or.kr"
+            ],
+            "inetnum": "14.4.0.0 - 14.7.255.255",
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-08-07 01:06:20"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS17858",
+            "org": "LG POWERCOMM",
+            "city": "Gimpo-si",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Yongsan-gu Hangang-daero 32",
+                "null"
+            ],
+            "region": "Gyeonggi-do",
+            "lat": "37.626",
+            "long": "126.7152",
+            "country": "South Korea"
+        },
+        "banners": {
+            "21": "220 Operation successful\n",
+            "22": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0002\u0014\u000b\u0014\ufffd\ufffdU\ufffd\ufffdK\ufffd\u070f\ufffd\u03a11\ufffd?\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Z7g\t@:\ufffd{'_\ufffd"
+        }
+    }
+}

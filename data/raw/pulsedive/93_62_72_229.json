@@ -1,0 +1,94 @@
+{
+    "qid": null,
+    "iid": 21179771,
+    "indicator": "93.62.72.229",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-02-02 16:21:32",
+    "stamp_updated": "2024-10-11 06:19:04",
+    "stamp_seen": "2024-06-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": "2024-09-10 12:23:00",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-01 16:17:25"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-02-02 16:21:32"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-01 16:17:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-15 01:16:52"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "asn": "AS12874",
+            "isp": "Fastweb",
+            "org": "Fastweb",
+            "city": "Siena",
+            "zip": "53100",
+            "region": "Province of Siena",
+            "lat": "43.3182",
+            "long": "11.3306"
+        },
+        "dns": {
+            "ptr": "93-62-72-229.ip21.fastwebnet.it"
+        }
+    }
+}

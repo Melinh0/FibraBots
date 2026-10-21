@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 59333325,
+    "indicator": "65.20.233.3",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-14 19:27:50",
+    "stamp_updated": "2024-12-16 11:37:00",
+    "stamp_seen": "2024-12-14 20:46:10",
+    "stamp_probed": "2024-09-30 18:51:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59333514,
+                "indicator": "https:\/\/65.20.233.3\/"
+            },
+            {
+                "iid": 59333476,
+                "indicator": "https:\/\/65.20.233.3\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-14 19:27:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "jQuery UI",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "country": [
+                "AE",
+                "IQ"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-EARTH",
+                "Qussay",
+                "ae-earthlink-dmcc-1-mnt",
+                "iq-hulumtele-1-mnt",
+                "MNT-HULUM"
+            ],
+            "origin": [
+                "AS50710",
+                "AS203214"
+            ],
+            "address": [
+                "Dubai",
+                "UNITED ARAB EMIRATES",
+                "JLT, Cluster W, W2 Althanyah 5, Tiffany tower,office 1502",
+                "00971",
+                "JLT, Cluster W, W2  Althanyah 5, Tiffany tower,office 1502"
+            ],
+            "last-modified": [
+                "2020-12-16T13:20:13Z",
+                "2023-05-08T08:00:08Z",
+                "2017-12-12T10:53:55Z",
+                "2023-12-23T11:51:48Z",
+                "2021-01-04T07:41:46Z"
+            ],
+            "inetnum": "65.20.128.0 - 65.20.255.255",
+            "phone": "+971 45546487",
+            "netname": "AE-EARTHLINK-DMCC-20010129",
+            "nic-hdl": "QA156-RIPE",
+            "person": "Qussay Alkhateeb",
+            "tech-c": "QA156-RIPE",
+            "admin-c": "QA156-RIPE",
+            "++registrant": [
+                "Qussay Alkhateeb",
+                "QA156-RIPE"
+            ],
+            "created": [
+                "2023-05-08T08:00:08Z",
+                "2017-12-12T10:53:55Z",
+                "2017-12-12T10:53:54Z",
+                "2023-12-23T11:51:48Z",
+                "2021-01-04T07:41:46Z"
+            ],
+            "org": "ORG-ETET1-RIPE",
+            "mnt-ref": "ae-earthlink-dmcc-1-mnt",
+            "abuse-c": "AR44189-RIPE",
+            "organisation": "ORG-ETET1-RIPE",
+            "descr": "Hulum",
+            "org-name": "Earthlink Telecommunications Equipment Trading & Services DMCC",
+            "++updated": [
+                "2023-05-08 08:00:08",
+                "2020-12-16 13:20:13",
+                "2017-12-12 10:53:55",
+                "2023-12-23 11:51:48",
+                "2021-01-04 07:41:46"
+            ],
+            "++registered": [
+                "2023-05-08 08:00:08",
+                "2017-12-12 10:53:55",
+                "2017-12-12 10:53:54",
+                "2023-12-23 11:51:48",
+                "2021-01-04 07:41:46"
+            ],
+            "route": "65.20.233.0\/24"
+        },
+        "geo": {
+            "country": "Iraq",
+            "countrycode": "IQ",
+            "asn": "AS203214",
+            "org": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+            "city": "Karbala",
+            "region": "Muhafazat Karbala'",
+            "lat": "32.6211",
+            "long": "44.0281"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "lighttpd\/1.4.39",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "set-cookie": "ui_language=en_US; Path=\/; Expires=Tuesday, 1-Jan-38 00:00:00 GMT; HttpOnly",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/65.20.233.3\/login.cgi?uri=\/",
+            "++target": "http:\/\/65.20.233.3\/",
+            "date": "Thu, 24 May 2018 08:17:59 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "++title": "Login",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2018-05-23 13:25:00",
+            "expires": "2023-05-23 13:25:00",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-70:A7:41:14:FD:21\/E=support@ubnt.com",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-70:A7:41:14:FD:21\/E=support@ubnt.com",
+            "org": "UBNT-70:A7:41:14:FD:21",
+            "++subject": "Ubiquiti Networks Inc.",
+            "fingerprint": "cadaa15539cb8c3ec426bbc9ff5d8e6d97032c725d54855e9e12bd9a431b2fd5"
+        },
+        "cookies": {
+            "ui_language": "en_US",
+            "airos_70a74114fd21": "8cedf4f98a536c5f8d5f376898facdde"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ff76fc52834cbda7e05ee724aa71aa15.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2016.74\n\u0000\u0000\u0002,\u0006\u0014\ufffd>~bF\ufffd\ufffd\u06c7#R2{x\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000P\ufffd\u0018O\ufffdu"
+        }
+    }
+}

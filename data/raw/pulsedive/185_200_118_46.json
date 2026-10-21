@@ -1,0 +1,120 @@
+{
+    "qid": null,
+    "iid": 1397507,
+    "indicator": "185.200.118.46",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2018-06-05 01:06:48",
+    "stamp_updated": "2021-05-15 06:27:43",
+    "stamp_seen": "2021-05-15 06:27:44",
+    "stamp_probed": "2021-05-15 06:27:43",
+    "stamp_retired": "2020-09-17 12:56:17",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 07:24:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "GB",
+            "status": "LIR-PARTITIONED PA",
+            "++registered": "2017-04-24 00:00:00",
+            "mnt-by": "GLOBALAXS-MNT",
+            "origin": "AS9009",
+            "tech-c": [
+                "CB2407-RIPE",
+                "JB3482-RIPE",
+                "GBXS-RIPE"
+            ],
+            "address": [
+                "M32 0QT, Manchester - United Kingdom",
+                "1 Ball Green, Cobra Court"
+            ],
+            "nic-hdl": "GBXS-RIPE",
+            "role": "GLOBALAXS NOC",
+            "abuse-mailbox": "abuse@m247.ro",
+            "descr": "M247 LTD London Infrastructure",
+            "geoloc": "51.5285582 -0.2416799",
+            "netname": "M247-LTD-London",
+            "admin-c": "GBXS-RIPE",
+            "last-modified": [
+                "2017-04-21T15:20:06Z",
+                "2017-04-24T09:06:54Z",
+                "2018-09-10T17:32:45Z"
+            ],
+            "created": [
+                "2017-04-21T15:20:06Z",
+                "2017-04-24T09:06:54Z",
+                "2006-07-13T15:37:05Z"
+            ],
+            "route": "185.200.118.0\/24",
+            "inetnum": "185.200.118.0 - 185.200.118.255",
+            "++updated": "2018-09-10 00:00:00",
+            "++abuse": "abuse@m247.ro",
+            "++email": "abuse@m247.ro",
+            "++registrant": "GBXS-RIPE"
+        },
+        "geo": {
+            "countrycode": "GB",
+            "city": "London",
+            "asn": "AS9009",
+            "isp": "M247 Ltd",
+            "org": "M247 Ltd",
+            "zip": "E14",
+            "region": "England",
+            "country": "United Kingdom of Great Britain and Northern Ireland",
+            "lat": "51.5064",
+            "long": "-0.02"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.4"
+        },
+        "dns": {
+            "ptr": "adscore.com"
+        }
+    }
+}

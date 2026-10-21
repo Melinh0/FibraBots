@@ -1,0 +1,75 @@
+{
+    "qid": null,
+    "iid": 46264391,
+    "indicator": "45.145.7.29",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-04-01 01:05:36",
+    "stamp_updated": "2023-10-01 18:44:02",
+    "stamp_seen": "2023-06-30 02:19:04",
+    "stamp_probed": "2023-06-30 02:19:04",
+    "stamp_retired": "2023-10-01 18:44:02",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-01 01:05:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-04-19 10:46:31"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "region": "California",
+            "city": "Los Angeles",
+            "lat": "34.0544",
+            "country": "United States of America",
+            "zip": "90060",
+            "asn": "AS56971",
+            "long": "-118.2441",
+            "org": "Cgi Global Limited",
+            "isp": "Cgi Global Limited"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\n"
+        }
+    }
+}

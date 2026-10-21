@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 45516420,
+    "indicator": "75.27.151.14",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-03-09 10:54:39",
+    "stamp_updated": "2024-10-05 10:33:10",
+    "stamp_seen": "2024-07-02 01:08:34",
+    "stamp_probed": "2024-07-02 01:08:34",
+    "stamp_retired": "2024-10-05 10:33:10",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-05-02 06:08:29"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-09 10:54:39"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-05-02 06:08:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-05-05 11:48:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "city": "Redmond",
+            "postalcode": "98052",
+            "stateprov": "WA",
+            "parent": "NET75 (NET-75-0-0-0-0)",
+            "orgabuseemail": "abuse@att.net",
+            "orgabusephone": "+1-919-319-8167",
+            "orgtechphone": "+1-888-510-5545",
+            "netname": "SBCIS-SBIS-6BLK",
+            "netrange": "75.23.0.0 - 75.45.127.255",
+            "nethandle": "NET-75-23-0-0-1",
+            "orgabusehandle": "ABUSE7-ARIN",
+            "++registered": "2018-03-05 00:00:00",
+            "orgtechhandle": "ZS44-ARIN",
+            "orgtechname": "IPAdmin-ATT Internet Services",
+            "orgtechemail": "ipadmin@semail.att.com",
+            "regdate": [
+                "2018-03-05",
+                "2006-02-28"
+            ],
+            "updated": [
+                "2018-07-19",
+                "2024-05-28"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/75.23.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/AC-3280"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZS44-ARIN",
+            "++registrant": "AT&T Corp.",
+            "organization": "AT&T Corp. (AC-3280)",
+            "orgname": "AT&T Corp.",
+            "++email": "ipadmin@semail.att.com",
+            "orgid": "AC-3280",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE7-ARIN",
+            "address": [
+                "Attn: IP Management",
+                "7277 164th Ave NE"
+            ],
+            "cidr": "75.32.0.0\/13, 75.44.0.0\/16, 75.24.0.0\/13, 75.45.0.0\/17, 75.40.0.0\/14, 75.23.0.0\/16",
+            "++phone": "+1-919-319-8167",
+            "orgabusename": "abuse",
+            "orgroutingname": "Routing POC",
+            "++abuse": "+1-919-319-8167",
+            "orgroutingphone": "+1-999-999-9999",
+            "++updated": "2024-05-28 00:00:00",
+            "orgroutingemail": "routing@cbbtier3.att.net",
+            "orgroutinghandle": "ROUTI59-ARIN",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ROUTI59-ARIN"
+        },
+        "geo": {
+            "countrycode": "US",
+            "region": [
+                "Texas",
+                "WA"
+            ],
+            "asn": "AS7018",
+            "city": [
+                "Richmond",
+                "Redmond"
+            ],
+            "zip": [
+                "98052",
+                "77407"
+            ],
+            "country": "United States of America",
+            "org": [
+                "AT&T Corp. (AC-3280)",
+                "ATT-INTERNET4"
+            ],
+            "lat": "29.6654",
+            "long": "-95.7245",
+            "address": [
+                "Attn: IP Management",
+                "7277 164th Ave NE"
+            ],
+            "isp": "ATT-INTERNET4"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "server": "Boa\/0.94.14rc21",
+            "keep-alive": "timeout=10, max=995",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "18020",
+            "++content-type": "text\/html",
+            "date": "Sun, 16 Mar 2025 09:30:01 GMT",
+            "last-modified": "Sun, 16 Mar 2025 09:30:01 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/61f5596bfd962f55767a5bd2e2d305f1.jpeg"
+        },
+        "dns": {
+            "ptr": "75-27-151-14.lightspeed.hstntx.sbcglobal.net"
+        }
+    }
+}

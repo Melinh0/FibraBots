@@ -1,0 +1,165 @@
+{
+    "qid": null,
+    "iid": 32179196,
+    "indicator": "77.37.136.47",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-02-23 02:02:55",
+    "stamp_updated": "2024-12-09 10:39:02",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": "2024-08-29 01:02:58",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-03-28 03:16:28"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-02-23 02:02:55"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-03-28 03:16:28"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-02-24 17:04:32"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "22"
+        ],
+        "protocol": [
+            "SOCKS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "117105 Moscow, Russia",
+                "National Cable Networks",
+                "Nagatinskaya str., 1, bldn. 26"
+            ],
+            "admin-c": [
+                "RVP-RIPE",
+                "NCN7-RIPE"
+            ],
+            "descr": "NCNET",
+            "fax-no": "+7 495 6859530",
+            "mnt-by": "NCNET-MNT",
+            "mnt-lower": "NCNET-MNT",
+            "mnt-routes": "NCNET-MNT",
+            "nic-hdl": "NCN7-RIPE",
+            "org": "ORG-NCN1-RIPE",
+            "origin": "AS42610",
+            "phone": "+7 495 6859542",
+            "role": "NCNET NCC Operations",
+            "tech-c": [
+                "RVP-RIPE",
+                "NCN7-RIPE"
+            ],
+            "created": [
+                "2009-12-30T09:44:14Z",
+                "2007-03-26T07:46:58Z",
+                "2007-09-18T06:57:11Z"
+            ],
+            "inetnum": "77.37.128.0 - 77.37.159.255",
+            "last-modified": [
+                "2009-12-30T09:44:14Z",
+                "2015-10-12T11:53:05Z",
+                "2008-09-15T07:11:58Z"
+            ],
+            "netname": "NCN-INFRA",
+            "route": "77.37.128.0\/18",
+            "++registrant": [
+                "NCN7-RIPE",
+                "RVP-RIPE"
+            ],
+            "++abuse": "abuse@moscow.rt.ru",
+            "++updated": [
+                "2015-10-12 11:53:05",
+                "2009-12-30 09:44:14"
+            ],
+            "abuse-mailbox": "abuse@moscow.rt.ru",
+            "++registered": [
+                "2007-03-26 07:46:58",
+                "2009-12-30 09:44:14",
+                "2007-09-18 06:57:11"
+            ],
+            "++email": "abuse@moscow.rt.ru"
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS42610",
+            "org": "Rostelecom",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "broadband-77-37-136-47.ip.moscow.rt.ru"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n",
+            "1080": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

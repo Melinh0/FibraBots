@@ -1,0 +1,157 @@
+{
+    "qid": null,
+    "iid": 55337122,
+    "indicator": "77.51.214.170",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-22 06:53:58",
+    "stamp_updated": "2024-12-08 10:36:00",
+    "stamp_seen": "2024-11-20 07:13:10",
+    "stamp_probed": "2024-09-30 19:23:33",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-11 08:17:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-22 06:53:58"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-11 08:17:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "mnt-by": [
+                "ROSTELECOM-MNT",
+                "MNT-CTC"
+            ],
+            "origin": "AS12389",
+            "netname": "MACROREGIONAL_CENTER",
+            "abuse-mailbox": "ripe@rt.ru",
+            "address": [
+                "123154, Moscow",
+                "29\/2 Narodnogo Opolcheniya str.,"
+            ],
+            "nic-hdl": "CTC1-RIPE",
+            "role": "OJSC Rostelecom",
+            "tech-c": [
+                "AY25515",
+                "CTC1-RIPE"
+            ],
+            "descr": [
+                "CTC-JNPR-63",
+                "OJSC Rostelecom, Moscow Region Branch",
+                "ex-netname: CTC-DSLAM",
+                "Domodedovo Flat rate pool"
+            ],
+            "created": [
+                "2009-06-29T07:45:40Z",
+                "2008-11-18T17:38:53Z",
+                "2023-04-19T09:58:32Z"
+            ],
+            "admin-c": [
+                "CTC1-RIPE",
+                "AY25515"
+            ],
+            "++abuse": "ripe@rt.ru",
+            "++registrant": [
+                "CTC1-RIPE",
+                "AY25515"
+            ],
+            "++email": "ripe@rt.ru",
+            "route": "77.51.208.0\/21",
+            "last-modified": [
+                "2022-02-18T14:02:19Z",
+                "2012-08-17T12:54:31Z",
+                "2023-04-19T09:58:32Z"
+            ],
+            "inetnum": "77.51.212.0 - 77.51.217.255",
+            "++updated": [
+                "2022-02-18 14:02:19",
+                "2023-04-19 09:58:32"
+            ],
+            "++registered": [
+                "2009-06-29 07:45:40",
+                "2023-04-19 09:58:32"
+            ]
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS25515",
+            "org": "Rostelecom",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "pppoe-static.mosoblast.rt.ru"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\ufffd\n\u0014\ufffdw\u0017\ufffd\ufffd\ufffd\ufffd\f\ufffdo2Z\ufffdqwF\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-256,ssh-rsa\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u00003chacha20-poly1305@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000L5SM\ufffd\ufffdx_\ufffd"
+        }
+    }
+}

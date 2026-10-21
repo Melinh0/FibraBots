@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 57886519,
+    "indicator": "72.68.34.246",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-02 03:34:52",
+    "stamp_updated": "2024-12-10 23:09:37",
+    "stamp_seen": "2024-12-10 23:09:37",
+    "stamp_probed": "2024-08-15 07:25:11",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-02 03:34:52"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-19 22:53:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "4444",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": [
+                "Abuse",
+                "abuse"
+            ],
+            "orgtechemail": "swipper@verizon.com",
+            "++email": "swipper@verizon.com",
+            "stateprov": "VA",
+            "parent": "NET72 (NET-72-0-0-0-0)",
+            "++phone": "+1-800-900-0241",
+            "address": "22001 Loudoun County Pkwy",
+            "city": "Ashburn",
+            "orgabusehandle": [
+                "ABUSE3-ARIN",
+                "ABUSE5603-ARIN"
+            ],
+            "orgabusephone": "+1-800-900-0241",
+            "orgid": "MCICS",
+            "orgtechhandle": "SWIPP9-ARIN",
+            "orgtechphone": "+1-800-900-0241",
+            "postalcode": "20147",
+            "rabuseemail": "abuse@verizon.net",
+            "rabusehandle": "ABUSE5603-ARIN",
+            "rabusename": "Abuse",
+            "rabusephone": "+1-800-900-0241",
+            "regdate": [
+                "2006-05-30",
+                "2005-06-24"
+            ],
+            "netname": "VIS-72-64",
+            "++registered": "2006-05-30 00:00:00",
+            "nethandle": "NET-72-65-128-0-1",
+            "netrange": "72.65.128.0 - 72.71.191.255",
+            "cidr": "72.68.0.0\/15, 72.65.128.0\/17, 72.71.128.0\/18, 72.66.0.0\/15, 72.70.0.0\/16, 72.71.0.0\/17",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/SWIPP9-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MCICS",
+                "https:\/\/rdap.arin.net\/registry\/ip\/72.65.128.0"
+            ],
+            "orgabuseref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE3-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5603-ARIN"
+            ],
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5603-ARIN",
+            "++abuse": "abuse@verizon.net",
+            "orgabuseemail": "abuse@verizon.net",
+            "orgtechname": "SWIPPER",
+            "orgname": "Verizon Business",
+            "++registrant": "Verizon Business",
+            "organization": "Verizon Business (MCICS)",
+            "updated": [
+                "2022-05-31",
+                "2024-02-12"
+            ],
+            "orgdnsemail": "dnsadmin@verizon.com",
+            "orgdnshandle": "VZDNS1-ARIN",
+            "orgdnsname": "VZ-DNSADMIN",
+            "orgdnsref": "https:\/\/rdap.arin.net\/registry\/entity\/VZDNS1-ARIN",
+            "orgdnsphone": "+1-800-900-0241",
+            "++updated": "2024-02-12 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "VA"
+            ],
+            "asn": "AS701",
+            "city": [
+                "Ashburn",
+                "Cliffside Park"
+            ],
+            "zip": "20147",
+            "address": "22001 Loudoun County Pkwy",
+            "lat": "40.8177",
+            "long": "-73.9771",
+            "org": [
+                "UUNET",
+                "Verizon Business (MCICS)"
+            ]
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "content-security-policy": "frame-ancestors 'none'",
+            "++code": "200",
+            "++status": "OK",
+            "x-frame-options": "deny",
+            "++content-type": "text\/html",
+            "content-length": "272",
+            "last-modified": "Thu, 17 Feb 2022 00:46:48 GMT",
+            "expires": "0",
+            "etag": "\"8f7-110-620d9af8\"",
+            "date": "Sat, 11 May 2024 13:30:49 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=CN\/CN=tplinkwifi.net",
+            "subject": "\/C=CN\/CN=tplinkwifi.net",
+            "org": "tplinkwifi.net",
+            "expires": "2030-12-31 00:00:00",
+            "valid": "2010-01-01 00:00:00",
+            "++self-signed": "1"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/61f5596bfd962f55767a5bd2e2d305f1.jpeg"
+        },
+        "dns": {
+            "ptr": "static-72-68-34-246.nwrknj.fios.verizon.net"
+        }
+    }
+}

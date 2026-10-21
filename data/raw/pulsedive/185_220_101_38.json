@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 10580235,
+    "indicator": "185.220.101.38",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-03-26 07:12:29",
+    "stamp_updated": "2024-12-14 22:20:29",
+    "stamp_seen": "2024-12-14 22:20:29",
+    "stamp_probed": "2024-08-29 04:31:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 11650815,
+                "indicator": "http:\/\/185.220.101.38\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-10-27 04:05:06"
+        },
+        {
+            "tid": 2373,
+            "name": "Ivanti Connect Secure VPN Exploitation",
+            "category": "vulnerability",
+            "risk": "high",
+            "stamp_linked": "2024-02-02 14:39:41"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-07-24 04:49:21"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-04-21 12:13:11"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-07-24 04:49:21"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2021-10-27 04:05:06"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "ZWIEBELFREUNDE",
+                "FORPRIVACYNET-MNT",
+                "lir-de-renewablefreedom-1-MNT"
+            ],
+            "origin": "AS60729",
+            "netname": "TOR-EXIT",
+            "descr": "Network for Tor-Exit traffic.",
+            "route": "185.220.101.0\/24",
+            "mnt-ref": "ZWIEBELFREUNDE",
+            "++phone": "+49",
+            "phone": "+49",
+            "address": [
+                "Germany",
+                "Steinweg 18\/20",
+                "53121 Bonn"
+            ],
+            "++registrant": [
+                "Marco Maske",
+                "MM55214-RIPE"
+            ],
+            "last-modified": [
+                "2021-08-31T19:06:52Z",
+                "2021-09-27T18:22:06Z",
+                "2021-09-27T17:52:49Z",
+                "2024-02-12T10:24:45Z"
+            ],
+            "created": [
+                "2021-08-31T19:06:52Z",
+                "2021-08-26T17:37:00Z",
+                "2021-08-26T20:47:07Z",
+                "2022-01-22T11:20:57Z"
+            ],
+            "inetnum": "185.220.101.32 - 185.220.101.63",
+            "nic-hdl": "MM55214-RIPE",
+            "person": "Marco Maske",
+            "org-name": "ForPrivacyNET",
+            "abuse-c": "ACRO42986-RIPE",
+            "organisation": "ORG-FA1168-RIPE",
+            "org": "ORG-FA1168-RIPE",
+            "fax-no": "+49 228 92934876",
+            "admin-c": "MM55214-RIPE",
+            "tech-c": "MM55214-RIPE",
+            "++updated": [
+                "2024-02-12 10:24:45",
+                "2021-09-27 18:22:06",
+                "2021-09-27 17:52:49"
+            ],
+            "++registered": [
+                "2022-01-22 11:20:57",
+                "2021-08-31 19:06:52",
+                "2021-08-26 17:37:00",
+                "2021-08-26 20:47:07"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Brandenburg",
+            "city": "Brandenburg",
+            "asn": "AS60729",
+            "lat": "52.6171",
+            "long": "13.1207",
+            "org": "Stiftung Erneuerbare Freiheit"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "content-length": "17550",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "x-your-address-is": "172.232.128.133",
+            "++target": "http:\/\/185.220.101.38\/",
+            "expires": "Tue, 22 Oct 2024 05:11:56 GMT",
+            "date": "Tue, 22 Oct 2024 04:51:56 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "++title": "This is a Tor Exit Router"
+        },
+        "dns": {
+            "ptr": "tor-exit-38.for-privacy.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/00b91826efc3a6f88ba2f1d1712f92fd.jpeg"
+        }
+    }
+}

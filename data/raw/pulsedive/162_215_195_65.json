@@ -1,0 +1,137 @@
+{
+    "qid": null,
+    "iid": 59734628,
+    "indicator": "162.215.195.65",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-29 14:59:48",
+    "stamp_updated": "2024-12-16 17:24:46",
+    "stamp_seen": "2024-12-16 17:24:46",
+    "stamp_probed": "2024-09-30 04:53:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-29 14:59:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++registered": [
+                "2013-05-22 00:00:00",
+                "2006-08-08 00:00:00"
+            ],
+            "orgabusename": "Network Operations Center",
+            "updated": [
+                "2013-12-19",
+                "2020-01-31"
+            ],
+            "orgnocname": "EIG Network Operations",
+            "parent": "NET162 (NET-162-0-0-0-0)",
+            "stateprov": "UT",
+            "++abuse": "abuse@bluehost.com",
+            "regdate": [
+                "2013-05-22",
+                "2006-08-08"
+            ],
+            "city": "Provo",
+            "referralserver": "rwhois:\/\/rwhois.unifiedlayer.com:4321",
+            "address": "1958 South 950 East",
+            "++registrant": "Unified Layer",
+            "originas": "AS46606",
+            "organization": "Unified Layer (BLUEH-2)",
+            "postalcode": "84606",
+            "orgname": "Unified Layer",
+            "orgid": "BLUEH-2",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BLUEH-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/162.214.0.0"
+            ],
+            "netrange": "162.214.0.0 - 162.215.255.255",
+            "netname": "UNIFIEDLAYER-NETWORK-15",
+            "nethandle": "NET-162-214-0-0-1",
+            "cidr": "162.214.0.0\/15",
+            "orgnocemail": "eig-noc@endurance.com",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ENO74-ARIN",
+            "orgtechhandle": "ENO74-ARIN",
+            "orgnochandle": "ENO74-ARIN",
+            "orgtechname": "EIG Network Operations",
+            "++email": "eig-noc@endurance.com",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/ENO74-ARIN",
+            "orgtechemail": "eig-noc@endurance.com",
+            "orgnocphone": "+1-781-852-3200",
+            "orgtechphone": "+1-781-852-3200",
+            "++phone": "+1-781-852-3200",
+            "++updated": "2020-01-31 00:00:00",
+            "orgabuseemail": "abuse@bluehost.com",
+            "orgabusephone": "+1-801-765-9400",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC2320-ARIN",
+            "orgabusehandle": "NOC2320-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS46606",
+            "city": "Provo",
+            "zip": "84606",
+            "region": "UT",
+            "address": "1958 South 950 East",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "Unified Layer (BLUEH-2)",
+                "UNIFIEDLAYER-AS-1"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.9\n"
+        },
+        "dns": {
+            "ptr": "162-215-195-65.unifiedlayer.com"
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "qid": null,
+    "iid": 65722698,
+    "indicator": "196.20.68.82",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-09 10:34:46",
+    "stamp_updated": "2024-12-15 11:32:37",
+    "stamp_seen": "2024-12-09 10:51:55",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65725639,
+                "indicator": "https:\/\/196.20.68.82\/remote\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 10:34:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "address": "Alger",
+            "admin-c": "SD6-AFRINIC",
+            "country": "DZ",
+            "mnt-by": [
+                "DJAWEB-MNT",
+                "GENERATED-IRIXFFLWUREDGEB9HMRODGUJH3OJCIPE-MNT"
+            ],
+            "nic-hdl": "SD6-AFRINIC",
+            "origin": "AS36947",
+            "person": "Security Departement",
+            "tech-c": "SD6-AFRINIC",
+            "phone": "tel:+213-21-91-12-24",
+            "fax-no": "tel:+213-21-91-12-08",
+            "route": "196.20.64.0\/18",
+            "inetnum": "196.20.68.0 - 196.20.68.255",
+            "mnt-lower": "DJAWEB-MNT",
+            "netname": "clients-Algiers-backbone",
+            "descr": [
+                "route 3 from djaweb de AS fawri",
+                "clients on backbone in Algiers"
+            ],
+            "++registrant": [
+                "SD6-AFRINIC",
+                "Security Departement"
+            ],
+            "source": "AFRINIC # Filtered",
+            "parent": "196.20.64.0 - 196.20.127.255"
+        },
+        "geo": {
+            "asn": "AS36947",
+            "country": "Algeria",
+            "countrycode": "DZ",
+            "org": "Telecom Algeria",
+            "lat": "36.7642",
+            "long": "3.1468",
+            "address": "Alger"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "connection": "Keep-Alive",
+            "content-type": [
+                "text\/plain",
+                "text\/html; charset=utf-8"
+            ],
+            "strict-transport-security": "max-age=31536000",
+            "server": "xxxxxxxx-xxxxx",
+            "x-ua-compatible": "requiresActiveX=true",
+            "++code": [
+                "200",
+                "302"
+            ],
+            "transfer-encoding": "chunked",
+            "++status": [
+                "OK",
+                "Found"
+            ],
+            "keep-alive": [
+                "timeout=10, max=98",
+                "timeout=10, max=99"
+            ],
+            "++content-type": "text\/plain",
+            "content-security-policy": "frame-ancestors 'self'; object-src 'self'; script-src 'self' https:   'unsafe-eval' 'unsafe-inline' blob:;",
+            "set-cookie": "SVPNCOOKIE=; path=\/; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly; SameSite=Strict;\nSVPNNETWORKCOOKIE=; path=\/remote\/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly; SameSite=Strict",
+            "location": "\/remote\/login?lang=en",
+            "date": "Mon, 09 Dec 2024 10:49:15 GMT",
+            "content-length": "0",
+            "++redirect": "https:\/\/196.20.68.82\/remote\/login?lang=en",
+            "++target": "http:\/\/196.20.68.82\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "x-ua-compatible": "IE=8; IE=EDGE",
+            "++title": "Please Login",
+            "apple-itunes-app": "app-id=1475674905"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2056-01-19 03:14:07",
+            "org": "fortinet-subca2001",
+            "issuer": "\/C=US\/ST=California\/L=Sunnyvale\/O=Fortinet\/OU=Certificate Authority\/CN=fortinet-subca2001\/E=support@fortinet.com",
+            "++subject": "Fortinet",
+            "fingerprint": "dbd1a31f782c4f6bdc372c52b110d0ea4461542701f84d9af89f1490486b7c26",
+            "valid": "2019-02-22 03:45:11",
+            "subject": "\/C=US\/ST=California\/L=Sunnyvale\/O=Fortinet\/OU=FortiGate\/CN=FG5H1E5819902226\/E=support@fortinet.com"
+        }
+    }
+}

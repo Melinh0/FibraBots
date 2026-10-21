@@ -1,0 +1,222 @@
+{
+    "qid": null,
+    "iid": 55051531,
+    "indicator": "162.241.69.168",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-11 09:00:03",
+    "stamp_updated": "2024-12-17 11:33:57",
+    "stamp_seen": "2024-12-16 17:25:08",
+    "stamp_probed": "2024-09-30 05:00:07",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55051963,
+                "indicator": "http:\/\/162.241.69.168\/"
+            },
+            {
+                "iid": 64084547,
+                "indicator": "https:\/\/162.241.69.168\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-20 20:34:57"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-11 09:00:03"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-20 20:34:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-12 17:54:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "DataTables",
+            "Handlebars",
+            "Java",
+            "jQuery",
+            "jQuery UI",
+            "Let's Encrypt",
+            "Modernizr",
+            "RSS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Network Operations Center",
+            "orgnocname": "EIG Network Operations",
+            "orgnocphone": "+1-877-659-6181",
+            "parent": "NET162 (NET-162-0-0-0-0)",
+            "++registered": [
+                "2013-08-22 00:00:00",
+                "2006-08-08 00:00:00"
+            ],
+            "stateprov": "UT",
+            "++abuse": "abuse@bluehost.com",
+            "regdate": [
+                "2013-08-22",
+                "2006-08-08"
+            ],
+            "updated": [
+                "2013-08-22",
+                "2020-01-31"
+            ],
+            "city": "Provo",
+            "referralserver": "rwhois:\/\/rwhois.unifiedlayer.com:4321",
+            "address": "1958 South 950 East",
+            "++registrant": "Unified Layer",
+            "originas": "AS46606",
+            "organization": "Unified Layer (BLUEH-2)",
+            "postalcode": "84606",
+            "orgname": "Unified Layer",
+            "orgid": "BLUEH-2",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BLUEH-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/162.240.0.0"
+            ],
+            "netname": "UNIFIEDLAYER-NETWORK-16",
+            "nethandle": "NET-162-240-0-0-1",
+            "cidr": "162.240.0.0\/15",
+            "netrange": "162.240.0.0 - 162.241.255.255",
+            "orgnocemail": "eig-noc@endurance.com",
+            "++phone": "+1-877-659-6181",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ENO74-ARIN",
+            "orgtechhandle": "ENO74-ARIN",
+            "orgnochandle": "ENO74-ARIN",
+            "orgtechphone": "+1-877-659-6181",
+            "orgtechname": "EIG Network Operations",
+            "++email": "eig-noc@endurance.com",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/ENO74-ARIN",
+            "orgtechemail": "eig-noc@endurance.com",
+            "++updated": "2020-01-31 00:00:00",
+            "orgabuseemail": "abuse@bluehost.com",
+            "orgabusephone": "+1-801-765-9400",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC2320-ARIN",
+            "orgabusehandle": "NOC2320-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": "Provo",
+            "zip": "84606",
+            "asn": "AS19871",
+            "region": "UT",
+            "address": "1958 South 950 East",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "Unified Layer (BLUEH-2)",
+                "NETWORK-SOLUTIONS-HOSTING"
+            ]
+        },
+        "http": {
+            "content-language": "en-US",
+            "keep-alive": "timeout=60",
+            "x-cocoon-version": "2.2.0",
+            "content-length": "28991",
+            "++code": "200",
+            "connection": "keep-alive",
+            "content-type": "text\/html;charset=utf-8",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/162.241.69.168\/",
+            "++target": "http:\/\/162.241.69.168\/",
+            "date": "Mon, 18 Nov 2024 18:40:46 GMT",
+            "set-cookie": "JSESSIONID=EA91C83C9F76CD01B5E03331D4BBE49F; Path=\/; Secure; HttpOnly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "viewport": "width=device-width,initial-scale=1",
+            "++title": "DSpace Home",
+            "content-type": "text\/html; charset=UTF-8",
+            "generator": "DSpace 6.4"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": "repositorio.escuelageneralisimo.edu.pe",
+            "subject": "\/CN=repositorio.escuelageneralisimo.edu.pe",
+            "expires": "2024-12-29 23:01:42",
+            "valid": "2024-09-30 23:01:43",
+            "fingerprint": "b58cb01569e5460a3c16279ca98d6ebd0576283c4c477bf81d0ce933c7d4c0da"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dns": {
+            "ptr": "162-241-69-168.webhostbox.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/edfdb5b9f18130c424db3b6268ff2577.jpeg"
+        },
+        "cookies": {
+            "jsessionid": "EA91C83C9F76CD01B5E03331D4BBE49F"
+        }
+    }
+}

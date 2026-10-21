@@ -1,0 +1,137 @@
+{
+    "qid": null,
+    "iid": 53611946,
+    "indicator": "200.139.74.151",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-30 03:46:59",
+    "stamp_updated": "2024-12-11 13:10:20",
+    "stamp_seen": "2024-12-11 13:10:19",
+    "stamp_probed": "2024-07-28 20:06:59",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-30 03:46:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS18881",
+            "region": "Minas Gerais",
+            "city": "Belo Horizonte",
+            "org": "TELEFONICA BRASIL S.A",
+            "lat": "-19.9029",
+            "long": "-43.9572"
+        },
+        "whois": {
+            "aut-num": "AS18881",
+            "created": [
+                "20010613",
+                "20030528",
+                "20080407",
+                "20180713"
+            ],
+            "nic-hdl-br": [
+                "GVO6",
+                "ARITE",
+                "CSTBR"
+            ],
+            "owner-c": "ARITE",
+            "ownerid": "02.558.157\/0001-62",
+            "person": [
+                "GVT Operacao",
+                "CSIRT TELEFONICA BR",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "responsible": "Diretoria de Planejamento e Tecnologia",
+            "tech-c": "GVO6",
+            "nserver": [
+                "dns3.gvt.net.br",
+                "dns2.gvt.net.br",
+                "dns1.gvt.net.br"
+            ],
+            "country": "BR",
+            "changed": [
+                "20160909",
+                "20180713",
+                "20220331",
+                "20230629"
+            ],
+            "inetnum": "200.139.64.0\/18",
+            "e-mail": [
+                "dominios-vivo.br@telefonica.com",
+                "abuse.br@telefonica.com",
+                "c.servicoip.br@telefonica.com"
+            ],
+            "abuse-c": "CSTBR",
+            "++registrant": [
+                "CSIRT TELEFONICA BR",
+                "GVT Operacao",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "++email": [
+                "dominios-vivo.br@telefonica.com",
+                "abuse.br@telefonica.com",
+                "c.servicoip.br@telefonica.com"
+            ],
+            "owner": "TELEF\ufffdNICA BRASIL S.A",
+            "inetrev": "200.139.74.0\/24",
+            "nsstat": "20241016 AA",
+            "nslastaa": "20241016"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "22": "SSH-2.0-OpenSSH_6.7\n"
+        },
+        "dns": {
+            "ptr": "advocaciabellinati.rjo.gvt.net.br"
+        }
+    }
+}

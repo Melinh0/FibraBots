@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 54811865,
+    "indicator": "89.185.85.104",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-02 07:43:55",
+    "stamp_updated": "2024-12-15 00:58:23",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-09-30 20:33:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-02 07:43:55"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-16 00:11:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "tech-c": "OP2502-RIPE",
+            "mnt-by": [
+                "ru-permtelecom-1-mnt",
+                "aeza-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "++phone": "+73422000289",
+            "admin-c": "IG2940-RIPE",
+            "nic-hdl": [
+                "OP2502-RIPE",
+                "IG2940-RIPE"
+            ],
+            "person": [
+                "Oleg Pischulev",
+                "Igor Gilmutdinov"
+            ],
+            "phone": "+73422000289",
+            "address": [
+                "Perm",
+                "Malkova, 12",
+                "614087",
+                "RUSSIAN FEDERATION",
+                "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom"
+            ],
+            "last-modified": [
+                "2016-04-01T13:54:40Z",
+                "2022-07-06T11:28:41Z",
+                "2022-07-06T17:24:50Z",
+                "2023-11-30T11:31:28Z"
+            ],
+            "mnt-ref": [
+                "ru-permtelecom-1-mnt",
+                "cicnet-mnt",
+                "INTERLAN-MNT"
+            ],
+            "created": [
+                "2016-04-01T13:54:40Z",
+                "2022-06-17T15:50:56Z",
+                "2022-06-02T13:22:26Z",
+                "2022-07-06T17:24:50Z"
+            ],
+            "++registrant": [
+                "IG2940-RIPE",
+                "Igor Gilmutdinov",
+                "Oleg Pischulev"
+            ],
+            "netname": "RU-PERMTELECOM",
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "mnt-domains": [
+                "aeza-mnt",
+                "AM-VDS"
+            ],
+            "mnt-routes": [
+                "aeza-mnt",
+                "AM-VDS"
+            ],
+            "route": "89.185.85.0\/24",
+            "org": "ORG-AA2777-RIPE",
+            "organisation": "ORG-AA2777-RIPE",
+            "inetnum": "89.185.85.0 - 89.185.85.255",
+            "org-name": "Aeza International LTD",
+            "++registered": [
+                "2016-04-01 13:54:40",
+                "2022-06-17 15:50:56",
+                "2022-07-06 17:24:50"
+            ],
+            "++updated": [
+                "2016-04-01 13:54:40",
+                "2023-11-30 11:31:28",
+                "2022-07-06 17:24:50"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Hesse",
+            "long": "8.6842",
+            "city": "Frankfurt am Main",
+            "lat": "50.1187",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.5\n"
+        },
+        "dns": {
+            "ptr": "slow-bed.aeza.network"
+        }
+    }
+}

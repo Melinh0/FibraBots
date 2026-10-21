@@ -1,0 +1,147 @@
+{
+    "qid": null,
+    "iid": 65396004,
+    "indicator": "116.66.190.67",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-28 09:53:44",
+    "stamp_updated": "2024-12-11 10:38:23",
+    "stamp_seen": "2024-11-28 09:54:09",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65396062,
+                "indicator": "http:\/\/116.66.190.67\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-28 09:53:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-PVTABNL"
+            ],
+            "descr": [
+                "ALLNET BROADBAND NETWORK PVT LTD",
+                "Allnet Broadband Network Pvt Ltd"
+            ],
+            "mnt-routes": "MAINT-IN-PVTABNL",
+            "mnt-irt": "IRT-PVTABNL-IN",
+            "e-mail": "techsupport@allnet.co.in",
+            "admin-c": [
+                "NG233-AP",
+                "MN599-AP"
+            ],
+            "abuse-mailbox": "techsupport@allnet.co.in",
+            "tech-c": [
+                "NG233-AP",
+                "MN599-AP"
+            ],
+            "address": "NO 1\/B, 2ND FLOOR SY.NO 34\/1, 2ND MAIN, RMV 2ND STAGE , KGE LAYOUT, NEW BEL ROAD,,Bangalore,Karnataka-560094",
+            "netname": "PVTABNL",
+            "origin": "AS135724",
+            "nic-hdl": "MN599-AP",
+            "notify": "techsupport@allnet.co.in",
+            "irt": "IRT-PVTABNL-IN",
+            "phone": "+91 7022288882",
+            "last-modified": [
+                "2016-07-12T05:51:08Z",
+                "2016-07-12T05:50:44Z",
+                "2016-07-18T00:49:20Z",
+                "2017-03-16T09:16:43Z"
+            ],
+            "++abuse": "techsupport@allnet.co.in",
+            "++registrant": [
+                "MN599-AP",
+                "NG233-AP"
+            ],
+            "++email": "techsupport@allnet.co.in",
+            "inetnum": "116.66.188.0 - 116.66.191.255",
+            "mnt-lower": "MAINT-IN-PVTABNL",
+            "role": "MANAGER NOC",
+            "route": "116.66.190.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2016-07-12 05:51:08",
+                "2016-07-12 05:50:44",
+                "2016-07-18 00:49:20",
+                "2017-03-16 09:16:43"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Karnataka",
+            "city": "Bengaluru",
+            "asn": "AS135724",
+            "org": "Allnet Broadband Network Pvt Ltd",
+            "address": "NO 1\/B, 2ND FLOOR SY.NO 34\/1, 2ND MAIN, RMV 2ND STAGE , KGE LAYOUT, NEW BEL ROAD,,Bangalore,Karnataka-560094",
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "content-length": "272",
+            "last-modified": "Fri, 23 Dec 2022 07:40:55 GMT",
+            "etag": "\"fd1-110-63a55b87\"",
+            "date": "Thu, 28 Nov 2024 09:53:55 GMT",
+            "++target": "http:\/\/116.66.190.67\/"
+        },
+        "meta": {
+            "refresh": "0; URL=\/webpages\/login.html"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001,\u0007\u00144\ufffd\ufffd\ufffd\u0018\u0014\ufffd3\u0157\ufffdA!k\ufffd\ufffd\u0000\u0000\u0000mcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u071e\u0007\ufffdL="
+        }
+    }
+}

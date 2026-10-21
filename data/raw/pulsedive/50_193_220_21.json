@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 38586710,
+    "indicator": "50.193.220.21",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-08-31 19:46:06",
+    "stamp_updated": "2024-12-14 20:42:21",
+    "stamp_seen": "2024-12-14 20:42:21",
+    "stamp_probed": "2024-09-30 17:00:37",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 38586780,
+                "indicator": "http:\/\/50.193.220.21\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-09-15 07:20:55"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-08-31 19:46:06"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-11 14:03:52"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-09-15 07:20:55"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-09-06 19:50:31"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NJ",
+            "++abuse": "abuse@comcast.net",
+            "++registrant": "Comcast Cable Communications, LLC",
+            "address": "1800 Bishops Gate Blvd",
+            "city": "Mt Laurel",
+            "orgabuseemail": "abuse@comcast.net",
+            "orgabusehandle": "NAPO-ARIN",
+            "orgabusename": "Network Abuse and Policy Observance",
+            "orgabusephone": "+1-888-565-4329",
+            "organization": "Comcast Cable Communications, LLC (CCCS)",
+            "orgid": "CCCS",
+            "orgname": "Comcast Cable Communications, LLC",
+            "orgtechemail": "CNIPEO-Ip-registration@cable.comcast.com",
+            "orgtechhandle": "IC161-ARIN",
+            "orgtechname": "Comcast Cable Communications Inc",
+            "postalcode": "08054",
+            "originas": "AS7922",
+            "parent": "NET50 (NET-50-0-0-0-0)",
+            "++registered": [
+                "2010-10-21 00:00:00",
+                "2001-09-18 00:00:00"
+            ],
+            "cidr": "50.128.0.0\/9",
+            "nethandle": "NET-50-128-0-0-1",
+            "netname": "CCCH3-4",
+            "netrange": "50.128.0.0 - 50.255.255.255",
+            "regdate": [
+                "2010-10-21",
+                "2001-09-18"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IC161-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CCCS",
+                "https:\/\/rdap.arin.net\/registry\/ip\/50.128.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NAPO-ARIN",
+            "++updated": [
+                "2020-11-18 00:00:00",
+                "2021-01-25 00:00:00"
+            ],
+            "orgroutingname": "Routing",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ROUTI25-ARIN",
+            "updated": [
+                "2020-11-18",
+                "2021-01-25"
+            ],
+            "orgroutinghandle": "ROUTI25-ARIN",
+            "orgroutingemail": "routing@comcast.com",
+            "++phone": "+1-856-792-2300",
+            "orgtechphone": "+1-856-792-2300",
+            "orgroutingphone": "+1-856-792-2300",
+            "++email": "cnipeo-ip-registration@cable.comcast.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Oregon",
+                "NJ"
+            ],
+            "asn": "AS7922",
+            "city": [
+                "Portland",
+                "Mt Laurel"
+            ],
+            "zip": "08054",
+            "address": "1800 Bishops Gate Blvd",
+            "org": [
+                "Comcast Cable Communications, LLC (CCCS)",
+                "COMCAST-7922"
+            ],
+            "lat": "45.4752",
+            "long": "-122.5561"
+        },
+        "http": {
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000",
+            "vary": "Origin",
+            "content-length": "211",
+            "server": "wfe",
+            "content-disposition": "inline",
+            "cache-control": "no-cache, public",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "content-security-policy": "default-src 'self'; frame-src 'self'; frame-ancestors 'none'; connect-src *; style-src 'unsafe-inline' 'self'; script-src blob: 'unsafe-eval' 'unsafe-inline' 'self'; media-src blob: *; img-src blob: data: about: 'self' cloudvue.com *.cloudvue.com;",
+            "last-modified": "Wed, 25 Aug 2021 05:22:17 GMT",
+            "++target": "http:\/\/50.193.220.21\/",
+            "date": "Tue, 22 Oct 2024 18:51:07 GMT",
+            "expires": "Tue, 22 Oct 2024 18:51:07 GMT",
+            "x-digest": "2LXNS8Dvdy2M7fMCPjYGReBLATv5uC0i4yGm67LIbtg="
+        },
+        "meta": {
+            "++title": "Index"
+        },
+        "dns": {
+            "ptr": "50-193-220-21-static.hfc.comcastbusiness.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/91d0090a32725e1b47bd028f8f5aea59.jpeg"
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "qid": null,
+    "iid": 64664708,
+    "indicator": "82.208.23.8",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-02 08:46:31",
+    "stamp_updated": "2024-11-03 08:52:07",
+    "stamp_seen": "2024-11-02 08:46:59",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64664829,
+                "indicator": "https:\/\/82.208.23.8\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-02 08:46:31"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "443",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "LiteSpeed"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS51167",
+            "org": "Contabo GmbH",
+            "region": "North Rhine-Westphalia",
+            "lat": "51.1878",
+            "long": "6.8607",
+            "city": "D\ufffdsseldorf"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "server": "LiteSpeed",
+            "content-encoding": "gzip",
+            "cache-control": "private, no-cache, max-age=0",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "date": "Sat, 02 Nov 2024 08:46:37 GMT",
+            "++redirect": "https:\/\/82.208.23.8\/",
+            "++target": "http:\/\/82.208.23.8\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "++title": "404 Not Found"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "fingerprint": "6b8d4fd1f11d036916f91116d407b390d3b65c3864d0453d8606f4f536fa4bd7",
+            "expires": "2025-01-07 17:17:24",
+            "valid": "2024-10-09 17:17:25",
+            "domain": "3fsolut.com.br",
+            "subject": "\/CN=3fsolut.com.br"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220 3fsolut.com.br ESMTP Postfix (Ubuntu)\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4a3c1feb44514cd7db3f8a922f9c08a4.jpeg"
+        }
+    }
+}

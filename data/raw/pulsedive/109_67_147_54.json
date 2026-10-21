@@ -1,0 +1,119 @@
+{
+    "qid": null,
+    "iid": 64690553,
+    "indicator": "109.67.147.54",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-03 08:38:21",
+    "stamp_updated": "2024-12-09 10:28:27",
+    "stamp_seen": "2024-11-03 08:38:59",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64690582,
+                "indicator": "https:\/\/109.67.147.54\/weblogin.htm"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-03 08:38:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "AngularJS",
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Israel",
+            "countrycode": "IL",
+            "city": "Tel Aviv",
+            "region": "Tel Aviv",
+            "asn": "AS6810",
+            "org": "Bezeq- THE ISRAEL TELECOMMUNICATION CORP. LTD.",
+            "lat": "32.0803",
+            "long": "34.7805"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "content-encoding": "gzip",
+            "server": "Server",
+            "content-length": "6930",
+            "++code": "200",
+            "++status": "OK",
+            "strict-transport-security": "max-age=31536000; includeSubdomains",
+            "++content-type": "text\/html",
+            "permissions-policy": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
+            "content-security-policy": "default-src 'self';frame-ancestors 'self';form-action 'self';script-src 'self' 'nonce-draytek' 'unsafe-eval';style-src 'self' 'nonce-draytek';img-src 'self' data:;connect-src 'self' *.draytek.com *.draytek.com.tw",
+            "++target": "https:\/\/109.67.147.54\/",
+            "++redirect": "https:\/\/109.67.147.54\/weblogin.htm",
+            "date": "Sun, 03 Nov 2024 08:38:29 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "subject": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "version": "v3",
+            "org": "Vigor Router",
+            "domain": "www.draytek.com",
+            "++subject": "DrayTek Corp.",
+            "expires": "2025-10-25 16:42:13",
+            "valid": "2024-09-25 16:42:13",
+            "fingerprint": "c3ed04f796a91f1db478141086b473deb28ddf7be897de5750b563d9359d84ed"
+        },
+        "meta": {
+            "charset": "UTF-8",
+            "++title": "Vigor Login Page"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/eb43599085e51a1bafebe68f69d2401e.jpeg"
+        }
+    }
+}

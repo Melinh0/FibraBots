@@ -1,0 +1,111 @@
+{
+    "qid": null,
+    "iid": 24669462,
+    "indicator": "65.49.20.116",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-05-13 14:38:53",
+    "stamp_updated": "2023-08-07 13:43:34",
+    "stamp_seen": "2023-08-07 13:43:34",
+    "stamp_probed": "2023-08-07 13:43:34",
+    "stamp_retired": "2022-08-19 00:29:39",
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-05-13 14:38:53"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-11-29 13:46:41"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 508473,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 03:34:37",
+            "stamp_updated": "2022-05-18 03:34:37"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ],
+        "technology": [
+            "Apache",
+            "lighttpd",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS6939",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "HURRICANE",
+            "isp": "HURRICANE"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "2933",
+            "++code": "200",
+            "++status": "OK",
+            "server": "lighttpd\/1.4.55",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 15 Feb 2023 18:09:40 GMT",
+            "etag": "\"1886349459\"",
+            "date": "Mon, 07 Aug 2023 13:43:32 GMT"
+        },
+        "dns": {
+            "ptr": "scan-19l.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/084e73c518ac5d989677df9fab569fa1.jpeg"
+        }
+    }
+}

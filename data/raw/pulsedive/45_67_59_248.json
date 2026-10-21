@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 63129560,
+    "indicator": "45.67.59.248",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-10 02:00:07",
+    "stamp_updated": "2024-12-17 11:38:32",
+    "stamp_seen": "2024-12-07 19:30:08",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63129590,
+                "indicator": "https:\/\/45.67.59.248\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:28:51"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-10 02:00:07"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "jQuery",
+            "Let's Encrypt",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "descr": "BEGET.RU",
+            "mnt-by": "BEGET-MNT",
+            "origin": "AS198610",
+            "person": "Aleksander Ilyin",
+            "address": [
+                "Saint Petersburg",
+                "195112",
+                "Karla Faberzhe st., n. 8B",
+                "RUSSIAN FEDERATION"
+            ],
+            "++phone": "+78007000608",
+            "phone": "+78007000608",
+            "++registrant": [
+                "AI4802-RIPE",
+                "Aleksander Ilyin"
+            ],
+            "tech-c": "AI4802-RIPE",
+            "created": [
+                "2019-02-12T08:29:05Z",
+                "2019-10-09T16:35:05Z",
+                "2019-02-20T14:08:22Z"
+            ],
+            "last-modified": [
+                "2019-02-12T08:29:05Z",
+                "2019-10-09T16:35:05Z",
+                "2019-02-20T14:08:22Z"
+            ],
+            "admin-c": "AI4802-RIPE",
+            "nic-hdl": "AI4802-RIPE",
+            "netname": "BEGET-NET-67",
+            "++registered": [
+                "2019-10-09 16:35:05",
+                "2019-02-12 08:29:05",
+                "2019-02-20 14:08:22"
+            ],
+            "++updated": [
+                "2019-10-09 16:35:05",
+                "2019-02-12 08:29:05",
+                "2019-02-20 14:08:22"
+            ],
+            "route": "45.67.59.0\/24",
+            "inetnum": "45.67.59.0 - 45.67.59.255"
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS198610",
+            "region": "St.-Petersburg",
+            "city": "St Petersburg",
+            "org": "Beget LLC",
+            "lat": "59.9417",
+            "long": "30.3096",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "5985",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "last-modified": "Sat, 24 Aug 2024 07:09:49 GMT",
+            "etag": "\"67bf-6206893d7755e-gzip\"",
+            "++target": "http:\/\/45.67.59.248\/",
+            "++redirect": "https:\/\/45.67.59.248\/",
+            "date": "Sat, 07 Dec 2024 19:29:41 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "Document"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=agile-school.ru",
+            "domain": [
+                "agile-school.ru",
+                "www.agile-school.ru"
+            ],
+            "expires": "2025-02-09 05:55:58",
+            "valid": "2024-11-11 05:55:59",
+            "fingerprint": "c35fc4bbc584d16ad289f4043a194c18bae556e63aca649b425908ccd2d72e0d"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.5)\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9832835222a0fa0286163acdca0ad419.jpeg"
+        }
+    }
+}

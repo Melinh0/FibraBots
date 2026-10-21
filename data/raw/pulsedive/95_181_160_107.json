@@ -1,0 +1,137 @@
+{
+    "qid": null,
+    "iid": 64767496,
+    "indicator": "95.181.160.107",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-06 09:01:51",
+    "stamp_updated": "2024-12-10 02:33:16",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64767897,
+                "indicator": "https:\/\/95.181.160.107\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-06 09:01:51"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-07 21:02:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache Traffic Server",
+            "DigiCert"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Hesse",
+            "long": "8.6842",
+            "city": "Frankfurt am Main",
+            "lat": "50.1187",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "content-language": "en",
+            "cache-control": "no-store",
+            "content-length": "4864",
+            "referrer-policy": "no-referrer-when-downgrade",
+            "server": "ATS",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/95.181.160.107\/",
+            "date": "Wed, 06 Nov 2024 09:03:20 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/O=DigiCert Inc\/OU=www.digicert.com\/CN=DigiCert SHA2 High Assurance Server CA",
+            "domain": [
+                "yahoo.com",
+                "*.www.yahoo.com",
+                "*.yahoo.com",
+                "*.att.yahoo.com",
+                "*.media.yahoo.com",
+                "brb.yahoo.net",
+                "s.yimg.com",
+                "*.amp.yimg.com",
+                "add.my.yahoo.com",
+                "ca.my.yahoo.com",
+                "ca.rogers.yahoo.com",
+                "ddl.fp.yahoo.com",
+                "fr-ca.rogers.yahoo.com",
+                "hk.rd.yahoo.com",
+                "mbp.yimg.com",
+                "tw.rd.yahoo.com"
+            ],
+            "version": "v3",
+            "org": "DigiCert SHA2 High Assurance Server CA",
+            "expires": "2025-01-15 23:59:59",
+            "subject": "\/C=US\/ST=New York\/L=New York\/O=Yahoo Holdings Inc.\/CN=yahoo.com",
+            "valid": "2024-07-23 00:00:00",
+            "++subject": "Yahoo Holdings Inc.",
+            "fingerprint": "955c11d3610f3f4e1caf705c2994f321b4260d5fbcb3ceda0b2a49d9e55c9c01"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "viewport": "width=device-width,initial-scale=1,minimal-ui",
+            "++title": "Yahoo",
+            "content-type": "text\/html; charset=UTF-8",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3521dd9215df32d49efbfe69e0fb6383.jpeg"
+        }
+    }
+}

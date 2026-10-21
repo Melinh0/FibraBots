@@ -1,0 +1,93 @@
+{
+    "qid": null,
+    "iid": 58839673,
+    "indicator": "45.81.23.28",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-04-29 03:55:19",
+    "stamp_updated": "2024-12-06 10:25:53",
+    "stamp_seen": "2024-04-29 03:55:25",
+    "stamp_probed": "2024-04-29 03:55:23",
+    "stamp_retired": "2024-07-31 09:58:31",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-29 03:55:19"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Netherlands",
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "zip": "1012",
+            "region": "North Holland",
+            "long": "4.8975",
+            "lat": "52.3759",
+            "asn": "AS49870",
+            "isp": "Alsycon B.V.",
+            "org": "Alsycon B.V."
+        },
+        "http": {
+            "x-ratelimit-limit": "500",
+            "x-ratelimit-remaining": "499",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "x-address": "gin_throttle_mw_7200000000_142.93.40.83",
+            "x-ratelimit-reset": "1714366521",
+            "date": "Mon, 29 Apr 2024 03:55:21 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "25": "220 rawdat.art ESMTP service ready\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f790fa672b615a5371b5799921ac948f.jpeg"
+        }
+    }
+}

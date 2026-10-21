@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 40865203,
+    "indicator": "186.96.145.241",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-04 10:58:27",
+    "stamp_updated": "2024-12-25 12:46:11",
+    "stamp_seen": "2024-12-25 12:46:11",
+    "stamp_probed": "2024-09-30 07:11:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-05-26 15:30:45"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-04 10:58:27"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-03-22 10:26:01"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-05-26 15:30:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-05-24 20:06:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "5432"
+        ],
+        "protocol": [
+            "FTP",
+            "PostgreSQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "MX",
+            "abuse-c": "CIT12",
+            "created": [
+                "20150513",
+                "20101022",
+                "20210209"
+            ],
+            "nic-hdl": [
+                "CIT12",
+                "DSC34"
+            ],
+            "nserver": [
+                "NS4.TOTALPLAY.COM.MX",
+                "NS3.TOTALPLAY.COM.MX",
+                "NS5.TOTALPLAY.COM.MX"
+            ],
+            "owner": "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+            "ownerid": "MX-TPTE-LACNIC",
+            "person": [
+                "Christian Ivan Dominguez Trujillo",
+                "DSI CyAAL"
+            ],
+            "phone": [
+                "+52  5551094400 [5331]",
+                "+52  5585825000",
+                "+52  5517207000 [72779]"
+            ],
+            "responsible": "Alejandro Enrique Rodriguez Sanchez",
+            "tech-c": "CIT12",
+            "address": [
+                "PERIFERICO SUR, 4119, FUENTES DEL PEDREGAL",
+                "14140 - TLALPAN - CX",
+                "Insurgentes Sur, 3579, La Joya",
+                "14000 - Tlalpan - CX",
+                "Av. San Jeronimo, 252, Col.La Otra Banda",
+                "04519 - Mexico - CX"
+            ],
+            "++registrant": [
+                "Christian Ivan Dominguez Trujillo",
+                "DSI CyAAL"
+            ],
+            "++email": [
+                "cdominguez@totalplay.com.mx",
+                "lacnic@gruposalinas.com.mx"
+            ],
+            "e-mail": [
+                "cdominguez@totalplay.com.mx",
+                "lacnic@gruposalinas.com.mx"
+            ],
+            "changed": [
+                "20200817",
+                "20210216",
+                "20210720"
+            ],
+            "inetnum": "186.96.128.0\/18",
+            "inetrev": "186.96.128.0\/18",
+            "owner-c": "DSC34",
+            "nslastaa": "20241224",
+            "nsstat": "20241224 AA"
+        },
+        "geo": {
+            "country": "Mexico",
+            "countrycode": "MX",
+            "org": "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+            "region": "Hidalgo",
+            "asn": "AS22884",
+            "city": "Mineral de la Reforma",
+            "lat": "20.1243",
+            "long": "-98.6978"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.3)\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "fixed-186-96-145-241.totalplay.net"
+        }
+    }
+}

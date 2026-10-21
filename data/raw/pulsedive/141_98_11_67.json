@@ -1,0 +1,130 @@
+{
+    "qid": null,
+    "iid": 41288517,
+    "indicator": "141.98.11.67",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-16 12:13:39",
+    "stamp_updated": "2024-12-16 17:19:44",
+    "stamp_seen": "2024-12-16 17:19:44",
+    "stamp_probed": "2023-04-15 02:04:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-16 12:13:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "LT",
+            "address": [
+                "Kaunas",
+                "Draugystes g. 19",
+                "51230",
+                "LITHUANIA"
+            ],
+            "last-modified": [
+                "2019-01-09T13:14:40Z",
+                "2019-01-10T13:12:30Z",
+                "2019-01-23T11:43:29Z"
+            ],
+            "mnt-by": "mnt-lt-hostbaltic-1",
+            "admin-c": "PV7242-RIPE",
+            "++registrant": [
+                "PV7242-RIPE",
+                "Paulius Vancugovas"
+            ],
+            "tech-c": "PV7242-RIPE",
+            "++phone": "+37067358624",
+            "origin": "AS209605",
+            "nic-hdl": "PV7242-RIPE",
+            "person": "Paulius Vancugovas",
+            "phone": "+37067358624",
+            "created": [
+                "2019-01-08T13:14:38Z",
+                "2019-01-10T13:12:30Z",
+                "2019-01-23T11:43:29Z"
+            ],
+            "route": "141.98.11.0\/24",
+            "inetnum": "141.98.11.0 - 141.98.11.255",
+            "netname": "LT-HOSTBALTIC-11",
+            "++registered": [
+                "2019-01-10 13:12:30",
+                "2019-01-08 13:14:38",
+                "2019-01-23 11:43:29"
+            ],
+            "++updated": [
+                "2019-01-10 13:12:30",
+                "2019-01-09 13:14:40",
+                "2019-01-23 11:43:29"
+            ]
+        },
+        "geo": {
+            "country": "Lithuania",
+            "countrycode": "LT",
+            "city": "Vilnius",
+            "region": [
+                "Vilnius",
+                "Vilnius City Municipality"
+            ],
+            "asn": "AS209605",
+            "org": "UAB Host Baltic",
+            "address": [
+                "LITHUANIA",
+                "Kaunas",
+                "Draugystes g. 19",
+                "51230"
+            ],
+            "lat": "54.6912",
+            "long": "25.2816"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "grieving.medyamol.com"
+        }
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 63537299,
+    "indicator": "185.129.249.68",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-22 04:44:16",
+    "stamp_updated": "2024-10-28 08:24:08",
+    "stamp_seen": "2024-09-22 05:03:49",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63539600,
+                "indicator": "http:\/\/185.129.249.68\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-22 04:44:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "ES",
+            "mnt-by": "AS50926-MNT",
+            "origin": "AS50926",
+            "netname": "CUBENODE",
+            "person": "Jose Daniel Domenech Gasco",
+            "tech-c": "JDDG1-RIPE",
+            "nic-hdl": "JDDG1-RIPE",
+            "admin-c": "JDDG1-RIPE",
+            "created": [
+                "2002-10-08T14:20:22Z",
+                "2019-08-06T10:07:04Z",
+                "2021-12-27T08:03:53Z"
+            ],
+            "++registrant": [
+                "JDDG1-RIPE",
+                "Jose Daniel Domenech Gasco"
+            ],
+            "inetnum": "185.129.249.0 - 185.129.249.255",
+            "address": [
+                "Ronda Narciso Monturiol, 17",
+                "Ed. ASCENTER III - Of. 1-1",
+                "Valencia - SPAIN",
+                "46980 -  Paterna"
+            ],
+            "++phone": "+34911868181",
+            "phone": "+34911868181",
+            "last-modified": [
+                "2022-02-20T18:27:29Z",
+                "2022-11-17T15:39:31Z",
+                "2021-12-27T08:03:53Z"
+            ],
+            "++registered": [
+                "2002-10-08 14:20:22",
+                "2019-08-06 10:07:04",
+                "2021-12-27 08:03:53"
+            ],
+            "++updated": [
+                "2022-02-20 18:27:29",
+                "2022-11-17 15:39:31",
+                "2021-12-27 08:03:53"
+            ],
+            "route": "185.129.248.0\/22"
+        },
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "asn": "AS50926",
+            "lat": "40.4172",
+            "long": "-3.684",
+            "org": "Axarnet Comunicaciones, S.l.",
+            "address": [
+                "Ronda Narciso Monturiol, 17",
+                "Ed. ASCENTER III - Of. 1-1",
+                "Valencia - SPAIN",
+                "46980 -  Paterna"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "content-length": "432",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "\"1b0-5f32ab831ca00\"",
+            "last-modified": "Thu, 26 Jan 2023 13:28:08 GMT",
+            "date": "Sun, 22 Sep 2024 05:03:29 GMT",
+            "++target": "http:\/\/185.129.249.68\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "++title": "Web Server's Default Page",
+            "charset": "utf-8",
+            "copyright": "Copyright 1999-2024. WebPros International GmbH. All rights reserved."
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 plesk.giropark.com ESMTP Postfix\n",
+            "3306": "R\u0000\u0000\u0000\n5.5.68-MariaDB\u0000\u01ba\ufffd\u00004(j_{p?+\u0000\ufffd\ufffd\b\u0002\u0000\u000f\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000VPmT;k-9wnA8\u0000mysql_native_password\u0000",
+            "21": "220 ProFTPD Server (ProFTPD) [185.129.249.68]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/04beeca2d307342074fbabe5897d660c.jpeg"
+        }
+    }
+}

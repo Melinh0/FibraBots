@@ -1,0 +1,132 @@
+{
+    "qid": null,
+    "iid": 65399420,
+    "indicator": "83.168.110.14",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-28 10:04:04",
+    "stamp_updated": "2024-12-16 11:37:35",
+    "stamp_seen": "2024-11-28 10:06:54",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-04 16:07:22"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-28 10:04:05"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-04 16:07:22"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22"
+        ],
+        "protocol": [
+            "FTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "PL",
+            "status": "SUB-ALLOCATED PA",
+            "origin": "AS202520",
+            "mnt-by": [
+                "KORBANKSA-MNT",
+                "SKYPASS-MNT",
+                "SkillHost-MNT"
+            ],
+            "admin-c": "PM23319-RIPE",
+            "last-modified": [
+                "2022-02-21T22:34:34Z",
+                "2024-07-07T17:18:26Z",
+                "2024-06-25T10:52:10Z"
+            ],
+            "tech-c": "PM23319-RIPE",
+            "netname": "SkillHost",
+            "++registrant": [
+                "Patryk Michalski",
+                "PM23319-RIPE"
+            ],
+            "address": "Ludowa 60",
+            "phone": "+48880530820",
+            "created": [
+                "2022-02-21T22:34:34Z",
+                "2024-07-07T17:18:26Z",
+                "2024-06-25T10:52:10Z"
+            ],
+            "person": "Patryk Michalski",
+            "descr": [
+                "Virtual Private Server",
+                "SkyPass Solutions Sp. z.o.o."
+            ],
+            "nic-hdl": "PM23319-RIPE",
+            "++phone": "+48880530820",
+            "++registered": [
+                "2022-02-21 22:34:34",
+                "2024-07-07 17:18:26",
+                "2024-06-25 10:52:10"
+            ],
+            "++updated": [
+                "2022-02-21 22:34:34",
+                "2024-07-07 17:18:26",
+                "2024-06-25 10:52:10"
+            ],
+            "inetnum": "83.168.110.1 - 83.168.110.254",
+            "route": "83.168.110.0\/24"
+        },
+        "geo": {
+            "country": "Poland",
+            "countrycode": "PL",
+            "lat": "52.2394",
+            "long": "21.0362",
+            "asn": "AS202520",
+            "org": "SkyPass Solutions Sp. z.o.o.",
+            "address": "Ludowa 60"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 3.0.5)\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 64317163,
+    "indicator": "149.202.243.136",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-13 06:10:44",
+    "stamp_updated": "2024-12-10 10:35:42",
+    "stamp_seen": "2024-10-13 06:25:26",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64318589,
+                "indicator": "https:\/\/www.6sens-sauna.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-13 06:10:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Contact Form 7",
+            "Elementor",
+            "Google Analytics",
+            "Google Font API",
+            "Isotope",
+            "jQuery",
+            "jQuery Migrate",
+            "jQuery UI",
+            "Let's Encrypt",
+            "MediaElement.js",
+            "PHP",
+            "RSS",
+            "Swiper",
+            "Twitter Emoji (Twemoji)",
+            "WordPress"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.29",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "transfer-encoding": "chunked",
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "location": "http:\/\/149.202.243.136\/",
+            "link": "<https:\/\/www.6sens-sauna.com\/wp-json\/>; rel=\"https:\/\/api.w.org\/\", <https:\/\/www.6sens-sauna.com\/wp-json\/wp\/v2\/pages\/330>; rel=\"alternate\"; type=\"application\/json\", <https:\/\/www.6sens-sauna.com\/>; rel=shortlink",
+            "x-pingback": "https:\/\/www.6sens-sauna.com\/xmlrpc.php",
+            "set-cookie": "PHPSESSID=v5cerb4caue32g6a5cg1kdv43f; path=\/",
+            "date": "Sun, 13 Oct 2024 06:24:58 GMT",
+            "++redirect": "https:\/\/www.6sens-sauna.com\/",
+            "++target": "http:\/\/149.202.243.136\/"
+        },
+        "meta": {
+            "robots": [
+                "index, follow",
+                "max-image-preview:large"
+            ],
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "charset": "UTF-8",
+            "generator": "WordPress 6.2.6",
+            "++title": "6 \u00e9me sens \u2013 sauna \u2013 Sauna Club \u00e0 Vichy"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=6sens-sauna.com",
+            "domain": [
+                "6sens-sauna.com",
+                "www.6sens-sauna.com"
+            ],
+            "expires": "2024-11-16 05:35:25",
+            "valid": "2024-08-18 05:35:26",
+            "fingerprint": "0d9a40ea6873b7655c905e30691a351e6f9f83f11db3ac7f54cbf3ab7c26fcae"
+        },
+        "cookies": {
+            "_gat": "1",
+            "phpsessid": "v5cerb4caue32g6a5cg1kdv43f",
+            "_ga_8t0lh74714": "GS1.2.1728800702.1.0.1728800702.0.0.0",
+            "_gid": "GA1.2.2003614463.1728800702",
+            "_ga": "GA1.2.1246797463.1728800702"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n",
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "3306": "[\u0000\u0000\u0000\n5.7.42-0ubuntu0.18.04.1\u0000\ufffd\ufffd&\u0000j^\u0005nu\u0003tC\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000?cq\u0018 \/H%l\u0011{\u0011\u0000mysql_native_password\u0000",
+            "25": "220 serveur.publipost.fr ESMTP Postfix (Ubuntu)\n",
+            "21": "220 ProFTPD 1.3.5e Server (Debian) [::ffff:149.202.243.136]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f49851aa6b483cadc0e477cb4aa834f8.jpeg"
+        }
+    }
+}

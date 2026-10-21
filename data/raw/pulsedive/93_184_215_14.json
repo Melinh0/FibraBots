@@ -1,0 +1,104 @@
+{
+    "qid": null,
+    "iid": 58527986,
+    "indicator": "93.184.215.14",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-19 12:29:11",
+    "stamp_updated": "2024-10-15 09:54:35",
+    "stamp_seen": "2024-10-15 09:54:35",
+    "stamp_probed": "2024-07-09 12:48:45",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": 3027,
+    "umbrella_domain": "example.org",
+    "riskfactors": [
+        {
+            "rfid": 62,
+            "description": "linked to top 100k domain",
+            "risk": "none"
+        },
+        {
+            "rfid": 61,
+            "description": "linked to top 10k domain",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61038353,
+                "indicator": "https:\/\/93.184.215.14\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Azure CDN",
+            "DigiCert"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS15133",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "EDGECAST"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "345",
+            "++code": "404",
+            "server": "ECAcc (nyd\/D125)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/93.184.215.14\/",
+            "date": "Tue, 15 Oct 2024 09:54:07 GMT",
+            "++redirect": "https:\/\/93.184.215.14\/"
+        },
+        "ssl": {
+            "domain": [
+                "www.example.com",
+                "example.com",
+                "www.example.org",
+                "example.org",
+                "example.net",
+                "example.edu",
+                "www.example.edu",
+                "www.example.net"
+            ],
+            "version": "v3",
+            "org": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+            "issuer": "\/C=US\/O=DigiCert Inc\/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+            "subject": "\/C=US\/ST=California\/L=Los Angeles\/O=Internet\ufffdCorporation\ufffdfor\ufffdAssigned\ufffdNames\ufffdand\ufffdNumbers\/CN=www.example.org",
+            "valid": "2024-01-30 00:00:00",
+            "expires": "2025-03-01 23:59:59",
+            "fingerprint": "efba26d8c1ce3779ac77630a90f82163a3d6892ed6afee408672cf19eba7a362",
+            "++subject": "Internet\ufffdCorporation\ufffdfor\ufffdAssigned\ufffdNames\ufffdand\ufffdNumbers"
+        },
+        "meta": {
+            "++title": "404 - Not Found"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/73e6e110021607b94088b9e0cc0316f8.jpeg"
+        }
+    }
+}

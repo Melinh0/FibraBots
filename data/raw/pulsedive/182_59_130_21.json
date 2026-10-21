@@ -1,0 +1,164 @@
+{
+    "qid": null,
+    "iid": 61784485,
+    "indicator": "182.59.130.21",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-31 20:11:27",
+    "stamp_updated": "2024-12-09 10:33:50",
+    "stamp_seen": "2024-11-18 13:45:06",
+    "stamp_probed": "2024-08-26 22:05:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61786068,
+                "indicator": "http:\/\/182.59.130.21\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-31 20:11:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "address": [
+                "Mahanagar Doorsanchar Sadan, 5th Floor, 9 CGO Complex, Lodhi Road, New Delhi ,New Delhi,Delhi-110003",
+                "Jeevan Bharati Building",
+                "Tower 1, 12th Floor, 124, Connaught Circus, New Delhi"
+            ],
+            "admin-c": "AB782-AP",
+            "descr": [
+                "Mahanagar Telephone Nigam Limited",
+                "Route Object"
+            ],
+            "e-mail": [
+                "dgmitco@bol.net.in",
+                "mgritco@bol.net.in"
+            ],
+            "irt": "IRT-MTNL-IN",
+            "mnt-by": [
+                "MAINT-IN-MTNL",
+                "MAINT-IN-IRINN"
+            ],
+            "mnt-irt": "IRT-MTNL-IN",
+            "mnt-lower": "MAINT-IN-MTNL",
+            "mnt-routes": "MAINT-IN-MTNL",
+            "netname": "MTNL",
+            "nic-hdl": [
+                "AB782-AP",
+                "SM2089-AP"
+            ],
+            "person": "Amarjeetkaur Bedi",
+            "phone": "+91 01124325185",
+            "role": "Senior Manager",
+            "tech-c": [
+                "AB782-AP",
+                "SM2089-AP"
+            ],
+            "origin": "AS17813",
+            "inetnum": "182.56.0.0 - 182.59.255.255",
+            "last-modified": [
+                "2016-12-14T06:28:12Z",
+                "2016-12-14T06:25:35Z",
+                "2016-12-14T04:38:45Z",
+                "2022-07-01T08:44:20Z",
+                "2023-01-20T12:32:11Z"
+            ],
+            "++registrant": [
+                "AB782-AP",
+                "Amarjeetkaur Bedi"
+            ],
+            "++email": [
+                "dgmitco@bol.net.in",
+                "mgritco@bol.net.in",
+                "abusemtnl@bol.net.in"
+            ],
+            "++abuse": "abusemtnl@bol.net.in",
+            "abuse-mailbox": "abusemtnl@bol.net.in",
+            "route": "182.59.130.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-07-01 08:44:20",
+                "2016-12-14 06:25:35",
+                "2016-12-14 06:28:12",
+                "2023-01-20 12:32:11"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Maharashtra",
+            "asn": "AS17813",
+            "org": "Mahanagar Telephone Nigam Limited",
+            "city": "Mumbai",
+            "address": [
+                "Jeevan Bharati Building",
+                "Tower 1, 12th Floor, 124, Connaught Circus, New Delhi",
+                "Mahanagar Doorsanchar Sadan, 5th Floor, 9 CGO Complex, Lodhi Road, New Delhi ,New Delhi,Delhi-110003"
+            ],
+            "lat": "19.0748",
+            "long": "72.8856"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "connection": "Keep-Alive",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/61f5596bfd962f55767a5bd2e2d305f1.jpeg"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2013.62\n\u0000\u0000\u0001\ufffd\n\u0014\ufffd\ufffd\ufffd\u129a\b\ufffd%3\ufffd\u0001KrE\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdH\ufffdm\ufffdT\ufffd*\b\ufffd"
+        }
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 44984775,
+    "indicator": "187.92.192.154",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-02-22 03:45:57",
+    "stamp_updated": "2024-12-14 20:24:35",
+    "stamp_seen": "2024-12-14 20:24:35",
+    "stamp_probed": "2024-08-29 22:41:07",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-01 04:07:32"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-01 22:18:56"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-01 04:07:32"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-02-22 03:45:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "161",
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "SNMP",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS10429",
+            "long": "-46.6409",
+            "org": "TELEFONICA BRASIL S.A",
+            "lat": "-23.6283",
+            "city": "S\ufffdo Paulo",
+            "region": "S\ufffdo Paulo"
+        },
+        "whois": {
+            "owner-c": "ARITE",
+            "ownerid": "02.558.157\/0001-62",
+            "responsible": "Diretoria de Planejamento e Tecnologia",
+            "country": "BR",
+            "aut-num": "AS10429",
+            "tech-c": "GRP95",
+            "nserver": [
+                "te-br-spo-ib-dns2.tdatabrasil.net.br",
+                "te-br-spo-tic-dns1.tdatabrasil.net.br"
+            ],
+            "created": [
+                "20090909",
+                "20080407",
+                "20031027",
+                "20180713"
+            ],
+            "inetnum": "187.92.0.0\/15",
+            "nic-hdl-br": [
+                "GRP95",
+                "ARITE",
+                "CSTBR"
+            ],
+            "person": [
+                "Grupo Provisionamento",
+                "CSIRT TELEFONICA BR",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "e-mail": [
+                "dominios-vivo.br@telefonica.com",
+                "abuse.br@telefonica.com",
+                "aprovb2b.br@telefonica.com"
+            ],
+            "changed": [
+                "20180713",
+                "20190410",
+                "20230629",
+                "20231107"
+            ],
+            "abuse-c": "CSTBR",
+            "++registrant": [
+                "CSIRT TELEFONICA BR",
+                "Grupo Provisionamento",
+                "Administra\ufffd\ufffdo Rede IP Telesp"
+            ],
+            "++email": [
+                "dominios-vivo.br@telefonica.com",
+                "abuse.br@telefonica.com",
+                "aprovb2b.br@telefonica.com"
+            ],
+            "owner": "TELEF\ufffdNICA BRASIL S.A",
+            "inetrev": "187.92.192.0\/24",
+            "nslastaa": "20241021",
+            "nsstat": "20241021 AA"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "161": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "187-92-192-154.customer.tdatabrasil.net.br"
+        }
+    }
+}

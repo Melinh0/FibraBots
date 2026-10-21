@@ -1,0 +1,211 @@
+{
+    "qid": null,
+    "iid": 55365689,
+    "indicator": "203.145.34.222",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-23 11:59:57",
+    "stamp_updated": "2024-12-09 10:35:16",
+    "stamp_seen": "2024-11-23 17:01:24",
+    "stamp_probed": "2024-09-30 09:02:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55366874,
+                "indicator": "http:\/\/203.145.34.222\/"
+            },
+            {
+                "iid": 64124835,
+                "indicator": "https:\/\/203.145.34.222\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-23 11:59:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-30 03:57:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "IDNIC"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-TORI"
+            ],
+            "descr": [
+                "Corporate \/ Direct Member IDNIC",
+                "PT Tekstil Original Indonesia",
+                "Industri Tekstil Dan Garmen Asli Indonesia",
+                "Jl. Lamping Nomor 95, Gedong Panjang",
+                "Citamiang, Sukabumi, Jawa Barat 43144",
+                "Route object for PT Tekstil Original Indonesia"
+            ],
+            "origin": "AS136052",
+            "last-modified": [
+                "2023-11-17T04:01:52Z",
+                "2023-11-15T23:56:48Z",
+                "2023-11-14T09:26:06Z",
+                "2023-11-17T04:00:10Z",
+                "2023-11-17T07:52:14Z",
+                "2023-11-14T09:33:33Z"
+            ],
+            "route": "203.145.34.0\/23",
+            "++abuse": "abuse@textilogy.my.id",
+            "phone": "+6281382494241",
+            "admin-c": "GA330-AP",
+            "++registrant": [
+                "GA330-AP",
+                "Galih Akbar"
+            ],
+            "mnt-routes": "MAINT-ID-TORI",
+            "netname": "IDNIC-TORI-ID",
+            "nic-hdl": "GA330-AP",
+            "irt": "IRT-TORI-ID",
+            "++phone": "+6281382494241",
+            "address": [
+                "PT. TEKSTIL ORIGINAL INDONESIA",
+                "Jl. Lamping Nomor 95, Gedong Panjang",
+                "Citamiang, Sukabumi, Jawa Barat 43144"
+            ],
+            "mnt-irt": "IRT-TORI-ID",
+            "abuse-mailbox": "abuse@textilogy.my.id",
+            "++email": [
+                "tech@textilogy.my.id",
+                "management@textilogy.my.id",
+                "abuse@textilogy.my.id"
+            ],
+            "inetnum": "203.145.34.0 - 203.145.35.255",
+            "e-mail": [
+                "tech@textilogy.my.id",
+                "management@textilogy.my.id"
+            ],
+            "person": "Galih Akbar",
+            "tech-c": "GA330-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-11-17 04:00:10",
+                "2023-11-17 04:01:52",
+                "2023-11-15 23:56:48",
+                "2023-11-14 09:33:33",
+                "2023-11-14 09:26:06",
+                "2023-11-17 07:52:14"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS136052",
+            "org": "PT Cloud Hosting Indonesia",
+            "lat": "-6.1728",
+            "long": "106.8272",
+            "address": [
+                "PT. TEKSTIL ORIGINAL INDONESIA",
+                "Jl. Lamping Nomor 95, Gedong Panjang",
+                "Citamiang, Sukabumi, Jawa Barat 43144"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "content-length": "150",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "last-modified": "Sun, 12 May 2024 09:40:34 GMT",
+            "etag": "\"c2-6183e8f80ac90-gzip\"",
+            "++redirect": "https:\/\/203.145.34.222\/",
+            "++target": "http:\/\/203.145.34.222\/",
+            "date": "Sat, 12 Oct 2024 14:59:22 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "expires": "2024-12-10 06:23:51",
+            "domain": [
+                "stream.radiodakwahmustofa.com",
+                "www.stream.radiodakwahmustofa.com"
+            ],
+            "subject": "\/CN=stream.radiodakwahmustofa.com",
+            "valid": "2024-09-11 06:23:52",
+            "fingerprint": "cfa9d6f4e54c5c8d285562bef3df4e2245b4fbe0b38760c514397923470f1013"
+        },
+        "dns": {
+            "ptr": "ip203-145-34-222.cloudhost.web.id"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "meta": {
+            "++title": "Welcome to stream.radiodakwahmustofa.com!"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5a5a03ba8226f5ed7cb49cdd60d2ad00.jpeg"
+        }
+    }
+}

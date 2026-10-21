@@ -1,0 +1,174 @@
+{
+    "qid": null,
+    "iid": 60074709,
+    "indicator": "2.55.69.224",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-09 15:37:15",
+    "stamp_updated": "2024-12-15 11:32:50",
+    "stamp_seen": "2024-12-15 07:39:42",
+    "stamp_probed": "2024-08-28 22:51:48",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60077141,
+                "indicator": "http:\/\/2.55.69.224\/"
+            },
+            {
+                "iid": 60077078,
+                "indicator": "http:\/\/2.55.69.224\/doc\/page\/login.asp"
+            },
+            {
+                "iid": 63861579,
+                "indicator": "https:\/\/2.55.69.224\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-09 15:37:15"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RTSP",
+            "SSH"
+        ],
+        "technology": [
+            "AngularJS",
+            "Babel",
+            "core-js",
+            "crypto-js",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "IL",
+            "created": [
+                "2012-05-07T08:59:23Z",
+                "2011-09-27T09:00:25Z",
+                "2019-02-05T06:38:13Z"
+            ],
+            "descr": [
+                "Partner Communications Block",
+                "Cellucar subscribers for GGSN RH & YV"
+            ],
+            "last-modified": [
+                "2012-05-07T08:59:23Z",
+                "2019-02-05T10:38:43Z",
+                "2021-12-05T16:12:04Z"
+            ],
+            "mnt-by": [
+                "AS12400-MNT",
+                "AS12400",
+                "partnercom-mnt"
+            ],
+            "origin": "AS12400",
+            "inetnum": "2.55.0.0 - 2.55.255.255",
+            "mnt-lower": "partnercom-mnt",
+            "netname": "PARTNERCOM-CELLULAR-NETS",
+            "route": "2.55.0.0\/16",
+            "address": [
+                "Partner Communications Ltd.",
+                "8 Amal Street Rosh Ha'ayin ,Israel 48103"
+            ],
+            "admin-c": "AIP63-RIPE",
+            "++registrant": [
+                "AIP63-RIPE",
+                "Abuse ISP Partner"
+            ],
+            "tech-c": "AIP63-RIPE",
+            "nic-hdl": "AIP63-RIPE",
+            "person": "Abuse ISP Partner",
+            "phone": "+972 547814505",
+            "++registered": [
+                "2019-02-05 06:38:13",
+                "2012-05-07 08:59:23"
+            ],
+            "++updated": [
+                "2021-12-05 16:12:04",
+                "2012-05-07 08:59:23"
+            ]
+        },
+        "geo": {
+            "country": "Israel",
+            "countrycode": "IL",
+            "asn": "AS12400",
+            "org": "Partner Communications Ltd.",
+            "region": "Central District",
+            "city": "Petah Tikva",
+            "long": "34.8879",
+            "lat": "32.1033"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "Sat, 01 Dec 2001 00:00:00 GMT",
+            "++title": "index",
+            "charset": "utf-8"
+        },
+        "cookies": {
+            "language": "en"
+        },
+        "dns": {
+            "ptr": [
+                "2-55-69-224.orange.net.il",
+                "31-154-69-224.orange.net.il"
+            ]
+        },
+        "banners": {
+            "554": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2018.76\n\u0000\u0000\u0002\u0014\u000b\u0014'S\u0003\ufffdXu\ufffd4\u0002\f\ufffd\ufffd\ufffdz\ufffdd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0016\ufffd%\ufffduj\u00140\ufffd\ufffd\ufffd"
+        },
+        "http": {
+            "++target": "http:\/\/2.55.69.224\/",
+            "++redirect": "https:\/\/2.55.69.224\/#\/"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/323aa3d478f98199796237e4cb66b89f.jpeg"
+        }
+    }
+}

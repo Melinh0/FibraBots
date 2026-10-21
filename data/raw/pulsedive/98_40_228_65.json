@@ -1,0 +1,73 @@
+{
+    "qid": null,
+    "iid": 63583931,
+    "indicator": "98.40.228.65",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-25 05:09:07",
+    "stamp_updated": "2024-12-11 10:46:49",
+    "stamp_seen": "2024-09-25 06:31:09",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-25 05:09:07"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "554"
+        ],
+        "protocol": [
+            "RTSP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": "Houston",
+            "region": "Texas",
+            "asn": "AS7922",
+            "lat": "29.6876",
+            "long": "-95.4049",
+            "org": "COMCAST-7922"
+        },
+        "banners": {
+            "22": "SSH-2.0-Cisco-1.25\n",
+            "554": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "qid": null,
+    "iid": 54465431,
+    "indicator": "79.137.198.250",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-12-19 22:49:38",
+    "stamp_updated": "2024-12-13 16:32:49",
+    "stamp_seen": "2023-12-19 22:49:49",
+    "stamp_probed": "2023-12-19 22:49:49",
+    "stamp_retired": "2024-03-21 03:56:44",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-03 16:01:41"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-19 22:49:38"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-03 16:01:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Netherlands",
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "zip": "1012",
+            "region": "North Holland",
+            "long": "4.8883",
+            "lat": "52.3716",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd",
+            "isp": "Aeza International Ltd"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\n"
+        },
+        "dns": {
+            "ptr": "early-mine.aeza.network"
+        }
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "qid": null,
+    "iid": 64716696,
+    "indicator": "182.76.128.114",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-04 08:47:30",
+    "stamp_updated": "2024-12-11 10:41:37",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64716775,
+                "indicator": "https:\/\/182.76.128.114\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-04 08:47:30"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-12 21:05:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "993"
+        ],
+        "protocol": [
+            "HTTPS",
+            "IMAPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Fedora",
+            "OpenSSL"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "IN",
+                "ZZ"
+            ],
+            "admin-c": "NA40-AP",
+            "irt": "IRT-BHARTI-IN",
+            "mnt-by": [
+                "MAINT-IN-BBIL",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-BHARTI-IN",
+            "tech-c": "NA40-AP",
+            "origin": "AS9498",
+            "address": [
+                "Phase III, New Delhi-110020, INDIA",
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "234 , Okhla Industrial Estate,",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA"
+            ],
+            "fax-no": "+91-124-4244017",
+            "nic-hdl": [
+                "NA40-AP",
+                "AB913-AP"
+            ],
+            "person": "Network Administrator",
+            "phone": [
+                "+91-124-4222222",
+                "+000000000"
+            ],
+            "++phone": [
+                "+91-124-4222222",
+                "+000000000"
+            ],
+            "descr": [
+                "Bharti Airtel Limited",
+                "n\/a",
+                "Bangalore",
+                "Email:",
+                "India",
+                "KARNATAKA",
+                "PROCESSOR SYSTEMS INDIA P",
+                "24 CLASSIC BUILDING RICHMOND ROAD",
+                "ASHOK NAGAR BANGALORE 560001",
+                "Contact Person: VISHAL GOURAV",
+                "Phone: 7795400409"
+            ],
+            "e-mail": [
+                "noc-dataprov@airtel.com",
+                "ip.misuse@airtel.com"
+            ],
+            "last-modified": [
+                "2018-12-18T12:52:19Z",
+                "2023-05-24T13:05:19Z",
+                "2023-05-24T13:16:31Z",
+                "2021-01-24T23:36:36Z",
+                "2023-12-11T08:09:40Z"
+            ],
+            "++registrant": [
+                "NA40-AP",
+                "Network Administrator"
+            ],
+            "++email": [
+                "noc-dataprov@airtel.com",
+                "ip.misuse@airtel.com"
+            ],
+            "abuse-c": "AB913-AP",
+            "role": "ABUSE BHARTIIN",
+            "++abuse": "ip.misuse@airtel.com",
+            "abuse-mailbox": "ip.misuse@airtel.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2018-12-18 12:52:19",
+                "2023-05-24 13:05:19",
+                "2023-05-24 13:16:31",
+                "2023-12-11 08:09:40"
+            ],
+            "netname": "PSSR-2284667-Bangalore",
+            "route": "182.76.128.0\/24",
+            "inetnum": "182.76.128.112 - 182.76.128.127"
+        },
+        "geo": {
+            "country": [
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "IN",
+                "ZZ"
+            ],
+            "region": "Uttar Pradesh",
+            "city": "Noida",
+            "asn": "AS9498",
+            "org": "BHARTI Airtel Ltd.",
+            "address": [
+                "Bharti Airtel Ltd.",
+                "ISP Division - Transport Network Group",
+                "234 , Okhla Industrial Estate,",
+                "Phase III, New Delhi-110020, INDIA",
+                "Plot no.16 , Udyog Vihar , Phase -IV , Gurgaon - 122015 , Haryana , INDIA"
+            ],
+            "lat": "28.6145",
+            "long": "77.3063"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "403",
+            "++status": "Forbidden",
+            "content-length": "8474",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 28 Mar 2022 19:46:48 GMT",
+            "etag": "\"211a-5db4c92a77a00\"",
+            "server": "Apache\/2.4.58 (Fedora Linux) OpenSSL\/3.0.9",
+            "++target": "https:\/\/182.76.128.114\/",
+            "date": "Mon, 04 Nov 2024 08:47:50 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "++title": "Test Page for the HTTP Server on Fedora",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.8\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "25": "220 sec.psi.procsys.com ESMTP Postfix\n"
+        },
+        "ssl": {
+            "version": "v0",
+            "subject": "\/C=IN\/ST=KA\/L=BA\/O=IT\/OU=Procsys\/CN=promailserver.psi.procsys.com\/E=ganesh@pis.procsys.com",
+            "issuer": "\/C=IN\/ST=KA\/L=BA\/O=IT\/OU=Procsys\/CN=promailserver.psi.procsys.com\/E=ganesh@pis.procsys.com",
+            "++subject": "IT",
+            "fingerprint": "6127da0a4d087c3eab75f970793aeb2f395e806d700bfd961b344c72c81782cc",
+            "org": "promailserver.psi.procsys.com",
+            "expires": "2024-07-25 09:30:26",
+            "valid": "2023-07-26 09:30:26"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4d5afb6f4eada5b8152e87c0ab5cb2e5.jpeg"
+        }
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "qid": null,
+    "iid": 5251313,
+    "indicator": "148.66.132.190",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2019-03-15 10:53:31",
+    "stamp_updated": "2024-12-11 02:24:17",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-30 04:05:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 8202133,
+                "indicator": "https:\/\/148.66.132.190\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 19:14:33"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:46:43"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2019-06-18 19:30:48"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 18:14:07"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 19:14:33"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-02-27 17:14:04"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "SG",
+                "ZZ"
+            ],
+            "++email": [
+                "noc@godaddy.com",
+                "contentcomplaints@godaddy.com",
+                "backbone@godaddy.com"
+            ],
+            "++phone": [
+                "+011-1-480-505-8800",
+                "+000000000",
+                "+011-1-480-284-9138"
+            ],
+            "admin-c": "GNA32-AP",
+            "e-mail": [
+                "noc@godaddy.com",
+                "backbone@godaddy.com"
+            ],
+            "irt": "IRT-GODADDY-NET-SG",
+            "mnt-by": [
+                "MAINT-GODADDY-NET-SG",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-GODADDY-NET-SG",
+            "mnt-lower": "MAINT-GODADDY-NET-SG",
+            "mnt-routes": "MAINT-GODADDY-NET-SG",
+            "nic-hdl": [
+                "GNA32-AP",
+                "AG713-AP"
+            ],
+            "phone": [
+                "+011-1-480-505-8800",
+                "+000000000",
+                "+011-1-480-284-9138"
+            ],
+            "role": [
+                "GODADDYCOM - network administrator",
+                "ABUSE GODADDYNETSG"
+            ],
+            "tech-c": "GNA32-AP",
+            "inetnum": "148.66.128.0 - 148.66.159.255",
+            "netname": "GODADDY-NET-SG",
+            "last-modified": [
+                "2016-04-26T06:49:47Z",
+                "2020-05-18T23:16:40Z",
+                "2023-09-05T02:15:38Z",
+                "2023-10-31T18:27:33Z",
+                "2024-09-16T21:03:50Z",
+                "2024-09-16T21:04:22Z"
+            ],
+            "descr": [
+                "Godaddy.com",
+                "80 Robinson Road # 02-00"
+            ],
+            "org-name": "Godaddy.com",
+            "org": "ORG-GA30-AP",
+            "organisation": "ORG-GA30-AP",
+            "fax-no": "+011-1-480-505-8800",
+            "++registrant": "GNA32-AP",
+            "abuse-c": "AG713-AP",
+            "origin": "AS26496",
+            "route": "148.66.132.0\/24",
+            "abuse-mailbox": "contentcomplaints@godaddy.com",
+            "++abuse": "contentcomplaints@godaddy.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-09-05 02:15:38",
+                "2016-04-26 06:49:47",
+                "2023-10-31 18:27:33",
+                "2024-09-16 21:03:50",
+                "2024-09-16 21:04:22"
+            ],
+            "address": [
+                "15 Pioneer Walk, Pioneer Hub, # 03-03, Singapore 627753",
+                "80 Robinson Road # 02-00",
+                "15 Pioneer Walk, Pioneer Hub, #03-03, Singapore 627753"
+            ]
+        },
+        "geo": {
+            "city": "Singapore",
+            "country": [
+                "Singapore",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "SG",
+                "ZZ"
+            ],
+            "asn": "AS26496",
+            "long": "103.8503",
+            "org": [
+                "ORG-GA30-AP",
+                "AS-26496-GO-DADDY-COM-LLC"
+            ],
+            "lat": "1.2868",
+            "address": [
+                "15 Pioneer Walk, Pioneer Hub, # 03-03, Singapore 627753",
+                "80 Robinson Road # 02-00",
+                "15 Pioneer Walk, Pioneer Hub, #03-03, Singapore 627753"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-length": "3084",
+            "++code": "404",
+            "etag": "\"5a4386ef-c0c\"",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/148.66.132.190\/",
+            "++target": "http:\/\/148.66.132.190\/",
+            "date": "Sat, 12 Oct 2024 13:34:58 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "++title": "The page you're looking for could not be found (404)"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2018-07-07 11:01:09",
+            "expires": "2019-07-07 11:01:09",
+            "org": "148.66.132.190",
+            "issuer": "\/C=In\/ST=Delhi\/L=newdelhi\/O=it4tsolutions\/OU=it4tsolutions\/CN=148.66.132.190\/E=it4tsolutions@gmail.com",
+            "subject": "\/C=In\/ST=Delhi\/L=newdelhi\/O=it4tsolutions\/OU=it4tsolutions\/CN=148.66.132.190\/E=it4tsolutions@gmail.com",
+            "++subject": "it4tsolutions",
+            "fingerprint": "1628ee8fc46119ec9b47d973738361e147a15c4fe4fffe9c50e3b8f12ccc1086"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f529a7c989cf35f739e68dd8a012b066.jpeg"
+        }
+    }
+}

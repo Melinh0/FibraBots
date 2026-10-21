@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 35482439,
+    "indicator": "124.167.20.110",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-31 02:36:14",
+    "stamp_updated": "2024-12-16 17:17:07",
+    "stamp_seen": "2024-12-16 17:17:07",
+    "stamp_probed": "2024-09-30 00:59:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-09-29 16:20:36"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-31 02:36:14"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-09-29 16:20:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-03 08:31:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "CN",
+            "mnt-by": [
+                "MAINT-CNCGROUP-RR",
+                "MAINT-CNCGROUP-SX"
+            ],
+            "origin": "AS4837",
+            "descr": [
+                "CNC Group CHINA169 Shan1xi Province Network",
+                "shuozhou shanyin8825 ippool"
+            ],
+            "route": "124.164.0.0\/14",
+            "++phone": "+86-349-2038643",
+            "address": "Shan Xi ShuoZhou",
+            "admin-c": "SZ572-AP",
+            "e-mail": "shuozhou@public.sz.sx.cn",
+            "fax-no": "+86-349-2024386",
+            "nic-hdl": "SZ572-AP",
+            "person": "shuo zhou",
+            "phone": "+86-349-2038643",
+            "tech-c": "SZ572-AP",
+            "last-modified": [
+                "2008-09-04T07:54:48Z",
+                "2008-09-04T07:46:48Z",
+                "2008-09-04T07:15:39Z"
+            ],
+            "++registrant": [
+                "SZ572-AP",
+                "shuo zhou"
+            ],
+            "++email": "shuozhou@public.sz.sx.cn",
+            "inetnum": "124.167.16.0 - 124.167.23.0",
+            "netname": "shanyinppool",
+            "++updated": [
+                "2008-09-04 07:54:48",
+                "2008-09-04 07:46:48"
+            ]
+        },
+        "geo": {
+            "country": "China",
+            "countrycode": "CN",
+            "asn": "AS4837",
+            "org": "CHINA UNICOM China169 Backbone",
+            "lat": "34.7732",
+            "address": "Shan Xi ShuoZhou",
+            "long": "113.722"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "22": "SSH-2.0-dropbear_2016.74\n\u0000\u0000\u0002l\n\u0014\ufffd\ufffd\u0000f\ufffd8.rIJN\\a\u03ff\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdo\ufffd\ufffd\ufffd\u0507\ufffd\u001b\u0010"
+        },
+        "dns": {
+            "ptr": "110.20.167.124.adsl-pool.sx.cn"
+        }
+    }
+}

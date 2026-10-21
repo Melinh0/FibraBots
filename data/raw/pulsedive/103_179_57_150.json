@@ -1,0 +1,239 @@
+{
+    "qid": null,
+    "iid": 41009846,
+    "indicator": "103.179.57.150",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-08 08:44:30",
+    "stamp_updated": "2024-12-11 10:37:13",
+    "stamp_seen": "2024-11-19 22:32:56",
+    "stamp_probed": "2024-09-29 21:20:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 41009982,
+                "indicator": "https:\/\/103.179.57.150\/"
+            },
+            {
+                "iid": 64110043,
+                "indicator": "https:\/\/103.179.57.150\/sso\/login"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-11-25 18:08:49"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-08 08:44:30"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-15 06:36:40"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-11-25 18:08:49"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-15 09:42:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "443",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "ID",
+            "mnt-by": "MNT-APJII-ID",
+            "abuse-mailbox": "abuse@idnic.net",
+            "admin-c": [
+                "IA55-AP",
+                "IH288-AP"
+            ],
+            "irt": "IRT-IDNIC-ID",
+            "mnt-irt": "IRT-IDNIC-ID",
+            "tech-c": [
+                "IH123-AP",
+                "IH288-AP",
+                "IA55-AP"
+            ],
+            "address": [
+                "Jakarta 12710",
+                "Jakarta Selatan 12710",
+                "INDONESIA NETWORK INFORMATION CENTER",
+                "Cyber Building 11th Floor",
+                "Jl. Kuningan Barat No.8",
+                "Indonesian Network Information Center",
+                "ID-NIC"
+            ],
+            "fax-no": "+62-21-52960635",
+            "++phone": "+62-21-52960634",
+            "netname": "IDNIC-ID",
+            "notify": "hostmaster@idnic.net",
+            "phone": "+62-21-52960634",
+            "descr": "Indonesia Network Information Center",
+            "mnt-lower": "MNT-APJII-ID",
+            "last-modified": [
+                "2018-05-31T22:29:03Z",
+                "2019-09-16T04:41:02Z",
+                "2023-03-15T12:29:56Z"
+            ],
+            "e-mail": [
+                "abuse@idnic.net",
+                "hostmaster@idnic.net"
+            ],
+            "role": "ID-NIC ADMINISTRATORS",
+            "nic-hdl": "IA55-AP",
+            "++abuse": "abuse@idnic.net",
+            "++registrant": [
+                "IA55-AP",
+                "IH288-AP"
+            ],
+            "++email": [
+                "abuse@idnic.net",
+                "hostmaster@idnic.net"
+            ],
+            "inetnum": "103.179.56.0 - 103.179.57.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2018-05-31 22:29:03",
+                "2019-09-16 04:41:02",
+                "2023-03-15 12:29:56"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS136052",
+            "org": "PT Cloud Hosting Indonesia",
+            "address": [
+                "Jl. Kuningan Barat No.8",
+                "Jakarta Selatan 12710",
+                "INDONESIA NETWORK INFORMATION CENTER",
+                "Cyber Building 11th Floor",
+                "Jakarta 12710",
+                "Indonesian Network Information Center",
+                "ID-NIC"
+            ],
+            "lat": "-6.1728",
+            "long": "106.8272"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "x-permitted-cross-domain-policies": "none",
+            "referrer-policy": "same-origin",
+            "++code": "200",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/103.179.57.150\/sso\/login",
+            "++target": "http:\/\/103.179.57.150\/",
+            "date": "Sat, 12 Oct 2024 11:55:23 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "x-ua-compatible": "ie=edge",
+            "description": "Admin page for AGS Mail",
+            "++title": "Mailu-Admin | AGS Mail"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "mail.asiaglobalservis.id",
+            "subject": "\/CN=mail.asiaglobalservis.id",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "valid": "2024-08-29 07:22:17",
+            "expires": "2024-11-27 07:22:16",
+            "fingerprint": "e3cc31775d0a68849649fdc8a1da2c7e85d15239ac124a8b1562bf434d2469b6"
+        },
+        "banners": {
+            "143": "* OK IMAP4 ready\n",
+            "25": "220 mail.asiaglobalservis.id ESMTP ready\n",
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "ip103-179-57-150.cloudhost.web.id"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c294222c2b9b5e568e3daabcd46fc674.jpeg"
+        }
+    }
+}

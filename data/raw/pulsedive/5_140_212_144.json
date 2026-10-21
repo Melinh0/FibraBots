@@ -1,0 +1,165 @@
+{
+    "qid": null,
+    "iid": 59262737,
+    "indicator": "5.140.212.144",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-13 11:14:55",
+    "stamp_updated": "2024-12-15 11:36:01",
+    "stamp_seen": "2024-12-11 23:29:56",
+    "stamp_probed": "2024-09-16 11:17:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59264095,
+                "indicator": "http:\/\/5.140.212.144\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-13 11:14:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russian Federation",
+                "PJSC Rostelecom",
+                "PJSC Rostelecom Russian Federation"
+            ],
+            "mnt-by": "ROSTELECOM-MNT",
+            "origin": "AS12389",
+            "abuse-mailbox": "abuse@rt.ru",
+            "netname": "USI_ADSL_USERS",
+            "nic-hdl": [
+                "RTNC-RIPE",
+                "PRTT1-RIPE"
+            ],
+            "inetnum": "5.140.112.0 - 5.140.255.255",
+            "mnt-domains": "MFIST-MNT",
+            "descr": [
+                "OJSC Rostelecom, regional branch \"Urals\"",
+                "Rostelecom networks",
+                "Dynamic distribution IP's for broadband services"
+            ],
+            "route": "5.140.212.0\/24",
+            "tech-c": [
+                "RTNC-RIPE",
+                "IE1277-RIPE"
+            ],
+            "created": [
+                "2013-01-10T10:18:30Z",
+                "2007-11-27T13:28:11Z",
+                "2018-10-30T07:57:44Z",
+                "2024-05-20T01:54:00Z"
+            ],
+            "++abuse": "abuse@rt.ru",
+            "++email": "abuse@rt.ru",
+            "last-modified": [
+                "2018-10-30T07:57:44Z",
+                "2022-12-12T07:46:18Z",
+                "2024-05-20T01:54:00Z",
+                "2024-06-05T07:00:30Z"
+            ],
+            "role": "PJSC Rostelecom Technical Team",
+            "admin-c": [
+                "IE1277-RIPE",
+                "PRTT1-RIPE"
+            ],
+            "++registrant": [
+                "IE1277-RIPE",
+                "PRTT1-RIPE"
+            ],
+            "++updated": [
+                "2024-05-20 01:54:00",
+                "2022-12-12 07:46:18",
+                "2024-06-05 07:00:30",
+                "2018-10-30 07:57:44"
+            ],
+            "++registered": [
+                "2024-05-20 01:54:00",
+                "2007-11-27 13:28:11",
+                "2018-10-30 07:57:44"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS12389",
+            "city": "Verkhnyaya Pyshma",
+            "org": "Rostelecom",
+            "region": "Sverdlovsk Oblast",
+            "lat": "56.995",
+            "long": "60.5763",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "connection": "Keep-Alive",
+            "content-language": "en",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/5.140.212.144\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "pragma": "no-cache"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear_2013.62\n\u0000\u0000\u0001\ufffd\n\u0014#@\ufffdI\ufffd*\u054c<-\ufffd\ufffd\u001b\ufffdKK\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000\u001eaes128-ctr,3des-ctr,aes256-ctr\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000%hmac-sha2-256,hmac-sha2-512,hmac-sha1\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000I\ufffdp\ufffd\ufffd\ufffd\ufffdQ\u0004\ufffd"
+        }
+    }
+}

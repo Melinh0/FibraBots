@@ -1,0 +1,135 @@
+{
+    "qid": null,
+    "iid": 65395747,
+    "indicator": "104.234.173.44",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-28 09:52:41",
+    "stamp_updated": "2024-12-17 11:30:38",
+    "stamp_seen": "2024-11-28 09:53:07",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65395844,
+                "indicator": "https:\/\/104.234.173.44\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-05 16:08:46"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-28 09:52:41"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-05 16:08:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Express",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Minas Gerais",
+            "lat": "-21.0815",
+            "long": "-42.4376",
+            "org": "Servicos de Infraestrutura e Datacenter",
+            "asn": "AS272547",
+            "city": "Muria\ufffd"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "x-powered-by": "Express",
+            "content-encoding": "gzip",
+            "vary": "Origin",
+            "content-security-policy": "default-src 'none'",
+            "access-control-allow-credentials": "true",
+            "transfer-encoding": "chunked",
+            "++code": "404",
+            "++status": "Not Found",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "access-control-allow-origin": "https:\/\/bot.lws-tech.com.br",
+            "date": "Thu, 28 Nov 2024 09:52:51 GMT",
+            "++redirect": "https:\/\/104.234.173.44\/",
+            "++target": "http:\/\/104.234.173.44\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "subject": "\/CN=botapi.lws-tech.com.br",
+            "fingerprint": "936f363e7e4947d756bae6a4c9df383e9bbd04edf9d15ab9dbd464d27b5ae42d",
+            "domain": [
+                "bot.lws-tech.com.br",
+                "botapi.lws-tech.com.br"
+            ],
+            "expires": "2025-02-23 19:16:45",
+            "valid": "2024-11-25 19:16:46"
+        },
+        "meta": {
+            "++title": "Error",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/966cb12729a2fe8560ee40cc55ff18a1.jpeg"
+        }
+    }
+}

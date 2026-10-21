@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 819,
+    "indicator": "109.69.67.17",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-09-28 03:08:59",
+    "stamp_updated": "2024-12-25 17:24:15",
+    "stamp_seen": "2024-12-25 17:24:15",
+    "stamp_probed": "2024-08-28 03:27:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [
+            {
+                "iid": 6956908,
+                "indicator": "https:\/\/2019.www.torproject.org\/images\/how_tor_works_thumb.png"
+            }
+        ],
+        "to": [
+            {
+                "iid": 6965779,
+                "indicator": "http:\/\/109.69.67.17\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-20 04:54:15"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-21 17:52:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-16 21:34:18"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-21 17:52:18"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-09-10 16:02:49"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-20 04:54:15"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "address": [
+                "28197 Bremen",
+                "PLUTEX GmbH",
+                "Hermann-Ritter-Str. 110"
+            ],
+            "created": [
+                "2009-11-05T11:29:55Z",
+                "2017-03-08T10:14:51Z",
+                "2013-11-01T11:19:56Z"
+            ],
+            "descr": [
+                "PLUTEX",
+                "********************************************",
+                "This is a tor node. https:\/\/www.torproject.org\/",
+                "If you see suspicious traffic from this host:",
+                "This is unavoidable due to how TOR works.",
+                "More info on https:\/\/www.torproject.org\/",
+                "Das hier ist ein Tor Knoten. https:\/\/www.torproject.org\/",
+                "Falls Sie verdaechtige Aktivitaeten aus diesem Netz feststellen:",
+                "Das laesst sich leider nicht vermeiden und haengt mit der funktionsweise",
+                "vom TOR-Netzwerk zusammen.",
+                "Weitere Infos auf https:\/\/www.torproject.org\/"
+            ],
+            "inetnum": "109.69.67.16 - 109.69.67.19",
+            "last-modified": [
+                "2009-11-05T11:29:55Z",
+                "2019-08-23T07:16:33Z",
+                "2021-10-07T11:51:45Z"
+            ],
+            "mnt-by": "PLUTEX-MNT",
+            "mnt-lower": "PLUTEX-MNT",
+            "netname": "PLUTEX-CUSTOMER-50070",
+            "nic-hdl": "PLU5-RIPE",
+            "origin": "AS49855",
+            "role": "PLUTEX NOC",
+            "route": "109.69.64.0\/21",
+            "tech-c": "PLU5-RIPE",
+            "admin-c": [
+                "PLU5-RIPE",
+                "TB4275-RIPE",
+                "HLI7-RIPE"
+            ],
+            "++registrant": [
+                "PLU5-RIPE",
+                "TB4275-RIPE",
+                "HLI7-RIPE"
+            ],
+            "++abuse": "abuse@plutex.de",
+            "++updated": [
+                "2021-10-07 11:51:45",
+                "2009-11-05 11:29:55"
+            ],
+            "++registered": [
+                "2017-03-08 10:14:51",
+                "2013-11-01 11:19:56",
+                "2009-11-05 11:29:55"
+            ],
+            "++email": "abuse@plutex.de",
+            "abuse-mailbox": "abuse@plutex.de"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "lat": "51.2993",
+            "asn": "AS49855",
+            "org": "PLUTEX GmbH",
+            "long": "9.491"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "5955",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/109.69.67.17\/",
+            "x-your-address-is": "45.79.22.72",
+            "date": "Tue, 24 Dec 2024 17:30:22 GMT",
+            "expires": "Tue, 24 Dec 2024 17:50:22 GMT"
+        },
+        "dns": {
+            "ptr": "tor.plutex.de"
+        },
+        "meta": {
+            "++title": "This is a Tor Exit Router",
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/bfc5766f9a83374e67d41e52b321287d.jpeg"
+        }
+    }
+}

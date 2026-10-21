@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 29704341,
+    "indicator": "66.240.236.116",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-11-18 07:27:27",
+    "stamp_updated": "2024-12-22 00:19:03",
+    "stamp_seen": "2024-12-22 00:19:03",
+    "stamp_probed": "2024-08-29 22:53:13",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 7,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-11-29 06:46:36"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-18 07:27:27"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-11-29 06:46:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-12-01 15:26:10"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 505255,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 01:49:16",
+            "stamp_updated": "2022-05-18 01:49:16"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": [
+                "CA",
+                "NV"
+            ],
+            "parent": [
+                "NET66 (NET-66-0-0-0-0)",
+                "CARINET-3 (NET-66-240-192-0-1)"
+            ],
+            "city": [
+                "San Diego",
+                "Henderson"
+            ],
+            "++registered": "2014-01-03 00:00:00",
+            "++email": "network@cari.net",
+            "++registrant": "CariNet, Inc.",
+            "address": [
+                "8929 Complex Drive",
+                "170 S Green Valley Parkway, Suite 300"
+            ],
+            "cidr": [
+                "66.240.236.0\/25",
+                "66.240.192.0\/18"
+            ],
+            "custname": "CariNet, Inc.",
+            "customer": "CariNet, Inc. (C04837901)",
+            "nethandle": [
+                "NET-66-240-236-0-1",
+                "NET-66-240-192-0-1"
+            ],
+            "netname": [
+                "NET-25",
+                "CARINET-3"
+            ],
+            "netrange": [
+                "66.240.236.0 - 66.240.236.127",
+                "66.240.192.0 - 66.240.255.255"
+            ],
+            "orgabuseemail": "complaints@cari.net",
+            "orgabusehandle": "ABUSE341-ARIN",
+            "orgabusename": "CariNet Abuse",
+            "organization": "CariNet, Inc. (CARIN-6)",
+            "orgid": "CARIN-6",
+            "orgname": "CariNet, Inc.",
+            "orgtechemail": "network@cari.net",
+            "orgtechhandle": "CARIN-ARIN",
+            "orgtechname": "CariNet Networking",
+            "originas": "AS10439",
+            "postalcode": [
+                "92123",
+                "89012"
+            ],
+            "regdate": [
+                "2014-01-03",
+                "2009-11-17",
+                "2003-06-17"
+            ],
+            "updated": [
+                "2014-01-03",
+                "2012-03-02",
+                "2019-08-28"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-6",
+                "https:\/\/rdap.arin.net\/registry\/ip\/66.240.192.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/66.240.236.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C04837901"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE341-ARIN",
+            "++updated": "2019-08-28 00:00:00",
+            "orgtechphone": "+1-702-660-0350",
+            "orgabusephone": "+1-702-660-0350",
+            "++phone": "+1-702-660-0350",
+            "++abuse": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE341-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS10439",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "CARINET"
+        },
+        "dns": {
+            "ptr": "ubtuntu20236116.aspadmin.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        }
+    }
+}

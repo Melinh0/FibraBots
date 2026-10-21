@@ -1,0 +1,294 @@
+{
+    "qid": null,
+    "iid": 31280285,
+    "indicator": "194.113.236.217",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-01-22 14:15:48",
+    "stamp_updated": "2024-12-15 11:32:31",
+    "stamp_seen": "2024-12-15 07:38:17",
+    "stamp_probed": "2024-09-30 07:48:19",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 31283348,
+                "indicator": "https:\/\/194.113.236.217\/"
+            },
+            {
+                "iid": 31283337,
+                "indicator": "https:\/\/194.113.236.217\/users\/sign_in"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-03-04 10:35:24"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-01-22 14:15:48"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-08-01 12:37:21"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-03-04 10:35:24"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-03-18 06:11:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "443",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP"
+        ],
+        "technology": [
+            "GitLab",
+            "jQuery",
+            "Let's Encrypt",
+            "Nginx",
+            "Open Graph",
+            "Ruby",
+            "Ruby on Rails",
+            "Sentry",
+            "Vue.js",
+            "webpack"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "MTU-NOC"
+            ],
+            "country": "RU",
+            "address": [
+                "Moscow, Russia",
+                "Moscow",
+                "Petrovsky blvd 12, bldg 3",
+                "PJSC MTS \/ former CJSC Comstar-Direct",
+                "P.O. BOX 4711 127051",
+                "119121",
+                "RUSSIAN FEDERATION",
+                "Smolenskaya-Sennaya sq., 27 bld 2"
+            ],
+            "mnt-by": [
+                "MTU-NOC",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "admin-c": [
+                "RPS-RIPE",
+                "YUF-RIPE",
+                "LAP-RIPE",
+                "TABY-RIPE",
+                "MTU1-RIPE",
+                "EDA-RIPE",
+                "LMUR-RIPE"
+            ],
+            "fax-no": [
+                "+7 495 956-07-07",
+                "+74992318129"
+            ],
+            "nic-hdl": "MTU1-RIPE",
+            "phone": [
+                "+7 495 721-34-99",
+                "+74957213499"
+            ],
+            "++phone": "+74957213499",
+            "abuse-c": "MAB8359-RIPE",
+            "org": "ORG-ZM1-RIPE",
+            "org-name": "MTS PJSC",
+            "organisation": "ORG-ZM1-RIPE",
+            "descr": [
+                "MTS PJSC",
+                "# CloudMTS"
+            ],
+            "created": [
+                "2004-04-17T11:55:44Z",
+                "2002-10-18T13:29:19Z",
+                "2020-12-08T14:31:50Z",
+                "2020-12-08T16:18:20Z"
+            ],
+            "tech-c": [
+                "MTU1-RIPE",
+                "EDA-RIPE"
+            ],
+            "++registrant": [
+                "LAP-RIPE",
+                "TABY-RIPE",
+                "YUF-RIPE",
+                "RPS-RIPE",
+                "MTU1-RIPE",
+                "EDA-RIPE",
+                "LMUR-RIPE"
+            ],
+            "role": "MTS backbone NOC",
+            "origin": "AS60490",
+            "route": "194.113.236.0\/23",
+            "netname": "RU-MTU-20180802",
+            "last-modified": [
+                "2020-12-08T14:31:50Z",
+                "2020-12-08T16:18:20Z",
+                "2022-04-08T13:50:05Z",
+                "2024-01-16T14:42:44Z"
+            ],
+            "inetnum": "194.113.236.0 - 194.113.237.255",
+            "++registered": [
+                "2002-10-18 13:29:19",
+                "2004-04-17 11:55:44",
+                "2020-12-08 14:31:50",
+                "2020-12-08 16:18:20"
+            ],
+            "++updated": [
+                "2022-04-08 13:50:05",
+                "2024-01-16 14:42:44",
+                "2020-12-08 16:18:20"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "org": "MTS PJSC",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS60490",
+            "country": "Russia"
+        },
+        "http": {
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-ua-compatible": "IE=edge",
+            "x-download-options": "noopen",
+            "x-permitted-cross-domain-policies": "none",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "permissions-policy": "interest-cohort=()",
+            "link": "<\/assets\/application_utilities-890a8bbe18ecbfbbbd26c364e8d31a547e12fe896fdc2c6c000a55eb1ce7cf45.css>; rel=preload; as=style; type=text\/css,<\/assets\/application-ff058b10a8dce9956247adba2e410a7f80010a236b2269fb53e0df5cd091e61d.css>; rel=preload; as=style; type=text\/css,<\/assets\/highlight\/themes\/white-88d7a77ed7cff657c57dd5a7ae597ced9b0e66e902df5e026af3f8b786c26fec.css>; rel=preload; as=style; type=text\/css",
+            "content-security-policy": "",
+            "++redirect": "https:\/\/194.113.236.217\/users\/sign_in",
+            "++target": "http:\/\/194.113.236.217\/",
+            "date": "Tue, 22 Oct 2024 17:27:17 GMT",
+            "set-cookie": "_gitlab_session=d157b00c4b06ae322c4dc2e821d54f90; path=\/; expires=Tue, 22 Oct 2024 19:27:17 GMT; secure; HttpOnly; SameSite=None",
+            "x-runtime": "0.129478",
+            "x-request-id": "01JB6EDAA00D02BH6Q9G00XC79",
+            "etag": "W\/\"7724dcf0ef3a3b07592891d9657dd560\""
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "twitter:card": "summary",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "csrf-param": "authenticity_token",
+            "og:type": "object",
+            "msapplication-tilecolor": "#30353E",
+            "og:image:height": "64",
+            "og:image:width": "64",
+            "og:site_name": "GitLab",
+            "twitter:title": "Sign in",
+            "msapplication-tileimage": "\/assets\/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png",
+            "description": "GitLab Enterprise Edition",
+            "og:description": "GitLab Enterprise Edition",
+            "twitter:description": "GitLab Enterprise Edition",
+            "charset": "utf-8",
+            "og:title": "Sign in",
+            "action-cable-url": "\/-\/cable",
+            "theme-color": "#292961",
+            "twitter:image": "https:\/\/194.113.236.217\/assets\/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png",
+            "og:image": "https:\/\/194.113.236.217\/assets\/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png",
+            "og:url": "https:\/\/194.113.236.217\/users\/sign_in",
+            "++title": "Sign in \ufffd GitLab",
+            "csrf-token": "nk8O8QyiwL+5IHmYyDy2LiJlgGWeN\/nfUkd7x78KQCnQh14+gaFHodqYvnvIW5dFLSIqETQ9KaGgEF7SkzeMOQ=="
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "git-iot-dev.sitronics.com",
+            "subject": "\/CN=git-iot-dev.sitronics.com",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "valid": "2024-08-01 07:36:09",
+            "expires": "2024-10-30 07:36:08",
+            "fingerprint": "c1045ac229dc15456873579c3c0a3f99f0ae61680356a903edc12c617a310de7"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 UIDPLUS CHILDREN NAMESPACE THREAD=ORDEREDSUBJECT THREAD=REFERENCES SORT QUOTA IDLE ACL ACL2=UNION STARTTLS ENABLE UTF8=ACCEPT] Courier-IMAP ready. Copyright 1998-2018 Double Precision, Inc.  See COPYING for distribution information.\n",
+            "25": "220 GitLab ESMTP Postfix (Ubuntu)\n",
+            "993": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/20b813d33643b21ca25425597f542591.jpeg"
+        },
+        "cookies": {
+            "_gitlab_session": "0a0d832f783fbbfdfdbb1a21f0178329"
+        }
+    }
+}

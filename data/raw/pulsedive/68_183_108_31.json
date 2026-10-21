@@ -1,0 +1,223 @@
+{
+    "qid": null,
+    "iid": 52721997,
+    "indicator": "68.183.108.31",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-04 01:37:21",
+    "stamp_updated": "2024-12-17 11:39:54",
+    "stamp_seen": "2024-12-16 17:54:33",
+    "stamp_probed": "2024-09-30 18:57:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 52722050,
+                "indicator": "http:\/\/68.183.108.31\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-11-13 02:38:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-04 01:37:21"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-11-13 02:38:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-18 06:18:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Bootstrap",
+            "CodeIgniter",
+            "Google Font API",
+            "jQuery",
+            "Modernizr",
+            "PHP",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-09-18"
+            ],
+            "stateprov": "NY",
+            "parent": "NET68 (NET-68-0-0-0-0)",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2018-09-18 00:00:00"
+            ],
+            "originas": "AS14061",
+            "netrange": "68.183.0.0 - 68.183.255.255",
+            "nethandle": "NET-68-183-0-0-1",
+            "cidr": "68.183.0.0\/16",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/68.183.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-68-183-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "North Bergen"
+            ],
+            "asn": "AS14061",
+            "zip": "10013",
+            "lat": "40.7924",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "-74.0096"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.18 (Ubuntu)",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "2048",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "set-cookie": "ci_session=86dd11a70407ebe4d0ae225fea854b53fdbf93a0; expires=Sun, 15-Sep-2024 08:42:27 GMT; Max-Age=7200; path=\/; HttpOnly",
+            "date": "Sun, 15 Sep 2024 06:42:27 GMT",
+            "++target": "http:\/\/68.183.108.31\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui",
+            "description": "bootstrap material admin template",
+            "charset": "utf-8",
+            "content-type": "text\/html;charset=utf-8",
+            "author": "",
+            "++title": "Ameriinfo"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8\n"
+        },
+        "dns": {
+            "ptr": "work.ameriinfo.com"
+        },
+        "cookies": {
+            "ci_session": "86dd11a70407ebe4d0ae225fea854b53fdbf93a0"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9197ad2cc01f0bda34ee776c9fb209bf.jpeg"
+        }
+    }
+}

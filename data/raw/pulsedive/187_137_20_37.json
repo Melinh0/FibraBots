@@ -1,0 +1,234 @@
+{
+    "qid": null,
+    "iid": 65447860,
+    "indicator": "187.137.20.37",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 10:00:14",
+    "stamp_updated": "2024-12-14 11:28:13",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65447904,
+                "indicator": "https:\/\/187.137.20.37\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 10:00:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-06 22:08:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3389",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "RDP"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "MX",
+            "abuse-c": "SRU",
+            "address": [
+                "01900 - MEXICO - CX",
+                "14060 - TLALPAN - CX",
+                "PERIFERICO SUR, 3190, ALVARO OBREG",
+                "01900 - MEXICO DF - CX",
+                "AV. INSURGENTES SUR, 3500, TORRE TELMEX COL. PE\ufffdA POBRE",
+                "AVENIDA (AV.) INSURGENTES SUR, 3500, PISO 4 PE\ufffdA POBRE"
+            ],
+            "changed": [
+                "20170107",
+                "20120227",
+                "20240510"
+            ],
+            "created": [
+                "20030701",
+                "20110706",
+                "20071206",
+                "20021210"
+            ],
+            "nic-hdl": [
+                "SRU",
+                "GEC10",
+                "DCA"
+            ],
+            "nserver": [
+                "NSMTY2.UNINET.NET.MX",
+                "NSMEX4.UNINET.NET.MX"
+            ],
+            "owner-c": "GEC10",
+            "ownerid": "MX-USCV4-LACNIC",
+            "person": [
+                "SEGURIDAD DE RED UNINET",
+                "GESTION DE CAMBIOS",
+                "Gestion de Direccionamiento UniNet"
+            ],
+            "responsible": "No hay informacion",
+            "tech-c": "DCA",
+            "++registrant": [
+                "GESTION DE CAMBIOS",
+                "SEGURIDAD DE RED UNINET",
+                "Gestion de Direccionamiento UniNet"
+            ],
+            "++email": [
+                "gccips1@reduno.com.mx",
+                "abuse@uninet.net.mx",
+                "gccips@uninet.com.mx"
+            ],
+            "phone": [
+                "+52 5 556244400",
+                "+52 55 52237234",
+                "+52  5554876500",
+                "+52  5554876578"
+            ],
+            "e-mail": [
+                "gccips1@reduno.com.mx",
+                "abuse@uninet.net.mx",
+                "gccips@uninet.com.mx"
+            ],
+            "inetnum": "187.128.0.0\/12",
+            "inetrev": [
+                "187.131.0.0\/16",
+                "187.130.0.0\/16",
+                "187.129.0.0\/16",
+                "187.128.0.0\/16",
+                "187.132.0.0\/16",
+                "187.133.0.0\/16",
+                "187.134.0.0\/16",
+                "187.135.0.0\/16",
+                "187.136.0.0\/16",
+                "187.137.0.0\/16",
+                "187.138.0.0\/16",
+                "187.139.0.0\/16",
+                "187.140.0.0\/16",
+                "187.141.0.0\/16",
+                "187.142.0.0\/16",
+                "187.143.0.0\/16"
+            ],
+            "owner": "UNINET",
+            "nsstat": [
+                "20241126 AA",
+                "20241125 AA",
+                "20241127 AA",
+                "20241128 AA",
+                "20241129 AA"
+            ],
+            "nslastaa": [
+                "20241126",
+                "20241125",
+                "20241127",
+                "20241128",
+                "20241129"
+            ]
+        },
+        "geo": {
+            "country": "Mexico",
+            "countrycode": "MX",
+            "region": "Sonora",
+            "asn": "AS8151",
+            "address": [
+                "PERIFERICO SUR, 3190, ALVARO OBREG",
+                "01900 - MEXICO DF - CX",
+                "01900 - MEXICO - CX",
+                "AV. INSURGENTES SUR, 3500, TORRE TELMEX COL. PE\ufffdA POBRE",
+                "14060 - TLALPAN - CX",
+                "AVENIDA (AV.) INSURGENTES SUR, 3500, PISO 4 PE\ufffdA POBRE"
+            ],
+            "lat": "27.4222",
+            "long": "-109.9259",
+            "org": "UNINET",
+            "city": "Ciudad Obreg\ufffdn"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-aspnet-version": "4.0.30319",
+            "x-powered-by": "ASP.NET",
+            "cache-control": "private",
+            "server": "Microsoft-IIS\/10.0",
+            "content-length": "1311",
+            "++code": "401",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/187.137.20.37\/",
+            "date": "Fri, 29 Nov 2024 10:00:21 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "401 - No autorizado: acceso denegado debido a credenciales no v\ufffdlidas."
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2029-03-09 16:59:33",
+            "domain": "terminal3.gsiempre.com",
+            "org": "terminal3.gsiempre.com",
+            "issuer": "\/CN=terminal3.gsiempre.com",
+            "fingerprint": "c4fe152253842eb5f3dd31885c4eb5ba39e6628e6746086da7c8485ae50c37ba",
+            "subject": "\/CN=terminal3.gsiempre.com",
+            "valid": "2024-03-09 16:49:34"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b42187e2635df1a39c62e51605db2621.jpeg"
+        }
+    }
+}

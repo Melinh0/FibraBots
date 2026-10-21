@@ -1,0 +1,71 @@
+{
+    "qid": null,
+    "iid": 57646781,
+    "indicator": "39.98.40.23",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-03-27 22:53:46",
+    "stamp_updated": "2024-12-11 10:44:16",
+    "stamp_seen": "2024-03-27 22:53:52",
+    "stamp_probed": "2024-03-27 22:53:52",
+    "stamp_retired": "2024-06-30 02:07:07",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-27 22:53:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "China",
+            "countrycode": "CN",
+            "asn": "AS37963",
+            "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
+            "org": "Hangzhou Alibaba Advertising Co.,Ltd.",
+            "city": "Beijing",
+            "region": "Beijing",
+            "lat": "39.911",
+            "long": "116.395"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n"
+        }
+    }
+}

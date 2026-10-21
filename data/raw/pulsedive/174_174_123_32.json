@@ -1,0 +1,218 @@
+{
+    "qid": null,
+    "iid": 62340744,
+    "indicator": "174.174.123.32",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-12 20:41:08",
+    "stamp_updated": "2024-12-11 10:41:04",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-08-28 22:49:24",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63860473,
+                "indicator": "https:\/\/174.174.123.32\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-12 20:41:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-14 07:10:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": "NJ",
+            "parent": [
+                "NET174 (NET-174-0-0-0-0)",
+                "COMCAST-VOIP-4 (NET-174-160-0-0-1)"
+            ],
+            "++email": "CNIPEO-Ip-registration@cable.comcast.com",
+            "++registrant": "Comcast Cable Communications, LLC",
+            "address": "1800 Bishops Gate Blvd",
+            "city": "Mt Laurel",
+            "orgabuseemail": "abuse@comcast.net",
+            "orgabusehandle": "NAPO-ARIN",
+            "orgabusename": "Network Abuse and Policy Observance",
+            "orgabusephone": "+1-888-565-4329",
+            "organization": "Comcast Cable Communications, LLC (CCCS)",
+            "orgid": "CCCS",
+            "orgname": "Comcast Cable Communications, LLC",
+            "orgtechemail": "CNIPEO-Ip-registration@cable.comcast.com",
+            "orgtechhandle": "IC161-ARIN",
+            "orgtechname": "Comcast Cable Communications Inc",
+            "postalcode": "08054",
+            "custname": "Comcast Cable Communications, LLC",
+            "rabuseemail": "abuse@comcast.net",
+            "rabusehandle": "NAPO-ARIN",
+            "rabusename": "Network Abuse and Policy Observance",
+            "rabusephone": "+1-888-565-4329",
+            "rtechemail": "CNIPEO-Ip-registration@cable.comcast.com",
+            "rtechhandle": "IC161-ARIN",
+            "rtechname": "Comcast Cable Communications Inc",
+            "regdate": [
+                "2008-05-14",
+                "2001-09-18",
+                "2022-12-13"
+            ],
+            "netname": [
+                "COMCAST-VOIP-4",
+                "BEAVERTON-10"
+            ],
+            "nethandle": [
+                "NET-174-160-0-0-1",
+                "NET-174-174-0-0-1"
+            ],
+            "cidr": [
+                "174.160.0.0\/11",
+                "174.174.0.0\/17"
+            ],
+            "netrange": [
+                "174.160.0.0 - 174.191.255.255",
+                "174.174.0.0 - 174.174.127.255"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IC161-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CCCS",
+                "https:\/\/rdap.arin.net\/registry\/ip\/174.160.0.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/174.174.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C09077648"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NAPO-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NAPO-ARIN",
+            "rtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IC161-ARIN",
+            "++phone": "+1-888-565-4329",
+            "++abuse": "https:\/\/rdap.arin.net\/registry\/entity\/NAPO-ARIN",
+            "orgroutingname": "Routing",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ROUTI25-ARIN",
+            "updated": [
+                "2020-11-18",
+                "2021-01-25",
+                "2022-12-13"
+            ],
+            "orgroutinghandle": "ROUTI25-ARIN",
+            "orgroutingemail": "routing@comcast.com",
+            "orgtechphone": "+1-856-792-2300",
+            "orgroutingphone": "+1-856-792-2300",
+            "rtechphone": "+1-856-792-2300",
+            "++updated": "2022-12-13 00:00:00",
+            "++registered": "2022-12-13 00:00:00",
+            "customer": "Comcast Cable Communications, LLC (C09077648)"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Oregon",
+            "asn": "AS7922",
+            "city": "Portland",
+            "lat": "45.461",
+            "long": "-122.7052",
+            "org": "COMCAST-7922"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "httpd",
+            "++code": "200",
+            "++status": "OK",
+            "pragma": "no-cache\nno-cache",
+            "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0\nno-cache",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "++target": "https:\/\/174.174.123.32\/",
+            "date": "Mon, 07 Oct 2024 13:33:46 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "robots": "noindex",
+            "content-type": "application\/xhtml+xml; charset=utf-8",
+            "++title": "Hal-9000 (build 57956) - Info"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003"
+        },
+        "dns": {
+            "ptr": "c-174-174-123-32.hsd1.or.comcast.net"
+        },
+        "ssl": {
+            "version": "v0",
+            "expires": "2034-08-14 04:40:38",
+            "issuer": "\/C=DE\/ST=Saxon\/L=Dresden\/O=NewMedia-NET GmbH\/OU=DD-WRT\/CN=NewMedia-NET GmbH\/E=info@dd-wrt.com",
+            "valid": "2024-08-16 04:40:38",
+            "org": "NewMedia-NET GmbH",
+            "++subject": "NewMedia-NET GmbH",
+            "subject": "\/C=DE\/ST=Saxon\/L=Dresden\/O=NewMedia-NET GmbH\/OU=DD-WRT\/CN=NewMedia-NET GmbH\/E=info@dd-wrt.com",
+            "fingerprint": "6c7dabc6dc68bae90bbb11ef1ed73314a8fdf87370778cd43bc072e15a1d8137"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5d8ec3a9859f7d80d63e80524ec40716.jpeg"
+        }
+    }
+}

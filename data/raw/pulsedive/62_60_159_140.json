@@ -1,0 +1,204 @@
+{
+    "qid": null,
+    "iid": 65016434,
+    "indicator": "62.60.159.140",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-15 09:19:14",
+    "stamp_updated": "2024-12-14 11:32:38",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65016895,
+                "indicator": "https:\/\/62.60.159.140\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-15 09:19:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-03 22:06:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SOCKS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": "SE",
+            "mnt-ref": [
+                "ROSNIIROS-MNT",
+                "DN-MNT",
+                "QWARTA-MNT",
+                "Cyber-MNT",
+                "NETWORK-MANAGEMENT-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt",
+                "Corinnafisch-MNT",
+                "LIR-ae-royal-1-MNT",
+                "JD-RIPE-MNT"
+            ],
+            "mnt-by": [
+                "aeza-mnt",
+                "NETWORK-MANAGEMENT-MNT",
+                "aezagroup-mnt"
+            ],
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2024-10-11T20:06:14Z",
+                "2021-11-23T14:01:33Z",
+                "2024-10-11T20:06:54Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "mnt-domains": "aeza-mnt",
+            "mnt-routes": "aeza-mnt",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2024-10-11 20:06:14",
+                "2021-11-23 14:01:33",
+                "2024-10-11 20:06:54"
+            ],
+            "++email": "abuse@aeza.net",
+            "abuse-mailbox": "abuse@aeza.net",
+            "++abuse": "abuse@aeza.net",
+            "last-modified": [
+                "2024-11-13T10:01:59Z",
+                "2024-10-25T10:53:12Z",
+                "2023-10-31T07:53:16Z",
+                "2024-10-11T20:06:54Z"
+            ],
+            "++updated": [
+                "2024-11-13 10:01:59",
+                "2023-10-31 07:53:16",
+                "2024-10-11 20:06:54"
+            ],
+            "admin-c": "AA38875-RIPE",
+            "route": "62.60.159.0\/24",
+            "tech-c": "AA38875-RIPE",
+            "++registrant": "AA38875-RIPE",
+            "nic-hdl": "AA38875-RIPE",
+            "inetnum": "62.60.159.0 - 62.60.159.255",
+            "netname": "NET-RY159"
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "city": "Stockholm",
+            "region": "Stockholm County",
+            "asn": "AS210644",
+            "org": [
+                "ORG-AGL38-RIPE",
+                "Aeza International Ltd"
+            ],
+            "lat": "59.3241",
+            "long": "18.0517",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom"
+        },
+        "http": {
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+            "referrer-policy": "same-origin",
+            "content-security-policy": "default-src 'none';",
+            "++code": "403",
+            "content-type": "text\/html; charset=utf-8",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "permissions-policy": "interest-cohort=()",
+            "expect-ct": "max-age=86400, enforce, report-uri=\"https:\/\/aeris.report-uri.com\/r\/d\/ct\/enforce\"",
+            "date": "Fri, 15 Nov 2024 09:32:42 GMT",
+            "++target": "https:\/\/62.60.159.140\/"
+        },
+        "ssl": {
+            "domain": "localhost",
+            "issuer": "\/CN=localhost",
+            "subject": "\/CN=localhost",
+            "version": "v3",
+            "org": "localhost",
+            "valid": "2018-01-01 00:00:00",
+            "expires": "9999-12-31 23:59:59",
+            "fingerprint": "de7cda287b443288e06ad3833aa3c860ee91fe50b4558c85599004171c596347"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "1080": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/237494869a012e94935872cf132133b4.jpeg"
+        }
+    }
+}

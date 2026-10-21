@@ -1,0 +1,205 @@
+{
+    "qid": null,
+    "iid": 54919524,
+    "indicator": "43.228.112.254",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-06 20:46:13",
+    "stamp_updated": "2024-12-14 20:39:34",
+    "stamp_seen": "2024-12-14 20:39:34",
+    "stamp_probed": "2024-09-30 12:50:05",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 54919536,
+                "indicator": "http:\/\/43.228.112.254\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-01-16 23:16:15"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-06 20:46:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-01-16 23:16:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-30 04:01:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-ISHAN",
+                "MAINT-INPL-IN"
+            ],
+            "abuse-mailbox": "reportabuse@ishanitech.biz",
+            "address": [
+                "315\/6 Shivam Complex, Opp. Jagnath Temple, Dr. Yagnik Road",
+                "313 Shivam Complex, Dr. Yagnik Road, Opp Jagnath Temple, Rajkot - Gujarat - India"
+            ],
+            "e-mail": [
+                "ipadmin@ishanitech.biz",
+                "iptech@ishanitech.biz"
+            ],
+            "irt": "IRT-ISHAN-IN",
+            "mnt-irt": "IRT-ISHAN-IN",
+            "mnt-routes": "MAINT-IN-ISHAN",
+            "origin": "AS45117",
+            "mnt-lower": "MAINT-IN-ISHAN",
+            "netname": "INPL-IN",
+            "inetnum": "43.228.112.0 - 43.228.115.255",
+            "tech-c": [
+                "IA179-AP",
+                "INPL1-AP"
+            ],
+            "descr": [
+                "Ishan Netsol Pvt Ltd",
+                "Ishan Netsol Pvt. Ltd."
+            ],
+            "last-modified": [
+                "2014-10-13T06:06:07Z",
+                "2021-05-25T07:18:52Z",
+                "2020-09-23T05:25:34Z",
+                "2021-03-19T08:01:26Z"
+            ],
+            "admin-c": [
+                "IT136-AP",
+                "INPL1-AP"
+            ],
+            "++abuse": "reportabuse@ishanitech.biz",
+            "++email": [
+                "reportabuse@ishanitech.biz",
+                "iptech@ishanitech.biz",
+                "ipadmin@ishanitech.biz"
+            ],
+            "++registrant": [
+                "IT136-AP",
+                "INPL1-AP"
+            ],
+            "nic-hdl": "INPL1-AP",
+            "role": "ISHAN NETSOL PVT LTD - network administrator",
+            "phone": "+91 2816647426",
+            "route": "43.228.112.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-05-25 07:18:52",
+                "2014-10-13 06:06:07",
+                "2020-09-23 05:25:34",
+                "2021-03-19 08:01:26"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Gujarat",
+            "asn": "AS45117",
+            "city": "Ahmedabad",
+            "address": [
+                "315\/6 Shivam Complex, Opp. Jagnath Temple, Dr. Yagnik Road",
+                "313 Shivam Complex, Dr. Yagnik Road, Opp Jagnath Temple, Rajkot - Gujarat - India"
+            ],
+            "lat": "23.0276",
+            "long": "72.5871",
+            "org": "Ishans Network"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3121",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "etag": "\"29af-6004c723642b4-gzip\"",
+            "last-modified": "Wed, 12 Jul 2023 16:09:53 GMT",
+            "++target": "http:\/\/43.228.112.254\/",
+            "date": "Tue, 22 Oct 2024 18:25:48 GMT"
+        },
+        "dns": {
+            "ptr": "undefined.hostname.localhost"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3306": "a\u0000\u0000\u0000\ufffdj\u0004Host '172-234-253-4.ip.linodeusercontent.com' is not allowed to connect to this MariaDB server"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/58cc99a82e02327e2d7cd1ba5aad749a.jpeg"
+        }
+    }
+}

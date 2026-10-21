@@ -1,0 +1,227 @@
+{
+    "qid": null,
+    "iid": 45843075,
+    "indicator": "157.230.17.29",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-03-19 00:18:09",
+    "stamp_updated": "2024-10-08 13:07:14",
+    "stamp_seen": "2024-07-05 13:36:22",
+    "stamp_probed": "2024-07-05 13:36:20",
+    "stamp_retired": "2024-10-08 13:07:14",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-04-07 05:05:14"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-19 00:18:09"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-04-07 05:05:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-03-31 09:39:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "22",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "NETBIOS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Nginx",
+            "Shopify",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Germany",
+                "United States of America"
+            ],
+            "countrycode": [
+                "DE",
+                "US"
+            ],
+            "city": [
+                "New York",
+                "Frankfurt am Main"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "NY",
+                "Hesse"
+            ],
+            "zip": [
+                "10013",
+                "60341"
+            ],
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "8.6837",
+            "isp": "DIGITALOCEAN-ASN",
+            "lat": "50.1169"
+        },
+        "whois": {
+            "country": "US",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-08-22"
+            ],
+            "stateprov": "NY",
+            "originas": "AS14061",
+            "parent": "NET157 (NET-157-0-0-0-0)",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "++registered": "2018-08-22 00:00:00",
+            "nethandle": "NET-157-230-0-0-1",
+            "cidr": "157.230.0.0\/16",
+            "netrange": "157.230.0.0 - 157.230.255.255",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-157-230-0-0",
+            "++abuse": "ABUSE5232-ARIN",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "25478",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.58 (Ubuntu)",
+            "last-modified": "Tue, 04 Jun 2024 02:48:42 GMT",
+            "etag": "\"1a9d3-61a077cdc18aa-gzip\"",
+            "date": "Thu, 04 Jul 2024 18:26:34 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width,initial-scale=1",
+            "robots": "nofollow",
+            "og:type": "product",
+            "og:price:currency": "USD",
+            "og:image:height": "800",
+            "og:image:width": "800",
+            "charset": "utf-8",
+            "og:price:amount": "10,000.00",
+            "twitter:title": "ABO77 > Daftar ABO77, ABO 77, link alternatif ABO77, link ABO77, slot ",
+            "og:url": "http:\/\/157.230.17.29\/",
+            "keywords": "ABO 77, Daftar ABO77, ABO77, link alternatif ABO77, link ABO77, slot ABO77, ABO77 slot, login ABO77, situs ABO77, ABO77 bet, rtp ABO77, slot RTP GACOR ABO77.",
+            "og:description": "Mengenal Situs Slot ABO77: Platform Judi Online dengan Pengalaman Bermain yang Unik ABO 77 Di era digital yang serba cepat ini, judi online menjadi salah satu hiburan yang semakin digemari oleh masyarakat Indonesia. Banyaknya situs judi yang bermunculan membuat pemain memiliki banyak pilihan. Salah satu Daftar ABO 77 s",
+            "og:title": "ABO77 > Daftar ABO77, ABO 77, link alternatif ABO77, link ABO77, slot ",
+            "og:image:secure_url": "https:\/\/ezon36a2kvb8qg9i-61252239414.shopifypreview.com\/cdn\/shop\/files\/88.png?v=1717469212",
+            "og:image": "http:\/\/ezon36a2kvb8qg9i-61252239414.shopifypreview.com\/cdn\/shop\/files\/88.png?v=1717469212",
+            "description": "Mengenal Situs Slot ABO77: Platform Judi Online dengan Pengalaman Bermain yang Unik ABO 77 Di era digital yang serba cepat ini, judi online menjadi salah satu hiburan yang semakin digemari oleh masyarakat Indonesia. Banyaknya situs judi yang bermunculan membuat pemain memiliki banyak pilihan. Salah satu Daftar ABO 77 s",
+            "shopify-checkout-api-token": "c1833c2877d05ddc44f1cb541157fa32",
+            "shopify-digital-wallet": "\/61252239414\/digital_wallets\/dialog",
+            "twitter:description": "Mengenal Situs Slot ABO77: Platform Judi Online dengan Pengalaman Bermain yang Unik ABO 77 Di era digital yang serba cepat ini, judi online menjadi salah satu hiburan yang semakin digemari oleh masyarakat Indonesia. Banyaknya situs judi yang bermunculan membuat pemain memiliki banyak pilihan. Salah satu Daftar ABO 77 s",
+            "og:site_name": "ABO77"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/69959875ed26db606ddeb961d3d62678.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.3\n"
+        },
+        "cookies": {
+            "_shopify_s": "831bf0be-D221-47A0-6F1B-0564C960AE55",
+            "_shopify_y": "831bf0a3-33DF-4837-CD5C-ED7D3646450C",
+            "_shopify_sa_t": "2024-07-05T13%3A36%3A03.893Z"
+        }
+    }
+}

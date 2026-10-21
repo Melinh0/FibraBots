@@ -1,0 +1,83 @@
+{
+    "qid": null,
+    "iid": 61095252,
+    "indicator": "194.190.153.226",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-12 17:24:29",
+    "stamp_updated": "2024-12-15 11:32:32",
+    "stamp_seen": "2024-12-13 00:00:00",
+    "stamp_probed": "2024-07-28 06:25:13",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-12 17:24:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-25 06:15:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Moscow",
+            "country": "Russian Federation",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS41745",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "org": "Baykov Ilya Sergeevich",
+            "isp": "Baykov Ilya Sergeevich",
+            "zip": "101776"
+        },
+        "dns": {
+            "ptr": "ib.systems"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        }
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "qid": null,
+    "iid": 52049921,
+    "indicator": "149.91.122.223",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-12 23:36:46",
+    "stamp_updated": "2024-12-17 11:33:29",
+    "stamp_seen": "2024-12-16 17:23:08",
+    "stamp_probed": "2024-08-27 22:06:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 52049989,
+                "indicator": "https:\/\/149.91.122.223\/"
+            },
+            {
+                "iid": 52049979,
+                "indicator": "https:\/\/149.91.122.223\/index.php"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-12 23:36:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Debian",
+            "HSTS",
+            "Let's Encrypt",
+            "Nextcloud",
+            "PHP",
+            "PWA"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "parent": "NET149 (NET-149-0-0-0-0)",
+            "address": "2450 N Street NW",
+            "city": "Washington",
+            "orgabuseemail": "abuse@cogentco.com",
+            "orgabusehandle": "COGEN-ARIN",
+            "orgabusename": "Cogent Abuse",
+            "orgabusephone": "+1-877-875-4311",
+            "orgname": "PSINet, Inc.",
+            "orgnocemail": "noc@cogentco.com",
+            "orgnochandle": "ZC108-ARIN",
+            "orgnocname": "Cogent Communications",
+            "orgnocphone": "+1-877-875-4311",
+            "orgtechemail": "ipalloc@cogentco.com",
+            "orgtechhandle": "IPALL-ARIN",
+            "orgtechname": "IP Allocation",
+            "orgtechphone": "+1-877-875-4311",
+            "originas": "AS174",
+            "postalcode": "20037",
+            "referralserver": "rwhois:\/\/rwhois.cogentco.com:4321",
+            "stateprov": "DC",
+            "updated": [
+                "2016-02-08",
+                "2023-10-11"
+            ],
+            "++registered": "1992-01-28 00:00:00",
+            "regdate": "1992-01-28",
+            "++registrant": "PSINet, Inc.",
+            "++abuse": "abuse@cogentco.com",
+            "++phone": "+1-877-875-4311",
+            "++email": "ipalloc@cogentco.com",
+            "organization": "PSINet, Inc. (PSI-1)",
+            "orgid": "PSI-1",
+            "netrange": "149.91.0.0 - 149.91.255.255",
+            "netname": "COGENT-149-91-16",
+            "nethandle": "NET-149-91-0-0-1",
+            "cidr": "149.91.0.0\/16",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPALL-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/COGEN-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/ZC108-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/PSI-1",
+                "https:\/\/rdap.arin.net\/registry\/ip\/149.91.0.0"
+            ],
+            "++updated": "2023-10-11 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Spain"
+            ],
+            "countrycode": [
+                "US",
+                "ES"
+            ],
+            "city": [
+                "Washington",
+                "M\ufffdlaga"
+            ],
+            "region": [
+                "Malaga",
+                "DC",
+                "Andalusia"
+            ],
+            "asn": "AS34977",
+            "org": [
+                "Procono S.A.",
+                "PSINet, Inc. (PSI-1)"
+            ],
+            "zip": "20037",
+            "address": "2450 N Street NW",
+            "long": "-4.407",
+            "lat": "36.7125"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "referrer-policy": "no-referrer",
+            "strict-transport-security": "max-age=15552000; includeSubDomains",
+            "x-permitted-cross-domain-policies": "none",
+            "x-robots-tag": "noindex, nofollow",
+            "transfer-encoding": "chunked",
+            "++code": "400",
+            "++status": "Bad Request",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.62 (Debian)",
+            "++redirect": "https:\/\/149.91.122.223\/index.php",
+            "++target": "http:\/\/149.91.122.223\/",
+            "date": "Mon, 18 Nov 2024 18:19:38 GMT",
+            "set-cookie": "oc_sessionPassphrase=1bRnMMm1thmf76bCgDeU0EULd6wr8MJdZl8U9MArpz%2B23AeeC6jWyL1khV9PZAfsqOJOQ4WdgcA%2Fw%2FdF2Oi%2F6kSVqTUnRyPCk8qigpbq8pTYlInXedkM%2BKeN9YVWFvR3; path=\/; secure; HttpOnly; SameSite=Lax\n__Host-nc_sameSiteCookielax=true; path=\/; httponly;secure; expires=Fri, 31-Dec-2100 23:59:59 GMT; SameSite=lax\n__Host-nc_sameSiteCookiestrict=true; path=\/; httponly;secure; expires=Fri, 31-Dec-2100 23:59:59 GMT; SameSite=strict\nocy2us27dgdb=348rpak3f269ntsbtcq54cda2r; path=\/; secure; HttpOnly; SameSite=Lax",
+            "content-security-policy": "default-src 'self'; script-src 'self' 'nonce-MFufkUbHS5dnGQMudI322SUcBQOiVhOeDBbIVMnXj3Q='; style-src 'self' 'unsafe-inline'; frame-src *; img-src * data: blob:; font-src 'self' data:; media-src *; connect-src *; object-src 'none'; base-uri 'self';"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+            "++title": "Nextcloud",
+            "apple-itunes-app": "app-id=1125420102",
+            "charset": "utf-8",
+            "theme-color": "#00679e"
+        },
+        "cookies": {
+            "__host-nc_samesitecookielax": "true",
+            "__host-nc_samesitecookiestrict": "true",
+            "oc_sessionpassphrase": "1bRnMMm1thmf76bCgDeU0EULd6wr8MJdZl8U9MArpz%2B23AeeC6jWyL1khV9PZAfsqOJOQ4WdgcA%2Fw%2FdF2Oi%2F6kSVqTUnRyPCk8qigpbq8pTYlInXedkM%2BKeN9YVWFvR3",
+            "ocy2us27dgdb": "348rpak3f269ntsbtcq54cda2r"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "domain": "cloud.tambasco.com",
+            "subject": "\/CN=cloud.tambasco.com",
+            "valid": "2024-05-20 12:19:38",
+            "expires": "2024-08-18 12:19:37",
+            "fingerprint": "844b5346b2a64d9288110db90a11d10f43f9d9ccb9246afbbffe5a7dac0816e1"
+        },
+        "dns": {
+            "ptr": "223.red.122.91.149.procono.es"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5f5e0e01aaa3d817722b9877c0cf9ecc.jpeg"
+        }
+    }
+}

@@ -1,0 +1,270 @@
+{
+    "qid": null,
+    "iid": 51679655,
+    "indicator": "20.127.224.153",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-29 13:10:35",
+    "stamp_updated": "2024-12-15 11:32:51",
+    "stamp_seen": "2024-12-15 07:40:18",
+    "stamp_probed": "2024-09-16 10:42:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 51679916,
+                "indicator": "http:\/\/20.127.224.153\/"
+            },
+            {
+                "iid": 64124331,
+                "indicator": "https:\/\/20.127.224.153\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-11-02 07:30:14"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-29 13:10:35"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-11-02 07:30:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-01 21:14:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "3306",
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Bootstrap",
+            "Element UI",
+            "Font Awesome",
+            "Google Font API",
+            "mod_perl",
+            "OpenSSL",
+            "Perl",
+            "PHP",
+            "Popper",
+            "PWA",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++abuse": "abuse@microsoft.com",
+            "++phone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "++registrant": "Microsoft Corporation",
+            "address": "One Microsoft Way",
+            "city": "Redmond",
+            "netname": "MSFT",
+            "orgabuseemail": "abuse@microsoft.com",
+            "orgabusehandle": "MAC74-ARIN",
+            "orgabusename": "Microsoft Abuse Contact",
+            "orgabusephone": "+1-425-882-8080",
+            "organization": "Microsoft Corporation (MSFT)",
+            "orgid": "MSFT",
+            "orgname": "Microsoft Corporation",
+            "orgtechemail": [
+                "IOC@microsoft.com",
+                "dabedard@microsoft.com",
+                "iphostmaster@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com"
+            ],
+            "orgtechhandle": [
+                "MRPD-ARIN",
+                "BEDAR6-ARIN",
+                "IPHOS5-ARIN",
+                "SINGH683-ARIN",
+                "KIMAV-ARIN"
+            ],
+            "orgtechname": [
+                "Microsoft Routing, Peering, and DNS",
+                "Bedard, Dawn",
+                "IPHostmaster, IPHostmaster",
+                "Singh, Prachi",
+                "Kim, Avery"
+            ],
+            "orgtechphone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "postalcode": "98052",
+            "stateprov": "WA",
+            "++registered": [
+                "2017-10-18 00:00:00",
+                "1998-07-10 00:00:00"
+            ],
+            "parent": "NET20 (NET-20-0-0-0-0)",
+            "regdate": [
+                "2017-10-18",
+                "1998-07-10"
+            ],
+            "netrange": "20.33.0.0 - 20.128.255.255",
+            "nethandle": "NET-20-33-0-0-1",
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MRPD-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BEDAR6-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPHOS5-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SINGH683-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/KIMAV-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MSFT",
+                "https:\/\/rdap.arin.net\/registry\/ip\/20.33.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MAC74-ARIN",
+            "++email": [
+                "iphostmaster@microsoft.com",
+                "dabedard@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com",
+                "ioc@microsoft.com"
+            ],
+            "updated": [
+                "2021-12-14",
+                "2024-03-18"
+            ],
+            "cidr": "20.128.0.0\/16, 20.40.0.0\/13, 20.36.0.0\/14, 20.34.0.0\/15, 20.48.0.0\/12, 20.64.0.0\/10, 20.33.0.0\/16",
+            "orgroutingname": "Chaturmohta, Somesh",
+            "orgroutinghandle": "CHATU3-ARIN",
+            "orgroutingemail": "someshch@microsoft.com",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/CHATU3-ARIN",
+            "orgroutingphone": "+1-425-882-8080",
+            "++updated": "2024-03-18 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "WA",
+                "Virginia"
+            ],
+            "city": [
+                "Washington",
+                "Redmond"
+            ],
+            "asn": "AS8075",
+            "zip": "98052",
+            "address": "One Microsoft Way",
+            "lat": "38.7095",
+            "org": [
+                "Microsoft Corporation (MSFT)",
+                "MICROSOFT-CORP-MSN-AS-BLOCK"
+            ],
+            "long": "-78.1539"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "x-powered-by": "PHP\/7.4.28",
+            "server": "Apache\/2.4.53 (Unix) OpenSSL\/1.1.1n PHP\/7.4.28 mod_perl\/2.0.12 Perl\/v5.34.1",
+            "++redirect": "https:\/\/20.127.224.153\/",
+            "++target": "http:\/\/20.127.224.153\/",
+            "date": "Tue, 22 Oct 2024 17:34:22 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/ST=Arizona\/L=Scottsdale\/O=GoDaddy.com, Inc.\/OU=http:\/\/certs.godaddy.com\/repository\/\/CN=Go Daddy Secure Certificate Authority - G2",
+            "version": "v3",
+            "org": "Go Daddy Secure Certificate Authority - G2",
+            "domain": [
+                "peopletraq.app",
+                "www.peopletraq.app"
+            ],
+            "expires": "2025-06-26 23:48:25",
+            "subject": "\/CN=peopletraq.app",
+            "valid": "2024-05-25 23:48:25",
+            "fingerprint": "7f497cc1e50a62f88d1b2be8a1600a115b7c504c8becfeb39cdda039d4c0449a"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "theme-color": "#ffffff",
+            "msapplication-tileimage": "assets\/img\/favicons\/mstile-150x150.png",
+            "charset": "utf-8",
+            "++title": "PeopleTraQ"
+        },
+        "banners": {
+            "21": "220 ProFTPD Server (DROP RIVER) [::ffff:10.0.0.5]\n",
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "3389": "\u0005\u0004\u0000\u0000",
+            "3306": "Y\u0000\u0000\u0000\n5.5.5-10.4.24-MariaDB\u0000i\ufffd\u0001\u00007adTU\/+)\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000,>5.%o#]*Zgu\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dfb45a7e45301b653441814bf5a5ade7.jpeg"
+        }
+    }
+}

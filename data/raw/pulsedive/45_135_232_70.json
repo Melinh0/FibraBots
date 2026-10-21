@@ -1,0 +1,68 @@
+{
+    "qid": null,
+    "iid": 62909026,
+    "indicator": "45.135.232.70",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-03 00:14:13",
+    "stamp_updated": "2024-12-16 11:35:32",
+    "stamp_seen": "2024-10-08 05:02:14",
+    "stamp_probed": "2024-09-04 04:03:37",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-03 00:14:13"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25"
+        ],
+        "protocol": [
+            "SMTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "org": "Proton66 OOO",
+            "asn": "AS198953",
+            "country": "Russia"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "25": "220 mail.unbouncer.xyz ESMTP Postfix (Ubuntu)\n"
+        }
+    }
+}

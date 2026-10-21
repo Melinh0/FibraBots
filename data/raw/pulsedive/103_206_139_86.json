@@ -1,0 +1,161 @@
+{
+    "qid": null,
+    "iid": 63221922,
+    "indicator": "103.206.139.86",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-13 04:02:00",
+    "stamp_updated": "2024-12-10 02:15:22",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-13 04:02:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-03 21:51:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080",
+            "9050"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Tor"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-GTPLBANSIDHARTELELINK"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "origin": "AS45916",
+            "address": "36, CITY CENTRE, 3RD FLOOR, C.G. ROAD, NAVRANGPURA,AHMEDABAD,Ahmedabad,Gujarat-380009",
+            "descr": "GTPL BANSIDHAR TELELINK PVT LTD",
+            "irt": "IRT-GTPLBANSIDHARTELELINK-IN",
+            "mnt-irt": "IRT-GTPLBANSIDHARTELELINK-IN",
+            "mnt-routes": "MAINT-IN-GTPLBANSIDHARTELELINK",
+            "netname": "GTPL_BANSIDHAR_TELELINK",
+            "abuse-mailbox": "abuse.report@gtpl.net",
+            "e-mail": "ip.admin@gtpl.net",
+            "inetnum": "103.206.136.0 - 103.206.139.255",
+            "++abuse": "abuse.report@gtpl.net",
+            "++email": [
+                "ip.admin@gtpl.net",
+                "abuse.report@gtpl.net"
+            ],
+            "phone": "+91 7069085558",
+            "last-modified": [
+                "2019-02-11T05:28:49Z",
+                "2019-02-11T05:19:18Z",
+                "2019-02-11T05:33:49Z",
+                "2020-05-19T05:42:29Z"
+            ],
+            "admin-c": "IA302-AP",
+            "++registrant": [
+                "IA302-AP",
+                "IP ADMIN"
+            ],
+            "tech-c": "IA302-AP",
+            "nic-hdl": "IA302-AP",
+            "person": "IP ADMIN",
+            "notify": "abuse.report@gtpl.net",
+            "route": "103.206.139.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2019-02-11 05:33:49",
+                "2019-02-11 05:28:49",
+                "2019-02-11 05:19:18",
+                "2020-05-19 05:42:29"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "asn": "AS45916",
+            "org": "Gujarat Telelink Pvt Ltd",
+            "address": "36, CITY CENTRE, 3RD FLOOR, C.G. ROAD, NAVRANGPURA,AHMEDABAD,Ahmedabad,Gujarat-380009",
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "568",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "date": "Fri, 13 Sep 2024 04:09:27 GMT",
+            "++redirect": "https:\/\/103.206.139.86\/",
+            "++target": "http:\/\/103.206.139.86\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "valid": "2024-03-04 10:14:32",
+            "domain": "audio.sportsmaster.co.in",
+            "expires": "2024-06-02 10:14:31",
+            "subject": "\/CN=audio.sportsmaster.co.in",
+            "fingerprint": "1d9d5cfbd97e1701efbb9f0be1e7fbfa201c9af6e99d0652c54402bc1b34853e"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "9050": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c20fa09307c6b5455a362b440b51d3bb.jpeg"
+        }
+    }
+}

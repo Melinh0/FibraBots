@@ -1,0 +1,113 @@
+{
+    "qid": null,
+    "iid": 62322695,
+    "indicator": "197.239.1.134",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-11 20:37:46",
+    "stamp_updated": "2024-12-16 11:32:57",
+    "stamp_seen": "2024-11-20 04:14:36",
+    "stamp_probed": "2024-09-30 07:59:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-11 20:37:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "FTP",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "person": "Network Admin",
+            "address": [
+                "Uganda",
+                "Kampala",
+                "Airtel Towers, Plot 16A , Clement Hill Road,"
+            ],
+            "country": "UG",
+            "mnt-by": [
+                "CELTELUG-MNT",
+                "GENERATED-PFLOSJBGBQKNCEI4NUNHXAEZYHQHVZ0X-MNT"
+            ],
+            "origin": "AS37075",
+            "inetnum": "197.239.0.0 - 197.239.31.255",
+            "route": "197.239.0.0\/18",
+            "descr": [
+                "Airtel Uganda",
+                "Airtel-Uganda"
+            ],
+            "++registrant": [
+                "Network Admin",
+                "NA74-AFRINIC"
+            ],
+            "nic-hdl": "NA74-AFRINIC",
+            "tech-c": "NA74-AFRINIC",
+            "admin-c": "NA74-AFRINIC",
+            "phone": "tel:+256-200-208880",
+            "netname": "Mobile_Data",
+            "source": "AFRINIC # Filtered",
+            "parent": "197.239.0.0 - 197.239.63.255"
+        },
+        "geo": {
+            "country": "Uganda",
+            "countrycode": "UG",
+            "address": [
+                "Kampala",
+                "Uganda",
+                "Airtel Towers, Plot 16A , Clement Hill Road,"
+            ],
+            "asn": "AS37075",
+            "org": "ZAINUGAS",
+            "long": "32.5",
+            "lat": "1.25"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0018\ufffd\ufffd \ufffd\ufffd#\ufffd\ufffd'",
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        },
+        "dns": {
+            "ptr": "134-1-239-197.r.airtel.ug"
+        }
+    }
+}

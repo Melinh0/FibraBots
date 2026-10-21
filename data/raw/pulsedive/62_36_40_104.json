@@ -1,0 +1,118 @@
+{
+    "qid": null,
+    "iid": 64516378,
+    "indicator": "62.36.40.104",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-25 08:24:02",
+    "stamp_updated": "2024-12-10 02:31:07",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64517577,
+                "indicator": "http:\/\/62.36.40.104\/pofecam\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-25 08:24:02"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-06 20:53:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "PostgreSQL",
+            "SOCKS"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CodeIgniter",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "asn": "AS12479",
+            "org": "Orange Espagne SA",
+            "lat": "40.4172",
+            "long": "-3.684"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "server": "Apache\/2.2.22 (Ubuntu)",
+            "keep-alive": "timeout=5, max=98",
+            "content-length": "647",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "x-powered-by": "PHP\/5.3.10-1ubuntu3.48",
+            "date": "Fri, 25 Oct 2024 08:32:34 GMT",
+            "set-cookie": "ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22e7cb005339ad90dccb5263903f39a2f9%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.135.26%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1729845154%3B%7Daf50e285ca13cf10d02b3789da897c79; expires=Fri, 25-Oct-2024 10:32:34 GMT; path=\/\nci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22e7cb005339ad90dccb5263903f39a2f9%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.135.26%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1729845154%3Bs%3A6%3A%22retdir%22%3Bs%3A7%3A%22pofecam%22%3B%7D43e02f0cca072a37d19aba59e2b26946; expires=Fri, 25-Oct-2024 10:32:34 GMT; path=\/",
+            "++redirect": "http:\/\/62.36.40.104\/pofecam\/",
+            "++target": "http:\/\/62.36.40.104\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "Prevecam. Entrada en Intranet."
+        },
+        "banners": {
+            "5432": "\u0005\u0004\u0000\u0000",
+            "1080": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4e05b12a19b25ca24917738ff950444a.jpeg"
+        },
+        "cookies": {
+            "ci_session": "a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22e7cb005339ad90dccb5263903f39a2f9%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.135.26%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWeb%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1729845154%3Bs%3A6%3A%22retdir%22%3Bs%3A7%3A%22pofecam%22%3B%7D43e02f0cca072a37d19aba59e2b26946"
+        }
+    }
+}

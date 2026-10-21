@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 64560795,
+    "indicator": "124.206.192.138",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-28 08:21:46",
+    "stamp_updated": "2024-12-11 10:39:16",
+    "stamp_seen": "2024-10-28 08:24:56",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64561131,
+                "indicator": "https:\/\/124.206.192.138\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-28 08:21:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "address": [
+                "Beijing, China",
+                "No.11 Hepingli east Dongcheng District, Beijing,China",
+                "Jian Guo Road, Chaoyang District, Beijing, PR.China"
+            ],
+            "abuse-mailbox": [
+                "ipas@cnnic.cn",
+                "Xufuyuan@btte.net"
+            ],
+            "admin-c": [
+                "IP50-AP",
+                "BW904-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CNNIC-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-routes": "MAINT-CNNIC-AP",
+            "tech-c": [
+                "IP50-AP",
+                "BW904-AP"
+            ],
+            "mnt-lower": "MAINT-CNNIC-AP",
+            "descr": [
+                "Jian Guo Road, Chaoyang District, Beijing, PR.China",
+                "Beijing Dian-Xin-Tong Network Technologies Co., Ltd.",
+                "Beijing Teletron Telecom Engineering Co., Ltd."
+            ],
+            "inetnum": "124.204.0.0 - 124.207.255.255",
+            "netname": "DXTNET",
+            "origin": "AS17964",
+            "++phone": [
+                "+86-18612964416",
+                "+000000000"
+            ],
+            "last-modified": [
+                "2015-07-30T07:36:01Z",
+                "2021-08-17T02:30:53Z",
+                "2023-02-20T06:10:06Z",
+                "2023-11-28T00:57:04Z",
+                "2024-07-30T11:55:46Z"
+            ],
+            "route": "124.206.0.0\/16",
+            "e-mail": [
+                "ipas@cnnic.cn",
+                "Xufuyuan@btte.net",
+                "xufuyuan@drpeng.com.cn"
+            ],
+            "nic-hdl": [
+                "BW904-AP",
+                "AC1601-AP"
+            ],
+            "person": "Xu Fuyuan",
+            "phone": [
+                "+86-18612964416",
+                "+000000000"
+            ],
+            "++abuse": [
+                "ipas@cnnic.cn",
+                "xufuyuan@btte.net"
+            ],
+            "++registrant": [
+                "IP50-AP",
+                "BW904-AP",
+                "Xu Fuyuan"
+            ],
+            "++email": [
+                "ipas@cnnic.cn",
+                "xufuyuan@btte.net",
+                "xufuyuan@drpeng.com.cn"
+            ],
+            "abuse-c": "AC1601-AP",
+            "role": "ABUSE CNNICCN",
+            "mnt-irt": "IRT-DXTNET-CN",
+            "irt": "IRT-DXTNET-CN",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-30 11:55:46",
+                "2023-11-28 00:57:04",
+                "2021-08-17 02:30:53",
+                "2023-02-20 06:10:06",
+                "2015-07-30 07:36:01"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4808",
+            "org": "China Unicom Beijing Province Network",
+            "lat": "34.7732",
+            "address": [
+                "Beijing, China",
+                "No.11 Hepingli east Dongcheng District, Beijing,China",
+                "Jian Guo Road, Chaoyang District, Beijing, PR.China"
+            ],
+            "long": "113.722"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width,initial-scale=1",
+            "charset": "utf-8",
+            "++title": "bfr-lab"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "J\u0000\u0000\u0000\n5.6.51\u0000\"\ufffd&\u0004XKO+&|bV\u0000\ufffd\ufffd\b\u0002\u0000\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000h')8|+^vY:V#\u0000mysql_native_password\u0000"
+        },
+        "http": {
+            "++target": "http:\/\/124.206.192.138\/",
+            "++redirect": "https:\/\/124.206.192.138\/#\/login"
+        }
+    }
+}

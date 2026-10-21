@@ -1,0 +1,254 @@
+{
+    "qid": null,
+    "iid": 29022309,
+    "indicator": "109.74.204.123",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-10-22 09:41:24",
+    "stamp_updated": "2024-12-14 22:16:19",
+    "stamp_seen": "2024-12-14 22:16:19",
+    "stamp_probed": "2024-08-28 03:27:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 5,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63858834,
+                "indicator": "https:\/\/109.74.204.123\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-30 15:38:33"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-01-04 21:59:58"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-10-22 09:41:24"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-01-04 21:59:58"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-01-13 00:44:28"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-16 22:17:41"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-10-30 15:38:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "jQuery",
+            "Popper"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "GB",
+            "descr": "Linode, LLC",
+            "++phone": [
+                "+16093807100",
+                "+16093807504"
+            ],
+            "address": "329 E. Jimmie Leeds Road, Suite A, Galloway, NJ 08205, USA",
+            "admin-c": "TA2589-RIPE",
+            "mnt-by": "Linode-mnt",
+            "mnt-domains": "Linode-mnt",
+            "netname": "LINODE-UK",
+            "nic-hdl": [
+                "TA2589-RIPE",
+                "LA538-RIPE"
+            ],
+            "person": [
+                "Thomas Asaro",
+                "Linode Abuse Support"
+            ],
+            "phone": [
+                "+16093807504",
+                "+16093807100"
+            ],
+            "tech-c": [
+                "LA538-RIPE",
+                "TA2589-RIPE"
+            ],
+            "inetnum": "109.74.200.0 - 109.74.207.255",
+            "created": [
+                "2009-11-02T17:17:56Z",
+                "2009-11-11T15:16:50Z",
+                "2009-11-06T14:07:27Z"
+            ],
+            "last-modified": [
+                "2014-11-20T18:51:15Z",
+                "2017-10-30T22:07:33Z",
+                "2010-03-20T02:53:24Z"
+            ],
+            "++registrant": [
+                "TA2589-RIPE",
+                "Linode Abuse Support",
+                "Thomas Asaro"
+            ],
+            "++updated": [
+                "2017-10-30 22:07:33",
+                "2014-11-20 18:51:15"
+            ],
+            "++registered": [
+                "2009-11-11 15:16:50",
+                "2009-11-02 17:17:56"
+            ]
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "asn": "AS63949",
+            "city": "London",
+            "region": "England",
+            "lat": "51.5074",
+            "long": "-0.1196",
+            "org": "Akamai Connected Cloud"
+        },
+        "http": {
+            "content-type": [
+                "text\/html",
+                "text\/html; charset=UTF-8",
+                "text\/html; charset=utf-8"
+            ],
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "server": "OpenVPN-AS",
+            "++code": [
+                "200",
+                "302"
+            ],
+            "transfer-encoding": "chunked",
+            "++status": [
+                "OK",
+                "Found"
+            ],
+            "++content-type": "text\/html",
+            "location": [
+                "\/?src=connect",
+                "https:\/\/109.74.204.123\/__session_start__"
+            ],
+            "++redirect": "https:\/\/109.74.204.123\/?src=connect",
+            "++target": "https:\/\/109.74.204.123\/",
+            "date": "Tue, 22 Oct 2024 04:47:28 GMT",
+            "content-length": "0",
+            "set-cookie": "openvpn_sess_6xr6oFwELiu8y-RyS4pM1IaJk9zRQUvWx7qLIasKJV_BJQyawGV9r1XkG32k70YMT2NKVwCyB7cTAHKJmyGerg=G4QDGAmHSVq3v6wzl0To3mtshuEksdpOglRJzfSZJQq7AqN2f4LumaWejn0Y4JjtB_rDoVffl2vH8r7sU6_cnA; Expires=Tue, 22 Oct 2024 05:17:28 GMT; Path=\/; Secure; HttpOnly"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "author": "OpenVPN Technologies, Inc.",
+            "description": "OpenVPN Connect",
+            "++title": "OpenVPN CWS",
+            "charset": "utf-8",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "OpenVPN Web CA 2022.11.15 14:35:10 UTC localhost",
+            "subject": "\/CN=109.74.204.123",
+            "domain": "109.74.204.123",
+            "expires": "2025-04-26 14:15:37",
+            "valid": "2024-04-25 14:15:37",
+            "issuer": "\/CN=OpenVPN Web CA 2022.11.15 14:35:10 UTC localhost",
+            "fingerprint": "9ca9e1e85f73f92972137b6e55d612ff758cf8cf8e872efe996b062ccd7ee564"
+        },
+        "dns": {
+            "ptr": "academyforinternetresearch.org"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9008469e869143b2fe5511701a046cc2.jpeg"
+        },
+        "cookies": {
+            "openvpn_sess_6xr6ofweliu8y-rys4pm1iajk9zrquvwx7qliaskjv_bjqyawgv9r1xkg32k70ymt2nkvwcyb7ctahkjmygerg": "xMJp-oDpGpeXum_GeM004vF0L6DOcFYry67K-74wQQdVTlxI2clDQlACMPm3axCfr9r0qFMAKMVfSXUadomRlw"
+        }
+    }
+}

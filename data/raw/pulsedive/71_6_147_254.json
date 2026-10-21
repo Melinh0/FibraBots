@@ -1,0 +1,161 @@
+{
+    "qid": null,
+    "iid": 5525959,
+    "indicator": "71.6.147.254",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2019-04-24 12:51:35",
+    "stamp_updated": "2024-11-20 07:06:00",
+    "stamp_seen": "2024-11-20 07:06:00",
+    "stamp_probed": "2024-08-29 01:02:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-06-20 10:36:55"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 504847,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 01:35:35",
+            "stamp_updated": "2022-05-18 01:35:35"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": [
+                "CA",
+                "NV"
+            ],
+            "city": [
+                "San Diego",
+                "Henderson"
+            ],
+            "++registered": "2014-01-03 00:00:00",
+            "parent": [
+                "NET71 (NET-71-0-0-0-0)",
+                "CARINET-5 (NET-71-6-128-0-1)"
+            ],
+            "++email": "network@cari.net",
+            "++registrant": "CariNet, Inc.",
+            "address": [
+                "8929 Complex Drive",
+                "170 S Green Valley Parkway, Suite 300"
+            ],
+            "custname": "CariNet, Inc.",
+            "orgabuseemail": "complaints@cari.net",
+            "orgabusehandle": "ABUSE341-ARIN",
+            "orgabusename": "CariNet Abuse",
+            "organization": "CariNet, Inc. (CARIN-6)",
+            "orgid": "CARIN-6",
+            "orgname": "CariNet, Inc.",
+            "orgtechemail": "network@cari.net",
+            "orgtechhandle": "CARIN-ARIN",
+            "orgtechname": "CariNet Networking",
+            "originas": "AS10439",
+            "postalcode": [
+                "92123",
+                "89012"
+            ],
+            "regdate": [
+                "2014-01-03",
+                "2009-11-17",
+                "2006-02-01"
+            ],
+            "updated": [
+                "2014-01-03",
+                "2012-03-02",
+                "2019-08-28"
+            ],
+            "cidr": [
+                "71.6.128.0\/17",
+                "71.6.147.192\/26"
+            ],
+            "nethandle": [
+                "NET-71-6-128-0-1",
+                "NET-71-6-147-192-1"
+            ],
+            "netname": [
+                "CARINET-5",
+                "NET-26"
+            ],
+            "netrange": [
+                "71.6.128.0 - 71.6.255.255",
+                "71.6.147.192 - 71.6.147.255"
+            ],
+            "customer": "CariNet, Inc. (C04837945)",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.6.128.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-6",
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.6.147.192",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C04837945"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE341-ARIN",
+            "++updated": "2019-08-28 00:00:00",
+            "orgtechphone": "+1-702-660-0350",
+            "orgabusephone": "+1-702-660-0350",
+            "++phone": "+1-702-660-0350",
+            "++abuse": "+1-702-660-0350"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS10439",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "CARINET"
+        },
+        "dns": {
+            "ptr": "tesla.census.shodan.io"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3\n"
+        }
+    }
+}

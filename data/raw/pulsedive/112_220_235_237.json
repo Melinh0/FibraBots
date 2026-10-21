@@ -1,0 +1,204 @@
+{
+    "qid": null,
+    "iid": 29180169,
+    "indicator": "112.220.235.237",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-10-30 18:34:48",
+    "stamp_updated": "2024-12-16 17:06:46",
+    "stamp_seen": "2024-12-16 17:06:46",
+    "stamp_probed": "2024-09-07 07:42:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 47558321,
+                "indicator": "https:\/\/112.220.235.237\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-08 21:56:15"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-10-30 18:34:48"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-08 21:56:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-10-26 21:50:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "LG UPLUS",
+                "Seoul Yongsan-gu Hangang-daero 32",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA5-KR",
+                "IM574-AP",
+                "IM646-AP"
+            ],
+            "descr": "LG DACOM Corporation",
+            "e-mail": [
+                "ipadm@lguplus.co.kr",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "BORANET-KR",
+                "BORANET"
+            ],
+            "nic-hdl": [
+                "IA5-KR",
+                "IM646-AP"
+            ],
+            "tech-c": [
+                "IA5-KR",
+                "IM574-AP",
+                "IM646-AP"
+            ],
+            "++phone": "+82-2-1-01",
+            "phone": "+82-2-1-01",
+            "inetnum": "112.216.0.0 - 112.223.255.255",
+            "last-modified": [
+                "2017-02-03T00:55:03Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM646-AP",
+                "IA5-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ipadm@lguplus.co.kr",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "asn": "AS3786",
+            "countrycode": "KR",
+            "org": "LG DACOM Corporation",
+            "region": "Seoul",
+            "city": "Gangnam-gu",
+            "lat": "37.5245",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Yongsan-gu Hangang-daero 32",
+                "LG UPLUS"
+            ],
+            "long": "127.0354",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html;charset=UTF-8",
+            "content-length": "39",
+            "server": "nginx\/1.14.1",
+            "++code": "200",
+            "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/112.220.235.237\/",
+            "++target": "http:\/\/112.220.235.237\/",
+            "date": "Mon, 18 Nov 2024 16:06:58 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "GoGetSSL RSA DV CA",
+            "issuer": "\/C=LV\/L=Riga\/O=GoGetSSL\/CN=GoGetSSL RSA DV CA",
+            "domain": [
+                "*.toperp.co.kr",
+                "toperp.co.kr"
+            ],
+            "subject": "\/CN=*.toperp.co.kr",
+            "valid": "2024-04-29 00:00:00",
+            "expires": "2025-05-29 23:59:59",
+            "fingerprint": "d93f4167321df71aa5a936ea0cc8bcab77d2bef481302e3b4dc7bdfdd0c67055"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

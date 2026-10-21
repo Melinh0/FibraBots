@@ -1,0 +1,197 @@
+{
+    "qid": null,
+    "iid": 48184400,
+    "indicator": "196.0.120.6",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-13 15:52:43",
+    "stamp_updated": "2024-12-11 10:42:21",
+    "stamp_seen": "2024-12-07 00:00:00",
+    "stamp_probed": "2024-09-30 07:54:40",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 48184439,
+                "indicator": "http:\/\/196.0.120.6\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-06-25 08:27:40"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-13 15:52:43"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-06-25 08:27:40"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-06-14 11:16:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ALLOCATED PA",
+            "mnt-by": [
+                "AFRINIC-HM-MNT",
+                "RM2-MNT",
+                "GENERATED-IA5SKKTSZMVLHZGTYCN4VNRMLYE8XFL5-MNT",
+                "GENERATED-WFEGMFBV8NHVYUY1HDR48CIMBARZGY4W-MNT"
+            ],
+            "descr": [
+                "ISP",
+                "Uganda Telecom",
+                "UTL-01"
+            ],
+            "address": [
+                "Uganda",
+                "Kampala",
+                "Plot 2A-4A,",
+                "Telephone House,",
+                "Speke Road"
+            ],
+            "country": "UG",
+            "mnt-ref": [
+                "AFRINIC-HM-MNT",
+                "RM2-MNT"
+            ],
+            "inetnum": "196.0.0.0 - 196.0.255.255",
+            "mnt-lower": "RM2-MNT",
+            "netname": "UGANDA-TELECOM-01",
+            "org": "ORG-UTL1-AFRINIC",
+            "org-name": "Uganda Telecom Ltd",
+            "organisation": "ORG-UTL1-AFRINIC",
+            "mnt-domains": "RM2-MNT",
+            "origin": "AS21491",
+            "route": "196.0.0.0\/16",
+            "person": [
+                "James Omara Opio",
+                "Kevin Mugaya Francis"
+            ],
+            "phone": [
+                "tel:+256-712-451750",
+                "tel:+256-712-752737"
+            ],
+            "tech-c": [
+                "KMF1-AFRINIC",
+                "JOO1-AFRINIC"
+            ],
+            "++registrant": [
+                "James Omara Opio",
+                "Kevin Mugaya Francis",
+                "KMF1-AFRINIC"
+            ],
+            "nic-hdl": [
+                "JOO1-AFRINIC",
+                "KMF1-AFRINIC"
+            ],
+            "admin-c": "KMF1-AFRINIC",
+            "source": "AFRINIC # Filtered",
+            "parent": "196.0.0.0 - 196.255.255.255"
+        },
+        "geo": {
+            "country": "Uganda",
+            "countrycode": "UG",
+            "asn": "AS21491",
+            "address": [
+                "Kampala",
+                "Uganda",
+                "Plot 2A-4A,",
+                "Telephone House,",
+                "Speke Road"
+            ],
+            "long": "32.5",
+            "org": [
+                "ORG-UTL1-AFRINIC",
+                "UGANDA-TELECOM Uganda Telecom"
+            ],
+            "lat": "1.25"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "615",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.24.0",
+            "last-modified": "Tue, 11 Apr 2023 01:45:34 GMT",
+            "etag": "\"6434bbbe-267\"",
+            "++target": "http:\/\/196.0.120.6\/",
+            "date": "Sat, 12 Oct 2024 14:46:48 GMT"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "dns": {
+            "ptr": "suitecrm.utclonline.co.ug"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

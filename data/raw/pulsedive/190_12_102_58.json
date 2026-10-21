@@ -1,0 +1,219 @@
+{
+    "qid": null,
+    "iid": 32369523,
+    "indicator": "190.12.102.58",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-01 00:27:31",
+    "stamp_updated": "2024-12-11 10:42:05",
+    "stamp_seen": "2024-11-20 03:55:44",
+    "stamp_probed": "2024-09-30 07:23:52",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64122220,
+                "indicator": "https:\/\/190.12.102.58\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-05-10 06:51:17"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-01 00:27:31"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-12 14:08:17"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-07-26 20:37:42"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-05-10 06:51:17"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-20 19:50:07"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "137",
+            "138",
+            "139",
+            "1723",
+            "21",
+            "22",
+            "23",
+            "443",
+            "53",
+            "8080"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "NETBIOS",
+            "PPTP",
+            "SOCKS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Debian",
+            "DigiCert"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "countrycode": "AR",
+            "asn": "AS11014",
+            "org": "CPS",
+            "region": "Buenos Aires F.D.",
+            "long": "-58.3811",
+            "lat": "-34.6142"
+        },
+        "whois": {
+            "status": "reallocated",
+            "aut-num": "N\/A",
+            "country": "AR",
+            "abuse-c": "ADG3",
+            "created": [
+                "20060908",
+                "20190110"
+            ],
+            "nic-hdl": "ADG3",
+            "owner-c": "ADG3",
+            "tech-c": "ADG3",
+            "address": [
+                "Tacuari, 351, P 1",
+                "1071 - Capital Federal -",
+                "CORDOBA AV., 950,",
+                "1054 - CABA - BA"
+            ],
+            "changed": [
+                "20190110",
+                "20220121"
+            ],
+            "person": "Metrotel Administrador",
+            "++registrant": "Metrotel Administrador",
+            "inetnum-up": "190.12.96.0\/20",
+            "++email": "abuse@metrotel.com.ar",
+            "e-mail": "abuse@metrotel.com.ar",
+            "owner": "Programa de las Naciones Unidas para el Desarrollo",
+            "ownerid": "AR-PLNU3-LACNIC",
+            "phone": [
+                "+54 11 43208793",
+                "+54  1160911000 [0000]"
+            ],
+            "responsible": "COMPRAS RENZO",
+            "inetnum": "190.12.102.56\/29"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.10 (Debian)",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3041",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Sun, 15 Sep 2024 05:57:48 GMT",
+            "++target": "https:\/\/190.12.102.58\/",
+            "last-modified": "Sun, 11 Jun 2017 22:38:05 GMT",
+            "etag": "\"29cd-551b6db1c8bda-gzip\""
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2022-06-01 23:59:59",
+            "org": "RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1",
+            "issuer": "\/C=US\/O=DigiCert Inc\/CN=RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1",
+            "valid": "2021-05-14 00:00:00",
+            "subject": "\/CN=doc.undoc.net.ar",
+            "fingerprint": "39337f14390ba0a4c1fd260838ac14882c84255c6b3a0ce1d2c554b601fe06d0",
+            "domain": "doc.undoc.net.ar"
+        },
+        "meta": {
+            "++title": "Apache2 Debian Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "dns": {
+            "ptr": "static.58.102.12.190.cps.com.ar"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000",
+            "1080": "\u0005\u0004\u0000\u0000",
+            "23": "\u0005\u0004\u0000\u0000",
+            "22": "\u0005\u0004\u0000\u0000",
+            "139": "\u0005\u0004\u0000\u0000",
+            "138": "\u0005\u0004\u0000\u0000",
+            "137": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c61b1238ee253703dabec70795c30852.jpeg"
+        }
+    }
+}

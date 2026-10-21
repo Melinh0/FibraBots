@@ -1,0 +1,224 @@
+{
+    "qid": null,
+    "iid": 34510041,
+    "indicator": "223.197.172.72",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-01 16:37:54",
+    "stamp_updated": "2024-12-09 10:36:25",
+    "stamp_seen": "2024-11-20 05:29:24",
+    "stamp_probed": "2024-09-30 10:49:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-09-07 15:46:45"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-01 16:37:54"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-09-07 15:46:45"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-25 22:36:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "admin-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "netname": "NETVIGATOR",
+            "origin": [
+                "AS4760",
+                "AS4515"
+            ],
+            "tech-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "descr": [
+                "PCCW IMSBiz route object",
+                "HKT Limited",
+                "PCCW IMS Ltd (PCCW Business Internet Access)"
+            ],
+            "e-mail": "noc@imsbiz.com",
+            "irt": "IRT-PCCW-BIA-HK",
+            "mnt-by": [
+                "MAINT-HK-PCCW-BIA",
+                "MAINT-HK-PCCW-BIA-CS",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-PCCW-BIA-HK",
+            "mnt-lower": "MAINT-HK-PCCW-BIA-CS",
+            "mnt-routes": "MAINT-HK-PCCW-BIA",
+            "nic-hdl": [
+                "TA66-AP",
+                "AP706-AP"
+            ],
+            "notify": "noc@imsbiz.com",
+            "phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "role": [
+                "TECHNICAL ADMINISTRATORS",
+                "ABUSE PCCWBIAHK"
+            ],
+            "inetnum": "223.197.128.0 - 223.197.191.255",
+            "route": "223.197.160.0\/19",
+            "last-modified": [
+                "2010-08-06T06:42:01Z",
+                "2016-07-15T04:03:30Z",
+                "2020-06-12T06:22:20Z",
+                "2021-01-27T13:21:37Z",
+                "2024-08-22T03:30:23Z",
+                "2024-08-22T03:30:27Z"
+            ],
+            "++registrant": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++email": "noc@imsbiz.com",
+            "abuse-c": "AP706-AP",
+            "abuse-mailbox": "noc@imsbiz.com",
+            "++abuse": "noc@imsbiz.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-22 03:30:23",
+                "2024-08-22 03:30:27",
+                "2016-07-15 04:03:30",
+                "2010-08-06 06:42:01",
+                "2020-06-12 06:22:20"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS4760",
+            "org": "HKT Limited",
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "strict-transport-security": "max-age=31536000;includeSubDomains",
+            "keep-alive": "timeout=120, max=194",
+            "++content-type": "text\/html",
+            "etag": "\"45884-313-5c705968\"",
+            "date": "Tue, 13 Sep 2022 06:16:21 GMT",
+            "last-modified": "Tue, 13 Sep 2022 06:16:21 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html",
+            "x-ua-compatible": "IE=9;IE=10;IE=Edge,chrome=1"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0018\ufffd\ufffd \ufffd\ufffd#\ufffd\ufffd'\ufffd\ufffd$"
+        },
+        "dns": {
+            "ptr": "223-197-172-72.static.imsbiz.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5dd2174497c3e1f4560a9b4217406b04.jpeg"
+        }
+    }
+}

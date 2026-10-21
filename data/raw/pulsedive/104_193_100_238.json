@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 65055919,
+    "indicator": "104.193.100.238",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-17 09:14:21",
+    "stamp_updated": "2024-11-18 09:15:30",
+    "stamp_seen": "2024-11-17 09:16:48",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65056159,
+                "indicator": "https:\/\/104.193.100.238\/index.asp"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-17 09:14:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "GoAhead",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "parent": "NET104 (NET-104-0-0-0-0)",
+            "++registered": [
+                "2004-03-12 00:00:00",
+                "2014-09-18 00:00:00"
+            ],
+            "stateprov": "TX",
+            "++email": [
+                "dwisdom@ncom.com",
+                "bhicks@ncom.com"
+            ],
+            "++abuse": "dwisdom@ncom.com",
+            "++phone": [
+                "+1-806-866-9900",
+                "+1-915-964-2355"
+            ],
+            "orgtechphone": [
+                "+1-806-866-9900",
+                "+1-915-964-2355"
+            ],
+            "regdate": [
+                "2014-09-18",
+                "2004-03-12"
+            ],
+            "orgabuseemail": "dwisdom@ncom.com",
+            "orgtechemail": [
+                "dwisdom@ncom.com",
+                "bhicks@ncom.com"
+            ],
+            "updated": [
+                "2014-09-18",
+                "2023-07-05"
+            ],
+            "orgtechhandle": [
+                "HICKS277-ARIN",
+                "JM3064-ARIN"
+            ],
+            "orgtechname": [
+                "Hicks, Bryan",
+                "Muniz, Joel"
+            ],
+            "orgabusehandle": "JM3064-ARIN",
+            "address": "110 N. Main Street",
+            "++registrant": "Delcom, Inc.",
+            "organization": "Delcom, Inc. (DELCO)",
+            "orgabusename": "Muniz, Joel",
+            "orgabusephone": "+1-915-964-2355",
+            "postalcode": "79837",
+            "city": "Dell City",
+            "orgname": "Delcom, Inc.",
+            "orgid": "DELCO",
+            "netrange": "104.193.100.0 - 104.193.103.255",
+            "netname": "DELCO-V4-01",
+            "nethandle": "NET-104-193-100-0-1",
+            "cidr": "104.193.100.0\/22",
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/HICKS277-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/JM3064-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.193.100.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/DELCO"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/JM3064-ARIN",
+            "++updated": "2023-07-05 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Texas",
+                "TX"
+            ],
+            "zip": "79837",
+            "asn": "AS23546",
+            "city": [
+                "Pecos",
+                "Dell City"
+            ],
+            "org": [
+                "DELCOM-ASN",
+                "Delcom, Inc. (DELCO)"
+            ],
+            "address": "110 N. Main Street",
+            "lat": "31.4229",
+            "long": "-103.4932"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "server": "GoAhead-Webs",
+            "++code": "200",
+            "++status": "OK",
+            "pragma": "no-cache\nno-cache",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/104.193.100.238\/",
+            "++redirect": "https:\/\/104.193.100.238\/index.asp",
+            "date": "Sun Nov 17 03:16:25 2024"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIP Solutions Certificate Authority\/CN=VOIP Solutions Server Root Authority 1",
+            "subject": "\/C=CN\/ST=VOIP\/L=VOIP\/O=VOIP Solutions\/OU=VOIPTEST Solutions Certificate Authority\/CN=VOIPTEST  Solutions Root Authority 1",
+            "version": "v3",
+            "expires": "2017-07-24 07:35:53",
+            "valid": "2015-07-25 07:35:53",
+            "org": "VOIP Solutions Server Root Authority 1",
+            "++subject": "VOIP Solutions",
+            "fingerprint": "4b54d8498f21ed9209f3fa18cdd07e44973a4582bcc0173b1c17b083fba25edd"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "expires": "-1",
+            "content-type": [
+                "application\/xhtml+xml; charset=utf-8",
+                "application\/xhtml+xml; charset=UTF-8"
+            ],
+            "++title": "cnPilot R201P Login"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/e1b17f1f0a03893b540de5cdd489d1c5.jpeg"
+        }
+    }
+}

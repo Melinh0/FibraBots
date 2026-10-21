@@ -1,0 +1,222 @@
+{
+    "qid": null,
+    "iid": 65641398,
+    "indicator": "68.183.90.191",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-06 10:27:26",
+    "stamp_updated": "2024-12-14 11:32:52",
+    "stamp_seen": "2024-12-06 10:27:52",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65641479,
+                "indicator": "https:\/\/68.183.90.191\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 10:27:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Analytics",
+            "Google Font API",
+            "Let's Encrypt",
+            "Nginx",
+            "Odoo",
+            "Open Graph",
+            "Plausible",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-09-18"
+            ],
+            "stateprov": "NY",
+            "parent": "NET68 (NET-68-0-0-0-0)",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2018-09-18 00:00:00"
+            ],
+            "originas": "AS14061",
+            "netrange": "68.183.0.0 - 68.183.255.255",
+            "nethandle": "NET-68-183-0-0-1",
+            "cidr": "68.183.0.0\/16",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/68.183.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-68-183-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "India"
+            ],
+            "countrycode": [
+                "US",
+                "IN"
+            ],
+            "city": [
+                "New York",
+                "Bengaluru"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "Karnataka",
+                "NY"
+            ],
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "http": {
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.24.0 (Ubuntu)",
+            "date": "Fri, 06 Dec 2024 10:27:35 GMT",
+            "++target": "http:\/\/68.183.90.191\/",
+            "set-cookie": "frontend_lang=en_US; Expires=Sat, 06 Dec 2025 10:27:35 GMT; Path=\/\nsession_id=505948106caff46ef8d98c3e65761cb7bb47e905; Expires=Sat, 06 Dec 2025 10:27:35 GMT; Max-Age=604800; HttpOnly; Path=\/",
+            "++redirect": "https:\/\/68.183.90.191\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "og:type": "website",
+            "robots": "noindex",
+            "twitter:card": "summary_large_image",
+            "generator": "Odoo",
+            "charset": "utf-8",
+            "og:title": "Rootlevel Innovations | ERP Consultant | Odoo: Open source ERP and CRM",
+            "og:image": "http:\/\/www.rootlevel.in\/web\/image\/website\/1\/social_default_image?unique=c637ed0",
+            "keywords": "rootlevel,root level,erp,odoo,innovations,openerp,open source,business,apps,saas",
+            "og:site_name": "Rootlevel Innovations",
+            "description": "At RootLevel Innovations, We offer odoo implementation, odoo customizations, odoo integration, odoo support & maintenance, and odoo training. We also offer free odoo demos, From ERP to CRM, eCommerce, and CMS. Grow Your Business.\n",
+            "og:description": "At RootLevel Innovations, We offer odoo implementation, odoo customizations, odoo integration, odoo support & maintenance, and odoo training. We also offer free odoo demos, From ERP to CRM, eCommerce, and CMS. Grow Your Business.\n",
+            "++title": "Rootlevel Innovations | ERP Consultant | Odoo: Open source ERP and CRM",
+            "twitter:image": "http:\/\/www.rootlevel.in\/web\/image\/website\/1\/social_default_image?unique=c637ed0",
+            "og:url": "https:\/\/www.rootlevel.in\/",
+            "twitter:description": "At RootLevel Innovations, We offer odoo implementation, odoo customizations, odoo integration, odoo support & maintenance, and odoo training. We also offer free odoo demos, From ERP to CRM, eCommerce, and CMS. Grow Your Business.\n",
+            "twitter:title": "Rootlevel Innovations | ERP Consultant | Odoo: Open source ERP and CRM"
+        },
+        "cookies": {
+            "frontend_lang": "en_US",
+            "tz": "UTC",
+            "session_id": "505948106caff46ef8d98c3e65761cb7bb47e905",
+            "_gcl_au": "1.1.1245316005.1733480858"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "domain": [
+                "rootlevel.in",
+                "www.rootlevel.in"
+            ],
+            "expires": "2025-03-01 11:02:56",
+            "subject": "\/CN=rootlevel.in",
+            "fingerprint": "95f1dbad9653e57121de46b78a5e723050295e6f4dc4cc859c7ccae27f7c617f",
+            "valid": "2024-12-01 11:02:57"
+        },
+        "banners": {
+            "22": "Exceeded MaxStartups\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/2d5f3e2a9565d7f7cd7954d6092699e6.jpeg"
+        }
+    }
+}

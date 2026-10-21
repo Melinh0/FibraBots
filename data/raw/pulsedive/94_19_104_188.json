@@ -1,0 +1,103 @@
+{
+    "qid": null,
+    "iid": 59514994,
+    "indicator": "94.19.104.188",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-21 03:27:15",
+    "stamp_updated": "2024-12-15 11:37:47",
+    "stamp_seen": "2024-12-10 23:53:20",
+    "stamp_probed": "2024-08-10 00:58:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65784748,
+                "indicator": "http:\/\/94.19.104.188\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-21 03:27:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-28 22:59:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS35807",
+            "org": "SkyNet Ltd.",
+            "region": "St.-Petersburg",
+            "city": "St Petersburg",
+            "lat": "59.9417",
+            "long": "30.3096",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "++code": "403",
+            "++status": "Forbidden",
+            "connection": "keep-alive",
+            "server": "Web server",
+            "++content-type": "text\/html",
+            "content-length": "553",
+            "x-detail": "0x1210, insufficient security level",
+            "date": "Thu, 17 Oct 2024 22:57:41 GMT",
+            "++target": "http:\/\/94.19.104.188\/"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "dns": {
+            "ptr": "94.19.104.188.pool.sknt.ru"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/19ca5422392318d1b06e6f9aaacee640.jpeg"
+        }
+    }
+}

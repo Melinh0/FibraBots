@@ -1,0 +1,152 @@
+{
+    "qid": null,
+    "iid": 65509016,
+    "indicator": "149.88.90.212",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-01 10:03:40",
+    "stamp_updated": "2024-12-02 10:08:42",
+    "stamp_seen": "2024-12-01 10:08:45",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 67,
+            "description": "SSL certificate expired",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65509880,
+                "indicator": "https:\/\/149.88.90.212\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-01 10:03:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "443",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "PSINet, Inc. (PSI-1)",
+                "FD-298-8796"
+            ],
+            "asn": "AS8796"
+        },
+        "whois": {
+            "nettype": "Direct Allocation",
+            "++updated": "2016-02-08 00:00:00",
+            "parent": "NET149 (NET-149-0-0-0-0)",
+            "orgabuseemail": "abuse@cogentco.com",
+            "orgabusehandle": "COGEN-ARIN",
+            "orgabusename": "Cogent Abuse",
+            "orgabusephone": "+1-877-875-4311",
+            "orgnocemail": "noc@cogentco.com",
+            "orgnochandle": "ZC108-ARIN",
+            "orgnocname": "Cogent Communications",
+            "orgnocphone": "+1-877-875-4311",
+            "orgtechemail": "ipalloc@cogentco.com",
+            "orgtechhandle": "IPALL-ARIN",
+            "orgtechname": "IP Allocation",
+            "orgtechphone": "+1-877-875-4311",
+            "originas": "AS174",
+            "updated": "2016-02-08",
+            "++registered": "1992-01-28 00:00:00",
+            "regdate": "1992-01-28",
+            "++abuse": "abuse@cogentco.com",
+            "++phone": "+1-877-875-4311",
+            "++email": "ipalloc@cogentco.com",
+            "organization": "PSINet, Inc. (PSI-1)",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPALL-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/COGEN-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/ZC108-ARIN",
+            "netrange": "149.88.0.0 - 149.88.255.255",
+            "netname": "COGENT-149-88-16",
+            "ref": "https:\/\/rdap.arin.net\/registry\/ip\/149.88.0.0",
+            "nethandle": "NET-149-88-0-0-1",
+            "cidr": "149.88.0.0\/16"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-length": "552",
+            "++code": "502",
+            "++content-type": "text\/html",
+            "date": "Sun, 01 Dec 2024 10:08:30 GMT",
+            "++redirect": "https:\/\/149.88.90.212\/",
+            "++target": "http:\/\/149.88.90.212\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "expires": "2024-06-09 13:50:49",
+            "subject": "\/CN=ai.aiwrite.fun",
+            "domain": "ai.aiwrite.fun",
+            "valid": "2024-03-11 13:50:50",
+            "fingerprint": "6ba8211273af40a0b4f1d8be3fe43e335a920e24d293d881d457c56ddd980fa9"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 18:08. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5366eec0a200b2e423be6bff5b4e3634.jpeg"
+        }
+    }
+}

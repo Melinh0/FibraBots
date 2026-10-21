@@ -1,0 +1,223 @@
+{
+    "qid": null,
+    "iid": 11854309,
+    "indicator": "210.17.230.213",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-05-06 10:28:13",
+    "stamp_updated": "2024-12-08 10:31:05",
+    "stamp_seen": "2024-11-18 20:54:27",
+    "stamp_probed": "2024-06-30 15:35:09",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64225949,
+                "indicator": "https:\/\/msp.barcodeplus.com.hk\/msp\/home.html"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-13 23:38:56"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-20 03:20:05"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-13 23:38:56"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-06-11 12:34:28"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-03-05 06:38:14"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-15 09:47:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ],
+        "technology": [
+            "DigiCert",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "admin-c": [
+                "HKBN-HK",
+                "HM1285-AP"
+            ],
+            "e-mail": [
+                "hostmaster@hkbn.com.hk",
+                "abuse-wtt@hkbn.com.hk"
+            ],
+            "phone": [
+                "+852-3999-3888",
+                "+000000000"
+            ],
+            "tech-c": [
+                "HKBN-HK",
+                "HM1285-AP"
+            ],
+            "++phone": [
+                "+852-3999-3888",
+                "+000000000"
+            ],
+            "++registrant": [
+                "Host Master",
+                "HKBN-HK",
+                "HM1285-AP"
+            ],
+            "person": "Host Master",
+            "++email": [
+                "hostmaster@hkbn.com.hk",
+                "abuse-wtt@hkbn.com.hk"
+            ],
+            "abuse-mailbox": "abuse-wtt@hkbn.com.hk",
+            "++abuse": "abuse-wtt@hkbn.com.hk",
+            "address": [
+                "Room 925, 9\/F, KITEC, 1 Trademart Drive, Kowloon Bay, Hong Kong",
+                "Trans Asia Centre"
+            ],
+            "netname": "HKBNES-HK",
+            "descr": "HKBN Enterprise Solutions HK Limited",
+            "mnt-by": [
+                "MAINT-HK-HKBNES",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-HK-HKBNES",
+            "irt": "IRT-HK-HKBNES",
+            "inetnum": "210.17.224.0 - 210.17.255.255",
+            "role": "ABUSE HKHKBNES",
+            "nic-hdl": [
+                "AH1146-AP",
+                "HM1285-AP"
+            ],
+            "abuse-c": "AH1146-AP",
+            "last-modified": [
+                "2021-05-07T06:07:00Z",
+                "2021-05-07T07:11:51Z",
+                "2024-08-09T06:13:39Z",
+                "2024-08-09T06:14:06Z"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-09 06:13:39",
+                "2024-08-09 06:14:06",
+                "2021-05-07 06:07:00"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS9381",
+            "org": "HKBN Enterprise Solutions HK Limited",
+            "address": [
+                "Room 925, 9\/F, KITEC, 1 Trademart Drive, Kowloon Bay, Hong Kong",
+                "Trans Asia Centre"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "575",
+            "server": "nginx\/1.14.2",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Mon, 07 Oct 2024 01:29:48 GMT",
+            "++redirect": "https:\/\/msp.barcodeplus.com.hk\/msp\/home.html",
+            "++target": "https:\/\/210.17.230.213\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2025-04-02 23:59:59",
+            "valid": "2024-04-03 00:00:00",
+            "issuer": "\/C=US\/O=DigiCert, Inc.\/CN=Thawte G5 TLS RSA4096 SHA384 2022 CA1",
+            "subject": "\/C=HK\/L=Hong Kong Island\/O=GS1 HONG KONG LIMITED\/CN=*.barcodeplus.com.hk",
+            "fingerprint": "d96e7849215b25c908bcee3b47aa80a2c7f1e3461ad4a14ce0ecf58253fcf745",
+            "org": "Thawte G5 TLS RSA4096 SHA384 2022 CA1",
+            "++subject": "GS1 HONG KONG LIMITED",
+            "domain": [
+                "*.barcodeplus.com.hk",
+                "barcodeplus.com.hk"
+            ]
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dd2fcc481ce67a1399d5e69743b8f36b.jpeg"
+        }
+    }
+}

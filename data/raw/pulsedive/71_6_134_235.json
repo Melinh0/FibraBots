@@ -1,0 +1,131 @@
+{
+    "qid": null,
+    "iid": 46694859,
+    "indicator": "71.6.134.235",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-04-23 02:13:25",
+    "stamp_updated": "2024-12-16 17:54:49",
+    "stamp_seen": "2024-12-16 17:54:49",
+    "stamp_probed": "2024-09-16 11:45:54",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-23 02:13:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-04-28 11:24:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++registered": "2009-11-17 00:00:00",
+            "parent": "NET71 (NET-71-0-0-0-0)",
+            "city": "Henderson",
+            "stateprov": "NV",
+            "++abuse": "complaints@cari.net",
+            "++email": "network@cari.net",
+            "++registrant": "CariNet, Inc.",
+            "orgabuseemail": "complaints@cari.net",
+            "orgabusehandle": "ABUSE341-ARIN",
+            "orgabusename": "CariNet Abuse",
+            "organization": "CariNet, Inc. (CARIN-6)",
+            "orgid": "CARIN-6",
+            "orgname": "CariNet, Inc.",
+            "orgtechemail": "network@cari.net",
+            "orgtechhandle": "CARIN-ARIN",
+            "orgtechname": "CariNet Networking",
+            "originas": "AS10439",
+            "cidr": "71.6.128.0\/17",
+            "nethandle": "NET-71-6-128-0-1",
+            "netname": "CARINET-5",
+            "netrange": "71.6.128.0 - 71.6.255.255",
+            "regdate": [
+                "2009-11-17",
+                "2006-02-01"
+            ],
+            "updated": [
+                "2012-03-02",
+                "2019-08-28"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/71.6.128.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CARIN-6"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE341-ARIN",
+            "++updated": "2019-08-28 00:00:00",
+            "orgtechphone": "+1-702-660-0350",
+            "orgabusephone": "+1-702-660-0350",
+            "++phone": "+1-702-660-0350",
+            "postalcode": "89012",
+            "address": "170 S Green Valley Parkway, Suite 300"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "NV",
+            "asn": "AS10439",
+            "city": "Henderson",
+            "zip": "89012",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": [
+                "CariNet, Inc. (CARIN-6)",
+                "CARINET"
+            ],
+            "address": "170 S Green Valley Parkway, Suite 300"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1\n"
+        },
+        "dns": {
+            "ptr": "centos7134235.aspadmin.net"
+        }
+    }
+}

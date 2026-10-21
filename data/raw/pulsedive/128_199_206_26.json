@@ -1,0 +1,79 @@
+{
+    "qid": null,
+    "iid": 62141668,
+    "indicator": "128.199.206.26",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-08-08 20:25:43",
+    "stamp_updated": "2024-12-10 10:34:59",
+    "stamp_seen": "2024-08-28 00:00:00",
+    "stamp_probed": "2024-08-25 08:39:35",
+    "stamp_retired": "2024-11-30 11:12:11",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-08 20:25:43"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-19 07:18:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS14061",
+            "city": "Singapore",
+            "country": "Singapore",
+            "countrycode": "SG",
+            "zip": "62",
+            "org": "DIGITALOCEAN-ASN",
+            "isp": "DIGITALOCEAN-ASN",
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.4\n"
+        }
+    }
+}

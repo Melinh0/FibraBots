@@ -1,0 +1,156 @@
+{
+    "qid": null,
+    "iid": 60560594,
+    "indicator": "37.139.145.57",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-24 05:07:38",
+    "stamp_updated": "2024-12-14 09:44:56",
+    "stamp_seen": "2024-12-14 09:44:56",
+    "stamp_probed": "2024-08-20 21:43:32",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60560604,
+                "indicator": "https:\/\/37.139.145.57\/"
+            },
+            {
+                "iid": 60560608,
+                "indicator": "https:\/\/37.139.145.57\/login"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-11-16 15:14:56"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-25 16:34:11"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-11-16 15:14:56"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-24 05:07:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Poland",
+            "countrycode": "PL",
+            "lat": "52.2394",
+            "long": "21.0362",
+            "asn": "AS42739",
+            "org": "Hawe Telekom S.A. in Restructuring"
+        },
+        "http": {
+            "x-xss-protection": "1; mode=block",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000",
+            "content-language": "en-US",
+            "content-length": "5487",
+            "++code": "200",
+            "++status": "OK",
+            "content-security-policy": "default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval';",
+            "content-type": "text\/html; charset=utf-8",
+            "x-frame-options": "deny",
+            "++content-type": "text\/html",
+            "server": "https",
+            "++redirect": "https:\/\/37.139.145.57\/login",
+            "++target": "http:\/\/37.139.145.57\/",
+            "date": "Tue, 22 Oct 2024 18:18:27 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "402d9008-0d1a-11ef-b067-bc24117aae0a",
+            "expires": "2034-06-22 12:41:57",
+            "valid": "2024-06-24 12:41:57",
+            "++subject": "Synamedia",
+            "fingerprint": "e83a4d75941c0486758c16591aca083d6af2837934e0ce8f506ec053578e108c",
+            "issuer": "\/CN=402d9008-0d1a-11ef-b067-bc24117aae0a\/=PID:vDCM SN:402d9008-0d1a-11ef-b067-bc24117aae0a\/O=Synamedia\/OU=VidPro\/E=tac@synamedia.com",
+            "ip": [
+                "10.4.2.29",
+                "37.139.145.57"
+            ],
+            "subject": "\/CN=10.4.2.29\/CN=37.139.145.57\/=PID:vDCM SN:402d9008-0d1a-11ef-b067-bc24117aae0a\/O=Synamedia\/OU=VidPro\/E=tac@synamedia.com"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "vDCM POZ - Digital Content Manager"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4a6f12433c259434ee2bdb279b034adb.jpeg"
+        },
+        "cookies": {
+            "session_id": [
+                "93198529566293f818ec5c00c6013f205aba5bab",
+                "ff62db038cf0102991e794272bcddc625e016c48"
+            ]
+        }
+    }
+}

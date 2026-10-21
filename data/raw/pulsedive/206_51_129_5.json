@@ -1,0 +1,199 @@
+{
+    "qid": null,
+    "iid": 62322851,
+    "indicator": "206.51.129.5",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-11 20:38:21",
+    "stamp_updated": "2024-12-15 11:33:13",
+    "stamp_seen": "2024-12-15 07:42:17",
+    "stamp_probed": "2024-09-30 09:29:42",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62457103,
+                "indicator": "https:\/\/206.51.129.5\/redirect.cgi"
+            },
+            {
+                "iid": 65800828,
+                "indicator": "https:\/\/206.51.129.5\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-11 20:38:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "updated": [
+                "2017-01-28",
+                "2024-09-24"
+            ],
+            "nettype": "Direct Allocation",
+            "orgnocname": "Network Operations Center",
+            "orgtechname": "Network Operations Center",
+            "orgabusename": "Abuse",
+            "parent": "NET206 (NET-206-0-0-0-0)",
+            "stateprov": "OH",
+            "++updated": [
+                "2017-01-28 00:00:00",
+                "2024-09-24 00:00:00"
+            ],
+            "++registered": [
+                "2004-04-07 00:00:00",
+                "2001-11-01 00:00:00"
+            ],
+            "++phone": "+1-419-753-2950",
+            "orgnocphone": "+1-419-753-2950",
+            "orgtechphone": "+1-419-753-2950",
+            "regdate": [
+                "2004-04-07",
+                "2001-11-01"
+            ],
+            "++abuse": "abuse@nktelco.com",
+            "++email": "support@nktelco.com",
+            "++registrant": "NEW KNOXVILLE TELEPHONE COMPANY",
+            "address": "301 West South Street",
+            "cidr": "206.51.128.0\/18",
+            "city": "New Knoxville",
+            "nethandle": "NET-206-51-128-0-1",
+            "netname": "NKTC",
+            "netrange": "206.51.128.0 - 206.51.191.255",
+            "orgabuseemail": "abuse@nktelco.com",
+            "orgabusehandle": "ABUSE4704-ARIN",
+            "orgabusephone": "+1-419-753-5000",
+            "organization": "NEW KNOXVILLE TELEPHONE COMPANY (NKTC)",
+            "orgid": "NKTC",
+            "orgname": "NEW KNOXVILLE TELEPHONE COMPANY",
+            "orgnocemail": "support@nktelco.com",
+            "orgnochandle": "NOC13033-ARIN",
+            "orgtechemail": "support@nktelco.com",
+            "orgtechhandle": "NOC13033-ARIN",
+            "postalcode": "45871",
+            "originas": "AS31841",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC13033-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/NKTC",
+                "https:\/\/rdap.arin.net\/registry\/ip\/206.51.128.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE4704-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC13033-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "OH",
+                "Ohio"
+            ],
+            "asn": "AS31841",
+            "zip": "45871",
+            "city": "New Knoxville",
+            "org": [
+                "NEW KNOXVILLE TELEPHONE COMPANY (NKTC)",
+                "NKTC"
+            ],
+            "address": "301 West South Street",
+            "lat": "40.5002",
+            "long": "-84.3125"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/206.51.129.5\/",
+            "date": "Tue, 22 Oct 2024 17:43:58 GMT"
+        },
+        "cookies": {
+            "zy_pc_browser": "1",
+            "arip": "206.51.129.5"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=usg20w-vpn_BC99118F50B4",
+            "valid": "2018-05-22 15:32:10",
+            "org": "usg20w-vpn_BC99118F50B4",
+            "issuer": "\/CN=usg20w-vpn_BC99118F50B4",
+            "expires": "2028-05-19 15:32:10",
+            "email": "usg20w-vpn_BC99118F50B4",
+            "fingerprint": "1912199789775793965bec36e722b547c1854c684ad134f240121e91e37be364"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "USG20W-VPN"
+        },
+        "dns": {
+            "ptr": "206-51-129-5.nktelco.net"
+        },
+        "banners": {
+            "21": "220 FTP Server (USG20W-VPN) [::ffff:206.51.129.5]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5ddf75861780ab7587b58e1673c0f3d0.jpeg"
+        }
+    }
+}

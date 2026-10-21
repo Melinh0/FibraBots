@@ -1,0 +1,207 @@
+{
+    "qid": null,
+    "iid": 49561936,
+    "indicator": "195.88.120.62",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-07-26 01:08:08",
+    "stamp_updated": "2024-12-10 10:38:11",
+    "stamp_seen": "2024-11-28 00:00:00",
+    "stamp_probed": "2024-09-30 07:54:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 49563277,
+                "indicator": "https:\/\/files.zau.ru\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-11-30 07:30:40"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-26 01:08:08"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-11-30 07:30:40"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-24 14:40:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "RU",
+            "org-type": "OTHER",
+            "status": "ASSIGNED PI",
+            "mnt-by": [
+                "RIPE-NCC-LOCKED-MNT",
+                "FIORD-MNT",
+                "MNT-PARUS-TELECOM",
+                "RIPE-NCC-END-MNT"
+            ],
+            "origin": [
+                "AS28917",
+                "AS48969"
+            ],
+            "mnt-routes": "MNT-PARUS-TELECOM",
+            "last-modified": [
+                "2013-08-27T11:04:53Z",
+                "2016-04-06T20:21:55Z",
+                "2009-06-05T14:17:47Z",
+                "2019-06-18T14:09:36Z",
+                "2022-12-01T16:43:14Z"
+            ],
+            "route": "195.88.120.0\/23",
+            "org-name": "Parus-Telecom Ltd.",
+            "admin-c": "II612-RIPE",
+            "abuse-c": "AR23221-RIPE",
+            "mnt-ref": "MNT-PARUS-TELECOM",
+            "inetnum": "195.88.120.0 - 195.88.121.255",
+            "tech-c": "II612-RIPE",
+            "address": "Russia, Moscow, Smolenskiy per., 5, 1",
+            "mnt-domains": "MNT-PARUS-TELECOM",
+            "netname": "PARUS-TELECOM-NET",
+            "organisation": "ORG-PL70-RIPE",
+            "org": "ORG-PL70-RIPE",
+            "descr": "PARUS-TELECOM",
+            "nic-hdl": "II612-RIPE",
+            "person": "Igor I.Korolkov",
+            "phone": "+7 903 9665158",
+            "created": [
+                "2009-04-06T20:22:44Z",
+                "2009-03-09T08:44:51Z",
+                "2009-02-26T10:22:14Z",
+                "2009-02-26T10:22:10Z",
+                "2009-06-05T14:17:47Z"
+            ],
+            "++registrant": [
+                "II612-RIPE",
+                "Igor I.Korolkov"
+            ],
+            "sponsoring-org": "ORG-JF1-RIPE",
+            "++updated": [
+                "2022-12-01 16:43:14",
+                "2016-04-06 20:21:55",
+                "2009-06-05 14:17:47",
+                "2013-08-27 11:04:53"
+            ],
+            "++registered": [
+                "2009-03-09 08:44:51",
+                "2009-02-26 10:22:14",
+                "2009-02-26 10:22:10",
+                "2009-06-05 14:17:47",
+                "2009-04-06 20:22:44"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS48969",
+            "org": "Parus-Telecom Ltd.",
+            "country": "Russia"
+        },
+        "http": {
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/files.zau.ru\/",
+            "++target": "http:\/\/195.88.120.62\/",
+            "date": "Sun, 15 Sep 2024 06:05:12 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "ZeroSSL RSA Domain Secure Site CA",
+            "issuer": "\/C=AT\/O=ZeroSSL\/CN=ZeroSSL RSA Domain Secure Site CA",
+            "expires": "2022-04-28 23:59:59",
+            "valid": "2022-01-28 00:00:00",
+            "subject": "\/CN=files.zau.ru",
+            "domain": "files.zau.ru",
+            "fingerprint": "e02f1139ad837d1ed5a95654e9d805e0b74ec05e25a43675d7aec4ff3bd9a9e8"
+        },
+        "meta": {
+            "++title": "Index of \/"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.0\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "195-88-120-62.parustelecom.ru"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7ecdd73b82743edc8b966cf0f3607486.jpeg"
+        }
+    }
+}

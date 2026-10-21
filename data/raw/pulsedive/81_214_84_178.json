@@ -1,0 +1,109 @@
+{
+    "qid": null,
+    "iid": 53603459,
+    "indicator": "81.214.84.178",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-11-29 12:26:37",
+    "stamp_updated": "2024-08-25 12:49:42",
+    "stamp_seen": "2024-05-24 06:47:45",
+    "stamp_probed": "2024-05-24 06:47:45",
+    "stamp_retired": "2024-08-25 12:49:42",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-29 12:26:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "23",
+            "443",
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "RTSP",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Turkey",
+            "countrycode": "TR",
+            "isp": "Turk Telekom",
+            "org": "Turk Telekom",
+            "asn": "AS47331",
+            "city": "Kartal",
+            "zip": "34860",
+            "lat": "40.9002",
+            "region": "Istanbul",
+            "long": "29.1873"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "DVRDVS-Webs",
+            "content-length": "2120",
+            "last-modified": "Mon May  6 03:20:02 2013",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Wed May 22 21:37:40 2024"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8"
+        },
+        "cookies": {
+            "language": "en",
+            "updatetips": "true"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd!\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "21": "220 ucftpd(Jul  2 2012-22:13:49) FTP server ready.\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ce85946ee7729b240a8378a3dc9792c7.jpeg"
+        },
+        "dns": {
+            "ptr": "81.214.84.178.dynamic.ttnet.com.tr"
+        }
+    }
+}

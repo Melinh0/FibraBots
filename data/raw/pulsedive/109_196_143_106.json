@@ -1,0 +1,170 @@
+{
+    "qid": null,
+    "iid": 27898766,
+    "indicator": "109.196.143.106",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-09-08 14:47:51",
+    "stamp_updated": "2024-12-10 10:33:03",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-04 03:08:22",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-09-09 00:08:41"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-09-08 14:47:51"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-21 00:48:10"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-10-13 01:26:26"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-09-09 00:08:42"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-09 12:23:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "org-type": "OTHER",
+            "++registered": "2017-08-23 00:00:00",
+            "role": "Abuse-C Role",
+            "mnt-by": [
+                "TRANSITTELECOM-MNT",
+                "VOLSRU-MNT"
+            ],
+            "mnt-routes": "VOLSRU-MNT",
+            "org-name": "ZAO \"VOLS\"",
+            "admin-c": "KY322-RIPE",
+            "abuse-c": "AR29635-RIPE",
+            "mnt-ref": "VOLSRU-MNT",
+            "abuse-mailbox": "vols-@mail.ru",
+            "inetnum": "109.196.136.0 - 109.196.143.255",
+            "tech-c": "AR29635-RIPE",
+            "mnt-domains": "VOLSRU-MNT",
+            "netname": "VOLS-NET",
+            "organisation": "ORG-JVOL1-RIPE",
+            "org": "ORG-JVOL1-RIPE",
+            "origin": "AS61431",
+            "descr": [
+                "=============================",
+                "ZAO VOLS",
+                "ZAO \"Volokonno-opticheskie linii svyazi\"",
+                "please abuse send on vols-@mail.ru"
+            ],
+            "nic-hdl": [
+                "KY322-RIPE",
+                "AR29635-RIPE"
+            ],
+            "person": "Kartoshin Yuriy",
+            "last-modified": [
+                "2017-08-23T13:31:56Z",
+                "2017-08-23T13:33:20Z",
+                "2018-05-29T06:33:00Z",
+                "2017-08-23T13:36:26Z",
+                "2022-12-01T17:02:38Z"
+            ],
+            "route": "109.196.143.0\/24",
+            "address": [
+                "RUSSIA, 617762, Perm, Tchaikovsky, Mira str., 1, of.4",
+                "RUSSIA, 617762, Perm, Tchaikovsky, Mira str., 1?, of.4"
+            ],
+            "++phone": "+7 3424 148707",
+            "phone": "+7 3424 148707",
+            "created": [
+                "2017-08-23T13:31:56Z",
+                "2012-10-10T06:41:09Z",
+                "2014-11-17T22:43:30Z",
+                "2012-10-10T06:29:55Z",
+                "2013-01-21T05:15:37Z"
+            ],
+            "++abuse": "vols-@mail.ru",
+            "++email": "vols-@mail.ru",
+            "++registrant": "Kartoshin Yuriy",
+            "++updated": "2022-12-01 00:00:00"
+        },
+        "geo": {
+            "country": "Russian Federation",
+            "countrycode": "RU",
+            "city": "Chaykovskiy",
+            "zip": "617763",
+            "asn": "AS61431",
+            "region": "Perm Krai",
+            "lat": "56.7652",
+            "long": "54.1188",
+            "isp": "Telecommunication Company Kama - Link LLC.",
+            "org": "Telecommunication Company Kama - Link LLC."
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u7\n"
+        }
+    }
+}

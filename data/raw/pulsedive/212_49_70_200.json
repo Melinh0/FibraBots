@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 35484906,
+    "indicator": "212.49.70.200",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-31 02:42:06",
+    "stamp_updated": "2024-12-15 11:33:26",
+    "stamp_seen": "2024-12-15 07:43:22",
+    "stamp_probed": "2024-09-30 09:48:56",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64125154,
+                "indicator": "https:\/\/212.49.70.200\/nagiosna\/login"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-05-31 14:48:41"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-31 02:42:06"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-15 06:36:40"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-07-31 12:31:19"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-05-31 14:48:41"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-30 00:26:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE-NONAUTH",
+                "RIPE # Filtered"
+            ],
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2014-07-30T10:33:24Z",
+                "2019-01-07T10:48:51Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2019-01-07 10:48:51",
+                "2014-07-30 10:33:24"
+            ],
+            "address": "see http:\/\/www.iana.org.",
+            "admin-c": "IANA1-RIPE",
+            "netname": "NON-RIPE-NCC-MANAGED-ADDRESS-BLOCK",
+            "nic-hdl": "IANA1-RIPE",
+            "role": "Internet Assigned Numbers Authority",
+            "status": "ALLOCATED UNSPECIFIED",
+            "tech-c": "IANA1-RIPE",
+            "last-modified": [
+                "2001-09-22T09:31:27Z",
+                "2018-09-04T17:58:30Z",
+                "2019-01-07T10:48:51Z"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-MNT",
+                "RIPE-NCC-HM-MNT",
+                "KPTC-MNT"
+            ],
+            "descr": [
+                "IPv4 address block not managed by the RIPE NCC",
+                "Telkom Kenya Jambonet network"
+            ],
+            "inetnum": "212.49.64.0 - 212.49.95.255",
+            "origin": "AS12455",
+            "route": "212.49.70.0\/23",
+            "++registrant": "IANA1-RIPE",
+            "++updated": [
+                "2001-09-22 09:31:27",
+                "2019-01-07 10:48:51",
+                "2018-09-04 17:58:30"
+            ],
+            "country": "EU # Country is really world wide"
+        },
+        "geo": {
+            "country": "Kenya",
+            "countrycode": "KE",
+            "asn": "AS12455",
+            "org": "JAMBONET",
+            "long": "38",
+            "lat": "1"
+        },
+        "http": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "connection": "Keep-Alive",
+            "content-length": "196",
+            "keep-alive": "timeout=5, max=98",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.37 (centos) OpenSSL\/1.1.1k",
+            "++redirect": "https:\/\/212.49.70.200\/nagiosna\/login",
+            "++target": "http:\/\/212.49.70.200\/",
+            "date": "Tue, 22 Oct 2024 17:39:55 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "Unspecified",
+            "org": "nagiosanalyzer",
+            "domain": "nagiosanalyzer",
+            "valid": "2021-06-27 07:48:23",
+            "issuer": "\/C=US\/O=Unspecified\/OU=ca-537741195015255955\/CN=nagiosanalyzer\/E=root@nagiosanalyzer",
+            "expires": "2022-07-02 09:28:23",
+            "fingerprint": "b40585024a3c466ecd17332bda3b490d0e7a83fe1648b7621dfa5c576cfe1e96",
+            "subject": "\/C=US\/O=Unspecified\/CN=nagiosanalyzer\/E=root@nagiosanalyzer"
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n"
+        },
+        "dns": {
+            "ptr": "autodiscover.interdistalliances.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9841d90a7110fd11cdc4083beaf15124.jpeg"
+        },
+        "cookies": {
+            "phpsessid": "261tcc2utgrelqorlfpaca22a5",
+            "na_session": "a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%222690d4038048444a4716686f5f09ae06%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%22172.105.7.58%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A111%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1730015520%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7De7063b61f252a5fe6a3c31ce7519306dfd0586a6",
+            "csrf_cna": "4255ec3756fa0fad3ca8872a6cbc7c03"
+        }
+    }
+}

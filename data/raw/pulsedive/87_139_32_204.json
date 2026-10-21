@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 65260845,
+    "indicator": "87.139.32.204",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-24 09:50:52",
+    "stamp_updated": "2024-12-10 16:20:31",
+    "stamp_seen": "2024-11-24 11:24:59",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-11-30 15:51:34"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-24 09:50:52"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-11-30 15:51:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "22",
+            "389"
+        ],
+        "protocol": [
+            "LDAP",
+            "OpenVPN",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "DTAG-RR",
+                "DTAG-NIC"
+            ],
+            "origin": "AS3320",
+            "mnt-ref": "DTAG-NIC",
+            "abuse-c": "DTAG4-RIPE",
+            "address": [
+                "Darmstadt, Germany",
+                "Group Information Security, SDA\/Abuse",
+                "DE 64295 Darmstadt",
+                "Deutsche Telekom AG",
+                "Deutsche Telekom Allee 9"
+            ],
+            "admin-c": "DTIP",
+            "descr": [
+                "Deutsche Telekom AG, Internet service provider",
+                "Deutsche Telekom AG",
+                "T-DSL Business static dial-up"
+            ],
+            "member-of": "AS3320:RS-PA-TELEKOM",
+            "nic-hdl": [
+                "DTST",
+                "DTIP"
+            ],
+            "org": "ORG-DTAG1-RIPE",
+            "org-name": "Deutsche Telekom AG",
+            "organisation": "ORG-DTAG1-RIPE",
+            "person": [
+                "Security Team",
+                "DTAG Global IP-Addressing"
+            ],
+            "phone": "+49 180 2 33 1000",
+            "tech-c": "DTST",
+            "netname": "DTAG-STATIC02",
+            "created": [
+                "2005-05-07T20:51:49Z",
+                "2014-06-17T11:47:04Z",
+                "2003-01-29T10:22:59Z",
+                "2003-01-29T10:31:11Z",
+                "2006-03-14T12:33:51Z"
+            ],
+            "last-modified": [
+                "2005-05-07T20:51:49Z",
+                "2014-06-18T11:18:11Z",
+                "2019-05-14T12:55:19Z",
+                "2019-05-14T12:56:39Z",
+                "2021-02-22T13:35:19Z"
+            ],
+            "route": "87.128.0.0\/11",
+            "inetnum": "87.139.0.0 - 87.139.127.255",
+            "++registrant": [
+                "DTIP",
+                "DTAG Global IP-Addressing",
+                "Security Team"
+            ],
+            "++updated": [
+                "2021-02-22 13:35:19",
+                "2019-05-14 12:55:19",
+                "2019-05-14 12:56:39",
+                "2005-05-07 20:51:49"
+            ],
+            "++registered": [
+                "2014-06-17 11:47:04",
+                "2003-01-29 10:22:59",
+                "2003-01-29 10:31:11",
+                "2005-05-07 20:51:49"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS3320",
+            "org": [
+                "Deutsche Telekom AG",
+                "ORG-DTAG1-RIPE"
+            ],
+            "region": "North Rhine-Westphalia",
+            "lat": "51.972",
+            "address": [
+                "Group Information Security, SDA\/Abuse",
+                "DE 64295 Darmstadt",
+                "Deutsche Telekom AG",
+                "Darmstadt, Germany",
+                "Deutsche Telekom Allee 9"
+            ],
+            "long": "7.6002",
+            "city": "M\ufffdnster"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.1\n",
+            "1194": "\u0005\u0004\u0000\u0000",
+            "389": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

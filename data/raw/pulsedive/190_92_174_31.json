@@ -1,0 +1,196 @@
+{
+    "qid": null,
+    "iid": 65335409,
+    "indicator": "190.92.174.31",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-27 09:55:45",
+    "stamp_updated": "2024-12-12 11:23:21",
+    "stamp_seen": "2024-11-28 07:58:11",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65380347,
+                "indicator": "http:\/\/190.92.174.31\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-27 09:55:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "LiteSpeed"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": [
+                "GB",
+                "IN"
+            ],
+            "address": [
+                "UNITED KINGDOM",
+                "London",
+                "Poole",
+                "87 North Road",
+                "5 Sydney Street",
+                "SW3 6PU",
+                "BH14 0LT"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "lir-uk-whgi-1-MNT"
+            ],
+            "role": "RIPE Contact",
+            "abuse-c": "AR69989-RIPE",
+            "org-name": "WHG Hosting Services Ltd",
+            "++phone": "+442081642666",
+            "descr": "World Host Group",
+            "phone": "+442081642666",
+            "org": "ORG-WHSL1-RIPE",
+            "organisation": "ORG-WHSL1-RIPE",
+            "admin-c": "RC20655-RIPE",
+            "last-modified": [
+                "2024-01-16T15:36:32Z",
+                "2023-03-08T13:47:26Z",
+                "2024-04-04T11:33:47Z",
+                "2024-11-21T00:11:20Z"
+            ],
+            "++registrant": "RC20655-RIPE",
+            "tech-c": "RC20655-RIPE",
+            "created": [
+                "2023-03-08T13:47:26Z",
+                "2023-03-08T13:47:25Z",
+                "2024-04-04T11:31:51Z",
+                "2024-04-04T11:33:47Z"
+            ],
+            "mnt-ref": "lir-uk-whgi-1-MNT",
+            "nic-hdl": "RC20655-RIPE",
+            "origin": "AS199404",
+            "inetnum": "190.92.174.0 - 190.92.174.255",
+            "netname": "WHG-BOM1-1",
+            "route": "190.92.174.0\/24",
+            "++updated": [
+                "2024-01-16 15:36:32",
+                "2023-03-08 13:47:26",
+                "2024-11-21 00:11:20",
+                "2024-04-04 11:33:47"
+            ],
+            "++registered": [
+                "2023-03-08 13:47:26",
+                "2023-03-08 13:47:25",
+                "2024-04-04 11:31:51",
+                "2024-04-04 11:33:47"
+            ],
+            "geofeed": "https:\/\/geofeed.whgi.net\/WHG-geofeed.csv"
+        },
+        "geo": {
+            "country": [
+                "United Kingdom",
+                "India"
+            ],
+            "countrycode": [
+                "GB",
+                "IN"
+            ],
+            "region": "Maharashtra",
+            "city": "Navi Mumbai",
+            "address": [
+                "London",
+                "UNITED KINGDOM",
+                "Poole",
+                "87 North Road",
+                "5 Sydney Street",
+                "SW3 6PU",
+                "BH14 0LT"
+            ],
+            "long": "73.0656",
+            "lat": "19.0565",
+            "org": [
+                "WHG Hosting Services Ltd",
+                "ORG-WHSL1-RIPE"
+            ],
+            "asn": "AS199404"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "LiteSpeed",
+            "connection": "Keep-Alive",
+            "vary": "User-Agent",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "163",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Sat, 10 Oct 2020 19:37:25 GMT",
+            "date": "Thu, 28 Nov 2024 00:57:29 GMT",
+            "++target": "http:\/\/190.92.174.31\/"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "refresh": "0;URL=\/cgi-sys\/defaultwebpage.cgi"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 00:57. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220-s784.bom1.mysecurecloudhost.com ESMTP Exim 4.98 #2 Thu, 28 Nov 2024 00:57:26 +0000 \n220-We do not authorize the use of this system to transport unsolicited, \n220 and\/or bulk e-mail.\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

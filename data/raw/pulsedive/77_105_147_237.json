@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 49339196,
+    "indicator": "77.105.147.237",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-07-20 01:03:14",
+    "stamp_updated": "2024-12-10 10:42:31",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-07-02 01:09:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-22 17:49:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-07-20 01:03:14"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-22 17:49:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-07-27 21:19:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "DE",
+            "org-type": "OTHER",
+            "status": "SUB-ALLOCATED PA",
+            "admin-c": "AN32749-RIPE",
+            "mnt-by": [
+                "aeza-mnt",
+                "aeza-group-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "tech-c": "AN32749-RIPE",
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-11-24T09:55:02Z",
+                "2023-03-07T12:15:10Z",
+                "2023-04-19T13:36:12Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "++registrant": "AN32749-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "++abuse": "AA38875-RIPE",
+            "nic-hdl": "AN32749-RIPE",
+            "mnt-ref": [
+                "aeza-mnt",
+                "renets-mnt"
+            ],
+            "++registered": "2023-04-19 00:00:00",
+            "++updated": "2024-03-19 00:00:00",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "last-modified": [
+                "2024-03-19T08:47:02Z",
+                "2023-10-31T07:53:49Z",
+                "2023-05-12T13:11:31Z",
+                "2023-04-19T13:36:12Z"
+            ],
+            "netname": "AEZA-NET",
+            "route": "77.105.146.0\/23",
+            "inetnum": "77.105.146.0 - 77.105.147.255"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "zip": "60313",
+            "region": "Hesse",
+            "long": "8.6842",
+            "city": "Frankfurt am Main",
+            "lat": "50.1187",
+            "asn": "AS210644",
+            "org": "Aeza International Ltd",
+            "isp": "Aeza International Ltd"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3121",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "etag": "\"29af-61b5a72438254-gzip\"",
+            "last-modified": "Thu, 20 Jun 2024 23:12:18 GMT",
+            "date": "Sun, 30 Jun 2024 13:41:01 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/fbbf00b636598e69619e05c38f0a8c41.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\n"
+        },
+        "dns": {
+            "ptr": "rough-gate.aeza.network"
+        }
+    }
+}

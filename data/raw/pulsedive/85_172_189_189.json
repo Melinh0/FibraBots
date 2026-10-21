@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 17035272,
+    "indicator": "85.172.189.189",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-10-23 12:42:31",
+    "stamp_updated": "2024-12-16 11:37:38",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-07 08:23:57",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-05-04 12:36:01"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-10-23 12:42:31"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-01-02 11:47:03"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-10-28 10:43:35"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-05-04 12:36:01"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-25 23:20:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "22"
+        ],
+        "protocol": [
+            "OpenVPN",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "admin-c": [
+                "AI212-RIPE",
+                "KNO7-RIPE"
+            ],
+            "descr": [
+                "OJSC Rostelecom Macroregional Branch South",
+                "Karachaevo-Cherkesskelektrosvyaz AS",
+                "Republic of \"Karachaevo-Cherkessiya\", Russia"
+            ],
+            "netname": "Macroregional_South",
+            "tech-c": [
+                "SG2478-RIPE",
+                "AI212-RIPE",
+                "KNO7-RIPE"
+            ],
+            "address": [
+                "369000, Cherkessk, Russia",
+                "OJSC Rostelecom Karachaevo-Cherkessya branch",
+                "17, Soyuznyi str.,"
+            ],
+            "created": [
+                "2009-11-03T11:35:38Z",
+                "2006-07-04T10:10:00Z",
+                "2008-04-24T09:17:30Z"
+            ],
+            "fax-no": "+7 8782 258046",
+            "inetnum": "85.172.176.0 - 85.172.191.255",
+            "last-modified": [
+                "2009-11-03T11:35:38Z",
+                "2018-08-23T10:23:35Z",
+                "2018-08-23T10:04:03Z"
+            ],
+            "mnt-by": "STC-MNT",
+            "nic-hdl": "KNO7-RIPE",
+            "org": "ORG-KA126-RIPE",
+            "origin": "AS42548",
+            "phone": "+7 8782 261797",
+            "role": "Karachaevo-Cherkesskelektrosvyaz Network Operations",
+            "route": "85.172.184.0\/21",
+            "++registrant": [
+                "AI212-RIPE",
+                "KNO7-RIPE"
+            ],
+            "++abuse": "stv.monitoring@south.rt.ru",
+            "abuse-mailbox": "stv.monitoring@south.rt.ru",
+            "++email": "stv.monitoring@south.rt.ru",
+            "source": "RIPE # Filtered",
+            "++registered": [
+                "2008-04-24 09:17:30",
+                "2009-11-03 11:35:38"
+            ],
+            "++updated": [
+                "2018-08-23 10:23:35",
+                "2018-08-23 10:04:03",
+                "2009-11-03 11:35:38"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS42548",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "org": "Rostelecom",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "host-85-172-189-189.stavropol.ru"
+        },
+        "banners": {
+            "1194": "\u0000\u000e@\ufffd\ufffd\fAL\ufffd+\ufffd\u0000\u0000\u0000\u0000\u0000"
+        }
+    }
+}

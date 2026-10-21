@@ -1,0 +1,156 @@
+{
+    "qid": null,
+    "iid": 55144009,
+    "indicator": "103.236.192.222",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-14 15:40:47",
+    "stamp_updated": "2024-12-17 03:18:25",
+    "stamp_seen": "2024-12-15 00:00:00",
+    "stamp_probed": "2024-09-07 07:37:17",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-26 01:17:13"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-14 15:40:47"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-26 01:17:13"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-07 06:56:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "IDNIC"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-UPNYK"
+            ],
+            "++registrant": [
+                "Budi Santoso",
+                "BS929-AP"
+            ],
+            "descr": [
+                "DI Yogyakarta",
+                "Indonesia Network Information Center",
+                "University \/ Direct Member IDNIC",
+                "Universitas Pembangunan Nasional Veteran Yogyakarta",
+                "Jl. SWK 104 Condongcatur",
+                "Yogyakarta, 55283"
+            ],
+            "address": [
+                "DI Yogyakarta",
+                "Universitas Pembangunan Nasional Veteran Yogyakarta",
+                "Jl. SWK 104 Condongcatur",
+                "Yogyakarta, 55283"
+            ],
+            "last-modified": [
+                "2018-05-31T22:30:59Z",
+                "2015-08-27T10:48:15Z",
+                "2015-08-27T10:12:48Z",
+                "2015-08-27T10:35:31Z",
+                "2019-08-22T06:34:48Z"
+            ],
+            "mnt-routes": "MAINT-ID-UPNYK",
+            "mnt-irt": "IRT-UPNYK-ID",
+            "e-mail": "dissan@if.upnyk.ac.id",
+            "admin-c": "BS929-AP",
+            "abuse-mailbox": "dissan@if.upnyk.ac.id",
+            "inetnum": "103.236.192.0 - 103.236.192.255",
+            "tech-c": "BS929-AP",
+            "++abuse": "dissan@if.upnyk.ac.id",
+            "netname": "IDNIC-UPNYK-ID",
+            "++phone": "+62-274-486362",
+            "nic-hdl": "BS929-AP",
+            "person": "Budi Santoso",
+            "irt": "IRT-UPNYK-ID",
+            "++email": "dissan@if.upnyk.ac.id",
+            "phone": "+62-274-486362",
+            "fax-no": "+62-274-486362",
+            "origin": "AS63886",
+            "route": "103.236.192.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2018-05-31 22:30:59",
+                "2015-08-27 10:12:48",
+                "2019-08-22 06:34:48",
+                "2015-08-27 10:48:15",
+                "2015-08-27 10:35:31"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS63886",
+            "org": "Universitas Pembangunan Nasional Veteran Yogyakarta",
+            "address": [
+                "DI Yogyakarta",
+                "Universitas Pembangunan Nasional Veteran Yogyakarta",
+                "Jl. SWK 104 Condongcatur",
+                "Yogyakarta, 55283"
+            ],
+            "lat": "-6.1728",
+            "long": "106.8272"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

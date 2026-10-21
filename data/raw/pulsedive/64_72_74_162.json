@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 65232495,
+    "indicator": "64.72.74.162",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-23 09:46:39",
+    "stamp_updated": "2024-12-13 11:28:53",
+    "stamp_seen": "2024-11-23 10:20:03",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65235195,
+                "indicator": "https:\/\/64.72.74.162\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-23 09:46:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "ExtJS",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "parent": "NET64 (NET-64-0-0-0-0)",
+            "stateprov": "TX",
+            "originas": "AS46887",
+            "postalcode": "77024",
+            "regdate": [
+                "2002-01-28",
+                "2023-07-12"
+            ],
+            "netrange": "64.72.64.0 - 64.72.95.255",
+            "nethandle": "NET-64-72-64-0-1",
+            "cidr": "64.72.64.0\/19",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/64.72.64.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CCFL-10"
+            ],
+            "city": "Houston",
+            "address": "8020 Katy Freeway",
+            "orgtechphone": "+1-855-933-4237",
+            "++phone": "+1-855-933-4237",
+            "orgtechemail": "ipadmin@crowncastle.com",
+            "++email": "ipadmin@crowncastle.com",
+            "++registered": "2023-07-12 00:00:00",
+            "++updated": [
+                "2023-11-07 00:00:00",
+                "2024-01-03 00:00:00"
+            ],
+            "updated": [
+                "2023-11-07",
+                "2024-01-03"
+            ],
+            "orgabusehandle": "CCAR-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/CCAR-ARIN",
+            "orgabusename": "Crown Castle Abuse Reports",
+            "organization": "Crown Castle Fiber LLC (CCFL-10)",
+            "orgid": "CCFL-10",
+            "orgabusephone": "+1-855-933-4237",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CCIA3-ARIN",
+            "orgname": "Crown Castle Fiber LLC",
+            "orgabuseemail": "abuse@crowncastle.com",
+            "orgtechname": "Crown Castle IP Admin",
+            "orgnocphone": "+1-855-933-4237",
+            "orgnochandle": "CCNOC3-ARIN",
+            "orgtechhandle": "CCIA3-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/CCNOC3-ARIN",
+            "orgnocname": "Crown Castle Network Operations Center",
+            "orgnocemail": "fibersupport@crowncastle.com",
+            "++registrant": "Crown Castle Fiber LLC",
+            "++abuse": "abuse@crowncastle.com",
+            "netname": "CROWNCASTLE-64-72-64-0"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": [
+                "Houston",
+                "White Plains"
+            ],
+            "region": [
+                "New York",
+                "TX"
+            ],
+            "zip": "77024",
+            "asn": "AS46887",
+            "long": "-73.7559",
+            "lat": "41.0129",
+            "address": "8020 Katy Freeway",
+            "org": [
+                "Crown Castle Fiber LLC (CCFL-10)",
+                "CROWNCASTLE-AS46887"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/64.72.74.162\/",
+            "++redirect": "https:\/\/64.72.74.162\/",
+            "date": "Sat, 23 Nov 2024 10:19:30 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "charset": "utf-8",
+            "handheldfriendly": "true",
+            "++title": "USG FLEX 500"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2023-07-25 13:08:01",
+            "issuer": "\/CN=usg_flex_500_F44D5C70793E",
+            "subject": "\/CN=usg_flex_500_F44D5C70793E",
+            "org": "usg_flex_500_F44D5C70793E",
+            "fingerprint": "6486bdba844f2c082b6e9a33cc885789e25faf46480d3df7dd7bea64ab010a00",
+            "expires": "2033-07-22 13:08:01",
+            "email": "usg_flex_500_F44D5C70793E"
+        },
+        "banners": {
+            "22": "SSH-2.0-sshd\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (USG FLEX 500) [::ffff:64.72.74.162]\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/43501d171b6aad6813e4a3dde047167b.jpeg"
+        }
+    }
+}

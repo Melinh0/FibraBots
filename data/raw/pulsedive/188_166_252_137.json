@@ -1,0 +1,123 @@
+{
+    "qid": null,
+    "iid": 64716773,
+    "indicator": "188.166.252.137",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-04 08:48:04",
+    "stamp_updated": "2024-12-15 11:32:09",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64716823,
+                "indicator": "https:\/\/188.166.252.137\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-04 08:48:04"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-29 21:56:41"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "143",
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "OpenVPN",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS14061",
+            "city": "Singapore",
+            "country": "Singapore",
+            "countrycode": "SG",
+            "org": "DIGITALOCEAN-ASN",
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "555",
+            "++code": "404",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.27.2",
+            "++redirect": "https:\/\/188.166.252.137\/",
+            "++target": "http:\/\/188.166.252.137\/",
+            "date": "Mon, 04 Nov 2024 08:48:15 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "domain": "waroeng.vpnpremium.id",
+            "subject": "\/CN=waroeng.vpnpremium.id",
+            "fingerprint": "5d1675d1a6a7a5fa19abda5a194acb2ae6787e506b94801029da182771ec70cf",
+            "expires": "2025-02-01 14:17:37",
+            "valid": "2024-11-03 14:17:38"
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5\n",
+            "1194": "\u0005\u0004\u0000\u0000",
+            "143": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0002\u0014\u000b\u0014\u024b\u01da7m\ufffd\ufffd\ufffd,A\ufffd\ufffd]\ufffd\u0016\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp256,ssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffdCm%\b_\ufffd\ufffd"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/28fc05443ee4cdd0af2fcc9ec90b536e.jpeg"
+        }
+    }
+}

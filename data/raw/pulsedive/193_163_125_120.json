@@ -1,0 +1,119 @@
+{
+    "qid": null,
+    "iid": 29736150,
+    "indicator": "193.163.125.120",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-11-20 09:27:02",
+    "stamp_updated": "2024-11-18 13:52:07",
+    "stamp_seen": "2024-11-18 13:52:07",
+    "stamp_probed": "2024-08-08 00:45:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-20 09:27:02"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 507087,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 02:46:10",
+            "stamp_updated": "2022-05-18 02:46:10"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "CloudFlare"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "country": "United Kingdom of Great Britain and Northern Ireland",
+            "isp": "Constantine Cybersecurity Ltd.",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "cf-ray": "7a100a67fd2c1811-EWR",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v3?s=sPTT0cBXzEuzM3bnq99P60ZKsI6dUiT1S7UhgsperItuJHyPKvfHDo4SOoaW3e4%2BQtfeLBOEwLmnE7Vqff0Yy%2BjQsHKF59bn8cZI8UhGLmGVXQOcHRDcWACZmqVpDmYZyjyx4wmoG2VMJlw%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "date": "Wed, 01 Mar 2023 08:30:54 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "valid": "2023-02-12 20:25:09",
+            "expires": "2023-05-13 20:25:08"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7eebedd288f755aa5a21bf4a970f4749.jpeg"
+        },
+        "dns": {
+            "ptr": "mighty.census.internet-measurement.com"
+        }
+    }
+}

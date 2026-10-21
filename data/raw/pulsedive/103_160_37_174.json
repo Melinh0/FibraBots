@@ -1,0 +1,160 @@
+{
+    "qid": null,
+    "iid": 28771782,
+    "indicator": "103.160.37.174",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-10-14 08:09:24",
+    "stamp_updated": "2024-12-06 10:17:01",
+    "stamp_seen": "2024-04-07 10:25:48",
+    "stamp_probed": "2024-04-07 10:25:48",
+    "stamp_retired": "2024-07-09 11:48:21",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-04-27 15:24:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "LiteSpeed"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "IDNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-JETORBIT"
+            ],
+            "++registrant": "Mahardhika Gilang",
+            "descr": [
+                "Corporate \/ Direct Member IDNIC",
+                "PT Jetorbit Teknologi Indonesia",
+                "Jln Godean KM 4,5. Ruko Godean Permai KAV 3",
+                "Nogotirto, Gamping, Sleman, DI Yogyakarta, Indonesia"
+            ],
+            "++email": "control@jetorbit.com",
+            "tech-c": "MG928-AP",
+            "nic-hdl": "MG928-AP",
+            "person": "Mahardhika Gilang",
+            "auth": "mnt-by: MAINT-ID-JETORBIT",
+            "last-modified": [
+                "2020-12-11T08:06:38Z",
+                "2020-12-11T07:26:03Z",
+                "2020-12-14T01:53:44Z",
+                "2022-09-22T03:28:19Z",
+                "2022-09-22T03:28:42Z"
+            ],
+            "fax-no": "+62-274-5011458",
+            "++abuse": "abuse@jetorbit.com",
+            "netname": "IDNIC-JETORBIT-ID",
+            "address": [
+                "Jln Godean KM 4,5. Ruko Godean Permai KAV 3",
+                "Nogotirto, Gamping, Sleman, DI Yogyakarta, Indonesia"
+            ],
+            "irt": "IRT-JETORBIT-ID",
+            "phone": "+62-274-5011458",
+            "mnt-lower": "MAINT-ID-JETORBIT",
+            "inetnum": "103.160.37.0 - 103.160.37.255",
+            "++phone": "+62-274-5011458",
+            "abuse-mailbox": "abuse@jetorbit.com",
+            "admin-c": "MG928-AP",
+            "mnt-routes": "MAINT-ID-JETORBIT",
+            "mnt-irt": "IRT-JETORBIT-ID",
+            "e-mail": "control@jetorbit.com",
+            "++updated": "2022-09-22 00:00:00"
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "lat": "-6.1728",
+            "long": "106.8272",
+            "isp": "PT Jetorbit Teknologi Indonesia",
+            "org": "PT Jetorbit Teknologi Indonesia",
+            "asn": "AS141584",
+            "address": [
+                "Jln Godean KM 4,5. Ruko Godean Permai KAV 3",
+                "Nogotirto, Gamping, Sleman, DI Yogyakarta, Indonesia"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "LiteSpeed",
+            "connection": "Keep-Alive",
+            "content-length": "38",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 03 Aug 2023 05:48:27 GMT",
+            "etag": "\"26-64cb3fab-4111a;;;\"",
+            "date": "Sun, 07 Apr 2024 10:22:02 GMT"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN] Dovecot DA ready.\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 17:22. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "25": "220 quasar.jetorbit.net ESMTP Exim 4.94.2 Sun, 07 Apr 2024 17:22:01 +0700\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/bcb82a470378e72bce55b48599930d47.jpeg"
+        },
+        "dns": {
+            "ptr": "quasar.jetorbit.net"
+        }
+    }
+}

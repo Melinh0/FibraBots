@@ -1,0 +1,107 @@
+{
+    "qid": null,
+    "iid": 60955907,
+    "indicator": "194.31.64.62",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-06 17:12:10",
+    "stamp_updated": "2024-12-09 10:34:41",
+    "stamp_seen": "2024-11-18 13:52:59",
+    "stamp_probed": "2024-09-13 06:45:57",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60956655,
+                "indicator": "http:\/\/194.31.64.62\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-06 17:12:10"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-11 05:41:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Turkey",
+            "countrycode": "TR",
+            "lat": "41.0214",
+            "long": "28.9948",
+            "asn": "AS212598",
+            "isp": "SFCTEK Bilisim Yazilim ve Telekomunikasyon Hiz. San. ve Tic. LTD. STI.",
+            "org": "SFCTEK Bilisim Yazilim ve Telekomunikasyon Hiz. San. ve Tic. LTD. STI."
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked",
+            "++code": "404",
+            "++status": "Not Found",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "date": "Thu, 05 Sep 2024 06:58:50 GMT"
+        },
+        "dns": {
+            "ptr": "sunucu.al"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6109cce35473a7168dcfe860ed40bb28.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

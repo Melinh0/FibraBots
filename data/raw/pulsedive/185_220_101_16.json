@@ -1,0 +1,239 @@
+{
+    "qid": null,
+    "iid": 268663,
+    "indicator": "185.220.101.16",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2017-12-22 18:03:04",
+    "stamp_updated": "2024-12-16 16:58:15",
+    "stamp_seen": "2024-12-16 11:16:45",
+    "stamp_probed": "2024-08-28 03:28:28",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 4,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64148948,
+                "indicator": "https:\/\/185.220.101.16\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-10-15 01:04:47"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-21 18:05:49"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 02:15:59"
+        },
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:55:07"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-21 18:05:49"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 07:27:57"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-10-15 01:04:47"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 542990,
+            "username": "euphoricfall",
+            "title": "Cofounder",
+            "comment": "https:\/\/blog.talosintelligence.com\/2022\/08\/recent-cyber-attack.html?m=1",
+            "stamp_added": "2022-08-10 23:57:44",
+            "stamp_updated": "2022-08-10 23:57:44"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "443",
+            "80",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-by": [
+                "ZWIEBELFREUNDE",
+                "ARTIKEL10-MNT",
+                "adietrich",
+                "lir-de-renewablefreedom-1-MNT"
+            ],
+            "origin": "AS60729",
+            "route": "185.220.101.0\/24",
+            "mnt-ref": [
+                "ZWIEBELFREUNDE",
+                "ARTIKEL10-MNT"
+            ],
+            "address": [
+                "Germany",
+                "Rueckertstrasse 41",
+                "22089 Hamburg",
+                "Artikel10 e.V."
+            ],
+            "last-modified": [
+                "2019-09-19T19:13:45Z",
+                "2021-08-20T19:50:12Z",
+                "2022-12-01T17:00:41Z",
+                "2024-02-12T10:24:45Z"
+            ],
+            "abuse-c": "AE5603-RIPE",
+            "nic-hdl": "AD15369-RIPE",
+            "tech-c": "AD15369-RIPE",
+            "person": "Alexander Dietrich",
+            "++registrant": [
+                "AD15369-RIPE",
+                "Alexander Dietrich"
+            ],
+            "netname": "ARTIKEL10",
+            "org": "ORG-AE101-RIPE",
+            "organisation": "ORG-AE101-RIPE",
+            "phone": "+49 40 59452356",
+            "created": [
+                "2019-09-08T14:26:42Z",
+                "2019-09-07T21:42:29Z",
+                "2021-08-19T08:09:49Z",
+                "2022-01-22T11:20:57Z"
+            ],
+            "org-name": "Artikel10 e.V.",
+            "admin-c": "AD15369-RIPE",
+            "inetnum": "185.220.101.0 - 185.220.101.31",
+            "++updated": [
+                "2024-02-12 10:24:45",
+                "2022-12-01 17:00:41",
+                "2019-09-19 19:13:45"
+            ],
+            "++registered": [
+                "2022-01-22 11:20:57",
+                "2021-08-19 08:09:49",
+                "2019-09-08 14:26:42",
+                "2019-09-07 21:42:29"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Brandenburg",
+            "city": "Brandenburg",
+            "asn": "AS60729",
+            "lat": "52.6171",
+            "long": "13.1207",
+            "org": "Stiftung Erneuerbare Freiheit"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "etag": "W\/\"6241e78f-264\"",
+            "last-modified": "Mon, 28 Mar 2022 16:51:27 GMT",
+            "++redirect": "https:\/\/185.220.101.16\/",
+            "++target": "http:\/\/185.220.101.16\/",
+            "date": "Tue, 29 Oct 2024 07:56:59 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/CN=default",
+            "subject": "\/CN=default",
+            "org": "default",
+            "valid": "2022-03-28 16:51:41",
+            "expires": "2032-03-25 16:51:41",
+            "fingerprint": "4157de175aed179f953c77ffd223886ca95f378b42f44ed39bff8149840918d6"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "dns": {
+            "ptr": "berlin01.tor-exit.artikel10.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

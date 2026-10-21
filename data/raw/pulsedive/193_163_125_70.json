@@ -1,0 +1,164 @@
+{
+    "qid": null,
+    "iid": 31454523,
+    "indicator": "193.163.125.70",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-01-29 21:26:59",
+    "stamp_updated": "2024-11-19 00:12:28",
+    "stamp_seen": "2024-11-19 00:12:28",
+    "stamp_probed": "2023-12-29 08:14:29",
+    "stamp_retired": "2022-08-19 00:29:39",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-15 04:34:24"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 506501,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 02:28:03",
+            "stamp_updated": "2022-05-18 02:28:03"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "GB",
+            "address": [
+                "UNITED KINGDOM",
+                "London",
+                "Unit 72465, PO Box 6945",
+                "W1A 6US"
+            ],
+            "status": "LIR-PARTITIONED PA",
+            "++registered": "2021-05-28 00:00:00",
+            "++updated": "2021-05-30 00:00:00",
+            "tech-c": "CH13035-RIPE",
+            "inetnum": "193.163.125.0 - 193.163.125.127",
+            "origin": "AS211298",
+            "++phone": "+442037450350",
+            "created": [
+                "2021-05-28T13:43:42Z",
+                "2021-05-28T13:33:56Z",
+                "2021-05-21T17:59:25Z"
+            ],
+            "abuse-mailbox": "network-abuse@cyber.casa",
+            "abuse-c": "CH13035-RIPE",
+            "last-modified": [
+                "2021-05-28T13:44:24Z",
+                "2021-05-30T09:40:54Z",
+                "2021-05-28T13:40:22Z"
+            ],
+            "admin-c": "CH13035-RIPE",
+            "++email": "network-abuse@cyber.casa",
+            "role": "cyber.casa hostmaster",
+            "phone": "+442037450350",
+            "mnt-by": "CYBER-CASA-MNT",
+            "++registrant": "CH13035-RIPE",
+            "++abuse": "CH13035-RIPE",
+            "nic-hdl": "CH13035-RIPE",
+            "route": "193.163.125.0\/24",
+            "netname": "CYBER-CASA-IPV4-RESEARCH-A"
+        },
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "cf-ray": "8d15dc591f3c56b7-OSL",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=5qWEMHK76ooxMPeRi10Y0WZ2ZBBRp9Ypew3v0SQqEzHmRiDLV6UBf9spopK0BOdcDtJnMK4n5cylc0HJmIaseqVsWzVAyE2IyFA6HCS07hA6y6c%2Fn%2FstSAnZ9FySnXLT4DNrsn0V8ZaC8BI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "++target": "http:\/\/193.163.125.70\/",
+            "date": "Sat, 12 Oct 2024 08:53:39 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "impressive.census.internet-measurement.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

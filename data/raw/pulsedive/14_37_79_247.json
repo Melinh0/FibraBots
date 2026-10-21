@@ -1,0 +1,208 @@
+{
+    "qid": null,
+    "iid": 64817407,
+    "indicator": "14.37.79.247",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-09 08:56:18",
+    "stamp_updated": "2024-12-17 11:33:13",
+    "stamp_seen": "2024-11-09 08:57:21",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64817774,
+                "indicator": "https:\/\/14.37.79.247\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-09 08:56:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "14.32.0.0 - 14.95.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-03-30T06:39:01Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Bupyeong-gu",
+            "region": "Incheon",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "long": "126.7219",
+            "lat": "37.5087",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "transfer-encoding": "chunked",
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "++content-type": "text\/html",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "set-cookie": "csrftok=oiCgJHljcqXIvBeGIgyrQuMvWBICLQAkkZnjlnuCRVvmLxdoq73EaVbX-uRpq4PJ; path=\/; HttpOnly; SameSite=Strict;",
+            "++redirect": "https:\/\/14.37.79.247\/",
+            "location": "http:\/\/14.37.79.247\/",
+            "++target": "http:\/\/14.37.79.247\/",
+            "date": "Sat, 09 Nov 2024 08:57:02 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "nwa5123-ac_B8ECA3F64A03",
+            "fingerprint": "255502bda552b3f00043b7bf6465b3565400b4db484e1451a1da369c1407ddc6",
+            "expires": "2028-01-13 12:00:17",
+            "valid": "2018-01-15 12:00:17",
+            "issuer": "\/CN=nwa5123-ac_B8ECA3F64A03",
+            "email": "nwa5123-ac_B8ECA3F64A03",
+            "subject": "\/CN=nwa5123-ac_B8ECA3F64A03"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8",
+            "++title": "NWA5123-AC"
+        },
+        "banners": {
+            "22": "SSH-2.0-Zyxel SSH server\n",
+            "21": "220-\n220-You are user number 1 of 5 allowed.\n220-Local time is now 08:56. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 600 minutes of inactivity.\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3cab82b235f59f8bb6e1bd65650f3a03.jpeg"
+        },
+        "cookies": {
+            "csrftok": "oiCgJHljcqXIvBeGIgyrQuMvWBICLQAkkZnjlnuCRVvmLxdoq73EaVbX-uRpq4PJ"
+        }
+    }
+}

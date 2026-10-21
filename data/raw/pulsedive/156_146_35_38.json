@@ -1,0 +1,142 @@
+{
+    "qid": null,
+    "iid": 16212157,
+    "indicator": "156.146.35.38",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2020-10-14 22:45:55",
+    "stamp_updated": "2024-12-14 11:26:34",
+    "stamp_seen": "2024-05-26 07:14:40",
+    "stamp_probed": "2024-05-26 07:14:40",
+    "stamp_retired": "2024-08-28 16:17:30",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-10-14 22:45:55"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-22 09:35:42"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-10-14 22:45:55"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "JP",
+            "admin-c": [
+                "JP4750-RIPE",
+                "DLTS1-RIPE"
+            ],
+            "tech-c": [
+                "JP4750-RIPE",
+                "DLTS1-RIPE"
+            ],
+            "mnt-by": "DATACAMP-MNT",
+            "origin": "AS60068",
+            "address": [
+                "London",
+                "207 Regent Street",
+                "DataCamp Limited",
+                "United Kingdom"
+            ],
+            "role": "Datacamp Ltd. technical staff",
+            "nic-hdl": "DLTS1-RIPE",
+            "created": [
+                "2014-06-23T09:09:30Z",
+                "2020-05-13T14:26:07Z",
+                "2020-05-13T14:26:49Z"
+            ],
+            "++registrant": [
+                "DLTS1-RIPE",
+                "JP4750-RIPE"
+            ],
+            "descr": "CDN77 Tokyo",
+            "netname": "CDN77_TYO-EQ8",
+            "++registered": "2020-05-13 00:00:00",
+            "last-modified": [
+                "2020-05-13T14:26:07Z",
+                "2020-05-13T14:26:49Z",
+                "2021-03-19T13:12:55Z"
+            ],
+            "route": "156.146.34.0\/23",
+            "inetnum": "156.146.34.0 - 156.146.35.255",
+            "++updated": "2021-03-19 00:00:00",
+            "abuse-mailbox": "abuse@datacamp.co.uk",
+            "++email": "abuse@datacamp.co.uk",
+            "++abuse": "abuse@datacamp.co.uk"
+        },
+        "geo": {
+            "zip": "102-0082",
+            "country": "Japan",
+            "countrycode": "JP",
+            "region": "Tokyo",
+            "city": "Tokyo",
+            "asn": "AS60068",
+            "isp": "Datacamp Limited",
+            "org": "Datacamp Limited",
+            "lat": "35.6893",
+            "long": "139.6899"
+        },
+        "dns": {
+            "ptr": "unn-156-146-35-38.cdn77.com"
+        }
+    }
+}

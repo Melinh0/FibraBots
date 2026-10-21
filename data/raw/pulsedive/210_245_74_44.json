@@ -1,0 +1,218 @@
+{
+    "qid": null,
+    "iid": 46592017,
+    "indicator": "210.245.74.44",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-04-18 02:01:16",
+    "stamp_updated": "2024-12-17 11:36:43",
+    "stamp_seen": "2024-12-15 07:42:44",
+    "stamp_probed": "2024-08-28 22:52:24",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63862397,
+                "indicator": "https:\/\/210.245.74.44\/weblogin.htm"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-18 02:01:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "PPTP",
+            "SSH"
+        ],
+        "technology": [
+            "mini_httpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS18403",
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "lat": "20.4833",
+            "long": "105.9333",
+            "address": [
+                "Ha Noi, VietNam",
+                "FPT Telecom",
+                "FPT-VN"
+            ],
+            "org": "FPT Telecom Company",
+            "region": "H\ufffd Nam Province"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-FPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "origin": "AS18403",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "NOC21-AP"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "address": [
+                "FPT Telecom",
+                "Ha Noi, VietNam",
+                "FPT-VN"
+            ],
+            "descr": [
+                "2nd floor FPT Building, Pham Hung Road, Cau Giay District, Hanoi",
+                "FPT Telecom Company",
+                "Vietnam Internet Network Information Center (VNNIC)"
+            ],
+            "netname": "FPT-STATICIP-NET",
+            "person": [
+                "Network Operation Center",
+                "Luong Duy Phuong"
+            ],
+            "admin-c": [
+                "LDP12-AP",
+                "NTTT1-AP"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-28-73093388",
+                "+84-28-73002222"
+            ],
+            "abuse-mailbox": [
+                "hm-changed@vnnic.vn",
+                "abuse@fpt.net"
+            ],
+            "fax-no": [
+                "+84-24-37821462",
+                "+84-28-73008889"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "phuongld@fpt.com",
+                "ftel.noc.net@fpt.com"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2022-01-17T02:10:55Z",
+                "2019-08-01T06:49:55Z",
+                "2023-10-16T02:13:55Z",
+                "2023-10-16T01:44:54Z"
+            ],
+            "nic-hdl": [
+                "NOC21-AP",
+                "LDP12-AP"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-28-73093388",
+                "+84-28-73002222"
+            ],
+            "inetnum": "210.245.64.0 - 210.245.79.255",
+            "++abuse": [
+                "hm-changed@vnnic.vn",
+                "abuse@fpt.net"
+            ],
+            "++registrant": [
+                "NTTT1-AP",
+                "LDP12-AP",
+                "Network Operation Center",
+                "Luong Duy Phuong"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com",
+                "phuongld@fpt.com",
+                "abuse@fpt.net"
+            ],
+            "route": "210.245.74.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2023-10-16 02:13:55",
+                "2023-10-16 01:44:54",
+                "2022-01-17 02:10:55",
+                "2019-08-01 06:49:55"
+            ]
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "content-length": "11939",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "++target": "https:\/\/210.245.74.44\/",
+            "++redirect": "https:\/\/210.245.74.44\/weblogin.htm"
+        },
+        "ssl": {
+            "issuer": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "subject": "\/C=TW\/ST=HsinChu\/L=HuKou\/O=DrayTek Corp.\/OU=DrayTek Support\/CN=Vigor Router",
+            "version": "v3",
+            "org": "Vigor Router",
+            "++subject": "DrayTek Corp.",
+            "expires": "2049-05-14 17:46:33",
+            "fingerprint": "139661b928fff0de7a3edec70baebdf3cf0f971ae883ddcbcec0e454c6af2dca",
+            "valid": "2019-05-15 17:46:33"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "Vigor Login Page"
+        },
+        "banners": {
+            "1723": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1c7b0b23a3ad2bbac142d24a07b26255.jpeg"
+        }
+    }
+}

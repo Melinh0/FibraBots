@@ -1,0 +1,154 @@
+{
+    "qid": null,
+    "iid": 48310797,
+    "indicator": "185.213.49.15",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-06-17 00:44:30",
+    "stamp_updated": "2024-12-11 10:41:48",
+    "stamp_seen": "2024-11-23 16:59:20",
+    "stamp_probed": "2024-09-30 06:55:40",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 48311094,
+                "indicator": "http:\/\/185.213.49.15\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-17 00:44:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "21",
+            "22",
+            "23",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "PPTP",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "ES",
+            "mnt-by": [
+                "MNT-emartinez",
+                "emartinez"
+            ],
+            "nic-hdl": "RRR45-RIPE",
+            "origin": "AS50564",
+            "person": "Ruben Rodriguez Rey",
+            "phone": "+34 696 80 34 25",
+            "admin-c": "RRR45-RIPE",
+            "last-modified": [
+                "2017-01-13T08:33:12Z",
+                "2017-07-18T07:43:31Z",
+                "2020-03-26T12:11:14Z"
+            ],
+            "tech-c": "RRR45-RIPE",
+            "created": [
+                "2016-02-04T08:29:28Z",
+                "2017-07-18T07:43:31Z",
+                "2020-03-26T12:11:14Z"
+            ],
+            "route": "185.213.49.0\/24",
+            "++registrant": [
+                "RRR45-RIPE",
+                "Ruben Rodriguez Rey"
+            ],
+            "address": "Pol\ufffdgono Industrial de La Palma, Calle D\ufffdtil, 1, 30593 La Palma, Murcia",
+            "++registered": [
+                "2016-02-04 08:29:28",
+                "2020-03-26 12:11:14",
+                "2017-07-18 07:43:31"
+            ],
+            "++updated": [
+                "2017-01-13 08:33:12",
+                "2020-03-26 12:11:14",
+                "2017-07-18 07:43:31"
+            ],
+            "netname": "Electronica_Martinez",
+            "inetnum": "185.213.48.0 - 185.213.49.255"
+        },
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "region": "Murcia",
+            "asn": "AS50564",
+            "city": "Cartagena",
+            "org": "Cartago Telecom S. L.",
+            "long": "-0.8107",
+            "lat": "37.6006"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "connection": "Keep-Alive",
+            "content-length": "7062",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "++target": "http:\/\/185.213.49.15\/",
+            "date": "Sat, 12 Oct 2024 14:28:23 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "RouterOS router configuration page"
+        },
+        "banners": {
+            "22": "SSH-2.0-ROSSSH\n",
+            "21": "220 HS-Parque Marino FTP server (MikroTik 6.48) ready\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "15.49.213.185.dynamic.electronicamartinez.es"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/43cace5e1eec72c43595c5f5732f52c3.jpeg"
+        }
+    }
+}

@@ -1,0 +1,200 @@
+{
+    "qid": null,
+    "iid": 29915471,
+    "indicator": "46.105.132.34",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-11-28 02:42:49",
+    "stamp_updated": "2024-12-15 07:48:20",
+    "stamp_seen": "2024-12-15 07:48:20",
+    "stamp_probed": "2024-08-14 21:18:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 24588708,
+                "indicator": "http:\/\/abuse.intrinsec.com\/"
+            },
+            {
+                "iid": 24588689,
+                "indicator": "https:\/\/abuse.intrinsec.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-28 02:42:49"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 517109,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 10:20:37",
+            "stamp_updated": "2022-05-18 10:20:37"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "++abuse": "abuse@ovh.net",
+            "abuse-mailbox": "abuse@ovh.net",
+            "address": [
+                "France",
+                "FR",
+                "59100 Roubaix",
+                "2 rue Kellermann",
+                "OVH SAS",
+                "92400 Courbevoie",
+                "Tour CBX - 1, Passerelle des Reflets"
+            ],
+            "admin-c": [
+                "OK217-RIPE",
+                "OTC2-RIPE"
+            ],
+            "country": "FR",
+            "descr": [
+                "Paris, France",
+                "OVH ISP",
+                "Failover Ips"
+            ],
+            "mnt-by": "OVH-MNT",
+            "origin": "AS16276",
+            "role": "OVH Technical Contact",
+            "tech-c": [
+                "SL10162-RIPE",
+                "GM84-RIPE",
+                "OTC2-RIPE"
+            ],
+            "org-type": "OTHER",
+            "mnt-ref": "OVH-MNT",
+            "nic-hdl": "OTC2-RIPE",
+            "created": [
+                "2011-01-06T17:04:52Z",
+                "2004-01-28T17:42:29Z",
+                "2017-06-15T08:41:11Z",
+                "2019-10-10T17:38:26Z"
+            ],
+            "last-modified": [
+                "2011-01-06T17:04:52Z",
+                "2014-09-05T10:47:15Z",
+                "2020-05-26T09:05:15Z",
+                "2019-10-10T17:38:26Z"
+            ],
+            "route": "46.105.0.0\/16",
+            "org": "ORG-CG192-RIPE",
+            "organisation": "ORG-CG192-RIPE",
+            "++phone": "+33.141917777",
+            "phone": "+33.141917777",
+            "++email": "abuse@ovh.net",
+            "++registrant": [
+                "OTC2-RIPE",
+                "OK217-RIPE"
+            ],
+            "org-name": "abuse.intrinsec.com Site Abuse",
+            "abuse-c": "ACRO33072-RIPE",
+            "netname": "OVH_242361665",
+            "inetnum": "46.105.132.32 - 46.105.132.63",
+            "++registered": [
+                "2004-01-28 17:42:29",
+                "2019-10-10 17:38:26",
+                "2017-06-15 08:41:11",
+                "2011-01-06 17:04:52"
+            ],
+            "++updated": [
+                "2014-09-05 10:47:15",
+                "2020-05-26 09:05:15",
+                "2011-01-06 17:04:52"
+            ]
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "content-length": "61",
+            "++status": "Moved Permanently",
+            "++code": "301",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "location": "http:\/\/abuse.intrinsec.com",
+            "++redirect": "https:\/\/abuse.intrinsec.com\/",
+            "++target": "http:\/\/46.105.132.34\/",
+            "date": "Tue, 22 Oct 2024 18:31:59 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "charset": "utf-8",
+            "++title": "Intrinsec - IP Scan"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=*.intrinsec.com",
+            "domain": [
+                "*.intrinsec.com",
+                "intrinsec.com"
+            ],
+            "issuer": "\/C=FR\/O=Gandi\/CN=Gandi RSA Domain Validation Secure Server CA 3",
+            "org": "Gandi RSA Domain Validation Secure Server CA 3",
+            "expires": "2025-04-14 23:59:59",
+            "valid": "2024-04-09 00:00:00",
+            "fingerprint": "b6ad238e1d9d5e435ba865e1ffabe03d4fb9069bf0cc277b04979a1722e9a6e0"
+        },
+        "dns": {
+            "ptr": "scan051.intrinsec.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/6624ef1e53ebbe18396de8a36bc06a2b.jpeg"
+        }
+    }
+}

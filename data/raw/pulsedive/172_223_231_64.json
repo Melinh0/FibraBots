@@ -1,0 +1,224 @@
+{
+    "qid": null,
+    "iid": 42467163,
+    "indicator": "172.223.231.64",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-12-19 13:15:20",
+    "stamp_updated": "2024-12-15 07:32:45",
+    "stamp_seen": "2024-12-15 07:32:44",
+    "stamp_probed": "2024-09-30 05:52:12",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 42467382,
+                "indicator": "http:\/\/172.223.231.64\/"
+            },
+            {
+                "iid": 42467420,
+                "indicator": "http:\/\/172.223.231.64\/doc\/page\/login.asp"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-19 18:38:23"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-12-19 13:15:20"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-19 18:38:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-15 00:21:14"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "554",
+            "80",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RTSP"
+        ],
+        "technology": [
+            "AngularJS",
+            "crypto-js",
+            "jQuery",
+            "Microsoft ASP.NET"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reallocated"
+            ],
+            "orgabusename": "Abuse",
+            "parent": [
+                "NET172 (NET-172-0-0-0-0)",
+                "BHN-11 (NET-172-220-0-0-1)"
+            ],
+            "orgtechname": "IPAddressing",
+            "stateprov": "CO",
+            "++registrant": [
+                "Charter Communications",
+                "Charter Communications, Inc"
+            ],
+            "orgabuseemail": "abuse@charter.net",
+            "orgabusehandle": "ABUSE19-ARIN",
+            "organization": [
+                "Charter Communications (CC04)",
+                "Charter Communications, Inc (CC-3518)"
+            ],
+            "orgid": [
+                "CC04",
+                "CC-3518"
+            ],
+            "orgname": [
+                "Charter Communications",
+                "Charter Communications, Inc"
+            ],
+            "orgtechhandle": "IPADD1-ARIN",
+            "originas": "AS33363",
+            "updated": [
+                "2016-08-01",
+                "2012-06-22",
+                "2022-09-14"
+            ],
+            "city": "Greenwood Village",
+            "postalcode": "80111",
+            "cidr": "172.220.0.0\/14",
+            "nethandle": [
+                "NET-172-220-0-0-2",
+                "NET-172-220-0-0-1"
+            ],
+            "netname": [
+                "CHARTER-NET-BHN2",
+                "BHN-11"
+            ],
+            "netrange": "172.220.0.0 - 172.223.255.255",
+            "regdate": [
+                "2016-08-01",
+                "2012-06-22",
+                "2018-10-10"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADD1-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC04",
+                "https:\/\/rdap.arin.net\/registry\/ip\/172.220.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC-3518"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE19-ARIN",
+            "++registered": "2018-10-10 00:00:00",
+            "orgtechemail": "PublicIPAddressing@charter.com",
+            "++email": "PublicIPAddressing@charter.com",
+            "orgabusephone": "+1-877-777-2263",
+            "address": "6175 S. Willow Dr",
+            "orgtechphone": "+1-866-248-7662",
+            "++abuse": "+1-877-777-2263",
+            "++phone": "+1-877-777-2263",
+            "++updated": "2022-09-14 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS20115",
+            "region": "Washington",
+            "city": "Yakima",
+            "lat": "46.6165",
+            "long": "-120.7094",
+            "org": "CHARTER-20115"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "2954",
+            "server": "web",
+            "++code": "200",
+            "++status": "OK",
+            "keep-alive": "timeout=60, max=98",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 02 Sep 2020 12:17:42 GMT",
+            "etag": "\"0-1559-b8a\"",
+            "++target": "http:\/\/172.223.231.64\/",
+            "date": "Thu, 24 Oct 2024 17:58:32 GMT",
+            "++redirect": "http:\/\/172.223.231.64\/doc\/page\/login.asp?_1730012882433"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "x-ua-compatible": "IE=edge",
+            "pragma": "no-cache",
+            "format-detection": "telephone=no",
+            "cache-control": "no-cache, must-revalidate",
+            "++title": "Login",
+            "expires": "0"
+        },
+        "cookies": {
+            "language": "en",
+            "updatetips": "true"
+        },
+        "dns": {
+            "ptr": "syn-172-223-231-064.res.spectrum.com"
+        },
+        "banners": {
+            "554": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/24fbd7d50be9b2291bcf30542fd94134.jpeg"
+        }
+    }
+}

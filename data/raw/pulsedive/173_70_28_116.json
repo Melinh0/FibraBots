@@ -1,0 +1,80 @@
+{
+    "qid": null,
+    "iid": 57621420,
+    "indicator": "173.70.28.116",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-03-26 22:45:25",
+    "stamp_updated": "2024-06-30 02:05:43",
+    "stamp_seen": "2024-03-26 22:48:33",
+    "stamp_probed": "2024-03-26 22:48:33",
+    "stamp_retired": "2024-06-30 02:05:43",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-26 22:45:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "region": "New Jersey",
+            "asn": "AS701",
+            "city": "Montclair",
+            "zip": "07042",
+            "lat": "40.8125",
+            "country": "United States of America",
+            "long": "-74.2134",
+            "org": "UUNET",
+            "isp": "UUNET"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n"
+        },
+        "dns": {
+            "ptr": "pool-173-70-28-116.nwrknj.fios.verizon.net"
+        }
+    }
+}

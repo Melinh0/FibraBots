@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 56325442,
+    "indicator": "103.159.239.202",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-21 01:29:52",
+    "stamp_updated": "2024-12-11 10:37:08",
+    "stamp_seen": "2024-10-07 18:21:26",
+    "stamp_probed": "2024-08-29 22:32:17",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 56325475,
+                "indicator": "http:\/\/103.159.239.202\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-21 01:29:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": "IN",
+            "origin": [
+                "AS45528",
+                "AS133007",
+                "AS141294"
+            ],
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-M21IDC"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "descr": [
+                "Route Object",
+                "M21 Data Center"
+            ],
+            "role": "IP Admin",
+            "++registrant": [
+                "IA337-AP",
+                "SS3992-AP"
+            ],
+            "netname": "M21IDC",
+            "++abuse": "abuse@m21.co.in",
+            "admin-c": [
+                "IA337-AP",
+                "SS3992-AP"
+            ],
+            "irt": "IRT-M21IDC-IN",
+            "nic-hdl": "IA337-AP",
+            "mnt-routes": "MAINT-IN-M21IDC",
+            "++email": [
+                "ipadmin@m21.co.in",
+                "abuse@m21.co.in"
+            ],
+            "mnt-irt": "IRT-M21IDC-IN",
+            "e-mail": "ipadmin@m21.co.in",
+            "route": "103.159.239.0\/24",
+            "phone": "+91 7122980844",
+            "address": "Plot No 2 New Dnyaneshwar Nagar Manewada Road,Nagpur,Maharashtra-440027",
+            "tech-c": [
+                "IA337-AP",
+                "SS3992-AP"
+            ],
+            "abuse-mailbox": "abuse@m21.co.in",
+            "inetnum": "103.159.239.0 - 103.159.239.255",
+            "last-modified": [
+                "2020-12-09T11:22:24Z",
+                "2020-12-09T11:16:54Z",
+                "2020-12-09T11:21:26Z",
+                "2020-12-14T05:08:32Z",
+                "2023-01-16T08:49:01Z",
+                "2023-09-22T07:59:15Z"
+            ],
+            "notify": "info@m21.co.in",
+            "auth": "# Filtered",
+            "++updated": [
+                "2020-12-09 11:22:24",
+                "2020-12-09 11:16:54",
+                "2020-12-09 11:21:26",
+                "2023-01-16 08:49:01",
+                "2020-12-14 05:08:32",
+                "2023-09-22 07:59:15"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "org": "M21 Data Center",
+            "asn": "AS141294",
+            "address": "Plot No 2 New Dnyaneshwar Nagar Manewada Road,Nagpur,Maharashtra-440027",
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "content-length": "1656",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 11 Jan 2024 09:03:03 GMT",
+            "etag": "\"678-60ea7d0a3ffc0\"",
+            "date": "Tue, 01 Oct 2024 19:35:13 GMT",
+            "++target": "http:\/\/103.159.239.202\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "++title": "Web Server's Default Page",
+            "charset": "utf-8",
+            "copyright": "Copyright 1999-2024. WebPros International GmbH. All rights reserved."
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "21": "220 ProFTPD Server (ProFTPD) [103.159.239.202]\n",
+            "25": "220 ns1.gyrowebtech.in ESMTP Postfix\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "ns1.gyrowebtech.in"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/04beeca2d307342074fbabe5897d660c.jpeg"
+        }
+    }
+}

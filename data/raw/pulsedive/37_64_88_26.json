@@ -1,0 +1,234 @@
+{
+    "qid": null,
+    "iid": 57886270,
+    "indicator": "37.64.88.26",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-02 03:31:22",
+    "stamp_updated": "2024-12-15 11:35:01",
+    "stamp_seen": "2024-12-15 07:46:42",
+    "stamp_probed": "2024-09-30 11:59:42",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 57892516,
+                "indicator": "https:\/\/37.64.88.26\/redirect.cgi"
+            },
+            {
+                "iid": 64126857,
+                "indicator": "https:\/\/37.64.88.26\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-02 03:31:22"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-20 10:53:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "France",
+                "Campus SFR",
+                "12 rue Jean-Philippe Rameau",
+                "CS 80001",
+                "93634 La-Plaine-Saint-Denis Cedex",
+                "SFR",
+                "16 rue du General Alain de Boissieu",
+                "CS 68217",
+                "75741 PARIS CEDEX 15",
+                "CAMPUS SFR"
+            ],
+            "country": "FR",
+            "abuse-mailbox": "abuse@gaoland.net",
+            "mnt-by": [
+                "LDCOM-MNT",
+                "SFR-MNT"
+            ],
+            "nic-hdl": [
+                "LDC76-RIPE",
+                "LD699-RIPE"
+            ],
+            "origin": "AS15557",
+            "phone": [
+                "+33 1 70 18 52 00",
+                "+33 1 85 06 00 00"
+            ],
+            "tech-c": [
+                "DG1056-RIPE",
+                "LDC76-RIPE",
+                "HS10001-RIPE"
+            ],
+            "descr": [
+                "SFR",
+                "SFR Infra MAP-T"
+            ],
+            "role": [
+                "SFR Legal Contact",
+                "SFR Tech Contact (formerly Neuf Cegetel \/ LDCOM Networks)"
+            ],
+            "admin-c": [
+                "LD699-RIPE",
+                "LDC76-RIPE",
+                "LM5867-RIPE",
+                "HS10001-RIPE"
+            ],
+            "last-modified": [
+                "2013-06-03T13:43:42Z",
+                "2023-09-18T07:21:21Z",
+                "2023-09-18T07:21:44Z",
+                "2016-04-12T14:42:08Z"
+            ],
+            "route": "37.64.0.0\/13",
+            "created": [
+                "2013-06-03T13:43:42Z",
+                "2003-10-23T09:15:54Z",
+                "2001-12-20T14:34:14Z",
+                "2016-04-12T14:42:08Z"
+            ],
+            "netname": "SFR-INFRA",
+            "++abuse": "abuse@gaoland.net",
+            "++registrant": [
+                "LD699-RIPE",
+                "LDC76-RIPE",
+                "LM5867-RIPE",
+                "HS10001-RIPE"
+            ],
+            "++email": "abuse@gaoland.net",
+            "inetnum": "37.64.88.0 - 37.64.95.255",
+            "++updated": [
+                "2023-09-18 07:21:21",
+                "2023-09-18 07:21:44",
+                "2013-06-03 13:43:42"
+            ],
+            "++registered": [
+                "2003-10-23 09:15:54",
+                "2001-12-20 14:34:14",
+                "2013-06-03 13:43:42",
+                "2016-04-12 14:42:08"
+            ]
+        },
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "asn": "AS15557",
+            "region": [
+                "Seine-Saint-Denis",
+                "\ufffdle-de-France"
+            ],
+            "lat": "48.9067",
+            "long": "2.3339",
+            "city": "Saint-Ouen",
+            "org": "Societe Francaise Du Radiotelephone - SFR SA"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Sun, 15 Sep 2024 06:21:49 GMT",
+            "++redirect": "https:\/\/37.64.88.26\/",
+            "++target": "http:\/\/37.64.88.26\/"
+        },
+        "cookies": {
+            "zy_pc_browser": "1",
+            "arip": "37.64.88.26"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "usg110_5CF4ABFA37AE",
+            "subject": "\/CN=usg110_5CF4ABFA37AE",
+            "valid": "2014-06-06 23:31:07",
+            "expires": "2024-06-03 23:31:07",
+            "issuer": "\/CN=usg110_5CF4ABFA37AE",
+            "fingerprint": "65fafff61241237b85f8aaf4f09e544348f1792a8fbce2f1b7d80de33762d1af",
+            "email": "usg110_5CF4ABFA37AE"
+        },
+        "meta": {
+            "++title": "USG110",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "26.88.64.37.rev.sfr.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/68e72f914afef53eaa16dcd75846c345.jpeg"
+        }
+    }
+}

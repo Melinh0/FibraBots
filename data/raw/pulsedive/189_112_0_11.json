@@ -1,0 +1,175 @@
+{
+    "qid": null,
+    "iid": 32176183,
+    "indicator": "189.112.0.11",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-02-23 01:55:57",
+    "stamp_updated": "2024-12-11 10:42:03",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-08-18 21:40:15",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-06-28 01:38:02"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-02-23 01:55:57"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-11 14:03:27"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-08-03 12:53:04"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-06-28 01:38:02"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-24 09:18:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22"
+        ],
+        "protocol": [
+            "FTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio de Janeiro",
+            "asn": "AS16735",
+            "lat": "-22.9201",
+            "city": "Rio de Janeiro",
+            "long": "-43.0811",
+            "org": "ALGAR TELECOM SA"
+        },
+        "whois": {
+            "responsible": "Diretoria de Planejamento e Tecnologia",
+            "country": "BR",
+            "abuse-c": "CST87",
+            "changed": [
+                "20141114",
+                "20130307",
+                "20240613"
+            ],
+            "created": [
+                "20051208",
+                "20080422",
+                "20060417",
+                "20140820"
+            ],
+            "nic-hdl-br": [
+                "CST87",
+                "ALTSA49",
+                "CNI15"
+            ],
+            "nserver": [
+                "nssar.ctbc.com.br",
+                "nspar.ctbc.com.br"
+            ],
+            "owner": "ALGAR TELECOM S\/A",
+            "owner-c": "ALTSA49",
+            "ownerid": "71.208.516\/0001-74",
+            "person": [
+                "Computer Security Incident Response Team",
+                "ALGAR TELECOM S\/A",
+                "CTBC - N\ufffdcleo de Aministra\ufffd\ufffdo de IPs"
+            ],
+            "aut-num": "AS16735",
+            "inetnum": "189.112.0.0\/16",
+            "tech-c": "CNI15",
+            "e-mail": [
+                "abuse@algartelecom.com.br",
+                "security@algartelecom.com.br",
+                "registrobr@algartelecom.com.br"
+            ],
+            "inetrev": "189.112.0.0\/22",
+            "++registrant": [
+                "ALGAR TELECOM S\/A",
+                "Computer Security Incident Response Team",
+                "CTBC - N\ufffdcleo de Aministra\ufffd\ufffdo de IPs"
+            ],
+            "++email": [
+                "registrobr@algartelecom.com.br",
+                "security@algartelecom.com.br",
+                "abuse@algartelecom.com.br"
+            ],
+            "nsstat": "20241117 AA",
+            "nslastaa": "20241117"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220 (vsFTPd 3.0.2)\n"
+        },
+        "dns": {
+            "ptr": "189-112-000-011.static.ctbctelecom.com.br"
+        }
+    }
+}

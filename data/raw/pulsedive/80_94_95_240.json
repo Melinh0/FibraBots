@@ -1,0 +1,136 @@
+{
+    "qid": null,
+    "iid": 47117412,
+    "indicator": "80.94.95.240",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-05-11 03:12:35",
+    "stamp_updated": "2024-10-08 13:07:23",
+    "stamp_seen": "2024-07-05 12:59:30",
+    "stamp_probed": "2024-07-05 12:59:30",
+    "stamp_retired": "2024-10-08 13:07:23",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-05-11 06:29:25"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-11 03:12:35"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-05-12 08:05:08"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-05-11 06:29:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-05-12 12:22:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "GB",
+            "mnt-by": [
+                "ro-btel2-1-mnt",
+                "UNMANAGED"
+            ],
+            "++phone": "+40752481282",
+            "phone": "+40752481282",
+            "address": [
+                "Timisoara",
+                "Calea Stan Vidrighin 14A",
+                "300571",
+                "ROMANIA"
+            ],
+            "origin": "AS204428",
+            "netname": "UNMANAGED-LTD",
+            "created": [
+                "2022-11-15T14:14:48Z",
+                "2024-01-26T20:28:48Z",
+                "2019-10-08T12:45:16Z"
+            ],
+            "route": "80.94.95.0\/24",
+            "inetnum": "80.94.95.0 - 80.94.95.255",
+            "last-modified": [
+                "2022-11-15T14:14:48Z",
+                "2024-01-26T20:28:48Z",
+                "2019-10-08T12:45:17Z"
+            ],
+            "++updated": "2024-01-26 00:00:00",
+            "++registered": "2024-01-26 00:00:00",
+            "++registrant": "PB22555-RIPE",
+            "tech-c": "PB22555-RIPE",
+            "admin-c": "PB22555-RIPE",
+            "role": "Petru Bunea",
+            "nic-hdl": "PB22555-RIPE"
+        },
+        "geo": {
+            "country": "Romania",
+            "countrycode": "RO",
+            "asn": "AS204428",
+            "isp": "SS-Net",
+            "long": "24.997",
+            "org": "SS-Net",
+            "lat": "45.9968"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

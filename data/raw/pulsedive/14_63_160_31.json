@@ -1,0 +1,220 @@
+{
+    "qid": null,
+    "iid": 53920048,
+    "indicator": "14.63.160.31",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-06 23:21:10",
+    "stamp_updated": "2024-12-10 02:20:47",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 01:51:04",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 53920317,
+                "indicator": "http:\/\/14.63.160.31\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-02-23 14:59:06"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-06 23:21:10"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-02-23 14:59:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-09 00:31:35"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "25",
+            "3306",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "MySQL",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "mod_wsgi",
+            "OpenSSL",
+            "PHP",
+            "Python"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "inetnum": "14.32.0.0 - 14.95.255.255",
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-03-30T06:39:01Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "lat": "37.5112",
+            "long": "126.9741",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "x-powered-by": "PHP\/5.2.16",
+            "content-length": "100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/14.63.160.31\/",
+            "date": "Sat, 12 Oct 2024 13:36:47 GMT"
+        },
+        "banners": {
+            "21": "220 (vsFTPd 2.2.2)\n",
+            "3306": "N\u0000\u0000\u0000\n5.5.28-log\u0000\ufffd\ufffd\ufffd\u0000nb\"}rFFk\u0000\ufffd\ufffd!\u0002\u0000\u000f\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000iM$ha1nYQi=3\u0000mysql_native_password\u0000"
+        },
+        "cookies": {
+            "_trk_ex": "1",
+            "_trk_cr": "http%3A%2F%2F14.63.160.31%2F",
+            "wcs_bt": "s_cdd74216fcf:1713384649",
+            "session_share": "dpvkr8o9g66bh5bktmqiokc9h1",
+            "_fwb": "148fSSuXeYE8POxNGNahbk2.1713384649875",
+            "_trk_sid": "d01ba40c82f84029a2006639a4b1400e",
+            "_trk_asid_111805": "cfaf970f394dccfb652e5f3001de42d5",
+            "_trk_nauida_111805": "d7074570252d92fef47136bf9e501de1#1713384651#1713384651#1",
+            "_trk_auida_111805": "f4dd7eae290b2ebfce3ee1ca7487009d:1",
+            "_bs_guuid": "00f08ec7392ee20e53d187248c364373940bcc01",
+            "_trk_uid": "62097406fb93db6b470d480c3469a34b:1:0:1713384652258"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "meta": {
+            "refresh": "0; url=http:\/\/www.ncloud24.com"
+        }
+    }
+}

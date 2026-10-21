@@ -1,0 +1,147 @@
+{
+    "qid": null,
+    "iid": 62978180,
+    "indicator": "200.24.135.130",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-05 01:46:23",
+    "stamp_updated": "2024-12-10 10:38:30",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": "2024-09-05 01:56:24",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64225638,
+                "indicator": "https:\/\/200.24.135.130\/cliente\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-05 01:46:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-10-03 16:18:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "OpenVPN",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Bootstrap",
+            "DataTables",
+            "Debian",
+            "Google Font API",
+            "jQuery",
+            "jQuery Migrate",
+            "jQuery UI",
+            "Let's Encrypt",
+            "Moment.js"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Guayaquil",
+            "region": "Guayas",
+            "country": "Ecuador",
+            "countrycode": "EC",
+            "asn": "AS52468",
+            "org": "UFINET PANAMA S.A.",
+            "long": "-79.8764",
+            "lat": "-2.1978"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=98",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "2580",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "server": "Apache\/2.4.62 (Debian)",
+            "date": "Mon, 07 Oct 2024 01:23:50 GMT",
+            "set-cookie": "mkwsp6_cliente=kfdb2u4juno7rsqcnuuut6qik6; path=\/; HttpOnly",
+            "++redirect": "https:\/\/200.24.135.130\/cliente\/login",
+            "++target": "http:\/\/200.24.135.130\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "charset": "utf-8",
+            "author": "Mikrowisp",
+            "++title": "Acceso Clientes",
+            "description": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": "vergeles.mikrowisp.pro",
+            "subject": "\/CN=vergeles.mikrowisp.pro",
+            "valid": "2024-09-19 02:06:02",
+            "fingerprint": "373c2a25ee16ff6677eca129e1a6483aae7b969a83b133702be43f364fd7f306",
+            "expires": "2024-12-18 02:06:01"
+        },
+        "dns": {
+            "ptr": "130-135-24-200.ufinetlatam.net.ec"
+        },
+        "banners": {
+            "1194": "\u0005\u0004\u0000\u0000"
+        },
+        "cookies": {
+            "mkwsp6_cliente": "kfdb2u4juno7rsqcnuuut6qik6"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c75a02595a4e35bf99931ecccea68e75.jpeg"
+        }
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "qid": null,
+    "iid": 35293013,
+    "indicator": "47.41.69.130",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-22 11:31:12",
+    "stamp_updated": "2024-12-14 11:31:47",
+    "stamp_seen": "2024-12-14 09:47:52",
+    "stamp_probed": "2024-09-16 11:15:24",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-08-26 12:08:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-05-22 11:31:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "orgtechname": "IPAddressing",
+            "stateprov": "CO",
+            "++abuse": "abuse@charter.net",
+            "++registrant": "Charter Communications",
+            "orgabuseemail": "abuse@charter.net",
+            "orgabusehandle": "ABUSE19-ARIN",
+            "organization": "Charter Communications (CC04)",
+            "orgid": "CC04",
+            "orgname": "Charter Communications",
+            "orgtechhandle": "IPADD1-ARIN",
+            "parent": "NET47 (NET-47-0-0-0-0)",
+            "++registered": "2014-12-23 00:00:00",
+            "nethandle": "NET-47-32-0-0-1",
+            "netname": "CC04",
+            "netrange": "47.32.0.0 - 47.51.255.255",
+            "cidr": "47.32.0.0\/12, 47.48.0.0\/14",
+            "city": "Greenwood Village",
+            "postalcode": "80111",
+            "updated": [
+                "2014-12-23",
+                "2022-09-14"
+            ],
+            "regdate": "2014-12-23",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADD1-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CC04",
+                "https:\/\/rdap.arin.net\/registry\/ip\/47.32.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE19-ARIN",
+            "orgtechemail": "PublicIPAddressing@charter.com",
+            "++phone": "+1-866-248-7662",
+            "orgabusephone": "+1-877-777-2263",
+            "address": "6175 S. Willow Dr",
+            "orgtechphone": "+1-866-248-7662",
+            "++updated": "2022-09-14 00:00:00",
+            "++email": "publicipaddressing@charter.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS20115",
+            "region": [
+                "Minnesota",
+                "CO"
+            ],
+            "city": [
+                "Duluth",
+                "Greenwood Village"
+            ],
+            "zip": "80111",
+            "org": [
+                "Charter Communications (CC04)",
+                "CHARTER-20115"
+            ],
+            "lat": "46.8154",
+            "long": "-92.1952",
+            "address": "6175 S. Willow Dr"
+        },
+        "dns": {
+            "ptr": "syn-047-041-069-130.res.spectrum.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001\u0004\u0005\u0014\u0005h\ufffdb\ufffd\ufffdc\ufffd>\ufffd\ufffdC\ufffd\ufffd\u05ae\u0000\u0000\u0000mcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\thmac-sha1\u0000\u0000\u0000\thmac-sha1\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000)\ufffd\ufffd\ufffd\ufffd"
+        }
+    }
+}

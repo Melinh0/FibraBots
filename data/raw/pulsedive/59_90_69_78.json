@@ -1,0 +1,256 @@
+{
+    "qid": null,
+    "iid": 60570849,
+    "indicator": "59.90.69.78",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-24 16:31:08",
+    "stamp_updated": "2024-12-14 11:32:24",
+    "stamp_seen": "2024-12-11 11:53:49",
+    "stamp_probed": "2024-08-23 01:34:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65829243,
+                "indicator": "https:\/\/59.90.69.78\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-24 16:31:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-27 05:17:32"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "OpenVPN"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Debian"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "IN",
+                "ZZ"
+            ],
+            "origin": "AS9829",
+            "++phone": [
+                "+91-120-2404243",
+                "+000000000",
+                "+91-080-25805800"
+            ],
+            "address": [
+                "BSNL NOC Bangalore",
+                "Barakhamba Road, New Delhi - 110 001",
+                "Noida",
+                "Internet Cell",
+                "Bharat Sanchar Nigam Limited",
+                "8th Floor,148-B Statesman House",
+                "Broadband Networks",
+                "2nd Floor, Telephone Exchange, Sector 62",
+                "Bharat Sanchar Nigam Limited."
+            ],
+            "admin-c": [
+                "NC83-AP",
+                "BH155-AP"
+            ],
+            "e-mail": [
+                "dnwplg@bsnl.in",
+                "abuse1@bsnl.co.in",
+                "hostmaster@bsnl.co.in"
+            ],
+            "fax-no": [
+                "+91-080-25800022",
+                "+91-120-2404241"
+            ],
+            "irt": "IRT-BSNL-IN",
+            "mnt-by": [
+                "MAINT-IN-AS9829",
+                "MAINT-IN-DOT",
+                "MAINT-IN-PER-DOT",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-BSNL-IN",
+            "mnt-lower": "MAINT-IN-DOT",
+            "mnt-routes": "MAINT-IN-DOT",
+            "netname": "BB-Multiplay",
+            "nic-hdl": [
+                "DB374-AP",
+                "BH155-AP",
+                "AB1061-AP"
+            ],
+            "person": [
+                "DGM Broadband",
+                "BSNL Hostmaster"
+            ],
+            "phone": [
+                "+91-080-25805800",
+                "+91-120-2404243",
+                "+000000000"
+            ],
+            "tech-c": [
+                "CGMD1-AP",
+                "DB374-AP"
+            ],
+            "inetnum": "59.90.64.0 - 59.90.127.255",
+            "last-modified": [
+                "2008-09-04T07:54:56Z",
+                "2011-02-19T10:03:44Z",
+                "2021-07-15T07:16:31Z",
+                "2021-12-08T10:52:18Z",
+                "2024-06-19T07:44:24Z",
+                "2024-06-19T07:45:19Z"
+            ],
+            "descr": [
+                "BSNLIndia",
+                "O\/o DGM BB, NOC BSNL Bangalore"
+            ],
+            "++registrant": [
+                "BH155-AP",
+                "NC83-AP",
+                "BSNL Hostmaster",
+                "DGM Broadband"
+            ],
+            "++email": [
+                "dnwplg@bsnl.in",
+                "abuse1@bsnl.co.in",
+                "hostmaster@bsnl.co.in"
+            ],
+            "role": "ABUSE BSNLIN",
+            "abuse-c": "AB1061-AP",
+            "abuse-mailbox": "abuse1@bsnl.co.in",
+            "++abuse": "abuse1@bsnl.co.in",
+            "route": "59.90.69.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-06-19 07:44:24",
+                "2024-06-19 07:45:19",
+                "2021-12-08 10:52:18",
+                "2011-02-19 10:03:44",
+                "2008-09-04 07:54:56"
+            ]
+        },
+        "geo": {
+            "country": [
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "IN",
+                "ZZ"
+            ],
+            "asn": "AS9829",
+            "org": "National Internet Backbone",
+            "address": [
+                "Internet Cell",
+                "Bharat Sanchar Nigam Limited",
+                "8th Floor,148-B Statesman House",
+                "Barakhamba Road, New Delhi - 110 001",
+                "Broadband Networks",
+                "2nd Floor, Telephone Exchange, Sector 62",
+                "Noida",
+                "BSNL NOC Bangalore",
+                "Bharat Sanchar Nigam Limited."
+            ],
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.10 (Debian)",
+            "content-encoding": "gzip",
+            "content-length": "334",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Fri, 18 Oct 2024 02:50:14 GMT",
+            "++target": "https:\/\/59.90.69.78\/"
+        },
+        "ssl": {
+            "issuer": "\/CN=vpnbox",
+            "subject": "\/CN=vpnbox",
+            "version": "v3",
+            "valid": "2015-10-07 10:28:54",
+            "org": "vpnbox",
+            "fingerprint": "2f72e7aaf88cceca99cec42041febae6b85bfb6559621484f4e39b95ac8c97f2",
+            "expires": "2025-10-04 10:28:54"
+        },
+        "meta": {
+            "charset": "utf-8",
+            "++title": "SENECA VPN Box"
+        },
+        "dns": {
+            "ptr": "static.jullandar.bb.59.90.69.78.bsnl.in"
+        },
+        "banners": {
+            "1194": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b061a5dce4a27ea78925c1b175cbc3a8.jpeg"
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "qid": null,
+    "iid": 64615809,
+    "indicator": "88.157.223.242",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-01 08:44:40",
+    "stamp_updated": "2024-12-17 11:40:36",
+    "stamp_seen": "2024-11-01 23:27:01",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-01 08:44:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Portugal",
+            "countrycode": "PT",
+            "org": "Nos Comunicacoes, S.A.",
+            "region": "Porto",
+            "lat": "41.1384",
+            "long": "-8.6168",
+            "city": "Vila Nova de Gaia",
+            "asn": "AS1897"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n",
+            "53": "\u0005\u0004\u0000\u0000",
+            "21": "220 FTP Server (ZyWALL 110) [::ffff:88.157.223.242]\n"
+        }
+    }
+}

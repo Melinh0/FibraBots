@@ -1,0 +1,207 @@
+{
+    "qid": null,
+    "iid": 55647814,
+    "indicator": "103.154.77.2",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-31 02:56:58",
+    "stamp_updated": "2024-12-10 02:14:47",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-29 21:17:41",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55647869,
+                "indicator": "http:\/\/103.154.77.2\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-09-10 08:39:35"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-31 02:56:58"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-09-10 08:39:35"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-12 11:12:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "IDNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "descr": [
+                "Internet Service Provider",
+                "PT Tonggak Teknologi Netikom",
+                "Jaban 3\/33",
+                "Tridadi Sleman",
+                "Yogyakarta 55511"
+            ],
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-T2NET"
+            ],
+            "mnt-routes": "MAINT-ID-T2NET",
+            "last-modified": [
+                "2020-08-10T02:25:47Z",
+                "2020-08-08T14:14:33Z",
+                "2020-08-08T13:34:24Z",
+                "2024-04-04T06:34:42Z",
+                "2024-04-04T06:35:21Z"
+            ],
+            "nic-hdl": "HI164-AP",
+            "tech-c": "HI164-AP",
+            "person": "Hari Ismanto",
+            "abuse-mailbox": "support@t2net.id",
+            "++abuse": "support@t2net.id",
+            "++registrant": [
+                "HI164-AP",
+                "Hari Ismanto"
+            ],
+            "address": [
+                "Jaban 3\/33",
+                "Tridadi Sleman",
+                "Yogyakarta 55511",
+                "Jaban 3\/33 Tridadi Sleman Yogyakarta",
+                "Sleman - Yogyakarta"
+            ],
+            "irt": "IRT-T2NET-ID",
+            "mnt-irt": "IRT-T2NET-ID",
+            "netname": "T2NET-ID",
+            "++email": "support@t2net.id",
+            "++phone": "+62-274-2880464",
+            "phone": "+62-274-2880464",
+            "inetnum": "103.154.76.0 - 103.154.77.255",
+            "e-mail": "support@t2net.id",
+            "admin-c": "HI164-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2020-08-10 02:25:47",
+                "2020-08-08 14:14:33",
+                "2020-08-08 13:34:24",
+                "2024-04-04 06:34:42",
+                "2024-04-04 06:35:21"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "region": "Yogyakarta",
+            "city": "Sleman",
+            "long": "110.3571",
+            "lat": "-7.7194",
+            "org": "PT Tonggak Teknologi Netikom",
+            "asn": "AS140481",
+            "address": [
+                "Jaban 3\/33",
+                "Tridadi Sleman",
+                "Yogyakarta 55511",
+                "Jaban 3\/33 Tridadi Sleman Yogyakarta",
+                "Sleman - Yogyakarta"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "content-length": "194",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.29 (Ubuntu)",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"113-6089eadfa9740-gzip\"",
+            "last-modified": "Thu, 26 Oct 2023 13:37:57 GMT",
+            "date": "Sun, 15 Sep 2024 05:18:33 GMT",
+            "++target": "http:\/\/103.154.77.2\/"
+        },
+        "meta": {
+            "++title": "Redirecting...",
+            "refresh": "0;url=http:\/\/lamanlabuh.aduankonten.id\/"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "dns.77.2.t2net.id"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f150af1a0d0a13fe5bb7e1e495cac2cb.jpeg"
+        }
+    }
+}

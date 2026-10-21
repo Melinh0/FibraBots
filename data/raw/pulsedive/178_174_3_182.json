@@ -1,0 +1,117 @@
+{
+    "qid": null,
+    "iid": 64336837,
+    "indicator": "178.174.3.182",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-15 06:14:23",
+    "stamp_updated": "2024-12-10 10:36:52",
+    "stamp_seen": "2024-10-17 22:36:35",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64359786,
+                "indicator": "https:\/\/178.174.3.182\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-15 06:14:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Switzerland",
+            "countrycode": "CH",
+            "asn": "AS3303",
+            "org": "Bluewin",
+            "lat": "47.1333",
+            "region": "Lucerne",
+            "city": "Rain",
+            "long": "8.2648"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Thu, 17 Oct 2024 17:51:24 GMT",
+            "++target": "https:\/\/178.174.3.182\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=usg110_A0E4CB894ED4",
+            "email": "usg110_A0E4CB894ED4",
+            "valid": "2016-03-18 15:50:53",
+            "issuer": "\/CN=usg110_A0E4CB894ED4",
+            "expires": "2026-03-16 15:50:53",
+            "fingerprint": "1145dbafa7d8117082ea074f9ad6db1a14dd8c5369d7b6ca208029ae8cc7262b",
+            "org": "usg110_A0E4CB894ED4"
+        },
+        "meta": {
+            "++title": "USG110",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/717f8309057bb26ea1482315060d4547.jpeg"
+        }
+    }
+}

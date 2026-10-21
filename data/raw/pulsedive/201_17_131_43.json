@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 42180949,
+    "indicator": "201.17.131.43",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-12-13 20:23:23",
+    "stamp_updated": "2024-10-05 10:33:02",
+    "stamp_seen": "2024-07-02 03:13:08",
+    "stamp_probed": "2024-07-02 03:13:08",
+    "stamp_retired": "2024-10-05 10:33:02",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-15 06:35:59"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-12-13 20:23:23"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-15 06:35:59"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-01-16 18:07:51"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-15 10:23:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53",
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "RTSP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS28573",
+            "region": "Minas Gerais",
+            "city": "Belo Horizonte",
+            "lat": "-19.9221",
+            "long": "-43.9347",
+            "isp": "Claro NXT Telecomunicacoes Ltda",
+            "org": "Claro NXT Telecomunicacoes Ltda"
+        },
+        "whois": {
+            "abuse-c": "GRSVI",
+            "aut-num": "AS28573",
+            "created": [
+                "20080512",
+                "20040726"
+            ],
+            "nic-hdl-br": "GRSVI",
+            "owner-c": "GRSVI",
+            "tech-c": "GRSVI",
+            "country": "BR",
+            "++registered": "2008-05-12 00:00:00",
+            "inetnum": "201.17.0.0\/16",
+            "inetrev": "201.17.128.0\/18",
+            "nserver": [
+                "ns8.virtua.com.br [lame - not published]",
+                "ns7.virtua.com.br"
+            ],
+            "responsible": "Suporte Redes",
+            "ownerid": "66.970.229\/0001-67",
+            "e-mail": "virtua@virtua.com.br",
+            "++abuse": "GRSVI",
+            "++email": "virtua@virtua.com.br",
+            "person": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "++registrant": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "changed": [
+                "20220615",
+                "20230704"
+            ],
+            "owner": "Claro NXT Telecomunicacoes Ltda",
+            "nslastaa": [
+                "20230426",
+                "20240629"
+            ],
+            "nsstat": [
+                "20240629 AA",
+                "20240629 TIMEOUT"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "date": "Wed, 13 Sep 2023 12:09:22 GMT",
+            "set-cookie": "PHPSESSID=90e76e69f9f8cddc4ab2b14f721390e8; path=\/; HttpOnly",
+            "last-modified": "Wed, 13 Sep 2023 12:09:22 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9\n"
+        },
+        "dns": {
+            "ptr": "c911832b.virtua.com.br"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/30204d3de39dde845b36948b5cafef8b.jpeg"
+        },
+        "cookies": {
+            "phpsessid": "90e76e69f9f8cddc4ab2b14f721390e8"
+        }
+    }
+}

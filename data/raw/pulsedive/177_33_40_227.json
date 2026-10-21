@@ -1,0 +1,116 @@
+{
+    "qid": null,
+    "iid": 45781790,
+    "indicator": "177.33.40.227",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-03-17 00:14:53",
+    "stamp_updated": "2023-08-17 03:31:05",
+    "stamp_seen": "2023-05-14 20:12:53",
+    "stamp_probed": "2023-05-14 20:12:53",
+    "stamp_retired": "2023-08-17 03:31:05",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-17 00:14:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS28573",
+            "region": "Sao Paulo",
+            "zip": "01000",
+            "long": "-46.6409",
+            "city": "S\u00e3o Paulo",
+            "lat": "-23.6283",
+            "isp": "Claro NXT Telecomunicacoes Ltda",
+            "org": "Claro NXT Telecomunicacoes Ltda"
+        },
+        "whois": {
+            "abuse-c": "GRSVI",
+            "aut-num": "AS28573",
+            "created": [
+                "20080512",
+                "20110114"
+            ],
+            "nic-hdl-br": "GRSVI",
+            "nserver": [
+                "ns8.virtua.com.br",
+                "ns7.virtua.com.br"
+            ],
+            "owner-c": "GRSVI",
+            "tech-c": "GRSVI",
+            "++registered": "2011-01-14 00:00:00",
+            "country": "BR",
+            "inetnum": "177.32.0.0\/14",
+            "inetrev": "177.32.0.0\/15",
+            "responsible": "Suporte Redes",
+            "ownerid": "66.970.229\/0001-67",
+            "e-mail": "virtua@virtua.com.br",
+            "++abuse": "GRSVI",
+            "++email": "virtua@virtua.com.br",
+            "person": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "++registrant": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "changed": [
+                "20220309",
+                "20220615"
+            ],
+            "owner": "Claro NXT Telecomunicacoes Ltda",
+            "nslastaa": [
+                "20230426",
+                "20230513"
+            ],
+            "nsstat": [
+                "20230513 AA",
+                "20230513 TIMEOUT"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2\n"
+        },
+        "dns": {
+            "ptr": "b12128e3.virtua.com.br"
+        }
+    }
+}

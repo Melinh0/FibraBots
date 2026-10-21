@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 60766793,
+    "indicator": "113.161.197.130",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-07-01 16:46:52",
+    "stamp_updated": "2024-12-16 11:28:29",
+    "stamp_seen": "2024-08-16 00:00:00",
+    "stamp_probed": "2024-08-18 07:23:01",
+    "stamp_retired": "2024-11-17 23:02:12",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-01 16:46:52"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-06 05:25:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Viet Nam",
+            "countrycode": "VN",
+            "asn": "AS45899",
+            "isp": "VNPT Corp",
+            "org": "VNPT Corp",
+            "address": [
+                "Ha Noi, VietNam",
+                "VNPT-VN"
+            ],
+            "lat": "10.2502",
+            "city": "V\u0129nh Long",
+            "long": "105.9651",
+            "region": "V\u0129nh Long Province"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VNPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "notify": "hm-changed@vnnic.net.vn",
+            "e-mail": [
+                "huypt@vnpt.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "mnt-lower": "MAINT-VN-VNPT",
+            "mnt-routes": "MAINT-VN-VNPT",
+            "descr": [
+                "VNPT-AS-AP",
+                "VietNam Post and Telecom Corporation (VNPT)",
+                "No 57, Huynh Thuc Khang Street, Lang Ha ward, Dong Da district, Ha Noi City",
+                "Vietnam Posts and Telecommunications Group"
+            ],
+            "origin": "AS45899",
+            "netname": "VNPT-VN",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-37741604"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "route": "113.161.192.0\/19",
+            "admin-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "address": [
+                "VNPT-VN",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": "PTH13-AP",
+            "person": "Pham Tien Huy",
+            "phone": [
+                "+84-24-37741604",
+                "+84-24-35564944"
+            ],
+            "last-modified": [
+                "2017-11-19T07:06:20Z",
+                "2017-11-08T09:40:06Z",
+                "2018-01-25T03:55:17Z",
+                "2018-08-08T09:24:53Z"
+            ],
+            "inetnum": "113.160.0.0 - 113.191.255.255",
+            "++updated": "2018-08-08 00:00:00",
+            "++abuse": "hm-changed@vnnic.vn",
+            "auth": "mnt-by: MAINT-VN-VNNIC",
+            "++email": "hm-changed@vnnic.vn",
+            "++registrant": "Pham Tien Huy"
+        },
+        "dns": {
+            "ptr": "static.vnpt.vn"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

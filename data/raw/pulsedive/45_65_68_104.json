@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 64819144,
+    "indicator": "45.65.68.104",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-09 09:02:38",
+    "stamp_updated": "2024-12-14 11:31:25",
+    "stamp_seen": "2024-11-09 09:05:51",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64820141,
+                "indicator": "https:\/\/45.65.68.104\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-09 09:02:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RTSP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "BG",
+            "mnt-by": "MNT-BGULTRANET",
+            "admin-c": "IT711-RIPE",
+            "tech-c": "IT711-RIPE",
+            "address": [
+                "2800 Sandanski, Bulgaria",
+                "UltraNET Ltd",
+                "14, Peter Beron str."
+            ],
+            "origin": "AS39184",
+            "nic-hdl": "IT711-RIPE",
+            "person": "Ivan Tushev",
+            "phone": "+359 885511000",
+            "fax-no": "+359 73832271",
+            "netname": "ULTRANET-NET",
+            "last-modified": [
+                "2017-10-30T21:46:54Z",
+                "2020-03-11T09:01:41Z",
+                "2020-07-30T12:26:55Z"
+            ],
+            "created": [
+                "2005-08-02T07:29:48Z",
+                "2018-11-13T11:29:06Z",
+                "2020-07-30T12:26:55Z"
+            ],
+            "++registrant": [
+                "IT711-RIPE",
+                "Ivan Tushev"
+            ],
+            "++updated": [
+                "2017-10-30 21:46:54",
+                "2020-03-11 09:01:41",
+                "2020-07-30 12:26:55"
+            ],
+            "++registered": [
+                "2005-08-02 07:29:48",
+                "2018-11-13 11:29:06",
+                "2020-07-30 12:26:55"
+            ],
+            "inetnum": "45.65.68.0 - 45.65.68.255",
+            "route": "45.65.68.0\/24"
+        },
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "city": "Sofia",
+            "asn": "AS39184",
+            "org": "UltraNET Ltd",
+            "region": "Sofia-Capital",
+            "address": [
+                "UltraNET Ltd",
+                "14, Peter Beron str.",
+                "2800 Sandanski, Bulgaria"
+            ],
+            "lat": "42.6951",
+            "long": "23.325"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "content-length": "272",
+            "last-modified": "Fri, 23 Dec 2022 07:40:55 GMT",
+            "etag": "\"fd1-110-63a55b87\"",
+            "date": "Sat, 09 Nov 2024 09:05:33 GMT",
+            "++target": "http:\/\/45.65.68.104\/",
+            "++redirect": "https:\/\/45.65.68.104\/"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=ShenZhen\/L=ShenZhen\/CN=TP-Link",
+            "subject": "\/C=CN\/ST=ShenZhen\/L=ShenZhen\/CN=TP-Link",
+            "version": "v3",
+            "org": "TP-Link",
+            "valid": "2018-01-01 08:00:37",
+            "expires": "2037-09-18 08:00:37",
+            "fingerprint": "3d5f4592bfb7876203a00719f2d2679767947f5f5b16a1a3cc2643f23f6a92ba"
+        },
+        "meta": {
+            "refresh": "0; URL=\/webpages\/login.html"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "banners": {
+            "554": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0001,\u0007\u0014Q\u0005\ufffd\ufffd\ufffd\u0231\u001c'\ufffd\u001a*\ufffd\u0405y\u0000\u0000\u0000mcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000 hmac-sha1,hmac-sha2-256,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000P'\ufffd\u0003\u001dr\ufffd"
+        }
+    }
+}

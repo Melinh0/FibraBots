@@ -1,0 +1,325 @@
+{
+    "qid": null,
+    "iid": 271771,
+    "indicator": "92.53.96.165",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2018-01-02 11:32:11",
+    "stamp_updated": "2024-12-12 22:34:21",
+    "stamp_seen": "2024-09-09 21:39:33",
+    "stamp_probed": "2024-06-14 04:42:06",
+    "stamp_retired": "2024-12-12 22:34:21",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 3900007,
+                "indicator": "https:\/\/x01.aidata.io\/0.gif"
+            },
+            {
+                "iid": 9261843,
+                "indicator": "https:\/\/s-cs.rmp.rakuten.com\/"
+            },
+            {
+                "iid": 3899970,
+                "indicator": "https:\/\/redirect.frontend.weborama.fr\/redirect\/standard"
+            },
+            {
+                "iid": 3414671,
+                "indicator": "https:\/\/cm.g.doubleclick.net\/pixel"
+            },
+            {
+                "iid": 3891848,
+                "indicator": "https:\/\/ib.adnxs.com\/setuid"
+            },
+            {
+                "iid": 3987186,
+                "indicator": "https:\/\/an.yandex.ru\/resource\/spacer.gif"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-02-23 04:32:56"
+        },
+        {
+            "tid": 67,
+            "name": "Phishing",
+            "category": "general",
+            "risk": "high",
+            "stamp_linked": "2018-02-21 01:49:24"
+        },
+        {
+            "tid": 546,
+            "name": "qsnatch",
+            "category": "general",
+            "risk": "unknown",
+            "stamp_linked": "2020-08-30 14:21:22"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-12-11 13:39:28"
+        },
+        {
+            "fid": 4,
+            "name": "C&C IPs",
+            "category": "malware",
+            "organization": "Bambenek Consulting",
+            "pricing": null,
+            "stamp_linked": "2020-08-30 14:21:22"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 19:21:40"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-02-23 04:32:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "AppNexus",
+            "Google Analytics",
+            "jQuery",
+            "Nginx",
+            "Yandex.Direct"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "FREENET-MNT",
+                "VPSVILLE-mnt",
+                "ru-quasar-1-mnt",
+                "DN-MNT",
+                "ru-permtelecom-1-mnt",
+                "SCNTEL-MNT",
+                "ru-vpsville1-1-mnt",
+                "IP-RIPE",
+                "TIMEWEB-MNT",
+                "cicnet-mnt",
+                "DATAMAX-M",
+                "Cyber-MNT",
+                "interlir-mnt",
+                "VF1-MNT",
+                "DELFA-RIPE-MNT",
+                "MNT-FTCOM",
+                "lir-ru-tehpostavka1-1-MNT",
+                "lir-ru-zarud1-1-MNT",
+                "AM-VDS",
+                "SVT-RIPE-MNT",
+                "MNT-RUBIN",
+                "CHAPAR-MNT",
+                "network-kz-1-mnt",
+                "RENETS-MNT"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russia",
+                "Saint-Petersburg",
+                "22\/2 lit.A,Zastavskaya str.",
+                "196006, Saint-Petersburg",
+                "22\/2 lit.A, Zastavskaya str.",
+                "196006",
+                "RUSSIAN FEDERATION"
+            ],
+            "abuse-mailbox": "abuse@timeweb.ru",
+            "mnt-by": [
+                "TIMEWEB-MNT",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "nic-hdl": "TMWB-RIPE",
+            "origin": "AS9123",
+            "role": "TimeWeb Co. Ltd. Role Account",
+            "created": [
+                "2013-07-28T16:10:42Z",
+                "2008-03-18T10:36:42Z",
+                "2008-03-18T10:59:13Z",
+                "2010-11-03T10:19:12Z"
+            ],
+            "inetnum": "92.53.96.0 - 92.53.96.255",
+            "route": "92.53.96.0\/24",
+            "abuse-c": "TMWB-RIPE",
+            "org": "ORG-TL188-RIPE",
+            "org-name": "TimeWeb Ltd.",
+            "organisation": "ORG-TL188-RIPE",
+            "admin-c": [
+                "TMWB-RIPE",
+                "AB44608-RIPE"
+            ],
+            "tech-c": [
+                "TMWB-RIPE",
+                "AG26308-RIPE",
+                "AB44608-RIPE"
+            ],
+            "++abuse": "abuse@timeweb.ru",
+            "++registrant": [
+                "TMWB-RIPE",
+                "AB44608-RIPE"
+            ],
+            "++email": "abuse@timeweb.ru",
+            "phone": [
+                "+7 812 2481081",
+                "+7 495 0331081",
+                "+78122481081",
+                "+74950331081"
+            ],
+            "++phone": [
+                "+78122481081",
+                "+74950331081"
+            ],
+            "fax-no": "+78122481081",
+            "geofeed": "https:\/\/geofeed.timeweb.net\/geofeed.csv",
+            "last-modified": [
+                "2022-09-02T12:43:18Z",
+                "2023-05-24T11:48:07Z",
+                "2024-09-04T10:33:32Z",
+                "2024-09-03T08:50:33Z"
+            ],
+            "netname": "TW-Cloud",
+            "++registered": [
+                "2010-11-03 10:19:12",
+                "2008-03-18 10:36:42",
+                "2013-07-28 16:10:42"
+            ],
+            "++updated": [
+                "2024-09-04 10:33:32",
+                "2023-05-24 11:48:07",
+                "2022-09-02 12:43:18"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS9123",
+            "org": [
+                "TimeWeb Ltd.",
+                "ORG-TL188-RIPE"
+            ],
+            "address": [
+                "Russia",
+                "RUSSIAN FEDERATION",
+                "Saint-Petersburg",
+                "22\/2 lit.A, Zastavskaya str.",
+                "196006",
+                "22\/2 lit.A,Zastavskaya str.",
+                "196006, Saint-Petersburg"
+            ],
+            "region": "St.-Petersburg",
+            "city": "St Petersburg",
+            "lat": "59.9417",
+            "long": "30.3096",
+            "country": "Russia"
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "content-type": "text\/html; charset=utf-8",
+            "last-modified": "Wed, 16 Apr 2014 07:06:24 GMT",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.24.0",
+            "etag": "W\/\"12d4d-4f7238deedc00\"",
+            "date": "Fri, 14 Jun 2024 04:08:45 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "origin-trial": "Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="
+        },
+        "ssl": {
+            "domain": [
+                "timeweb.ru",
+                "*.timeweb.ru"
+            ],
+            "version": "v3",
+            "org": "GlobalSign GCC R3 DV TLS CA 2020",
+            "issuer": "\/C=BE\/O=GlobalSign nv-sa\/CN=GlobalSign GCC R3 DV TLS CA 2020",
+            "subject": "\/CN=*.timeweb.ru",
+            "valid": "2023-07-03 14:12:25",
+            "expires": "2024-08-03 14:12:24"
+        },
+        "cookies": {
+            "_ym_isad": "2",
+            "_ym_visorc_55039267": "w",
+            "_dc_gtm_ua-52903813-6": "1",
+            "_ym_visorc_516496": "w",
+            "_ym_uid": "1598281988172897944",
+            "_ga": "GA1.3.139186903.1598281988",
+            "_gid": "GA1.3.1626088512.1598281988",
+            "_ym_d": "1598281988"
+        },
+        "banners": {
+            "21": "220 ProFTPD Server\n",
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7+esm3\n"
+        },
+        "dns": {
+            "ptr": "vh384.timeweb.ru"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a40aa960426b914e9eb49f021d26a516.jpeg"
+        }
+    }
+}

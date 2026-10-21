@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 52023927,
+    "indicator": "196.219.43.154",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-11 23:31:25",
+    "stamp_updated": "2024-12-14 20:27:18",
+    "stamp_seen": "2024-12-14 20:27:18",
+    "stamp_probed": "2024-09-30 07:57:53",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-11-01 08:04:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-11 23:31:25"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-11-01 08:04:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-11-11 02:28:46"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "389",
+            "443",
+            "465",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "LDAP",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ASSIGNED PA",
+            "mnt-by": [
+                "AFRINIC-HM-MNT",
+                "TE-Data-MNT",
+                "GEGA-MNT"
+            ],
+            "country": "EG",
+            "descr": [
+                "TE Data",
+                "Telecom-Egypt-Data"
+            ],
+            "nic-hdl": [
+                "TDCR2-AFRINIC",
+                "TDCR1-AFRINIC"
+            ],
+            "role": [
+                "TE Data Contact Role-2",
+                "TE Data Contact Role"
+            ],
+            "tech-c": [
+                "MH7-AFRINIC",
+                "TDCR2-AFRINIC",
+                "TDCR1-AFRINIC",
+                "MS150-AFRINIC"
+            ],
+            "mnt-ref": [
+                "GEGA-MNT",
+                "AFRINIC-HM-MNT"
+            ],
+            "org": "ORG-TD2-AFRINIC",
+            "org-name": "TE Data",
+            "organisation": "ORG-TD2-AFRINIC",
+            "inetnum": "196.219.0.0 - 196.219.63.255",
+            "netname": "TED-01",
+            "admin-c": [
+                "MH7-AFRINIC",
+                "TDCR1-AFRINIC"
+            ],
+            "mnt-lower": "GEGA-MNT",
+            "phone": [
+                "tel:+20-2-33320700",
+                "tel:+20-2-3320700"
+            ],
+            "fax-no": [
+                "tel:+20-2-33320800",
+                "tel:+20-2-3320804"
+            ],
+            "origin": "AS8452",
+            "address": [
+                "TE Data,",
+                "Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km",
+                "6th October 12577",
+                "TE Data, Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km, 6th October 12577, Giza, Egypt"
+            ],
+            "route": "196.219.0.0\/18",
+            "++registrant": [
+                "TDCR1-AFRINIC",
+                "MH7-AFRINIC"
+            ],
+            "++email": "abuse@te.eg",
+            "++abuse": "abuse@te.eg",
+            "abuse-mailbox": "abuse@te.eg",
+            "source": "AFRINIC # Filtered",
+            "parent": "196.218.0.0 - 196.219.255.255"
+        },
+        "geo": {
+            "country": "Egypt",
+            "countrycode": "EG",
+            "asn": "AS8452",
+            "org": [
+                "TE Data",
+                "ORG-TD2-AFRINIC"
+            ],
+            "lat": "30.008",
+            "long": "31.2194",
+            "region": "Giza",
+            "city": "Giza",
+            "address": [
+                "TE Data,",
+                "Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km",
+                "6th October 12577",
+                "TE Data, Smart Village, Building A11-B90, Alex Desert Road,",
+                "28 Km, 6th October 12577, Giza, Egypt"
+            ]
+        },
+        "banners": {
+            "143": "* OK IMAP4rev1 proxy server ready\n",
+            "25": "220-server85.gemmaporcelain.com ESMTP Postfix\n"
+        },
+        "dns": {
+            "ptr": "host-196.219.43.154-static.tedata.net"
+        }
+    }
+}

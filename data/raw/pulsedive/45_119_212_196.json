@@ -1,0 +1,232 @@
+{
+    "qid": null,
+    "iid": 14702976,
+    "indicator": "45.119.212.196",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-09-03 04:29:18",
+    "stamp_updated": "2024-12-25 13:09:17",
+    "stamp_seen": "2024-12-25 13:09:17",
+    "stamp_probed": "2024-09-30 12:54:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 46529029,
+                "indicator": "http:\/\/45.119.212.196\/"
+            },
+            {
+                "iid": 64127259,
+                "indicator": "https:\/\/45.119.212.196\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-03-15 03:57:36"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-10 15:00:26"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-03-15 03:57:36"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-05-30 03:30:09"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-03-11 21:56:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "5432",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "PostgreSQL",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Sectigo",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "country": "Vietnam",
+            "asn": "AS131423",
+            "lat": "16.1667",
+            "org": "Branch of Long Van System Solution JSC - Hanoi",
+            "long": "107.8333",
+            "address": [
+                "Ha Noi, VietNam",
+                "Long Van System Solution JSC"
+            ]
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "mnt-lower": "MAINT-VN-VNNIC",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "HG880-AP"
+            ],
+            "person": [
+                "Quach Dinh Toan",
+                "Ha Giang"
+            ],
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-62820238"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "e-mail": [
+                "toan@longvan.net",
+                "hm-changed@vnnic.vn",
+                "hagiang@longvan.net"
+            ],
+            "netname": "LVHN-VN",
+            "nic-hdl": [
+                "QDT3-AP",
+                "HG880-AP"
+            ],
+            "admin-c": [
+                "NTTT1-AP",
+                "QDT3-AP"
+            ],
+            "last-modified": [
+                "2017-11-18T08:45:32Z",
+                "2017-11-08T09:40:06Z",
+                "2017-11-18T08:45:53Z",
+                "2017-11-18T08:44:41Z",
+                "2022-03-16T08:06:58Z"
+            ],
+            "address": [
+                "Long Van System Solution JSC",
+                "Ha Noi, VietNam"
+            ],
+            "descr": [
+                "No. 23, 37\/2 Dich Vong Str, Dich Vong Ward, Cau Giay, Hanoi",
+                "Branch of Long Van System Solution JSC - Hanoi",
+                "Vietnam Internet Network Information Center (VNNIC)"
+            ],
+            "phone": [
+                "+84-24-62820238",
+                "+84-24-35564944"
+            ],
+            "inetnum": "45.119.212.0 - 45.119.215.255",
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "QDT3-AP",
+                "Ha Giang",
+                "Quach Dinh Toan"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "toan@longvan.net",
+                "hagiang@longvan.net"
+            ],
+            "origin": "AS131423",
+            "route": "45.119.212.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-18 08:45:53",
+                "2017-11-18 08:45:32",
+                "2017-11-18 08:44:41",
+                "2022-03-16 08:06:58"
+            ]
+        },
+        "http": {
+            "content-encoding": "gzip",
+            "++code": "200",
+            "content-type": "text\/html; charset=utf-8",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 01 Sep 2022 08:50:55 GMT",
+            "etag": "W\/\"6310726f-264\"",
+            "++target": "http:\/\/45.119.212.196\/",
+            "++redirect": "https:\/\/45.119.212.196\/",
+            "date": "Wed, 25 Dec 2024 13:09:06 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "expires": "2025-08-31 23:59:59",
+            "valid": "2024-08-31 00:00:00",
+            "fingerprint": "b94f0c6b94eaa9253da42c94ae6a7fb446f4953bf59a6fdbb431acb83f872e21",
+            "subject": "\/CN=*.actechsoftware.com",
+            "domain": [
+                "*.actechsoftware.com",
+                "actechsoftware.com"
+            ]
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

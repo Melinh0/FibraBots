@@ -1,0 +1,137 @@
+{
+    "qid": null,
+    "iid": 57714206,
+    "indicator": "46.188.119.26",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-30 03:23:02",
+    "stamp_updated": "2024-12-14 11:31:36",
+    "stamp_seen": "2024-11-20 06:12:21",
+    "stamp_probed": "2024-09-30 13:14:35",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-30 03:23:02"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-26 04:35:15"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22"
+        ],
+        "protocol": [
+            "FTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "descr": [
+                "Russia",
+                "2COM Co ltd.",
+                "Moscow"
+            ],
+            "admin-c": "AR16536-RIPE",
+            "mnt-by": "MNT-2COM",
+            "mnt-lower": "MNT-2COM",
+            "mnt-routes": "MNT-2COM",
+            "nic-hdl": "AR16536-RIPE",
+            "origin": "AS8334",
+            "role": "Abuse-C Role",
+            "tech-c": "AR16536-RIPE",
+            "created": [
+                "2010-11-25T08:46:05Z",
+                "2013-12-18T14:35:34Z",
+                "2012-06-11T13:16:24Z"
+            ],
+            "last-modified": [
+                "2010-11-25T08:46:05Z",
+                "2016-05-19T20:57:31Z",
+                "2020-01-29T12:41:14Z"
+            ],
+            "netname": "NET-2COM",
+            "route": "46.188.0.0\/17",
+            "address": [
+                "Moscow",
+                "109029",
+                "2COM Co Ltd",
+                "Avtomobilniy proezd 4",
+                "RUSSIAN FEDERATION"
+            ],
+            "inetnum": "46.188.64.0 - 46.188.127.255",
+            "++registrant": "AR16536-RIPE",
+            "abuse-mailbox": "abuse@almatel.ru",
+            "++abuse": "abuse@almatel.ru",
+            "++email": "abuse@almatel.ru",
+            "++updated": [
+                "2020-01-29 12:41:14",
+                "2010-11-25 08:46:05"
+            ],
+            "++registered": [
+                "2013-12-18 14:35:34",
+                "2010-11-25 08:46:05"
+            ]
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS8334",
+            "org": "LLC SETEL",
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10\n",
+            "21": "220 ProFTPD 1.3.5a Server (WWkFTP) [::ffff:192.168.1.100]\n"
+        },
+        "dns": {
+            "ptr": "broadband-46-188-119-26.2com.net"
+        }
+    }
+}

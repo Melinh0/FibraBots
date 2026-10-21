@@ -1,0 +1,172 @@
+{
+    "qid": null,
+    "iid": 65397340,
+    "indicator": "190.244.38.124",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-28 09:58:25",
+    "stamp_updated": "2024-12-15 11:32:18",
+    "stamp_seen": "2024-12-13 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65397599,
+                "indicator": "https:\/\/190.244.38.124\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-28 09:58:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-07 22:18:13"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "aut-num": "N\/A",
+            "status": "allocated",
+            "country": "AR",
+            "nserver": [
+                "DNS2.CVTCI.COM.AR",
+                "DNS1.CVTCI.COM.AR"
+            ],
+            "created": [
+                "20020909",
+                "20080219"
+            ],
+            "abuse-c": "ADI2",
+            "address": [
+                "1425 - Buenos Aires -",
+                "Dorrego, 2520, Piso 11",
+                "Dorrego, 2502, piso 11"
+            ],
+            "nic-hdl": "ADI2",
+            "owner": "Telecom Argentina S.A.",
+            "owner-c": "ADI2",
+            "ownerid": "AR-TAST-LACNIC",
+            "person": "Administrador IP",
+            "phone": [
+                "+54 11 4968 [4975]",
+                "+54  1149684975 [0000]"
+            ],
+            "responsible": "Administrador IP",
+            "tech-c": "ADI2",
+            "changed": [
+                "20180529",
+                "20211227"
+            ],
+            "++registrant": "Administrador IP",
+            "++email": "abuse@teco.com.ar",
+            "e-mail": "abuse@teco.com.ar",
+            "inetnum": "190.244.0.0\/15",
+            "inetrev": "190.244.0.0\/15",
+            "nsstat": "20241126 AA",
+            "nslastaa": "20241126"
+        },
+        "geo": {
+            "asn": "AS7303",
+            "country": "Argentina",
+            "countrycode": "AR",
+            "org": "Telecom Argentina S.A.",
+            "region": "Cordoba",
+            "address": [
+                "Dorrego, 2520, Piso 11",
+                "1425 - Buenos Aires -",
+                "Dorrego, 2502, piso 11"
+            ],
+            "long": "-64.1756",
+            "lat": "-31.429",
+            "city": "C\ufffdrdoba"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "cache-control": "no-cache",
+            "content-security-policy": "frame-ancestors 'none'",
+            "++code": "200",
+            "++status": "OK",
+            "x-frame-options": "deny",
+            "++content-type": "text\/html",
+            "content-length": "272",
+            "last-modified": "Wed, 31 Jan 2024 00:19:07 GMT",
+            "etag": "\"2f9-110-65b991fb\"",
+            "date": "Thu, 28 Nov 2024 09:59:06 GMT",
+            "++target": "https:\/\/190.244.38.124\/",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=CN\/CN=tplinkwifi.net",
+            "subject": "\/C=CN\/CN=tplinkwifi.net",
+            "org": "tplinkwifi.net",
+            "expires": "2030-12-31 00:00:00",
+            "valid": "2010-01-01 00:00:00",
+            "fingerprint": "69a51c6a332623350f73ab177b27230c22bb41919097422689101a2f80ce41e6"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        },
+        "meta": {
+            "refresh": "0; URL=\/webpages\/index.html"
+        }
+    }
+}

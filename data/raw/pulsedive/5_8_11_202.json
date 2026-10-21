@@ -1,0 +1,167 @@
+{
+    "qid": null,
+    "iid": 57535885,
+    "indicator": "5.8.11.202",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-24 13:44:22",
+    "stamp_updated": "2024-12-04 10:18:59",
+    "stamp_seen": "2024-11-18 16:07:51",
+    "stamp_probed": "2024-08-20 21:50:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 57535997,
+                "indicator": "http:\/\/5.8.11.202\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-24 13:44:22"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-18 10:48:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-PIN",
+                "MNT-PINSUPPORT"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "++phone": "+78126772525",
+            "abuse-c": "PIN44050-RIPE",
+            "admin-c": [
+                "MNV32-RIPE",
+                "PIN44050-RIPE"
+            ],
+            "fax-no": "+78123093916",
+            "mnt-by": [
+                "MNT-PINSUPPORT",
+                "MNT-PIN",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "nic-hdl": "PIN44050-RIPE",
+            "org": "ORG-PINl1-RIPE",
+            "org-name": "Petersburg Internet Network ltd.",
+            "organisation": "ORG-PINl1-RIPE",
+            "phone": "+78126772525",
+            "tech-c": [
+                "SEO-RIPE",
+                "PIN44050-RIPE"
+            ],
+            "address": [
+                "Saint-Petersburg",
+                "192029",
+                "RUSSIAN FEDERATION",
+                "Sofijskaya 48, building 4, appt. H-11",
+                "192236",
+                "58 Malaya Balkanskaya"
+            ],
+            "inetnum": "5.8.8.0 - 5.8.11.255",
+            "created": [
+                "2009-05-28T09:40:17Z",
+                "2013-06-08T06:08:16Z",
+                "2015-11-28T12:44:46Z",
+                "2019-11-07T13:35:28Z"
+            ],
+            "++registrant": [
+                "MNV32-RIPE",
+                "PIN44050-RIPE"
+            ],
+            "route": "5.8.11.0\/24",
+            "last-modified": [
+                "2019-11-07T13:35:28Z",
+                "2020-12-16T10:58:34Z",
+                "2020-12-16T10:43:39Z",
+                "2021-06-11T23:12:37Z"
+            ],
+            "origin": "AS34665",
+            "descr": "PIN DC",
+            "++abuse": "abuse@pindc.ru",
+            "role": "PINDC Support and NOC Teams",
+            "abuse-mailbox": "abuse@pindc.ru",
+            "++email": "abuse@pindc.ru",
+            "netname": "PINDC-public-vlans",
+            "++registered": [
+                "2009-05-28 09:40:17",
+                "2013-06-08 06:08:16",
+                "2015-11-28 12:44:46",
+                "2019-11-07 13:35:28"
+            ],
+            "++updated": [
+                "2021-06-11 23:12:37",
+                "2020-12-16 10:58:34",
+                "2019-11-07 13:35:28"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "org": "Petersburg Internet Network ltd.",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS34665",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/plain",
+            "content-length": "19",
+            "++code": "403",
+            "++status": "Forbidden",
+            "server": "istio-envoy",
+            "++content-type": "text\/plain",
+            "date": "Thu, 12 Sep 2024 14:26:09 GMT",
+            "++target": "http:\/\/5.8.11.202\/"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        }
+    }
+}

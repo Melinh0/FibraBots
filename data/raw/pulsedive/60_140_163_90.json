@@ -1,0 +1,202 @@
+{
+    "qid": null,
+    "iid": 39124369,
+    "indicator": "60.140.163.90",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-09-16 12:20:40",
+    "stamp_updated": "2024-12-13 23:27:25",
+    "stamp_seen": "2024-12-13 23:27:25",
+    "stamp_probed": "2022-09-16 12:20:53",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124393,
+                "indicator": "http:\/\/60.140.163.90\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-09-16 12:20:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "JP",
+                "ZZ"
+            ],
+            "descr": "Japan Nation-wide Network of Softbank Corp.",
+            "irt": "IRT-SOFTBANK-JP",
+            "mnt-by": [
+                "MAINT-JP-BBTECH",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-SOFTBANK-JP",
+            "mnt-lower": "MAINT-JP-BBTECH",
+            "netname": "BBTEC",
+            "nic-hdl": [
+                "SA421-AP",
+                "AS2391-AP"
+            ],
+            "org": "ORG-SC4-AP",
+            "org-name": "SOFTBANK Corp.",
+            "organisation": "ORG-SC4-AP",
+            "phone": [
+                "+81-3-6688-5120",
+                "+000000000",
+                "+81-3-6889-6365"
+            ],
+            "role": [
+                "SoftbankBB ABUSE",
+                "ABUSE SOFTBANKJP"
+            ],
+            "tech-c": [
+                "SA421-AP",
+                "KF291-AP"
+            ],
+            "address": [
+                "Minatoku,Tokyo, Japan",
+                "Tokyo Portcity Takeshiba Office Tower 22F",
+                "1-7-1, Kaigan",
+                "Tokyo Portcity Takeshiba Office Tower 22F,  1-7-1, Kaigan, Minatoku,Tokyo",
+                "Tokyo Portcity Takeshiba Office Tower 21F"
+            ],
+            "admin-c": [
+                "SA421-AP",
+                "KF291-AP"
+            ],
+            "++phone": [
+                "+81-3-6688-5120",
+                "+000000000",
+                "+81-3-6889-6365"
+            ],
+            "++registrant": [
+                "SA421-AP",
+                "KF291-AP"
+            ],
+            "mnt-routes": "MAINT-JP-BBTECH",
+            "abuse-c": "AS2391-AP",
+            "e-mail": [
+                "GRP-nic-admin@g.softbank.co.jp",
+                "abuse@e.softbank.co.jp"
+            ],
+            "last-modified": [
+                "2023-09-05T02:14:51Z",
+                "2024-03-26T02:44:48Z",
+                "2024-09-20T04:27:31Z",
+                "2024-10-16T01:59:03Z"
+            ],
+            "abuse-mailbox": "abuse@e.softbank.co.jp",
+            "++email": [
+                "abuse@e.softbank.co.jp",
+                "grp-nic-admin@g.softbank.co.jp"
+            ],
+            "++abuse": "abuse@e.softbank.co.jp",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-09-05 02:14:51",
+                "2024-03-26 02:44:48",
+                "2024-10-16 01:59:03"
+            ],
+            "inetnum": "60.128.0.0 - 60.159.255.255"
+        },
+        "geo": {
+            "country": [
+                "Japan",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "JP",
+                "ZZ"
+            ],
+            "asn": "AS17676",
+            "region": "Osaka",
+            "city": "Osaka",
+            "lat": "34.6986",
+            "org": [
+                "ORG-SC4-AP",
+                "SoftBank Corp."
+            ],
+            "address": [
+                "Minatoku,Tokyo, Japan",
+                "Tokyo Portcity Takeshiba Office Tower 22F",
+                "1-7-1, Kaigan",
+                "Tokyo Portcity Takeshiba Office Tower 22F,  1-7-1, Kaigan, Minatoku,Tokyo",
+                "Tokyo Portcity Takeshiba Office Tower 21F"
+            ],
+            "long": "135.5079"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "content-length": "289",
+            "server": "Boa\/0.94.14rc21",
+            "last-modified": "Wed, 11 Nov 2015 01:16:54 GMT",
+            "keep-alive": "timeout=10, max=1000",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/60.140.163.90\/",
+            "date": "Tue, 22 Oct 2024 06:42:04 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso8859-1",
+            "++title": "main page"
+        },
+        "dns": {
+            "ptr": "softbank060140163090.bbtec.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 60679360,
+    "indicator": "140.143.165.16",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-28 05:11:36",
+    "stamp_updated": "2024-12-11 12:04:05",
+    "stamp_seen": "2024-12-11 12:04:05",
+    "stamp_probed": "2024-10-01 13:57:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60679372,
+                "indicator": "http:\/\/140.143.165.16\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-28 05:11:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "address": [
+                "Beijing, China",
+                "District of Hi-tech Park, Shenzhen",
+                "9F, FIYTA Building, Gaoxinnanyi Road,Southern",
+                "9F, FIYTA Building, Gaoxinnanyi Road, Southern"
+            ],
+            "abuse-mailbox": [
+                "ipas@cnnic.cn",
+                "tencent_noc@tencent.com"
+            ],
+            "admin-c": [
+                "IP50-AP",
+                "JT1125-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CNNIC-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-routes": "MAINT-CNNIC-AP",
+            "tech-c": [
+                "IP50-AP",
+                "JX1747-AP"
+            ],
+            "mnt-lower": "MAINT-CNNIC-AP",
+            "++phone": [
+                "+86-755-86013388-84952",
+                "+000000000",
+                "+86-755-86013388-80224"
+            ],
+            "netname": "TencentCloud",
+            "nic-hdl": [
+                "JX1747-AP",
+                "JT1125-AP",
+                "AC1601-AP"
+            ],
+            "notify": "jimmyxiao@tencent.com",
+            "origin": "AS45090",
+            "person": [
+                "Jimmy Xiao",
+                "James Tian"
+            ],
+            "phone": [
+                "+86-755-86013388-80224",
+                "+86-755-86013388-84952",
+                "+000000000"
+            ],
+            "descr": [
+                "Tencent cloud computing (Beijing) Co., Ltd.",
+                "TencentCloud",
+                "Floor 6, Yinke Building,38 Haidian St,",
+                "Haidian District Beijing"
+            ],
+            "e-mail": [
+                "tencent_noc@tencent.com",
+                "ipas@cnnic.cn",
+                "klayliang@tencent.com",
+                "johnsonqu@tencent.com"
+            ],
+            "last-modified": [
+                "2016-10-19T03:16:02Z",
+                "2021-09-17T00:38:09Z",
+                "2023-11-28T00:57:06Z",
+                "2024-03-19T08:21:31Z",
+                "2024-07-30T11:55:46Z",
+                "2024-09-25T05:54:36Z"
+            ],
+            "inetnum": "140.143.0.0 - 140.143.255.255",
+            "route": "140.143.0.0\/16",
+            "++abuse": [
+                "ipas@cnnic.cn",
+                "tencent_noc@tencent.com"
+            ],
+            "++registrant": [
+                "IP50-AP",
+                "JT1125-AP",
+                "James Tian",
+                "Jimmy Xiao"
+            ],
+            "++email": [
+                "ipas@cnnic.cn",
+                "tencent_noc@tencent.com",
+                "klayliang@tencent.com",
+                "johnsonqu@tencent.com"
+            ],
+            "abuse-c": "AC1601-AP",
+            "role": "ABUSE CNNICCN",
+            "irt": "IRT-TencentCloud-CN",
+            "mnt-irt": "IRT-TENCENTCLOUD-CN",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-30 11:55:46",
+                "2024-03-19 08:21:31",
+                "2021-09-17 00:38:09",
+                "2016-10-19 03:16:02",
+                "2024-09-25 05:54:36"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS45090",
+            "org": "Shenzhen Tencent Computer Systems Company Limited",
+            "lat": "34.7732",
+            "address": [
+                "Beijing, China",
+                "9F, FIYTA Building, Gaoxinnanyi Road,Southern",
+                "District of Hi-tech Park, Shenzhen",
+                "9F, FIYTA Building, Gaoxinnanyi Road, Southern"
+            ],
+            "long": "113.722"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "content-length": "138",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 26 Oct 2023 03:02:31 GMT",
+            "etag": "\"6539d6c7-8a\"",
+            "date": "Sat, 07 Sep 2024 06:38:26 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7fd6ed9c22d7a45147e9f088c03e320d.jpeg"
+        }
+    }
+}

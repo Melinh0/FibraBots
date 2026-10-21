@@ -1,0 +1,154 @@
+{
+    "qid": null,
+    "iid": 55831266,
+    "indicator": "107.189.29.175",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-05 10:06:24",
+    "stamp_updated": "2024-12-16 03:11:23",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": "2024-09-29 21:53:55",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-05 10:06:24"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-03 12:12:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "updated": [
+                "2017-01-28",
+                "2014-04-17"
+            ],
+            "nettype": "Direct Allocation",
+            "++abuse": "admin@frantech.ca",
+            "++email": "admin@frantech.ca",
+            "++phone": "+1-778-977-8246",
+            "++registrant": "FranTech Solutions",
+            "address": "1621 Central Ave",
+            "city": "Cheyenne",
+            "orgabuseemail": "admin@frantech.ca",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": "FranTech Solutions (SYNDI-5)",
+            "orgid": "SYNDI-5",
+            "orgname": "FranTech Solutions",
+            "orgtechemail": "admin@frantech.ca",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": "82001",
+            "regdate": [
+                "2010-07-21",
+                "2014-04-17"
+            ],
+            "stateprov": "WY",
+            "++registered": [
+                "2014-04-17 00:00:00",
+                "2010-07-21 00:00:00"
+            ],
+            "parent": "NET107 (NET-107-0-0-0-0)",
+            "++updated": "2017-01-28 00:00:00",
+            "cidr": "107.189.0.0\/19",
+            "nethandle": "NET-107-189-0-0-1",
+            "netname": "PONYNET-11",
+            "netrange": "107.189.0.0 - 107.189.31.255",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.189.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Luxembourg"
+            ],
+            "countrycode": [
+                "US",
+                "LU"
+            ],
+            "asn": "AS53667",
+            "city": [
+                "Cheyenne",
+                "Luxembourg"
+            ],
+            "zip": "82001",
+            "region": [
+                "Luxembourg",
+                "WY"
+            ],
+            "long": "6.1294",
+            "address": "1621 Central Ave",
+            "org": [
+                "FranTech Solutions (SYNDI-5)",
+                "PONYNET"
+            ],
+            "lat": "49.6113"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "node4.anycasthub.com"
+        }
+    }
+}

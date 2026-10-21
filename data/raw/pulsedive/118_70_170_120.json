@@ -1,0 +1,241 @@
+{
+    "qid": null,
+    "iid": 3375809,
+    "indicator": "118.70.170.120",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2018-11-07 13:45:22",
+    "stamp_updated": "2024-12-10 02:19:25",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 00:12:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 15306045,
+                "indicator": "http:\/\/118.70.170.120\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 42,
+            "name": "MS-DS Attack",
+            "category": "attack",
+            "risk": "unknown",
+            "stamp_linked": "2018-11-07 13:45:22"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-23 04:40:59"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 01:56:38"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-01-07 07:14:16"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 17:28:53"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-23 04:40:59"
+        },
+        {
+            "fid": 19,
+            "name": "IPSpamList",
+            "category": "attack",
+            "organization": "NoVirusThanks",
+            "pricing": "free",
+            "stamp_linked": "2018-11-07 13:45:22"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-05-04 02:16:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "Microsoft HTTPAPI"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS18403",
+            "countrycode": "VN",
+            "city": "Hanoi",
+            "country": "Vietnam",
+            "region": "Hanoi",
+            "address": [
+                "Ha Noi, VietNam",
+                "FPT Telecom",
+                "2nd Floor, FPT Cau Giay Tower, 17 Duy Tan, Dich Vong Hau, Cau Giay District, Hanoi"
+            ],
+            "long": "105.8526",
+            "lat": "21.0292",
+            "org": "FPT Telecom Company"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-FPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "origin": "AS18403",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "BPD5-AP",
+                "FHIG1-AP",
+                "LDP12-AP"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "address": [
+                "FPT Telecom",
+                "2nd Floor, FPT Cau Giay Tower, 17 Duy Tan, Dich Vong Hau, Cau Giay District, Hanoi",
+                "Ha Noi, VietNam"
+            ],
+            "netname": "IPxDSL-NET",
+            "admin-c": [
+                "LDP12-AP",
+                "NTTT1-AP",
+                "FHIG1-AP",
+                "LVTL1-AP"
+            ],
+            "nic-hdl": "FHIG1-AP",
+            "role": "FPT HANOI IPADMIN GROUP",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-7601060"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": [
+                "+84-24-37821462",
+                "+84-24-7262163"
+            ],
+            "phone": [
+                "+84-24-7601060",
+                "+84-24-35564944"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2019-08-01T06:46:45Z",
+                "2011-12-13T03:39:19Z",
+                "2023-10-25T01:43:23Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "FHIG1-AP",
+                "LVTL1-AP",
+                "LDP12-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com"
+            ],
+            "route": "118.70.170.0\/24",
+            "descr": [
+                "Vietnam Internet Network Information Center (VNNIC)",
+                "Dai IP dong ket noi xDSL"
+            ],
+            "inetnum": "118.70.0.0 - 118.70.255.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2023-10-25 01:43:23",
+                "2019-08-01 06:46:45"
+            ]
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=us-ascii",
+            "server": "Microsoft-HTTPAPI\/2.0",
+            "++code": "404",
+            "++status": "Not Found",
+            "++content-type": "text\/html",
+            "content-length": "315",
+            "++target": "http:\/\/118.70.170.120\/",
+            "date": "Sat, 12 Oct 2024 12:42:50 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=us-ascii",
+            "++title": "Not Found"
+        },
+        "banners": {
+            "22": "SSH-1.99-Cisco-1.25\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8d7a49012208142773d632bdf25b6f79.jpeg"
+        }
+    }
+}

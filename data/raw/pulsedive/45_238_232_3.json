@@ -1,0 +1,136 @@
+{
+    "qid": null,
+    "iid": 55902771,
+    "indicator": "45.238.232.3",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-06 22:24:23",
+    "stamp_updated": "2024-12-17 11:38:30",
+    "stamp_seen": "2024-12-16 17:46:06",
+    "stamp_probed": "2024-09-30 13:03:31",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-20 06:11:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-06 22:24:23"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-20 06:11:05"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-11 11:05:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS268350",
+            "org": "R.R.COMUNICACAO & MULTIMIDIA EIRELI",
+            "lat": "-23.5335",
+            "long": "-46.6359",
+            "city": "S\ufffdo Paulo",
+            "region": "S\ufffdo Paulo"
+        },
+        "whois": {
+            "country": "BR",
+            "created": [
+                "20170906",
+                "20180705"
+            ],
+            "changed": [
+                "20180705",
+                "20230320"
+            ],
+            "owner-c": "RESPI110",
+            "tech-c": "RESPI110",
+            "nic-hdl-br": "RESPI110",
+            "ownerid": "26.178.225\/0001-26",
+            "person": "reginaldo da silva pires",
+            "responsible": "Reginaldo da Silva Pires",
+            "e-mail": "pires.pires12@gmail.com",
+            "++registrant": "reginaldo da silva pires",
+            "++email": "pires.pires12@gmail.com",
+            "abuse-c": "RESPI110",
+            "aut-num": "AS268350",
+            "owner": "R.R.COMUNICA\ufffd\ufffdO & MULTIMIDIA EIRELI",
+            "inetnum": "45.238.232.0\/22",
+            "inetrev": "45.238.232.0\/22",
+            "nserver": [
+                "ns1.teleleste.net.br",
+                "ns2.teleleste.net.br [lame - not published]"
+            ],
+            "nslastaa": [
+                "20210716",
+                "20241020"
+            ],
+            "nsstat": [
+                "20241020 AA",
+                "20241020 ERR"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "static-45-238-232-3.teleleste.net.br"
+        }
+    }
+}

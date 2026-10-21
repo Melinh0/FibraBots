@@ -1,0 +1,110 @@
+{
+    "qid": null,
+    "iid": 39336031,
+    "indicator": "212.8.236.129",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-09-26 13:14:11",
+    "stamp_updated": "2023-01-20 02:07:19",
+    "stamp_seen": "2022-10-20 00:00:00",
+    "stamp_probed": "2022-10-21 15:07:31",
+    "stamp_retired": "2023-01-20 02:07:19",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-09-26 13:14:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Russian Federation",
+            "countrycode": "RU",
+            "asn": "AS200161",
+            "isp": "DATAPRO Limited Liability Company",
+            "org": "DATAPRO Limited Liability Company",
+            "lat": "55.7386",
+            "long": "37.6068"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "x-powered-by": "ASP.NET",
+            "server": "Microsoft-IIS\/10.0",
+            "content-length": "703",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"2b74e415343d31:0\"",
+            "last-modified": "Thu, 12 Oct 2017 12:11:38 GMT",
+            "date": "Fri, 21 Oct 2022 15:07:09 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1"
+        },
+        "banners": {
+            "143": "* OK The Microsoft Exchange IMAP4 service is ready.\n",
+            "25": "220-mx10.shoko.ru mx10.shoko.ru\n",
+            "465": "220 MBX01.SHOKO.local Microsoft ESMTP MAIL Service ready at Fri, 21 Oct 2022 18:07:08 +0300\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/fe53111661d5ab8db83a2461bc94a5bc.jpeg"
+        },
+        "dns": {
+            "ptr": "mx10.shoko.ru"
+        }
+    }
+}

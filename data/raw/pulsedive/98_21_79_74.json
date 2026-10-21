@@ -1,0 +1,131 @@
+{
+    "qid": null,
+    "iid": 65641706,
+    "indicator": "98.21.79.74",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-06 10:28:33",
+    "stamp_updated": "2024-12-14 03:45:30",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65641885,
+                "indicator": "https:\/\/98.21.79.74:5001\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-06 10:28:33"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-13 01:11:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "NETBIOS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Socket.io",
+            "Vue.js",
+            "Vuex"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Ohio",
+            "city": "Newark",
+            "asn": "AS7029",
+            "lat": "40.0732",
+            "long": "-82.4017",
+            "org": "WINDSTREAM"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store",
+            "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+            "++code": "200",
+            "content-type": "text\/html; charset=\"UTF-8\"",
+            "++content-type": "text\/html",
+            "date": "Fri, 06 Dec 2024 10:28:44 GMT",
+            "++redirect": "https:\/\/98.21.79.74:5001\/",
+            "++target": "http:\/\/98.21.79.74\/",
+            "content-security-policy": "base-uri 'self';  connect-src data: ws: wss: http: https:; default-src 'self' 'unsafe-eval' data: blob: https:\/\/*.synology.com https:\/\/www.synology.cn\/ https:\/\/help.synology.cn\/; font-src 'self' data: https:\/\/*.googleapis.com https:\/\/*.gstatic.com; form-action 'self'; frame-ancestors 'self'; frame-src 'self' data: blob: https:\/\/*.synology.com https:\/\/*.synology.cn http:\/\/*.synology.com http:\/\/*.synology.cn http:\/\/global.synologydownload.com https:\/\/global.synologydownload.com; img-src 'self' data: blob: https:\/\/*.google.com https:\/\/*.googleapis.com http:\/\/*.googlecode.com https:\/\/*.gstatic.com https:\/\/global.download.synology.com; media-src 'self' data: about: https:\/\/*.synology.com https:\/\/help.synology.cn;  script-src 'self' 'unsafe-eval' data: blob: https:\/\/maps.google.com https:\/\/maps.googleapis.com https:\/\/ajax.googleapis.com https:\/\/help.synology.com https:\/\/help.synology.cn; style"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "keywords": "Multitasking,Web Application,Personal Cloud",
+            "x-ua-compatible": "IE=11",
+            "msapplication-tileimage": "resources\/images\/icon_tile.png?v=4398",
+            "msapplication-tilecolor": "#246BB3",
+            "description": "Synology NAS provides a full-featured network attached storage (NAS) solution to help you manage, backup and share data among Windows, Mac and Linux easily.",
+            "application-name": "EagleNas\ufffd-\ufffdSynology\ufffdNAS",
+            "++title": "EagleNas\ufffd-\ufffdSynology\ufffdNAS",
+            "viewport": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Synology Inc. CA",
+            "domain": "synology",
+            "issuer": "\/C=TW\/L=Taipel\/O=Synology Inc.\/CN=Synology Inc. CA",
+            "subject": "\/C=TW\/L=Taipel\/O=Synology Inc.\/CN=synology",
+            "valid": "2024-03-29 13:57:34",
+            "++subject": "Synology Inc.",
+            "fingerprint": "737f043877359ad9b657cf62fff0db1925ab16bb189eb3fb2bd71f0046a66d88",
+            "expires": "2025-03-30 13:57:34"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n",
+            "139": "\u0005\u0001\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

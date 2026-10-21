@@ -1,0 +1,157 @@
+{
+    "qid": null,
+    "iid": 53695910,
+    "indicator": "103.176.78.213",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-02 05:10:22",
+    "stamp_updated": "2024-12-11 10:37:12",
+    "stamp_seen": "2024-11-18 13:57:32",
+    "stamp_probed": "2024-09-29 21:19:59",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-12-22 07:12:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-02 05:10:22"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-12-22 07:12:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-14 19:26:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "ID",
+            "address": [
+                "Sukabumi, Jawa Barat",
+                "PT. AwanBit Data Indonesia",
+                "Jl. Bojonggenteng No 2",
+                "Sukabumi"
+            ],
+            "descr": [
+                "Corporate \/ Direct Member IDNIC",
+                "PT. AwanBit Data Indonesia",
+                "SakaSpace",
+                "Jl. Bojonggenteng No.2",
+                "Sukabumi, Jawa Barat"
+            ],
+            "++registrant": [
+                "FRS7-AP",
+                "Faisal Reza ST"
+            ],
+            "++email": [
+                "noc@cloudbit.co.id",
+                "reza@cloudbit.co.id",
+                "abuse@cloudbit.co.id"
+            ],
+            "admin-c": "FRS7-AP",
+            "person": "Faisal Reza ST",
+            "abuse-mailbox": "abuse@cloudbit.co.id",
+            "phone": "+62-85926-900755",
+            "last-modified": [
+                "2021-10-11T09:22:22Z",
+                "2021-10-11T09:23:28Z",
+                "2021-11-13T04:16:10Z"
+            ],
+            "++phone": "+62-85926-900755",
+            "irt": "IRT-AWANBIT-ID",
+            "mnt-irt": "IRT-AWANBIT-ID",
+            "mnt-by": "MAINT-ID-AWANBIT",
+            "tech-c": "FRS7-AP",
+            "e-mail": [
+                "noc@cloudbit.co.id",
+                "reza@cloudbit.co.id"
+            ],
+            "mnt-routes": "MAINT-ID-AWANBIT",
+            "nic-hdl": "FRS7-AP",
+            "++abuse": "abuse@cloudbit.co.id",
+            "netname": "IDNIC-AWANBIT-ID",
+            "inetnum": "103.176.78.0 - 103.176.78.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-10-11 09:22:22",
+                "2021-10-11 09:23:28",
+                "2021-11-13 04:16:10"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS136052",
+            "org": "PT Cloud Hosting Indonesia",
+            "address": [
+                "Sukabumi, Jawa Barat",
+                "PT. AwanBit Data Indonesia",
+                "Jl. Bojonggenteng No 2",
+                "Sukabumi"
+            ],
+            "lat": "-6.1728",
+            "long": "106.8272"
+        },
+        "dns": {
+            "ptr": "ip103-176-78-213.cloudhost.web.id"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

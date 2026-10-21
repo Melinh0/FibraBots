@@ -1,0 +1,121 @@
+{
+    "qid": null,
+    "iid": 27949991,
+    "indicator": "87.126.166.109",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-09-09 08:34:45",
+    "stamp_updated": "2024-10-20 06:35:43",
+    "stamp_seen": "2024-10-07 18:25:33",
+    "stamp_probed": "2024-08-26 22:26:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-26 21:55:30"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-09 08:34:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3389"
+        ],
+        "protocol": [
+            "RDP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE abuse-mailbox: abuse-ip@vivacom.bg"
+            ],
+            "status": "ASSIGNED PA",
+            "address": [
+                "Bulgaria",
+                "1784, Sofia",
+                "115I, Tsarigradsko shose Blvd.",
+                "Bulgarian Telecommunications Company Plc."
+            ],
+            "country": "BG",
+            "mnt-by": "BT95-ADM",
+            "origin": "AS8866",
+            "descr": [
+                "BTC-BROADBAND-NET",
+                "BTC Broadband Service"
+            ],
+            "netname": "BTC-BROADBAND-NET-3",
+            "++registered": "2018-03-15 00:00:00",
+            "inetnum": "87.126.142.0 - 87.126.191.255",
+            "last-modified": [
+                "2015-09-29T11:12:20Z",
+                "2020-09-25T08:15:42Z",
+                "2020-12-04T11:38:48Z"
+            ],
+            "created": [
+                "2015-09-29T11:12:20Z",
+                "2018-03-15T08:40:30Z",
+                "2001-11-30T11:48:48Z"
+            ],
+            "admin-c": "BTC3-RIPE",
+            "++registrant": "BTC3-RIPE",
+            "++updated": "2020-12-04 00:00:00",
+            "nic-hdl": "BTC3-RIPE",
+            "tech-c": "BTC3-RIPE",
+            "role": "BTC IP ADDRESS SPACE administration",
+            "route": "87.126.166.0\/24"
+        },
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "asn": "AS8866",
+            "city": "Kardzhali",
+            "region": "Kardzhali",
+            "lat": "41.6439",
+            "long": "25.3594",
+            "org": "Vivacom Bulgaria EAD"
+        },
+        "dns": {
+            "ptr": "87-126-166-109.btc-net.bg"
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

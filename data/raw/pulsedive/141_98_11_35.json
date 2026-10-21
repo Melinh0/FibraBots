@@ -1,0 +1,196 @@
+{
+    "qid": null,
+    "iid": 33390823,
+    "indicator": "141.98.11.35",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-29 08:10:02",
+    "stamp_updated": "2024-12-03 13:29:48",
+    "stamp_seen": "2024-12-03 13:29:48",
+    "stamp_probed": "2024-09-30 02:10:16",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-19 03:24:31"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-29 08:10:02"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-19 03:24:31"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-23 14:28:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "LT",
+            "address": [
+                "Kaunas",
+                "Draugystes g. 19",
+                "51230",
+                "LITHUANIA"
+            ],
+            "last-modified": [
+                "2019-01-09T13:14:40Z",
+                "2019-01-10T13:12:30Z",
+                "2019-01-23T11:43:29Z"
+            ],
+            "mnt-by": "mnt-lt-hostbaltic-1",
+            "admin-c": "PV7242-RIPE",
+            "++registrant": [
+                "PV7242-RIPE",
+                "Paulius Vancugovas"
+            ],
+            "tech-c": "PV7242-RIPE",
+            "++phone": "+37067358624",
+            "origin": "AS209605",
+            "nic-hdl": "PV7242-RIPE",
+            "person": "Paulius Vancugovas",
+            "phone": "+37067358624",
+            "created": [
+                "2019-01-08T13:14:38Z",
+                "2019-01-10T13:12:30Z",
+                "2019-01-23T11:43:29Z"
+            ],
+            "route": "141.98.11.0\/24",
+            "inetnum": "141.98.11.0 - 141.98.11.255",
+            "netname": "LT-HOSTBALTIC-11",
+            "++registered": [
+                "2019-01-10 13:12:30",
+                "2019-01-08 13:14:38",
+                "2019-01-23 11:43:29"
+            ],
+            "++updated": [
+                "2019-01-10 13:12:30",
+                "2019-01-09 13:14:40",
+                "2019-01-23 11:43:29"
+            ]
+        },
+        "geo": {
+            "country": "Lithuania",
+            "countrycode": "LT",
+            "city": "Vilnius",
+            "region": [
+                "Vilnius",
+                "Vilnius City Municipality"
+            ],
+            "asn": "AS209605",
+            "org": "UAB Host Baltic",
+            "lat": "54.6912",
+            "long": "25.2816"
+        },
+        "http": {
+            "connection": "close",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1",
+            "strict-transport-security": "max-age=31536000",
+            "content-security-policy": "upgrade-insecure-requests",
+            "content-length": "258",
+            "++code": "303",
+            "x-frame-options": "DENY",
+            "++status": "See Other",
+            "location": "\/ui\/",
+            "date": "Tue, 2 Jul 2024 01:48:18 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "robots": "noindex",
+            "expires": "Tue, 01 Jan 1980 1:00:00 GMT",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-status-bar-style": "black-translucent",
+            "charset": "utf-8",
+            "apple-mobile-web-app-capable": "yes",
+            "viewport": "\n       width=device-width,\n       initial-scale=0.5001,\n       minimum-scale=1.0001,\n       maximum-scale=5.0001,\n       user-scalable=yes",
+            "author": "VMware",
+            "description": "ESXi Host Client"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "CA",
+            "issuer": "\/CN=CA\/DC=vsphere\/DC=local\/C=US\/ST=California\/O=45-137-20-75.hosted-by-rootlayer.net\/OU=VMware Engineering",
+            "domain": "\ufffdb\u000b#",
+            "subject": "\/C=US\/ST=California\/L=Palo Alto\/O=VMware\/OU=VMware Engineering\/CN=141.98.11.35\/E=vmca@vmware.com",
+            "expires": "2028-11-04 08:49:33",
+            "valid": "2023-11-05 08:49:33"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/304e4349dbd56f88d9d7971c424d2375.jpeg"
+        },
+        "dns": {
+            "ptr": "srv-141-98-11-35.serveroffer.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        }
+    }
+}

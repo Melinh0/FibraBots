@@ -1,0 +1,166 @@
+{
+    "qid": null,
+    "iid": 63552708,
+    "indicator": "95.84.158.215",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-23 05:03:06",
+    "stamp_updated": "2024-12-11 10:46:47",
+    "stamp_seen": "2024-09-23 05:30:37",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63553780,
+                "indicator": "http:\/\/95.84.158.215\/dashboard"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-23 05:03:06"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "554",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "RTSP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "117105 Moscow, Russia",
+                "National Cable Networks",
+                "Nagatinskaya str., 1, bldn. 26"
+            ],
+            "admin-c": [
+                "RVP-RIPE",
+                "NCN7-RIPE"
+            ],
+            "descr": [
+                "NCNET",
+                "NCNET Broadband customers"
+            ],
+            "fax-no": "+7 495 6859530",
+            "mnt-by": "NCNET-MNT",
+            "mnt-lower": "NCNET-MNT",
+            "mnt-routes": "NCNET-MNT",
+            "netname": "NCN-BBCUST",
+            "nic-hdl": "NCN7-RIPE",
+            "org": "ORG-NCN1-RIPE",
+            "origin": "AS42610",
+            "phone": "+7 495 6859542",
+            "role": "NCNET NCC Operations",
+            "tech-c": [
+                "RVP-RIPE",
+                "NCN7-RIPE"
+            ],
+            "created": [
+                "2008-12-19T11:59:53Z",
+                "2007-03-26T07:46:58Z",
+                "2009-04-17T11:19:37Z"
+            ],
+            "last-modified": [
+                "2008-12-19T11:59:53Z",
+                "2015-10-12T11:53:05Z",
+                "2009-09-08T13:27:46Z"
+            ],
+            "route": "95.84.128.0\/18",
+            "inetnum": "95.84.128.0 - 95.84.159.255",
+            "++registrant": [
+                "NCN7-RIPE",
+                "RVP-RIPE"
+            ],
+            "++abuse": "abuse@moscow.rt.ru",
+            "++updated": [
+                "2015-10-12 11:53:05",
+                "2008-12-19 11:59:53"
+            ],
+            "abuse-mailbox": "abuse@moscow.rt.ru",
+            "++registered": [
+                "2007-03-26 07:46:58",
+                "2009-04-17 11:19:37",
+                "2008-12-19 11:59:53"
+            ],
+            "++email": "abuse@moscow.rt.ru"
+        },
+        "geo": {
+            "city": "Moscow",
+            "countrycode": "RU",
+            "region": "Moscow",
+            "asn": "AS42610",
+            "org": "Rostelecom",
+            "address": [
+                "National Cable Networks",
+                "Nagatinskaya str., 1, bldn. 26",
+                "117105 Moscow, Russia"
+            ],
+            "lat": "55.7483",
+            "long": "37.6171",
+            "country": "Russia"
+        },
+        "meta": {
+            "mobileoptimized": "320",
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0",
+            "theme-color": "#ffffff",
+            "msapplication-config": "\/assets\/browserconfig.xml",
+            "apple-mobile-web-app-title": "Keenetic Web",
+            "application-name": "Keenetic Web",
+            "msapplication-tileimage": "\/assets\/img\/ms-icon-144x144.png",
+            "msapplication-tilecolor": "#2d405c",
+            "charset": "utf-8",
+            "handheldfriendly": "true",
+            "description": ""
+        },
+        "http": {
+            "++base": "http:\/\/95.84.158.215\/",
+            "++redirect": "http:\/\/95.84.158.215\/dashboard",
+            "++target": "http:\/\/95.84.158.215\/"
+        },
+        "banners": {
+            "22": "SSH-2.0-server\n\u0000\u0000\u0002\f\u0006\u0014\ufffd\ufffdW0\u0003\ufffd\ufffd\ufffd:\ufffd\ufffd\ufffd'M\u000b\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000(ecdsa-sha2-nistp521,rsa-sha2-256,ssh-rsa\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u027eV\u0011%e"
+        }
+    }
+}

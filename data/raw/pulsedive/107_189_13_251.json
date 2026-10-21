@@ -1,0 +1,215 @@
+{
+    "qid": null,
+    "iid": 29416752,
+    "indicator": "107.189.13.251",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-11-04 14:04:49",
+    "stamp_updated": "2024-12-25 17:23:59",
+    "stamp_seen": "2024-12-25 17:23:59",
+    "stamp_probed": "2024-10-01 05:13:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65829687,
+                "indicator": "https:\/\/107.189.13.251\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-11-04 14:04:49"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-12 01:39:33"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-11-04 14:04:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "21",
+            "22",
+            "25",
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SMTP",
+            "SOCKS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++phone": "+1-778-977-8246",
+            "++registrant": "FranTech Solutions",
+            "address": "1621 Central Ave",
+            "city": "Cheyenne",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": "FranTech Solutions (SYNDI-5)",
+            "orgid": "SYNDI-5",
+            "orgname": "FranTech Solutions",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": "82001",
+            "regdate": [
+                "2010-07-21",
+                "2014-04-17"
+            ],
+            "stateprov": "WY",
+            "++registered": [
+                "2014-04-17 00:00:00",
+                "2010-07-21 00:00:00"
+            ],
+            "parent": "NET107 (NET-107-0-0-0-0)",
+            "++abuse": "fdias@frantech.ca",
+            "++email": "fdias@frantech.ca",
+            "orgabuseemail": "fdias@frantech.ca",
+            "orgtechemail": "fdias@frantech.ca",
+            "cidr": "107.189.0.0\/19",
+            "nethandle": "NET-107-189-0-0-1",
+            "netname": "PONYNET-11",
+            "netrange": "107.189.0.0 - 107.189.31.255",
+            "updated": [
+                "2014-04-17",
+                "2024-11-25"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/107.189.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Luxembourg"
+            ],
+            "countrycode": [
+                "US",
+                "LU"
+            ],
+            "asn": "AS53667",
+            "city": [
+                "Cheyenne",
+                "Luxembourg"
+            ],
+            "zip": "82001",
+            "region": [
+                "Luxembourg",
+                "WY"
+            ],
+            "long": "6.1294",
+            "address": "1621 Central Ave",
+            "org": [
+                "FranTech Solutions (SYNDI-5)",
+                "PONYNET"
+            ],
+            "lat": "49.6113"
+        },
+        "http": {
+            "server": "Apache",
+            "++code": "500",
+            "++status": "Internal Server Error",
+            "content-type": "text\/html; charset=utf-8",
+            "content-length": "2073",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/107.189.13.251\/",
+            "++redirect": "https:\/\/107.189.13.251\/",
+            "date": "Tue, 29 Oct 2024 07:38:23 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2\n",
+            "21": "220 ProFTPD 1.2.10\n",
+            "3389": "\u0005\u0004\u0000\u0000",
+            "1080": "\u0005\u0004\u0000\u0000",
+            "25": "220 a118647cac93 Python SMTP proxy version 0.3\n"
+        },
+        "dns": {
+            "ptr": "smtp15.hashtagzz.com"
+        },
+        "ssl": {
+            "version": "v0",
+            "++subject": "None",
+            "org": "m4kzae3f",
+            "fingerprint": "14b2b1069d6152884976afd1556f4375f3731753b061c04feb8448a53ee30eab",
+            "valid": "2024-10-02 14:42:29",
+            "expires": "2026-10-02 14:42:29",
+            "subject": "\/C=US\/ST=OR\/L=None\/O=None\/OU=None\/CN=m4kzae3f",
+            "issuer": "\/C=US\/ST=OR\/L=None\/O=None\/OU=None\/CN=m4kzae3f"
+        },
+        "meta": {
+            "++title": "500 - Request did not return bytes"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/98712a58f8b69b48590904975a1b7ca3.jpeg"
+        }
+    }
+}

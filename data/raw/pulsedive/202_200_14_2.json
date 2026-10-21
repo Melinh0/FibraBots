@@ -1,0 +1,226 @@
+{
+    "qid": null,
+    "iid": 42575999,
+    "indicator": "202.200.14.2",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-12-22 07:01:15",
+    "stamp_updated": "2024-12-15 11:33:02",
+    "stamp_seen": "2024-12-15 07:41:24",
+    "stamp_probed": "2024-09-07 08:02:21",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64124763,
+                "indicator": "https:\/\/202.200.14.2\/login.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-12-22 07:01:15"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-31 11:29:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "++phone": [
+                "+86-10-6278-4049",
+                "+86-10-62784301"
+            ],
+            "admin-c": [
+                "XL1-CN",
+                "CER-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CERNET-AP",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "role": [
+                "CERNET Helpdesk",
+                "ABUSE CERNETAP"
+            ],
+            "tech-c": [
+                "SZ2-AP",
+                "CER-AP"
+            ],
+            "fax-no": [
+                "+86-10-6278-5933",
+                "+86-10-62785933"
+            ],
+            "phone": [
+                "+86-10-6278-4049",
+                "+86-10-62784301"
+            ],
+            "address": [
+                "Beijing 100084, China",
+                "Network Research Center,",
+                "Main Bldg, Tsinghua Univ",
+                "CERNET Center"
+            ],
+            "nic-hdl": [
+                "CER-AP",
+                "AC1685-AP"
+            ],
+            "irt": "IRT-CERNET-AP",
+            "mnt-irt": "IRT-CERNET-AP",
+            "mnt-lower": "MAINT-CERNET-AP",
+            "mnt-routes": "MAINT-CERNET-AP",
+            "descr": [
+                "China Education and Research Network",
+                "Xi'an Regional Network"
+            ],
+            "++registrant": [
+                "XL1-CN",
+                "CER-AP"
+            ],
+            "netname": "XAR-CERNET",
+            "abuse-c": "AC1685-AP",
+            "last-modified": [
+                "2020-09-03T09:14:12Z",
+                "2021-03-24T13:04:50Z",
+                "2024-07-04T04:10:10Z",
+                "2024-07-04T04:10:19Z"
+            ],
+            "++email": [
+                "helpdesk@cernet.edu.cn",
+                "abuse@cernet.edu.cn"
+            ],
+            "e-mail": [
+                "helpdesk@cernet.edu.cn",
+                "abuse@cernet.edu.cn"
+            ],
+            "++abuse": "abuse@cernet.edu.cn",
+            "abuse-mailbox": "abuse@cernet.edu.cn",
+            "inetnum": "202.200.0.0 - 202.201.255.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-04 04:10:10",
+                "2024-07-04 04:10:19",
+                "2020-09-03 09:14:12"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4538",
+            "org": "China Education and Research Network Center",
+            "lat": "34.7732",
+            "address": [
+                "Beijing 100084, China",
+                "Network Research Center,",
+                "Main Bldg, Tsinghua Univ",
+                "CERNET Center"
+            ],
+            "long": "113.722"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "private",
+            "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+            "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+            "x-download-options": "noopen",
+            "x-permitted-cross-domain-policies": "master-only",
+            "referrer-policy": "no-referrer-when-downgrade",
+            "content-length": "4497",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "server": "HTTP Server 1.0",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "content-security-policy": "style-src 'self' 'unsafe-inline';",
+            "++target": "https:\/\/202.200.14.2\/",
+            "++redirect": "https:\/\/202.200.14.2\/login.html",
+            "date": "Tue, 22 Oct 2024 18:28:56 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=CN\/ST=Beijing\/L=BJ\/O=Webserver\/OU=Webserver\/CN=Webserver",
+            "subject": "\/C=CN\/ST=Beijing\/L=BJ\/O=Webserver\/OU=Webserver\/CN=Webserver",
+            "version": "v0",
+            "org": "Webserver",
+            "++subject": "Webserver",
+            "fingerprint": "acab70355296a1ba7e176ade1dce6cfa9be8f682b51815bb065d7b3b570e002a",
+            "valid": "2016-08-24 02:15:17",
+            "expires": "2026-08-22 02:15:17"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "NetST\u9632\u706b\u5899"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.6\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8494de8070420aadcc3f19619f268054.jpeg"
+        },
+        "cookies": {
+            "usgsessid": "13af9b252399bc20c9401e76be9c29f3"
+        }
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "qid": null,
+    "iid": 61223132,
+    "indicator": "46.236.65.236",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-15 05:52:59",
+    "stamp_updated": "2024-12-14 07:00:58",
+    "stamp_seen": "2024-12-14 07:00:58",
+    "stamp_probed": "2024-08-06 19:40:41",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-15 05:52:59"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "23",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "SE",
+            "abuse-mailbox": "abuse@bredband2.se",
+            "address": "Sodra Tullgatan 4 S-211 40 Malmoe Sweden",
+            "admin-c": [
+                "BBPP-RIPE",
+                "BR1985-RIPE",
+                "RAD-RIPE"
+            ],
+            "fax-no": "+46 40 125890",
+            "mnt-by": "BB2-MNT",
+            "netname": "BREDBAND2-NET-SE",
+            "nic-hdl": "BR1985-RIPE",
+            "origin": "AS29518",
+            "phone": "+46 771 518500",
+            "role": "Bredband2 Routingregistry",
+            "tech-c": [
+                "BBPP-RIPE",
+                "BR1985-RIPE",
+                "RAD-RIPE"
+            ],
+            "route": "46.236.64.0\/18",
+            "inetnum": "46.236.65.0 - 46.236.65.255",
+            "last-modified": [
+                "2015-07-01T18:03:05Z",
+                "2021-03-09T14:02:38Z",
+                "2023-10-30T09:16:33Z"
+            ],
+            "created": [
+                "2009-03-09T13:07:04Z",
+                "2011-02-23T07:31:30Z",
+                "2021-03-09T14:02:38Z"
+            ],
+            "++abuse": "abuse@bredband2.se",
+            "++registrant": [
+                "BR1985-RIPE",
+                "RAD-RIPE",
+                "BBPP-RIPE"
+            ],
+            "++email": "abuse@bredband2.se",
+            "descr": [
+                "Bredband2 Customer",
+                "B2"
+            ],
+            "++registered": [
+                "2009-03-09 13:07:04",
+                "2021-03-09 14:02:38",
+                "2011-02-23 07:31:30"
+            ],
+            "++updated": [
+                "2015-07-01 18:03:05",
+                "2021-03-09 14:02:38",
+                "2023-10-30 09:16:33"
+            ]
+        },
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS29518",
+            "org": "Bredband2 AB",
+            "lat": "59.3247",
+            "long": "18.056",
+            "address": "Sodra Tullgatan 4 S-211 40 Malmoe Sweden"
+        },
+        "http": {
+            "++code": "200",
+            "++status": "OK"
+        },
+        "banners": {
+            "21": "220 Ftp firmware update utility"
+        },
+        "dns": {
+            "ptr": "h46-236-65-236.cust.bredband2.com"
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "qid": null,
+    "iid": 60221824,
+    "indicator": "95.188.91.101",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-14 15:59:38",
+    "stamp_updated": "2024-12-11 10:46:44",
+    "stamp_seen": "2024-12-04 00:00:00",
+    "stamp_probed": "2024-09-07 08:25:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65123780,
+                "indicator": "https:\/\/95.188.91.101\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-25 20:40:59"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-14 15:59:38"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-25 20:40:59"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-17 04:50:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS12389",
+            "city": "Krasnoyarsk",
+            "org": "Rostelecom",
+            "lat": "56.0133",
+            "long": "92.7885",
+            "region": "Krasnoyarsk Krai",
+            "country": "Russia"
+        },
+        "http": {
+            "accept-ranges": "bytes",
+            "content-length": "444",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.26.0",
+            "last-modified": "Mon, 24 Jun 2024 09:54:54 GMT",
+            "etag": "\"6679426e-1bc\"",
+            "date": "Sat, 12 Oct 2024 09:52:45 GMT",
+            "++redirect": "https:\/\/95.188.91.101\/",
+            "++target": "http:\/\/95.188.91.101\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=apvasilenko.ru",
+            "fingerprint": "4768be55ec402739580a3602cbefe97053da974bd4ce19308d3748308a8a743f",
+            "valid": "2024-08-24 14:58:40",
+            "domain": "apvasilenko.ru",
+            "expires": "2024-11-22 14:58:39"
+        },
+        "meta": {
+            "charset": "utf-8",
+            "++title": "\u041b\u0438\u0447\u043d\u044b\u0439 \u0441\u0430\u0439\u0442 \u0412\u0430\u0441\u0438\u043b\u0435\u043d\u043a\u043e \u0410\u043d\u0442\u043e\u043d\u0430 \u041f\u0430\u0432\u043b\u043e\u0432\u0438\u0447\u0430"
+        },
+        "banners": {
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/518540caea2e35e38c92ff899b19c47e.jpeg"
+        }
+    }
+}

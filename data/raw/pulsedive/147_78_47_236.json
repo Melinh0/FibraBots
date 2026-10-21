@@ -1,0 +1,77 @@
+{
+    "qid": null,
+    "iid": 34429351,
+    "indicator": "147.78.47.236",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-04-28 15:29:32",
+    "stamp_updated": "2024-10-08 13:07:06",
+    "stamp_seen": "2024-07-07 00:47:32",
+    "stamp_probed": "2024-07-07 00:47:32",
+    "stamp_retired": "2024-10-08 13:07:06",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-04-28 15:29:32"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Netherlands",
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "zip": "1012",
+            "region": "North Holland",
+            "asn": "AS209588",
+            "org": "Flyservers S.A.",
+            "isp": "Flyservers S.A.",
+            "long": "4.8975",
+            "lat": "52.3759"
+        },
+        "dns": {
+            "ptr": "undefined.hostname.localhost"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u2\n"
+        }
+    }
+}

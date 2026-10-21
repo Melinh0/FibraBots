@@ -1,0 +1,240 @@
+{
+    "qid": null,
+    "iid": 62439961,
+    "indicator": "174.138.26.166",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-18 21:24:57",
+    "stamp_updated": "2024-12-16 11:31:28",
+    "stamp_seen": "2024-12-16 11:12:25",
+    "stamp_probed": "2024-09-30 05:56:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62440032,
+                "indicator": "http:\/\/174.138.26.166\/users\/sign_in"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-08-29 03:12:24"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-18 21:24:57"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-08-29 03:12:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "GitLab",
+            "HSTS",
+            "jQuery",
+            "Nginx",
+            "Open Graph",
+            "Ruby",
+            "Ruby on Rails",
+            "Sentry",
+            "Vue.js",
+            "webpack"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2016-04-12"
+            ],
+            "stateprov": "NY",
+            "parent": "NET174 (NET-174-0-0-0-0)",
+            "++registered": [
+                "2016-04-12 00:00:00",
+                "2012-05-14 00:00:00"
+            ],
+            "cidr": "174.138.0.0\/17",
+            "nethandle": "NET-174-138-0-0-1",
+            "netrange": "174.138.0.0 - 174.138.127.255",
+            "originas": "AS14061",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/174.138.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-174-138-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore"
+            ],
+            "countrycode": [
+                "US",
+                "SG"
+            ],
+            "city": [
+                "New York",
+                "Singapore"
+            ],
+            "asn": "AS14061",
+            "region": "NY",
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "103.6818",
+            "lat": "1.3078"
+        },
+        "http": {
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "x-ua-compatible": "IE=edge",
+            "x-download-options": "noopen",
+            "x-permitted-cross-domain-policies": "none",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "x-gitlab-feature-category": "authentication_and_authorization",
+            "permissions-policy": "interest-cohort=()",
+            "++redirect": "http:\/\/174.138.26.166\/users\/sign_in",
+            "++target": "http:\/\/174.138.26.166\/",
+            "date": "Sat, 12 Oct 2024 09:58:57 GMT",
+            "etag": "W\/\"8221c5a213af4c14e0e4ae3df0ae29d8\"",
+            "content-security-policy": "base-uri 'self'; child-src 'none'; connect-src 'self'; default-src 'self'; font-src 'self'; form-action 'self' https: http:; frame-ancestors 'self'; frame-src 'self' https:\/\/www.recaptcha.net\/ https:\/\/content.googleapis.com https:\/\/content-compute.googleapis.com https:\/\/content-cloudbilling.googleapis.com https:\/\/content-cloudresourcemanager.googleapis.com; img-src 'self' data: blob: http: https:; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https:\/\/www.recaptcha.net https:\/\/apis.google.com 'nonce-4uRsqM8yE\/YJpPomAuymeQ=='; style-src 'self' 'unsafe-inline'; worker-src 'self'",
+            "x-runtime": "0.815672",
+            "x-request-id": "01JA02NEN6WJC2FBPHEH0JA2X9",
+            "set-cookie": "_gitlab_session=d856694d258150f2a49b1791418dc774; path=\/; expires=Sat, 12 Oct 2024 11:58:57 GMT; HttpOnly"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "twitter:card": "summary",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "csrf-param": "authenticity_token",
+            "og:type": "object",
+            "description": "GitLab Community Edition",
+            "theme-color": "#474D57",
+            "msapplication-tilecolor": "#30353E",
+            "og:image:height": "64",
+            "og:image:width": "64",
+            "og:site_name": "GitLab",
+            "twitter:title": "Sign in",
+            "msapplication-tileimage": "\/assets\/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png",
+            "og:description": "GitLab Community Edition",
+            "twitter:description": "GitLab Community Edition",
+            "charset": "utf-8",
+            "og:title": "Sign in",
+            "action-cable-url": "\/-\/cable",
+            "og:image": "http:\/\/174.138.26.166\/assets\/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png",
+            "twitter:image": "http:\/\/174.138.26.166\/assets\/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png",
+            "og:url": "http:\/\/174.138.26.166\/users\/sign_in",
+            "++title": "Sign in \ufffd GitLab",
+            "csp-nonce": "4uRsqM8yE\/YJpPomAuymeQ==",
+            "csrf-token": "wUn7mVQFFHAyiEOYgA15hDhgQyS7wBM8Y0vXlGosznTdImgSO9yc5vIVdJW0pz0Kp3guyBdV0GMAtpOegUtQRw=="
+        },
+        "banners": {
+            "22": "SSH-2.0-Go\n"
+        },
+        "cookies": {
+            "_gitlab_session": "d856694d258150f2a49b1791418dc774"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/177dceae19323ab152336ffba8057c7c.jpeg"
+        }
+    }
+}

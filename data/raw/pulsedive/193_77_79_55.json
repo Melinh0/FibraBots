@@ -1,0 +1,190 @@
+{
+    "qid": null,
+    "iid": 65702138,
+    "indicator": "193.77.79.55",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-08 10:30:00",
+    "stamp_updated": "2024-12-14 11:28:37",
+    "stamp_seen": "2024-12-08 10:30:19",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65702193,
+                "indicator": "https:\/\/193.77.79.55\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-08 10:30:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "OpenResty"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "SI",
+            "address": [
+                "Slovenia",
+                "Telekom Slovenije d.d.",
+                "Cigaletova 15",
+                "1000 Ljubljana"
+            ],
+            "mnt-by": "AS5603-MNT",
+            "netname": "SIOL-NET",
+            "nic-hdl": "SIT111-RIPE",
+            "origin": "AS5603",
+            "created": [
+                "2005-02-01T13:45:12Z",
+                "2004-01-09T14:21:41Z",
+                "2014-10-15T11:31:43Z"
+            ],
+            "route": "193.77.64.0\/18",
+            "role": "Telekom Slovenije Internet Team - Ripe",
+            "descr": [
+                "Internet Service Provider in Slovenia",
+                "Telekom Slovenije d.d.",
+                "http:\/\/www.telekom.si"
+            ],
+            "admin-c": [
+                "MUC11-RIPE",
+                "SIT111-RIPE"
+            ],
+            "tech-c": [
+                "SIT111-RIPE",
+                "BJ1176-RIPE",
+                "AV12064-RIPE",
+                "MP34728-RIPE"
+            ],
+            "last-modified": [
+                "2014-10-15T11:31:43Z",
+                "2023-06-09T11:20:52Z",
+                "2024-03-05T12:28:23Z"
+            ],
+            "inetnum": "193.77.79.0 - 193.77.79.127",
+            "++registrant": [
+                "SIT111-RIPE",
+                "MUC11-RIPE"
+            ],
+            "phone": "+386-1 234 1377",
+            "fax-no": "+386-1 434 4515",
+            "++abuse": "abuse@telekom.si",
+            "abuse-mailbox": "abuse@telekom.si",
+            "++email": "abuse@telekom.si",
+            "++registered": [
+                "2004-01-09 14:21:41",
+                "2005-02-01 13:45:12",
+                "2014-10-15 11:31:43"
+            ],
+            "++updated": [
+                "2023-06-09 11:20:52",
+                "2024-03-05 12:28:23"
+            ]
+        },
+        "geo": {
+            "country": "Slovenia",
+            "countrycode": "SI",
+            "asn": "AS5603",
+            "address": [
+                "Cigaletova 15",
+                "Slovenia",
+                "Telekom Slovenije d.d.",
+                "1000 Ljubljana"
+            ],
+            "org": "Telekom Slovenije, d.d.",
+            "long": "15.7026",
+            "lat": "46.5064",
+            "region": "Ob\u010dina Miklav\u017e na Dravskem Polju",
+            "city": "Miklav\u017e na Dravskem Polju"
+        },
+        "http": {
+            "accept-ranges": "none",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "server": "openresty",
+            "strict-transport-security": "max-age=7884000",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Sun, 08 Dec 2024 10:30:06 GMT",
+            "last-modified": "Sun, 08 Dec 2024 10:30:06 GMT",
+            "expires": "Sun, 08 Dec 2024 10:30:06 GMT",
+            "++redirect": "https:\/\/193.77.79.55\/",
+            "++target": "http:\/\/193.77.79.55\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=IOS-Self-Signed-Certificate-1662693329",
+            "valid": "2024-11-19 16:16:31",
+            "expires": "2034-11-19 16:16:31",
+            "fingerprint": "eff0b0dc358500e295280ac4bbd649ce2843ec1d5c106c6976b227fc23df78cf",
+            "issuer": "\/CN=IOS-Self-Signed-Certificate-1662693329",
+            "org": "IOS-Self-Signed-Certificate-1662693329"
+        },
+        "banners": {
+            "22": "SSH-1.99-Cisco-1.25\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

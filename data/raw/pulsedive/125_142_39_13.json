@@ -1,0 +1,225 @@
+{
+    "qid": null,
+    "iid": 52452234,
+    "indicator": "125.142.39.13",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-25 01:04:52",
+    "stamp_updated": "2024-12-15 11:29:36",
+    "stamp_seen": "2024-12-15 07:22:09",
+    "stamp_probed": "2024-09-07 07:46:54",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 53269147,
+                "indicator": "http:\/\/125.142.39.13:13080\/"
+            },
+            {
+                "iid": 65135466,
+                "indicator": "https:\/\/125.142.39.13:13443\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-04 19:40:28"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-25 01:04:52"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-04 19:40:28"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-25 14:36:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "13080",
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Tag Manager",
+            "jQuery",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+82-2-500-6630",
+            "address": [
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IA9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "descr": "Korea Telecom",
+            "e-mail": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "inetnum": "125.128.0.0 - 125.159.255.255",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "netname": [
+                "KORNET-KR",
+                "KORNET"
+            ],
+            "nic-hdl": [
+                "IM9-KR",
+                "IM667-AP",
+                "IA9-KR"
+            ],
+            "person": "IP Manager",
+            "phone": "+82-2-500-6630",
+            "tech-c": [
+                "IM9-KR",
+                "IM574-AP",
+                "IM667-AP"
+            ],
+            "last-modified": [
+                "2017-03-28T06:37:04Z",
+                "2017-02-03T02:22:02Z",
+                "2021-06-15T06:21:49Z"
+            ],
+            "++registrant": [
+                "IM667-AP",
+                "IM574-AP",
+                "IA9-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "kornet_ip@kt.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2017-03-28 06:37:04"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS4766",
+            "org": "Korea Telecom",
+            "city": "Goyang-si",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Gyeonggi-do Bundang-gu, Seongnam-si Buljeong-ro 90",
+                "KT Head Office"
+            ],
+            "region": "Gyeonggi-do",
+            "long": "126.7741",
+            "lat": "37.6999",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "7113",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "server": "lighttpd\/1.4.64",
+            "last-modified": "Mon, 28 Nov 2022 19:14:03 GMT",
+            "++target": "http:\/\/125.142.39.13\/",
+            "etag": "\"3872201512\"",
+            "++redirect": "https:\/\/125.142.39.13:13443\/",
+            "date": "Tue, 22 Oct 2024 16:14:37 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "cache-control": "no-cache",
+            "charset": "UTF-8",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2022-05-03 18:21:24",
+            "fingerprint": "031bd99dcc124a9651a57518cd02077b61efd7fb99b37939cbd122b3248020b8",
+            "valid": "2021-03-31 18:21:24",
+            "subject": "\/C=TW\/ST=Taiwan\/L=Taipei\/O=QSAN Technology, Inc.\/OU=NAS\/CN=XN-Series NAS\/E=support@qsan.com",
+            "org": "XN-Series NAS",
+            "++subject": "QSAN Technology, Inc.",
+            "issuer": "\/C=TW\/ST=Taiwan\/L=Taipei\/O=QSAN Technology, Inc.\/OU=NAS\/CN=XN-Series NAS\/E=support@qsan.com"
+        },
+        "banners": {
+            "21": "220 Welcome to FTP server\n",
+            "22": "SSH-2.0-mod_sftp\/0.9.9\n\u0000\u0000\u0001\ufffd\u0005\u0014\ufffd\ufffdy\ufffd\ufffdPco\ufffd\ufffd,{m\ufffdg\u0000\u0000\u0000Mdiffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,rsa1024-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000)aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr\u0000\u0000\u0000)aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr\u0000\u0000\u0000\/hmac-sha2-256,hmac-sha2-512,umac-64@openssh.com\u0000\u0000\u0000\/hmac-sha2-256,hmac-sha2-512,umac-64@openssh.com\u0000\u0000\u0000\u001azlib@openssh.com,zlib,none\u0000\u0000\u0000\u001azlib@openssh.com,zlib,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u001b\ufffd\ufffdZ"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

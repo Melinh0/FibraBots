@@ -1,0 +1,138 @@
+{
+    "qid": null,
+    "iid": 62889344,
+    "indicator": "131.106.85.205",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-01 22:41:00",
+    "stamp_updated": "2024-12-16 11:29:59",
+    "stamp_seen": "2024-12-15 07:23:42",
+    "stamp_probed": "2024-09-04 11:14:54",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-01 22:41:00"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "NJ",
+            "++registered": [
+                "2013-07-09 00:00:00",
+                "2018-05-15 00:00:00"
+            ],
+            "parent": "NET131 (NET-131-0-0-0-0)",
+            "city": "Princeton",
+            "postalcode": "08540",
+            "regdate": [
+                "2013-07-09",
+                "2018-05-15"
+            ],
+            "referralserver": "rwhois:\/\/rwhois.rcn.net:4321",
+            "orgtechname": "RCN Corporation",
+            "orgabusehandle": "RAD75-ARIN",
+            "++abuse": "abuse@rcn.com",
+            "orgtechhandle": "ZR40-ARIN",
+            "++phone": "+1-888-972-6622",
+            "orgnocphone": "+1-888-972-6622",
+            "orgabuseemail": "abuse@rcn.com",
+            "address": "650 College Road East",
+            "orgname": "RCN",
+            "orgtechphone": "+1-888-972-6622",
+            "++registrant": "RCN",
+            "organization": "RCN (RTSL-6)",
+            "orgabusename": "RCN Abuse Department",
+            "orgabusephone": "+1-888-972-6622",
+            "++email": "noc@rcn.com",
+            "orgid": "RTSL-6",
+            "orgtechemail": "noc@rcn.com",
+            "updated": [
+                "2018-05-15",
+                "2022-08-30"
+            ],
+            "originas": "AS6079",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZR40-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/RTSL-6",
+                "https:\/\/rdap.arin.net\/registry\/ip\/131.106.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/RAD75-ARIN",
+            "netname": "RCN-BLK-29",
+            "nethandle": "NET-131-106-0-0-1",
+            "cidr": "131.106.0.0\/16",
+            "netrange": "131.106.0.0 - 131.106.255.255",
+            "++updated": "2022-08-30 00:00:00",
+            "orgnocemail": "noc@astound.com",
+            "orgnochandle": "ABN3-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/ABN3-ARIN",
+            "orgnocname": "Astound Broadband NOC"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Pennsylvania",
+                "NJ"
+            ],
+            "city": [
+                "Princeton",
+                "Allentown"
+            ],
+            "zip": "08540",
+            "asn": "AS6079",
+            "lat": "40.595",
+            "long": "-75.5289",
+            "org": [
+                "RCN-AS",
+                "RCN (RTSL-6)"
+            ],
+            "address": "650 College Road East"
+        },
+        "dns": {
+            "ptr": "131-106-85-205.s1483.c3-0.tlg-cbr5.atw-tlg.pa.cable.rcncustomer.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0001t\u0005\u0014\ufffd\ufffd\ufffdR\u001f(\u0012[\u0460\ufffd\ufffdY\ufffd\ufffd'\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0012\u0012\ufffdh\u001c"
+        }
+    }
+}

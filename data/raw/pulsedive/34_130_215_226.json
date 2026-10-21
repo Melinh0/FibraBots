@@ -1,0 +1,211 @@
+{
+    "qid": null,
+    "iid": 60925112,
+    "indicator": "34.130.215.226",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-05 17:10:36",
+    "stamp_updated": "2024-12-14 11:30:48",
+    "stamp_seen": "2024-12-14 09:44:20",
+    "stamp_probed": "2024-08-28 22:56:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60925412,
+                "indicator": "https:\/\/34.130.215.226\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-05 17:10:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-09 05:43:04"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Headless UI",
+            "Let's Encrypt",
+            "Next.js",
+            "Nginx",
+            "Priority Hints"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": [
+                "Toronto",
+                "Mountain View"
+            ],
+            "country": [
+                "Canada",
+                "United States"
+            ],
+            "countrycode": [
+                "CA",
+                "US"
+            ],
+            "zip": "94043",
+            "region": [
+                "CA",
+                "Ontario"
+            ],
+            "address": "1600 Amphitheatre Parkway",
+            "org": [
+                "Google LLC (GOOGL-2)",
+                "GOOGLE-CLOUD-PLATFORM"
+            ],
+            "lat": "43.6547",
+            "long": "-79.3623",
+            "asn": "AS396982"
+        },
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "CA",
+            "++registered": [
+                "2006-09-29 00:00:00",
+                "2021-01-08 00:00:00"
+            ],
+            "parent": "NET34 (NET-34-0-0-0-0)",
+            "++email": "arin-contact@google.com",
+            "++phone": "+1-650-253-0000",
+            "address": "1600 Amphitheatre Parkway",
+            "city": "Mountain View",
+            "orgabusephone": "+1-650-253-0000",
+            "orgtechemail": "arin-contact@google.com",
+            "orgtechhandle": "ZG39-ARIN",
+            "orgtechphone": "+1-650-253-0000",
+            "postalcode": "94043",
+            "++abuse": "google-cloud-compliance@google.com",
+            "orgabuseemail": "google-cloud-compliance@google.com",
+            "orgabusehandle": "GCABU-ARIN",
+            "orgabusename": "GC Abuse",
+            "orgid": "GOOGL-2",
+            "orgnocemail": "google-cloud-compliance@google.com",
+            "orgnochandle": "GCABU-ARIN",
+            "orgnocname": "GC Abuse",
+            "orgnocphone": "+1-650-253-0000",
+            "regdate": [
+                "2006-09-29",
+                "2021-01-08"
+            ],
+            "netname": "GOOGL-2",
+            "++registrant": "Google LLC",
+            "orgname": "Google LLC",
+            "organization": "Google LLC (GOOGL-2)",
+            "orgtechname": "Google LLC",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZG39-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOOGL-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/34.128.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "nethandle": "NET-34-128-0-0-1",
+            "cidr": "34.128.0.0\/10",
+            "netrange": "34.128.0.0 - 34.191.255.255",
+            "++updated": [
+                "2019-11-01 00:00:00",
+                "2021-01-08 00:00:00"
+            ],
+            "updated": [
+                "2019-11-01",
+                "2021-01-08"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "cache-control": "no-store, no-cache",
+            "content-length": "29901",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.20.1",
+            "++redirect": "https:\/\/34.130.215.226\/",
+            "++target": "http:\/\/34.130.215.226\/",
+            "date": "Tue, 22 Oct 2024 18:13:19 GMT",
+            "last-modified": "Tuesday, 22-Oct-2024 18:13:19 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "description": "website for NULOOP",
+            "++title": "NULOOP"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E6",
+            "org": "E6",
+            "domain": "www.nuloop.ca",
+            "subject": "\/CN=www.nuloop.ca",
+            "fingerprint": "24e0aabf294f6c2e1305a6467df38c17eeeed6c0ba6898e235f837cd7485bf62",
+            "expires": "2024-12-09 17:34:29",
+            "valid": "2024-09-10 17:34:30"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220 (vsFTPd 3.0.2)\n"
+        },
+        "dns": {
+            "ptr": "226.215.130.34.bc.googleusercontent.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1a12fb6cb16b0b41ec1e4b8c26b15ab9.jpeg"
+        }
+    }
+}

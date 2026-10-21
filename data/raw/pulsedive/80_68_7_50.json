@@ -1,0 +1,162 @@
+{
+    "qid": null,
+    "iid": 40245543,
+    "indicator": "80.68.7.50",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-10-21 07:35:35",
+    "stamp_updated": "2024-12-11 10:46:14",
+    "stamp_seen": "2024-12-04 00:00:00",
+    "stamp_probed": "2024-09-30 20:03:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-19 15:03:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-10-21 07:35:35"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-01-02 11:46:44"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-12-19 15:03:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-15 09:50:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080"
+        ],
+        "protocol": [
+            "SOCKS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "RU",
+            "status": "SUB-ALLOCATED PA",
+            "descr": [
+                "OJSC Rostelecom Macroregional Branch South",
+                "Rostov, Russia",
+                "NAT Rostelecom (prefix 80.68.6.0\/23, Rostov)"
+            ],
+            "mnt-by": [
+                "ROSTELECOM-MNT",
+                "ROSTOV-TELEGRAF-MNT"
+            ],
+            "netname": "Macroregional_South",
+            "origin": "AS12389",
+            "mnt-lower": [
+                "ROSTELECOM-MNT",
+                "ROSTOV-TELEGRAF-MNT"
+            ],
+            "address": "wert@donpac.ru",
+            "admin-c": "VAS102-RIPE",
+            "mnt-routes": "ROSTOV-TELEGRAF-MNT",
+            "nic-hdl": "VAS102-RIPE",
+            "person": "Vladimir A. Sherstnev",
+            "phone": "+7 863 2619163",
+            "tech-c": "VAS102-RIPE",
+            "mnt-domains": "ROSTOV-TELEGRAF-MNT",
+            "inetnum": "80.68.0.0 - 80.68.7.255",
+            "last-modified": [
+                "2016-01-13T06:40:41Z",
+                "2017-04-04T13:09:06Z",
+                "2023-09-28T11:23:43Z"
+            ],
+            "created": [
+                "2005-05-25T05:31:56Z",
+                "2017-04-04T13:09:06Z",
+                "2023-09-28T11:23:43Z"
+            ],
+            "++registrant": [
+                "VAS102-RIPE",
+                "Vladimir A. Sherstnev"
+            ],
+            "route": "80.68.6.0\/23",
+            "++registered": [
+                "2023-09-28 11:23:43",
+                "2005-05-25 05:31:56",
+                "2017-04-04 13:09:06"
+            ],
+            "++updated": [
+                "2023-09-28 11:23:43",
+                "2016-01-13 06:40:41",
+                "2017-04-04 13:09:06"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS21479",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "org": "Rostelecom",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "50.7.68.80.donpac.ru"
+        },
+        "banners": {
+            "1080": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

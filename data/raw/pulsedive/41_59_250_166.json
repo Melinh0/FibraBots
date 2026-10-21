@@ -1,0 +1,196 @@
+{
+    "qid": null,
+    "iid": 64819044,
+    "indicator": "41.59.250.166",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-09 09:02:24",
+    "stamp_updated": "2024-12-14 11:31:11",
+    "stamp_seen": "2024-11-09 09:05:21",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64819976,
+                "indicator": "https:\/\/41.59.250.166\/pub\/login.html"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-09 09:02:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "jQuery"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ALLOCATED PA",
+            "mnt-by": [
+                "AFRINIC-HM-MNT",
+                "TTCLDATA-MNT",
+                "GENERATED-JOU1BVE4O0ZGNWHFAD0ZBWWUKSPKJFFZ-MNT",
+                "GENERATED-7LII7XL0XENU0UL0TGN1YXPWNZUHMI5K-MNT"
+            ],
+            "address": [
+                "Tanzania",
+                "4th Floor,",
+                "Extelecomms Building, Samora Avenue",
+                "Dar Es Salaam PO Box 9070",
+                "Samora Avenue",
+                "IP Data Networks Operations",
+                "Tanzania Telecommunications Corporation",
+                "Telephone House, Zanaki\/Kaluta Street",
+                "P.O.Box 9070, Dar es Salaam",
+                "4th Floor,Extelecomms Building,"
+            ],
+            "country": "TZ",
+            "descr": [
+                "TANZANIA TELECOMMUNICATIONS CO. LTD",
+                "TTCL-IP BLOCK-1"
+            ],
+            "inetnum": "41.59.0.0 - 41.59.255.255",
+            "mnt-lower": "TTCLDATA-MNT",
+            "mnt-ref": [
+                "TTCLDATA-MNT",
+                "AFRINIC-HM-MNT"
+            ],
+            "mnt-routes": "TTCLDATA-MNT",
+            "netname": "TTCL-20100413",
+            "org": "ORG-TTCL1-AFRINIC",
+            "org-name": "TANZANIA TELECOMMUNICATIONS CO. LTD",
+            "organisation": "ORG-TTCL1-AFRINIC",
+            "origin": "AS33765",
+            "phone": [
+                "tel:+255-738-261-212",
+                "tel:+255-22-214-2250",
+                "tel:+255-739-202-255",
+                "tel:+255-738-261-220"
+            ],
+            "fax-no": "tel:+255-22213488",
+            "route": "41.59.0.0\/16",
+            "admin-c": "NM71-AFRINIC",
+            "++registrant": [
+                "NM71-AFRINIC",
+                "Kajiru Mntambo",
+                "Nkonze Masuha"
+            ],
+            "tech-c": [
+                "NM71-AFRINIC",
+                "KM49-AFRINIC"
+            ],
+            "nic-hdl": [
+                "NM71-AFRINIC",
+                "KM49-AFRINIC"
+            ],
+            "person": [
+                "Nkonze Masuha",
+                "Kajiru Mntambo"
+            ],
+            "source": "AFRINIC # Filtered",
+            "parent": "41.0.0.0 - 41.255.255.255"
+        },
+        "geo": {
+            "countrycode": "TZ",
+            "asn": "AS33765",
+            "org": [
+                "TTCLDATA",
+                "ORG-TTCL1-AFRINIC"
+            ],
+            "lat": "-6.8227",
+            "address": [
+                "4th Floor,",
+                "Tanzania",
+                "Extelecomms Building, Samora Avenue",
+                "Dar Es Salaam PO Box 9070",
+                "IP Data Networks Operations",
+                "Tanzania Telecommunications Corporation",
+                "Telephone House, Zanaki\/Kaluta Street",
+                "P.O.Box 9070, Dar es Salaam",
+                "4th Floor,Extelecomms Building,",
+                "Samora Avenue"
+            ],
+            "long": "39.2936",
+            "country": "Tanzania"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Sat Nov  9 09:05:03 2024",
+            "++redirect": "https:\/\/41.59.250.166\/pub\/login.html",
+            "++target": "https:\/\/41.59.250.166\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "content-type": "text\/html",
+            "++title": "OLT Web Management Interface",
+            "charset": "utf-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "localhost",
+            "expires": "2033-10-08 06:41:08",
+            "valid": "2023-10-11 06:41:08",
+            "fingerprint": "40c6639ae0ad81e9df9d7dccae72a088b84eb207dc2400feb7305a7daed0c6fa",
+            "++subject": "Vsolution.com",
+            "subject": "\/C=CN\/ST=Guangzhou\/L=Huangpu\/O=Vsolution.com\/OU=Production\/CN=localhost\/E=production@example.com",
+            "issuer": "\/C=CN\/ST=Guangzhou\/L=Huangpu\/O=Vsolution.com\/OU=Production\/CN=localhost\/E=production@example.com"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003",
+            "22": "SSH-2.0-OpenSSH_8.8\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cd683e545563d964185aeec262b8061b.jpeg"
+        }
+    }
+}

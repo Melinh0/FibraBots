@@ -1,0 +1,206 @@
+{
+    "qid": null,
+    "iid": 35157593,
+    "indicator": "90.151.171.106",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-18 01:12:33",
+    "stamp_updated": "2024-12-11 14:59:07",
+    "stamp_seen": "2024-12-11 14:59:07",
+    "stamp_probed": "2024-09-13 08:22:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64132200,
+                "indicator": "https:\/\/90.151.171.106\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-09-06 06:00:11"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-06-26 23:59:17"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-09-06 06:00:11"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 504350,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 01:12:33",
+            "stamp_updated": "2022-05-18 01:12:33"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Debian",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "address": [
+                "Russian Federation",
+                "11, Moskovskaya str.",
+                "Yekaterinburg, 620014"
+            ],
+            "mnt-by": "MFIST-MNT",
+            "netname": "USI_ADSL_USERS",
+            "admin-c": [
+                "TA2344-RIPE",
+                "SK3575-RIPE",
+                "UPAS1-RIPE",
+                "SK2534-RIPE",
+                "DK2192-RIPE"
+            ],
+            "nic-hdl": "UPAS1-RIPE",
+            "role": "Uralsvyazinform Perm Administration Staff",
+            "tech-c": [
+                "TA2344-RIPE",
+                "SK3575-RIPE",
+                "UPAS1-RIPE",
+                "DK2192-RIPE"
+            ],
+            "inetnum": "90.151.161.0 - 90.151.175.255",
+            "origin": "AS35400",
+            "descr": [
+                "OJSC \"Uralsvyazinform\", MFIST",
+                "Dynamic distribution IP's for broadband services",
+                "OJSC Rostele\ufffdom, regional branch \"Urals\""
+            ],
+            "created": [
+                "2007-09-18T08:50:24Z",
+                "2012-03-20T07:24:52Z",
+                "2008-02-29T05:30:21Z"
+            ],
+            "last-modified": [
+                "2012-03-20T07:24:52Z",
+                "2019-02-14T06:36:03Z",
+                "2008-02-29T05:30:21Z"
+            ],
+            "++registrant": [
+                "UPAS1-RIPE",
+                "SK2534-RIPE",
+                "DK2192-RIPE",
+                "SK3575-RIPE",
+                "TA2344-RIPE"
+            ],
+            "route": "90.151.170.0\/23",
+            "++registered": [
+                "2007-09-18 08:50:24",
+                "2012-03-20 07:24:52",
+                "2008-02-29 05:30:21"
+            ],
+            "++updated": [
+                "2019-02-14 06:36:03",
+                "2008-02-29 05:30:21"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS12389",
+            "city": "Yekaterinburg",
+            "org": "Rostelecom",
+            "region": "Sverdlovsk Oblast",
+            "lat": "56.8439",
+            "long": "60.6524",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "etag": "W\/\"66740794-264\"",
+            "last-modified": "Thu, 20 Jun 2024 10:42:28 GMT",
+            "++redirect": "https:\/\/90.151.171.106\/",
+            "++target": "http:\/\/90.151.171.106\/",
+            "date": "Fri, 18 Oct 2024 14:25:16 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=RU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "subject": "\/C=RU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "version": "v3",
+            "++subject": "Internet Widgits Pty Ltd",
+            "fingerprint": "a46211bccc86379a39a68b20f48676b18b42f8bc3ed6ebd7f43286376d96423b",
+            "expires": "2034-06-21 17:05:34",
+            "valid": "2024-06-23 17:05:34"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

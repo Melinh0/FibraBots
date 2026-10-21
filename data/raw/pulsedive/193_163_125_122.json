@@ -1,0 +1,128 @@
+{
+    "qid": null,
+    "iid": 35161682,
+    "indicator": "193.163.125.122",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-18 02:30:58",
+    "stamp_updated": "2024-12-14 09:36:41",
+    "stamp_seen": "2024-12-14 09:36:41",
+    "stamp_probed": "2024-08-08 00:45:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 39124507,
+                "indicator": "https:\/\/internet-measurement.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-07 20:27:34"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 506600,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 02:30:58",
+            "stamp_updated": "2022-05-18 02:30:58"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "cdnjs",
+            "CloudFlare",
+            "Google Font API",
+            "HTTP\/3"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United Kingdom",
+            "countrycode": "GB",
+            "lat": "51.4964",
+            "long": "-0.1224",
+            "asn": "AS211298",
+            "org": "Constantine Cybersecurity Ltd."
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "access-control-allow-origin": "*",
+            "server": "cloudflare",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "link": "<https:\/\/fonts.googleapis.com>; rel=\"preconnect\", <https:\/\/cdnjs.cloudflare.com>; rel=\"preconnect\"",
+            "++redirect": "https:\/\/internet-measurement.com\/",
+            "date": "Tue, 22 Oct 2024 17:24:44 GMT",
+            "cf-ray": "8d6b2ebece3241c0-EWR",
+            "++target": "http:\/\/193.163.125.122\/",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=6810&sent=7&recv=9&lost=0&retrans=0&sent_bytes=4129&recv_bytes=2424&delivery_rate=2766878&cwnd=252&unsent_bytes=0&cid=3e0a18157bdd8823&ts=191&x=0\"",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=WkdII8XGMbaKCFsg%2F%2BItY%2FAtxI51hmmbj2PVuV2uqe7mpbAG742D8wAEO%2F3IFQOeImXYw7UoPiHG3okamNtMme2YN9JSdkktlL5JUIz7nsXljsvcRrL%2BHGypHTxUAGGQvw%2FXrBOmR3NoUuM%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "internet-measurement.com",
+            "subject": "\/CN=internet-measurement.com",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "valid": "2024-09-05 02:12:39",
+            "expires": "2024-12-04 02:12:38",
+            "fingerprint": "29b2e11e1a381a0d8bf40b77231e52e14c401edee2b9756b00ee4811d9cef068"
+        },
+        "dns": {
+            "ptr": "proud.census.internet-measurement.com"
+        },
+        "cookies": {
+            "cf_clearance": "PUY4ZD5ndfyRbvbfsIa2qYf.d1UF_S2zjSC3rPrmPDw-1703831486-0-2-51984d9.e404bcff.37e919c7-0.1.1703831486"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c6629f37a13a5c491e3916c99036f5ca.jpeg"
+        }
+    }
+}

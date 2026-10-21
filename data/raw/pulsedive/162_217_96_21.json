@@ -1,0 +1,167 @@
+{
+    "qid": null,
+    "iid": 63697450,
+    "indicator": "162.217.96.21",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-29 05:14:29",
+    "stamp_updated": "2024-12-14 11:26:48",
+    "stamp_seen": "2024-12-12 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63697737,
+                "indicator": "http:\/\/162.217.96.21\/k.php"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-29 05:14:29"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-30 15:42:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "PHP",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "GA",
+            "address": [
+                "Suite E100",
+                "250 Williams Street"
+            ],
+            "city": "Atlanta",
+            "postalcode": "30303",
+            "parent": "NET162 (NET-162-0-0-0-0)",
+            "orgtechname": "Network Engineering",
+            "rabusephone": "+1-877-843-4662",
+            "regdate": [
+                "2013-07-18",
+                "2018-11-09"
+            ],
+            "netname": "VOXEL-NET-12",
+            "++abuse": [
+                "abuse@voxel.net",
+                "abuse@horizoniq.com"
+            ],
+            "nethandle": "NET-162-217-96-0-1",
+            "cidr": "162.217.96.0\/21",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/162.217.96.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/IC-1425"
+            ],
+            "originas": "AS29791",
+            "netrange": "162.217.96.0 - 162.217.103.255",
+            "rabuseemail": "abuse@voxel.net",
+            "++registered": "2018-11-09 00:00:00",
+            "orgid": "IC-1425",
+            "rabusename": "Voxel-Abuse",
+            "rabusehandle": "VOXEL1-ARIN",
+            "rabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/VOXEL1-ARIN",
+            "updated": [
+                "2018-12-10",
+                "2024-11-25"
+            ],
+            "orgname": "Internap Holding LLC",
+            "++registrant": "Internap Holding LLC",
+            "organization": "Internap Holding LLC (IC-1425)",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NETWO9886-ARIN",
+            "orgtechhandle": "NETWO9886-ARIN",
+            "orgtechemail": "cloud-network@inap.com",
+            "++phone": "+1-877-843-7627",
+            "orgabusename": "HorizonIQ Abuse",
+            "++email": "cloud-network@inap.com",
+            "orgtechphone": "+1-877-843-7627",
+            "orgabuseemail": "abuse@horizoniq.com",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/HORIZ5-ARIN",
+            "orgabusephone": "+1-877-843-7627",
+            "orgabusehandle": "HORIZ5-ARIN",
+            "++updated": "2024-11-25 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": "Atlanta",
+            "zip": "30303",
+            "asn": "AS32475",
+            "region": "GA",
+            "lat": "37.751",
+            "long": "-97.822",
+            "address": [
+                "250 Williams Street",
+                "Suite E100"
+            ],
+            "org": [
+                "SINGLEHOP-LLC",
+                "Internap Holding LLC (IC-1425)"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=99",
+            "content-encoding": "gzip",
+            "content-length": "6116",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++redirect": "http:\/\/162.217.96.21\/k.php",
+            "++target": "http:\/\/162.217.96.21\/",
+            "date": "Mon, 09 Dec 2024 00:01:31 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/72633685c21677c7a995a95370f68f14.jpeg"
+        }
+    }
+}

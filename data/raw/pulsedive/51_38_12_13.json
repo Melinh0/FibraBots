@@ -1,0 +1,109 @@
+{
+    "qid": null,
+    "iid": 5159794,
+    "indicator": "51.38.12.13",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2019-02-27 13:12:29",
+    "stamp_updated": "2022-03-29 14:05:51",
+    "stamp_seen": "2022-03-29 14:05:51",
+    "stamp_probed": "2022-03-29 14:05:51",
+    "stamp_retired": "2019-09-06 11:34:05",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 24588689,
+                "indicator": "https:\/\/abuse.intrinsec.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2019-02-27 13:12:29"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "80"
+        ],
+        "protocol": [
+            "HTTP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "isp": "OVH SAS",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.8582",
+            "long": "2.3387"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "2761",
+            "++code": "200",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "last-modified": "Tue, 30 Mar 2021 12:59:22 GMT",
+            "date": "Tue, 29 Mar 2022 14:05:44 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=US\/O=DigiCert Inc\/OU=www.digicert.com\/CN=GeoTrust RSA CA 2018",
+            "version": "v3",
+            "org": "GeoTrust RSA CA 2018",
+            "expires": "2022-05-17 12:00:00",
+            "valid": "2020-04-15 00:00:00",
+            "subject": "\/CN=*.intrinsec.com",
+            "domain": [
+                "*.intrinsec.com",
+                "intrinsec.com"
+            ]
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "charset": "utf-8"
+        },
+        "dns": {
+            "ptr": "scan014.intrinsec.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a0668146d62415ae0d4494d466636538.jpeg"
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "qid": null,
+    "iid": 51949305,
+    "indicator": "103.69.220.19",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-09 22:29:48",
+    "stamp_updated": "2024-12-11 10:37:27",
+    "stamp_seen": "2024-11-19 22:43:26",
+    "stamp_probed": "2024-09-07 07:37:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-16 02:45:44"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-09 22:29:48"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-16 02:45:44"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-10 04:18:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-SAMPARK",
+                "MAINT-IN-SAMPARK1333"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "role": "Manager NOC",
+            "origin": "AS133232",
+            "abuse-mailbox": "nochead@samparkinfo.com",
+            "address": "B-wing 211, Kailash Complex Industrial, 2nd floor, Vikhroli West, Mumbai,Mumbai,Maharashtra-400079",
+            "admin-c": "PD429-AP",
+            "descr": [
+                "SAMPARK ESTATES PVT. LTD.",
+                "Sampark Infotainment Pvt Ltd"
+            ],
+            "e-mail": [
+                "nochead@samparkinfo.com",
+                "ochead@samparkinfo.com"
+            ],
+            "inetnum": "103.69.220.0 - 103.69.223.255",
+            "irt": "IRT-SAMPARK1333-IN",
+            "last-modified": [
+                "2016-07-25T06:57:54Z",
+                "2016-07-20T07:28:05Z",
+                "2016-07-20T07:16:58Z",
+                "2016-07-20T07:17:33Z",
+                "2016-07-20T07:17:59Z"
+            ],
+            "mnt-irt": "IRT-SAMPARK1333-IN",
+            "mnt-routes": [
+                "MAINT-IN-SAMPARK",
+                "MAINT-IN-SAMPARK1333"
+            ],
+            "netname": "SAMPARK1333",
+            "nic-hdl": [
+                "PD429-AP",
+                "MN604-AP"
+            ],
+            "person": "Prakash Dsouza",
+            "phone": "+91 02241711333",
+            "route": "103.69.220.0\/24",
+            "tech-c": [
+                "PD429-AP",
+                "MN604-AP"
+            ],
+            "++abuse": "nochead@samparkinfo.com",
+            "++registrant": [
+                "PD429-AP",
+                "Prakash Dsouza"
+            ],
+            "++email": [
+                "ochead@samparkinfo.com",
+                "nochead@samparkinfo.com"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2016-07-20 07:28:05",
+                "2016-07-20 07:16:58",
+                "2016-07-20 07:17:33",
+                "2016-07-20 07:17:59",
+                "2016-07-25 06:57:54"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Maharashtra",
+            "city": "Mumbai",
+            "lat": "19.0748",
+            "long": "72.8856",
+            "address": "B-wing 211, Kailash Complex Industrial, 2nd floor, Vikhroli West, Mumbai,Mumbai,Maharashtra-400079",
+            "org": "Digital Cloud Technologies Private Limited",
+            "asn": "AS133993"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        }
+    }
+}

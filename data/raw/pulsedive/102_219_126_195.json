@@ -1,0 +1,152 @@
+{
+    "qid": null,
+    "iid": 64342172,
+    "indicator": "102.219.126.195",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-16 06:10:22",
+    "stamp_updated": "2024-10-23 07:42:23",
+    "stamp_seen": "2024-10-17 22:48:24",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64365351,
+                "indicator": "https:\/\/102.219.126.195\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-16 06:10:22"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "address": [
+                "Angola",
+                "Angola Cables",
+                "Via AL5, Zona XR6B - Talatona",
+                "Luanda Sul"
+            ],
+            "country": "AO",
+            "mnt-by": "ANGOLA-CABLE-MNT",
+            "tech-c": "ML7-AFRINIC",
+            "nic-hdl": "ML7-AFRINIC",
+            "person": "Marinela Liomba",
+            "phone": "tel:+244-927-686-209",
+            "admin-c": "ML7-AFRINIC",
+            "++registrant": [
+                "Marinela Liomba",
+                "ML7-AFRINIC"
+            ],
+            "source": "AFRINIC # Filtered",
+            "parent": "102.219.124.0 - 102.219.127.255",
+            "inetnum": "102.219.126.0 - 102.219.127.255",
+            "descr": "This network is used for Angola Cables Cloud Services.",
+            "netname": "CLOUD_SERVICES_2"
+        },
+        "geo": {
+            "country": "Angola",
+            "countrycode": "AO",
+            "asn": "AS37468",
+            "org": "ANGOLA-CABLES",
+            "address": [
+                "Angola",
+                "Angola Cables",
+                "Via AL5, Zona XR6B - Talatona",
+                "Luanda Sul"
+            ],
+            "lat": "-12.4992",
+            "long": "18.4968"
+        },
+        "http": {
+            "server": "nginx",
+            "content-type": "text\/html;charset=ISO-8859-1",
+            "content-length": "819",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "date": "Thu, 17 Oct 2024 17:58:11 GMT",
+            "++target": "http:\/\/102.219.126.195\/",
+            "++redirect": "https:\/\/102.219.126.195\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "fingerprint": "da9b86e535d25a9241c533bd8bd49ee0fd810d511602320a6bfd14c8c6168f0f",
+            "valid": "2024-08-17 17:29:13",
+            "expires": "2024-11-15 17:29:12",
+            "subject": "\/CN=srv1-lad.host2africa.com",
+            "domain": "srv1-lad.host2africa.com"
+        },
+        "meta": {
+            "++title": "Index of \/"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000",
+            "3306": "R\u0000\u0000\u0000\n8.0.39-cll-lve\u0000hj\u0005\u0000\u0005o+*\n\u0017\u0019X\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000q+8{r\u000fO\u0011h\u000eb\u001f\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/8a7cde8d4c081efef14945d2bfc69a88.jpeg"
+        }
+    }
+}

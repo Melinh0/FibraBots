@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 59905226,
+    "indicator": "14.241.243.222",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2024-06-04 15:22:28",
+    "stamp_updated": "2024-12-10 10:35:26",
+    "stamp_seen": "2024-07-04 13:44:13",
+    "stamp_probed": "2024-07-04 13:44:13",
+    "stamp_retired": "2024-10-05 10:33:29",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-04 15:22:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Viet Nam",
+            "countrycode": "VN",
+            "city": "Ho Chi Minh City",
+            "region": "Ho Chi Minh",
+            "asn": "AS45899",
+            "isp": "VNPT Corp",
+            "org": "VNPT Corp",
+            "address": [
+                "Ha Noi, VietNam",
+                "VNPT-VN"
+            ],
+            "long": "106.6257",
+            "lat": "10.822"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VNPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "e-mail": [
+                "huypt@vnpt.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "mnt-lower": "MAINT-VN-VNPT",
+            "mnt-routes": "MAINT-VN-VNPT",
+            "inetnum": "14.224.0.0 - 14.255.255.255",
+            "origin": "AS45899",
+            "netname": "VNPT-VN",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-37741604"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "address": [
+                "VNPT-VN",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": "PTH13-AP",
+            "person": "Pham Tien Huy",
+            "phone": [
+                "+84-24-37741604",
+                "+84-24-35564944"
+            ],
+            "descr": [
+                "No 57, Huynh Thuc Khang Street, Lang Ha ward, Dong Da district, Ha Noi City",
+                "Vietnam Posts and Telecommunications Group",
+                "VNPT"
+            ],
+            "last-modified": [
+                "2017-11-19T07:06:20Z",
+                "2017-11-08T09:40:06Z",
+                "2018-01-25T03:55:18Z",
+                "2022-07-29T15:36:57Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "auth": "mnt-by: MAINT-VN-VNNIC",
+            "++registrant": [
+                "PTH13-AP",
+                "NTTT1-AP"
+            ],
+            "++email": "hm-changed@vnnic.vn",
+            "++updated": "2022-07-29 00:00:00",
+            "route": "14.240.0.0\/12"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "server": "Server",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "content-length": "0",
+            "date": "Wed, 03 Jul 2024 22:05:01 GMT",
+            "set-cookie": "beaker.session.id=b0e379c711f04f3eaf7e5eecc4efce45; httponly; Path=\/; secure"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "x-ua-compatible": "IE=Edge;chrome=1",
+            "copyright": "Copyright 2012 Ubiquiti Networks, Inc. All rights reserved.",
+            "charset": "utf-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "domain": "UbiquitiRouterUI",
+            "org": "UbiquitiRouterUI",
+            "subject": "\/C=US\/CN=UbiquitiRouterUI\/O=Ubiquiti Inc.\/ST=New York\/L=New York",
+            "issuer": "\/C=US\/CN=UbiquitiRouterUI\/O=Ubiquiti Inc.\/ST=New York\/L=New York",
+            "++self-signed": "1",
+            "expires": "2025-04-13 06:25:34",
+            "valid": "2023-01-10 06:25:34"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.6.1p1 Debian-4~bpo70+1\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/7d2048d6bb1b154734aef3209dd86d24.jpeg"
+        },
+        "cookies": {
+            "beaker.session.id": "b0e379c711f04f3eaf7e5eecc4efce45"
+        }
+    }
+}

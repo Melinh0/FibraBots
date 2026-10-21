@@ -1,0 +1,89 @@
+{
+    "qid": null,
+    "iid": 63153378,
+    "indicator": "65.190.102.227",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-11 04:06:35",
+    "stamp_updated": "2024-12-10 02:31:17",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63153552,
+                "indicator": "https:\/\/65.190.102.227\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-11 04:06:35"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-23 15:27:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS11426",
+            "region": "South Carolina",
+            "city": "Fort Mill",
+            "lat": "34.9781",
+            "long": "-80.8541",
+            "org": "TWC-11426-CAROLINAS"
+        },
+        "meta": {
+            "viewport": "width=device-width,initial-scale=1",
+            "charset": "utf-8",
+            "++title": "UniFi OS"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        },
+        "http": {
+            "++redirect": "https:\/\/65.190.102.227\/login?redirect=%2F",
+            "++target": "https:\/\/65.190.102.227\/"
+        }
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "qid": null,
+    "iid": 61929604,
+    "indicator": "203.171.21.222",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-02 20:18:11",
+    "stamp_updated": "2024-12-10 02:25:56",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 09:04:41",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61929641,
+                "indicator": "http:\/\/203.171.21.222\/"
+            },
+            {
+                "iid": 64124847,
+                "indicator": "https:\/\/203.171.21.222\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-02 20:18:11"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-06 06:39:10"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1194",
+            "22",
+            "27017",
+            "3306",
+            "443",
+            "53",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "MongoDB",
+            "MySQL",
+            "OpenVPN",
+            "PostgreSQL",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "city": "Hanoi",
+            "asn": "AS45903",
+            "org": "CMC Telecom Infrastructure Company",
+            "country": "Vietnam",
+            "region": "Hanoi",
+            "address": [
+                "Ha Noi, VietNam",
+                "CMCTELECOM-VN"
+            ],
+            "long": "105.8526",
+            "lat": "21.0292"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": "MAINT-VN-VNNIC",
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NVH31-AP"
+            ],
+            "descr": [
+                "CMC Telecom Infrastructure Company",
+                "CMCTELECOM-VN",
+                "CMC Tower,Duy Tan, Dich Vong Hau, Cau Giay, Ha Noi"
+            ],
+            "origin": "AS45903",
+            "netname": "CMCTELECOM-VN",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-968189689",
+                "+84-366235766"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "HVA2-AP"
+            ],
+            "address": [
+                "CMCTELECOM-VN",
+                "Ha Noi, VietNam"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "hieu.nv@cmctelecom.vn",
+                "anh.hv@cmctelecom.vn"
+            ],
+            "inetnum": "203.171.16.0 - 203.171.31.255",
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2022-08-28T04:27:35Z",
+                "2022-09-16T17:40:04Z",
+                "2023-08-31T04:22:33Z",
+                "2023-08-31T05:01:31Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-968189689",
+                "+84-366235766"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "Nguyen Van Hieu",
+                "Hoang Viet Anh",
+                "HVA2-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "hieu.nv@cmctelecom.vn",
+                "anh.hv@cmctelecom.vn"
+            ],
+            "person": [
+                "Nguyen Van Hieu",
+                "Hoang Viet Anh"
+            ],
+            "nic-hdl": [
+                "NVH31-AP",
+                "HVA2-AP"
+            ],
+            "route": "203.171.21.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2023-08-31 04:22:33",
+                "2022-08-28 04:27:35",
+                "2023-08-31 05:01:31",
+                "2022-09-16 17:40:04"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "content-length": "552",
+            "++code": "502",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/203.171.21.222\/",
+            "++redirect": "https:\/\/203.171.21.222\/",
+            "date": "Sat, 12 Oct 2024 14:59:36 GMT"
+        },
+        "dns": {
+            "ptr": "static.cmcti.vn"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "subject": "\/CN=*.sky-demo.net",
+            "fingerprint": "e584e1f089649b01c8bd23d411fd86b53818d76f851da38ee9e7681201f5262b",
+            "expires": "2022-12-10 19:07:01",
+            "domain": [
+                "*.sky-demo.net",
+                "sky-demo.net"
+            ],
+            "valid": "2022-09-11 19:07:02"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n",
+            "5432": "\u0005\u0004\u0000\u0000",
+            "27017": "\u0005\u0004\u0000\u0000",
+            "3306": "t\u0000\u0000\u0000\n5.5.5-10.3.13-MariaDB-1:10.3.13+maria~bionic-log\u0000\ufffdQ\u0001\u0000{Vz&J\"in\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000iGgN1Ja(APOz\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5366eec0a200b2e423be6bff5b4e3634.jpeg"
+        }
+    }
+}

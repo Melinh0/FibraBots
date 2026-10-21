@@ -1,0 +1,238 @@
+{
+    "qid": null,
+    "iid": 64272135,
+    "indicator": "27.110.190.20",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-11 06:12:50",
+    "stamp_updated": "2024-12-16 11:34:37",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64276185,
+                "indicator": "https:\/\/27.110.190.20\/accesscontrol\/Login.php"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-11 06:12:50"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-02 21:56:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "PHP",
+            "Sectigo",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "address": [
+                "Philippines",
+                "NFCSM-PLDT, 6\/F Innolab Bldg, Boni Ave, Mandaluyong City, MM, Philippnes  1550",
+                "Philippine Long Distance Telephone Company",
+                "6\/F Innolab Building",
+                "Boni Avenue, Mandaluyong City"
+            ],
+            "country": [
+                "PH",
+                "ZZ"
+            ],
+            "mnt-by": [
+                "PHIX-NOC-AP",
+                "APNIC-ABUSE"
+            ],
+            "abuse-mailbox": "abuse@pldt.net",
+            "admin-c": [
+                "NA185-AP",
+                "NOC36-AP"
+            ],
+            "descr": [
+                "This space has been assigned as STATIC",
+                "170486146608686_ENTERPRISE Client"
+            ],
+            "irt": "IRT-PLDT-PH",
+            "mnt-irt": "IRT-PLDT-PH",
+            "tech-c": [
+                "NA185-AP",
+                "NOC36-AP"
+            ],
+            "++phone": [
+                "+632-584-0201",
+                "+000000000"
+            ],
+            "e-mail": [
+                "Noc_pldt@pldt.com.ph",
+                "abuse@pldt.net"
+            ],
+            "nic-hdl": [
+                "NOC36-AP",
+                "AP713-AP"
+            ],
+            "person": "PLDT APNIC NOC",
+            "phone": [
+                "+632-584-0201",
+                "+000000000"
+            ],
+            "last-modified": [
+                "2017-02-01T02:28:01Z",
+                "2024-06-07T01:55:28Z",
+                "2024-06-07T01:55:52Z",
+                "2024-01-19T04:00:11Z"
+            ],
+            "++abuse": "abuse@pldt.net",
+            "++registrant": [
+                "NA185-AP",
+                "NOC36-AP",
+                "PLDT APNIC NOC"
+            ],
+            "++email": [
+                "abuse@pldt.net",
+                "noc_pldt@pldt.com.ph"
+            ],
+            "abuse-c": "AP713-AP",
+            "role": "ABUSE PLDTPH",
+            "netname": "DIRECT",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-06-07 01:55:28",
+                "2024-06-07 01:55:52",
+                "2017-02-01 02:28:01"
+            ],
+            "inetnum": "27.110.190.16 - 27.110.190.23"
+        },
+        "geo": {
+            "country": [
+                "Philippines",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "PH",
+                "ZZ"
+            ],
+            "asn": "AS9299",
+            "org": "Philippine Long Distance Telephone Company",
+            "region": [
+                "Quezon",
+                "Calabarzon"
+            ],
+            "address": [
+                "Philippines",
+                "Philippine Long Distance Telephone Company",
+                "6\/F Innolab Building",
+                "Boni Avenue, Mandaluyong City",
+                "NFCSM-PLDT, 6\/F Innolab Bldg, Boni Ave, Mandaluyong City, MM, Philippnes  1550"
+            ],
+            "city": "Calauag",
+            "long": "122.2873",
+            "lat": "13.9615"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=98",
+            "content-length": "467",
+            "++code": [
+                "200",
+                "307"
+            ],
+            "++status": [
+                "OK",
+                "Temporary Redirect"
+            ],
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "non-authoritative-reason": "HttpsUpgrades",
+            "date": "Fri, 11 Oct 2024 07:10:25 GMT",
+            "++target": "http:\/\/27.110.190.20\/",
+            "++redirect": "https:\/\/27.110.190.20\/accesscontrol\/Login.php",
+            "location": "http:\/\/27.110.190.20\/"
+        },
+        "meta": {
+            "charset": "UTF-8",
+            "++title": "Lifetrack Medical Systems"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "domain": [
+                "*.lifetrackmed.com",
+                "lifetrackmed.com"
+            ],
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "valid": "2024-01-04 00:00:00",
+            "expires": "2025-02-03 23:59:59",
+            "fingerprint": "90dfbba5389d8ddc034eb3673c2c25585e9124a12627cb4afca7f60fa31b60ff",
+            "subject": "\/CN=*.lifetrackmed.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "25": "220 ghmc.google.com ESMTP Postfix (Ubuntu)\n"
+        },
+        "cookies": {
+            "phpsessid": "isuk9igcfqr1vi59mlhu62qa9l"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d70c0bea15002c53cb071266b1fbe517.jpeg"
+        }
+    }
+}

@@ -1,0 +1,276 @@
+{
+    "qid": null,
+    "iid": 22491926,
+    "indicator": "104.244.74.23",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-03-11 15:24:08",
+    "stamp_updated": "2024-12-25 17:23:46",
+    "stamp_seen": "2024-12-25 17:23:46",
+    "stamp_probed": "2024-08-28 03:27:33",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65776387,
+                "indicator": "https:\/\/104.244.74.23\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-21 16:17:35"
+        },
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-03-18 12:34:55"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2021-11-17 01:59:21"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-03-11 15:24:08"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-03-27 12:30:16"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-03-18 12:34:55"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2021-11-17 01:59:21"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2022-10-21 16:17:35"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "21",
+            "22",
+            "23",
+            "25",
+            "3389",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "RDP",
+            "SMTP",
+            "SOCKS",
+            "SSH",
+            "Telnet"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "LU"
+            ],
+            "updated": [
+                "2017-01-28",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "nettype": [
+                "Direct Allocation",
+                "Reallocated"
+            ],
+            "parent": [
+                "NET104 (NET-104-0-0-0-0)",
+                "PONYNET-14 (NET-104-244-72-0-1)"
+            ],
+            "++email": "admin@frantech.ca",
+            "++phone": "+1-778-977-8246",
+            "++registrant": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "address": [
+                "1621 Central Ave",
+                "3, op der Poukewiss"
+            ],
+            "cidr": "104.244.72.0\/21",
+            "city": [
+                "Cheyenne",
+                "Roost"
+            ],
+            "nethandle": [
+                "NET-104-244-72-0-1",
+                "NET-104-244-72-0-2"
+            ],
+            "netname": [
+                "PONYNET-14",
+                "BUYVM-LUXEMBOURG-01"
+            ],
+            "netrange": "104.244.72.0 - 104.244.79.255",
+            "orgabuseemail": "admin@frantech.ca",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": [
+                "FranTech Solutions (SYNDI-5)",
+                "BuyVM (BUYVM)"
+            ],
+            "orgid": [
+                "SYNDI-5",
+                "BUYVM"
+            ],
+            "orgname": [
+                "FranTech Solutions",
+                "BuyVM"
+            ],
+            "orgtechemail": "admin@frantech.ca",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": [
+                "82001",
+                "7795"
+            ],
+            "regdate": [
+                "2010-07-21",
+                "2017-10-01",
+                "2014-11-10"
+            ],
+            "stateprov": "WY",
+            "++registered": "2017-10-01 00:00:00",
+            "++updated": "2017-10-01 00:00:00",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.244.72.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BUYVM"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "++abuse": "FDI19-ARIN"
+        },
+        "geo": {
+            "asn": "AS53667",
+            "country": "Luxembourg",
+            "countrycode": "LU",
+            "region": "Capellen",
+            "lat": "49.7855",
+            "org": "PONYNET",
+            "long": "6.1001",
+            "city": "Roodt"
+        },
+        "http": {
+            "server": "Apache\/2.2.15",
+            "++code": "500",
+            "++status": "Internal Server Error",
+            "content-type": "text\/html; charset=utf-8",
+            "content-length": "2073",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/104.244.74.23\/",
+            "++target": "http:\/\/104.244.74.23\/",
+            "date": "Tue, 29 Oct 2024 07:36:49 GMT"
+        },
+        "dns": {
+            "ptr": "luxgate01.acits.be"
+        },
+        "banners": {
+            "23": "PC login: ",
+            "21": "220 ProFTPD 1.2.10\n",
+            "3389": "\u0005\u0004\u0000\u0000",
+            "1080": "\u0005\u0004\u0000\u0000",
+            "25": "220 c0ac1dffbbcd Python SMTP proxy version 0.3\n"
+        },
+        "ssl": {
+            "version": "v0",
+            "++subject": "None",
+            "fingerprint": "7ffb55bb73e32d8497deb103b1761cf5028dca425968744d8312c265447ab891",
+            "org": "2ftx2ncn",
+            "valid": "2024-10-02 15:51:19",
+            "subject": "\/C=US\/ST=OR\/L=None\/O=None\/OU=None\/CN=2ftx2ncn",
+            "expires": "2026-10-02 15:51:19",
+            "issuer": "\/C=US\/ST=OR\/L=None\/O=None\/OU=None\/CN=2ftx2ncn"
+        },
+        "meta": {
+            "++title": "500 - Request did not return bytes"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/f9f1a0f97f06510a6419c34d18841b5c.jpeg"
+        }
+    }
+}

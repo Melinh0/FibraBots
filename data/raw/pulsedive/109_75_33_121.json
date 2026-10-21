@@ -1,0 +1,182 @@
+{
+    "qid": null,
+    "iid": 52193976,
+    "indicator": "109.75.33.121",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-16 23:47:13",
+    "stamp_updated": "2024-12-16 11:28:05",
+    "stamp_seen": "2024-12-15 06:53:56",
+    "stamp_probed": "2024-09-29 23:05:41",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 52194096,
+                "indicator": "http:\/\/109.75.33.121\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-21 07:04:57"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-16 23:47:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-21 07:04:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-10-20 14:13:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "AM",
+            "address": "Sayat-Nova 40\/1, 0025 Yerevan, Armenia",
+            "nic-hdl": "UCOM101-RIPE",
+            "origin": "AS44395",
+            "phone": "+37411 444 444",
+            "role": "Ucom Network Role",
+            "mnt-by": [
+                "MNT-UCOM",
+                "MNT-UCOMRIPEADMIN"
+            ],
+            "inetnum": "109.75.32.0 - 109.75.39.255",
+            "netname": "AM-UCOM",
+            "tech-c": [
+                "UCOM101-RIPE",
+                "URA10-RIPE"
+            ],
+            "admin-c": [
+                "UCOM101-RIPE",
+                "URA10-RIPE"
+            ],
+            "created": [
+                "2013-08-21T08:12:00Z",
+                "2014-02-11T12:44:42Z",
+                "2014-12-01T08:58:51Z"
+            ],
+            "++registrant": [
+                "UCOM101-RIPE",
+                "URA10-RIPE"
+            ],
+            "fax-no": "+37411 400 401",
+            "last-modified": [
+                "2020-06-08T23:15:23Z",
+                "2020-02-26T14:46:43Z",
+                "2020-05-27T15:09:37Z"
+            ],
+            "descr": [
+                "Ucom CJSC",
+                "Ucom route for 109.75.32.0\/20 net"
+            ],
+            "++updated": [
+                "2020-06-08 23:15:23",
+                "2020-05-27 15:09:37"
+            ],
+            "++registered": [
+                "2013-08-21 08:12:00",
+                "2014-02-11 12:44:42",
+                "2014-12-01 08:58:51"
+            ],
+            "route": "109.75.32.0\/20"
+        },
+        "geo": {
+            "country": "Armenia",
+            "countrycode": "AM",
+            "asn": "AS197834",
+            "long": "45",
+            "lat": "40.25",
+            "org": "Ucom CJSC"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "W\/\"62090a15-264\"",
+            "last-modified": "Sun, 13 Feb 2022 13:39:33 GMT",
+            "++target": "http:\/\/109.75.33.121\/",
+            "date": "Tue, 22 Oct 2024 15:29:20 GMT"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\n"
+        },
+        "dns": {
+            "ptr": "host-121.33.75.109.ucom.am"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

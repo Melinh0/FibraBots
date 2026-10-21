@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 29736946,
+    "indicator": "45.148.10.235",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-11-20 09:32:38",
+    "stamp_updated": "2024-12-11 10:44:28",
+    "stamp_seen": "2024-11-29 20:39:03",
+    "stamp_probed": "2022-04-05 08:53:59",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64381952,
+                "indicator": "https:\/\/45.148.10.235\/login_up.php"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-11-30 22:34:57"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-11-20 09:32:38"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2021-11-30 22:34:57"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-12-01 22:54:50"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "PHP",
+            "Plesk",
+            "Prototype",
+            "PWA",
+            "RequireJS",
+            "Sentry"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "NL",
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "asn": "AS48090",
+            "long": "4.8975",
+            "org": "Pptechnology Limited",
+            "lat": "52.3759",
+            "country": "The Netherlands"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "p3p": "CP=\"NON COR CURa ADMa OUR NOR UNI COM NAV STA\"",
+            "expires": "Fri, 28 May 1999 00:00:00 GMT",
+            "++code": "200",
+            "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+            "content-encoding": "br",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/45.148.10.235\/",
+            "++redirect": "https:\/\/45.148.10.235\/login_up.php",
+            "date": "Fri, 18 Oct 2024 05:47:40 GMT",
+            "last-modified": "Fri, 18 Oct 2024 05:47:40 GMT"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "format-detection": "telephone=no",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "skype_toolbar": "SKYPE_TOOLBAR_PARSER_COMPATIBLE",
+            "charset": "utf-8",
+            "++title": "Plesk Obsidian 18.0.64",
+            "plesk-revision": "cfc99411a2dc98c5f5ae86fd27a531adc72f6f77",
+            "plesk-build": "1800241008.13",
+            "forgery_protection_token": "42a6629de39f100f0d22b82e788945a8"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": "crazy-villani.45-148-10-235.plesk.page",
+            "subject": "\/CN=crazy-villani.45-148-10-235.plesk.page",
+            "valid": "2024-09-25 21:05:11",
+            "expires": "2024-12-24 21:05:10",
+            "fingerprint": "3122ca909676cbe2b3cdabff19f869562b436338e7c2c59f403ba6c048288626"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 crazy-villani.45-148-10-235.plesk.page ESMTP Postfix (Ubuntu)\n",
+            "21": "220 ProFTPD Server (ProFTPD) [45.148.10.235]\n"
+        },
+        "dns": {
+            "ptr": "edc37.app-autht.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/2bf50c8390c7ff62d1aff442e4385e8c.jpeg"
+        }
+    }
+}

@@ -1,0 +1,211 @@
+{
+    "qid": null,
+    "iid": 64462738,
+    "indicator": "110.10.168.140",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-22 07:11:22",
+    "stamp_updated": "2024-12-17 11:30:55",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64462882,
+                "indicator": "https:\/\/110.10.168.140\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-22 07:11:22"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-12 20:55:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "25",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CentOS",
+            "mod_dav",
+            "mod_ssl",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "KRNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "changed": "hostmaster@nic.or.kr",
+            "country": "KR",
+            "irt": "IRT-KRNIC-KR",
+            "mnt-by": "MNT-KRNIC-AP",
+            "mnt-irt": "IRT-KRNIC-KR",
+            "person": "IP Manager",
+            "address": [
+                "SK Namsan Green Bldg.",
+                "Seoul Jung-gu Toegye-ro 24",
+                "Jeollanam-do Naju-si Jinheung-gil"
+            ],
+            "admin-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "descr": "SK Broadband Co Ltd",
+            "e-mail": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "netname": [
+                "broadNnet-KR",
+                "broadNnet"
+            ],
+            "nic-hdl": [
+                "IM12-KR",
+                "IM670-AP"
+            ],
+            "tech-c": [
+                "IM12-KR",
+                "IM574-AP",
+                "IM670-AP"
+            ],
+            "inetnum": "110.8.0.0 - 110.15.255.255",
+            "last-modified": [
+                "2017-02-03T00:38:16Z",
+                "2021-06-15T06:21:49Z",
+                "2021-10-05T05:20:03Z"
+            ],
+            "++registrant": [
+                "IM574-AP",
+                "IM670-AP",
+                "IM12-KR",
+                "IP Manager"
+            ],
+            "++email": [
+                "ip-adm@skbroadband.com",
+                "irt@nic.or.kr"
+            ],
+            "abuse-mailbox": "irt@nic.or.kr",
+            "++abuse": "irt@nic.or.kr",
+            "++phone": "+82-80-828-2106",
+            "phone": "+82-80-828-2106",
+            "auth": "# Filtered",
+            "++updated": [
+                "2021-06-15 06:21:49",
+                "2021-10-05 05:20:03"
+            ]
+        },
+        "geo": {
+            "countrycode": "KR",
+            "asn": "AS9318",
+            "org": "SK Broadband Co Ltd",
+            "city": "Uijeongbu-si",
+            "long": "127.1046",
+            "address": [
+                "Jeollanam-do Naju-si Jinheung-gil",
+                "Seoul Jung-gu Toegye-ro 24",
+                "SK Namsan Green Bldg."
+            ],
+            "region": "Gyeonggi-do",
+            "lat": "37.7633",
+            "country": "South Korea"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "4961",
+            "connection": "Keep-Alive",
+            "x-powered-by": "PHP\/5.2.17",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.2.15 (CentOS) DAV\/2 PHP\/5.2.17 mod_ssl\/2.2.15 OpenSSL\/1.0.1e-fips",
+            "date": "Tue, 22 Oct 2024 08:15:21 GMT",
+            "++redirect": "https:\/\/110.10.168.140\/",
+            "++target": "http:\/\/110.10.168.140\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "localhost.localdomain",
+            "subject": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=localhost.localdomain\/E=root@localhost.localdomain",
+            "issuer": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=localhost.localdomain\/E=root@localhost.localdomain",
+            "++subject": "SomeOrganization",
+            "expires": "2019-01-09 01:28:40",
+            "fingerprint": "c4c3e20f256e90776301027a72d47fe54f2563d5e81f6a276cdff6085a16ec2e",
+            "valid": "2018-01-09 01:28:40"
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_5.3\n",
+            "21": "220 (vsFTPd 2.2.2)\n",
+            "3306": "R\u0000\u0000\u0000\n5.5.58-MariaDB\u0000u\ufffd4\u0000pd$%+GdB\u0000\ufffd\ufffd!\u0002\u0000\u000f\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Z#:;X*fEgTPt\u0000mysql_native_password\u0000",
+            "25": "220 localhost.localdomain ESMTP Sendmail 8.14.4\/8.14.4; Tue, 22 Oct 2024 17:15:19 +0900\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ba0937548b34b12651c84c0266cb8441.jpeg"
+        }
+    }
+}

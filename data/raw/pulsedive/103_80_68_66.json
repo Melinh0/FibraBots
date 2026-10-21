@@ -1,0 +1,200 @@
+{
+    "qid": null,
+    "iid": 53050432,
+    "indicator": "103.80.68.66",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-15 15:24:51",
+    "stamp_updated": "2024-12-15 11:27:35",
+    "stamp_seen": "2024-12-14 09:16:07",
+    "stamp_probed": "2024-08-28 22:45:03",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 53050530,
+                "indicator": "https:\/\/103.80.68.66\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-15 15:24:51"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-16 01:22:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "AngularJS",
+            "Bootstrap",
+            "Express",
+            "HSTS",
+            "jQuery",
+            "jQuery UI",
+            "Nginx",
+            "Node.js",
+            "Socket.io"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-CATLA"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "role": "Network Manager",
+            "mnt-routes": "MAINT-IN-CATLA",
+            "last-modified": [
+                "2016-11-25T09:41:51Z",
+                "2016-11-25T09:42:27Z",
+                "2016-11-25T09:44:35Z",
+                "2016-11-25T09:49:45Z",
+                "2018-01-08T07:59:17Z"
+            ],
+            "tech-c": [
+                "NM677-AP",
+                "AD586-AP"
+            ],
+            "address": "H.No.35,Jayangar,6Mile,Guwahati,Assam-781022",
+            "mnt-irt": "IRT-CATLA-IN",
+            "netname": "CATLA",
+            "origin": "AS135863",
+            "descr": [
+                "Catla IT and Engg.Co.Pvt.Ltd.",
+                "Catla IT and Engg.Co.Pvt.Ltd"
+            ],
+            "e-mail": "catlabroadbandservices@gmail.com",
+            "admin-c": [
+                "AD586-AP",
+                "NM677-AP"
+            ],
+            "nic-hdl": [
+                "NM677-AP",
+                "AD586-AP"
+            ],
+            "person": "Anupam Das",
+            "abuse-mailbox": "catlabroadbandservices@gmail.com",
+            "irt": "IRT-CATLA-IN",
+            "phone": "+91 9854051519",
+            "++registrant": [
+                "AD586-AP",
+                "NM677-AP",
+                "Anupam Das"
+            ],
+            "++abuse": "catlabroadbandservices@gmail.com",
+            "++email": "catlabroadbandservices@gmail.com",
+            "route": "103.80.68.0\/24",
+            "inetnum": "103.80.68.0 - 103.80.68.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2016-11-25 09:49:45",
+                "2016-11-25 09:41:51",
+                "2016-11-25 09:42:27",
+                "2016-11-25 09:44:35",
+                "2018-01-08 07:59:17"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "asn": "AS135863",
+            "org": "Catla IT and Engg.Co.Pvt.Ltd.",
+            "address": "H.No.35,Jayangar,6Mile,Guwahati,Assam-781022",
+            "long": "79.0011",
+            "lat": "21.9974"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "cache-control": "public, max-age=0",
+            "x-powered-by": "Express",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=63072000; includeSubdomains;",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "allow": "GET, POST",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "set-cookie": "branding=aw; Path=\/; secure; HttpOnly",
+            "last-modified": "Mon, 17 May 2021 09:07:30 GMT",
+            "etag": "W\/\"b45f-17979949050\"",
+            "++target": "http:\/\/103.80.68.66\/",
+            "++redirect": "https:\/\/103.80.68.66\/",
+            "date": "Tue, 22 Oct 2024 15:21:21 GMT"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "utf-8",
+            "++title": "AVIWEST - StreamHub"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-01 15:58:34",
+            "issuer": "\/CN=uservsftpd",
+            "subject": "\/CN=uservsftpd",
+            "expires": "2119-06-07 15:58:34",
+            "org": "uservsftpd",
+            "fingerprint": "d09580ba07efda8c03b7051baa60e1706c093b702f5ad35051893c338f7186a1"
+        },
+        "cookies": {
+            "branding": "aw"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/62f51231e79161908ebb633e7c27a6bd.jpeg"
+        }
+    }
+}

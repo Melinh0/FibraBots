@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 57624425,
+    "indicator": "85.70.45.245",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-03-26 22:53:04",
+    "stamp_updated": "2024-12-15 11:37:26",
+    "stamp_seen": "2024-12-15 07:57:14",
+    "stamp_probed": "2024-09-30 20:22:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64131924,
+                "indicator": "https:\/\/85.70.45.245\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-03-26 22:53:04"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-23 23:44:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443"
+        ],
+        "protocol": [
+            "HTTPS"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "CZ",
+            "address": [
+                "The Czech Republic",
+                "Za Brumlovkou 2",
+                "Prague 4 - 140 22",
+                "O2 Czech Republic, a.s."
+            ],
+            "mnt-by": "AS5610-MTN",
+            "origin": "AS5610",
+            "admin-c": "HVJI1-RIPE",
+            "descr": [
+                "CZ.CZNET",
+                "XDSL NETWORK-ADSL"
+            ],
+            "tech-c": "HVJI1-RIPE",
+            "netname": "NEXTEL-XDSL",
+            "nic-hdl": "HVJI1-RIPE",
+            "person": "Jiri Hvezda",
+            "phone": "+420 2 84084222",
+            "created": [
+                "2005-01-05T17:40:52Z",
+                "2002-07-22T13:31:48Z",
+                "2005-06-17T11:07:53Z"
+            ],
+            "last-modified": [
+                "2005-01-05T17:40:52Z",
+                "2020-06-25T13:10:19Z",
+                "2005-06-17T11:07:53Z"
+            ],
+            "route": "85.70.0.0\/17",
+            "++registrant": [
+                "HVJI1-RIPE",
+                "Jiri Hvezda"
+            ],
+            "++updated": [
+                "2020-06-25 13:10:19",
+                "2005-01-05 17:40:52"
+            ],
+            "++registered": [
+                "2002-07-22 13:31:48",
+                "2005-06-17 11:07:53",
+                "2005-01-05 17:40:52"
+            ],
+            "inetnum": "85.70.45.0 - 85.70.45.255"
+        },
+        "geo": {
+            "countrycode": "CZ",
+            "city": "Prague",
+            "asn": "AS5610",
+            "org": "O2 Czech Republic, a.s.",
+            "region": "Prague",
+            "country": "Czechia",
+            "lat": "50.0853",
+            "long": "14.4614"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "136",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "etag": "\"b0-61531952c5344-gzip\"",
+            "last-modified": "Wed, 03 Apr 2024 13:56:00 GMT",
+            "++target": "https:\/\/85.70.45.245\/",
+            "date": "Tue, 22 Oct 2024 19:22:55 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2024-04-03 14:01:47",
+            "expires": "2025-04-03 14:01:47",
+            "subject": "\/C=CZ\/ST=CZECH\/L=PRAGUE\/O=VA-Net CZ spol. s r.o.\/OU=DS\/CN=hospitality\/E=hospitality@va-net.cz",
+            "fingerprint": "6d07180ebf4fb9c5b96d4e4047f6c6c79342c9fa769a07e3de8f1131de816bf5",
+            "++subject": "VA-Net CZ spol. s r.o.",
+            "issuer": "\/C=CZ\/ST=CZECH\/L=PRAGUE\/O=VA-Net CZ spol. s r.o.\/OU=DS\/CN=hospitality\/E=hospitality@va-net.cz",
+            "org": "hospitality"
+        },
+        "meta": {
+            "++title": "Welcome to Your_domain!"
+        },
+        "dns": {
+            "ptr": "85-70-45-245.rcd.o2.cz"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5a5a03ba8226f5ed7cb49cdd60d2ad00.jpeg"
+        }
+    }
+}

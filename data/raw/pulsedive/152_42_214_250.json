@@ -1,0 +1,210 @@
+{
+    "qid": null,
+    "iid": 65302786,
+    "indicator": "152.42.214.250",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-25 09:45:36",
+    "stamp_updated": "2024-12-12 03:37:05",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65358082,
+                "indicator": "https:\/\/152.42.214.250\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-25 09:45:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-30 21:52:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2020-05-04"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2020-05-04 00:00:00"
+            ],
+            "parent": "NET152 (NET-152-0-0-0-0)",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/152.42.128.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "netname": "DO-13",
+            "updated": [
+                "2020-05-04",
+                "2023-10-23"
+            ],
+            "++updated": "2023-10-23 00:00:00",
+            "nethandle": "NET-152-42-128-0-1",
+            "cidr": "152.42.128.0\/17",
+            "netrange": "152.42.128.0 - 152.42.255.255"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "Singapore"
+            ],
+            "countrycode": [
+                "US",
+                "SG"
+            ],
+            "city": [
+                "New York",
+                "Singapore"
+            ],
+            "asn": "AS14061",
+            "region": "NY",
+            "zip": "10013",
+            "long": "103.8503",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "1.2868"
+        },
+        "http": {
+            "strict-transport-security": "max-age=15552000",
+            "x-content-type-options": "nosniff",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "x-frame-options": "DENY",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.24.0 (Ubuntu)",
+            "date": "Thu, 28 Nov 2024 00:26:08 GMT",
+            "++redirect": "https:\/\/152.42.214.250\/login",
+            "++target": "http:\/\/152.42.214.250\/",
+            "set-cookie": "osaka=s%3AeyJtZXNzYWdlIjoiY3F0bzJqaWtqYTEzZDlwa280ZWxyaDdpIiwicHVycG9zZSI6Im9zYWthIn0.XNY9ltEih2lNXFgaZ-KSnrOmL_qZaLCvDIkJvtMxVJY; Max-Age=7200; Path=\/; HttpOnly; SameSite=Lax\ncqto2jikja13d9pko4elrh7i=e%3AuKXb9q6RHHqLV2UDuzb0TM3osQu3F0r-bsWkORss3bozCENBQa--zyXd9J_ysPsObMxaIflZ6LiSe-MSYnJZ4NKGtY8DwURgDNts8D67YZH4uC8YUwzKi7ceuPNmJPnG.a2w4bGRkWUplYlJVX0RBYQ._cSrcSawqTsNZq6IH825ob3X_On31lbCV_l0cYu9GBE; Max-Age=7200; Path=\/; HttpOnly; SameSite=Lax"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "++title": "Sign In",
+            "charset": "utf-8",
+            "description": "Alba Digital Technology",
+            "author": "Alba Digital Technology"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "domain": [
+                "part-solution.albatech.id",
+                "www.part-solution.albatech.id"
+            ],
+            "subject": "\/CN=part-solution.albatech.id",
+            "expires": "2025-02-09 04:29:15",
+            "fingerprint": "52d6e5457dac7fa407f5d1c09a2b3e5c9f9faabf4b9dff8e993804f5a6ff5b6d",
+            "valid": "2024-11-11 04:29:16"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0ba4c18140a3ecdae23f4f9f083c32ac.jpeg"
+        },
+        "cookies": {
+            "cqto2jikja13d9pko4elrh7i": "e%3AuKXb9q6RHHqLV2UDuzb0TM3osQu3F0r-bsWkORss3bozCENBQa--zyXd9J_ysPsObMxaIflZ6LiSe-MSYnJZ4NKGtY8DwURgDNts8D67YZH4uC8YUwzKi7ceuPNmJPnG.a2w4bGRkWUplYlJVX0RBYQ._cSrcSawqTsNZq6IH825ob3X_On31lbCV_l0cYu9GBE",
+            "osaka": "s%3AeyJtZXNzYWdlIjoiY3F0bzJqaWtqYTEzZDlwa280ZWxyaDdpIiwicHVycG9zZSI6Im9zYWthIn0.XNY9ltEih2lNXFgaZ-KSnrOmL_qZaLCvDIkJvtMxVJY"
+        }
+    }
+}

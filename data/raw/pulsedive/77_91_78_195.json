@@ -1,0 +1,126 @@
+{
+    "qid": null,
+    "iid": 64442928,
+    "indicator": "77.91.78.195",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-21 06:36:19",
+    "stamp_updated": "2024-12-09 10:39:05",
+    "stamp_seen": "2024-12-01 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64444137,
+                "indicator": "https:\/\/77.91.78.195\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-21 06:36:19"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-22 21:44:26"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "22",
+            "443",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SOCKS",
+            "SSH"
+        ],
+        "technology": [
+            "Font Awesome",
+            "Let's Encrypt",
+            "Nginx",
+            "PostHog",
+            "Rudderstack",
+            "Vue.js"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "city": "Helsinki",
+            "country": "Finland",
+            "countrycode": "FI",
+            "region": "Uusimaa",
+            "long": "24.9344",
+            "asn": "AS210644",
+            "lat": "60.1797",
+            "org": "Aeza International Ltd"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "cache-control": "public, max-age=0\nno-cache",
+            "date": "Mon, 21 Oct 2024 07:07:26 GMT",
+            "last-modified": "Wed, 16 Oct 2024 21:34:04 GMT",
+            "etag": "W\/\"1052-19297409474\"",
+            "++target": "https:\/\/77.91.78.195\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width,initial-scale=1.0",
+            "charset": "utf-8",
+            "++title": "n8n - Workflow Automation"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "valid": "2024-09-05 19:35:42",
+            "expires": "2024-12-04 19:35:41",
+            "domain": "auto.techspec.pro",
+            "fingerprint": "531915bcaa9f0be195b6ab25655309727f1b69e0428452ceeaf3011522c10a3b",
+            "subject": "\/CN=auto.techspec.pro"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "1080": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

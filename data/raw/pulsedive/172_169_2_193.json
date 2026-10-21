@@ -1,0 +1,76 @@
+{
+    "qid": null,
+    "iid": 61784417,
+    "indicator": "172.169.2.193",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-31 20:11:04",
+    "stamp_updated": "2024-11-29 14:38:40",
+    "stamp_seen": "2024-11-29 14:38:40",
+    "stamp_probed": "2024-08-29 07:51:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-31 20:11:04"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-29 07:48:15"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS8075",
+            "city": "Des Moines",
+            "region": "Iowa",
+            "org": "MICROSOFT-CORP-MSN-AS-BLOCK",
+            "long": "-93.6124",
+            "lat": "41.6021"
+        },
+        "dns": {
+            "ptr": "azpdcsb38.stretchoid.com"
+        }
+    }
+}

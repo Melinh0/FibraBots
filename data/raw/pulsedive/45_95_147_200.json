@@ -1,0 +1,88 @@
+{
+    "qid": null,
+    "iid": 46812262,
+    "indicator": "45.95.147.200",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-04-28 02:31:37",
+    "stamp_updated": "2023-11-10 21:53:05",
+    "stamp_seen": "2023-08-09 23:09:37",
+    "stamp_probed": "2023-08-09 23:09:37",
+    "stamp_retired": "2023-11-10 21:53:05",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-04-28 07:28:39"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-28 02:31:37"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2023-04-28 07:28:39"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Netherlands",
+            "countrycode": "NL",
+            "lat": "52.3824",
+            "long": "4.8995",
+            "asn": "AS49870",
+            "isp": "Alsycon B.V.",
+            "org": "Alsycon B.V."
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\n"
+        },
+        "dns": {
+            "ptr": "dbv.wesubmityours.com"
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "qid": null,
+    "iid": 54280866,
+    "indicator": "187.16.96.250",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-15 16:15:25",
+    "stamp_updated": "2024-12-10 10:37:42",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": "2024-09-30 07:12:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-20 18:39:33"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-15 16:15:25"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-20 18:39:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-16 00:22:15"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Rio de Janeiro",
+            "asn": "AS17222",
+            "lat": "-22.9201",
+            "city": "Rio de Janeiro",
+            "long": "-43.0811",
+            "org": "MUNDIVOX DO BRASIL LTDA"
+        },
+        "whois": {
+            "country": "BR",
+            "changed": [
+                "20101014",
+                "20130307"
+            ],
+            "abuse-c": "AIJ6",
+            "aut-num": "AS17222",
+            "created": [
+                "20010710",
+                "20080924"
+            ],
+            "nic-hdl-br": "AIJ6",
+            "owner-c": "AIJ6",
+            "ownerid": "03.580.510\/0002-54",
+            "person": "Alberto Ivan Duran de la Jara",
+            "responsible": "Alberto Ivan Duran de la Jara",
+            "tech-c": "AIJ6",
+            "nserver": [
+                "ns-rj-2.mundivox.com.br",
+                "ns-rj-1.mundivox.com.br"
+            ],
+            "inetnum": "187.16.64.0\/18",
+            "inetrev": "187.16.96.0\/20",
+            "e-mail": "dns-adm@mundivox.com",
+            "++registrant": "Alberto Ivan Duran de la Jara",
+            "++email": "dns-adm@mundivox.com",
+            "owner": "MUNDIVOX DO BRASIL LTDA",
+            "nsstat": "20241012 AA",
+            "nslastaa": "20241012"
+        },
+        "dns": {
+            "ptr": "mvx-187-16-96-250.mundivox.com"
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "qid": null,
+    "iid": 54083899,
+    "indicator": "45.117.64.242",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-10 21:55:45",
+    "stamp_updated": "2024-12-12 03:51:18",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-09-30 12:54:07",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 54083941,
+                "indicator": "http:\/\/45.117.64.242\/"
+            },
+            {
+                "iid": 64127250,
+                "indicator": "https:\/\/45.117.64.242\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-31 05:13:32"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-10 21:55:45"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-31 05:13:32"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-24 21:50:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3306",
+            "443",
+            "5060",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SIP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "CentOS",
+            "OpenSSL",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "IN",
+            "mnt-by": [
+                "MAINT-IN-IRINN",
+                "MAINT-IN-HIREACHBROADBAND",
+                "MAINT-IN-MITHRILTELECOM"
+            ],
+            "role": "NOC Manager",
+            "inetnum": "45.117.64.0 - 45.117.67.255",
+            "mnt-lower": "MAINT-IN-HIREACHBROADBAND",
+            "mnt-routes": [
+                "MAINT-IN-HIREACHBROADBAND",
+                "MAINT-IN-MITHRILTELECOM"
+            ],
+            "origin": "AS134033",
+            "last-modified": [
+                "2015-05-27T12:18:28Z",
+                "2020-10-26T07:08:00Z",
+                "2020-11-05T10:47:50Z",
+                "2020-11-05T10:46:35Z",
+                "2023-02-01T07:49:17Z"
+            ],
+            "route": "45.117.64.0\/24",
+            "descr": [
+                "route object for 45.117.64.0\/24",
+                "MITHRIL TELECOMMUNICATIONS PVT. LTD."
+            ],
+            "tech-c": [
+                "NM580-AP",
+                "RP490-AP"
+            ],
+            "netname": "MITHRILTELECOM",
+            "e-mail": [
+                "rajesh@mithriltelecom.com",
+                "anilnaik@mithriltele.com"
+            ],
+            "admin-c": "RP490-AP",
+            "nic-hdl": [
+                "NM580-AP",
+                "RP490-AP"
+            ],
+            "person": "RAJESH PONNA",
+            "++registrant": [
+                "RP490-AP",
+                "RAJESH PONNA"
+            ],
+            "++email": [
+                "rajesh@mithriltelecom.com",
+                "anilnaik@mithriltele.com",
+                "support@mithriltelecom.com"
+            ],
+            "phone": [
+                "+91 9951512121",
+                "+91 9642225355"
+            ],
+            "++abuse": "support@mithriltelecom.com",
+            "abuse-mailbox": "support@mithriltelecom.com",
+            "mnt-irt": "IRT-IN-MITHRILTELECOM",
+            "irt": "IRT-IN-MITHRILTELECOM",
+            "address": "5-5-126\/1\/PLOT NO.5, KRANTHI HILLS COLONY,VANSATHALIPURAM, Hyderabad, Telangana, 500070",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-02-01 07:49:17",
+                "2020-11-05 10:46:35",
+                "2020-11-05 10:47:50",
+                "2020-10-26 07:08:00",
+                "2015-05-27 12:18:28"
+            ]
+        },
+        "geo": {
+            "city": "Hyderabad",
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Telangana",
+            "asn": "AS134033",
+            "org": "Mithril Telecommunications Private Limited",
+            "address": "5-5-126\/1\/PLOT NO.5, KRANTHI HILLS COLONY,VANSATHALIPURAM, Hyderabad, Telangana, 500070",
+            "long": "78.4378",
+            "lat": "17.3724"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "content-length": "4897",
+            "etag": "\"1321-5058a1e728280\"",
+            "last-modified": "Thu, 16 Oct 2014 13:20:58 GMT",
+            "server": "Apache\/2.4.6 (CentOS) OpenSSL\/1.0.2k-fips PHP\/5.4.16",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/45.117.64.242\/",
+            "++redirect": "https:\/\/45.117.64.242\/",
+            "date": "Sat, 19 Oct 2024 18:36:00 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "SomeOrganization",
+            "issuer": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=ns1648.ztomy.com\/E=root@ns1648.ztomy.com",
+            "valid": "2019-03-28 10:51:22",
+            "fingerprint": "1ac816480b90e9a455c0f78fda715e89794da16aa37e18058cf2fb3bbc46eb80",
+            "org": "ns1648.ztomy.com",
+            "expires": "2020-03-27 10:51:22",
+            "subject": "\/C=--\/ST=SomeState\/L=SomeCity\/O=SomeOrganization\/OU=SomeOrganizationalUnit\/CN=ns1648.ztomy.com\/E=root@ns1648.ztomy.com"
+        },
+        "meta": {
+            "++title": "Apache HTTP Server Test Page powered by CentOS",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "3306": "a\u0000\u0000\u0000\ufffdj\u0004Host '172-233-44-13.ip.linodeusercontent.com' is not allowed to connect to this MariaDB server"
+        },
+        "dns": {
+            "ptr": "242.64.117.45-in-addr.arpa-hireachbroadband.com.64.117.45.in-addr.arpa"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a3f90b274ec2a99e34bd43a8705fcf1d.jpeg"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "qid": null,
+    "iid": 41195701,
+    "indicator": "202.82.20.241",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-13 11:53:56",
+    "stamp_updated": "2024-12-15 11:33:03",
+    "stamp_seen": "2024-11-19 01:06:50",
+    "stamp_probed": "2024-08-10 00:36:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-13 11:53:56"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-13 17:45:52"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "admin-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "tech-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "e-mail": "noc@imsbiz.com",
+            "irt": "IRT-PCCW-BIA-HK",
+            "mnt-by": [
+                "MAINT-HK-PCCW-BIA",
+                "MAINT-HK-PCCW-BIA-CS",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-PCCW-BIA-HK",
+            "nic-hdl": [
+                "TA66-AP",
+                "AP706-AP"
+            ],
+            "notify": "noc@imsbiz.com",
+            "origin": "AS4515",
+            "phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "role": [
+                "TECHNICAL ADMINISTRATORS",
+                "ABUSE PCCWBIAHK"
+            ],
+            "descr": "Hong Kong Telecommunications (HKT) Limited Business Internet",
+            "netname": "HKT-BIA",
+            "last-modified": [
+                "2015-01-16T08:16:31Z",
+                "2016-07-15T04:03:30Z",
+                "2021-01-27T13:22:50Z",
+                "2024-08-22T03:30:23Z",
+                "2024-08-22T03:30:27Z"
+            ],
+            "route": "202.82.16.0\/20",
+            "++registrant": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++email": "noc@imsbiz.com",
+            "abuse-c": "AP706-AP",
+            "abuse-mailbox": "noc@imsbiz.com",
+            "++abuse": "noc@imsbiz.com",
+            "inetnum": "202.82.16.0 - 202.82.31.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-22 03:30:23",
+                "2024-08-22 03:30:27",
+                "2016-07-15 04:03:30",
+                "2015-01-16 08:16:31"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS4515",
+            "org": "HKT Limited",
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.9\n"
+        },
+        "dns": {
+            "ptr": "202-82-20-241.static.imsbiz.com"
+        }
+    }
+}

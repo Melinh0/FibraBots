@@ -1,0 +1,103 @@
+{
+    "qid": null,
+    "iid": 64318059,
+    "indicator": "5.16.21.118",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-13 06:20:20",
+    "stamp_updated": "2024-12-10 10:41:31",
+    "stamp_seen": "2024-10-13 06:53:01",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64319999,
+                "indicator": "http:\/\/5.16.21.118\/login"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-13 06:20:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "org": "JSC ER-Telecom Holding",
+            "asn": "AS51570",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "country": "Russia"
+        },
+        "meta": {
+            "mobileoptimized": "320",
+            "robots": "noindex,follow",
+            "mobile-web-app-capable": "yes",
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0",
+            "theme-color": "#ffffff",
+            "msapplication-starturl": "\/",
+            "msapplication-config": "\/assets\/browserconfig.xml",
+            "++title": "Keenetic Ultra \u2013 Login",
+            "apple-mobile-web-app-title": "Keenetic Web",
+            "application-name": "Keenetic Web",
+            "msapplication-tilecolor": "#2d405c",
+            "charset": "utf-8",
+            "apple-mobile-web-app-capable": "yes",
+            "handheldfriendly": "true",
+            "msapplication-tileimage": "\/assets\/img\/android-chrome-512x512.png",
+            "description": ""
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0001\ufffd\ufffd\u001f\ufffd\ufffd\u0001\ufffd\ufffd\u0003\u001b[K",
+            "22": "SSH-2.0-server\n\u0000\u0000\u00024\u0005\u0014UD\ufffdFt\ufffd\uba0cM\ufffd\f\ufffd\u001c\u0018\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au,kex-strict-s-v00@openssh.com\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp521,rsa-sha2-256,ssh-rsa\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\b\ufffd"
+        },
+        "http": {
+            "++base": "http:\/\/5.16.21.118\/",
+            "++redirect": "http:\/\/5.16.21.118\/login#goto=%2Fdashboard",
+            "++target": "http:\/\/5.16.21.118\/"
+        }
+    }
+}

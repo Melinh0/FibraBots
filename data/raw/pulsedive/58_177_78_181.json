@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 47152222,
+    "indicator": "58.177.78.181",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-05-12 12:22:11",
+    "stamp_updated": "2024-11-05 13:26:10",
+    "stamp_seen": "2024-08-03 00:00:00",
+    "stamp_probed": "2024-07-31 06:45:47",
+    "stamp_retired": "2024-11-05 13:26:10",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-16 03:26:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-05-12 12:22:11"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "abuse-mailbox": "abuse@hkbn.net",
+            "address": [
+                "15\/F, 18 Kin Hong Street, Trans Asia Centre, Kwai Chung, Kln",
+                "N.T.",
+                "15\/F Trans Asia Centre",
+                "18 Kin Hong Street, Kwai Chung",
+                "18 Kin Hong Street"
+            ],
+            "admin-c": [
+                "HKBN-HK",
+                "MH84-AP"
+            ],
+            "descr": "Hong Kong Broadband Network Ltd",
+            "e-mail": [
+                "hostmaster@hkbn.com.hk",
+                "nocsn@hkbn.com.hk"
+            ],
+            "fax-no": "+852-8167-7020",
+            "irt": "IRT-HKBN-HK",
+            "mnt-by": [
+                "MAINT-HK-HKBN",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-HKBN-HK",
+            "mnt-lower": "MAINT-HK-HKBN",
+            "netname": "HKBN",
+            "nic-hdl": [
+                "MH84-AP",
+                "AH1013-AP"
+            ],
+            "org": "ORG-HKBN1-AP",
+            "org-name": "Hong Kong Broadband Network Ltd",
+            "organisation": "ORG-HKBN1-AP",
+            "person": "Master Host",
+            "phone": [
+                "+852-3999-3888",
+                "+000000000"
+            ],
+            "tech-c": [
+                "HKBN-HK",
+                "MH84-AP"
+            ],
+            "inetnum": "58.176.0.0 - 58.177.255.255",
+            "mnt-routes": "MAINT-HK-HKBN",
+            "++phone": [
+                "+852-3999-3888",
+                "+000000000"
+            ],
+            "last-modified": [
+                "2014-11-11T08:51:41Z",
+                "2020-07-15T13:09:36Z",
+                "2020-04-23T04:39:26Z",
+                "2020-04-23T04:36:32Z",
+                "2021-01-26T04:53:10Z",
+                "2023-09-05T02:14:48Z",
+                "2024-05-31T01:39:39Z",
+                "2024-05-31T01:39:55Z"
+            ],
+            "auth": "mnt-by: MAINT-HK-HKBN",
+            "++email": "abuse@hkbn.net",
+            "origin": [
+                "AS10103",
+                "AS9269",
+                "AS9381"
+            ],
+            "role": "ABUSE HKBNHK",
+            "abuse-c": "AH1013-AP",
+            "++registrant": "Master Host",
+            "++abuse": "AH1013-AP",
+            "route": "58.177.78.0\/24",
+            "++updated": "2024-05-31 00:00:00"
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "HK",
+                "ZZ"
+            ],
+            "countrycode": "HK",
+            "asn": "AS9269",
+            "isp": "Hong Kong Broadband Network Ltd.",
+            "org": [
+                "Hong Kong Broadband Network Ltd.",
+                "ORG-HKBN1-AP"
+            ],
+            "address": [
+                "15\/F, 18 Kin Hong Street, Trans Asia Centre, Kwai Chung, Kln",
+                "15\/F Trans Asia Centre",
+                "18 Kin Hong Street, Kwai Chung",
+                "N.T.",
+                "18 Kin Hong Street"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "dns": {
+            "ptr": "058177078181.ctinets.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2016.74\n\u0000\u0000\u0002L\u0006\u0014\u001c\ufffd\bt\ufffd\ufffd\u0000+d\ufffd\ufffd\u001f\/\u001e\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000#ecdsa-sha2-nistp521,ssh-rsa,ssh-dss\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000%hmac-sha1,hmac-sha2-256,hmac-sha2-512\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001bh\ufffd<\ufffd\b"
+        }
+    }
+}

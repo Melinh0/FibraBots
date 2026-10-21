@@ -1,0 +1,191 @@
+{
+    "qid": null,
+    "iid": 64343400,
+    "indicator": "66.85.76.98",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-16 06:23:24",
+    "stamp_updated": "2024-12-02 10:16:34",
+    "stamp_seen": "2024-10-17 22:51:17",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64367407,
+                "indicator": "https:\/\/66.85.76.98\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-16 06:23:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusephone": "+1-877-226-0840",
+            "++registered": [
+                "2009-08-21 00:00:00",
+                "2015-03-06 00:00:00"
+            ],
+            "parent": "NET66 (NET-66-0-0-0-0)",
+            "stateprov": "MO",
+            "address": "1325 Tracy Ave",
+            "city": "Kansas City",
+            "netname": "JOESDC-01",
+            "orgabuseemail": "security@joesdatacenter.com",
+            "orgabusehandle": "NAA25-ARIN",
+            "orgabusename": "Network Abuse Administrator",
+            "orgid": "JOESD",
+            "orgnocemail": "joe@joesdatacenter.com",
+            "orgnochandle": "JPM84-ARIN",
+            "orgnocname": "Morgan, Joe Patrick",
+            "orgnocphone": "+1-816-726-7615",
+            "orgtechemail": "joe@joesdatacenter.com",
+            "orgtechhandle": "JPM84-ARIN",
+            "orgtechname": "Morgan, Joe Patrick",
+            "orgtechphone": "+1-816-726-7615",
+            "originas": "AS19969",
+            "postalcode": "64106",
+            "regdate": [
+                "2009-08-21",
+                "2015-03-06"
+            ],
+            "++abuse": "security@joesdatacenter.com",
+            "++email": "joe@joesdatacenter.com",
+            "++phone": "+1-816-726-7615",
+            "updated": [
+                "2015-03-06",
+                "2024-05-10"
+            ],
+            "referralserver": "rwhois:\/\/billing.joesdatacenter.com:4321",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/JPM84-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/JOESD",
+                "https:\/\/rdap.arin.net\/registry\/ip\/66.85.72.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NAA25-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/JPM84-ARIN",
+            "nethandle": "NET-66-85-72-0-1",
+            "cidr": "66.85.72.0\/21",
+            "netrange": "66.85.72.0 - 66.85.79.255",
+            "++updated": "2024-05-10 00:00:00",
+            "orgname": "CyberCloud Professionals LLC",
+            "organization": "CyberCloud Professionals LLC (JOESD)",
+            "++registrant": "CyberCloud Professionals LLC"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "Virginia",
+                "MO"
+            ],
+            "asn": "AS19969",
+            "city": [
+                "Kansas City",
+                "Onley"
+            ],
+            "zip": "64106",
+            "lat": "37.691",
+            "address": "1325 Tracy Ave",
+            "org": [
+                "JOESDATACENTER",
+                "CyberCloud Professionals LLC (JOESD)"
+            ],
+            "long": "-75.716"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=63072000",
+            "x-download-options": "noopen",
+            "x-permitted-cross-domain-policies": "none",
+            "referrer-policy": "same-origin",
+            "content-length": "1704",
+            "++code": "200",
+            "content-security-policy": "default-src 'none'; frame-src 'self' cloudron.io *.cloudron.io; connect-src wss: https: 'self' *.cloudron.io; script-src https: 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data:; style-src https: 'unsafe-inline'; object-src 'none'; font-src https: 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self';",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 27 Mar 2024 09:12:37 GMT",
+            "etag": "\"6603e305-6a8\"",
+            "date": "Thu, 17 Oct 2024 18:00:44 GMT",
+            "++target": "http:\/\/66.85.76.98\/",
+            "++redirect": "https:\/\/66.85.76.98\/"
+        },
+        "meta": {
+            "viewport": "user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height",
+            "charset": "utf-8",
+            "description": "Cloudron - Not Found",
+            "++title": "Cloudron - Not Found"
+        },
+        "ssl": {
+            "version": "v3",
+            "expires": "2026-03-21 23:01:41",
+            "valid": "2024-01-11 23:01:41",
+            "issuer": "\/CN=cloudron-2024-01-11T23:01:40.421Z",
+            "org": "cloudron-2024-01-11T23:01:40.421Z",
+            "subject": "\/CN=cloudron-2024-01-11T23:01:40.421Z",
+            "fingerprint": "aad3e8ac5306a2d5a3235d186c2a69392ad3bbe2358a99d854c8f19cb64c4383"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/2ac996d8cfdf12cc69077292b731ff0a.jpeg"
+        }
+    }
+}

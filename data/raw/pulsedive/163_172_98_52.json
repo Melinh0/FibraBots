@@ -1,0 +1,182 @@
+{
+    "qid": null,
+    "iid": 63429044,
+    "indicator": "163.172.98.52",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-21 04:41:23",
+    "stamp_updated": "2024-12-11 02:25:48",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63438345,
+                "indicator": "http:\/\/163.172.98.52\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-21 04:41:23"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-10-05 16:15:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Debian"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "address": [
+                "see http:\/\/www.iana.org.",
+                "Brisbane, Australia"
+            ],
+            "role": [
+                "Internet Assigned Numbers Authority",
+                "ABUSE APNICAP"
+            ],
+            "country": [
+                "AU",
+                "ZZ"
+            ],
+            "admin-c": [
+                "IANA1-AP",
+                "HM20-AP"
+            ],
+            "descr": "Early registration addresses",
+            "inetnum": "163.0.0.0 - 163.255.255.255",
+            "irt": "IRT-APNIC-AP",
+            "mnt-by": [
+                "MAINT-APNIC-AP",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-APNIC-AP",
+            "mnt-lower": "APNIC-HM",
+            "netname": "ERX-NETBLOCK",
+            "nic-hdl": [
+                "IANA1-AP",
+                "AA1452-AP"
+            ],
+            "tech-c": [
+                "IANA1-AP",
+                "NO4-AP"
+            ],
+            "e-mail": "helpdesk@apnic.net",
+            "abuse-mailbox": "helpdesk@apnic.net",
+            "last-modified": [
+                "2018-06-22T22:34:30Z",
+                "2021-04-16T06:53:35Z",
+                "2023-08-18T00:42:38Z",
+                "2023-08-18T19:08:30Z"
+            ],
+            "++phone": "+000000000",
+            "phone": "+000000000",
+            "++abuse": "helpdesk@apnic.net",
+            "++registrant": [
+                "IANA1-AP",
+                "HM20-AP"
+            ],
+            "++email": "helpdesk@apnic.net",
+            "abuse-c": "AA1452-AP",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-08-18 00:42:38",
+                "2018-06-22 22:34:30",
+                "2023-08-18 19:08:30"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Australia",
+                "France",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "AU",
+                "FR",
+                "ZZ"
+            ],
+            "asn": "AS12876",
+            "lat": "48.8582",
+            "long": "2.3387",
+            "address": [
+                "see http:\/\/www.iana.org.",
+                "Brisbane, Australia"
+            ],
+            "org": "Scaleway S.a.s."
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.38 (Debian)",
+            "++content-type": "text\/html",
+            "date": "Sat, 21 Sep 2024 07:03:24 GMT",
+            "last-modified": "Thu, 01 Apr 2021 13:57:47 GMT",
+            "etag": "\"0-5bee99dcafa2d\"",
+            "++target": "http:\/\/163.172.98.52\/",
+            "content-length": "0"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

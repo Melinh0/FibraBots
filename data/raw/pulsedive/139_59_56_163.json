@@ -1,0 +1,201 @@
+{
+    "qid": null,
+    "iid": 64690774,
+    "indicator": "139.59.56.163",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-03 08:40:58",
+    "stamp_updated": "2024-12-11 02:23:58",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64690788,
+                "indicator": "https:\/\/139.59.56.163\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-03 08:40:58"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-21 21:25:40"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Font API",
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": [
+                "US",
+                "IN",
+                "ZZ"
+            ],
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": [
+                "noc@digitalocean.com",
+                "abuse@digitalocean.com"
+            ],
+            "abuse-mailbox": "abuse@digitalocean.com",
+            "address": [
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013"
+            ],
+            "admin-c": "DOIA2-AP",
+            "descr": "DigitalOcean, LLC",
+            "e-mail": [
+                "abuse@digitalocean.com",
+                "noc@digitalocean.com"
+            ],
+            "fax-no": "+1 646 397 8051",
+            "irt": "IRT-DIGITALOCEAN-AP",
+            "mnt-by": [
+                "MAINT-DIGITALOCEAN-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-DIGITALOCEAN-AP",
+            "netname": "DIGITALOCEAN-AP",
+            "nic-hdl": [
+                "DOIA2-AP",
+                "AD699-AP"
+            ],
+            "phone": [
+                "+1 646 397 8051",
+                "+000000000"
+            ],
+            "role": [
+                "Digital Ocean Inc administrator",
+                "ABUSE DIGITALOCEANAP"
+            ],
+            "tech-c": "DOIA2-AP",
+            "last-modified": [
+                "2015-04-02T20:27:52Z",
+                "2020-05-31T21:35:26Z",
+                "2024-06-03T15:11:43Z",
+                "2024-06-03T15:12:12Z"
+            ],
+            "++phone": "+000000000",
+            "++registrant": "DOIA2-AP",
+            "abuse-c": "AD699-AP",
+            "inetnum": "139.59.56.0 - 139.59.63.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-06-03 15:11:43",
+                "2024-06-03 15:12:12",
+                "2015-04-02 20:27:52"
+            ]
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "India",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "US",
+                "IN",
+                "ZZ"
+            ],
+            "asn": "AS14061",
+            "region": "Karnataka",
+            "city": "Bengaluru",
+            "address": [
+                "101 Avenue of the Americas, 10th Floor, New York NY 10013",
+                "101 Avenue of th Americas, 10th Floor, New York NY 10013"
+            ],
+            "org": "DIGITALOCEAN-ASN",
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 21 Aug 2024 07:59:06 GMT",
+            "etag": "W\/\"66c59e4a-1a35\"",
+            "date": "Sun, 03 Nov 2024 08:41:02 GMT",
+            "++redirect": "https:\/\/139.59.56.163\/",
+            "++target": "http:\/\/139.59.56.163\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "Face 2 Demo"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "subject": "\/CN=dev-ibrow.flynautstaging.com",
+            "fingerprint": "79427221640e778511f0310e8875bfd5402f328b65914d8eb6d4f3e7eee63bd5",
+            "expires": "2024-12-13 13:37:13",
+            "valid": "2024-09-14 13:37:14",
+            "domain": "dev-ibrow.flynautstaging.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/187b9d142866126c81d63a8660526624.jpeg"
+        }
+    }
+}

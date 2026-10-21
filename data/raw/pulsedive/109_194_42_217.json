@@ -1,0 +1,74 @@
+{
+    "qid": null,
+    "iid": 61492635,
+    "indicator": "109.194.42.217",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-23 13:59:04",
+    "stamp_updated": "2024-12-07 19:55:18",
+    "stamp_seen": "2024-12-07 19:55:18",
+    "stamp_probed": "2024-07-23 20:55:08",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 2606,
+            "name": "7777 botnet",
+            "category": "botnet",
+            "risk": "unknown",
+            "stamp_linked": "2024-07-23 13:59:04"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-17 21:09:48"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "org": "JSC ER-Telecom Holding",
+            "asn": "AS56981",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "dynamicip-109-194-42-217.pppoe.tomsk.ertelecom.ru"
+        }
+    }
+}

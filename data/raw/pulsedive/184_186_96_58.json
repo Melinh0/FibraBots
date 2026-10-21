@@ -1,0 +1,236 @@
+{
+    "qid": null,
+    "iid": 59487851,
+    "indicator": "184.186.96.58",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-05-20 03:19:17",
+    "stamp_updated": "2024-12-15 11:31:50",
+    "stamp_seen": "2024-12-11 15:19:15",
+    "stamp_probed": "2024-08-25 08:11:56",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 59489375,
+                "indicator": "https:\/\/184.186.96.58\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-05-20 03:19:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "core-js",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": "GA",
+            "city": "Atlanta",
+            "++email": [
+                "tori.berube@cox.com",
+                "cari.merola@cox.com",
+                "mark.goodwin@cox.com",
+                "jacob.garcia@cox.com",
+                "carlos.ruiz@cox.com"
+            ],
+            "++registrant": "Cox Communications Inc.",
+            "address": "1400 Lake Hearn Dr.",
+            "orgabusehandle": "IC146-ARIN",
+            "orgabusename": "Cox Communications Inc",
+            "organization": "Cox Communications Inc. (CXA)",
+            "orgid": "CXA",
+            "orgname": "Cox Communications Inc.",
+            "postalcode": "30319",
+            "custname": "Cox Communications",
+            "orgtechphone": [
+                "+1-404-269-4416",
+                "+1-404-269-8267",
+                "+1-480-318-5430"
+            ],
+            "orgtechemail": [
+                "cari.merola@cox.com",
+                "tori.berube@cox.com",
+                "mark.goodwin@cox.com",
+                "jacob.garcia@cox.com",
+                "carlos.ruiz@cox.com"
+            ],
+            "orgtechhandle": [
+                "MEROL3-ARIN",
+                "BERUB3-ARIN",
+                "GOODW243-ARIN",
+                "GARCI1592-ARIN",
+                "RUIZC31-ARIN"
+            ],
+            "orgtechname": [
+                "Merola, Cari",
+                "Berube, Tori",
+                "Goodwin, Mark",
+                "Garcia, Jacob",
+                "Ruiz, Carlos"
+            ],
+            "parent": [
+                "NET184 (NET-184-0-0-0-0)",
+                "NET-184-176-0-0-1 (NET-184-176-0-0-1)"
+            ],
+            "regdate": [
+                "2010-05-14",
+                "2020-06-15"
+            ],
+            "cidr": [
+                "184.176.0.0\/12",
+                "184.186.96.0\/19"
+            ],
+            "nethandle": [
+                "NET-184-176-0-0-1",
+                "NET-184-186-96-0-1"
+            ],
+            "netname": [
+                "NET-184-176-0-0-1",
+                "NETBLK-LV-CB-184-186-96-0"
+            ],
+            "netrange": [
+                "184.176.0.0 - 184.191.255.255",
+                "184.186.96.0 - 184.186.127.255"
+            ],
+            "updated": [
+                "2012-03-02",
+                "2020-06-15",
+                "2023-02-14"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/BERUB3-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/MEROL3-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOODW243-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/GARCI1592-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/RUIZC31-ARIN"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/IC146-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/184.176.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CXA",
+                "https:\/\/rdap.arin.net\/registry\/ip\/184.186.96.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C07566191"
+            ],
+            "++registered": "2020-06-15 00:00:00",
+            "customer": "Cox Communications (C07566191)",
+            "++abuse": "IC146-ARIN",
+            "orgroutingphone": "+1-404-269-4416",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/GARCI1592-ARIN",
+            "orgroutinghandle": "GARCI1592-ARIN",
+            "orgroutingname": "Garcia, Jacob",
+            "orgroutingemail": "jacob.garcia@cox.com",
+            "orgabusephone": "+1-866-272-5111",
+            "++phone": "+1-866-272-5111",
+            "++updated": "2023-02-14 00:00:00",
+            "orgabuseemail": "abuse@cox.com"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": "Las Vegas",
+            "region": "Nevada",
+            "asn": "AS22773",
+            "lat": "36.115",
+            "long": "-115.2165",
+            "org": "ASN-CXA-ALL-CCI-22773-RDC"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "lighttpd",
+            "content-length": "688",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "etag": "\"858448346\"",
+            "++target": "http:\/\/184.186.96.58\/",
+            "++redirect": "https:\/\/184.186.96.58\/"
+        },
+        "ssl": {
+            "issuer": "\/CN=192.168.1.2",
+            "subject": "\/CN=192.168.1.2",
+            "version": "v3",
+            "org": "192.168.1.2",
+            "fingerprint": "fc285f8804536e8622833c9d9096cbbd95d2594ea2fa2703288ee6b528e12c33",
+            "expires": "1971-01-01 00:00:54",
+            "valid": "1970-01-01 00:00:54"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "utf-8",
+            "++title": "Log in \ufffd Ubiquiti EdgeSwitch"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.5\n"
+        },
+        "dns": {
+            "ptr": "wsip-184-186-96-58.lv.lv.cox.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cac78f3196c3e6a9585e46a9fb50918a.jpeg"
+        }
+    }
+}

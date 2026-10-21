@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 15068,
+    "indicator": "74.82.47.50",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2017-09-28 04:34:47",
+    "stamp_updated": "2024-02-24 19:30:35",
+    "stamp_seen": "2023-11-23 15:22:12",
+    "stamp_probed": "2023-11-23 15:22:12",
+    "stamp_retired": "2024-02-24 19:30:35",
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 305,
+            "name": "LDAP DDoS",
+            "category": "attack",
+            "risk": "unknown",
+            "stamp_linked": "2018-12-10 16:04:39"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 11,
+            "name": "Bad IPs",
+            "category": "attack",
+            "organization": "badIPs",
+            "pricing": "free",
+            "stamp_linked": "2020-09-16 19:33:46"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-01-24 17:19:17"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 509759,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "BIG",
+            "stamp_added": "2022-05-18 04:08:44",
+            "stamp_updated": "2022-05-18 04:08:44"
+        },
+        {
+            "cid": 19359,
+            "username": "milwizzle",
+            "title": "CISO",
+            "comment": "IP address is the DDoS victim.",
+            "stamp_added": "2018-12-10 16:04:39",
+            "stamp_updated": "2018-12-10 16:04:39"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "region": "Utah",
+            "asn": "AS6939",
+            "lat": "38.9822",
+            "country": "United States of America",
+            "zip": "84631",
+            "city": "Fillmore",
+            "org": "HURRICANE",
+            "isp": "HURRICANE",
+            "long": "-112.3339"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "2933",
+            "++code": "200",
+            "++status": "OK",
+            "server": "lighttpd\/1.4.55",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 15 Feb 2023 18:09:40 GMT",
+            "etag": "\"275736971\"",
+            "date": "Mon, 13 Nov 2023 11:36:33 GMT"
+        },
+        "whois": {
+            "network": [
+                "Class-Name:network",
+                "Auth-Area:nets",
+                "Tech-Contact;I:POC-HE-NOC",
+                "Abuse-Contact;I:POC-HE-ABUSE",
+                "NOC-Contact;I:POC-HE-NOC",
+                "Created:20180817203003000",
+                "Updated:20180817203003000",
+                "ID;I:NET-74.82.47.0\/26",
+                "Network-Name;I:NET-74.82.47.0\/26",
+                "Parent;I:NET-74.82.0.0\/18",
+                "IP-Network:74.82.47.0\/26",
+                "Org-Contact;I:POC-CE-2897"
+            ],
+            "contact": [
+                "Auth-Area:contacts",
+                "Class-Name:contact",
+                "Province:CA",
+                "Country-Code:US",
+                "Phone:-",
+                "E-mail:-",
+                "Created:20180817203001000",
+                "ID;I:POC-HE-NOC",
+                "Name:Network Operations Center",
+                "Company:Hurricane Electric",
+                "Street-Address:760 Mission Ct",
+                "City:Fremont",
+                "Postal-Code:94539",
+                "Phone:+1-510-580-4100",
+                "E-Mail:noc@he.net",
+                "Created:20100901200738000",
+                "Updated:20100901200738000",
+                "ID;I:POC-HE-ABUSE",
+                "Name:Abuse Department",
+                "E-Mail:abuse@he.net",
+                "Updated:20180817203001000",
+                "ID;I:POC-CE-2897",
+                "Name:Richard Perlotto",
+                "Company:The Shadow Server Foundation",
+                "Street-Address:142 N Milpitas Blvd, Ste 476",
+                "City:Milpitas",
+                "Postal-Code:95035",
+                ""
+            ]
+        },
+        "dns": {
+            "ptr": "scan-09l.shadowserver.org"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/084e73c518ac5d989677df9fab569fa1.jpeg"
+        }
+    }
+}

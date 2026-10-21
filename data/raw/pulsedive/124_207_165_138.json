@@ -1,0 +1,280 @@
+{
+    "qid": null,
+    "iid": 8250573,
+    "indicator": "124.207.165.138",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-02-11 08:22:36",
+    "stamp_updated": "2024-12-15 11:29:30",
+    "stamp_seen": "2024-12-15 07:22:03",
+    "stamp_probed": "2024-07-24 20:01:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65789486,
+                "indicator": "https:\/\/124.207.165.138\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 18:55:24"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:40:07"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-23 04:11:35"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 18:55:24"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-03-13 15:16:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "8080"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": [
+                "CN",
+                "ZZ"
+            ],
+            "address": [
+                "Beijing, China",
+                "No.11 Hepingli east Dongcheng District, Beijing,China",
+                "Jian Guo Road, Chaoyang District, Beijing, PR.China"
+            ],
+            "abuse-mailbox": [
+                "ipas@cnnic.cn",
+                "Xufuyuan@btte.net"
+            ],
+            "admin-c": [
+                "IP50-AP",
+                "BW904-AP"
+            ],
+            "mnt-by": [
+                "MAINT-CNNIC-AP",
+                "APNIC-ABUSE"
+            ],
+            "mnt-routes": "MAINT-CNNIC-AP",
+            "tech-c": [
+                "IP50-AP",
+                "BW904-AP"
+            ],
+            "mnt-lower": "MAINT-CNNIC-AP",
+            "descr": [
+                "Jian Guo Road, Chaoyang District, Beijing, PR.China",
+                "Beijing Teletron Telecom Engineering Co., Ltd."
+            ],
+            "inetnum": "124.204.0.0 - 124.207.255.255",
+            "netname": "DXTNET",
+            "++phone": [
+                "+86-18612964416",
+                "+000000000"
+            ],
+            "e-mail": [
+                "ipas@cnnic.cn",
+                "Xufuyuan@btte.net",
+                "xufuyuan@drpeng.com.cn"
+            ],
+            "nic-hdl": [
+                "BW904-AP",
+                "AC1601-AP"
+            ],
+            "person": "Xu Fuyuan",
+            "phone": [
+                "+86-18612964416",
+                "+000000000"
+            ],
+            "++abuse": [
+                "ipas@cnnic.cn",
+                "xufuyuan@btte.net"
+            ],
+            "++registrant": [
+                "IP50-AP",
+                "BW904-AP",
+                "Xu Fuyuan"
+            ],
+            "++email": [
+                "ipas@cnnic.cn",
+                "xufuyuan@btte.net",
+                "xufuyuan@drpeng.com.cn"
+            ],
+            "abuse-c": "AC1601-AP",
+            "role": "ABUSE CNNICCN",
+            "mnt-irt": "IRT-DXTNET-CN",
+            "irt": "IRT-DXTNET-CN",
+            "last-modified": [
+                "2021-08-17T02:30:53Z",
+                "2023-02-20T06:10:06Z",
+                "2023-11-28T00:57:04Z",
+                "2024-07-30T11:55:46Z"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-07-30 11:55:46",
+                "2023-11-28 00:57:04",
+                "2021-08-17 02:30:53",
+                "2023-02-20 06:10:06"
+            ]
+        },
+        "geo": {
+            "country": [
+                "China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "CN",
+                "ZZ"
+            ],
+            "asn": "AS4808",
+            "org": "China Unicom Beijing Province Network",
+            "lat": "34.7732",
+            "address": [
+                "Beijing, China",
+                "No.11 Hepingli east Dongcheng District, Beijing,China",
+                "Jian Guo Road, Chaoyang District, Beijing, PR.China"
+            ],
+            "long": "113.722"
+        },
+        "http": {
+            "content-type": [
+                "text\/html",
+                "text\/html; charset=UTF-8"
+            ],
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "server": "nginx\/1.10.3 (Ubuntu)",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "++code": [
+                "200",
+                "302"
+            ],
+            "transfer-encoding": "chunked",
+            "++status": [
+                "OK",
+                "Found"
+            ],
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "location": [
+                "\/?src=connect",
+                "https:\/\/124.207.165.138\/__session_start__\/"
+            ],
+            "++redirect": "https:\/\/124.207.165.138\/?src=connect",
+            "++target": "https:\/\/124.207.165.138\/",
+            "set-cookie": "openvpn_sess_0a0797a79c19e7e1f56c5ccfa060450e=90bba1c08035d5c4868b6717ddb496c3; Expires=Fri, 25 Oct 2024 00:54:47 GMT; Path=\/; Secure; HttpOnly",
+            "date": "Fri, 25 Oct 2024 00:24:48 GMT"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "viewport": "width=device-width; initial-scale=1.0",
+            "++title": "OpenVPN Connect",
+            "description": "OpenVPN Connect",
+            "charset": "utf-8",
+            "author": "OpenVPN, Inc.",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "openvpnas.abv.int",
+            "issuer": "\/CN=openvpnas.abv.int",
+            "subject": "\/CN=openvpnas.abv.int",
+            "expires": "2028-08-05 05:01:29",
+            "valid": "2018-08-08 05:01:29",
+            "fingerprint": "af97e4ca1fc143f697b71fd0848c29073932c73585f78aa243f2431a9eb3c3d7"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.4\n",
+            "21": "220 (vsFTPd 3.0.3)\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/cccdfa1af5dfc4e9c3f59d57619c412b.jpeg"
+        },
+        "cookies": {
+            "openvpn_sess_0a0797a79c19e7e1f56c5ccfa060450e": "90bba1c08035d5c4868b6717ddb496c3"
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "qid": null,
+    "iid": 52195433,
+    "indicator": "136.34.203.130",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-16 23:49:36",
+    "stamp_updated": "2024-12-16 17:18:29",
+    "stamp_seen": "2024-12-16 17:18:29",
+    "stamp_probed": "2024-09-30 01:27:02",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-16 23:49:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-26 04:45:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++abuse": "abuse@googlefiber.net",
+            "++registrant": "Google Fiber Inc.",
+            "++registered": [
+                "2015-10-06 00:00:00",
+                "2010-10-08 00:00:00"
+            ],
+            "stateprov": "CA",
+            "++email": "arin-contact@google.com",
+            "++phone": [
+                "+1-650-253-0000",
+                "+1-650-933-7806"
+            ],
+            "address": "1600 Amphitheatre Parkway",
+            "city": "Mountain View",
+            "orgabusephone": "+1-650-253-0000",
+            "orgtechemail": "arin-contact@google.com",
+            "orgtechhandle": "ZG39-ARIN",
+            "orgtechphone": "+1-650-253-0000",
+            "postalcode": "94043",
+            "orgabuseemail": "abuse@googlefiber.net",
+            "orgabusehandle": "GFA32-ARIN",
+            "orgabusename": "Google Fiber Abuse",
+            "parent": "NET136 (NET-136-0-0-0-0)",
+            "orgtechname": "Google LLC",
+            "regdate": [
+                "2010-10-08",
+                "2015-10-06"
+            ],
+            "updated": [
+                "2015-10-06",
+                "2023-12-15"
+            ],
+            "referralserver": "rwhois:\/\/rwhois.googlefiber.net:8987",
+            "organization": "Google Fiber Inc. (GF)",
+            "netrange": "136.32.0.0 - 136.63.255.255",
+            "netname": "GOOGLE-FIBER",
+            "nethandle": "NET-136-32-0-0-1",
+            "cidr": "136.32.0.0\/11",
+            "orgname": "Google Fiber Inc.",
+            "orgid": "GF",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZG39-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/GFA32-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GF",
+                "https:\/\/rdap.arin.net\/registry\/ip\/136.32.0.0"
+            ],
+            "++updated": "2023-12-15 00:00:00",
+            "orgroutingphone": "+1-650-933-7806",
+            "orgroutinghandle": "NARVA19-ARIN",
+            "orgroutingemail": "juannarvaez@google.com",
+            "orgroutingname": "Narvaez, Juan",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/NARVA19-ARIN"
+        },
+        "geo": {
+            "city": [
+                "Mountain View",
+                "Kansas City"
+            ],
+            "country": "United States",
+            "countrycode": "US",
+            "zip": "94043",
+            "region": [
+                "CA",
+                "Missouri"
+            ],
+            "asn": "AS16591",
+            "address": "1600 Amphitheatre Parkway",
+            "org": [
+                "Google Fiber Inc. (GF)",
+                "GOOGLE-FIBER"
+            ],
+            "lat": "38.9592",
+            "long": "-94.5961"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        },
+        "dns": {
+            "ptr": "136-34-203-130.googlefiber.net"
+        }
+    }
+}

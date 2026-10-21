@@ -1,0 +1,166 @@
+{
+    "qid": null,
+    "iid": 6532302,
+    "indicator": "45.148.10.46",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2019-09-27 11:23:09",
+    "stamp_updated": "2024-12-10 01:30:43",
+    "stamp_seen": "2024-12-05 00:00:00",
+    "stamp_probed": "2024-08-29 22:45:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2019-09-30 19:14:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 02:09:14"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2019-09-30 19:14:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-30 07:55:37"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 12:05:17"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "NL",
+                "GB",
+                "AD"
+            ],
+            "country": [
+                "United Kingdom",
+                "Andorra",
+                "The Netherlands"
+            ],
+            "city": "Amsterdam",
+            "region": "North Holland",
+            "asn": "AS48090",
+            "long": "4.8975",
+            "lat": "52.3759",
+            "org": [
+                "ORG-TSL73-RIPE",
+                "Techoff Srv Limited"
+            ],
+            "address": "35 Firs Avenue, London N11 3NE"
+        },
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": [
+                "GB",
+                "AD"
+            ],
+            "mnt-ref": [
+                "MNT-NETERRA",
+                "TECHOFF-MNT"
+            ],
+            "netname": "DMZHOST",
+            "route": "45.148.10.0\/24",
+            "inetnum": "45.148.10.0 - 45.148.10.255",
+            "origin": "AS48090",
+            "created": [
+                "2019-09-02T15:08:45Z",
+                "2019-09-05T14:32:45Z",
+                "2024-11-20T13:01:40Z",
+                "2024-11-20T13:00:28Z"
+            ],
+            "++registered": [
+                "2019-09-05 14:32:45",
+                "2024-11-20 13:01:40",
+                "2024-11-20 13:00:28"
+            ],
+            "++email": "dmzhostabuse@gmail.com",
+            "++abuse": "dmzhostabuse@gmail.com",
+            "abuse-mailbox": "dmzhostabuse@gmail.com",
+            "mnt-by": "TECHOFF-MNT",
+            "++registrant": "AD18161-RIPE",
+            "abuse-c": "AD18161-RIPE",
+            "organisation": "ORG-TSL73-RIPE",
+            "admin-c": "AD18161-RIPE",
+            "org": "ORG-TSL73-RIPE",
+            "mnt-domains": "TECHOFF-MNT",
+            "address": "35 Firs Avenue, London N11 3NE",
+            "role": "ABUSE DEP",
+            "++updated": [
+                "2024-11-21 09:45:52",
+                "2024-11-21 09:44:13",
+                "2024-11-26 15:22:33"
+            ],
+            "last-modified": [
+                "2024-11-21T09:45:52Z",
+                "2024-11-21T09:43:56Z",
+                "2024-11-21T09:44:13Z",
+                "2024-11-26T15:22:33Z"
+            ],
+            "org-name": "TECHOFF SRV LIMITED",
+            "nic-hdl": "AD18161-RIPE",
+            "tech-c": "AD18161-RIPE"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3\n"
+        }
+    }
+}

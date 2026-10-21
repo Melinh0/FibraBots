@@ -1,0 +1,243 @@
+{
+    "qid": null,
+    "iid": 32913374,
+    "indicator": "196.0.120.211",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-03-18 00:12:05",
+    "stamp_updated": "2024-12-09 10:34:45",
+    "stamp_seen": "2024-11-20 04:12:04",
+    "stamp_probed": "2024-09-30 07:54:37",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64123105,
+                "indicator": "https:\/\/196.0.120.211\/signin"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-03-29 10:26:08"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-03-18 00:12:05"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-12 14:07:34"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-07-29 12:23:21"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-03-29 10:26:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-03-23 13:35:36"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "status": "ALLOCATED PA",
+            "mnt-by": [
+                "AFRINIC-HM-MNT",
+                "RM2-MNT",
+                "GENERATED-IA5SKKTSZMVLHZGTYCN4VNRMLYE8XFL5-MNT",
+                "GENERATED-WFEGMFBV8NHVYUY1HDR48CIMBARZGY4W-MNT"
+            ],
+            "descr": [
+                "ISP",
+                "Uganda Telecom",
+                "UTL-01"
+            ],
+            "address": [
+                "Uganda",
+                "Kampala",
+                "Plot 2A-4A,",
+                "Telephone House,",
+                "Speke Road"
+            ],
+            "country": "UG",
+            "mnt-ref": [
+                "AFRINIC-HM-MNT",
+                "RM2-MNT"
+            ],
+            "inetnum": "196.0.0.0 - 196.0.255.255",
+            "mnt-lower": "RM2-MNT",
+            "netname": "UGANDA-TELECOM-01",
+            "org": "ORG-UTL1-AFRINIC",
+            "org-name": "Uganda Telecom Ltd",
+            "organisation": "ORG-UTL1-AFRINIC",
+            "mnt-domains": "RM2-MNT",
+            "origin": "AS21491",
+            "route": "196.0.0.0\/16",
+            "person": [
+                "James Omara Opio",
+                "Kevin Mugaya Francis"
+            ],
+            "phone": [
+                "tel:+256-712-451750",
+                "tel:+256-712-752737"
+            ],
+            "tech-c": [
+                "KMF1-AFRINIC",
+                "JOO1-AFRINIC"
+            ],
+            "++registrant": [
+                "James Omara Opio",
+                "Kevin Mugaya Francis",
+                "KMF1-AFRINIC"
+            ],
+            "nic-hdl": [
+                "JOO1-AFRINIC",
+                "KMF1-AFRINIC"
+            ],
+            "admin-c": "KMF1-AFRINIC",
+            "source": "AFRINIC # Filtered",
+            "parent": "196.0.0.0 - 196.255.255.255"
+        },
+        "geo": {
+            "country": "Uganda",
+            "countrycode": "UG",
+            "asn": "AS21491",
+            "address": [
+                "Kampala",
+                "Uganda",
+                "Plot 2A-4A,",
+                "Telephone House,",
+                "Speke Road"
+            ],
+            "long": "32.5",
+            "org": [
+                "ORG-UTL1-AFRINIC",
+                "UGANDA-TELECOM Uganda Telecom"
+            ],
+            "lat": "1.25"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "x-dns-prefetch-control": "off",
+            "strict-transport-security": "max-age=15552000; includeSubDomains",
+            "x-download-options": "noopen",
+            "content-length": "1210",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "W\/\"4ba-xe+TkKki18lox0Ftk9AsFToKxf4\"",
+            "++target": "http:\/\/196.0.120.211\/",
+            "++redirect": "https:\/\/196.0.120.211\/signin",
+            "date": "Sat, 12 Oct 2024 14:46:47 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=AU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "subject": "\/C=AU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "version": "v3",
+            "++subject": "Internet Widgits Pty Ltd",
+            "fingerprint": "b2675ad4451b0ac7f098133c2cb40ee760b8c159f447cc345828dcff9110c3fd",
+            "valid": "2018-12-20 13:24:51",
+            "expires": "2019-12-15 13:24:51"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "x-ua-compatible": "IE=edge,chrome=1",
+            "++title": "Xen Orchestra",
+            "author": "Vates SAS",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u4\n"
+        },
+        "dns": {
+            "ptr": "xen2.utclonline.co.ug"
+        },
+        "cookies": {
+            "connect.sid": "s%3ANqQOIvcW8zw0IgK6rt4jORTVRP1sDdwB.WraN3fPqX9Aw7rhyTUgRuKmgAdHcli2USy1szCjOMCs"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/0624f3f0c1601c0fef35c96c75f81383.jpeg"
+        }
+    }
+}

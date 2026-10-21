@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 34555751,
+    "indicator": "75.119.147.47",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2022-05-03 18:40:13",
+    "stamp_updated": "2024-12-04 10:19:50",
+    "stamp_seen": "2024-05-19 19:12:48",
+    "stamp_probed": "2024-05-19 19:12:48",
+    "stamp_retired": "2024-08-22 09:10:00",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-05-04 21:34:24"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-03 18:40:13"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-05-04 21:34:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "MediaWiki",
+            "MySQL",
+            "PHP",
+            "Ubuntu",
+            "WordPress"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "address": [
+                "81549 Muenchen",
+                "Aschauer Str. 32a",
+                "Contabo GmbH"
+            ],
+            "admin-c": "MH7476-RIPE",
+            "fax-no": "+49 89 21665862",
+            "mnt-by": [
+                "MNT-CONTABO",
+                "MNT-GIGA-HOSTING"
+            ],
+            "nic-hdl": "MH7476-RIPE",
+            "origin": "AS51167",
+            "phone": "+49 89 21268372",
+            "tech-c": "MH7476-RIPE",
+            "netname": "CONTABO",
+            "++phone": "+49 89 21268372",
+            "created": [
+                "2010-01-04T10:41:37Z",
+                "2021-03-22T08:23:41Z",
+                "2021-02-11T12:38:47Z"
+            ],
+            "last-modified": [
+                "2020-04-24T16:09:30Z",
+                "2021-03-22T08:23:41Z",
+                "2021-02-11T12:38:47Z"
+            ],
+            "person": "Wilhelm Zwalina",
+            "++updated": "2021-03-22 00:00:00",
+            "++registered": "2021-03-22 00:00:00",
+            "++registrant": "Wilhelm Zwalina",
+            "inetnum": "75.119.144.0 - 75.119.159.255",
+            "route": "75.119.146.0\/23"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "city": "D\u00fcsseldorf",
+            "asn": "AS51167",
+            "isp": "Contabo GmbH",
+            "org": "Contabo GmbH",
+            "zip": "40599",
+            "region": "North Rhine-Westphalia",
+            "lat": "51.1878",
+            "long": "6.8607"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-content-type-options": "nosniff",
+            "vary": "Accept-Encoding,Cookie",
+            "connection": "Keep-Alive",
+            "content-language": "en",
+            "keep-alive": "timeout=5, max=100",
+            "cache-control": "private, must-revalidate, max-age=0",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+            "server": "Apache\/2.4.37 (rocky)",
+            "x-powered-by": "PHP\/8.2.6",
+            "last-modified": "Fri, 09 Jun 2023 16:57:22 GMT",
+            "date": "Thu, 29 Jun 2023 15:36:47 GMT",
+            "x-request-id": "ZJ2lD@5Xdx8zmtpld0-D6wAAAAU"
+        },
+        "meta": {
+            "format-detection": "telephone=no",
+            "charset": "UTF-8",
+            "viewport": "width=1000",
+            "og:image:width": "640",
+            "og:image:height": "538",
+            "generator": "MediaWiki 1.39.3",
+            "og:image": "http:\/\/wiki.cyberh8.com\/images\/4\/41\/Untitled2.png"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5992742a6ca3c6fcdb79d6ad755d6e31.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\n"
+        },
+        "dns": {
+            "ptr": "vmi1879515.contaboserver.net"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "qid": null,
+    "iid": 28001199,
+    "indicator": "95.155.36.152",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-09-13 07:48:33",
+    "stamp_updated": "2024-12-10 23:12:05",
+    "stamp_seen": "2024-12-10 23:12:05",
+    "stamp_probed": "2024-06-23 03:30:40",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 28120889,
+                "indicator": "http:\/\/95.155.36.152\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-09-13 07:48:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "5432",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "PostgreSQL",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS8585",
+            "city": "Podgorica",
+            "country": "Montenegro",
+            "countrycode": "ME",
+            "org": "Crnogorski Telekom a.d.Podgorica",
+            "lat": "42.4411",
+            "region": "Podgorica",
+            "long": "19.2632"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.18 (Ubuntu)",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3186",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Mon, 02 Oct 2017 09:33:52 GMT",
+            "etag": "\"2c39-55a8d129e908e-gzip\"",
+            "date": "Thu, 17 Oct 2024 22:19:58 GMT",
+            "++target": "http:\/\/95.155.36.152\/"
+        },
+        "meta": {
+            "++title": "Apache2 Ubuntu Default Page: It works",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4\n",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "adsl-bb36-l152.crnagora.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5fd1a45ae33c03353717bb34cd49b4e0.jpeg"
+        }
+    }
+}

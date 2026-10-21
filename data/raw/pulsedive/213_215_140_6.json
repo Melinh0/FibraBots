@@ -1,0 +1,147 @@
+{
+    "qid": null,
+    "iid": 38271071,
+    "indicator": "213.215.140.6",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-08-22 09:08:25",
+    "stamp_updated": "2024-12-17 11:36:51",
+    "stamp_seen": "2024-12-16 17:36:44",
+    "stamp_probed": "2024-09-07 08:04:27",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-10-22 22:18:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-08-22 09:08:25"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-10 09:14:42"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-10-22 22:18:12"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-08-24 04:05:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "IT",
+            "origin": "AS8220",
+            "last-modified": [
+                "2003-03-10T09:19:03Z",
+                "2019-06-14T14:28:25Z",
+                "2019-06-24T09:48:51Z"
+            ],
+            "mnt-by": "COLT-IT-MNT",
+            "route": "213.215.128.0\/17",
+            "descr": [
+                "COLT Internet IT",
+                "RAE88"
+            ],
+            "created": [
+                "2003-03-10T09:19:03Z",
+                "2019-06-14T14:28:25Z"
+            ],
+            "address": [
+                "RAE88",
+                "Via Abruzzi, 25,",
+                "Rome, 00187, Italy"
+            ],
+            "admin-c": "MP33983-RIPE",
+            "person": "MASSIMILIANO PERANTONI",
+            "nic-hdl": "MP33983-RIPE",
+            "phone": "+39 3387137717",
+            "tech-c": "MP33983-RIPE",
+            "inetnum": "213.215.140.0 - 213.215.140.15",
+            "++registrant": [
+                "MASSIMILIANO PERANTONI",
+                "MP33983-RIPE"
+            ],
+            "netname": "NET-IT-RAE88",
+            "++updated": [
+                "2019-06-24 09:48:51",
+                "2003-03-10 09:19:03"
+            ],
+            "++registered": [
+                "2019-06-14 14:28:25",
+                "2003-03-10 09:19:03"
+            ]
+        },
+        "geo": {
+            "country": "Italy",
+            "countrycode": "IT",
+            "city": "Milan",
+            "asn": "AS8220",
+            "org": "COLT Technology Services Group Limited",
+            "region": [
+                "Milan",
+                "Lombardy"
+            ],
+            "lat": "45.4722",
+            "long": "9.1922"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

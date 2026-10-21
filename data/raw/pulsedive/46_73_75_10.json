@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 61784793,
+    "indicator": "46.73.75.10",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-31 20:14:01",
+    "stamp_updated": "2024-12-10 10:41:14",
+    "stamp_seen": "2024-11-20 06:13:05",
+    "stamp_probed": "2024-09-16 11:11:00",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61786442,
+                "indicator": "http:\/\/46.73.75.10\/"
+            },
+            {
+                "iid": 64127420,
+                "indicator": "http:\/\/46.73.75.10\/dashboard"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-31 20:14:01"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "PPTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "abuse-mailbox": "abuse@ti.ru",
+            "descr": [
+                "Net By Net Holding LLC",
+                "Net By Net Holding LLC (Sochi)"
+            ],
+            "fax-no": "+7 495 740 4811",
+            "mnt-by": "TI-MNT",
+            "mnt-domains": "TI-MNT",
+            "mnt-lower": "TI-MNT",
+            "mnt-routes": "TI-MNT",
+            "nic-hdl": "TI805-RIPE",
+            "org": "ORG-TL8-RIPE",
+            "origin": "AS12714",
+            "phone": "+7 495 980 2800",
+            "role": "TI RIPE Team",
+            "admin-c": [
+                "TI805-RIPE",
+                "AK22538-RIPE"
+            ],
+            "tech-c": [
+                "TI805-RIPE",
+                "ZK-RIPE"
+            ],
+            "netname": "TI-BB",
+            "inetnum": "46.73.0.0 - 46.73.255.255",
+            "address": [
+                "Oruzhejnyj pereulok, 41",
+                "Moscow, Russia, 127006",
+                "PJSC MegaFon"
+            ],
+            "created": [
+                "2012-11-02T11:54:10Z",
+                "2011-01-10T10:18:35Z",
+                "2022-07-05T11:34:02Z"
+            ],
+            "last-modified": [
+                "2014-04-03T14:44:36Z",
+                "2023-04-12T10:32:12Z",
+                "2022-07-05T11:34:02Z"
+            ],
+            "++abuse": "abuse@ti.ru",
+            "++registrant": [
+                "TI805-RIPE",
+                "AK22538-RIPE"
+            ],
+            "++email": "abuse@ti.ru",
+            "++registered": [
+                "2012-11-02 11:54:10",
+                "2022-07-05 11:34:02"
+            ],
+            "++updated": [
+                "2023-04-12 10:32:12",
+                "2022-07-05 11:34:02"
+            ],
+            "route": "46.73.72.0\/21"
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS12714",
+            "org": "PJSC MegaFon",
+            "city": "Tver",
+            "long": "35.8938",
+            "lat": "56.8651",
+            "region": "Tver Oblast",
+            "country": "Russia"
+        },
+        "meta": {
+            "mobileoptimized": "320",
+            "robots": "noindex,follow",
+            "mobile-web-app-capable": "yes",
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0",
+            "theme-color": "#ffffff",
+            "msapplication-starturl": "\/",
+            "msapplication-config": "\/assets\/browserconfig.xml",
+            "apple-mobile-web-app-title": "Keenetic Web",
+            "application-name": "Keenetic Web",
+            "msapplication-tilecolor": "#2d405c",
+            "charset": "utf-8",
+            "apple-mobile-web-app-capable": "yes",
+            "handheldfriendly": "true",
+            "msapplication-tileimage": "\/assets\/img\/android-chrome-512x512.png",
+            "description": ""
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 18:57. Server port: 21.\n220-This is a private system - No anonymous login\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "1723": "\u0005\u0004\u0000\u0000",
+            "22": "SSH-2.0-server\n\u0000\u0000\u00024\u0005\u0014\ufffdA\ufffd}\ufffd\u001b\u0138\u001b\ufffdyv\ufffd\ufffd\ufffdc\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au,kex-strict-s-v00@openssh.com\u0000\u0000\u00004ssh-ed25519,ecdsa-sha2-nistp521,rsa-sha2-256,ssh-rsa\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000achacha20-poly1305@openssh.com,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes256-ctr\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdfG\u000f\u001a"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/07640cb809a4abefe683611b7911ec2c.jpeg"
+        },
+        "http": {
+            "++base": "http:\/\/46.73.75.10\/",
+            "++redirect": "http:\/\/46.73.75.10\/dashboard",
+            "++target": "http:\/\/46.73.75.10\/"
+        }
+    }
+}

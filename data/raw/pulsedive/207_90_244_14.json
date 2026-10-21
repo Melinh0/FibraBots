@@ -1,0 +1,149 @@
+{
+    "qid": null,
+    "iid": 50462007,
+    "indicator": "207.90.244.14",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-08-23 12:52:28",
+    "stamp_updated": "2024-12-06 10:23:32",
+    "stamp_seen": "2024-11-19 01:14:22",
+    "stamp_probed": "2024-09-07 08:03:39",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 3,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-28 02:54:10"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-08-23 16:53:00"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-28 02:54:11"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-08-23 12:52:28"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "stateprov": "TX",
+            "parent": "NET207 (NET-207-0-0-0-0)",
+            "orgtechname": "Support",
+            "postalcode": "78660",
+            "address": "18541 Dry Brook Loop",
+            "city": "Pflugerville",
+            "++updated": [
+                "2021-05-13 00:00:00",
+                "2022-01-11 00:00:00"
+            ],
+            "++registered": [
+                "2021-05-13 00:00:00",
+                "2022-01-11 00:00:00"
+            ],
+            "updated": [
+                "2021-05-13",
+                "2022-01-11"
+            ],
+            "regdate": [
+                "2021-05-13",
+                "2022-01-11"
+            ],
+            "netname": "SHODAN-01",
+            "++email": "support@shodan.io",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/207.90.244.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SL-2059"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE8082-ARIN",
+            "organization": "SHODAN, LLC (SL-2059)",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/SUPPO2311-ARIN",
+            "orgname": "SHODAN, LLC",
+            "orgtechhandle": "SUPPO2311-ARIN",
+            "netrange": "207.90.244.0 - 207.90.244.255",
+            "orgabuseemail": "abuse@shodan.io",
+            "orgtechphone": "+1-484-746-3260",
+            "orgabusehandle": "ABUSE8082-ARIN",
+            "cidr": "207.90.244.0\/24",
+            "orgid": "SL-2059",
+            "nethandle": "NET-207-90-244-0-1",
+            "orgtechemail": "support@shodan.io",
+            "++registrant": "SHODAN, LLC",
+            "++phone": "+1-484-746-3260",
+            "orgabusephone": "+1-484-746-3260",
+            "++abuse": "abuse@shodan.io"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "asn": "AS174",
+            "city": "Pflugerville",
+            "zip": "78660",
+            "region": "TX",
+            "lat": "37.751",
+            "long": "-97.822",
+            "address": "18541 Dry Brook Loop",
+            "org": [
+                "COGENT-174",
+                "SHODAN, LLC (SL-2059)"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        }
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "qid": null,
+    "iid": 3617095,
+    "indicator": "189.7.129.60",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2018-12-01 00:57:51",
+    "stamp_updated": "2024-10-08 13:06:59",
+    "stamp_seen": "2024-07-05 13:58:20",
+    "stamp_probed": "2024-07-05 13:58:20",
+    "stamp_retired": "2024-10-08 13:06:59",
+    "recent": 0,
+    "submissions": 2,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-09-19 20:17:49"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-09-17 07:57:17"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2018-12-31 09:18:30"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-09-18 18:43:54"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2020-09-19 20:17:49"
+        },
+        {
+            "fid": 44,
+            "name": "High Confidence IPv4 Drop List",
+            "category": "general",
+            "organization": "St. Dominics Priory College - Australia",
+            "pricing": "free",
+            "stamp_linked": "2019-01-12 08:10:16"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-17 22:45:19"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 08:16:05"
+        }
+    ],
+    "comments": [
+        {
+            "cid": 171514,
+            "username": "[deleted]",
+            "title": null,
+            "comment": "",
+            "stamp_added": "2020-04-21 17:09:20",
+            "stamp_updated": "2020-04-21 17:09:20"
+        }
+    ],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Debian"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS28573",
+            "region": "Rio Grande do Sul",
+            "city": "Santa Cruz do Sul",
+            "lat": "-29.7249",
+            "long": "-52.4059",
+            "isp": "Claro NXT Telecomunicacoes Ltda",
+            "org": "Claro NXT Telecomunicacoes Ltda"
+        },
+        "whois": {
+            "abuse-c": "GRSVI",
+            "aut-num": "AS28573",
+            "created": [
+                "20080512",
+                "20060906"
+            ],
+            "nic-hdl-br": "GRSVI",
+            "owner-c": "GRSVI",
+            "tech-c": "GRSVI",
+            "inetnum": "189.4.0.0\/14",
+            "inetrev": "189.7.0.0\/16",
+            "++registered": "2008-05-12 00:00:00",
+            "nserver": [
+                "ns8.virtua.com.br [lame - not published]",
+                "ns7.virtua.com.br"
+            ],
+            "responsible": "Suporte Redes",
+            "ownerid": "66.970.229\/0001-67",
+            "++abuse": "GRSVI",
+            "person": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "++registrant": "Grupo de Seguran\ufffda V\ufffdrtua",
+            "changed": [
+                "20220615",
+                "20230704"
+            ],
+            "owner": "Claro NXT Telecomunicacoes Ltda",
+            "nslastaa": [
+                "20230429",
+                "20240705"
+            ],
+            "nsstat": [
+                "20240705 AA",
+                "20240705 TIMEOUT"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "server": "Apache\/2.4.10 (Debian)",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "3078",
+            "++code": "200",
+            "++status": "OK",
+            "last-modified": "Thu, 04 Aug 2016 14:30:24 GMT",
+            "etag": "\"2b60-5393fca5ccc33-gzip\"",
+            "++content-type": "text\/html",
+            "date": "Sun, 09 Jul 2023 00:45:58 GMT"
+        },
+        "dns": {
+            "ptr": "bd07813c.virtua.com.br"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u2\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/a220b725b45cb7ed9c6a98fd4a7ddbc2.jpeg"
+        }
+    }
+}

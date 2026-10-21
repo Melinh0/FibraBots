@@ -1,0 +1,179 @@
+{
+    "qid": null,
+    "iid": 64889389,
+    "indicator": "45.158.8.66",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-12 09:09:43",
+    "stamp_updated": "2024-12-09 10:37:19",
+    "stamp_seen": "2024-11-12 09:33:17",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64890462,
+                "indicator": "https:\/\/45.158.8.66\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-12 09:09:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "country": "BR",
+            "address": [
+                "BR",
+                "Rua Waldemar Vaz Pereira N45",
+                "36889400",
+                "Muria\ufffd",
+                "Rua Valdemar Vaz Pereira, N 45, Muria\ufffd-MG"
+            ],
+            "++email": "abuse@ipxo.com",
+            "++abuse": "abuse@ipxo.com",
+            "mnt-by": [
+                "IPXO-MNT",
+                "TYNAHOST-MNT"
+            ],
+            "abuse-mailbox": "abuse@ipxo.com",
+            "mnt-ref": "IPXO-MNT",
+            "org": "ORG-THDN1-RIPE",
+            "organisation": "ORG-THDN1-RIPE",
+            "abuse-c": "TH8151-RIPE",
+            "last-modified": [
+                "2024-02-08T12:32:41Z",
+                "2024-02-08T14:46:52Z",
+                "2023-08-12T00:05:42Z"
+            ],
+            "created": [
+                "2024-02-08T12:32:21Z",
+                "2023-08-12T00:05:43Z",
+                "2023-08-12T00:05:42Z"
+            ],
+            "org-name": "Tyna Host Datacenter no Brasil",
+            "++registrant": "TH8151-RIPE",
+            "route": "45.158.8.0\/24",
+            "admin-c": "TH8151-RIPE",
+            "++registered": [
+                "2024-02-08 12:32:21",
+                "2023-08-12 00:05:42"
+            ],
+            "nic-hdl": "TH8151-RIPE",
+            "inetnum": "45.158.8.0 - 45.158.8.255",
+            "origin": "AS272547",
+            "tech-c": "TH8151-RIPE",
+            "netname": "NET-45-158-8-0-24",
+            "++updated": [
+                "2024-02-08 14:46:52",
+                "2024-02-08 12:32:41",
+                "2023-08-12 00:05:42"
+            ],
+            "role": "Tyna Host"
+        },
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "region": "Minas Gerais",
+            "address": [
+                "BR",
+                "Rua Waldemar Vaz Pereira N45",
+                "36889400",
+                "Muria\ufffd",
+                "Rua Valdemar Vaz Pereira, N 45, Muria\ufffd-MG"
+            ],
+            "lat": "-21.1299",
+            "long": "-42.3623",
+            "org": [
+                "Servicos de Infraestrutura e Datacenter",
+                "ORG-THDN1-RIPE"
+            ],
+            "asn": "AS272547",
+            "city": "Muria\ufffd"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "content-length": "635",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "etag": "\"5fd51a02-27b\"",
+            "last-modified": "Sat, 12 Dec 2020 19:29:06 GMT",
+            "date": "Tue, 12 Nov 2024 09:31:46 GMT",
+            "++redirect": "https:\/\/45.158.8.66\/",
+            "++target": "http:\/\/45.158.8.66\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/C=UK\/ST=London\/L=London\/O=XUI.one\/OU=XUI.one\/CN=XUI.one\/E=support@xui.one",
+            "issuer": "\/C=UK\/ST=London\/L=London\/O=XUI.one\/OU=XUI.one\/CN=XUI.one\/E=support@xui.one",
+            "valid": "2021-03-07 19:39:47",
+            "org": "XUI.one",
+            "expires": "2031-03-05 19:39:47",
+            "++subject": "XUI.one",
+            "fingerprint": "d21ce91a1b81ec094d23bbcf1696dd47eeeb42cae5f9741dc3c57b2e1e9e8e66"
+        },
+        "meta": {
+            "++title": "Welcome to nginx!"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9cdee1894a8a0f70f8a259607fa3fae7.jpeg"
+        }
+    }
+}

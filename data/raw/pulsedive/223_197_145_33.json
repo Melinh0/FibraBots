@@ -1,0 +1,188 @@
+{
+    "qid": null,
+    "iid": 30364478,
+    "indicator": "223.197.145.33",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-12-12 22:13:00",
+    "stamp_updated": "2024-12-10 10:39:58",
+    "stamp_seen": "2024-11-29 18:20:07",
+    "stamp_probed": "2024-09-30 10:49:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-12-12 22:13:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-23 20:59:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": [
+                "HK",
+                "ZZ"
+            ],
+            "admin-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "netname": "NETVIGATOR",
+            "origin": [
+                "AS4760",
+                "AS4515"
+            ],
+            "tech-c": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "descr": [
+                "PCCW IMSBiz route object",
+                "HKT Limited",
+                "PCCW IMS Ltd (PCCW Business Internet Access)"
+            ],
+            "e-mail": "noc@imsbiz.com",
+            "irt": "IRT-PCCW-BIA-HK",
+            "mnt-by": [
+                "MAINT-HK-PCCW-BIA",
+                "MAINT-HK-PCCW-BIA-CS",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-PCCW-BIA-HK",
+            "mnt-lower": "MAINT-HK-PCCW-BIA-CS",
+            "mnt-routes": "MAINT-HK-PCCW-BIA",
+            "nic-hdl": [
+                "TA66-AP",
+                "AP706-AP"
+            ],
+            "notify": "noc@imsbiz.com",
+            "phone": [
+                "+852-2883-5151",
+                "+000000000"
+            ],
+            "role": [
+                "TECHNICAL ADMINISTRATORS",
+                "ABUSE PCCWBIAHK"
+            ],
+            "inetnum": "223.197.128.0 - 223.197.191.255",
+            "last-modified": [
+                "2010-08-06T06:42:01Z",
+                "2016-07-15T04:03:30Z",
+                "2020-06-12T06:22:19Z",
+                "2021-01-27T13:21:37Z",
+                "2024-08-22T03:30:23Z",
+                "2024-08-22T03:30:27Z"
+            ],
+            "route": "223.197.128.0\/19",
+            "++registrant": [
+                "WC109-AP",
+                "TA66-AP",
+                "NOC18-AP"
+            ],
+            "++email": "noc@imsbiz.com",
+            "abuse-c": "AP706-AP",
+            "abuse-mailbox": "noc@imsbiz.com",
+            "++abuse": "noc@imsbiz.com",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-22 03:30:23",
+                "2024-08-22 03:30:27",
+                "2016-07-15 04:03:30",
+                "2010-08-06 06:42:01",
+                "2020-06-12 06:22:19"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Hong Kong",
+                "Hong Kong SAR China",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "HK",
+                "ZZ"
+            ],
+            "asn": "AS4760",
+            "org": "HKT Limited",
+            "address": [
+                "PO Box 9896 GPO",
+                "HKT Limited"
+            ],
+            "long": "114.1501",
+            "lat": "22.2908"
+        },
+        "banners": {
+            "23": "\ufffd\ufffd\u0018\ufffd\ufffd \ufffd\ufffd#\ufffd\ufffd'\ufffd\ufffd$",
+            "22": "\/var\/etc\/sshd_conf: Too many open files in system\n"
+        },
+        "dns": {
+            "ptr": "223-197-145-33.static.imsbiz.com"
+        }
+    }
+}

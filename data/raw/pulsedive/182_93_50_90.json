@@ -1,0 +1,247 @@
+{
+    "qid": null,
+    "iid": 47354371,
+    "indicator": "182.93.50.90",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-05-20 03:30:52",
+    "stamp_updated": "2024-12-11 02:27:03",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-30 06:38:38",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 47354675,
+                "indicator": "http:\/\/182.93.50.90\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-10-31 07:58:18"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-20 03:30:52"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-10-31 07:58:18"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-06-21 23:54:22"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1723",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "PPTP"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "mod_perl",
+            "OpenSSL",
+            "Perl",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "mnt-ref": "APNIC-HM",
+            "++phone": [
+                "+853-891-2211",
+                "+000000000"
+            ],
+            "address": [
+                "Rua de Lagos, Telecentro, Taipa",
+                "Macau",
+                "Rua da Lagos, Telecentro",
+                "P.O. Box 868",
+                "Taipa",
+                "Rua de Lagos",
+                "Telecentro"
+            ],
+            "admin-c": "CN448-AP",
+            "country": [
+                "MO",
+                "ZZ"
+            ],
+            "descr": [
+                "CTM Internet Service",
+                "CTM"
+            ],
+            "fax-no": "+853-891-2933",
+            "irt": "IRT-CTM-MO",
+            "mnt-by": [
+                "MAINT-CTM-MO",
+                "APNIC-HM",
+                "APNIC-ABUSE"
+            ],
+            "mnt-irt": "IRT-CTM-MO",
+            "mnt-lower": "MAINT-CTM-MO",
+            "mnt-routes": "MAINT-CTM-MO",
+            "nic-hdl": [
+                "CN448-AP",
+                "CM2469-AP",
+                "AC2161-AP"
+            ],
+            "org": "ORG-CDTD1-AP",
+            "org-name": "Companhia de Telecomunicacoes de Macau",
+            "organisation": "ORG-CDTD1-AP",
+            "origin": "AS4609",
+            "person": [
+                "CTM NOC",
+                "CTM Mcenter"
+            ],
+            "phone": [
+                "+853 8891 2211",
+                "+853-891-2211",
+                "+000000000"
+            ],
+            "tech-c": "CM2469-AP",
+            "geoloc": "22.200559616089 113.54611206055",
+            "inetnum": "182.93.0.0 - 182.93.63.255",
+            "netname": "CTM-AS-AP",
+            "++registrant": [
+                "CN448-AP",
+                "CTM Mcenter",
+                "CTM NOC"
+            ],
+            "last-modified": [
+                "2014-07-08T09:43:44Z",
+                "2021-01-18T03:52:16Z",
+                "2022-06-27T02:35:35Z",
+                "2022-06-27T02:30:59Z",
+                "2023-09-05T02:14:42Z",
+                "2024-08-14T13:10:49Z",
+                "2024-08-14T13:12:55Z"
+            ],
+            "route": "182.93.50.0\/24",
+            "role": "ABUSE CTMMO",
+            "abuse-c": "AC2161-AP",
+            "e-mail": "NMC_Internet_LeasedLine@ctm.com.mo",
+            "abuse-mailbox": "NMC_Internet_LeasedLine@ctm.com.mo",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-09-05 02:14:42",
+                "2024-08-14 13:10:49",
+                "2024-08-14 13:12:55",
+                "2022-06-27 02:35:35",
+                "2022-06-27 02:30:59",
+                "2014-07-08 09:43:44"
+            ],
+            "++email": "nmc_internet_leasedline@ctm.com.mo",
+            "++abuse": "nmc_internet_leasedline@ctm.com.mo"
+        },
+        "geo": {
+            "asn": "AS4609",
+            "country": [
+                "Macao",
+                "Unknown Region",
+                "Macao SAR China"
+            ],
+            "countrycode": [
+                "MO",
+                "ZZ"
+            ],
+            "org": [
+                "Companhia de Telecomunicacoes de Macau SARL",
+                "ORG-CDTD1-AP"
+            ],
+            "address": [
+                "P.O. Box 868",
+                "Rua da Lagos, Telecentro",
+                "Taipa",
+                "Macau",
+                "Rua de Lagos",
+                "Telecentro",
+                "Rua de Lagos, Telecentro, Taipa"
+            ],
+            "city": "Macao",
+            "long": "113.5559",
+            "lat": "22.201"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "content-length": "131",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.10 (Mageia) OpenSSL\/1.0.2j PHP\/5.6.27 mod_perl\/2.0.8-dev Perl\/v5.20.1",
+            "etag": "\"83-50591907c1100\"",
+            "last-modified": "Thu, 16 Oct 2014 22:13:56 GMT",
+            "++target": "http:\/\/182.93.50.90\/",
+            "date": "Mon, 07 Oct 2024 20:27:48 GMT"
+        },
+        "meta": {
+            "++title": "It works!",
+            "charset": "utf-8"
+        },
+        "dns": {
+            "ptr": "n18293z50l90.static.ctmip.net"
+        },
+        "banners": {
+            "1723": "\u0005\u0004\u0000\u0000",
+            "3306": "Y\u0000\u0000\u0000\n5.5.5-10.0.28-MariaDB\u0000\ufffdb\u0000\u0000S*u29fwB\u0000\ufffd\ufffd\b\u0002\u0000?\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000#(<8B&2kCN@2\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/449d8e3bd87d40a27f35e2a11f3a28f1.jpeg"
+        }
+    }
+}

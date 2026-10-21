@@ -1,0 +1,120 @@
+{
+    "qid": null,
+    "iid": 62394809,
+    "indicator": "162.241.121.9",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-15 21:14:42",
+    "stamp_updated": "2024-12-10 10:36:11",
+    "stamp_seen": "2024-10-08 00:36:40",
+    "stamp_probed": "2024-09-13 06:39:01",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62396628,
+                "indicator": "http:\/\/162.241.121.9\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-15 21:14:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "PHP",
+            "ThinkPHP"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "US",
+            "asn": "AS19871",
+            "country": "United States of America",
+            "lat": "37.751",
+            "long": "-97.822",
+            "org": "NETWORK-SOLUTIONS-HOSTING",
+            "isp": "NETWORK-SOLUTIONS-HOSTING"
+        },
+        "http": {
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "cache-control": "private",
+            "x-powered-by": "ThinkPHP",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "set-cookie": "PHPSESSID=a3hi2ku6th83u60s82nr217ct5; path=\/",
+            "date": "Thu, 05 Sep 2024 06:52:10 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "description": "Rieohm Manufacturing - Power Resistors,Wirewound Resistors,Ceramic Resistors,LED Load Resistors,RoHS and REACH compliant",
+            "keywords": "power resistors,ceramic resistors,wirewound resistors,aluminum encased power wire-wound resistors"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n",
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 14:52. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/eeb90377897083b5e4827338512098ff.jpeg"
+        },
+        "dns": {
+            "ptr": "162-241-121-9.webhostbox.net"
+        },
+        "cookies": {
+            "phpsessid": "a3hi2ku6th83u60s82nr217ct5"
+        }
+    }
+}

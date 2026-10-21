@@ -1,0 +1,108 @@
+{
+    "qid": null,
+    "iid": 64256903,
+    "indicator": "193.218.118.137",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-09 12:21:56",
+    "stamp_updated": "2024-12-09 16:37:00",
+    "stamp_seen": "2024-12-01 13:45:08",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64256904,
+                "indicator": "http:\/\/193.218.118.137\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2024-10-09 12:21:56"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-25 08:18:11"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2024-10-09 12:21:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Ukraine",
+            "countrycode": "UA",
+            "city": "Kyiv",
+            "region": "Kyiv City",
+            "lat": "50.458",
+            "org": "Epinatura LLC",
+            "asn": "AS207656",
+            "long": "30.5303"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "identity",
+            "++code": "200",
+            "++status": "OK",
+            "content-length": "32675",
+            "++content-type": "text\/html",
+            "date": "Tue, 26 Nov 2024 18:14:23 GMT",
+            "x-your-address-is": "72.14.189.215",
+            "expires": "Tue, 26 Nov 2024 18:34:23 GMT",
+            "++target": "http:\/\/193.218.118.137\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "charset": "UTF-8",
+            "++title": "This is a Tor Exit Router"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b97beb67852ae23e275cfc17f3cd81a5.jpeg"
+        }
+    }
+}

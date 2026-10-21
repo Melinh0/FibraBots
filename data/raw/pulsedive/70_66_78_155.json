@@ -1,0 +1,167 @@
+{
+    "qid": null,
+    "iid": 59908943,
+    "indicator": "70.66.78.155",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-04 15:29:34",
+    "stamp_updated": "2024-12-12 03:54:51",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-07-03 15:06:51",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-04 15:29:34"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-06-11 01:05:56"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": [
+                "British Columbia",
+                "AB"
+            ],
+            "city": [
+                "Victoria",
+                "Calgary"
+            ],
+            "asn": "AS6327",
+            "address": [
+                "Suite 800",
+                "630 - 3rd Ave. SW"
+            ],
+            "org": [
+                "Shaw Communications Inc. (SHAWC)",
+                "SHAW"
+            ],
+            "zip": "T2P-4L4",
+            "lat": "48.4771",
+            "long": "-123.5313"
+        },
+        "whois": {
+            "nettype": "Direct Allocation",
+            "country": "CA",
+            "++registered": [
+                "2003-03-05 00:00:00",
+                "2004-06-18 00:00:00"
+            ],
+            "parent": "NET70 (NET-70-0-0-0-0)",
+            "orgtechname": [
+                "IP Admin",
+                "Zhu, Jing"
+            ],
+            "++abuse": "internet.abuse@sjrb.ca",
+            "++email": [
+                "ipadmin@sjrb.ca",
+                "jing.zhu@sjrb.ca"
+            ],
+            "++registrant": "Shaw Communications Inc.",
+            "address": [
+                "630 - 3rd Ave. SW",
+                "Suite 800"
+            ],
+            "city": "Calgary",
+            "netname": "SHAW-COMM",
+            "orgabuseemail": "internet.abuse@sjrb.ca",
+            "orgabusehandle": "SHAWA-ARIN",
+            "orgabusename": "SHAW ABUSE",
+            "orgabusephone": "+1-403-750-7420",
+            "orgname": "Shaw Communications Inc.",
+            "orgtechemail": [
+                "ipadmin@sjrb.ca",
+                "jing.zhu@sjrb.ca"
+            ],
+            "orgtechhandle": [
+                "ZS178-ARIN",
+                "ZHUJI1-ARIN"
+            ],
+            "postalcode": "T2P-4L4",
+            "stateprov": "AB",
+            "referralserver": "rwhois:\/\/rwhois.shawcable.net:4321",
+            "organization": "Shaw Communications Inc. (SHAWC)",
+            "netrange": "70.64.0.0 - 70.79.255.255",
+            "nethandle": "NET-70-64-0-0-1",
+            "cidr": "70.64.0.0\/12",
+            "orgid": "SHAWC",
+            "regdate": [
+                "2003-03-05",
+                "2004-06-18"
+            ],
+            "updated": [
+                "2012-03-02",
+                "2024-03-28"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/ZS178-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/ZHUJI1-ARIN"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/SHAWA-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/70.64.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SHAWC"
+            ],
+            "++phone": [
+                "+1-416-786-1640",
+                "+1-587-393-0668"
+            ],
+            "orgtechphone": [
+                "+1-416-786-1640",
+                "+1-587-393-0668"
+            ],
+            "++updated": "2024-03-28 00:00:00"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.7\n"
+        },
+        "dns": {
+            "ptr": "S0106400fc148d010.gv.shawcable.net"
+        }
+    }
+}

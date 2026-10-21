@@ -1,0 +1,192 @@
+{
+    "qid": null,
+    "iid": 64218768,
+    "indicator": "103.165.210.205",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-08 05:52:02",
+    "stamp_updated": "2024-10-12 06:06:02",
+    "stamp_seen": "2024-10-08 05:55:32",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64219059,
+                "indicator": "https:\/\/103.165.210.205\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-08 05:52:02"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "1723",
+            "443",
+            "5432",
+            "8080"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "NETBIOS",
+            "PostgreSQL",
+            "PPTP"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "OpenSSL",
+            "PHP",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-SOLUSINET"
+            ],
+            "descr": [
+                "Jakarta, Indonesia",
+                "PT iForte Global Internet"
+            ],
+            "++phone": "+62-21-23586320",
+            "abuse-mailbox": "hostmaster@iforte.co.id",
+            "address": [
+                "Jakarta 10310 - Indonesia",
+                "PT iForte Global Internet",
+                "Menara BCA - 41th Floor",
+                "Jl. MH. Thamrin No. 1"
+            ],
+            "admin-c": [
+                "DSA88-AP",
+                "IR59-AP"
+            ],
+            "e-mail": [
+                "hostmaster@solusi.net.id",
+                "hostmaster@iforte.co.id"
+            ],
+            "fax-no": "+62-21-23586321",
+            "irt": "IRT-SOLUSINET-ID",
+            "mnt-irt": "IRT-SOLUSINET-ID",
+            "phone": "+62-21-23586320",
+            "tech-c": [
+                "DSA88-AP",
+                "IR59-AP"
+            ],
+            "mnt-lower": "MAINT-ID-SOLUSINET",
+            "netname": "SOLUSINET-ID",
+            "last-modified": [
+                "2018-01-10T05:00:06Z",
+                "2018-05-31T22:29:11Z",
+                "2021-04-08T07:52:33Z"
+            ],
+            "nic-hdl": "IR59-AP",
+            "person": "Irvan Rianto",
+            "++abuse": "hostmaster@iforte.co.id",
+            "++registrant": [
+                "DSA88-AP",
+                "IR59-AP",
+                "Irvan Rianto"
+            ],
+            "++email": [
+                "hostmaster@iforte.co.id",
+                "hostmaster@solusi.net.id"
+            ],
+            "inetnum": "103.165.210.0 - 103.165.210.255",
+            "auth": "# Filtered",
+            "++updated": [
+                "2018-05-31 22:29:11",
+                "2018-01-10 05:00:06",
+                "2021-04-08 07:52:33"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "city": "Malang",
+            "asn": "AS17995",
+            "org": "PT iForte Global Internet",
+            "region": "East Java",
+            "address": [
+                "PT iForte Global Internet",
+                "Menara BCA - 41th Floor",
+                "Jl. MH. Thamrin No. 1",
+                "Jakarta 10310 - Indonesia"
+            ],
+            "lat": "-7.9826",
+            "long": "112.6308"
+        },
+        "http": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "435",
+            "++code": "403",
+            "++status": "Forbidden",
+            "server": "Apache\/2.4.37 (Win32) OpenSSL\/1.1.1a PHP\/7.2.14",
+            "++content-type": "text\/html",
+            "++target": "https:\/\/103.165.210.205\/",
+            "date": "Tue, 08 Oct 2024 05:55:22 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=DE\/ST=Some-State\/O=Apache Haus Distribution Test Certificate\/OU=Apache Haus Distribution Test Certificate",
+            "subject": "\/C=DE\/ST=Some-State\/O=Apache Haus Distribution Test Certificate\/OU=Apache Haus Distribution Test Certificate",
+            "valid": "2012-04-06 00:21:34",
+            "expires": "2020-04-04 00:21:34",
+            "version": "v0",
+            "fingerprint": "22637cd44140e493a88eeec70d2fca7aeba66c9cb7ee6030e7bb1324230b47ee",
+            "++subject": "Apache Haus Distribution Test Certificate"
+        },
+        "meta": {
+            "++title": "403 Forbidden"
+        },
+        "banners": {
+            "5432": "\u0005\u0004\u0000\u0000",
+            "1723": "\u0005\u0004\u0000\u0000",
+            "139": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/04f209ad89b5257d62cfd6fd8acd25ee.jpeg"
+        }
+    }
+}

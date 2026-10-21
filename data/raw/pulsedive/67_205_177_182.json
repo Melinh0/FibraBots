@@ -1,0 +1,207 @@
+{
+    "qid": null,
+    "iid": 28490442,
+    "indicator": "67.205.177.182",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2021-10-05 15:40:48",
+    "stamp_updated": "2024-08-22 09:16:07",
+    "stamp_seen": "2024-05-21 06:55:25",
+    "stamp_probed": "2024-05-21 06:55:25",
+    "stamp_retired": "2024-08-22 09:16:07",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-10-05 15:40:48"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2021-10-05 15:40:48"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2016-04-12"
+            ],
+            "stateprov": "NY",
+            "parent": "NET67 (NET-67-0-0-0-0)",
+            "++registered": "2016-04-12 00:00:00",
+            "originas": "AS14061",
+            "cidr": "67.205.128.0\/18",
+            "nethandle": "NET-67-205-128-0-1",
+            "netrange": "67.205.128.0 - 67.205.191.255",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-67-205-128-0",
+            "++abuse": "ABUSE5232-ARIN",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "North Bergen"
+            ],
+            "asn": "AS14061",
+            "zip": [
+                "07047",
+                "10013"
+            ],
+            "country": "United States of America",
+            "long": "-74.0247",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "40.793",
+            "isp": "DIGITALOCEAN-ASN"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "accept-ranges": "bytes",
+            "x-content-type-options": "nosniff",
+            "x-dns-prefetch-control": "off",
+            "vary": "Origin",
+            "strict-transport-security": "max-age=15552000; includeSubDomains",
+            "x-download-options": "noopen",
+            "content-length": "484",
+            "++code": "200",
+            "x-response-time": "3ms",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "set-cookie": "TOKEN=; path=\/; expires=Thu, 01 Jan 1970 00:00:00 GMT; samesite=none; secure; httponly",
+            "x-csrf-token": "4719330a-d2b2-4057-bd2b-44785daac5cd",
+            "date": "Wed, 06 Sep 2023 19:03:59 GMT"
+        },
+        "ssl": {
+            "domain": [
+                "localhost",
+                "\u0000\u0000\u0001",
+                "[::1]",
+                "unifi.local",
+                "\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001"
+            ],
+            "version": "v3",
+            "org": "unifi.local",
+            "issuer": "\/CN=unifi.local",
+            "subject": "\/CN=unifi.local",
+            "++self-signed": "1",
+            "expires": "2025-11-11 02:26:03",
+            "valid": "2023-08-09 02:26:03"
+        },
+        "meta": {
+            "viewport": "width=device-width,initial-scale=1",
+            "charset": "utf-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/624c6b34b08bc27590dc78f2aefd6bc9.jpeg"
+        }
+    }
+}

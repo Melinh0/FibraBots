@@ -1,0 +1,280 @@
+{
+    "qid": null,
+    "iid": 56544527,
+    "indicator": "40.83.182.122",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-27 00:15:28",
+    "stamp_updated": "2024-12-14 20:39:04",
+    "stamp_seen": "2024-12-14 20:39:04",
+    "stamp_probed": "2024-09-30 12:17:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 56546434,
+                "indicator": "http:\/\/40.83.182.122\/"
+            },
+            {
+                "iid": 64126998,
+                "indicator": "https:\/\/40.83.182.122\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-15 20:06:09"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-27 00:15:28"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-15 20:06:09"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-06 16:50:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS"
+        ],
+        "technology": [
+            "Angular",
+            "Apache",
+            "Apache HTTP Server",
+            "Element UI",
+            "Hammer.js",
+            "HSTS",
+            "jQuery",
+            "jQuery UI",
+            "Let's Encrypt",
+            "mod_perl",
+            "Moment.js",
+            "OpenSSL",
+            "Perl",
+            "PHP",
+            "Stimulus",
+            "Turbo",
+            "UNIX",
+            "Zone.js"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "++registered": [
+                "2015-02-23 00:00:00",
+                "1998-07-10 00:00:00"
+            ],
+            "++abuse": "abuse@microsoft.com",
+            "++phone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "++registrant": "Microsoft Corporation",
+            "address": "One Microsoft Way",
+            "city": "Redmond",
+            "netname": "MSFT",
+            "orgabuseemail": "abuse@microsoft.com",
+            "orgabusehandle": "MAC74-ARIN",
+            "orgabusename": "Microsoft Abuse Contact",
+            "orgabusephone": "+1-425-882-8080",
+            "organization": "Microsoft Corporation (MSFT)",
+            "orgid": "MSFT",
+            "orgname": "Microsoft Corporation",
+            "orgtechemail": [
+                "IOC@microsoft.com",
+                "dabedard@microsoft.com",
+                "iphostmaster@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com"
+            ],
+            "orgtechhandle": [
+                "MRPD-ARIN",
+                "BEDAR6-ARIN",
+                "IPHOS5-ARIN",
+                "SINGH683-ARIN",
+                "KIMAV-ARIN"
+            ],
+            "orgtechname": [
+                "Microsoft Routing, Peering, and DNS",
+                "Bedard, Dawn",
+                "IPHostmaster, IPHostmaster",
+                "Singh, Prachi",
+                "Kim, Avery"
+            ],
+            "orgtechphone": [
+                "+1-425-882-8080",
+                "+1-425-538-6637",
+                "+1-425-707-5601"
+            ],
+            "postalcode": "98052",
+            "stateprov": "WA",
+            "parent": "NET40 (NET-40-0-0-0-0)",
+            "nethandle": "NET-40-74-0-0-1",
+            "netrange": "40.74.0.0 - 40.125.127.255",
+            "regdate": [
+                "2015-02-23",
+                "1998-07-10"
+            ],
+            "orgtechref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/MRPD-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/BEDAR6-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/IPHOS5-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SINGH683-ARIN",
+                "https:\/\/rdap.arin.net\/registry\/entity\/KIMAV-ARIN"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/40.74.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/MSFT"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/MAC74-ARIN",
+            "++email": [
+                "iphostmaster@microsoft.com",
+                "dabedard@microsoft.com",
+                "pracsin@microsoft.com",
+                "averykim@microsoft.com",
+                "ioc@microsoft.com"
+            ],
+            "cidr": "40.74.0.0\/15, 40.125.0.0\/17, 40.96.0.0\/12, 40.76.0.0\/14, 40.124.0.0\/16, 40.120.0.0\/14, 40.80.0.0\/12, 40.112.0.0\/13",
+            "updated": [
+                "2021-12-14",
+                "2024-03-18"
+            ],
+            "orgroutingname": "Chaturmohta, Somesh",
+            "orgroutinghandle": "CHATU3-ARIN",
+            "orgroutingemail": "someshch@microsoft.com",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/CHATU3-ARIN",
+            "orgroutingphone": "+1-425-882-8080",
+            "++updated": "2024-03-18 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "California",
+                "WA"
+            ],
+            "asn": "AS8075",
+            "city": [
+                "San Jose",
+                "Redmond"
+            ],
+            "zip": "98052",
+            "address": "One Microsoft Way",
+            "lat": "37.1835",
+            "org": [
+                "Microsoft Corporation (MSFT)",
+                "MICROSOFT-CORP-MSN-AS-BLOCK"
+            ],
+            "long": "-121.7714"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "vary": "Accept-Encoding",
+            "x-content-type-options": "nosniff",
+            "connection": "Keep-Alive",
+            "strict-transport-security": "max-age=63072000; includeSubDomains",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "content-encoding": "gzip",
+            "x-download-options": "noopen",
+            "x-permitted-cross-domain-policies": "none",
+            "referrer-policy": "origin-when-cross-origin",
+            "keep-alive": "timeout=5, max=100",
+            "server": "Apache\/2.4.29 (Unix) OpenSSL\/1.0.2n PHP\/7.2.1 mod_perl\/2.0.8-dev Perl\/v5.16.3",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/40.83.182.122\/",
+            "++base": "https:\/\/40.83.182.122\/",
+            "++redirect": "https:\/\/40.83.182.122\/",
+            "set-cookie": "_open_project_session=629fda562e2aeb6ad5d75d47569c8322; path=\/; secure; HttpOnly; SameSite=Lax",
+            "date": "Tue, 22 Oct 2024 05:41:56 GMT",
+            "x-runtime": "0.096214",
+            "etag": "W\/\"dbb651a1c0f39f61bc52fd6555443584\"",
+            "x-request-id": "27b60b0b-cc1d-4edc-bde6-29dd552d9ca4",
+            "content-security-policy": "default-src 'self'; base-uri 'self'; connect-src 'self' https:\/\/start.openproject.com; font-src 'self' data:; form-action 'self'; frame-ancestors 'self'; frame-src 'self' https:\/\/player.vimeo.com https:\/\/releases.openproject.com\/v1\/check.svg; img-src * data: blob:; media-src 'self'; object-src https:\/\/releases.openproject.com\/v1\/check.svg; script-src 'self' 'nonce-zHsEmwQQxr5eRc3Nwr8T8DoNO8xW69L1DNTFk9Fx1nM=' 'unsafe-inline'; style-src 'self' 'unsafe-inline'"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "viewport": "width=device-width",
+            "csrf-param": "authenticity_token",
+            "demo_projects_available": "true",
+            "boards_demo_data_available": "true",
+            "demo_view_of_type_team_planner_seeded": "true",
+            "current_menu_item": "home",
+            "++title": "Mzizi Project Manager",
+            "app_base_path": "",
+            "csrf-token": "d\/KAKqIOg+tC6FqPjULVb60kv5mlrQyEemJZJfTbP4Kj+U1JOD21OsREw5pNLzlrpgcSmuvEfpEdshRaepMjkg=="
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "E5",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=E5",
+            "subject": "\/CN=openproject.primeforce.africa",
+            "domain": "openproject.primeforce.africa",
+            "fingerprint": "3722ca4247493b569ad6860fa83e51a15689659db7f029534253f7c495794cb3",
+            "expires": "2025-01-17 00:58:17",
+            "valid": "2024-10-19 00:58:18"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/def0bfc8a49f8eab1b8ebbc8f3e7c972.jpeg"
+        },
+        "cookies": {
+            "_open_project_session": "2698f08d8cbf32434f99099967ec5b6e"
+        }
+    }
+}

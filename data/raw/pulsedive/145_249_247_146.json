@@ -1,0 +1,122 @@
+{
+    "qid": null,
+    "iid": 62719670,
+    "indicator": "145.249.247.146",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-24 21:42:27",
+    "stamp_updated": "2024-12-11 13:25:22",
+    "stamp_seen": "2024-12-11 13:25:22",
+    "stamp_probed": "2024-09-16 18:19:49",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 62719697,
+                "indicator": "http:\/\/145.249.247.146\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-24 21:42:27"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-09-01 07:51:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3389",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "RDP"
+        ],
+        "technology": [
+            "HSTS",
+            "Nginx",
+            "PHP",
+            "webpack"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Kazakhstan",
+            "countrycode": "KZ",
+            "asn": "AS21299",
+            "city": "Karaganda",
+            "org": "Kar-Tel LLC",
+            "region": "Karaganda",
+            "lat": "49.7989",
+            "long": "73.0994"
+        },
+        "http": {
+            "x-xss-protection": "1; mode=block",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "strict-transport-security": "max-age=31536000;",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=60",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "content-security-policy-report-only": "connect-src 'self' mas-project.ru ws:\/\/localhost:8090 wss:\/\/*:8091 ws:\/\/*:8091 blob: wss:\/\/webrtc.secure.itoolabs.net; default-src 'self'; img-src 'self' mas-project.ru data: blob:; font-src 'self'; frame-src 'self' https:\/\/drive.google.com\/ https:\/\/view.officeapps.live.com\/ https:\/\/app.wazzup24.com\/; media-src 'self'; object-src 'none'; report-uri 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' export.dhtmlx.com\/gantt\/; style-src 'self' 'unsafe-inline' blob:;",
+            "date": "Fri, 18 Oct 2024 08:54:30 GMT",
+            "set-cookie": "PHPSESSID=spguo2e7eu1ijv6g2kjsrnb9j9; path=\/; HttpOnly",
+            "++target": "http:\/\/145.249.247.146\/"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "viewport": "width=device-width",
+            "charset": "UTF-8",
+            "++title": "\u0410\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f",
+            "csrf-token": "K1uizDJWcV\/wwmvw4SWuUpR4Yx9ng2BzOxyevJCTeqE="
+        },
+        "banners": {
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "cookies": {
+            "user_time": "Fri, 18 Oct 2024 08:54:30 GMT",
+            "phpsessid": "spguo2e7eu1ijv6g2kjsrnb9j9"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/26f886b419b25da646c4796ce4264c4e.jpeg"
+        }
+    }
+}

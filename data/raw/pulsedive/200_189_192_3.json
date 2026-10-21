@@ -1,0 +1,161 @@
+{
+    "qid": null,
+    "iid": 41487663,
+    "indicator": "200.189.192.3",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-21 22:51:55",
+    "stamp_updated": "2024-12-15 11:32:55",
+    "stamp_seen": "2024-12-15 07:40:29",
+    "stamp_probed": "2024-09-30 08:40:40",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-09 08:50:14"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-21 22:51:55"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-09 08:50:14"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-22 18:30:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-09 12:27:05"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Brazil",
+            "countrycode": "BR",
+            "asn": "AS3549",
+            "org": "LVLT-3549",
+            "lat": "-23.6007",
+            "long": "-46.9212",
+            "city": "S\ufffdo Paulo",
+            "region": "S\ufffdo Paulo"
+        },
+        "whois": {
+            "country": "BR",
+            "responsible": "Jorge Lam",
+            "created": [
+                "20110526",
+                "20010222",
+                "19991117",
+                "20241016"
+            ],
+            "aut-num": "AS11415",
+            "nserver": [
+                "hercules.impsat.com.br",
+                "marte.impsat.com.br"
+            ],
+            "owner-c": "GLCLA4",
+            "ownerid": "72.843.212\/0001-41",
+            "tech-c": "ADI19",
+            "changed": [
+                "20130307",
+                "20240408",
+                "20241016"
+            ],
+            "nic-hdl-br": [
+                "GLCLA4",
+                "ADI19",
+                "CIABU4"
+            ],
+            "person": [
+                "Global Crossing LATAM",
+                "Administrador Tecnico de Dominios ImpSat",
+                "Cirion Abuse"
+            ],
+            "++registrant": [
+                "Global Crossing LATAM",
+                "Administrador Tecnico de Dominios ImpSat",
+                "Cirion Abuse"
+            ],
+            "inetnum": "200.189.192.0\/18",
+            "e-mail": [
+                "DL-IPPROVISIONING-BRASIL@ciriontechnologies.com",
+                "dl-np-i-ip-latam@ciriontechnologies.com",
+                "abuse@ciriontechnologies.com"
+            ],
+            "inetrev": "200.189.192.0\/24",
+            "++email": [
+                "dl-np-i-ip-latam@ciriontechnologies.com",
+                "abuse@ciriontechnologies.com",
+                "dl-ipprovisioning-brasil@ciriontechnologies.com"
+            ],
+            "owner": "Cirion Technologies do Brasil Ltda.",
+            "nsstat": "20241024 AA",
+            "nslastaa": "20241024",
+            "abuse-c": "CIABU4"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13\n"
+        },
+        "dns": {
+            "ptr": "spo.dts.gemalto.com.br"
+        }
+    }
+}

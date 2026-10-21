@@ -1,0 +1,181 @@
+{
+    "qid": null,
+    "iid": 36910411,
+    "indicator": "185.211.130.219",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-07-07 04:47:08",
+    "stamp_updated": "2024-12-11 10:41:48",
+    "stamp_seen": "2024-11-18 13:47:04",
+    "stamp_probed": "2024-08-28 22:50:26",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 36911292,
+                "indicator": "https:\/\/185.211.130.219\/"
+            },
+            {
+                "iid": 36911296,
+                "indicator": "https:\/\/185.211.130.219\/login.cgi"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-07-07 04:47:08"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "554",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "RTSP",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "jQuery UI",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "UZ",
+            "address": [
+                "UZBEKISTAN",
+                "Tashkent",
+                "39, Asaka street",
+                "100000"
+            ],
+            "last-modified": [
+                "2017-12-26T10:27:05Z",
+                "2017-12-26T18:28:05Z",
+                "2017-07-04T18:37:35Z"
+            ],
+            "tech-c": "TA6033-RIPE",
+            "mnt-by": "uz-novagroup-1-mnt",
+            "netname": "TNET-customers",
+            "++phone": "+998712003334",
+            "origin": "AS205640",
+            "descr": "novagroup",
+            "admin-c": "TA6033-RIPE",
+            "nic-hdl": "TA6033-RIPE",
+            "person": "Timur Akhunov",
+            "++registrant": [
+                "TA6033-RIPE",
+                "Timur Akhunov"
+            ],
+            "geoloc": "41.3150575 69.3079848",
+            "phone": "+998712003334",
+            "created": [
+                "2017-07-03T12:37:59Z",
+                "2017-12-26T10:25:30Z",
+                "2017-07-04T18:37:35Z"
+            ],
+            "route": "185.211.130.0\/24",
+            "inetnum": "185.211.130.0 - 185.211.130.255",
+            "++updated": [
+                "2017-12-26 18:28:05",
+                "2017-12-26 10:27:05",
+                "2017-07-04 18:37:35"
+            ],
+            "++registered": [
+                "2017-12-26 10:25:30",
+                "2017-07-03 12:37:59",
+                "2017-07-04 18:37:35"
+            ]
+        },
+        "geo": {
+            "country": "Uzbekistan",
+            "countrycode": "UZ",
+            "city": "Tashkent",
+            "lat": "41.2615",
+            "region": "Tashkent",
+            "asn": "AS205640",
+            "org": "Nova Group LLC",
+            "address": [
+                "Tashkent",
+                "UZBEKISTAN",
+                "100000",
+                "39, Asaka street"
+            ],
+            "long": "69.2177"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "lighttpd\/1.4.39",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "set-cookie": "ui_language=en_US; expires=Tuesday, 19-Jan-38 03:14:07 GMT",
+            "++content-type": "text\/html",
+            "date": "Thu, 12 Sep 2024 14:07:17 GMT",
+            "++redirect": "https:\/\/185.211.130.219\/login.cgi?uri=\/",
+            "++target": "http:\/\/185.211.130.219\/"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "++title": "Login",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2016-07-15 13:13:00",
+            "expires": "2021-07-15 13:13:00",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-68:72:51:46:93:81\/E=support@ubnt.com",
+            "org": "UBNT-68:72:51:46:93:81",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-68:72:51:46:93:81\/E=support@ubnt.com",
+            "++subject": "Ubiquiti Networks Inc.",
+            "fingerprint": "87e3061c27e081613fbbf5ac250050b4a88e05c80c425d2b48ca6d5cae4ced84"
+        },
+        "cookies": {
+            "ui_language": "en_US",
+            "airos_687251469381": "05c35cf36c33cd8e0f3edf0cd490bf0f"
+        },
+        "banners": {
+            "554": "\u0005\u0004\u0000\u0000",
+            "22": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/d3c42a80ea2da8a6fd6c78c0bf5305c7.jpeg"
+        }
+    }
+}

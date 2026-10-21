@@ -1,0 +1,144 @@
+{
+    "qid": null,
+    "iid": 62375069,
+    "indicator": "198.91.129.195",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-14 20:57:57",
+    "stamp_updated": "2024-12-16 17:33:15",
+    "stamp_seen": "2024-12-16 17:33:15",
+    "stamp_probed": "2024-09-30 08:19:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-14 20:57:57"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Canada",
+            "countrycode": "CA",
+            "region": "Ontario",
+            "asn": "AS11814",
+            "city": "Mississauga",
+            "lat": "43.5639",
+            "long": "-79.7172",
+            "org": "DISTRIBUTEL-AS11814"
+        },
+        "whois": {
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "country": "CA",
+            "++registered": "2016-06-16 00:00:00",
+            "stateprov": "ON",
+            "parent": [
+                "NET198 (NET-198-0-0-0-0)",
+                "NET-DTEL-V4-12 (NET-198-91-128-0-1)"
+            ],
+            "orgnocname": "Network Operations Centre",
+            "city": "Toronto",
+            "orgtechname": "IP Admin",
+            "++email": "ipadmin@distributel.ca",
+            "++phone": "+1-613-237-7662",
+            "orgabuseemail": "abuse@distributel.ca",
+            "orgabusehandle": "ABUSE743-ARIN",
+            "orgabusename": "Network Abuse Contact",
+            "orgabusephone": "+1-855-376-5423",
+            "orgid": "DISTRI-47",
+            "orgnocemail": "noc@distributel.ca",
+            "orgnochandle": "NOC1680-ARIN",
+            "orgnocphone": "+1-613-237-7662",
+            "orgtechemail": "ipadmin@distributel.ca",
+            "orgtechhandle": "IPADM592-ARIN",
+            "orgtechphone": "+1-613-237-7662",
+            "originas": "AS11814",
+            "updated": [
+                "2016-06-16",
+                "2022-09-20",
+                "2024-07-24"
+            ],
+            "regdate": [
+                "2016-06-16",
+                "2012-07-25",
+                "2001-06-06"
+            ],
+            "netrange": [
+                "198.91.128.0 - 198.91.255.255",
+                "198.91.129.0 - 198.91.129.255"
+            ],
+            "netname": [
+                "NET-DTEL-V4-12",
+                "DTEL-MISSISSAUGA-ARG-V4-01"
+            ],
+            "nethandle": [
+                "NET-198-91-128-0-1",
+                "NET-198-91-129-0-1"
+            ],
+            "cidr": [
+                "198.91.128.0\/17",
+                "198.91.129.0\/24"
+            ],
+            "address": "801 - 3300 Bloor St West",
+            "postalcode": "M8X 2X2",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADM592-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DISTRI-47",
+                "https:\/\/rdap.arin.net\/registry\/ip\/198.91.128.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/198.91.129.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE743-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC1680-ARIN",
+            "++abuse": "ABUSE743-ARIN",
+            "++registrant": "Distributel Communications Limited",
+            "organization": "Distributel Communications Limited (DISTRI-47)",
+            "orgname": "Distributel Communications Limited",
+            "++updated": "2024-07-24 00:00:00"
+        },
+        "dns": {
+            "ptr": "198-91-129-195.cpe.distributel.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0001t\u0005\u0014x\f\f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffddf\ufffd\u0014)!\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\ufffd\ufffdU_"
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "qid": null,
+    "iid": 40964048,
+    "indicator": "31.148.168.102",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-06 08:38:43",
+    "stamp_updated": "2024-10-01 15:16:23",
+    "stamp_seen": "2024-10-01 15:16:23",
+    "stamp_probed": "2024-10-01 15:16:22",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 40964062,
+                "indicator": "http:\/\/31.148.168.102\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-04 20:27:11"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-11-06 08:38:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "3389",
+            "53",
+            "80"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "RDP"
+        ],
+        "technology": [
+            "IIS",
+            "Microsoft ASP.NET",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Ukraine",
+            "countrycode": "UA",
+            "zip": "24321",
+            "city": "Ladyzhyn",
+            "asn": "AS202353",
+            "org": "PE TRK Todor",
+            "isp": "PE TRK Todor",
+            "lat": "48.6862",
+            "long": "29.2417",
+            "region": "Vinnytsia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "x-powered-by": "ASP.NET",
+            "content-length": "701",
+            "server": "Microsoft-IIS\/8.5",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Wed, 10 Jan 2018 08:50:05 GMT",
+            "etag": "\"12acf42f089d31:0\"",
+            "date": "Sat, 07 Sep 2024 07:17:48 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/fe53111661d5ab8db83a2461bc94a5bc.jpeg"
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "qid": null,
+    "iid": 65334847,
+    "indicator": "118.70.227.203",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-27 09:50:12",
+    "stamp_updated": "2024-12-14 11:24:49",
+    "stamp_seen": "2024-11-28 07:56:11",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-27 09:50:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "asn": "AS18403",
+            "countrycode": "VN",
+            "city": "Ho Chi Minh City",
+            "region": "Ho Chi Minh",
+            "country": "Vietnam",
+            "address": [
+                "Ha Noi, VietNam",
+                "FPT Telecom",
+                "2nd Floor, FPT Cau Giay Tower, 17 Duy Tan, Dich Vong Hau, Cau Giay District, Hanoi"
+            ],
+            "lat": "10.8217",
+            "long": "106.6254",
+            "org": "FPT Telecom Company"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-FPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "origin": "AS18403",
+            "source": "APNIC",
+            "tech-c": [
+                "NTTT1-AP",
+                "BPD5-AP",
+                "FHIG1-AP",
+                "LDP12-AP"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "address": [
+                "FPT Telecom",
+                "2nd Floor, FPT Cau Giay Tower, 17 Duy Tan, Dich Vong Hau, Cau Giay District, Hanoi",
+                "Ha Noi, VietNam"
+            ],
+            "netname": "IPxDSL-NET",
+            "admin-c": [
+                "LDP12-AP",
+                "NTTT1-AP",
+                "FHIG1-AP",
+                "LVTL1-AP"
+            ],
+            "nic-hdl": "FHIG1-AP",
+            "role": "FPT HANOI IPADMIN GROUP",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-7601060"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": [
+                "+84-24-37821462",
+                "+84-24-7262163"
+            ],
+            "phone": [
+                "+84-24-7601060",
+                "+84-24-35564944"
+            ],
+            "e-mail": [
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2019-08-01T06:47:16Z",
+                "2011-12-13T03:39:19Z",
+                "2023-10-25T01:43:23Z"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "FHIG1-AP",
+                "LVTL1-AP",
+                "LDP12-AP"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "ftel.noc.net@fpt.com"
+            ],
+            "descr": [
+                "Vietnam Internet Network Information Center (VNNIC)",
+                "Dai IP dong ket noi xDSL"
+            ],
+            "inetnum": "118.70.0.0 - 118.70.255.255",
+            "route": "118.70.227.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2023-10-25 01:43:23",
+                "2019-08-01 06:47:16"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2017.75\n\u0000\u0000\u0002<\u0004\u0014\ufffd\ufffd^L\ufffdD\ufffd\u0000\ufffd.k\ufffd\u018c\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\ufffdkN"
+        }
+    }
+}

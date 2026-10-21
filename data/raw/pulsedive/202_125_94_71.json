@@ -1,0 +1,182 @@
+{
+    "qid": null,
+    "iid": 31340522,
+    "indicator": "202.125.94.71",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-01-25 05:01:25",
+    "stamp_updated": "2024-12-11 02:28:48",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-04-03 06:10:53",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-01-26 04:42:47"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-01-25 05:01:25"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-18 12:44:57"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2022-03-05 10:58:19"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-01-26 04:42:47"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-06-07 19:51:35"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "IDNIC"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-GUNADARMA"
+            ],
+            "descr": [
+                "Depok",
+                "University \/ Direct Member IDNIC",
+                "Gunadarma University",
+                "Jl. Margonda Raya 100",
+                "Depok 16424- Jawa Barat",
+                "Route BACKBONE GUNADARMA UNIVERSITY",
+                "Jl.Margonda Raya 100",
+                "Pondok Cina"
+            ],
+            "++updated": "2018-05-31 00:00:00",
+            "last-modified": [
+                "2018-05-31T22:29:30Z",
+                "2011-10-25T06:04:58Z",
+                "2010-03-10T07:44:01Z",
+                "2011-12-06T01:46:02Z",
+                "2011-10-25T06:01:23Z"
+            ],
+            "mnt-routes": "MAINT-ID-GUNADARMA",
+            "mnt-irt": "IRT-GUNADARMA-ID",
+            "route": "202.125.94.0\/23",
+            "e-mail": [
+                "abuse@gunadarma.ac.id",
+                "akbar@staff.gunadarma.ac.id"
+            ],
+            "admin-c": "MM948-AP",
+            "abuse-mailbox": "abuse@gunadarma.ac.id",
+            "inetnum": "202.125.94.0 - 202.125.95.255",
+            "tech-c": "MM948-AP",
+            "address": [
+                "Gunadarma University",
+                "Jl. Margonda Raya 100",
+                "Depok 16424- Jawa Barat",
+                "NOC Gunadarma University",
+                "Depok 16424 - Jawa Barat"
+            ],
+            "netname": "GUNADARMA-ID",
+            "++phone": "+62-21-78881070",
+            "origin": "AS46042",
+            "nic-hdl": "MM948-AP",
+            "person": "M Akbar Marwan",
+            "irt": "IRT-GUNADARMA-ID",
+            "phone": "+62-21-78881070",
+            "fax-no": "+62-21-78881071",
+            "auth": "mnt-by: MAINT-ID-GUNADARMA",
+            "++abuse": "abuse@gunadarma.ac.id",
+            "++registrant": "MM948-AP",
+            "++email": [
+                "abuse@gunadarma.ac.id",
+                "akbar@staff.gunadarma.ac.id"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS46042",
+            "org": "Gunadarma University",
+            "isp": "Gunadarma University",
+            "address": [
+                "Gunadarma University",
+                "Jl. Margonda Raya 100",
+                "Depok 16424- Jawa Barat",
+                "NOC Gunadarma University",
+                "Depok 16424 - Jawa Barat"
+            ],
+            "lat": "-6.1728",
+            "long": "106.8272"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.1\n"
+        },
+        "dns": {
+            "ptr": "akademik.gunadarma.ac.id"
+        }
+    }
+}

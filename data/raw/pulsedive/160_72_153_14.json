@@ -1,0 +1,211 @@
+{
+    "qid": null,
+    "iid": 62908190,
+    "indicator": "160.72.153.14",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-03 00:06:37",
+    "stamp_updated": "2024-12-16 17:24:32",
+    "stamp_seen": "2024-12-16 17:24:32",
+    "stamp_probed": "2024-09-04 13:27:57",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64215388,
+                "indicator": "https:\/\/160.72.153.14\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-03 00:06:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reassigned"
+            ],
+            "stateprov": "TX",
+            "regdate": [
+                "2016-04-29",
+                "2021-08-26",
+                "2023-07-12"
+            ],
+            "parent": [
+                "NET160 (NET-160-0-0-0-0)",
+                "CROWNCASTLE-160-72-0-0 (NET-160-72-0-0-1)"
+            ],
+            "originas": "AS46887",
+            "postalcode": [
+                "75001",
+                "77024"
+            ],
+            "nethandle": [
+                "NET-160-72-0-0-1",
+                "NET-160-72-153-0-1"
+            ],
+            "cidr": [
+                "160.72.0.0\/16",
+                "160.72.153.0\/26"
+            ],
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/160.72.0.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/CCFL-10",
+                "https:\/\/rdap.arin.net\/registry\/ip\/160.72.153.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/C08008007"
+            ],
+            "netrange": [
+                "160.72.0.0 - 160.72.255.255",
+                "160.72.153.0 - 160.72.153.63"
+            ],
+            "city": [
+                "Houston",
+                "Adison"
+            ],
+            "updated": [
+                "2021-08-26",
+                "2023-11-07",
+                "2024-02-29"
+            ],
+            "custname": "Regus Management Group, LLC",
+            "address": [
+                "15305 Dallas Pkwy",
+                "8020 Katy Freeway"
+            ],
+            "orgtechphone": "+1-855-933-4237",
+            "++phone": "+1-855-933-4237",
+            "orgtechemail": "ipadmin@crowncastle.com",
+            "++email": "ipadmin@crowncastle.com",
+            "++registered": "2023-07-12 00:00:00",
+            "++updated": "2024-02-29 00:00:00",
+            "orgabusehandle": "CCAR-ARIN",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/CCAR-ARIN",
+            "orgabusename": "Crown Castle Abuse Reports",
+            "organization": "Crown Castle Fiber LLC (CCFL-10)",
+            "orgid": "CCFL-10",
+            "orgabusephone": "+1-855-933-4237",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/CCIA3-ARIN",
+            "orgname": "Crown Castle Fiber LLC",
+            "orgabuseemail": "abuse@crowncastle.com",
+            "orgtechname": "Crown Castle IP Admin",
+            "orgnocphone": "+1-855-933-4237",
+            "orgnochandle": "CCNOC3-ARIN",
+            "orgtechhandle": "CCIA3-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/CCNOC3-ARIN",
+            "orgnocname": "Crown Castle Network Operations Center",
+            "orgnocemail": "fibersupport@crowncastle.com",
+            "++registrant": "Crown Castle Fiber LLC",
+            "++abuse": "+1-855-933-4237",
+            "netname": [
+                "CROWNCASTLE-160-72-0-0",
+                "LTF-160-72-153-0-26"
+            ],
+            "customer": "Regus Management Group, LLC (C08008007)"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": "New York",
+            "region": "New York",
+            "asn": "AS46887",
+            "lat": "40.7359",
+            "long": "-73.9904",
+            "org": "CROWNCASTLE-AS46887"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=15, max=100",
+            "cache-control": "no-cache, private",
+            "expires": "Mon, 16 Apr 1973 13:10:00 GMT",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/160.72.153.14\/",
+            "++redirect": "https:\/\/160.72.153.14\/",
+            "date": "Mon, 18 Nov 2024 18:35:28 GMT"
+        },
+        "cookies": {
+            "zy_pc_browser": "1",
+            "arip": "160.72.153.14"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/CN=usg60_5CE28C60D711",
+            "subject": "\/CN=usg60_5CE28C60D711",
+            "org": "usg60_5CE28C60D711",
+            "valid": "2017-12-06 18:39:53",
+            "expires": "2027-12-04 18:39:53",
+            "fingerprint": "3c8b128cef8a8f08b828fd23e6fc8b336f34b0b0c682976ec9f46fe8fe65d4d2",
+            "email": "usg60_5CE28C60D711"
+        },
+        "meta": {
+            "++title": "USG60",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2\n"
+        },
+        "dns": {
+            "ptr": "160.72.153.14.lightower.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dac96c6eb74ea581aa7d7c27a7f363b2.jpeg"
+        }
+    }
+}

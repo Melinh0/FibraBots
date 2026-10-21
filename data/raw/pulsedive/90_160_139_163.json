@@ -1,0 +1,177 @@
+{
+    "qid": null,
+    "iid": 28664472,
+    "indicator": "90.160.139.163",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-10-11 06:33:20",
+    "stamp_updated": "2024-12-16 18:07:02",
+    "stamp_seen": "2024-12-16 18:07:02",
+    "stamp_probed": "2024-09-30 20:40:25",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-26 14:16:53"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-10-11 06:33:20"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-26 14:16:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-31 16:38:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "ES",
+            "status": "LIR-PARTITIONED PA",
+            "address": [
+                "Madrid, Spain",
+                "Parque Empresarial La Finca",
+                "Edificio 9",
+                "Paseo del Club Deportivo, 1",
+                "28223 Pozuelo de Alarcon"
+            ],
+            "admin-c": [
+                "HA1067-RIPE",
+                "HAF10-RIPE",
+                "HA1066-RIPE"
+            ],
+            "mnt-by": "UNI2-MNT",
+            "netname": "UNI2-NET",
+            "nic-hdl": "HAF10-RIPE",
+            "origin": "AS12479",
+            "role": "Hostmaster Administrator FTE",
+            "tech-c": [
+                "HA1067-RIPE",
+                "HAF10-RIPE",
+                "HA1066-RIPE"
+            ],
+            "created": [
+                "2005-08-19T10:24:55Z",
+                "2016-11-16T14:36:58Z",
+                "2024-01-03T17:27:27Z"
+            ],
+            "mnt-routes": "UNI2-MNT",
+            "mnt-domains": "UNI2-MNT",
+            "inetnum": "90.160.0.0 - 90.160.255.255",
+            "descr": [
+                "Addresses IP for corporate users",
+                "France Telecom Spain"
+            ],
+            "++registrant": [
+                "HAF10-RIPE",
+                "HA1066-RIPE",
+                "HA1067-RIPE"
+            ],
+            "last-modified": [
+                "2019-05-07T08:53:29Z",
+                "2024-01-22T14:03:25Z",
+                "2024-01-03T17:27:27Z"
+            ],
+            "++abuse": "abuse.es@orange.com",
+            "++email": "abuse.es@orange.com",
+            "abuse-mailbox": "abuse.es@orange.com",
+            "route": "90.160.0.0\/13",
+            "++registered": [
+                "2005-08-19 10:24:55",
+                "2016-11-16 14:36:58",
+                "2024-01-03 17:27:27"
+            ],
+            "++updated": [
+                "2024-01-22 14:03:25",
+                "2024-01-03 17:27:27"
+            ]
+        },
+        "geo": {
+            "country": "Spain",
+            "countrycode": "ES",
+            "region": [
+                "Catalonia",
+                "Barcelona"
+            ],
+            "city": "Barcelona",
+            "asn": "AS12479",
+            "org": "Orange Espagne SA",
+            "lat": "41.4204",
+            "address": [
+                "Parque Empresarial La Finca",
+                "Edificio 9",
+                "Paseo del Club Deportivo, 1",
+                "28223 Pozuelo de Alarcon",
+                "Madrid, Spain"
+            ],
+            "long": "2.1678"
+        },
+        "banners": {
+            "22": "SSH-2.0-ROSSSH\n"
+        },
+        "dns": {
+            "ptr": "163.pool90-160-139.dynamic.orange.es"
+        }
+    }
+}

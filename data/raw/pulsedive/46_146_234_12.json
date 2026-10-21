@@ -1,0 +1,76 @@
+{
+    "qid": null,
+    "iid": 37079012,
+    "indicator": "46.146.234.12",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-07-10 16:26:00",
+    "stamp_updated": "2024-12-11 11:53:04",
+    "stamp_seen": "2024-12-11 11:53:04",
+    "stamp_probed": "2024-08-02 09:18:34",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-24 05:03:22"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-07-10 16:26:00"
+        }
+    ],
+    "comments": [],
+    "attributes": [],
+    "properties": {
+        "geo": {
+            "countrycode": "RU",
+            "org": "JSC ER-Telecom Holding",
+            "city": "Perm",
+            "asn": "AS12768",
+            "region": "Perm Krai",
+            "lat": "58.0135",
+            "long": "56.2604",
+            "country": "Russia"
+        },
+        "dns": {
+            "ptr": "46x146x234x12.static-customer.perm.ertelecom.ru"
+        }
+    }
+}

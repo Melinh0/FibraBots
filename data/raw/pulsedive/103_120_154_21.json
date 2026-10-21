@@ -1,0 +1,178 @@
+{
+    "qid": null,
+    "iid": 56473492,
+    "indicator": "103.120.154.21",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-24 23:50:57",
+    "stamp_updated": "2024-12-16 16:58:13",
+    "stamp_seen": "2024-12-16 16:58:13",
+    "stamp_probed": "2024-09-07 07:36:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-18 08:37:36"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-24 23:50:57"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-18 08:37:36"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-27 04:13:49"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "22",
+            "25",
+            "389",
+            "465",
+            "53",
+            "8443",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "LDAP",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "IDNIC"
+            ],
+            "status": "ASSIGNED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-METROCOM"
+            ],
+            "descr": [
+                "Corporate \/ Direct Member IDNIC",
+                "PT Metrocom Indonesia",
+                "Jl. KH. Wahid Hasyim No. 189 Lt.8",
+                "Jakarta Pusat 10240, Indonesia"
+            ],
+            "last-modified": [
+                "2018-05-31T22:32:04Z",
+                "2018-03-07T07:26:41Z",
+                "2018-08-07T08:00:04Z",
+                "2018-08-09T09:53:16Z",
+                "2018-08-23T18:22:36Z",
+                "2018-03-20T03:23:44Z"
+            ],
+            "mnt-routes": "MAINT-ID-METROCOM",
+            "tech-c": "TK744-AP",
+            "address": [
+                "PT Metrocom",
+                "Jl. KH. Wahid Hasyim No. 189 Lt.8",
+                "Jakarta Pusat 10240, Indonesia"
+            ],
+            "mnt-irt": "IRT-METROCOM-ID",
+            "netname": "IDNIC-METROCOM-ID",
+            "++phone": "+62-21-30010200",
+            "origin": "AS137324",
+            "e-mail": "admin@ptmetro.com",
+            "admin-c": "TK744-AP",
+            "nic-hdl": "TK744-AP",
+            "person": "Teddy Krisyanto",
+            "abuse-mailbox": "abuse@ptmetro.com",
+            "irt": "IRT-METROCOM-ID",
+            "phone": "+62-21-30010200",
+            "fax-no": "+62-21-30010201",
+            "route": "103.120.154.0\/23",
+            "++email": [
+                "admin@ptmetro.com",
+                "abuse@ptmetro.com"
+            ],
+            "inetnum": "103.120.154.0 - 103.120.155.255",
+            "++abuse": "abuse@ptmetro.com",
+            "++registrant": [
+                "Teddy Krisyanto",
+                "TK744-AP"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2018-08-07 08:00:04",
+                "2018-05-31 22:32:04",
+                "2018-03-07 07:26:41",
+                "2018-08-09 09:53:16",
+                "2018-08-23 18:22:36",
+                "2018-03-20 03:23:44"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "city": "Tangerang",
+            "region": "Banten",
+            "lat": "-6.177",
+            "long": "106.6284",
+            "org": "PT Metrocom Indonesia",
+            "address": [
+                "PT Metrocom",
+                "Jl. KH. Wahid Hasyim No. 189 Lt.8",
+                "Jakarta Pusat 10240, Indonesia"
+            ],
+            "asn": "AS137324"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10\n",
+            "143": "* OK mail.mgindo.com Zimbra IMAP4rev1 server ready\n",
+            "25": "220-mail.mgindo.com ESMTP Postfix\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "389": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "qid": null,
+    "iid": 53792888,
+    "indicator": "122.166.49.42",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-04 09:28:02",
+    "stamp_updated": "2024-12-12 03:34:14",
+    "stamp_seen": "2024-12-10 00:00:00",
+    "stamp_probed": "2024-08-28 22:46:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-01-09 07:10:06"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-04 09:28:02"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-01-09 07:10:06"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-30 09:29:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "53"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED NON-PORTABLE",
+            "country": "IN",
+            "descr": [
+                "INDIA",
+                "BHARTI-IN",
+                "Bharti Tele-Ventures Limited",
+                "Class A ISP in INDIA .",
+                "234 , OKHLA PHASE III ,",
+                "ABTS (Karnataka),",
+                "1st Floor, Koramangala Intermediate Ring Road,",
+                "Amarjyoti Layout,Domlur",
+                "Bangalore",
+                "Karnataka",
+                "Contact Person: M K Chaitnya",
+                "Email: d.blr@airtel.in",
+                "Phone:080-41115364",
+                "Date of allocation:17-jul-07",
+                "NEW DELHI",
+                "India"
+            ],
+            "mnt-by": [
+                "MAINT-IN-BBIL",
+                "MAINT-IN-TELEMEDIA"
+            ],
+            "origin": "AS24560",
+            "mnt-lower": "MAINT-IN-TELEMEDIA",
+            "mnt-routes": "MAINT-IN-TELEMEDIA",
+            "address": [
+                "Bangalore,Karnataka",
+                "ABTS",
+                "Bharti Airtel Limited 1106\/10\/11 Garvebhavipalaya, 7th Mile Hosur Rd,"
+            ],
+            "netname": "ABTS-KK-DSL-9102-blr",
+            "nic-hdl": "KK828-AP",
+            "person": "Network Administrator for ABTS KK",
+            "phone": "+91-044-42100479",
+            "admin-c": "KK828-AP",
+            "tech-c": "KK828-AP",
+            "e-mail": "ang.ipadmin@airtel.com",
+            "last-modified": [
+                "2008-09-04T07:55:22Z",
+                "2017-11-02T10:58:54Z",
+                "2009-02-06T11:13:03Z"
+            ],
+            "inetnum": "122.166.48.0 - 122.166.55.255",
+            "route": "122.166.49.0\/24",
+            "++phone": "+91-044-42100479",
+            "++email": "ang.ipadmin@airtel.com",
+            "++registrant": [
+                "KK828-AP",
+                "Network Administrator for ABTS KK"
+            ],
+            "++updated": [
+                "2017-11-02 10:58:54",
+                "2008-09-04 07:55:22"
+            ]
+        },
+        "geo": {
+            "country": "India",
+            "countrycode": "IN",
+            "region": "Karnataka",
+            "asn": "AS24560",
+            "org": "Bharti Airtel Ltd., Telemedia Services",
+            "city": "Bengaluru",
+            "address": [
+                "ABTS",
+                "Bharti Airtel Limited 1106\/10\/11 Garvebhavipalaya, 7th Mile Hosur Rd,",
+                "Bangalore,Karnataka"
+            ],
+            "lat": "12.9634",
+            "long": "77.5855"
+        },
+        "banners": {
+            "21": "220 Welcome to blah FTP service.\n",
+            "22": "SSH-2.0-OpenSSH_8.0\n",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "abts-kk-static-042.49.166.122.airtelbroadband.in"
+        }
+    }
+}

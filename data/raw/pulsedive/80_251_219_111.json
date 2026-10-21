@@ -1,0 +1,166 @@
+{
+    "qid": null,
+    "iid": 19020740,
+    "indicator": "80.251.219.111",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-12-06 14:21:32",
+    "stamp_updated": "2024-12-09 10:39:19",
+    "stamp_seen": "2024-10-08 10:49:25",
+    "stamp_probed": "2024-08-26 22:25:14",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 44770656,
+                "indicator": "http:\/\/80.251.219.111\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-12-06 14:21:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2019-06-05T15:39:54Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2019-06-05 15:39:54"
+            ],
+            "address": "see http:\/\/www.iana.org.",
+            "admin-c": "IANA1-RIPE",
+            "netname": "NON-RIPE-NCC-MANAGED-ADDRESS-BLOCK",
+            "nic-hdl": "IANA1-RIPE",
+            "role": "Internet Assigned Numbers Authority",
+            "status": "ALLOCATED UNSPECIFIED",
+            "tech-c": "IANA1-RIPE",
+            "last-modified": [
+                "2001-09-22T09:31:27Z",
+                "2019-06-05T15:39:54Z"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-MNT",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "descr": "IPv4 address block not managed by the RIPE NCC",
+            "inetnum": "80.251.208.0 - 80.251.223.255",
+            "++registrant": "IANA1-RIPE",
+            "++updated": [
+                "2001-09-22 09:31:27",
+                "2019-06-05 15:39:54"
+            ],
+            "country": "EU # Country is really world wide"
+        },
+        "geo": {
+            "country": [
+                "United States",
+                "EU # Country is really world wide"
+            ],
+            "countrycode": "US",
+            "region": "California",
+            "city": "Los Angeles",
+            "asn": "AS25820",
+            "lat": "34.0514",
+            "address": "see http:\/\/www.iana.org.",
+            "org": "IT7NET",
+            "long": "-118.2707"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "Apache",
+            "accept-ranges": "bytes",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store, must-revalidate",
+            "upgrade": "h2,h2c",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "163",
+            "connection": "Upgrade, Keep-Alive",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "expires": "0",
+            "last-modified": "Wed, 02 Oct 2024 13:21:33 GMT",
+            "date": "Mon, 07 Oct 2024 04:51:46 GMT",
+            "++target": "http:\/\/80.251.219.111\/"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "refresh": "0;URL=\/cgi-sys\/defaultwebpage.cgi"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE NAMESPACE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "\u0005\u0004\u0000\u0000",
+            "3306": "a\u0000\u0000\u0000\ufffdj\u0004Host '172-232-206-186.ip.linodeusercontent.com' is not allowed to connect to this MySQL server"
+        },
+        "dns": {
+            "ptr": "80.251.219.111.16clouds.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

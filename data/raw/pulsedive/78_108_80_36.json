@@ -1,0 +1,216 @@
+{
+    "qid": null,
+    "iid": 1654281,
+    "indicator": "78.108.80.36",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2018-07-02 23:12:17",
+    "stamp_updated": "2024-12-11 10:46:04",
+    "stamp_seen": "2024-12-07 19:39:48",
+    "stamp_probed": "2024-04-07 10:28:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 14525370,
+                "indicator": "http:\/\/78.108.80.36\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 164,
+            "name": "Emotet",
+            "category": "malware",
+            "risk": "high",
+            "stamp_linked": "2018-08-05 02:38:02"
+        },
+        {
+            "tid": 546,
+            "name": "qsnatch",
+            "category": "general",
+            "risk": "unknown",
+            "stamp_linked": "2020-09-01 13:42:33"
+        },
+        {
+            "tid": 614,
+            "name": "VPN Brute Force",
+            "category": "general",
+            "risk": "medium",
+            "stamp_linked": "2024-12-07 19:39:04"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2018-12-17 05:44:02"
+        },
+        {
+            "fid": 48,
+            "name": "Malicious EXE IPs",
+            "category": "malware",
+            "organization": "NoVirusThanks",
+            "pricing": "free",
+            "stamp_linked": "2018-07-02 23:12:17"
+        },
+        {
+            "fid": 4,
+            "name": "C&C IPs",
+            "category": "malware",
+            "organization": "Bambenek Consulting",
+            "pricing": null,
+            "stamp_linked": "2020-09-01 13:42:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "25",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SMTP"
+        ],
+        "technology": [
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE mnt-ref: MNT-MAJORDOMO"
+            ],
+            "status": "ALLOCATED PA",
+            "country": "RU",
+            "address": [
+                "Russia",
+                "Saint-Petersburg",
+                "197342, Torfyanaya doroga 7 lit F, of 1323",
+                "Saint Petersburg",
+                "196233",
+                "RUSSIAN FEDERATION",
+                "Tipanova str., 34k1, lit. A"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-MAJORDOMO"
+            ],
+            "admin-c": [
+                "NIK57-RIPE",
+                "MJDM-RIPE"
+            ],
+            "origin": "AS43362",
+            "tech-c": [
+                "NIK57-RIPE",
+                "MJDM-RIPE"
+            ],
+            "last-modified": [
+                "2010-09-17T14:07:09Z",
+                "2023-12-07T12:32:21Z",
+                "2022-02-04T11:25:01Z",
+                "2021-12-08T15:04:01Z"
+            ],
+            "route": "78.108.80.0\/24",
+            "inetnum": "78.108.80.0 - 78.108.80.255",
+            "descr": "Majordomo network",
+            "created": [
+                "2010-09-17T14:07:09Z",
+                "2015-01-19T17:00:22Z",
+                "2023-12-07T12:32:21Z",
+                "2021-09-07T10:15:49Z"
+            ],
+            "mnt-routes": "MNT-MAJORDOMO",
+            "mnt-lower": "MNT-MAJORDOMO",
+            "++phone": [
+                "+78123353545",
+                "+78213353545"
+            ],
+            "abuse-c": "MJDM-RIPE",
+            "nic-hdl": "NIK57-RIPE",
+            "phone": [
+                "+78213353545",
+                "+78123353545"
+            ],
+            "++registrant": [
+                "MJDM-RIPE",
+                "NIK57-RIPE"
+            ],
+            "++abuse": "MJDM-RIPE",
+            "++updated": "2023-12-07 00:00:00",
+            "++registered": "2023-12-07 00:00:00",
+            "org-name": "Hosting Ltd",
+            "org": "ORG-HL270-RIPE",
+            "netname": "RU-MJ-20070615",
+            "person": "Gennady Novoselov",
+            "organisation": "ORG-HL270-RIPE"
+        },
+        "geo": {
+            "countrycode": "RU",
+            "asn": "AS43362",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "org": "Hosting Ltd",
+            "country": "Russia"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html",
+            "server": "nginx",
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "transfer-encoding": "chunked",
+            "++code": "403",
+            "++status": "Forbidden",
+            "++content-type": "text\/html",
+            "date": "Sat, 07 Dec 2024 19:39:33 GMT",
+            "++target": "http:\/\/78.108.80.36\/"
+        },
+        "dns": {
+            "ptr": "web16.majordomo.ru"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "++title": "\u041e\u0448\u0438\u0431\u043a\u0430 403"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9ef40c29c9021af7383d59d4ed7787f0.jpeg"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 500 allowed.\n220-Local time is now 22:39. Server port: 21.\n220-This is a private system - No anonymous login\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "3306": "X\u0000\u0000\u0000\n5.5.5-10.3.8-MariaDB\u0000P\ufffd\u0018\u0000cFq*zH8!\u0000\ufffd\ufffd3\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u000088PkIhQ=zsPw\u0000mysql_native_password\u0000"
+        }
+    }
+}

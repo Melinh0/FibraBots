@@ -1,0 +1,169 @@
+{
+    "qid": null,
+    "iid": 44165339,
+    "indicator": "85.247.2.222",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-01-27 07:58:06",
+    "stamp_updated": "2024-12-11 10:46:22",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-30 20:22:46",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-03-04 06:09:37"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-01-27 07:58:07"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-03-04 06:09:37"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-01-27 15:24:38"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "PT",
+            "address": [
+                "Portugal",
+                "Local Internet Registry Management",
+                "MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.",
+                "Av. Fontes Pereira de Melo, 40 - 3 Bl A",
+                "Forum Picoas - 1069-300 Lisboa"
+            ],
+            "++phone": "+351-215000000",
+            "abuse-mailbox": "abuse@mail.telepac.pt",
+            "descr": [
+                "PT Comunicacoes S.A.",
+                "Dynamic Address Range"
+            ],
+            "mnt-by": "TELEPAC-MNT",
+            "mnt-routes": "TELEPAC-MNT",
+            "netname": "MEO-BROADBAND",
+            "nic-hdl": "TP3302-RIPE",
+            "org": "ORG-TCIS1-RIPE",
+            "origin": "AS3243",
+            "phone": "+351-215000000",
+            "role": "MEO-RESIDENCIAL",
+            "created": [
+                "2005-01-04T19:15:12Z",
+                "2002-08-12T09:57:20Z",
+                "2009-03-23T14:28:58Z"
+            ],
+            "inetnum": "85.246.0.0 - 85.247.255.255",
+            "last-modified": [
+                "2014-01-31T16:22:08Z",
+                "2016-02-05T17:37:07Z",
+                "2024-06-17T10:35:40Z"
+            ],
+            "route": "85.240.0.0\/13",
+            "tech-c": "TP3302-RIPE",
+            "admin-c": [
+                "NPM17-RIPE",
+                "DPM37-RIPE",
+                "LAS102-RIPE",
+                "TP3302-RIPE",
+                "DL11448-RIPE"
+            ],
+            "++registrant": [
+                "NPM17-RIPE",
+                "DPM37-RIPE",
+                "LAS102-RIPE",
+                "TP3302-RIPE",
+                "DL11448-RIPE"
+            ],
+            "++abuse": "abuse@mail.telepac.pt",
+            "++email": "abuse@mail.telepac.pt",
+            "++updated": [
+                "2024-06-17 10:35:40",
+                "2014-01-31 16:22:08"
+            ],
+            "++registered": [
+                "2002-08-12 09:57:20",
+                "2005-01-04 19:15:12",
+                "2009-03-23 14:28:58"
+            ]
+        },
+        "geo": {
+            "country": "Portugal",
+            "countrycode": "PT",
+            "asn": "AS3243",
+            "org": "Servicos De Comunicacoes E Multimedia S.A.",
+            "region": "Madeira",
+            "city": "Funchal",
+            "lat": "32.6333",
+            "long": "-16.9"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1\n"
+        },
+        "dns": {
+            "ptr": "bl14-2-222.dsl.telepac.pt"
+        }
+    }
+}

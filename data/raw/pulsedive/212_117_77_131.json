@@ -1,0 +1,200 @@
+{
+    "qid": null,
+    "iid": 64663139,
+    "indicator": "212.117.77.131",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-02 08:41:13",
+    "stamp_updated": "2024-12-11 10:43:05",
+    "stamp_seen": "2024-11-02 08:42:14",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64663357,
+                "indicator": "https:\/\/www.kayoom.com\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-02 08:41:13"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "443",
+            "465",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "American Express",
+            "Boomerang",
+            "Cart Functionality",
+            "CloudFlare",
+            "Facebook Pixel",
+            "Google Analytics",
+            "HSTS",
+            "HTTP\/3",
+            "jQuery",
+            "Klarna Checkout",
+            "Mastercard",
+            "Open Graph",
+            "PayPal",
+            "Priority Hints",
+            "PushOwl",
+            "Shopify",
+            "Visa"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS8422",
+            "city": "Cologne",
+            "region": "North Rhine-Westphalia",
+            "long": "6.9115",
+            "org": "NetCologne Gesellschaft fur Telekommunikation mbH",
+            "lat": "50.9532"
+        },
+        "http": {
+            "x-xss-protection": "1; mode=block",
+            "x-content-type-options": "nosniff",
+            "server": "cloudflare",
+            "x-download-options": "noopen",
+            "x-permitted-cross-domain-policies": "none",
+            "strict-transport-security": "max-age=7889238",
+            "content-language": "de-DE",
+            "vary": "Accept",
+            "++code": "200",
+            "content-encoding": "br",
+            "cf-cache-status": "DYNAMIC",
+            "content-type": "text\/html; charset=utf-8",
+            "x-frame-options": "DENY",
+            "x-cache": "miss",
+            "x-storefront-renderer-rendered": "1",
+            "content-security-policy": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;",
+            "++content-type": "text\/html",
+            "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "x-sorting-hat-podid": "267",
+            "x-shardid": "267",
+            "powered-by": "Shopify",
+            "x-dc": "gcp-us-east1,gcp-europe-west4,gcp-europe-west4",
+            "date": "Sat, 02 Nov 2024 08:41:41 GMT",
+            "x-sorting-hat-shopid": "25187582045",
+            "x-shopid": "25187582045",
+            "server-timing": "processing;dur=482;desc=\"gc:36\", db;dur=59, db_async;dur=7.829, render;dur=220, asn;desc=\"63949\", edge;desc=\"EWR\", country;desc=\"US\", theme;desc=\"170319380748\", pageType;desc=\"index\", servedBy;desc=\"xpks\", requestID;desc=\"d79b7fc8-4437-4558-9f0b-5cccbfcd6aa3-1730536901\"\ncfRequestDuration;dur=634.999990, earlyhints",
+            "cf-ray": "8dc2d3b11d84440b-EWR",
+            "set-cookie": "keep_alive=5d51d80f-fe4f-4dcc-9e04-3a074aea03be; path=\/; expires=Sat, 02 Nov 2024 09:11:41 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=\/; expires=Sun, 02 Nov 2025 08:41:41 GMT; secure; HttpOnly; SameSite=Lax\nlocalization=DE; path=\/; expires=Sun, 02 Nov 2025 08:41:41 GMT; SameSite=Lax\ncart_currency=EUR; path=\/; expires=Sat, 16 Nov 2024 08:41:41 GMT; SameSite=Lax\n_tracking_consent=%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22USNJ%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=kayoom.com; path=\/; expires=Sun, 02 Nov 2025 08:41:41 GMT; SameSite=Lax\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%",
+            "++target": "http:\/\/212.117.77.131\/",
+            "link": "<https:\/\/cdn.shopify.com>; rel=\"preconnect\", <https:\/\/cdn.shopify.com>; rel=\"preconnect\"; crossorigin, <\/\/www.kayoom.com\/cdn\/shop\/t\/33\/assets\/component-localization-form.css?v=120620094879297847921722495136>; as=\"style\"; rel=\"preload\", <\/\/www.kayoom.com\/cdn\/shop\/files\/Kayoom-You-Spot-Your-Home_Logo.png?v=1690189987&width=600>; as=\"image\"; rel=\"preload\"; imagesrcset=\"\/\/www.kayoom.com\/cdn\/shop\/files\/Kayoom-You-Spot-Your-Home_Logo.png?v=1690189987&width=160 160w, \/\/www.kayoom.com\/cdn\/shop\/files\/Kayoom-You-Spot-Your-Home_Logo.png?v=1690189987&width=240 240w, \/\/www.kayoom.com\/cdn\/shop\/files\/Kayoom-You-Spot-Your-Home_Logo.png?v=1690189987&width=320 320w\"; imagesizes=\"(max-width: 320px) 50vw, 160px\"",
+            "x-request-id": "d79b7fc8-4437-4558-9f0b-5cccbfcd6aa3-1730536901",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=TS1nWkBVJkc84V%2B0jQ9LXFzWm8miW%2Fnx4u3SJbyb5kZz6rNtwGC15ClwGe2cp%2B4IJSdvTLg6y7QN%2F1M%2FUg%2FbJbFBzSrlXMcL%2F%2B%2FcINbDyEFOvsSli8p4uKBXwVSiLMHt\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "++redirect": "https:\/\/www.kayoom.com\/",
+            "x-shopify-nginx-no-cookies": "0",
+            "etag": "\"cacheable:33aa6abe7b78f7ccbeb273a9716f6325\""
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "og:type": "website",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width,initial-scale=1",
+            "og:image:height": "628",
+            "charset": "utf-8",
+            "twitter:description": "Ihr Online Shop f\ufffdr gem\ufffdtliches und stilvolles Wohnen - Teppiche, M\ufffdbel, Wohnaccessoires, Lampen, Deko & vieles mehr! M\ufffdbel und Teppiche f\ufffdr Garten und Balkon.",
+            "og:url": "https:\/\/www.kayoom.com\/",
+            "og:title": "Kayoom Online Shop - Teppiche und Home & Deko kaufen",
+            "twitter:title": "Kayoom Online Shop - Teppiche und Home & Deko kaufen",
+            "og:site_name": "Kayoom GmbH",
+            "shopify-checkout-api-token": "43c97a927e914dd19f5ca39527a5b4e0",
+            "shopify-digital-wallet": "\/25187582045\/digital_wallets\/dialog",
+            "og:image:secure_url": "https:\/\/www.kayoom.com\/cdn\/shop\/files\/Kayoom-You-Spot-Your-Home_Logo.png?height=628&pad_color=ffffff&v=1690189987&width=1200",
+            "twitter:site": "@kayoomcom",
+            "og:description": "Ihr Online Shop f\ufffdr gem\ufffdtliches und stilvolles Wohnen - Teppiche, M\ufffdbel, Wohnaccessoires, Lampen, Deko & vieles mehr! M\ufffdbel und Teppiche f\ufffdr Garten und Balkon.",
+            "theme-color": "",
+            "og:image": "http:\/\/www.kayoom.com\/cdn\/shop\/files\/Kayoom-You-Spot-Your-Home_Logo.png?height=628&pad_color=ffffff&v=1690189987&width=1200",
+            "description": "Ihr Online Shop f\ufffdr gem\ufffdtliches und stilvolles Wohnen - Teppiche, M\ufffdbel, Wohnaccessoires, Lampen, Deko & vieles mehr! M\ufffdbel und Teppiche f\ufffdr Garten und Balkon.",
+            "++title": "Kayoom Online Shop - Teppiche und Home & Deko kaufen \u2013 Kayoom GmbH"
+        },
+        "cookies": {
+            "_landing_page": "%2F",
+            "_gat": "1",
+            "cart_currency": "EUR",
+            "localization": "DE",
+            "_cmp_a": "%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D",
+            "receive-cookie-deprecation": "1",
+            "_tracking_consent": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22USNJ%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D",
+            "_shopify_s": "1c6d7d76-b329-4419-b173-ecbaa2b6efa7",
+            "keep_alive": "5d51d80f-fe4f-4dcc-9e04-3a074aea03be",
+            "_shopify_y": "c8f86762-2e9c-4a61-a52e-0b58137899c8",
+            "_ga": "GA1.2.639736409.1730536903",
+            "_gid": "GA1.2.1929968722.1730536903",
+            "secure_customer_sig": "",
+            "_orig_referrer": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "WE1",
+            "issuer": "\/C=US\/O=Google Trust Services\/CN=WE1",
+            "subject": "\/CN=www.kayoom.com",
+            "valid": "2024-10-04 04:34:36",
+            "domain": "www.kayoom.com",
+            "fingerprint": "f7e7a6b521aa069303ea3f6d4f310a6b869e15298c828c7d50c011d93e5f90c5",
+            "expires": "2025-01-02 04:34:35"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot (Ubuntu) ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000",
+            "25": "220 kayoom.org ESMTP Postfix\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/182113fa4fb9bb3f5db88c7251ec7370.jpeg"
+        }
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "qid": null,
+    "iid": 64538743,
+    "indicator": "159.65.127.72",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-27 08:21:00",
+    "stamp_updated": "2024-12-09 10:32:25",
+    "stamp_seen": "2024-12-06 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64538996,
+                "indicator": "https:\/\/159.65.127.72\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-27 08:21:00"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-11-30 21:52:42"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Google Font API",
+            "Let's Encrypt",
+            "Next.js",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Germany",
+                "United States"
+            ],
+            "countrycode": [
+                "DE",
+                "US"
+            ],
+            "city": [
+                "New York",
+                "Frankfurt am Main"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "NY",
+                "Hesse"
+            ],
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "50.1184",
+            "long": "8.6827"
+        },
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2017-10-24"
+            ],
+            "stateprov": "NY",
+            "parent": "NET159 (NET-159-0-0-0-0)",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2017-10-24 00:00:00"
+            ],
+            "originas": "AS14061",
+            "nethandle": "NET-159-65-0-0-1",
+            "cidr": "159.65.0.0\/16",
+            "netrange": "159.65.0.0 - 159.65.255.255",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/159.65.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-159-65-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "http": {
+            "vary": "Accept-Encoding",
+            "content-encoding": "gzip",
+            "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "transfer-encoding": "chunked",
+            "++code": "500",
+            "++status": "Internal Server Error",
+            "x-powered-by": "Next.js",
+            "content-type": "text\/html; charset=utf-8",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.22.0 (Ubuntu)",
+            "date": "Sun, 27 Oct 2024 08:22:39 GMT",
+            "++redirect": "https:\/\/159.65.127.72\/",
+            "++target": "http:\/\/159.65.127.72\/"
+        },
+        "meta": {
+            "viewport": [
+                "width=device-width",
+                "initial-scale=1.0, width=device-width",
+                "width=device-width, initial-scale=1.0, shrink-to-fit=no"
+            ],
+            "++title": "500: Internal Server Error",
+            "charset": "utf-8",
+            "next-head-count": "3",
+            "facebook-domain-verification": "dg3sd7m66d8rcjy194g1zz41h018nw"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": [
+                "albimall.com",
+                "www.albimall.com"
+            ],
+            "subject": "\/CN=albimall.com",
+            "fingerprint": "fb9cd7757bc3b91565da67175b57a0c14c96bc1be039057026275790de9958d0",
+            "expires": "2025-01-05 20:10:11",
+            "valid": "2024-10-07 20:10:12"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/3ce76a244852f076271ff5a49825372b.jpeg"
+        }
+    }
+}

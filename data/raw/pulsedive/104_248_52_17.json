@@ -1,0 +1,229 @@
+{
+    "qid": null,
+    "iid": 60181083,
+    "indicator": "104.248.52.17",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-06-13 15:43:51",
+    "stamp_updated": "2024-12-15 06:53:27",
+    "stamp_seen": "2024-12-15 06:53:27",
+    "stamp_probed": "2024-09-29 21:40:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60181179,
+                "indicator": "https:\/\/bibliotecadigital.ucm.ac.mz\/"
+            },
+            {
+                "iid": 64110375,
+                "indicator": "https:\/\/104.248.52.17\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-20 20:24:40"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-06-13 15:43:51"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-20 20:24:40"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-14 05:37:44"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Google Font API",
+            "Laravel",
+            "Let's Encrypt",
+            "PHP",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "parent": "NET104 (NET-104-0-0-0-0)",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2018-08-06"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2018-08-06 00:00:00"
+            ],
+            "originas": "AS14061",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/104.248.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "nethandle": "NET-104-248-0-0-1",
+            "cidr": "104.248.0.0\/16",
+            "netrange": "104.248.0.0 - 104.248.255.255",
+            "updated": [
+                "2020-04-03",
+                "2023-10-23"
+            ],
+            "netname": "DIGITALOCEAN-104-248-0-0",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "New Jersey",
+                "NY"
+            ],
+            "city": [
+                "New York",
+                "North Bergen"
+            ],
+            "asn": "AS14061",
+            "zip": "10013",
+            "lat": "40.7924",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "long": "-74.0096"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "cache-control": "no-cache, private",
+            "content-encoding": "gzip",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "980",
+            "++code": "200",
+            "++status": "OK",
+            "server": "Apache\/2.4.41 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/104.248.52.17\/",
+            "++target": "http:\/\/104.248.52.17\/",
+            "date": "Tue, 22 Oct 2024 05:10:05 GMT",
+            "set-cookie": "XSRF-TOKEN=eyJpdiI6ImFGNU9zWnllQ0lRY2RsaDR4NzRwbWc9PSIsInZhbHVlIjoiOTEwUFN0YTU0NG8wTHFYS0t4Y2x1VUc3amtDQllnTFFya2JQT1NFdk5nc2tiNDJTVUIxQkVTQjBXWUJLQ3pOZSIsIm1hYyI6ImY5ZGExYTI1NTFlMjY3N2QzOTNiMGI5NzcyYWQyYzZmYzc5OTg1ZmZkYTIzNTVmNWZiZWIyOWI5YmE0OWNiMjUifQ%3D%3D; expires=Tue, 22-Oct-2024 07:10:05 GMT; Max-Age=7200; path=\/\nlaravel_session=eyJpdiI6IkRqcnpJODdxbnNNYWxaSXZ1azlRVlE9PSIsInZhbHVlIjoiNEN2MlRZakFpNnBBVGZDUk5NTHF1XC9FbXd0Y0R2anpMWDFGcWJpbVlMbG1BbzhiWVZRVlJ6RjZab2JmNnEydWJBcDZtaTJEMUZiaHR6bG1xYitRazVNUGZzR29ET0pQRE5jS0dCdFZZcTFcL25oR3A3R0ZXY05qdDBmUzZZVml1bCIsIm1hYyI6IjNlMDYzODI1Y2MzNGVhZGU4Yjc1ZWYyOWE1ZjY1ODU5ZGU5MTMwODk4YmQyNzdmNzUyYmRiYjk2NGE2NzZmNjcifQ%3D%3D; expires=Tue, 22-Oct-2024 07:10:05 GMT; Max-Age=7200; path=\/; httponly"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "x-ua-compatible": "IE=edge",
+            "charset": "utf-8",
+            "++title": "Biblioteca Digital"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "subject": "\/CN=bibliotecadigital.ucm.ac.mz",
+            "domain": [
+                "bibliotecadigital.ucm.ac.mz",
+                "www.bibliotecadigital.ucm.ac.mz"
+            ],
+            "expires": "2025-01-22 14:58:21",
+            "valid": "2024-10-24 14:58:22",
+            "fingerprint": "d204fc5fc09603423ac497ea66a7b147535cc76889e82abb57cc712d8c2299ae"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9ccb616959e885faa31d050a1526eccb.jpeg"
+        },
+        "cookies": {
+            "xsrf-token": "eyJpdiI6ImFFVmhhTDJDUGNuSTNUYUlqUms1VkE9PSIsInZhbHVlIjoiRG1WekdnWjZoUzBJOUUwU2pMSzlLMk1aUERRXC8wZTJYdWFMMkUzM2hZWEJ6NjJNRU5hNzdDMHU4YXlXV2x2Y1giLCJtYWMiOiJjMzNjZTVkMjQ0ZTBkN2FmMDdjNTBiNzVjYTEzY2UyZGQ2YzYwZmIyODMzOGZjZGYxMDIzMGIxZGYwMDhlZDBmIn0%3D",
+            "laravel_session": "eyJpdiI6ImtXY3QwVENJYTFoYWdDTVdrZTJFZWc9PSIsInZhbHVlIjoiODNCK3dLQjd0TmVoTURBcmh4STYrZFJ1UnFHalc0MGFZbFlFUjB5NzhDVDQyeVZuQ1lVenhHY2NyV2JCNUlBdWxtc3N4dWVGUEFqSERjTGl5TUpzc09SWWtCWHUxWFAwZ0ptT3lOZ25pUm03S29JTmJNSndiTEtXSDNIMFFyWTYiLCJtYWMiOiI2MmJhM2YzNzBkYmYyMWZmMjhkYjljOTE4ODVlZWQ5ZDcxNTA5MTI1ZDU5NDFmOTE4NGQwYWFhMmU4ZGU4ZDU4In0%3D"
+        }
+    }
+}

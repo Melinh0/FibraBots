@@ -1,0 +1,166 @@
+{
+    "qid": null,
+    "iid": 61949625,
+    "indicator": "95.85.114.218",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-08-03 20:26:51",
+    "stamp_updated": "2024-12-11 10:46:47",
+    "stamp_seen": "2024-12-11 06:30:51",
+    "stamp_probed": "2024-09-30 21:10:12",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61949905,
+                "indicator": "http:\/\/95.85.114.218\/"
+            },
+            {
+                "iid": 64132914,
+                "indicator": "https:\/\/95.85.114.218\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-08-03 20:26:51"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-08-04 06:48:27"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "mnt-by": "TMTELECOM-NCC-MNT",
+            "admin-c": "AG10592-RIPE",
+            "country": "TM",
+            "tech-c": "AG10592-RIPE",
+            "address": "16, Azady str., Ashgabad 744000, Turkmenistan",
+            "netname": "TTELECOM-NET",
+            "origin": "AS20661",
+            "nic-hdl": "AG10592-RIPE",
+            "person": "Alex Grigoriev",
+            "descr": [
+                "Leased line customers",
+                "TMTELECOM Block"
+            ],
+            "created": [
+                "2010-10-26T22:21:40Z",
+                "2016-10-21T11:41:37Z",
+                "2016-10-13T06:08:02Z"
+            ],
+            "++registrant": [
+                "AG10592-RIPE",
+                "Alex Grigoriev"
+            ],
+            "last-modified": [
+                "2017-01-23T12:37:46Z",
+                "2021-09-08T12:43:14Z",
+                "2016-10-13T06:08:02Z"
+            ],
+            "route": "95.85.96.0\/19",
+            "phone": "+99312401700",
+            "++phone": "+99312401700",
+            "++registered": [
+                "2010-10-26 22:21:40",
+                "2016-10-13 06:08:02",
+                "2016-10-21 11:41:37"
+            ],
+            "++updated": [
+                "2021-09-08 12:43:14",
+                "2017-01-23 12:37:46"
+            ],
+            "inetnum": "95.85.114.0 - 95.85.114.255"
+        },
+        "geo": {
+            "country": "Turkmenistan",
+            "countrycode": "TM",
+            "asn": "AS20661",
+            "org": "State Company of Electro Communications Turkmentelecom",
+            "city": "Ashgabat",
+            "region": "Ashgabat",
+            "lat": "37.9519",
+            "long": "58.3958"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "server": "nginx\/1.14.0 (Ubuntu)",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "++redirect": "https:\/\/95.85.114.218\/",
+            "last-modified": "Fri, 22 Jan 2021 10:30:10 GMT",
+            "++target": "http:\/\/95.85.114.218\/",
+            "etag": "W\/\"600aa932-b4\"",
+            "date": "Fri, 18 Oct 2024 00:10:18 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "fingerprint": "00c8aecd17eedb0fc927e4a1174770ac1bf03a1adf62e127f197b07fc526c819",
+            "domain": "imexgrand.com",
+            "valid": "2024-09-03 12:07:57",
+            "expires": "2024-12-02 12:07:56",
+            "subject": "\/CN=imexgrand.com"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n"
+        },
+        "meta": {
+            "++title": "Welcome to imexgrand.com!"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/2e58135044ab8f3ae717a75eb0ef749c.jpeg"
+        }
+    }
+}

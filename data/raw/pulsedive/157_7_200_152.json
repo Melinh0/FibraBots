@@ -1,0 +1,188 @@
+{
+    "qid": null,
+    "iid": 63580425,
+    "indicator": "157.7.200.152",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-25 04:56:21",
+    "stamp_updated": "2024-12-15 11:30:33",
+    "stamp_seen": "2024-09-25 05:16:59",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 63584639,
+                "indicator": "https:\/\/157.7.200.152\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-25 04:56:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "443",
+            "5432",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "PostgreSQL"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "CentOS",
+            "OpenSSL"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "APNIC",
+                "JPNIC"
+            ],
+            "status": "ALLOCATED PORTABLE",
+            "++phone": "+81-3-5297-2311",
+            "abuse-mailbox": "hostmaster@nic.ad.jp",
+            "country": "JP",
+            "e-mail": "hostmaster@nic.ad.jp",
+            "fax-no": "+81-3-5297-2312",
+            "irt": "IRT-JPNIC-JP",
+            "mnt-by": "MAINT-JPNIC",
+            "mnt-irt": "IRT-JPNIC-JP",
+            "mnt-lower": "MAINT-JPNIC",
+            "nic-hdl": "JNIC1-AP",
+            "phone": "+81-3-5297-2311",
+            "role": "Japan Network Information Center",
+            "admin-c": [
+                "JI13-AP",
+                "JP00080271",
+                "JNIC1-AP"
+            ],
+            "tech-c": [
+                "JE53-AP",
+                "JP00080271",
+                "JNIC1-AP"
+            ],
+            "inetnum": [
+                "157.7.200.0 - 157.7.201.255",
+                "157.7.32.0 - 157.7.255.255"
+            ],
+            "address": [
+                "Chiyoda-ku, Tokyo 101-0047, Japan",
+                "Uchikanda OS Bldg 4F, 2-12-6 Uchi-Kanda",
+                "Chiyoda-ku, Tokyo 101-0047, japan"
+            ],
+            "++abuse": "hostmaster@nic.ad.jp",
+            "++registrant": [
+                "JNIC1-AP",
+                "JI13-AP",
+                "JP00080271"
+            ],
+            "++email": "hostmaster@nic.ad.jp",
+            "netname": [
+                "interQ",
+                "CNODE-JP3"
+            ],
+            "last-modified": [
+                "2022-01-05T03:04:02Z",
+                "2022-11-10T02:20:04Z",
+                "2023-03-26T05:50:08Z",
+                "2024-09-18T02:34:35Z"
+            ],
+            "descr": [
+                "SAINTcity,3-1-1,kyomachi,Kokurakita-ku,Kitakyushu-shi,Fukuoka,802-0002,Japan",
+                "GMO Internet Group, Inc."
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2022-01-05 03:04:02",
+                "2024-09-18 02:34:35",
+                "2023-03-26 05:50:08"
+            ]
+        },
+        "geo": {
+            "country": "Japan",
+            "countrycode": "JP",
+            "asn": "AS7506",
+            "org": "GMO Internet,Inc",
+            "address": [
+                "Chiyoda-ku, Tokyo 101-0047, Japan",
+                "Uchikanda OS Bldg 4F, 2-12-6 Uchi-Kanda",
+                "Chiyoda-ku, Tokyo 101-0047, japan"
+            ],
+            "lat": "35.6897",
+            "long": "139.6895"
+        },
+        "http": {
+            "content-type": "text\/html;charset=ISO-8859-1",
+            "connection": "Keep-Alive",
+            "content-length": "161",
+            "keep-alive": "timeout=5, max=100",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.57 (CentOS Stream) OpenSSL\/3.0.7",
+            "++redirect": "https:\/\/157.7.200.152\/",
+            "date": "Wed, 25 Sep 2024 05:16:46 GMT",
+            "++target": "http:\/\/157.7.200.152\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "Unspecified",
+            "subject": "\/C=US\/O=Unspecified\/CN=157-7-200-152\/E=root@157-7-200-152",
+            "fingerprint": "5c15bfbb6fd7406e8071e98f5c3d780294455ff0c661cea97dd4dfd315b19f7b",
+            "issuer": "\/C=US\/O=Unspecified\/OU=ca-2032495944211265117\/CN=157-7-200-152\/E=root@157-7-200-152",
+            "org": "157-7-200-152",
+            "expires": "2024-10-30 09:52:32",
+            "domain": "157-7-200-152",
+            "valid": "2023-10-31 09:52:32"
+        },
+        "meta": {
+            "++title": "Index of \/"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS LOGINDISABLED] Dovecot ready.\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "5432": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/b66bb3f30cecef3c5b27e69d2f59cfd6.jpeg"
+        }
+    }
+}

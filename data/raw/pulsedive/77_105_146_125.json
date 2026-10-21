@@ -1,0 +1,204 @@
+{
+    "qid": null,
+    "iid": 65723764,
+    "indicator": "77.105.146.125",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-09 10:39:00",
+    "stamp_updated": "2024-12-16 11:37:15",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65726704,
+                "indicator": "https:\/\/77.105.146.125\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-09 16:16:08"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 10:39:00"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 16:16:08"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-12-09 22:50:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "1080",
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SOCKS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "org-type": "OTHER",
+            "status": "SUB-ALLOCATED PA",
+            "mnt-ref": [
+                "ROSNIIROS-MNT",
+                "DN-MNT",
+                "QWARTA-MNT",
+                "Cyber-MNT",
+                "NETWORK-MANAGEMENT-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt",
+                "Corinnafisch-MNT",
+                "LIR-ae-royal-1-MNT",
+                "JD-RIPE-MNT",
+                "AS15509-MNT",
+                "sistemallc-mnt"
+            ],
+            "admin-c": "AN32749-RIPE",
+            "mnt-by": [
+                "aeza-mnt",
+                "aeza-group-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "tech-c": "AN32749-RIPE",
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-11-24T09:55:02Z",
+                "2023-03-07T12:15:10Z",
+                "2023-04-19T07:58:58Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "++registrant": "AN32749-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "nic-hdl": "AN32749-RIPE",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "last-modified": [
+                "2023-10-31T07:53:49Z",
+                "2023-05-12T13:11:31Z",
+                "2023-04-19T07:58:58Z",
+                "2024-12-02T11:28:31Z"
+            ],
+            "netname": "AEZA-NET",
+            "inetnum": "77.105.146.0 - 77.105.147.255",
+            "route": "77.105.146.0\/24",
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2021-11-24 09:55:02",
+                "2023-03-07 12:15:10",
+                "2023-04-19 07:58:58"
+            ],
+            "++updated": [
+                "2023-10-31 07:53:49",
+                "2023-04-19 07:58:58",
+                "2024-12-02 11:28:31"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Hesse",
+            "long": "8.6842",
+            "city": "Frankfurt am Main",
+            "lat": "50.1187",
+            "asn": "AS210644",
+            "org": [
+                "ORG-AGL38-RIPE",
+                "Aeza International Ltd"
+            ],
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "content-length": "8771",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "server": "nginx\/1.26.2",
+            "etag": "\"671e7e7f-2243\"",
+            "date": "Mon, 09 Dec 2024 10:50:15 GMT",
+            "last-modified": "Sun, 27 Oct 2024 17:55:11 GMT",
+            "++target": "https:\/\/77.105.146.125\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "charset": "UTF-8",
+            "++title": "\u0412\u0445\u043e\u0434 \u0432 Confluence"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "expires": "2025-01-25 17:11:01",
+            "domain": "wikiportal.su",
+            "subject": "\/CN=wikiportal.su",
+            "valid": "2024-10-27 17:11:02",
+            "fingerprint": "c05a88f6a94648d01e14ad00877ac0d5842e44777cf9f97ce79e566d92dc3497"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "1080": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/489d28e1341ee4fc086639cfd17f464a.jpeg"
+        }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "qid": null,
+    "iid": 52269242,
+    "indicator": "79.161.138.244",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-10-19 00:01:38",
+    "stamp_updated": "2024-12-10 10:42:38",
+    "stamp_seen": "2024-11-23 17:20:23",
+    "stamp_probed": "2024-08-29 22:53:35",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-10-19 00:01:38"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-24 21:18:54"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "status": "ASSIGNED PA",
+            "abuse-mailbox": "abuse@altibox.no",
+            "admin-c": [
+                "RA1765-RIPE",
+                "LYSE1-RIPE"
+            ],
+            "descr": [
+                "Altibox AS",
+                "Altibox Residential Customer Linknets"
+            ],
+            "fax-no": "+47 5190 8001",
+            "mnt-by": "LYSE-MNT",
+            "mnt-lower": "LYSE-MNT",
+            "mnt-routes": "LYSE-MNT",
+            "nic-hdl": "LYSE1-RIPE",
+            "origin": "AS29695",
+            "phone": "+47 5190 8000",
+            "role": "Altibox role Object",
+            "tech-c": [
+                "ES8317-RIPE",
+                "RA1765-RIPE",
+                "LYSE1-RIPE",
+                "DAK29-RIPE",
+                "MBH17-RIPE"
+            ],
+            "created": [
+                "2007-06-19T21:21:46Z",
+                "2002-11-01T11:09:39Z",
+                "2010-02-23T14:08:18Z"
+            ],
+            "last-modified": [
+                "2015-05-20T14:39:28Z",
+                "2014-12-12T11:04:48Z",
+                "2010-02-23T14:08:18Z"
+            ],
+            "netname": "NO-LYSE-CUSTOMER-RESIDENTIAL-LINKNETS",
+            "route": "79.160.0.0\/15",
+            "address": [
+                "Altibox AS",
+                "Postboks 8124",
+                "NO-4069 Stavanger",
+                "Norway"
+            ],
+            "++abuse": "abuse@altibox.no",
+            "++registrant": [
+                "LYSE1-RIPE",
+                "RA1765-RIPE"
+            ],
+            "++email": "abuse@altibox.no",
+            "country": "NO",
+            "source": "RIPE # Filtered",
+            "++registered": [
+                "2002-11-01 11:09:39",
+                "2007-06-19 21:21:46",
+                "2010-02-23 14:08:18"
+            ],
+            "++updated": [
+                "2014-12-12 11:04:48",
+                "2015-05-20 14:39:28"
+            ],
+            "inetnum": "79.161.138.128 - 79.161.138.255"
+        },
+        "geo": {
+            "country": "Norway",
+            "countrycode": "NO",
+            "region": "Telemark",
+            "asn": "AS29695",
+            "city": "Notodden",
+            "long": "9.2572",
+            "lat": "59.5606",
+            "org": "Lyse Tele"
+        },
+        "dns": {
+            "ptr": "244.79-161-138.customer.lyse.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear\n\u0000\u0000\u0002\u0004\u0005\u0014\ufffd\ufffd\ufffdb\u0014\ufffd\ufffd\ufffd[\ufffd\ufffd\u001fP\ufffd\u0000\u0000\u0000mcurve25519-sha256@libssh.org,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000<;\u0017\u070f"
+        }
+    }
+}

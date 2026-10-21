@@ -1,0 +1,189 @@
+{
+    "qid": null,
+    "iid": 65544333,
+    "indicator": "89.185.85.121",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-03 10:20:58",
+    "stamp_updated": "2024-12-11 16:26:12",
+    "stamp_seen": "2024-12-03 10:21:18",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65544428,
+                "indicator": "https:\/\/89.185.85.121\/login"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-11 16:26:12"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-03 10:20:58"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-11 16:26:12"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "tech-c": "OP2502-RIPE",
+            "mnt-by": [
+                "ru-permtelecom-1-mnt",
+                "aeza-mnt",
+                "AEZA-NETWORK-MNT"
+            ],
+            "++phone": "+73422000289",
+            "admin-c": "IG2940-RIPE",
+            "nic-hdl": [
+                "OP2502-RIPE",
+                "IG2940-RIPE"
+            ],
+            "person": [
+                "Oleg Pischulev",
+                "Igor Gilmutdinov"
+            ],
+            "phone": "+73422000289",
+            "address": [
+                "Perm",
+                "Malkova, 12",
+                "614087",
+                "RUSSIAN FEDERATION",
+                "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom"
+            ],
+            "last-modified": [
+                "2016-04-01T13:54:40Z",
+                "2022-07-06T11:28:41Z",
+                "2022-07-06T17:24:50Z",
+                "2023-11-30T11:31:28Z"
+            ],
+            "mnt-ref": [
+                "ru-permtelecom-1-mnt",
+                "cicnet-mnt",
+                "INTERLAN-MNT"
+            ],
+            "created": [
+                "2016-04-01T13:54:40Z",
+                "2022-06-17T15:50:56Z",
+                "2022-06-02T13:22:26Z",
+                "2022-07-06T17:24:50Z"
+            ],
+            "++registrant": [
+                "IG2940-RIPE",
+                "Igor Gilmutdinov",
+                "Oleg Pischulev"
+            ],
+            "netname": "RU-PERMTELECOM",
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "mnt-domains": [
+                "aeza-mnt",
+                "AM-VDS"
+            ],
+            "mnt-routes": [
+                "aeza-mnt",
+                "AM-VDS"
+            ],
+            "route": "89.185.85.0\/24",
+            "org": "ORG-AA2777-RIPE",
+            "organisation": "ORG-AA2777-RIPE",
+            "inetnum": "89.185.85.0 - 89.185.85.255",
+            "org-name": "Aeza International LTD",
+            "++registered": [
+                "2016-04-01 13:54:40",
+                "2022-06-17 15:50:56",
+                "2022-07-06 17:24:50"
+            ],
+            "++updated": [
+                "2016-04-01 13:54:40",
+                "2023-11-30 11:31:28",
+                "2022-07-06 17:24:50"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "region": "Hesse",
+            "long": "8.6842",
+            "city": "Frankfurt am Main",
+            "address": [
+                "RUSSIAN FEDERATION",
+                "Perm",
+                "Malkova, 12",
+                "614087",
+                "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom"
+            ],
+            "lat": "50.1187",
+            "asn": "AS210644",
+            "org": [
+                "ORG-AA2777-RIPE",
+                "Aeza International Ltd"
+            ]
+        },
+        "meta": {
+            "viewport": "width=device-width,initial-scale=1",
+            "charset": "UTF-8",
+            "x-ua-compatible": "ie=edge",
+            "++title": "Access server client portal"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11\n"
+        },
+        "http": {
+            "++redirect": "https:\/\/89.185.85.121\/login",
+            "++target": "https:\/\/89.185.85.121\/"
+        }
+    }
+}

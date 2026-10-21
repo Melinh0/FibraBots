@@ -1,0 +1,173 @@
+{
+    "qid": null,
+    "iid": 56543925,
+    "indicator": "158.51.96.38",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-02-27 00:10:32",
+    "stamp_updated": "2024-12-15 11:30:36",
+    "stamp_seen": "2024-12-15 07:29:07",
+    "stamp_probed": "2024-09-30 04:34:36",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-03-20 07:07:30"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-02-27 00:10:32"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-03-20 07:07:30"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-03-30 05:32:52"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-03-10 08:57:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "orgabusename": "Abuse",
+            "parent": "NET158 (NET-158-0-0-0-0)",
+            "stateprov": "IL",
+            "orgnocname": "IP Administrator",
+            "orgtechname": "IP Administrator",
+            "++registered": [
+                "2017-11-08 00:00:00",
+                "2020-01-10 00:00:00"
+            ],
+            "regdate": [
+                "2017-11-08",
+                "2020-01-10"
+            ],
+            "city": "Schaumburg",
+            "postalcode": "60193",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADM807-ARIN",
+            "orgtechhandle": "IPADM807-ARIN",
+            "orgnocemail": "ipadmin@netinformatik.com",
+            "orgnochandle": "IPADM807-ARIN",
+            "++registrant": "NetInformatik Inc.",
+            "orgtechphone": "+1-773-825-3999",
+            "organization": "NetInformatik Inc. (NETIN-22)",
+            "orgabusephone": "+1-773-825-3999",
+            "++phone": "+1-773-825-3999",
+            "orgnocphone": "+1-773-825-3999",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/NETIN-22",
+                "https:\/\/rdap.arin.net\/registry\/ip\/158.51.96.0"
+            ],
+            "orgname": "NetInformatik Inc.",
+            "++email": "ipadmin@netinformatik.com",
+            "orgid": "NETIN-22",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/IPADM807-ARIN",
+            "orgtechemail": "ipadmin@netinformatik.com",
+            "updated": [
+                "2020-01-10",
+                "2024-10-16"
+            ],
+            "netname": "NETINF-V4BLK3",
+            "nethandle": "NET-158-51-96-0-1",
+            "cidr": "158.51.96.0\/22",
+            "originas": "AS397270",
+            "netrange": "158.51.96.0 - 158.51.99.255",
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE8127-ARIN",
+            "orgabuseemail": "abuse@netinformatik.com",
+            "orgabusehandle": "ABUSE8127-ARIN",
+            "++abuse": "abuse@netinformatik.com",
+            "++updated": "2024-10-16 00:00:00",
+            "address": "902 Morse Ave."
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": [
+                "California",
+                "IL"
+            ],
+            "city": [
+                "Los Angeles",
+                "Schaumburg"
+            ],
+            "zip": "60193",
+            "lat": "34.0544",
+            "asn": "AS397270",
+            "org": [
+                "NetInformatik Inc. (NETIN-22)",
+                "NETINF-TRANSIT-AS"
+            ],
+            "long": "-118.2441",
+            "address": "902 Morse Ave."
+        },
+        "dns": {
+            "ptr": "unknown.ip-xfer.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        }
+    }
+}

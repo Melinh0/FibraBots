@@ -1,0 +1,123 @@
+{
+    "qid": null,
+    "iid": 64515656,
+    "indicator": "222.255.214.107",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-25 08:20:20",
+    "stamp_updated": "2024-12-13 11:26:15",
+    "stamp_seen": "2024-10-25 08:26:44",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-25 08:20:20"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "VN",
+                "vn"
+            ],
+            "asn": "AS45899",
+            "org": "VNPT Corp",
+            "country": [
+                "Vietnam",
+                "vn"
+            ],
+            "lat": "16.1667",
+            "long": "107.8333",
+            "address": "Internet Building, Block II, Thang Long Inter Village"
+        },
+        "whois": {
+            "country": [
+                "VN",
+                "vn"
+            ],
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "mnt-by": "MAINT-VN-VNPT",
+            "admin-c": [
+                "THMH1-AP",
+                "VIG1-AP"
+            ],
+            "nic-hdl": "VIG1-AP",
+            "origin": "AS45899",
+            "role": "VDC IPADMIN GROUP",
+            "tech-c": [
+                "THMH1-AP",
+                "VIG1-AP"
+            ],
+            "inetnum": "222.255.208.0 - 222.255.223.255",
+            "netname": "vdccatv-net",
+            "address": "Internet Building, Block II, Thang Long Inter Village",
+            "last-modified": [
+                "2008-09-04T07:22:39Z",
+                "2019-06-25T02:07:13Z",
+                "2022-07-29T19:27:25Z"
+            ],
+            "descr": [
+                "ip range belong to VDC and was sub assigned for Cable Modem Service",
+                "Vung dia chi VNPT phan bo cho VDC",
+                "VDC cap phat lai cho dich vu truy cap Internet qua Cable TV",
+                "VNPT"
+            ],
+            "++registrant": [
+                "VIG1-AP",
+                "THMH1-AP"
+            ],
+            "e-mail": "nmc.cmip@vnpt.vn",
+            "++phone": "+84-437877777",
+            "++email": "nmc.cmip@vnpt.vn",
+            "phone": "+84-437877777",
+            "fax-no": "+84-4 37876600",
+            "route": "222.255.214.0\/24",
+            "++updated": [
+                "2019-06-25 02:07:13",
+                "2022-07-29 19:27:25"
+            ]
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.4\n"
+        }
+    }
+}

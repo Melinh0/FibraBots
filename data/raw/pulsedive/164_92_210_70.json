@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 64888869,
+    "indicator": "164.92.210.70",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-12 09:04:47",
+    "stamp_updated": "2024-12-15 11:30:45",
+    "stamp_seen": "2024-11-12 09:16:45",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64889965,
+                "indicator": "http:\/\/164.92.210.70\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-12 09:04:47"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Bootstrap",
+            "jQuery",
+            "Laravel",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": [
+                "NL",
+                "US"
+            ],
+            "country": [
+                "United States",
+                "The Netherlands"
+            ],
+            "city": [
+                "New York",
+                "Amsterdam"
+            ],
+            "asn": "AS14061",
+            "region": [
+                "North Holland",
+                "NY"
+            ],
+            "zip": "10013",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "org": [
+                "DigitalOcean, LLC (DO-13)",
+                "DIGITALOCEAN-ASN"
+            ],
+            "lat": "52.352",
+            "long": "4.9392"
+        },
+        "whois": {
+            "country": "US",
+            "++abuse": "abuse@digitalocean.com",
+            "++email": "noc@digitalocean.com",
+            "++phone": "+1-347-875-6044",
+            "++registrant": "DigitalOcean, LLC",
+            "city": "New York",
+            "nettype": "Direct Allocation",
+            "orgabuseemail": "abuse@digitalocean.com",
+            "orgabusehandle": "ABUSE5232-ARIN",
+            "orgabusename": "Abuse, DigitalOcean",
+            "orgabusephone": "+1-347-875-6044",
+            "organization": "DigitalOcean, LLC (DO-13)",
+            "orgid": "DO-13",
+            "orgname": "DigitalOcean, LLC",
+            "orgnocemail": "noc@digitalocean.com",
+            "orgnochandle": "NOC32014-ARIN",
+            "orgnocname": "Network Operations Center",
+            "orgnocphone": "+1-347-875-6044",
+            "orgtechemail": "noc@digitalocean.com",
+            "orgtechhandle": "NOC32014-ARIN",
+            "orgtechname": "Network Operations Center",
+            "orgtechphone": "+1-347-875-6044",
+            "postalcode": "10013",
+            "regdate": [
+                "2012-05-14",
+                "2020-05-04"
+            ],
+            "stateprov": "NY",
+            "++registered": [
+                "2012-05-14 00:00:00",
+                "2020-05-04 00:00:00"
+            ],
+            "parent": "NET164 (NET-164-0-0-0-0)",
+            "address": [
+                "101 Ave of the Americas",
+                "FL2"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/DO-13",
+                "https:\/\/rdap.arin.net\/registry\/ip\/164.92.64.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/ABUSE5232-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/NOC32014-ARIN",
+            "netname": "DO-13",
+            "updated": [
+                "2020-05-04",
+                "2023-10-23"
+            ],
+            "nethandle": "NET-164-92-64-0-1",
+            "cidr": "164.92.128.0\/17, 164.92.64.0\/18",
+            "netrange": "164.92.64.0 - 164.92.255.255",
+            "++updated": "2023-10-23 00:00:00"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "cache-control": "no-cache, private",
+            "content-encoding": "gzip",
+            "content-length": "1022",
+            "++code": "200",
+            "++status": "OK",
+            "keep-alive": "timeout=5, max=1000",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.52 (Ubuntu)",
+            "date": "Tue, 12 Nov 2024 09:16:27 GMT",
+            "++target": "http:\/\/164.92.210.70\/",
+            "set-cookie": "XSRF-TOKEN=eyJpdiI6IkhaQS9oMU8yKzhKMzBLZ0c4ZjVCckE9PSIsInZhbHVlIjoiRlR1aGdkMWhkU0VMcVJCWjV1TXdWVkVWeUgrUWI3QzE4RURnZzg0UUpaN1BKVU5ER1BmRnhtbVAremZEYnJGV042QllSNHhKVjZrYUszV3lVQ28vcm16Sk1YeFlSWXFuV0hxUVJXNERGLytaWjAzenVjK1cvSXNYYzJhbytXbFEiLCJtYWMiOiIwYTE3OWZlZjBjOWEyZTVlMTEwODY0ZjYwYjQzNWMwYjFiNjdiMjE0NmVmNTU1NmQ4Mzc0NmFmNzVhNTFiMDc2IiwidGFnIjoiIn0%3D; expires=Tue, 12-Nov-2024 11:16:27 GMT; Max-Age=7200; path=\/; samesite=lax\nlaravel_session=9IkFjmoMW5YmDo2mNRu9Prqs6mwIBw9v0KF4LOGv; expires=Tue, 12-Nov-2024 11:16:27 GMT; Max-Age=7200; path=\/; httponly; samesite=lax"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p2 \n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/9436c3c1db0bb72d407796d423638f3a.jpeg"
+        },
+        "cookies": {
+            "xsrf-token": "eyJpdiI6IkhaQS9oMU8yKzhKMzBLZ0c4ZjVCckE9PSIsInZhbHVlIjoiRlR1aGdkMWhkU0VMcVJCWjV1TXdWVkVWeUgrUWI3QzE4RURnZzg0UUpaN1BKVU5ER1BmRnhtbVAremZEYnJGV042QllSNHhKVjZrYUszV3lVQ28vcm16Sk1YeFlSWXFuV0hxUVJXNERGLytaWjAzenVjK1cvSXNYYzJhbytXbFEiLCJtYWMiOiIwYTE3OWZlZjBjOWEyZTVlMTEwODY0ZjYwYjQzNWMwYjFiNjdiMjE0NmVmNTU1NmQ4Mzc0NmFmNzVhNTFiMDc2IiwidGFnIjoiIn0%3D",
+            "laravel_session": "9IkFjmoMW5YmDo2mNRu9Prqs6mwIBw9v0KF4LOGv"
+        }
+    }
+}

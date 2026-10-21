@@ -1,0 +1,141 @@
+{
+    "qid": null,
+    "iid": 65510381,
+    "indicator": "75.119.146.124",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-01 10:11:24",
+    "stamp_updated": "2024-12-16 16:39:15",
+    "stamp_seen": "2024-12-01 10:16:34",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-12-12 16:28:24"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-01 10:11:24"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2024-12-12 16:28:24"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "address": [
+                "81549 Muenchen",
+                "Aschauer Str. 32a",
+                "Contabo GmbH"
+            ],
+            "admin-c": "MH7476-RIPE",
+            "fax-no": "+49 89 21665862",
+            "mnt-by": [
+                "MNT-CONTABO",
+                "MNT-GIGA-HOSTING"
+            ],
+            "nic-hdl": "MH7476-RIPE",
+            "origin": "AS51167",
+            "phone": "+49 89 21268372",
+            "tech-c": "MH7476-RIPE",
+            "netname": "CONTABO",
+            "created": [
+                "2010-01-04T10:41:37Z",
+                "2021-03-22T08:23:41Z",
+                "2021-02-11T12:38:47Z"
+            ],
+            "++registrant": [
+                "MH7476-RIPE",
+                "Johannes Selg"
+            ],
+            "last-modified": [
+                "2021-03-22T08:23:41Z",
+                "2021-02-11T12:38:47Z",
+                "2024-04-15T11:05:18Z"
+            ],
+            "inetnum": "75.119.144.0 - 75.119.159.255",
+            "route": "75.119.146.0\/23",
+            "++updated": [
+                "2024-04-15 11:05:18",
+                "2021-02-11 12:38:47"
+            ],
+            "person": "Johannes Selg",
+            "++registered": [
+                "2010-01-04 10:41:37",
+                "2021-03-22 08:23:41",
+                "2021-02-11 12:38:47"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS51167",
+            "org": "Contabo GmbH",
+            "address": [
+                "Aschauer Str. 32a",
+                "Contabo GmbH",
+                "81549 Muenchen"
+            ],
+            "region": "North Rhine-Westphalia",
+            "lat": "51.1878",
+            "long": "6.8607",
+            "city": "D\ufffdsseldorf"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3389": "\u0005\u0004\u0000\u0000"
+        }
+    }
+}

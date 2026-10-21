@@ -1,0 +1,127 @@
+{
+    "qid": null,
+    "iid": 64502302,
+    "indicator": "51.68.120.65",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-10-24 08:19:08",
+    "stamp_updated": "2024-12-16 11:36:21",
+    "stamp_seen": "2024-10-24 08:31:27",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64505070,
+                "indicator": "https:\/\/51.68.120.65\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-10-24 08:19:08"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Apache HTTP Server",
+            "Debian",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "France",
+            "countrycode": "FR",
+            "org": "OVH SAS",
+            "asn": "AS16276",
+            "lat": "48.9482",
+            "region": [
+                "Hauts-de-Seine",
+                "\ufffdle-de-France"
+            ],
+            "city": "Villeneuve-la-Garenne",
+            "long": "2.3238"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "connection": "Keep-Alive",
+            "content-encoding": "gzip",
+            "access-control-allow-origin": "*",
+            "keep-alive": "timeout=5, max=100",
+            "access-control-allow-methods": "*",
+            "access-control-allow-headers": "*",
+            "content-length": "483",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "server": "Apache\/2.4.57 (Debian)",
+            "date": "Thu, 24 Oct 2024 08:26:35 GMT",
+            "++target": "http:\/\/51.68.120.65\/",
+            "++redirect": "https:\/\/51.68.120.65\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Extended Validation Secure Server CA",
+            "expires": "2022-01-27 23:59:59",
+            "valid": "2020-01-28 00:00:00",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Extended Validation Secure Server CA",
+            "fingerprint": "9bfbaf406a33588b3dbbdbf974fa385c1f632b5d141d425d2b4e8f64671f70da",
+            "subject": "\/=713669382\/=BE\/=Private Organization\/C=BE\/=4000\/ST=Li\ufffdge\/L=Li\ufffdge\/=Boulevard d'Avroy 40\/O=ASSURO\/CN=www.assuro.be",
+            "domain": [
+                "www.assuro.be",
+                "assuro.be",
+                "my.assuro.be"
+            ],
+            "++subject": "ASSURO"
+        },
+        "meta": {
+            "charset": "utf-8",
+            "++title": "Assuro.be (Coming Soon)"
+        },
+        "banners": {
+            "22": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/4267acfb506f4f9018529cf58537b46a.jpeg"
+        }
+    }
+}

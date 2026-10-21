@@ -1,0 +1,59 @@
+1. ip
+Descrição: Endereço IP que está sendo analisado. É o identificador principal usado para correlacionar os dados em diferentes fontes.
+Lógica: O endereço IP é usado como chave única para integrar informações de diferentes serviços e ferramentas de análise.
+
+2. abuseipdb_confidence_score
+Descrição: Índice de confiança fornecido pelo AbuseIPDB, representando a probabilidade de um IP ser malicioso ou envolvido em atividades suspeitas.
+Lógica: Calculado com base no histórico de denúncias relacionadas ao IP. Um valor alto indica uma maior probabilidade de comportamento malicioso.
+
+3. abuseipdb_total_reports
+Descrição: Número total de vezes que o endereço IP foi reportado como malicioso no AbuseIPDB.
+Lógica: Reflete a frequência com que um IP é sinalizado como uma ameaça, indicando histórico consistente de comportamento mal-intencionado.
+
+4. abuseipdb_num_distinct_users
+Descrição: Quantidade de usuários distintos que reportaram o endereço IP no AbuseIPDB.
+Lógica: Quanto maior o número de usuários distintos que reportaram o IP, maior a credibilidade de que ele está envolvido em atividades suspeitas.
+
+5. ipvoid_Detection_Count
+Descrição: Número de serviços de detecção que sinalizaram o endereço IP como uma ameaça, conforme analisado pelo IPVoid.
+Lógica: O IPVoid consolida resultados de várias ferramentas de segurança, e um número alto nesta métrica indica um consenso entre os serviços sobre a periculosidade do IP.
+
+6. risk_recommended_pulsedrive
+Descrição: Risco geral recomendado com base nos dados do PulseDrive, uma ferramenta analítica para avaliação de IPs.
+Lógica: Essa métrica classifica o risco de forma consolidada, considerando os comportamentos e dados analisados por várias fontes.
+
+7. amount_risk_pulsedrive
+Descrição: Quantidade de eventos ou incidentes atribuídos ao endereço IP no PulseDrive.
+Lógica: Reflete o número de ocorrências analisadas que contribuíram para a avaliação do risco associado ao IP.
+
+8. none_pulsedrive
+Descrição: Quantidade de eventos com risco "nenhum" (zero) associados ao IP no PulseDrive.
+Lógica: Identifica eventos onde o IP não foi considerado uma ameaça, contribuindo para análises mais balanceadas.
+
+9. medium_pulsedrive
+Descrição: Quantidade de eventos classificados com risco "médio" no PulseDrive.
+Lógica: Ajuda a categorizar IPs que apresentam um risco moderado, permitindo um monitoramento mais cauteloso.
+
+10. high_pulsedrive
+Descrição: Quantidade de eventos classificados como de "alto risco" no PulseDrive.
+Lógica: Eventos de alto risco indicam atividades maliciosas mais graves e demandam atenção imediata.
+
+11. virustotal_reputation
+Descrição: Pontuação de reputação fornecida pelo VirusTotal para o IP.
+Lógica: Uma pontuação negativa indica uma má reputação do IP, com base em relatórios de serviços de segurança e análise.
+
+12. virustotal_malicious
+Descrição: Número de mecanismos de segurança no VirusTotal que marcaram o IP como "malicioso".
+Lógica: Um valor alto indica que muitos serviços concordam sobre o comportamento mal-intencionado do IP.
+
+13. virustotal_suspicious
+Descrição: Número de mecanismos de segurança no VirusTotal que marcaram o IP como "suspeito".
+Lógica: Diferente de "malicioso", "suspeito" indica que o IP pode apresentar comportamento anômalo, mas sem evidências suficientes para categorizá-lo como ameaça direta.
+
+14. virustotal_undetected
+Descrição: Número de mecanismos de segurança no VirusTotal que não detectaram nenhuma ameaça associada ao IP.
+Lógica: Indica que o IP pode ser seguro ou ainda não foi identificado como uma ameaça por esses serviços.
+
+15. virustotal_harmless
+Descrição: Número de mecanismos de segurança no VirusTotal que marcaram o IP como "inofensivo".
+Lógica: Um número alto sugere que o IP é considerado seguro pela maioria dos serviços de segurança.

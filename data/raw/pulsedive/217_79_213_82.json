@@ -1,0 +1,198 @@
+{
+    "qid": null,
+    "iid": 65448211,
+    "indicator": "217.79.213.82",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-11-29 10:02:10",
+    "stamp_updated": "2024-12-03 10:17:21",
+    "stamp_seen": "2024-11-29 10:02:34",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65448220,
+                "indicator": "https:\/\/217.79.213.82\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-11-29 10:02:10"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Cherokee",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "created": [
+                "1970-01-01T00:00:00Z",
+                "2006-01-12T23:51:28Z",
+                "2024-11-22T14:35:11Z",
+                "2020-04-17T12:27:58Z"
+            ],
+            "++registered": [
+                "1970-01-01 00:00:00",
+                "2024-11-22 14:35:11",
+                "2020-04-17 12:27:58",
+                "2006-01-12 23:51:28"
+            ],
+            "origin": [
+                "AS15830",
+                "AS24989"
+            ],
+            "address": "GB",
+            "mnt-by": [
+                "HRW-NOC",
+                "EQUINIX-MNT",
+                "EQUINIX-FULFIL-MNT"
+            ],
+            "tech-c": [
+                "IIA6-RIPE",
+                "AO1761-RIPE",
+                "SM11789-RIPE",
+                "HC795-RIPE",
+                "AF5664-RIPE",
+                "AP7480-RIPE",
+                "DH1304-RIPE",
+                "JC4201-RIPE",
+                "MG12790-RIPE",
+                "MK2403-RIPE",
+                "MM36274-RIPE",
+                "PC6472-RIPE",
+                "PN2248-RIPE",
+                "RG1911-RIPE",
+                "RK2696-RIPE",
+                "RV5551-RIPE",
+                "EESM1-RIPE",
+                "HK3332-RIPE"
+            ],
+            "admin-c": [
+                "IIA6-RIPE",
+                "PC6472-RIPE"
+            ],
+            "nic-hdl": "IIA6-RIPE",
+            "last-modified": [
+                "2006-01-12T23:51:28Z",
+                "2024-11-22T14:35:11Z",
+                "2024-09-18T09:05:12Z",
+                "2020-04-17T12:27:58Z"
+            ],
+            "route": "217.79.208.0\/20",
+            "descr": [
+                "IXEUROPE-DDF-217.79.208",
+                "Equinix Frankfurt",
+                "Equinix Customer - B8 SA"
+            ],
+            "++registrant": [
+                "IIA6-RIPE",
+                "PC6472-RIPE"
+            ],
+            "role": "Equinix EMEA Admin",
+            "++updated": [
+                "2024-11-22 14:35:11",
+                "2024-09-18 09:05:12",
+                "2020-04-17 12:27:58",
+                "2006-01-12 23:51:28"
+            ],
+            "netname": "B8_SA",
+            "inetnum": "217.79.213.80 - 217.79.213.87"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS15830",
+            "lat": "51.2993",
+            "address": "GB",
+            "long": "9.491",
+            "org": "Equinix (EMEA) Acquisition Enterprises B.V."
+        },
+        "http": {
+            "content-type": "text\/html",
+            "x-frame-options": "SAMEORIGIN",
+            "cache-control": "no-cache",
+            "content-security-policy": "frame-ancestors 'self'",
+            "server": "Cherokee\/1.2.101 (UNIX)",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "date": "Fri, 29 Nov 2024 10:10:45 GMT",
+            "++target": "https:\/\/217.79.213.82\/"
+        },
+        "ssl": {
+            "domain": "192.168.0.1",
+            "subject": "\/CN=192.168.0.1",
+            "version": "v3",
+            "org": "192.168.0.1",
+            "issuer": "\/CN=192.168.0.1",
+            "ip": "192.168.0.1",
+            "valid": "2024-11-27 09:42:58",
+            "expires": "2025-11-27 09:42:58",
+            "fingerprint": "c33897708de12b04c1f4d8ba80654b16e5607d41de9e96432d4606323ba49a4f"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "x-ua-compatible": "IE=7",
+            "charset": "utf-8",
+            "++title": "cm7116-2-dac - Opengear Management Console"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.7\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5132735fc1a5efeb18f4262e91ab3ea2.jpeg"
+        }
+    }
+}

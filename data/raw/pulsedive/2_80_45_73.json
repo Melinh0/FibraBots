@@ -1,0 +1,153 @@
+{
+    "qid": null,
+    "iid": 60924460,
+    "indicator": "2.80.45.73",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-05 17:09:20",
+    "stamp_updated": "2024-12-17 11:36:10",
+    "stamp_seen": "2024-12-16 17:34:01",
+    "stamp_probed": "2024-08-30 07:55:10",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-05 17:09:20"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-15 05:50:45"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "23"
+        ],
+        "protocol": [
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "PT",
+            "address": [
+                "Portugal",
+                "Local Internet Registry Management",
+                "MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.",
+                "Av. Fontes Pereira de Melo, 40 - 3 Bl A",
+                "Forum Picoas - 1069-300 Lisboa"
+            ],
+            "++phone": "+351-215000000",
+            "abuse-mailbox": "abuse@mail.telepac.pt",
+            "descr": [
+                "PT Comunicacoes S.A.",
+                "Dynamic Address Range"
+            ],
+            "mnt-by": "TELEPAC-MNT",
+            "mnt-routes": "TELEPAC-MNT",
+            "netname": "MEO-BROADBAND",
+            "nic-hdl": "TP3302-RIPE",
+            "org": "ORG-TCIS1-RIPE",
+            "origin": "AS3243",
+            "phone": "+351-215000000",
+            "role": "MEO-RESIDENCIAL",
+            "created": [
+                "2010-04-29T15:31:31Z",
+                "2002-08-12T09:57:20Z",
+                "2011-02-02T12:59:27Z"
+            ],
+            "inetnum": "2.80.0.0 - 2.81.255.255",
+            "last-modified": [
+                "2014-01-31T16:18:48Z",
+                "2016-02-05T17:37:05Z",
+                "2024-06-17T10:35:40Z"
+            ],
+            "route": "2.80.0.0\/14",
+            "tech-c": "TP3302-RIPE",
+            "admin-c": [
+                "NPM17-RIPE",
+                "DPM37-RIPE",
+                "LAS102-RIPE",
+                "TP3302-RIPE",
+                "DL11448-RIPE"
+            ],
+            "++registrant": [
+                "NPM17-RIPE",
+                "DPM37-RIPE",
+                "LAS102-RIPE",
+                "TP3302-RIPE",
+                "DL11448-RIPE"
+            ],
+            "++abuse": "abuse@mail.telepac.pt",
+            "++email": "abuse@mail.telepac.pt",
+            "++updated": [
+                "2024-06-17 10:35:40",
+                "2014-01-31 16:18:48"
+            ],
+            "++registered": [
+                "2002-08-12 09:57:20",
+                "2011-02-02 12:59:27",
+                "2010-04-29 15:31:31"
+            ]
+        },
+        "geo": {
+            "country": "Portugal",
+            "countrycode": "PT",
+            "asn": "AS3243",
+            "org": "Servicos De Comunicacoes E Multimedia S.A.",
+            "region": "Coimbra",
+            "city": "Coimbra",
+            "long": "-8.4213",
+            "lat": "40.2057"
+        },
+        "banners": {
+            "23": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8\n"
+        },
+        "dns": {
+            "ptr": "bl19-45-73.dsl.telepac.pt"
+        }
+    }
+}

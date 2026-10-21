@@ -1,0 +1,279 @@
+{
+    "qid": null,
+    "iid": 34593051,
+    "indicator": "95.87.248.223",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-04 18:44:25",
+    "stamp_updated": "2024-12-09 10:40:05",
+    "stamp_seen": "2024-11-20 07:53:24",
+    "stamp_probed": "2024-09-30 21:11:04",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 34593854,
+                "indicator": "http:\/\/95.87.248.223\/"
+            },
+            {
+                "iid": 64132995,
+                "indicator": "https:\/\/95.87.248.223\/roundcube\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-04 18:44:25"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-04-19 22:56:18"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "21",
+            "22",
+            "25",
+            "443",
+            "53",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "DNS",
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery UI",
+            "RoundCube"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ALLOCATED PA",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-GNET",
+                "BT95-ADM"
+            ],
+            "address": [
+                "Bulgaria",
+                "Sofia",
+                "1784, Sofia",
+                "115I, Tsarigradsko shose Blvd.",
+                "1784",
+                "BTC Plc",
+                "Bulgarian Telecommunications Company Plc",
+                "BULGARIA",
+                "Bulgarian Telecommunications Company Plc."
+            ],
+            "country": "BG",
+            "admin-c": [
+                "LG700-RIPE",
+                "PT1549-RIPE",
+                "SS4127-RIPE",
+                "BTC3-RIPE",
+                "VB2225-RIPE",
+                "NP2222-RIPE",
+                "IR778-RIPE"
+            ],
+            "mnt-by": [
+                "BT95-ADM",
+                "MNT-NET1",
+                "RIPE-NCC-HM-MNT"
+            ],
+            "nic-hdl": [
+                "LG700-RIPE",
+                "BTC3-RIPE"
+            ],
+            "person": "Lyubomir Georgiev",
+            "phone": [
+                "+359 2 932 08 38",
+                "+35929494600"
+            ],
+            "descr": "NET1 - PA Address space",
+            "origin": "AS43561",
+            "++phone": "+35929494600",
+            "abuse-c": "BTC3-RIPE",
+            "mnt-domains": [
+                "BTC-PROV-ADM",
+                "MNT-BTCNET"
+            ],
+            "mnt-lower": [
+                "BT95-ADM",
+                "BTC-PROV-ADM"
+            ],
+            "org": "ORG-BTCP1-RIPE",
+            "organisation": "ORG-BTCP1-RIPE",
+            "mnt-routes": "BTC-PROV-ADM",
+            "last-modified": [
+                "2009-02-16T13:28:40Z",
+                "2015-07-02T14:54:31Z",
+                "2022-10-06T13:19:37Z",
+                "2024-08-30T13:28:41Z",
+                "2022-06-03T14:08:51Z"
+            ],
+            "route": "95.87.248.0\/24",
+            "created": [
+                "2009-02-16T13:28:40Z",
+                "2004-04-17T11:01:01Z",
+                "2002-12-27T08:55:53Z",
+                "2001-11-30T11:48:48Z",
+                "2009-02-12T15:23:03Z"
+            ],
+            "fax-no": "+35929331200",
+            "++registrant": [
+                "LG700-RIPE",
+                "BTC3-RIPE",
+                "VB2225-RIPE",
+                "NP2222-RIPE",
+                "IR778-RIPE",
+                "SS4127-RIPE",
+                "PT1549-RIPE",
+                "Lyubomir Georgiev"
+            ],
+            "tech-c": "BTC3-RIPE",
+            "role": "BTC IP ADDRESS SPACE administration",
+            "org-name": "Vivacom Bulgaria EAD",
+            "++registered": [
+                "2001-11-30 11:48:48",
+                "2009-02-12 15:23:03",
+                "2004-04-17 11:01:01",
+                "2002-12-27 08:55:53",
+                "2009-02-16 13:28:40"
+            ],
+            "++updated": [
+                "2024-08-30 13:28:41",
+                "2022-10-06 13:19:37",
+                "2015-07-02 14:54:31",
+                "2009-02-16 13:28:40"
+            ],
+            "++email": "abuse-ip@vivacom.bg",
+            "++abuse": "abuse-ip@vivacom.bg",
+            "abuse-mailbox": "abuse-ip@vivacom.bg",
+            "inetnum": "95.87.192.0 - 95.87.255.255",
+            "netname": "BG-BTC-20091002"
+        },
+        "geo": {
+            "country": "Bulgaria",
+            "countrycode": "BG",
+            "city": "Sofia",
+            "asn": "AS8866",
+            "region": "Sofia-Capital",
+            "lat": "42.6951",
+            "long": "23.325",
+            "org": "Vivacom Bulgaria EAD"
+        },
+        "http": {
+            "server": "Apache",
+            "content-type": "text\/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=99",
+            "cache-control": "private, no-cache, no-store, must-revalidate, post-check=0, pre-check=0",
+            "content-language": "en",
+            "x-dns-prefetch-control": "off",
+            "content-encoding": "gzip",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "x-frame-options": "sameorigin",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/95.87.248.223\/",
+            "++redirect": "https:\/\/95.87.248.223\/roundcube\/",
+            "date": "Sat, 12 Oct 2024 17:28:25 GMT",
+            "set-cookie": "roundcube_sessid=4uagkf10sf9bf1mias73j24lm3; path=\/; secure; HttpOnly",
+            "expires": "Sat, 12 Oct 2024 17:28:25 GMT",
+            "last-modified": "Sat, 12 Oct 2024 17:28:25 GMT"
+        },
+        "meta": {
+            "robots": "noindex,nofollow",
+            "++title": "Roundcube Webmail :: Welcome to Roundcube Webmail",
+            "content-type": "text\/html; charset=UTF-8",
+            "viewport": ""
+        },
+        "ssl": {
+            "version": "v3",
+            "fingerprint": "a293928ff5c5324ec298da722d6ac8df3120c2110e7acb3261a5c89d4766c017",
+            "subject": "\/CN=ns1.axisprint.com",
+            "org": "ns1.axisprint.com",
+            "issuer": "\/CN=ns1.axisprint.com",
+            "expires": "2027-04-15 14:48:59",
+            "valid": "2017-04-17 14:48:59"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS LOGINDISABLED] Dovecot ready.\n",
+            "22": "SSH-2.0-OpenSSH_7.4p1 Ubuntu-10\n",
+            "21": "220 ProFTPD 1.3.5b Server (Debian) [::ffff:192.168.1.5]\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "53": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "95-87-248-223.ip.btc-net.bg"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ad8ce658c2d33178477cc2c628097f23.jpeg"
+        },
+        "cookies": {
+            "roundcube_sessid": "4uagkf10sf9bf1mias73j24lm3"
+        }
+    }
+}

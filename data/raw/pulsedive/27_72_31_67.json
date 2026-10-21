@@ -1,0 +1,243 @@
+{
+    "qid": null,
+    "iid": 55304795,
+    "indicator": "27.72.31.67",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-21 06:49:40",
+    "stamp_updated": "2024-12-11 06:28:43",
+    "stamp_seen": "2024-12-11 06:28:43",
+    "stamp_probed": "2024-09-30 11:20:01",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 55306633,
+                "indicator": "http:\/\/27.72.31.67\/"
+            },
+            {
+                "iid": 64126013,
+                "indicator": "https:\/\/27.72.31.67\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-21 18:09:53"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-21 06:49:40"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-21 18:09:53"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-19 22:45:25"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "143",
+            "25",
+            "443",
+            "465",
+            "80",
+            "993"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "IMAP",
+            "IMAPS",
+            "SMTP",
+            "SMTPS"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "city": "Hanoi",
+            "asn": "AS7552",
+            "country": "Vietnam",
+            "region": "Hanoi",
+            "org": "Viettel Group",
+            "address": [
+                "Ha Noi, VietNam",
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City"
+            ],
+            "long": "105.8526",
+            "lat": "21.0292"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VIETEL"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "NDT9-AP"
+            ],
+            "admin-c": [
+                "TVT8-AP",
+                "NTTT1-AP"
+            ],
+            "e-mail": [
+                "soc@viettel.com.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "origin": "AS7552",
+            "address": [
+                "Viettel Network Corporation",
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": [
+                "TVT8-AP",
+                "NDT9-AP"
+            ],
+            "person": [
+                "Tran Van Thanh",
+                "Nguyen Dang Tiep"
+            ],
+            "inetnum": "27.64.0.0 - 27.79.255.255",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "netname": "VIETTEL-VN",
+            "descr": [
+                "No 1, Tran Huu Duc street, My Dinh 2 ward, Nam Tu Liem district, Ha Noi City",
+                "Viettel Group",
+                "VIETTEL-VN"
+            ],
+            "last-modified": [
+                "2017-11-08T09:40:06Z",
+                "2017-11-11T09:40:35Z",
+                "2017-11-11T09:36:50Z",
+                "2018-08-21T09:57:13Z",
+                "2023-02-10T16:46:30Z"
+            ],
+            "phone": [
+                "+84-24-35564944",
+                "+84-24-62989898"
+            ],
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "NTTT1-AP",
+                "TVT8-AP",
+                "Nguyen Dang Tiep",
+                "Tran Van Thanh"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "soc@viettel.com.vn"
+            ],
+            "route": "27.72.0.0\/13",
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2017-11-11 09:40:35",
+                "2018-08-21 09:57:13",
+                "2017-11-11 09:36:50",
+                "2023-02-10 16:46:30"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "nginx",
+            "content-length": "719",
+            "keep-alive": "timeout=20",
+            "++code": "200",
+            "++status": "OK",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "last-modified": "Fri, 12 Jan 2024 05:04:56 GMT",
+            "etag": "\"65a0c878-2cf\"",
+            "++target": "http:\/\/27.72.31.67\/",
+            "++redirect": "https:\/\/27.72.31.67\/",
+            "date": "Fri, 18 Oct 2024 00:07:53 GMT"
+        },
+        "meta": {
+            "charset": "UTF-8",
+            "refresh": "1;url=https:\/\/data.fcbarcelona.pro:5001\/",
+            "++title": "data.fcbarcelona.pro"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R11",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R11",
+            "domain": [
+                "*.fcbarcelona.pro",
+                "fcbarcelona.pro"
+            ],
+            "subject": "\/CN=fcbarcelona.pro",
+            "valid": "2024-10-03 01:38:47",
+            "fingerprint": "2e1f2d8ad52b3e36c223df3914cce6c9833cf7ba7440e2dee8691651012efe4f",
+            "expires": "2025-01-01 01:38:46"
+        },
+        "banners": {
+            "143": "* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS LOGINDISABLED UTF8=ACCEPT] Dovecot ready.\n",
+            "25": "220 mail.fcbarcelona.pro ESMTP Postfix\n",
+            "993": "\u0005\u0004\u0000\u0000",
+            "465": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/847566084342d59e63e533687b5dfd79.jpeg"
+        }
+    }
+}

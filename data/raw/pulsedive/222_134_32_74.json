@@ -1,0 +1,130 @@
+{
+    "qid": null,
+    "iid": 47336943,
+    "indicator": "222.134.32.74",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-05-19 03:29:17",
+    "stamp_updated": "2024-12-11 10:43:34",
+    "stamp_seen": "2024-06-27 19:30:04",
+    "stamp_probed": "2024-06-27 19:30:04",
+    "stamp_retired": "2024-09-29 04:59:27",
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-13 20:34:20"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-05-19 03:29:17"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-13 20:34:20"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-02-27 09:43:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "country": "CN",
+            "mnt-by": [
+                "MAINT-CNCGROUP-RR",
+                "MAINT-CNCGROUP-SD"
+            ],
+            "origin": "AS4837",
+            "descr": [
+                "CNC Group CHINA169 Shandong Province Network",
+                "Binzhou paoxiaodushi Internet Bar"
+            ],
+            "++phone": "+86-531-6052611",
+            "address": "No.77 Jingsan Road,Jinan,Shandong,P.R.China",
+            "admin-c": "DS95-AP",
+            "e-mail": "ip@sdinfo.net",
+            "fax-no": "+86-531-6052414",
+            "nic-hdl": "DS95-AP",
+            "person": "Data Communication Bureau Shandong",
+            "phone": "+86-531-6052611",
+            "tech-c": "DS95-AP",
+            "++updated": "2008-09-04 00:00:00",
+            "route": "222.132.0.0\/14",
+            "last-modified": [
+                "2008-09-04T07:54:44Z",
+                "2008-09-04T07:29:49Z",
+                "2008-09-04T07:21:30Z"
+            ],
+            "++email": "ip@sdinfo.net",
+            "++registrant": "Data Communication Bureau Shandong",
+            "inetnum": "222.134.32.72 - 222.134.32.75",
+            "netname": "BZPXDS-IBAR"
+        },
+        "geo": {
+            "country": "China",
+            "countrycode": "CN",
+            "asn": "AS4837",
+            "isp": "CHINA UNICOM China169 Backbone",
+            "org": "CHINA UNICOM China169 Backbone",
+            "region": "Shandong",
+            "city": "Binzhou",
+            "address": "No.77 Jingsan Road,Jinan,Shandong,P.R.China",
+            "lat": "37.3616",
+            "long": "118.0215"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.0\n"
+        }
+    }
+}

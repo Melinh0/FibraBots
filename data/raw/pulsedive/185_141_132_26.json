@@ -1,0 +1,185 @@
+{
+    "qid": null,
+    "iid": 61076596,
+    "indicator": "185.141.132.26",
+    "type": "ip",
+    "risk": "critical",
+    "risk_recommended": "critical",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-11 17:19:52",
+    "stamp_updated": "2024-12-15 07:35:10",
+    "stamp_seen": "2024-12-15 07:35:10",
+    "stamp_probed": "2024-08-28 22:50:13",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 41,
+            "description": "suspicious SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 61076607,
+                "indicator": "https:\/\/185.141.132.26\/"
+            },
+            {
+                "iid": 61076608,
+                "indicator": "http:\/\/185.141.132.26\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-11 17:19:52"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-22 06:00:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Django",
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "IR",
+            "mnt-by": [
+                "MNT-SHAHRAD",
+                "MNT-AMIRSABET"
+            ],
+            "++phone": "+989121221710",
+            "address": "Ferdos Blvd. Tehran - Iran",
+            "admin-c": "SY88-RIPE",
+            "fax-no": "+982144083160",
+            "nic-hdl": "SY88-RIPE",
+            "person": "Shahrad Yousefizadeh",
+            "phone": "+989121221710",
+            "tech-c": "SY88-RIPE",
+            "created": [
+                "2005-03-06T17:50:36Z",
+                "2019-12-21T06:55:30Z",
+                "2020-10-06T18:41:08Z"
+            ],
+            "last-modified": [
+                "2018-11-10T07:28:05Z",
+                "2020-09-09T11:18:38Z",
+                "2020-10-06T18:41:08Z"
+            ],
+            "++registrant": [
+                "SY88-RIPE",
+                "Shahrad Yousefizadeh"
+            ],
+            "netname": "Sefroyek-IDC",
+            "origin": "AS48715",
+            "descr": [
+                "Sefroyek Pardaz Engineering Company",
+                "Unit 2 Number 8 Arian Building Paniz Alley Vafa Azar st, Tehran, Iran, 1481853973",
+                "SERVCO License 100-95-20",
+                "Tel: +982148650",
+                "Fax: +982148658201"
+            ],
+            "inetnum": "185.141.132.0 - 185.141.133.255",
+            "++registered": [
+                "2005-03-06 17:50:36",
+                "2019-12-21 06:55:30",
+                "2020-10-06 18:41:08"
+            ],
+            "++updated": [
+                "2018-11-10 07:28:05",
+                "2020-09-09 11:18:38",
+                "2020-10-06 18:41:08"
+            ],
+            "route": "185.141.132.0\/24"
+        },
+        "geo": {
+            "countrycode": "IR",
+            "city": "Tehran",
+            "region": "Tehran",
+            "asn": "AS48715",
+            "org": "Sefroyek Pardaz Engineering PJSC",
+            "long": "51.4158",
+            "lat": "35.6824",
+            "country": "Iran"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "568",
+            "++code": "502",
+            "++status": "Bad Gateway",
+            "connection": "keep-alive",
+            "server": "nginx\/1.18.0 (Ubuntu)",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/185.141.132.26\/",
+            "date": "Tue, 22 Oct 2024 05:27:20 GMT"
+        },
+        "ssl": {
+            "issuer": "\/C=AU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "subject": "\/C=AU\/ST=Some-State\/O=Internet Widgits Pty Ltd",
+            "version": "v3",
+            "expires": "2023-11-09 10:00:43",
+            "valid": "2022-11-09 10:00:43",
+            "++subject": "Internet Widgits Pty Ltd",
+            "fingerprint": "097bcb2a99137c07b985bebd5197c5fc67e83cc11022423459efedfe28a71af2"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/c20fa09307c6b5455a362b440b51d3bb.jpeg"
+        },
+        "cookies": {
+            "csrftoken": "t7Ml2KgR0H3m1putQLpUBsJfhjsnZyOZ"
+        }
+    }
+}

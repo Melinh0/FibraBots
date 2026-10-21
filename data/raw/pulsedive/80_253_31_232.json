@@ -1,0 +1,173 @@
+{
+    "qid": null,
+    "iid": 27742463,
+    "indicator": "80.253.31.232",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2021-08-17 06:54:39",
+    "stamp_updated": "2024-12-16 17:56:12",
+    "stamp_seen": "2024-12-16 17:56:12",
+    "stamp_probed": "2024-09-07 08:23:18",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2021-08-19 15:31:54"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2021-08-17 06:54:39"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-11 14:04:18"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2021-10-20 02:50:39"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2021-08-19 15:31:54"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2021-08-17 22:46:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "mnt-by": [
+                "RIPE-NCC-LOCKED-MNT",
+                "MNT-SETEL"
+            ],
+            "last-modified": [
+                "2005-12-23T11:30:17Z",
+                "2016-04-06T23:19:39Z",
+                "2020-06-03T10:22:05Z",
+                "2009-10-20T08:36:19Z"
+            ],
+            "route": "80.253.16.0\/20",
+            "admin-c": [
+                "IV444-RIPE",
+                "PA2793-RIPE"
+            ],
+            "tech-c": [
+                "IV444-RIPE",
+                "PA2793-RIPE"
+            ],
+            "address": [
+                "Russia, Moscow, Avtomobilniy proezd 4",
+                "Russia, Moscow, Noviy Arbat 21"
+            ],
+            "netname": "SETEL-NET",
+            "origin": "AS39153",
+            "descr": [
+                "SETEL Autonomous System",
+                "LLC SETEL"
+            ],
+            "nic-hdl": [
+                "PA2793-RIPE",
+                "IV444-RIPE"
+            ],
+            "person": [
+                "Prokopov Andrey",
+                "Ivanov Vladimir"
+            ],
+            "phone": [
+                "+7 495 7274244",
+                "+7 495 3630955"
+            ],
+            "created": [
+                "2005-12-23T11:30:17Z",
+                "2005-11-24T13:40:16Z",
+                "2005-11-24T13:25:30Z",
+                "2008-12-09T12:56:12Z"
+            ],
+            "++registrant": [
+                "PA2793-RIPE",
+                "IV444-RIPE",
+                "Ivanov Vladimir",
+                "Prokopov Andrey"
+            ],
+            "country": "ru",
+            "inetnum": "80.253.31.0 - 80.253.31.255",
+            "++updated": [
+                "2016-04-06 23:19:39",
+                "2020-06-03 10:22:05",
+                "2005-12-23 11:30:17"
+            ],
+            "++registered": [
+                "2008-12-09 12:56:12",
+                "2005-11-24 13:40:16",
+                "2005-11-24 13:25:30",
+                "2005-12-23 11:30:17"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "lat": "55.7386",
+            "long": "37.6068",
+            "asn": "AS39153",
+            "org": "LLC SETEL",
+            "country": "Russia"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5\n"
+        }
+    }
+}

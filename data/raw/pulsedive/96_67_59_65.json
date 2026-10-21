@@ -1,0 +1,214 @@
+{
+    "qid": null,
+    "iid": 41490219,
+    "indicator": "96.67.59.65",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-11-21 22:56:24",
+    "stamp_updated": "2024-12-10 02:33:21",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 21:11:58",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 41491612,
+                "indicator": "http:\/\/96.67.59.65\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2022-12-06 22:22:26"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-11-21 22:56:24"
+        },
+        {
+            "fid": 14,
+            "name": "Brute Force Blocker",
+            "category": "general",
+            "organization": "Daniel Gerzo",
+            "pricing": "free",
+            "stamp_linked": "2022-12-15 06:33:05"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2022-12-06 22:22:26"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-12-09 12:30:23"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "UNIX"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": [
+                "Direct Allocation",
+                "Reallocated"
+            ],
+            "stateprov": "NJ",
+            "++email": "CNIPEO-Ip-registration@cable.comcast.com",
+            "++registrant": "Comcast Cable Communications, LLC",
+            "address": "1800 Bishops Gate Blvd",
+            "city": "Mt Laurel",
+            "orgabuseemail": "abuse@comcast.net",
+            "orgabusehandle": "NAPO-ARIN",
+            "orgabusename": "Network Abuse and Policy Observance",
+            "orgabusephone": "+1-888-565-4329",
+            "organization": "Comcast Cable Communications, LLC (CCCS)",
+            "orgid": "CCCS",
+            "orgname": "Comcast Cable Communications, LLC",
+            "orgtechemail": "CNIPEO-Ip-registration@cable.comcast.com",
+            "orgtechhandle": "IC161-ARIN",
+            "orgtechname": "Comcast Cable Communications Inc",
+            "postalcode": "08054",
+            "netname": [
+                "CABLE-1",
+                "BOSTON-CCCS-44"
+            ],
+            "originas": "AS7922",
+            "++registered": "2016-11-29 00:00:00",
+            "parent": [
+                "NET96 (NET-96-0-0-0-0)",
+                "CABLE-1 (NET-96-64-0-0-1)"
+            ],
+            "nethandle": [
+                "NET-96-64-0-0-1",
+                "NET-96-67-0-0-1"
+            ],
+            "netrange": [
+                "96.64.0.0 - 96.124.255.255",
+                "96.67.0.0 - 96.67.63.255"
+            ],
+            "cidr": [
+                "96.120.0.0\/14, 96.112.0.0\/13, 96.64.0.0\/11, 96.96.0.0\/12, 96.124.0.0\/16",
+                "96.67.0.0\/18"
+            ],
+            "updated": [
+                "2016-11-29",
+                "2020-11-18",
+                "2021-01-25"
+            ],
+            "regdate": [
+                "2016-11-29",
+                "2008-02-21",
+                "2001-09-18"
+            ],
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/IC161-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/CCCS",
+                "https:\/\/rdap.arin.net\/registry\/ip\/96.64.0.0",
+                "https:\/\/rdap.arin.net\/registry\/ip\/96.67.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/NAPO-ARIN",
+            "orgroutingname": "Routing",
+            "orgroutingref": "https:\/\/rdap.arin.net\/registry\/entity\/ROUTI25-ARIN",
+            "orgroutinghandle": "ROUTI25-ARIN",
+            "orgroutingemail": "routing@comcast.com",
+            "++updated": "2021-01-25 00:00:00",
+            "++abuse": "NAPO-ARIN",
+            "++phone": "+1-856-792-2300",
+            "orgtechphone": "+1-856-792-2300",
+            "orgroutingphone": "+1-856-792-2300"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "region": "Massachusetts",
+            "asn": "AS7922",
+            "city": "Brookline",
+            "lat": "42.3399",
+            "long": "-71.1245",
+            "org": "COMCAST-7922"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "connection": "Keep-Alive",
+            "keep-alive": "timeout=5, max=100",
+            "content-length": "211",
+            "server": "Apache\/2.4.16 (Unix)",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 01 Oct 2015 17:12:10 GMT",
+            "etag": "\"d3-5210e25bdae80\"",
+            "++target": "http:\/\/96.67.59.65\/",
+            "date": "Mon, 07 Oct 2024 21:31:18 GMT"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2\n"
+        },
+        "meta": {
+            "++title": "Index"
+        },
+        "dns": {
+            "ptr": "96-67-59-65-static.hfc.comcastbusiness.net"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/91d0090a32725e1b47bd028f8f5aea59.jpeg"
+        }
+    }
+}

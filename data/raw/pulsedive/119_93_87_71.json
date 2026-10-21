@@ -1,0 +1,266 @@
+{
+    "qid": null,
+    "iid": 34798361,
+    "indicator": "119.93.87.71",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2022-05-10 04:16:55",
+    "stamp_updated": "2024-12-15 11:28:58",
+    "stamp_seen": "2024-12-11 17:55:20",
+    "stamp_probed": "2024-08-26 00:35:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64196307,
+                "indicator": "https:\/\/119.93.87.71\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-07-08 21:59:11"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2022-05-10 04:16:55"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-07-08 21:59:11"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-05-02 11:32:37"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "RDP",
+            "SSH"
+        ],
+        "technology": [
+            "Bootstrap",
+            "HSTS",
+            "jQuery",
+            "Nginx",
+            "PHP"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ASSIGNED NON-PORTABLE",
+            "address": [
+                "Philippines",
+                "NFCSM-PLDT, 6\/F Innolab Bldg, Boni Ave, Mandaluyong City, MM, Philippnes  1550",
+                "Philippine Long Distance Telephone Company",
+                "6\/F Innolab Building",
+                "Boni Avenue, Mandaluyong City",
+                "6\/F Innolab Building, Boni Avenue, Mandaluyong City"
+            ],
+            "country": [
+                "PH",
+                "ZZ"
+            ],
+            "mnt-by": [
+                "PHIX-NOC-AP",
+                "APNIC-ABUSE"
+            ],
+            "++phone": [
+                "+632-584-1045",
+                "+632-584-0201",
+                "+000000000"
+            ],
+            "abuse-mailbox": "abuse@pldt.net",
+            "admin-c": [
+                "NA185-AP",
+                "NOC36-AP"
+            ],
+            "descr": [
+                "This space has been assigned as STATIC",
+                "SMEMYG2013091945146_CHEMICAL ALLOY CORPORATION"
+            ],
+            "irt": "IRT-PLDT-PH",
+            "mnt-irt": "IRT-PLDT-PH",
+            "tech-c": [
+                "NA185-AP",
+                "NOC36-AP"
+            ],
+            "netname": "SLITES",
+            "e-mail": [
+                "Noc_pldt@pldt.com.ph",
+                "abuse@pldt.net",
+                "ncagir@pldt.com.ph"
+            ],
+            "nic-hdl": [
+                "NOC36-AP",
+                "NA185-AP",
+                "AP713-AP"
+            ],
+            "person": [
+                "PLDT APNIC NOC",
+                "Nilo Agir"
+            ],
+            "phone": [
+                "+632-584-0201",
+                "+632-584-1045",
+                "+000000000"
+            ],
+            "last-modified": [
+                "2017-02-01T02:28:01Z",
+                "2011-04-27T01:43:18Z",
+                "2024-06-07T01:55:28Z",
+                "2024-06-07T01:55:52Z",
+                "2024-07-15T12:24:06Z"
+            ],
+            "++abuse": "abuse@pldt.net",
+            "++registrant": [
+                "NA185-AP",
+                "NOC36-AP",
+                "Nilo Agir",
+                "PLDT APNIC NOC"
+            ],
+            "++email": [
+                "abuse@pldt.net",
+                "ncagir@pldt.com.ph",
+                "noc_pldt@pldt.com.ph"
+            ],
+            "abuse-c": "AP713-AP",
+            "role": "ABUSE PLDTPH",
+            "inetnum": "119.93.87.71 - 119.93.87.71",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-06-07 01:55:28",
+                "2024-06-07 01:55:52",
+                "2017-02-01 02:28:01",
+                "2011-04-27 01:43:18",
+                "2024-07-15 12:24:06"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Philippines",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "PH",
+                "ZZ"
+            ],
+            "asn": "AS9299",
+            "org": "Philippine Long Distance Telephone Company",
+            "city": "Mandaluyong",
+            "region": "Metro Manila",
+            "address": [
+                "Philippines",
+                "Philippine Long Distance Telephone Company",
+                "6\/F Innolab Building",
+                "Boni Avenue, Mandaluyong City",
+                "6\/F Innolab Building, Boni Avenue, Mandaluyong City",
+                "NFCSM-PLDT, 6\/F Innolab Bldg, Boni Ave, Mandaluyong City, MM, Philippnes  1550"
+            ],
+            "long": "121.0367",
+            "lat": "14.5833"
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "nginx",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "strict-transport-security": "max-age=31536000",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "date": "Wed, 02 Oct 2024 05:14:40 GMT",
+            "last-modified": "Wed, 02 Oct 2024 05:14:40 GMT",
+            "set-cookie": "PHPSESSID=c5767f5ae194410dd2402f7ca21cab4a; path=\/; secure; HttpOnly",
+            "++target": "https:\/\/119.93.87.71\/"
+        },
+        "meta": {
+            "viewport": "width=device-width, initial-scale=1",
+            "++title": "pfSense - Login"
+        },
+        "ssl": {
+            "version": "v3",
+            "++subject": "pfSense webConfigurator Self-Signed Certificate",
+            "subject": "\/C=US\/ST=State\/L=Locality\/O=pfSense webConfigurator Self-Signed Certificate\/E=admin@pfSense.localdomain\/CN=pfSense-59dd80b10c77c",
+            "valid": "2017-10-11 02:23:45",
+            "fingerprint": "691311c08984ff7ba9ea2a2899596f961f661fd78254ede6a434084d1bd38b2a",
+            "org": "pfSense-59dd80b10c77c",
+            "expires": "2023-04-03 02:23:45",
+            "issuer": "\/C=US\/ST=State\/L=Locality\/O=pfSense webConfigurator Self-Signed Certificate\/E=admin@pfSense.localdomain\/CN=pfSense-59dd80b10c77c",
+            "domain": "pfSense-59dd80b10c77c"
+        },
+        "dns": {
+            "ptr": "119.93.87.71.static.pldt.net"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_9.4\n",
+            "3389": "\u0005\u0004\u0000\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/5aea4c2f731464161b148eaf620d29fc.jpeg"
+        },
+        "cookies": {
+            "phpsessid": "c5767f5ae194410dd2402f7ca21cab4a"
+        }
+    }
+}

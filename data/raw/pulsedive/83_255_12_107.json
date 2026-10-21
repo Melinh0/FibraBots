@@ -1,0 +1,78 @@
+{
+    "qid": null,
+    "iid": 62978817,
+    "indicator": "83.255.12.107",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-09-05 01:53:30",
+    "stamp_updated": "2024-12-10 10:42:50",
+    "stamp_seen": "2024-11-20 07:31:40",
+    "stamp_probed": "2024-09-05 01:57:44",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-09-05 01:53:30"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22"
+        ],
+        "protocol": [
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": "Sweden",
+            "countrycode": "SE",
+            "asn": "AS1257",
+            "org": "Tele2 SWIPnet",
+            "lat": "58.7037",
+            "long": "15.7617",
+            "region": "\ufffdsterg\ufffdtland County",
+            "city": "Finsp\ufffdng"
+        },
+        "dns": {
+            "ptr": "c83-255-12-107.bredband.tele2.se"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2019.78\n\u0000\u0000\u0001l\u000b\u0014!\u0011\ufffd,'\ufffd\ufffd;\u0006\ufffd\ufffd|&\ufffd#\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u0007ssh-rsa\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0015aes128-ctr,aes256-ctr\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0017hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000b\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd+m\ufffd"
+        }
+    }
+}

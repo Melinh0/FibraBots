@@ -1,0 +1,209 @@
+{
+    "qid": null,
+    "iid": 55051386,
+    "indicator": "151.252.84.225",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-01-11 08:59:42",
+    "stamp_updated": "2024-12-11 10:40:16",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-30 04:10:19",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 60992565,
+                "indicator": "http:\/\/151.252.84.225\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-17 05:00:54"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-01-11 08:59:42"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-17 05:00:54"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-01-27 03:21:58"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "139",
+            "1723",
+            "21",
+            "80",
+            "8080",
+            "8443"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "NETBIOS",
+            "PPTP"
+        ],
+        "technology": [
+            "IIS",
+            "Windows Server"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "country": "RU",
+            "last-modified": [
+                "2012-10-04T05:32:35Z",
+                "2017-10-30T22:41:34Z",
+                "2015-11-17T05:55:44Z",
+                "2022-05-25T08:17:23Z"
+            ],
+            "tech-c": "AR141208-RIPE",
+            "address": [
+                "Russia, 628403",
+                "17 office, 3 Universitetstaya str.",
+                "Tele-plus LLC",
+                "628403, Surgut, Tyumen region, Russia",
+                "Surgut"
+            ],
+            "mnt-by": "TELE-PLUS-MNT",
+            "netname": "Tele-plus",
+            "org": "ORG-TL6-RIPE",
+            "++phone": "+73462555650",
+            "origin": "AS30855",
+            "route": "151.252.64.0\/19",
+            "descr": [
+                "Tele-plus LLC",
+                "For private customer \/32 subnetworks, ipoe,pppoe access via fttb, Fedorovskiy"
+            ],
+            "admin-c": "IS493-RIPE",
+            "nic-hdl": [
+                "IS493-RIPE",
+                "AR141208-RIPE"
+            ],
+            "person": [
+                "Igor Schukin",
+                "Administrators of Tele-Plus LLC"
+            ],
+            "created": [
+                "2012-10-04T05:32:35Z",
+                "2014-12-08T08:31:28Z",
+                "2002-05-15T11:13:14Z",
+                "2015-11-16T10:10:57Z"
+            ],
+            "fax-no": [
+                "+7 (3462) 555000",
+                "+73462555001"
+            ],
+            "phone": [
+                "+73462555650",
+                "+7 (3462) 555058"
+            ],
+            "++registrant": [
+                "IS493-RIPE",
+                "Administrators of Tele-Plus LLC",
+                "Igor Schukin"
+            ],
+            "inetnum": "151.252.84.0 - 151.252.84.255",
+            "++registered": [
+                "2002-05-15 11:13:14",
+                "2014-12-08 08:31:28",
+                "2012-10-04 05:32:35",
+                "2015-11-16 10:10:57"
+            ],
+            "++updated": [
+                "2022-05-25 08:17:23",
+                "2017-10-30 22:41:34",
+                "2012-10-04 05:32:35"
+            ]
+        },
+        "geo": {
+            "countrycode": "RU",
+            "city": "Surgut",
+            "asn": "AS30855",
+            "org": "Tele-plus LLC",
+            "region": "Khanty-Mansia",
+            "lat": "61.2431",
+            "long": "73.4139",
+            "country": "Russia"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "accept-ranges": "bytes",
+            "server": "Microsoft-IIS\/10.0",
+            "content-length": "703",
+            "++code": "200",
+            "++status": "OK",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 20 Jun 2024 11:19:56 GMT",
+            "etag": "\"3437e7c73c3da1:0\"",
+            "++target": "http:\/\/151.252.84.225\/",
+            "date": "Sat, 12 Oct 2024 13:45:15 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=iso-8859-1",
+            "++title": "IIS Windows Server"
+        },
+        "banners": {
+            "21": "220 ServerOlimp FTP server ready.\n",
+            "1723": "\u0005\u0004\u0000\u0000",
+            "139": "\u0005\u0004\u0000\u0000"
+        },
+        "dns": {
+            "ptr": "151.252.84.225.ip.tele-plus.ru"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/1a51749b9accee03df7bd95ef105bd70.jpeg"
+        }
+    }
+}

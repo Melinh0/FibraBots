@@ -1,0 +1,208 @@
+{
+    "qid": null,
+    "iid": 53186780,
+    "indicator": "65.20.172.194",
+    "type": "ip",
+    "risk": "high",
+    "risk_recommended": "high",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-11-20 08:27:42",
+    "stamp_updated": "2024-12-14 09:51:43",
+    "stamp_seen": "2024-12-14 09:51:43",
+    "stamp_probed": "2024-08-24 20:13:47",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 1,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 66,
+            "description": "self-signed SSL certificate",
+            "risk": "high"
+        },
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 53187256,
+                "indicator": "https:\/\/65.20.172.194\/"
+            },
+            {
+                "iid": 53187258,
+                "indicator": "https:\/\/65.20.172.194\/login.cgi"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-04 07:34:00"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-11-20 08:27:42"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-04 07:34:01"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-13 17:55:43"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "jQuery",
+            "jQuery UI",
+            "lighttpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "RIPE",
+            "status": "ALLOCATED PA",
+            "country": [
+                "AE",
+                "IQ"
+            ],
+            "mnt-by": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-EARTH",
+                "Qussay",
+                "ae-earthlink-dmcc-1-mnt",
+                "iq-hulumtele-1-mnt",
+                "MNT-HULUM"
+            ],
+            "origin": [
+                "AS50710",
+                "AS203214"
+            ],
+            "address": [
+                "Dubai",
+                "UNITED ARAB EMIRATES",
+                "JLT, Cluster W, W2 Althanyah 5, Tiffany tower,office 1502",
+                "00971"
+            ],
+            "last-modified": [
+                "2020-12-16T13:20:13Z",
+                "2020-12-27T08:32:04Z",
+                "2023-05-08T08:00:08Z",
+                "2017-12-12T10:53:55Z",
+                "2023-12-23T11:50:14Z"
+            ],
+            "inetnum": "65.20.128.0 - 65.20.255.255",
+            "created": [
+                "2020-12-27T08:32:04Z",
+                "2023-05-08T08:00:08Z",
+                "2017-12-12T10:53:55Z",
+                "2017-12-12T10:53:54Z",
+                "2023-12-23T11:50:14Z"
+            ],
+            "route": "65.20.168.0\/21",
+            "++updated": "2023-12-23 00:00:00",
+            "++registered": "2023-12-23 00:00:00",
+            "++phone": "+971 45546487",
+            "phone": "+971 45546487",
+            "netname": "AE-EARTHLINK-DMCC-20010129",
+            "nic-hdl": "QA156-RIPE",
+            "person": "Qussay Alkhateeb",
+            "tech-c": "QA156-RIPE",
+            "admin-c": "QA156-RIPE",
+            "org": "ORG-ETET1-RIPE",
+            "mnt-ref": "ae-earthlink-dmcc-1-mnt",
+            "abuse-c": "AR44189-RIPE",
+            "organisation": "ORG-ETET1-RIPE",
+            "++abuse": "AR44189-RIPE",
+            "descr": "Hulum",
+            "org-name": "Earthlink Telecommunications Equipment Trading & Services DMCC",
+            "++registrant": "QA156-RIPE"
+        },
+        "geo": {
+            "country": "Iraq",
+            "countrycode": "IQ",
+            "asn": "AS203214",
+            "org": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+            "region": "Basra",
+            "city": "Basra",
+            "long": "47.7847",
+            "lat": "30.5101"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "server": "lighttpd\/1.4.39",
+            "++code": "200",
+            "transfer-encoding": "chunked",
+            "++status": "OK",
+            "set-cookie": "ui_language=en_US; Path=\/; Expires=Tuesday, 1-Jan-38 00:00:00 GMT; HttpOnly",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/65.20.172.194\/",
+            "++redirect": "https:\/\/65.20.172.194\/login.cgi?uri=\/",
+            "date": "Thu, 24 May 2018 03:27:24 GMT"
+        },
+        "meta": {
+            "content-type": "text\/html; charset=utf-8",
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "++title": "Login",
+            "expires": "0"
+        },
+        "ssl": {
+            "version": "v3",
+            "valid": "2019-07-03 08:17:00",
+            "expires": "2024-07-03 08:17:00",
+            "subject": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-60:22:32:D8:B9:3C\/E=support@ubnt.com",
+            "org": "UBNT-60:22:32:D8:B9:3C",
+            "issuer": "\/C=US\/ST=CA\/L=San Jose\/O=Ubiquiti Networks Inc.\/OU=Technical Support\/CN=UBNT-60:22:32:D8:B9:3C\/E=support@ubnt.com",
+            "++subject": "Ubiquiti Networks Inc.",
+            "fingerprint": "e3dd1d70846f48ac94431fcadd18d6e6afc10057d022b0c6975aee1434f207fe"
+        },
+        "cookies": {
+            "ui_language": "en_US",
+            "airos_602232d8b93c": "48795e8b217c4aed7f0148b6f1a4179e"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/ff76fc52834cbda7e05ee724aa71aa15.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2016.74\n\u0000\u0000\u0002,\u0006\u0014_\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffdO'j;\ufffd\ufffdG\u0000\u0000\u0000\ufffdcurve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000gaes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0004none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000O\ufffd\ufffdm4\ufffd"
+        }
+    }
+}

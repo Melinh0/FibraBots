@@ -1,0 +1,151 @@
+{
+    "qid": null,
+    "iid": 46011005,
+    "indicator": "173.249.36.50",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": "No recent activity",
+    "stamp_added": "2023-03-24 00:37:21",
+    "stamp_updated": "2023-08-08 00:34:56",
+    "stamp_seen": "2023-05-05 03:05:56",
+    "stamp_probed": "2023-05-05 03:05:56",
+    "stamp_retired": "2023-08-08 00:34:56",
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-03-24 00:37:21"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "3389"
+        ],
+        "protocol": [
+            "RDP",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "org-type": "LIR",
+            "source": "RIPE",
+            "address": [
+                "GERMANY",
+                "81549 Muenchen",
+                "Aschauer Str. 32a",
+                "Aschauer Strasse 32a",
+                "81549",
+                "Munchen",
+                "Contabo GmbH"
+            ],
+            "country": "DE",
+            "mnt-ref": [
+                "RIPE-NCC-HM-MNT",
+                "MNT-CONTABO",
+                "MNT-OCIRIS"
+            ],
+            "status": "ASSIGNED PA",
+            "++phone": [
+                "+498921268372",
+                "+49 89 21268372"
+            ],
+            "abuse-c": "MH12453-RIPE",
+            "admin-c": "MH7476-RIPE",
+            "descr": [
+                "CONTABO",
+                "Contabo GmbH"
+            ],
+            "fax-no": [
+                "+49 89 21665862",
+                "+498921665862"
+            ],
+            "mnt-by": [
+                "MNT-CONTABO",
+                "RIPE-NCC-HM-MNT",
+                "MNT-GIGA-HOSTING"
+            ],
+            "nic-hdl": "MH7476-RIPE",
+            "org": "ORG-GG22-RIPE",
+            "org-name": "Contabo GmbH",
+            "organisation": "ORG-GG22-RIPE",
+            "origin": "AS51167",
+            "phone": [
+                "+49 89 21268372",
+                "+498921268372"
+            ],
+            "tech-c": "MH7476-RIPE",
+            "netname": "CONTABO",
+            "last-modified": [
+                "2018-02-01T09:50:21Z",
+                "2018-08-22T07:28:02Z",
+                "2020-04-24T16:09:30Z",
+                "2021-09-14T10:49:04Z"
+            ],
+            "route": "173.249.36.0\/23",
+            "created": [
+                "2018-02-01T09:50:21Z",
+                "2009-12-09T13:41:08Z",
+                "2010-01-04T10:41:37Z",
+                "2018-08-22T07:28:02Z"
+            ],
+            "++registered": "2018-08-22 00:00:00",
+            "++abuse": "MH12453-RIPE",
+            "++registrant": "MH7476-RIPE",
+            "inetnum": "173.249.32.0 - 173.249.63.255",
+            "person": "Wilhelm Zwalina",
+            "++updated": "2021-09-14 00:00:00"
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "asn": "AS51167",
+            "isp": "Contabo GmbH",
+            "org": "Contabo GmbH",
+            "region": "Bavaria",
+            "zip": "90475",
+            "city": "Nuremberg",
+            "long": "11.1617",
+            "lat": "49.405"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\n"
+        },
+        "dns": {
+            "ptr": "vmi1182060.contaboserver.net"
+        }
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "qid": null,
+    "iid": 8182438,
+    "indicator": "185.220.100.242",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2020-02-11 02:10:16",
+    "stamp_updated": "2024-12-11 17:53:28",
+    "stamp_seen": "2024-12-11 17:53:28",
+    "stamp_probed": "2024-09-03 19:47:30",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 7,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [
+        {
+            "tid": 431,
+            "name": "CryptoMining",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2020-10-15 01:04:33"
+        },
+        {
+            "tid": 3,
+            "name": "Tor Proxy",
+            "category": "tool",
+            "risk": "medium",
+            "stamp_linked": "2020-09-21 18:05:38"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2020-03-24 07:02:02"
+        },
+        {
+            "fid": 17,
+            "name": "Darklist",
+            "category": "general",
+            "organization": "Darklist",
+            "pricing": "free",
+            "stamp_linked": "2020-06-26 23:25:33"
+        },
+        {
+            "fid": 3,
+            "name": "Tor IPs",
+            "category": "proxy",
+            "organization": "dan.me.uk",
+            "pricing": "free",
+            "stamp_linked": "2020-09-21 18:05:38"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2022-03-11 15:02:15"
+        },
+        {
+            "fid": 60,
+            "name": "ZeroDot1's Bad IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-06-17 07:27:28"
+        },
+        {
+            "fid": 65,
+            "name": "Zerodot1's Mining IPs Feed",
+            "category": "abuse",
+            "organization": "ZeroDot1",
+            "pricing": null,
+            "stamp_linked": "2020-10-15 01:04:33"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "SSH"
+        ],
+        "technology": [
+            "mini_httpd"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "country": "DE",
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "address": [
+                "DE",
+                "F3 Netze e.V.",
+                "Am Hafen 6",
+                "97437 Hassfurt",
+                "Germany"
+            ],
+            "last-modified": [
+                "2018-02-18T18:17:41Z",
+                "2021-03-22T21:10:04Z",
+                "2019-10-04T14:16:13Z",
+                "2022-12-01T17:12:28Z"
+            ],
+            "tech-c": [
+                "TN3638-RIPE",
+                "CR8822-RIPE",
+                "FN2977-RIPE",
+                "FB15623-RIPE",
+                "TK7920-RIPE"
+            ],
+            "mnt-by": "F3NETZE",
+            "netname": "TOR-EXIT",
+            "origin": "AS205100",
+            "route": "185.220.100.0\/24",
+            "descr": "Network for Tor-Exit traffic.",
+            "admin-c": [
+                "TN3638-RIPE",
+                "CR8822-RIPE",
+                "FN2977-RIPE",
+                "FB15623-RIPE",
+                "TK7920-RIPE"
+            ],
+            "created": [
+                "2018-02-18T18:17:41Z",
+                "2017-11-06T17:07:57Z",
+                "2020-01-15T18:58:08Z",
+                "2018-03-26T10:57:36Z"
+            ],
+            "mnt-ref": [
+                "ZWIEBELFREUNDE",
+                "F3NETZE"
+            ],
+            "++registrant": [
+                "TN3638-RIPE",
+                "CR8822-RIPE",
+                "FN2977-RIPE",
+                "FB15623-RIPE",
+                "TK7920-RIPE"
+            ],
+            "abuse-c": "AA32807-RIPE",
+            "organisation": "ORG-FNE6-RIPE",
+            "org": "ORG-FNE6-RIPE",
+            "org-name": "F3 Netze e.V.",
+            "inetnum": "185.220.100.240 - 185.220.100.255",
+            "nic-hdl": "FN2977-RIPE",
+            "role": "F3Netze NOC",
+            "++registered": [
+                "2020-01-15 18:58:08",
+                "2017-11-06 17:07:57",
+                "2018-03-26 10:57:36",
+                "2018-02-18 18:17:41"
+            ],
+            "++updated": [
+                "2022-12-01 17:12:28",
+                "2019-10-04 14:16:13",
+                "2018-02-18 18:17:41"
+            ]
+        },
+        "geo": {
+            "country": "Germany",
+            "countrycode": "DE",
+            "lat": "51.2993",
+            "asn": "AS205100",
+            "org": "F3 Netze e.V.",
+            "long": "9.491"
+        },
+        "http": {
+            "connection": "close",
+            "content-type": "text\/html; charset=iso-8859-1",
+            "content-length": "6454",
+            "++code": "200",
+            "server": "mini_httpd\/1.30 26Oct2018",
+            "++status": "Ok",
+            "++content-type": "text\/html",
+            "last-modified": "Thu, 18 Mar 2021 15:26:27 GMT",
+            "date": "Wed, 16 Jun 2021 01:41:59 GMT"
+        },
+        "meta": {
+            "cache-control": "no-cache",
+            "pragma": "no-cache",
+            "content-type": "text\/html; charset=iso-8859-15",
+            "refresh": "300",
+            "command-line": "\/usr\/bin\/indexmaker --output=\/var\/www\/mrtg\/index.html --title=tor3 --sort=name --enumerat \/etc\/mrtg\/traffic.cfg \/etc\/mrtg\/cpu.cfg",
+            "expires": "Thu, 18 Mar 2021 15:31:32 GMT"
+        },
+        "dns": {
+            "ptr": "tor-exit-15.zbau.f3netze.de"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/881cdf87925d3fda377a7d9c501adb1c.jpeg"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3\n"
+        }
+    }
+}

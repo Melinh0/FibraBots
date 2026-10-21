@@ -1,0 +1,163 @@
+{
+    "qid": null,
+    "iid": 61520585,
+    "indicator": "111.220.135.93",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-07-23 19:40:09",
+    "stamp_updated": "2024-12-16 17:04:54",
+    "stamp_seen": "2024-12-16 17:04:54",
+    "stamp_probed": "2024-09-29 23:11:06",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": []
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-07-23 19:40:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "23"
+        ],
+        "protocol": [
+            "SSH",
+            "Telnet"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "country": [
+                "AU",
+                "ZZ"
+            ],
+            "status": "ALLOCATED NON-PORTABLE",
+            "e-mail": [
+                "hostmaster@vocus.com.au",
+                "hostmaster@vocus.net"
+            ],
+            "mnt-by": [
+                "MAINT-AU-VOCUS",
+                "MAINT-VOCUS-AU",
+                "APNIC-ABUSE"
+            ],
+            "nic-hdl": [
+                "VPL1-AP",
+                "AV428-AP"
+            ],
+            "person": "VOCUS PTY LTD",
+            "phone": [
+                "+61 2 8999 8999",
+                "+000000000"
+            ],
+            "abuse-mailbox": "abuse@vocus.net",
+            "admin-c": "VPL1-AP",
+            "irt": "IRT-VOCUS-AU",
+            "mnt-irt": "IRT-VOCUS-AU",
+            "tech-c": [
+                "VPL1-AP",
+                "VA153-AP"
+            ],
+            "address": [
+                "Melbourne, VIC 3000",
+                "Level 10, 452 Flinders Street",
+                "Melbourne VIC AUSTRALIA 3000",
+                "L10, 452 Flinders Street"
+            ],
+            "descr": [
+                "VOCUS PTY LTD",
+                "Vocus Retail"
+            ],
+            "++phone": "+000000000",
+            "++registrant": [
+                "VPL1-AP",
+                "VOCUS PTY LTD"
+            ],
+            "++email": [
+                "hostmaster@vocus.com.au",
+                "abuse@vocus.net",
+                "hostmaster@vocus.net"
+            ],
+            "++abuse": "abuse@vocus.net",
+            "origin": "AS9443",
+            "netname": "VOCUS-RETAIL-AU",
+            "last-modified": [
+                "2020-04-30T05:51:32Z",
+                "2023-02-20T21:25:30Z",
+                "2023-11-03T02:33:52Z",
+                "2024-08-28T22:49:00Z",
+                "2024-08-28T22:49:45Z"
+            ],
+            "route": "111.220.0.0\/16",
+            "inetnum": "111.220.128.0 - 111.220.255.255",
+            "role": "ABUSE VOCUSAU",
+            "abuse-c": "AV428-AP",
+            "geofeed": "https:\/\/nettools.vocus.network\/vocus-geo-feed.csv",
+            "auth": "# Filtered",
+            "++updated": [
+                "2024-08-28 22:49:00",
+                "2024-08-28 22:49:45",
+                "2023-02-20 21:25:30",
+                "2020-04-30 05:51:32"
+            ]
+        },
+        "geo": {
+            "country": [
+                "Australia",
+                "Unknown Region"
+            ],
+            "countrycode": [
+                "AU",
+                "ZZ"
+            ],
+            "region": "New South Wales",
+            "city": "Sydney",
+            "asn": "AS9443",
+            "long": "151.2006",
+            "lat": "-33.8715",
+            "address": [
+                "Melbourne, VIC 3000",
+                "Level 10, 452 Flinders Street",
+                "Melbourne VIC AUSTRALIA 3000",
+                "L10, 452 Flinders Street"
+            ],
+            "org": "Vocus Retail"
+        },
+        "dns": {
+            "ptr": "93.135.220.111.sta.wbroadband.net.au"
+        },
+        "banners": {
+            "22": "SSH-2.0-dropbear_2018.76\n\u0000\u0000\u0001\ufffd\u0007\u0014\ufffd\ufffd3\ufffd\ufffd-(\ufffd{'\u0695\ufffd\u0006\ufffd\ufffd\u0000\u0000\u0000\ufffdcurve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,kexguess2@matt.ucc.asn.au\u0000\u0000\u0000\u000fssh-rsa,ssh-dss\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000=aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,3des-ctr,3des-cbc\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000$hmac-sha1-96,hmac-sha1,hmac-sha2-256\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0015zlib@openssh.com,none\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000O@\u0004=V\ufffd\ufffd"
+        }
+    }
+}

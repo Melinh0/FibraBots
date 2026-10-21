@@ -1,0 +1,216 @@
+{
+    "qid": null,
+    "iid": 46811715,
+    "indicator": "34.85.163.94",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-04-28 02:30:51",
+    "stamp_updated": "2024-12-16 03:23:50",
+    "stamp_seen": "2024-12-14 00:00:00",
+    "stamp_probed": "2024-09-30 11:34:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 46811951,
+                "indicator": "http:\/\/34.85.163.94\/"
+            },
+            {
+                "iid": 64126337,
+                "indicator": "https:\/\/34.85.163.94\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2023-05-01 05:55:57"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-04-28 02:30:51"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2023-05-01 05:55:57"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-04-29 11:27:03"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Nginx",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "nettype": "Direct Allocation",
+            "stateprov": "CA",
+            "++registered": [
+                "2006-09-29 00:00:00",
+                "2018-09-28 00:00:00"
+            ],
+            "parent": "NET34 (NET-34-0-0-0-0)",
+            "++email": "arin-contact@google.com",
+            "++phone": "+1-650-253-0000",
+            "address": "1600 Amphitheatre Parkway",
+            "city": "Mountain View",
+            "orgabusephone": "+1-650-253-0000",
+            "orgtechemail": "arin-contact@google.com",
+            "orgtechhandle": "ZG39-ARIN",
+            "orgtechphone": "+1-650-253-0000",
+            "postalcode": "94043",
+            "++abuse": "google-cloud-compliance@google.com",
+            "orgabuseemail": "google-cloud-compliance@google.com",
+            "orgabusehandle": "GCABU-ARIN",
+            "orgabusename": "GC Abuse",
+            "orgid": "GOOGL-2",
+            "orgnocemail": "google-cloud-compliance@google.com",
+            "orgnochandle": "GCABU-ARIN",
+            "orgnocname": "GC Abuse",
+            "orgnocphone": "+1-650-253-0000",
+            "regdate": [
+                "2006-09-29",
+                "2018-09-28"
+            ],
+            "netname": "GOOGL-2",
+            "++registrant": "Google LLC",
+            "orgname": "Google LLC",
+            "organization": "Google LLC (GOOGL-2)",
+            "orgtechname": "Google LLC",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/ZG39-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/entity\/GOOGL-2",
+                "https:\/\/rdap.arin.net\/registry\/ip\/34.64.0.0"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "orgnocref": "https:\/\/rdap.arin.net\/registry\/entity\/GCABU-ARIN",
+            "updated": [
+                "2018-09-28",
+                "2019-11-01"
+            ],
+            "nethandle": "NET-34-64-0-0-1",
+            "cidr": "34.64.0.0\/10",
+            "netrange": "34.64.0.0 - 34.127.255.255",
+            "++updated": "2019-11-01 00:00:00"
+        },
+        "geo": {
+            "city": [
+                "Mountain View",
+                "Washington"
+            ],
+            "country": "United States",
+            "countrycode": "US",
+            "zip": "94043",
+            "region": [
+                "CA",
+                "District of Columbia"
+            ],
+            "address": "1600 Amphitheatre Parkway",
+            "org": [
+                "Google LLC (GOOGL-2)",
+                "GOOGLE-CLOUD-PLATFORM"
+            ],
+            "asn": "AS396982",
+            "long": "-77.0365",
+            "lat": "38.894"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-encoding": "gzip",
+            "server": "nginx\/1.14.2",
+            "transfer-encoding": "chunked",
+            "++code": "404",
+            "++status": "Not Found",
+            "connection": "keep-alive",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/34.85.163.94\/",
+            "date": "Tue, 22 Oct 2024 05:39:31 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "valid": "2023-04-24 00:00:00",
+            "expires": "2024-05-24 23:59:59",
+            "domain": [
+                "*.lsidentalbilling.com",
+                "lsidentalbilling.com"
+            ],
+            "fingerprint": "062f56b7e3d2f406002f600b5e9d0321d8f14b21d06e24fad0b3e81d186bb389",
+            "subject": "\/CN=*.lsidentalbilling.com"
+        },
+        "meta": {
+            "++title": "404 Not Found"
+        },
+        "banners": {
+            "21": "220 ProFTPD Server (Debian) [::ffff:10.150.0.3]\n",
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u4\n"
+        },
+        "dns": {
+            "ptr": "94.163.85.34.bc.googleusercontent.com"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/08b3804bd83a857a223d5d6dc54a1ca0.jpeg"
+        }
+    }
+}

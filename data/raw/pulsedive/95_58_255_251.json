@@ -1,0 +1,220 @@
+{
+    "qid": null,
+    "iid": 58652540,
+    "indicator": "95.58.255.251",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-04-23 18:36:26",
+    "stamp_updated": "2024-12-15 11:37:54",
+    "stamp_seen": "2024-12-15 08:00:17",
+    "stamp_probed": "2024-08-29 01:03:43",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 58652575,
+                "indicator": "http:\/\/95.58.255.251\/admin\/config.php"
+            },
+            {
+                "iid": 64132918,
+                "indicator": "https:\/\/95.58.255.251\/admin\/config.php"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-27 20:46:54"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-04-23 18:36:26"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-27 20:46:54"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-05-06 04:11:09"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SMTP",
+            "SSH"
+        ],
+        "technology": [
+            "Apache",
+            "Apache HTTP Server",
+            "Bootstrap",
+            "jQuery",
+            "jQuery Migrate",
+            "jQuery UI",
+            "Let's Encrypt",
+            "Modernizr",
+            "Moment.js",
+            "PHP",
+            "Ubuntu"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "RIPE",
+            "status": "ASSIGNED PA",
+            "country": "KZ",
+            "descr": [
+                "Kazakhtelecom Data Network Administration",
+                "Centr po diagnostike i remontu mashin i oborudovaniya"
+            ],
+            "mnt-by": "KNIC-MNT",
+            "origin": "AS9198",
+            "address": [
+                "KZ",
+                "Taraz,st Makhambet batyra, 5\/D, Republic of Kazakhstan"
+            ],
+            "netname": "Centr",
+            "last-modified": [
+                "2009-04-02T11:07:23Z",
+                "2012-09-14T02:49:54Z"
+            ],
+            "created": [
+                "2009-04-02T11:07:23Z",
+                "2012-09-14T02:49:54Z"
+            ],
+            "admin-c": "DN2604-RIPE",
+            "++updated": [
+                "2012-09-14 02:49:54",
+                "2009-04-02 11:07:23"
+            ],
+            "++registered": [
+                "2012-09-14 02:49:54",
+                "2009-04-02 11:07:23"
+            ],
+            "tech-c": "DN2604-RIPE",
+            "phone": "+7  7262 575821",
+            "inetnum": "95.58.255.248 - 95.58.255.255",
+            "person": "Devyatih Nicolai",
+            "route": "95.58.224.0\/19",
+            "++registrant": [
+                "DN2604-RIPE",
+                "Devyatih Nicolai"
+            ],
+            "nic-hdl": "DN2604-RIPE"
+        },
+        "geo": {
+            "country": "Kazakhstan",
+            "countrycode": "KZ",
+            "asn": "AS9198",
+            "org": "JSC Kazakhtelecom",
+            "city": "Kokshetau",
+            "region": "Aqmola Oblysy",
+            "lat": "53.2852",
+            "long": "69.3922"
+        },
+        "http": {
+            "x-frame-options": "SAMEORIGIN",
+            "vary": "Accept-Encoding",
+            "pragma": "no-cache",
+            "connection": "Keep-Alive",
+            "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "content-encoding": "gzip",
+            "server": "Apache\/2.4.29 (Ubuntu)",
+            "keep-alive": "timeout=5, max=97",
+            "content-length": "4192",
+            "++code": "200",
+            "++status": "OK",
+            "content-type": "text\/html; charset=utf-8",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "++target": "http:\/\/95.58.255.251\/",
+            "++redirect": "https:\/\/95.58.255.251\/admin\/config.php",
+            "date": "Tue, 22 Oct 2024 05:55:12 GMT",
+            "last-modified": "Tue, 22 Oct 2024 05:55:12 GMT",
+            "set-cookie": "PHPSESSID=jdvsdodpql9chojophhnssirp0; expires=Thu, 21-Nov-2024 05:55:12 GMT; Max-Age=2592000; path=\/\nlang=ru_RU"
+        },
+        "meta": {
+            "robots": "noindex",
+            "referrer": "always",
+            "viewport": "width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1",
+            "++title": "\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 FreePBX",
+            "apple-mobile-web-app-capable": "yes",
+            "content-type": "text\/html;charset=utf-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "subject": "\/CN=pbx.fan.kz",
+            "fingerprint": "17b69fbf3fdeaec35c89cb5b7da641a37f62cc151d71166b88143169f39d4bfa",
+            "domain": "pbx.fan.kz",
+            "valid": "2024-09-02 18:04:52",
+            "expires": "2024-12-01 18:04:51"
+        },
+        "cookies": {
+            "lang": "ru_RU",
+            "phpsessid": "jdvsdodpql9chojophhnssirp0"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7\n",
+            "25": "220 aster.fan.local ESMTP Postfix (Ubuntu)\n"
+        },
+        "dns": {
+            "ptr": "95.58.255.251.static.telecom.kz"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/952b2ba17f0219edc2bbe16b211fec05.jpeg"
+        }
+    }
+}

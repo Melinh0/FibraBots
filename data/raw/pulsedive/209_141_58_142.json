@@ -1,0 +1,193 @@
+{
+    "qid": null,
+    "iid": 54281169,
+    "indicator": "209.141.58.142",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-15 16:16:27",
+    "stamp_updated": "2024-12-11 02:29:22",
+    "stamp_seen": "2024-12-09 00:00:00",
+    "stamp_probed": "2024-09-16 10:49:01",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 54281326,
+                "indicator": "https:\/\/209.141.58.142\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-06-06 20:07:43"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-15 16:16:27"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-06-06 20:07:44"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-15 23:58:34"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "SSH"
+        ],
+        "technology": [
+            "Let's Encrypt",
+            "Nginx",
+            "PeerTube"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "country": "US",
+            "updated": [
+                "2017-01-28",
+                "2012-03-25"
+            ],
+            "nettype": "Direct Allocation",
+            "++abuse": "admin@frantech.ca",
+            "++email": "admin@frantech.ca",
+            "++phone": "+1-778-977-8246",
+            "++registrant": "FranTech Solutions",
+            "address": "1621 Central Ave",
+            "city": "Cheyenne",
+            "orgabuseemail": "admin@frantech.ca",
+            "orgabusehandle": "FDI19-ARIN",
+            "orgabusename": "Dias, Francisco",
+            "orgabusephone": "+1-778-977-8246",
+            "organization": "FranTech Solutions (SYNDI-5)",
+            "orgid": "SYNDI-5",
+            "orgname": "FranTech Solutions",
+            "orgtechemail": "admin@frantech.ca",
+            "orgtechhandle": "FDI19-ARIN",
+            "orgtechname": "Dias, Francisco",
+            "orgtechphone": "+1-778-977-8246",
+            "originas": "AS53667",
+            "postalcode": "82001",
+            "regdate": [
+                "2010-07-21",
+                "2011-01-27"
+            ],
+            "stateprov": "WY",
+            "++registered": [
+                "2011-01-27 00:00:00",
+                "2010-07-21 00:00:00"
+            ],
+            "++updated": "2017-01-28 00:00:00",
+            "parent": "NET209 (NET-209-0-0-0-0)",
+            "cidr": "209.141.32.0\/19",
+            "nethandle": "NET-209-141-32-0-1",
+            "netname": "PONYNET-04",
+            "netrange": "209.141.32.0 - 209.141.63.255",
+            "orgtechref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN",
+            "ref": [
+                "https:\/\/rdap.arin.net\/registry\/ip\/209.141.32.0",
+                "https:\/\/rdap.arin.net\/registry\/entity\/SYNDI-5"
+            ],
+            "orgabuseref": "https:\/\/rdap.arin.net\/registry\/entity\/FDI19-ARIN"
+        },
+        "geo": {
+            "country": "United States",
+            "countrycode": "US",
+            "city": [
+                "Las Vegas",
+                "Cheyenne"
+            ],
+            "region": [
+                "Nevada",
+                "WY"
+            ],
+            "asn": "AS53667",
+            "zip": "82001",
+            "address": "1621 Central Ave",
+            "org": [
+                "FranTech Solutions (SYNDI-5)",
+                "PONYNET"
+            ],
+            "lat": "36.102",
+            "long": "-115.1447"
+        },
+        "http": {
+            "content-type": "text\/html",
+            "content-length": "575",
+            "server": "nginx\/1.14.2",
+            "++code": "502",
+            "++content-type": "text\/html",
+            "++target": "http:\/\/209.141.58.142\/",
+            "++redirect": "https:\/\/209.141.58.142\/",
+            "date": "Sat, 12 Oct 2024 08:59:16 GMT"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "R3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R3",
+            "subject": "\/CN=videos.drewredifer.com",
+            "domain": "videos.drewredifer.com",
+            "valid": "2024-05-02 01:22:31",
+            "expires": "2024-07-31 01:22:30",
+            "fingerprint": "5d57be19f7102231eb787a6f8cea2621a14957839901b7fceeff7cb98eac298c"
+        },
+        "meta": {
+            "++title": "502 Bad Gateway"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2\n"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/dd2fcc481ce67a1399d5e69743b8f36b.jpeg"
+        }
+    }
+}

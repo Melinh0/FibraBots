@@ -1,0 +1,242 @@
+{
+    "qid": null,
+    "iid": 51609853,
+    "indicator": "113.164.234.27",
+    "type": "ip",
+    "risk": "none",
+    "risk_recommended": "none",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-09-26 20:25:39",
+    "stamp_updated": "2024-11-19 23:27:00",
+    "stamp_seen": "2024-11-19 23:27:00",
+    "stamp_probed": "2024-09-29 23:34:23",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 50,
+            "description": "hosted on common ISP",
+            "risk": "none"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 51609909,
+                "indicator": "http:\/\/113.164.234.27\/"
+            },
+            {
+                "iid": 64115146,
+                "indicator": "https:\/\/113.164.234.27\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-09-26 20:25:39"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2024-07-21 05:48:51"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "25",
+            "3306",
+            "443",
+            "465",
+            "80"
+        ],
+        "protocol": [
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SMTP",
+            "SMTPS",
+            "SSH"
+        ],
+        "technology": [
+            "1C-Bitrix",
+            "ExtJS",
+            "Font Awesome",
+            "Nginx",
+            "PHP",
+            "Sectigo"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "countrycode": "VN",
+            "asn": "AS45899",
+            "org": "VNPT Corp",
+            "country": "Vietnam",
+            "address": [
+                "Ha Noi, VietNam",
+                "VNPT-VN"
+            ],
+            "long": "105.7309",
+            "lat": "9.2887",
+            "region": "B\u1ea1c Li\u00eau Province",
+            "city": "B\u1ea1c Li\u00eau"
+        },
+        "whois": {
+            "country": "VN",
+            "irt": "IRT-VNNIC-AP",
+            "mnt-by": [
+                "MAINT-VN-VNNIC",
+                "MAINT-VN-VNPT"
+            ],
+            "mnt-irt": "IRT-VNNIC-AP",
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "tech-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "notify": "hm-changed@vnnic.net.vn",
+            "e-mail": [
+                "huypt@vnpt.vn",
+                "hm-changed@vnnic.vn"
+            ],
+            "mnt-lower": "MAINT-VN-VNPT",
+            "mnt-routes": "MAINT-VN-VNPT",
+            "descr": [
+                "VNPT-AS-AP",
+                "VietNam Post and Telecom Corporation (VNPT)",
+                "No 57, Huynh Thuc Khang Street, Lang Ha ward, Dong Da district, Ha Noi City",
+                "Vietnam Posts and Telecommunications Group"
+            ],
+            "origin": "AS45899",
+            "netname": "VNPT-VN",
+            "++phone": [
+                "+84-24-35564944",
+                "+84-24-37741604"
+            ],
+            "abuse-mailbox": "hm-changed@vnnic.vn",
+            "fax-no": "+84-24-37821462",
+            "admin-c": [
+                "NTTT1-AP",
+                "PTH13-AP"
+            ],
+            "last-modified": [
+                "2010-08-10T08:20:03Z",
+                "2017-11-19T07:06:20Z",
+                "2017-11-08T09:40:06Z",
+                "2018-01-25T03:55:17Z"
+            ],
+            "route": "113.164.224.0\/19",
+            "address": [
+                "VNPT-VN",
+                "Ha Noi, VietNam"
+            ],
+            "nic-hdl": "PTH13-AP",
+            "person": "Pham Tien Huy",
+            "phone": [
+                "+84-24-37741604",
+                "+84-24-35564944"
+            ],
+            "inetnum": "113.160.0.0 - 113.191.255.255",
+            "++abuse": "hm-changed@vnnic.vn",
+            "++registrant": [
+                "PTH13-AP",
+                "NTTT1-AP",
+                "Pham Tien Huy"
+            ],
+            "++email": [
+                "hm-changed@vnnic.vn",
+                "huypt@vnpt.vn"
+            ],
+            "auth": "# Filtered",
+            "++updated": [
+                "2017-11-08 09:40:06",
+                "2018-01-25 03:55:17",
+                "2017-11-19 07:06:20",
+                "2010-08-10 08:20:03"
+            ]
+        },
+        "http": {
+            "content-type": "text\/html; charset=UTF-8",
+            "x-frame-options": "SAMEORIGIN",
+            "server": "nginx\/1.12.2",
+            "pragma": "no-cache",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-encoding": "gzip",
+            "p3p": "policyref=\"\/bitrix\/p3p.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\"",
+            "vary": "HTTPS",
+            "x-bitrix-ajax-status": "Authorize",
+            "x-devsrv-cms": "Bitrix",
+            "x-powered-by": "PHP\/7.0.30",
+            "++code": "200",
+            "++content-type": "text\/html",
+            "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+            "x-powered-cms": "Bitrix Site Manager (c70cefc53714c2bd456b654ee9aabc15)",
+            "++target": "http:\/\/113.164.234.27\/",
+            "++redirect": "https:\/\/113.164.234.27\/",
+            "date": "Sat, 12 Oct 2024 12:42:17 GMT",
+            "set-cookie": "PHPSESSID=60aft2ehiqoj1cgb3r8p1suv54; path=\/; HttpOnly"
+        },
+        "dns": {
+            "ptr": "static.vnpt.vn"
+        },
+        "meta": {
+            "x-ua-compatible": "IE=edge",
+            "robots": "noindex, nofollow",
+            "++title": "Authorization",
+            "content-type": "text\/html; charset=UTF-8"
+        },
+        "ssl": {
+            "version": "v3",
+            "org": "Sectigo RSA Domain Validation Secure Server CA",
+            "issuer": "\/C=GB\/ST=Greater Manchester\/L=Salford\/O=Sectigo Limited\/CN=Sectigo RSA Domain Validation Secure Server CA",
+            "expires": "2024-11-08 23:59:59",
+            "valid": "2023-11-09 00:00:00",
+            "subject": "\/CN=*.vnptmedia.vn",
+            "fingerprint": "f0f1748338a1a5aa19d23ea8b891da36f8ede9d1f2a45106befeccbb5d738dd9",
+            "domain": [
+                "*.vnptmedia.vn",
+                "vnptmedia.vn"
+            ]
+        },
+        "cookies": {
+            "bitrix_sm_time_zone": "0",
+            "phpsessid": "60aft2ehiqoj1cgb3r8p1suv54"
+        },
+        "banners": {
+            "465": "\u0005\u0004\u0000\u0000",
+            "25": "220 ipcc-app-02 ESMTP Exim 4.90_1 Sat, 12 Oct 2024 19:42:16 +0700\n",
+            "3306": "M\u0000\u0000\u0000\n5.7.21-21\u0000^\u0018\u0007\u0000{V&U4\fR\u0011\u0000\ufffd\ufffd\ufffd\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000k\/q~T\nlZST\u001cl\u0000mysql_native_password\u0000"
+        },
+        "dom": {
+            "screenshot": "https:\/\/sandbox.pulsedive.com\/screenshots\/143b5c97a26917ff1947da6b54587292.jpeg"
+        }
+    }
+}

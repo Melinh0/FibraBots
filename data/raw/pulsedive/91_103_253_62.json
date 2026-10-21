@@ -1,0 +1,190 @@
+{
+    "qid": null,
+    "iid": 54498248,
+    "indicator": "91.103.253.62",
+    "type": "ip",
+    "risk": "low",
+    "risk_recommended": "low",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2023-12-21 00:27:19",
+    "stamp_updated": "2024-12-10 10:43:07",
+    "stamp_seen": "2024-12-08 00:00:00",
+    "stamp_probed": "2024-09-30 20:40:56",
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        },
+        {
+            "rfid": 1,
+            "description": "returns PTR record",
+            "risk": "none"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 64132207,
+                "indicator": "https:\/\/91.103.253.62\/"
+            }
+        ]
+    },
+    "threats": [
+        {
+            "tid": 39,
+            "name": "SSH Brute Force",
+            "category": "general",
+            "risk": "low",
+            "stamp_linked": "2024-04-05 07:45:05"
+        }
+    ],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2023-12-21 00:27:19"
+        },
+        {
+            "fid": 20,
+            "name": "Dictionary SSH Attacks",
+            "category": "attack",
+            "organization": "Charles B. Haley",
+            "pricing": "free",
+            "stamp_linked": "2024-04-05 07:45:05"
+        },
+        {
+            "fid": 69,
+            "name": "Brute Force Hosts",
+            "category": "botnet",
+            "organization": "James Brine",
+            "pricing": null,
+            "stamp_linked": "2023-12-27 05:24:16"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "22",
+            "443"
+        ],
+        "protocol": [
+            "HTTPS",
+            "SSH"
+        ]
+    },
+    "properties": {
+        "geo": {
+            "country": [
+                "Netherlands",
+                "Switzerland"
+            ],
+            "countrycode": [
+                "NL",
+                "CH"
+            ],
+            "region": "Bern",
+            "city": "Bern",
+            "lat": "46.9786",
+            "long": "7.4483",
+            "asn": "AS210644",
+            "org": [
+                "ORG-AGL38-RIPE",
+                "Aeza International Ltd"
+            ],
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom"
+        },
+        "whois": {
+            "country": "NL",
+            "source": [
+                "RIPE",
+                "RIPE # Filtered"
+            ],
+            "status": "ASSIGNED PA",
+            "org-type": "OTHER",
+            "mnt-ref": [
+                "DN-MNT",
+                "aeza-mnt",
+                "VF1-MNT",
+                "WEBROCKET-MNT",
+                "renets-mnt"
+            ],
+            "mnt-by": "aeza-mnt",
+            "created": [
+                "2021-11-23T13:59:30Z",
+                "2021-10-13T17:49:21Z",
+                "2023-11-15T23:24:22Z",
+                "2023-11-15T23:24:54Z"
+            ],
+            "origin": "AS210644",
+            "abuse-c": "AA38875-RIPE",
+            "org": "ORG-AGL38-RIPE",
+            "organisation": "ORG-AGL38-RIPE",
+            "geofeed": "https:\/\/aeza.net\/static\/ipv4_f.csv",
+            "admin-c": "AN32681-RIPE",
+            "tech-c": "AN32681-RIPE",
+            "nic-hdl": "AN32681-RIPE",
+            "++registrant": "AN32681-RIPE",
+            "role": "Aeza International LTD",
+            "org-name": "Aeza International LTD",
+            "address": "311 Shoreham Street, Sheffield, S2 4FA, United Kingdom",
+            "last-modified": [
+                "2023-10-31T07:53:33Z",
+                "2023-11-18T14:30:35Z",
+                "2023-11-15T23:25:36Z",
+                "2024-08-23T16:18:21Z"
+            ],
+            "inetnum": "91.103.252.0 - 91.103.253.255",
+            "route": "91.103.252.0\/23",
+            "netname": "AEZA-NET",
+            "++updated": [
+                "2024-08-23 16:18:21",
+                "2023-10-31 07:53:33",
+                "2023-11-15 23:25:36"
+            ],
+            "++registered": [
+                "2021-11-23 13:59:30",
+                "2021-10-13 17:49:21",
+                "2023-11-15 23:24:22",
+                "2023-11-15 23:24:54"
+            ]
+        },
+        "http": {
+            "content-type": "text\/plain; charset=utf-8",
+            "++code": "421",
+            "++content-type": "text\/plain",
+            "content-length": "297",
+            "++target": "https:\/\/91.103.253.62\/",
+            "x-served-by": "cache-fra-etou8220117"
+        },
+        "ssl": {
+            "version": "v3",
+            "subject": "\/CN=n.sni-347-default.ssl.fastly.net",
+            "domain": "n.sni-347-default.ssl.fastly.net",
+            "issuer": "\/C=BE\/O=GlobalSign nv-sa\/CN=GlobalSign Atlas R3 DV TLS CA 2024 Q1",
+            "org": "GlobalSign Atlas R3 DV TLS CA 2024 Q1",
+            "expires": "2025-02-12 05:01:46",
+            "valid": "2024-01-12 05:01:47",
+            "fingerprint": "48eabf2ecb7a4b79e98c7aa4d858a0d349c46e3c852abf7007bfa981b1cbbb85"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        },
+        "dns": {
+            "ptr": "crazy-comparison.aeza.network"
+        },
+        "banners": {
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6\n"
+        }
+    }
+}

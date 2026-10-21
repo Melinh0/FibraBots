@@ -1,0 +1,176 @@
+{
+    "qid": null,
+    "iid": 65720628,
+    "indicator": "103.193.178.190",
+    "type": "ip",
+    "risk": "medium",
+    "risk_recommended": "medium",
+    "manualrisk": 0,
+    "retired": null,
+    "stamp_added": "2024-12-09 10:27:53",
+    "stamp_updated": "2024-12-10 10:32:32",
+    "stamp_seen": "2024-12-09 10:28:16",
+    "stamp_probed": null,
+    "stamp_retired": null,
+    "recent": 0,
+    "submissions": 0,
+    "umbrella_rank": null,
+    "umbrella_domain": null,
+    "riskfactors": [
+        {
+            "rfid": 60,
+            "description": "found in threat feeds",
+            "risk": "medium"
+        }
+    ],
+    "redirects": {
+        "from": [],
+        "to": [
+            {
+                "iid": 65720726,
+                "indicator": "https:\/\/103.193.178.190\/"
+            }
+        ]
+    },
+    "threats": [],
+    "feeds": [
+        {
+            "fid": 45,
+            "name": "Blocklist.de Blocklist",
+            "category": "abuse",
+            "organization": "Blocklist.de",
+            "pricing": "free",
+            "stamp_linked": "2024-12-09 10:27:53"
+        }
+    ],
+    "comments": [],
+    "attributes": {
+        "port": [
+            "21",
+            "22",
+            "3306",
+            "443",
+            "80"
+        ],
+        "protocol": [
+            "FTP",
+            "HTTP",
+            "HTTPS",
+            "MySQL",
+            "SSH"
+        ],
+        "technology": [
+            "HSTS",
+            "Let's Encrypt",
+            "Nginx"
+        ]
+    },
+    "properties": {
+        "whois": {
+            "source": "APNIC",
+            "status": "ALLOCATED PORTABLE",
+            "country": "ID",
+            "mnt-by": [
+                "MNT-APJII-ID",
+                "MAINT-ID-NCS"
+            ],
+            "descr": [
+                "Corporate \/ Direct Member IDNIC",
+                "PT Nara Cakra Studio",
+                "Kampung Bojonggenteng, RT 003, RW001, Bojong Genteng",
+                "Sukabumi, Jawa Barat, 43353",
+                "PT. NARA CAKRA STUDIO"
+            ],
+            "origin": "AS136052",
+            "e-mail": [
+                "management@naracakra.my.id",
+                "tech@naracakra.my.id"
+            ],
+            "person": "Gilang Yunandi",
+            "tech-c": "GY1577-AP",
+            "++registrant": [
+                "GY1577-AP",
+                "Gilang Yunandi"
+            ],
+            "++abuse": "abuse@naracakra.my.id",
+            "mnt-routes": "MAINT-ID-NCS",
+            "nic-hdl": "GY1577-AP",
+            "netname": "IDNIC-NCS-ID",
+            "address": [
+                "PT. NARA CAKRA STUDIO",
+                "Kampung Bojonggenteng, RT 003, RW001, Bojong Genteng",
+                "Sukabumi - Jawa Barat, 43353"
+            ],
+            "phone": "+6283819432043",
+            "irt": "IRT-NCS-ID",
+            "++phone": "+6283819432043",
+            "++email": [
+                "abuse@naracakra.my.id",
+                "management@naracakra.my.id",
+                "tech@naracakra.my.id"
+            ],
+            "abuse-mailbox": "abuse@naracakra.my.id",
+            "last-modified": [
+                "2023-05-11T08:21:43Z",
+                "2023-05-09T23:11:39Z",
+                "2023-05-09T23:05:00Z",
+                "2023-05-18T01:25:59Z"
+            ],
+            "mnt-irt": "IRT-NCS-ID",
+            "inetnum": "103.193.178.0 - 103.193.179.255",
+            "admin-c": "GY1577-AP",
+            "mnt-lower": "MAINT-ID-NCS",
+            "route": "103.193.178.0\/24",
+            "auth": "# Filtered",
+            "++updated": [
+                "2023-05-11 08:21:43",
+                "2023-05-09 23:11:39",
+                "2023-05-09 23:05:00",
+                "2023-05-18 01:25:59"
+            ]
+        },
+        "geo": {
+            "country": "Indonesia",
+            "countrycode": "ID",
+            "asn": "AS136052",
+            "org": "PT Cloud Hosting Indonesia",
+            "lat": "-6.1728",
+            "long": "106.8272",
+            "address": [
+                "PT. NARA CAKRA STUDIO",
+                "Kampung Bojonggenteng, RT 003, RW001, Bojong Genteng",
+                "Sukabumi - Jawa Barat, 43353"
+            ]
+        },
+        "http": {
+            "server": "nginx",
+            "access-control-allow-origin": "*",
+            "strict-transport-security": "max-age=31536000",
+            "content-length": "11",
+            "++code": "200",
+            "content-type": "text\/plain; charset=UTF-8",
+            "++content-type": "text\/plain",
+            "date": "Mon, 09 Dec 2024 10:28:01 GMT",
+            "++redirect": "https:\/\/103.193.178.190\/",
+            "++target": "http:\/\/103.193.178.190\/"
+        },
+        "ssl": {
+            "version": "v3",
+            "issuer": "\/C=US\/O=Let's Encrypt\/CN=R10",
+            "org": "R10",
+            "fingerprint": "f3a022c2690b72dacf6157448b596bcd86e7403a08214eb21550462b9ae5dab5",
+            "domain": "api-gps.rvdocs.tech",
+            "subject": "\/CN=api-gps.rvdocs.tech",
+            "valid": "2024-12-06 12:56:02",
+            "expires": "2025-03-06 12:56:01"
+        },
+        "banners": {
+            "21": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 10:27. Server port: 21.\n220-This is a private system - No anonymous login\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.\n",
+            "22": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10\n",
+            "3306": "N\u0000\u0000\u0000\n5.7.43-log\u0000z\u000f\u0000\u0000HgY\u0001Q\b\u0006\u0000\ufffd\ufffd-\u0002\u0000\ufffd\ufffd\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000F\u0011PC\u0010)j@;\u0004]I\u0000mysql_native_password\u0000"
+        },
+        "meta": {
+            "color-scheme": "light dark"
+        }
+    }
+}
